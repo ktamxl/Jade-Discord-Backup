@@ -1,0 +1,12 @@
+# Git ignore — exclude sensitive credentials and large binaries
+.rclone/service-account.json
+rclone
+*.zip
+*.pdf
+*.mp4
+*.m4a
+imgs/
+user_input_files/
+extract/
+node_modules/
+dist/
