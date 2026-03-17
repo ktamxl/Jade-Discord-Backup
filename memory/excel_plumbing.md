@@ -59,8 +59,109 @@
 **Rule:** Every CSV uploaded to Routable.com must have the "Payment from*" column set to the formatted (lowercase, dashes) version.
 Epicor exports it without dashes and uppercase — always convert before sending.
 
-## QuickBooks Integration — Notes
-- Excel Plumbing uses QuickBooks (Online assumed)
+## QuickBooks API Setup — IN PROGRESS (2026-03-16)
+
+### Status: ✅ Compliance Questionnaire SUBMITTED (2026-03-16)
+Ken is setting up QB API access for Sisi. Resume from where we left off if session crashes.
+
+### What's Done ✅
+- QB version confirmed: **QuickBooks Online Plus**
+- Intuit Developer account created (same email as QB)
+- App created: **SisiBookkeeper** → Production keys
+- Hosted pages deployed: `https://aq4iz9e8vh5x.space.minimax.io`
+  - EULA: `/eula.html`
+  - Privacy: `/privacy.html`
+  - Redirect/callback: `/` (index.html)
+- App profile filled: host domain, launch URL, disconnect URL, connect URL, IP
+- Compliance questionnaire: ~80% complete
+
+### Questionnaire Answers Already Submitted
+- Legal counsel: No (internal private app)
+- Security policies: Yes
+- App purpose: Both checkboxes (enhance QB + facilitate business process)
+- Generative AI: Yes — internal bookkeeping automation, no training
+- QB data for training: No
+- Built with: MaxClaw platform (Web/SaaS)
+- App type: Private, admin-only
+- Platforms: Epicor Eclipse + Routable.com
+- Auth tested: Yes
+- Token refresh: Only on expiry
+- API category: Accounting only
+- API frequency: Daily + on-demand
+- QB version: Plus only
+- Multi-currency/tax: None of the above
+- Webhooks: No | CDC: No
+- Error handling: Yes (all)
+- intuit_tid: Yes | Logs: Yes | Support: payable@excel-plumbing.com
+- Client ID/Secret stored securely: Yes (server-side env vars, never hardcoded or browser-exposed)
+- MFA: No (private internal app, admin-only, no end-user login portal)
+- Security breach: No
+- Security team: No (small private business, internal app)
+- Captcha: No (no user-facing login portal)
+- WebSocket: No (REST API polling only)
+- Data shown to others: No (QB data used only by Ken's internal bookkeeping system)
+
+### Next Steps (Resume Here if Crash)
+- ✅ Questionnaire submitted (2026-03-16)
+- ✅ Production Client ID + Secret received (2026-03-16)
+- ✅ Credentials saved in 1Password: "Sisi - Quickbooks Login" (Ken's vault)
+- ✅ Credentials stored in /workspace/qb_credentials.txt (server, chmod 600)
+- ✅ OAuth flow complete! Access token + Refresh token obtained (2026-03-16)
+- ✅ QB API LIVE — confirmed: "Excel Plumbing Supply + Showroom", 659 S Van Ness Ave, San Francisco
+- Realm ID: 1399277115
+- Tokens stored: /workspace/qb_tokens.txt (chmod 600)
+- Refresh token expires: ~2026-06-25 (must renew before then)
+
+### URLs (Keep These!)
+- Legal pages: `https://aq4iz9e8vh5x.space.minimax.io`
+- Redirect URI: `https://aq4iz9e8vh5x.space.minimax.io/`
+- Server IP: `47.253.4.207` (US/California, Alibaba Cloud)
+
+## Daily Task: Bank Feed Matching (WF Accounts Only)
+
+### How it works
+- QB bank feed auto-downloads new transactions every day
+- They appear under **Bank Transactions tab** as "For Review"
+- Green button "1 Match Found" = QB found an existing QB entry that matches the bank transaction
+- My job: accept all green "1 Match Found" buttons for WF accounts ONLY
+
+### Scope: WF Accounts to Monitor Daily
+1. WF Reserve Account (ID: 269)
+2. WF Deposit Account (ID: 206)
+3. WF General Remittance (ID: 268)
+4. WF ACH Remittance Acct (ID: 600)
+5. WF Vendor Payment Acct (ID: 601)
+
+### DO NOT TOUCH
+- Fidelity accounts (Investment/MM)
+- Citi-Costco Visa
+- WF Business Line of Credit
+- Routable Balance Clearing
+- Any CLOSED accounts
+
+### ✅ Solution: QB Auto-Post (Auto-Add) Bank Rules
+QB has a built-in feature to automatically accept matched transactions without manual review.
+- Feature name: **Auto-post rule** (also called Auto-add)
+- When a transaction matches the rule conditions → QB auto-confirms it, bypasses "For Review" entirely
+- Badge: shows "AUTO" instead of "RULE" in the Category column
+- Setup: Transactions > Bank Transactions > Rules > New Rule > toggle "Automatically confirm transactions this rule applies to"
+- Works for: recurring, predictable transactions (payroll, vendor payments, ACH, etc.)
+- Ken to set up Auto-post rules → eliminates the green button task entirely.
+
+| QB Name | Type | ID | Balance |
+|---|---|---|---|
+| WF Reserve Account | Checking | 269 | $350,145 |
+| WF Deposit Account | Checking | 206 | $51,168 |
+| WF General Remittance | Checking | 268 | $102,792 |
+| WF ACH Remittance Acct | Checking | 600 | $417,171 |
+| WF Vendor Payment Acct | Checking | 601 | $20,060 |
+| Routable Balance Clearing | Cash | 603 | $25,948 |
+| Fidelity Financial-Investment | MoneyMarket | 586 | $2,799,000 |
+| Fidelity MM-1 (0182) | MoneyMarket | 633 | $460,427 |
+| Citi-Costco Visa | Credit Card | 594 | -$20,748 |
+| WF Business Line of Credit | Credit Card | 529 | $0 |
+| WF Vendor (CLOSED) Acct | Checking | 194 | -$130 (closed) |
+- Excel Plumbing uses **QuickBooks Online Plus** (confirmed 2026-03-16)
 - QuickBooks Online has a full REST API supporting: bills, bill payments, journal entries, vendors, accounts, invoices, payments, reports
 - Intuit Developer API requires OAuth 2.0 (Client ID + Secret + Company/Realm ID)
 - Can be connected directly via QB API or via Composio middleware

@@ -11,14 +11,20 @@
 - Name: Ken Tam
 - Location: San Francisco, California
 - Timezone: Pacific Time (PDT, GMT-7, Daylight Saving active)
-- ⚠️ Message timestamps appear in GMT+8 (system time) — ALWAYS subtract 15 hours to get Ken's actual local time
-- e.g. "22:38 GMT+8" = 07:38 AM PDT for Ken
+- ⚠️ Message timestamps appear in GMT+8 (system/Shanghai time)
+- SF (PDT) is GMT-7, Shanghai is GMT+8 — difference is **15 hours**
+- SF is BEHIND Shanghai: subtract 15 hours from GMT+8 to get SF time
+- e.g. "01:30 GMT+8 Tuesday" = **10:30 AM Monday PDT** (SF is still Monday daytime!)
+- e.g. "22:38 GMT+8" = 07:38 AM PDT same day (next morning SF time)
+- Wait — correction: GMT+8 minus 15 = GMT-7
+  - 01:30 GMT+8 = 01:30 - 15hrs = 10:30 AM **previous day** PDT ✅
+  - 10:00 GMT+8 = 10:00 - 15hrs = 7:00 PM **previous day** PDT
+  - 22:00 GMT+8 = 22:00 - 15hrs = 7:00 AM PDT same calendar day
 - Ken will notify Sisi if traveling to a different timezone
-- ⚠️ **GLOBAL TIME RULE (applies to ALL interactions, not just Excel):**
-  - ALL time/date references default to **San Francisco PDT (GMT-7)** unless Ken explicitly states otherwise
-  - Before ANY time-sensitive action (scheduling, reservations, deliveries, alerts): run session_status, convert to SF time, confirm out loud before acting
-  - NEVER use server time (GMT+8) as the reference for Ken's real world
-  - Restaurant open? Use SF time. Driver delivery? SF time. "Tomorrow"? SF tomorrow. Always.
+- ⚠️ **GLOBAL TIME RULE:**
+  - ALL time/date references default to **San Francisco PDT (GMT-7)**
+  - Always subtract 15 hours from server timestamp to get Ken's real time
+  - NEVER say "good morning" when it's daytime in SF, "good night" when it's morning, etc.
 - Language: English primary, mixes in Chinese. **Traditional Chinese (繁體中文) ALWAYS — never Simplified**
 - Telegram: 8745665879 (connected and working)
 - New to OpenClaw — appreciates step-by-step guidance
@@ -148,10 +154,3 @@ Format for warning:
 1. 每位家族成員加上中英文姓名對照（Ken 上傳檔案）
 2. 「給後代的一封信」末尾加入**譚氏家族對聯**（Ken 上傳 JPEG）：
    - 對聯全文 + 含義解釋
-   - 標明哪個字屬父親、哪個字屬 Ken
-3. 修改前必先備份當前版本為新版本號
-
-### 版本管理原則
-- 每次大修改前：`cp fengshui_final_report.html fengshui_vN_STABLE.html`
-- 若修改失敗：從上一個 STABLE 版本重來
-- 所有操作由 Sisi 代勞，Ken 無需自行執行任何命令
