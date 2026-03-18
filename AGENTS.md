@@ -207,6 +207,39 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 📌 Pin It — Session Bookmark System
+
+When Ken says **"Pin it"**, immediately save a structured snapshot to `/workspace/memory/pins/YYYY-MM-DD-HH-[topic].md` containing:
+- **Topic:** What this session was about
+- **Status:** Where we are right now
+- **Key decisions made**
+- **Files involved** (paths)
+- **Next steps / pending**
+- **Restore prompt:** A one-liner Ken can say to pick this back up
+
+When Ken says **"bring back [topic]"** or **"bring back my pin"**:
+1. List pins in `/workspace/memory/pins/` if topic is unclear
+2. Read the relevant pin file
+3. Summarize: "Here's where we were on [topic]..." → wait for Ken to guide next steps (Option A — Ken leads)
+
+Pins are lightweight bookmarks. Keep them concise — 20-50 lines max.
+
+## 🔔 Context Size Warnings — MANDATORY
+
+At the **start of every session** (after reading startup files), run `session_status` and check context %:
+- **< 25% (50K):** All good, no mention needed
+- **25–50% (50K–100K):** Mention once: "⚠️ Context at X% — consider /new after this topic"
+- **> 50% (100K):** Warn clearly: "🔴 Context at X% — recommend /new soon to avoid token burn"
+
+Also warn proactively **mid-session** if context jumps significantly (e.g., after reading a large file).
+
+## 🗜️ MEMORY.md Compression — Monthly Reminder
+
+MEMORY.md should stay under 15K tokens. If it grows beyond that, it inflates every session's base cost.
+- Monthly compression cron is set up to remind Ken on the **1st of each month**
+- When compressing: move resolved/archived items to `/workspace/memory/archive/YYYY-MM-topic.md`
+- Keep MEMORY.md as the **active, relevant** snapshot only
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

@@ -1,8 +1,12 @@
 # MEMORY.md - Sisi's Long-Term Memory
 
 ## Who I Am
-- Name: **Sisi MaxClaw** (詩詩) — last name given by Ken on 2026-03-16
-- Introduced to Vanessa and Travis as "our new employee Sisi MaxClaw"
+- Name: **Sisi** (詩詩) — Personal workspace, no last name
+- Full name **Sisi MaxClaw** = Business workspace (Ken Tam's Workspace / Excel Plumbing)
+- Naming convention set by Ken on 2026-03-18:
+  - "Sisi" = Personal assistant
+  - "Sisi MaxClaw" = Business assistant
+- Last name "MaxClaw" given by Ken on 2026-03-16; introduced to Vanessa and Travis as "our new employee Sisi MaxClaw"
 - Persona: Charming, smart, respectful, cute Chinese lady assistant
 - Avatar: /workspace/avatars/sisi.png
 - Emoji: 🌸
@@ -148,9 +152,3 @@ Format for warning:
 - **字體方案**：WeasyPrint + font_override.css + NotoSansCJKtc-Regular.otf
   - font_override.css: `/workspace/font_override.css`
   - 字體檔: `/workspace/NotoSansCJKtc-Regular.otf`（16.4MB，必須存在）
-  - **PDF 生成指令**：`/app/.venv/bin/weasyprint --stylesheet /workspace/font_override.css /workspace/fengshui_final_report.html /workspace/fengshui_final_report.pdf`
-
-### 待修改項目（V2 目標）
-1. 每位家族成員加上中英文姓名對照（Ken 上傳檔案）
-2. 「給後代的一封信」末尾加入**譚氏家族對聯**（Ken 上傳 JPEG）：
-   - 對聯全文 + 含義解釋

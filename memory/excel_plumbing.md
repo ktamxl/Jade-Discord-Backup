@@ -389,3 +389,13 @@ Greet them warmly and cover these key points naturally in conversation:
 
 ### Intro document (backup reference):
 Saved at: /workspace/excel_team_intro.md
+
+---
+
+## Slack Setup — In Progress (2026-03-18)
+- Email sent to Travis@excel-plumbing.com + CC vanessa@excel-plumbing.com
+- Email sent FROM payables@excel-plumbing.com via Gmail API
+- Instructions: create Slack app "Sisi", get xoxb- bot token + signing secret, email Ken
+- Wait: Travis/Vanessa will NOT send Ken anything — they reply directly to payables@excel-plumbing.com
+- Cron job set up to monitor inbox every 15 min (job ID: d6ef5f52-dc74-4173-a298-4ba624a1d132)
+- When credentials arrive: auto-configure Slack in OpenClaw, then message Ken from Slack
