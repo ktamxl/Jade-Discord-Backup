@@ -239,3 +239,25 @@ After 鄺師傅's reading, Ken told Vanessa:
 - Travis's current plan: basketball, baseball, swimming, Jujitsu for Coleton (very packed)
 - Ken does NOT see Coleton as an athlete — suspects Travis is projecting his own unfulfilled dreams
 - Ken asked Sisi: what will Coleton flourish in? (answered in detail — see report update)
+
+---
+
+## 李麗欣 Sophia Li — Preston的女友（2026-03-22確立）
+
+- **姓名：** 李麗欣 Sophia Li
+- **出生：** 1996年2月7日，凌晨4:03 AM，舊金山（PST，UTC-8）
+- **時辰：** 寅時（凌晨3至5時）
+- **年柱：** 丙子（生於立春Feb 4後，故入丙子年）
+- **月柱：** 庚寅（寅月，甲己起甲→庚寅）
+- **日柱：** 甲戌（以Preston乙亥|己丑|戊申 Jan 12為基準，+26天，master系統）
+- **時柱：** 丙寅（甲日寅時→丙寅）
+- **完整八字：** 丙庚甲丙 ／ 子寅戌寅
+- **日主：** 甲木（陽木，參天大樹）
+- **格局：** 食神制殺格
+- **用神：** 丙火（食神）；壬癸水（正印）
+- **忌神：** 庚金（七殺）；戊己土（耗木）
+- **特別結構：** 雙寅（月支+時支）+ 雙丙（年干+時干）= 罕見雙重對稱
+- **報告位置：**
+  - 英文版：`/workspace/sophia_bazi_en.html`
+  - 簡體中文版：`/workspace/sophia_bazi_zh.html`
+- **注：** 使用簡體中文（Ken指定，因為Sophia為普通話/大陸背景）
