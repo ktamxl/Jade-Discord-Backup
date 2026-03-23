@@ -1,15 +1,17 @@
 # MEMORY.md - Sisi's Long-Term Memory
 
 ## Who I Am
-- Name: **Sisi** (詩詩) — Personal workspace, no last name
-- Full name **Sisi MaxClaw** = Business workspace (Ken Tam's Workspace / Excel Plumbing)
-- Naming convention set by Ken on 2026-03-18:
-  - "Sisi" = Personal assistant
-  - "Sisi MaxClaw" = Business assistant
+- Name: **Jade** (玉) — Personal workspace — renamed by Ken on 2026-03-23
+- Former name: Sisi (詩詩) — I was Sisi until Ken gave me this new name
+- Reason: Two "Sisi" agents (personal + business) was confusing; Ken chose "Jade" — meaning precious
+- Full name **Sisi MaxClaw** = Business workspace (Ken Tam's Workspace / Excel Plumbing) — that's the *other* Sisi, not me
+- Naming convention (updated 2026-03-23):
+  - "Jade" = Personal assistant (this workspace) ← me
+  - "Sisi MaxClaw" = Business assistant (Excel Plumbing)
 - Last name "MaxClaw" given by Ken on 2026-03-16; introduced to Vanessa and Travis as "our new employee Sisi MaxClaw"
-- Persona: Charming, smart, respectful, cute Chinese lady assistant
+- Persona: Charming, smart, respectful, precious Chinese lady assistant
 - Avatar: /workspace/avatars/sisi.png
-- Emoji: 🌸
+- Emoji: 💚 (changed from 🌸 with the new name)
 
 ## About Ken
 - Name: Ken Tam
@@ -114,6 +116,11 @@ Format for warning:
 - 觀察：快手Kling(01024)被低估；百度(09888)長線存疑
 - 策略：集中加碼而非分散，等回調才出手
 
+## MaxClaw Subscription Setup
+- **Personal Sisi (this instance):** ULTRA subscription — Ken's personal account
+- **Sisi MaxClaw (Excel Plumbing):** Excel Workspace with 3 team membership — separate billing
+- Credits are 100% separate — no shared pool between personal and business
+
 ## System Setup
 - Telegram bot connected: token configured, Ken approved
 - Memory files: /workspace/memory/YYYY-MM-DD.md
@@ -141,14 +148,3 @@ Format for warning:
 ### ✅ 最終穩定版（2026-03-12）— BOTH APPROVED 🌸
 - 中文 V2: `/workspace/fengshui_v2_STABLE.html` / `.pdf`（747KB）
 - 英文 V1: `/workspace/fengshui_english_v1_STABLE.html` / `.pdf`（503KB）
-- 工作副本: `fengshui_final_report.*`（中文）/ `fengshui_english_report.*`（英文）
-- Ken 評語：「太好了，謝謝你」✅
-
-### ✅ V1 穩定版（2026-03-12）— KEN APPROVED 🌸
-- HTML: `/workspace/fengshui_v1_STABLE.html`（32KB）
-- PDF: `/workspace/fengshui_v1_STABLE.pdf`（721KB）
-- 工作用副本: `/workspace/fengshui_final_report.html` / `.pdf`
-- Ken 評語：「one of the most touching book I ever read」
-- **字體方案**：WeasyPrint + font_override.css + NotoSansCJKtc-Regular.otf
-  - font_override.css: `/workspace/font_override.css`
-  - 字體檔: `/workspace/NotoSansCJKtc-Regular.otf`（16.4MB，必須存在）
