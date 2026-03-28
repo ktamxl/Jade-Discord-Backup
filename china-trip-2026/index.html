@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tam Family China Adventure 2026</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a2e; --soft: #f5f2ec; --white: #ffffff;
+    --gold: #c9a84c; --gold-lt: #f0d98a;
+    --sh-dark: #0d3d4f; --sh-mid: #1a6880; --sh-lt: #e8f4f8;
+    --sz-dark: #7b2d00; --sz-mid: #c04a0c; --sz-lt: #fdf0e8;
+    --hk-dark: #3b1f5e; --hk-mid: #6b3fa0; --hk-lt: #f3eeff;
+    --radius: 12px; --shadow: 0 4px 20px rgba(0,0,0,.12);
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--soft); color: var(--ink); line-height: 1.7; }
+
+  /* ── HERO ── */
+  .hero { background: linear-gradient(160deg,#0d2137 0%,#1a3a52 50%,#0d3d4f 100%); color:#fff; text-align:center; padding:72px 24px 56px; }
+  .hero-badge { display:inline-block; border:1px solid var(--gold); color:var(--gold-lt); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; padding:4px 18px; border-radius:20px; margin-bottom:20px; }
+  .hero h1 { font-size:clamp(1.8rem,5vw,3rem); font-weight:normal; letter-spacing:.02em; margin-bottom:12px; line-height:1.25; }
+  .hero h1 em { color:var(--gold-lt); font-style:normal; }
+  .hero-sub { font-size:1.05rem; opacity:.8; margin-bottom:32px; }
+  .hero-dates { display:flex; justify-content:center; gap:32px; flex-wrap:wrap; margin-bottom:32px; }
+  .hero-date-item { text-align:center; }
+  .hero-date-item .label { font-family:sans-serif; font-size:.72rem; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); display:block; margin-bottom:4px; }
+  .hero-date-item .value { font-size:1.05rem; color:#fff; }
+  .hero-cities { display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
+  .city-pill { padding:6px 20px; border-radius:20px; font-size:.88rem; font-family:sans-serif; }
+  .city-pill.sh { background:var(--sh-mid); color:#fff; }
+  .city-pill.sz { background:var(--sz-mid); color:#fff; }
+  .city-pill.hk { background:var(--hk-mid); color:#fff; }
+
+  /* ── STICKY NAV ── */
+  .sticky-nav { position:sticky; top:0; z-index:100; background:var(--ink); display:flex; justify-content:center; overflow-x:auto; scrollbar-width:none; }
+  .sticky-nav::-webkit-scrollbar { display:none; }
+  .sticky-nav a { color:rgba(255,255,255,.7); text-decoration:none; font-family:sans-serif; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; padding:13px 18px; white-space:nowrap; border-bottom:2px solid transparent; transition:all .2s; }
+  .sticky-nav a:hover { color:var(--gold); }
+
+  /* ── FAMILY SECTION ── */
+  .dark-section { background:var(--ink); color:#fff; padding:48px 24px; }
+  .dark-section h2 { text-align:center; font-weight:normal; font-size:1.6rem; color:var(--gold-lt); margin-bottom:8px; }
+  .section-sub { text-align:center; opacity:.6; margin-bottom:32px; font-size:.9rem; font-family:sans-serif; }
+  .family-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; max-width:900px; margin:0 auto; }
+  .family-card { background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12); border-radius:var(--radius); padding:20px; text-align:center; }
+  .family-card .emoji { font-size:2rem; margin-bottom:8px; display:block; }
+  .family-card .f-name { font-size:1rem; margin-bottom:6px; }
+  .family-card .f-detail { font-family:sans-serif; font-size:.78rem; opacity:.65; line-height:1.5; }
+
+  /* ── HOTEL CALLOUT ── */
+  .hotel-callout { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin:28px auto 0; max-width:900px; overflow:hidden; display:grid; grid-template-columns:200px 1fr; }
+  .hotel-callout img { width:200px; height:100%; min-height:160px; object-fit:cover; display:block; }
+  .hotel-callout-body { padding:20px 24px; }
+  .hotel-callout-eyebrow { font-family:sans-serif; font-size:.65rem; letter-spacing:.15em; text-transform:uppercase; color:var(--sh-mid); margin-bottom:4px; }
+  .hotel-callout h3 { font-size:1.05rem; font-weight:normal; margin-bottom:4px; color:var(--ink); }
+  .hotel-callout p { font-size:.82rem; opacity:.65; font-style:italic; margin-bottom:8px; }
+  .hotel-callout .tag-row { display:flex; flex-wrap:wrap; gap:6px; }
+  .hotel-callout .tag { display:inline-block; font-size:.62rem; padding:2px 7px; border-radius:3px; font-family:sans-serif; background:#f5f2ec; color:#555; }
+  .hotel-callout a.hotel-link { display:inline-block; margin-top:10px; font-family:sans-serif; font-size:.75rem; color:var(--sh-mid); text-decoration:underline; }
+
+  /* ── FLIGHTS ── */
+  .flights-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; max-width:920px; margin:0 auto; }
+  .flight-card { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1); border-radius:var(--radius); padding:20px 22px; }
+  .flight-card .airline { font-family:sans-serif; font-size:.7rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); margin-bottom:10px; }
+  .flight-route { display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+  .flight-route .airport { font-size:1.6rem; font-weight:bold; font-family:sans-serif; letter-spacing:.05em; }
+  .flight-route .arrow { flex:1; text-align:center; opacity:.4; font-size:1.2rem; }
+  .flight-meta { font-family:sans-serif; font-size:.8rem; opacity:.72; line-height:1.7; }
+  .flight-note { margin-top:8px; font-size:.76rem; opacity:.5; font-family:sans-serif; font-style:italic; }
+  .badge-confirmed { display:inline-block; background:var(--gold); color:var(--ink); font-size:.62rem; font-family:sans-serif; letter-spacing:.1em; text-transform:uppercase; padding:2px 7px; border-radius:3px; font-weight:bold; }
+  .badge-pending { display:inline-block; background:rgba(201,168,76,.25); color:var(--gold-lt); font-size:.62rem; padding:2px 7px; border-radius:3px; letter-spacing:.06em; }
+
+  /* ── CITY BANNER ── */
+  .city-banner { padding:48px 24px 36px; color:#fff; }
+  .city-banner.sh { background:linear-gradient(135deg,var(--sh-dark),var(--sh-mid)); }
+  .city-banner.sz { background:linear-gradient(135deg,var(--sz-dark),var(--sz-mid)); }
+  .city-banner.hk { background:linear-gradient(135deg,var(--hk-dark),var(--hk-mid)); }
+  .city-banner-inner { max-width:900px; margin:0 auto; }
+  .city-banner .eyebrow { font-family:sans-serif; font-size:.7rem; letter-spacing:.2em; text-transform:uppercase; opacity:.7; margin-bottom:8px; }
+  .city-banner h2 { font-size:clamp(2rem,6vw,3rem); font-weight:normal; margin-bottom:8px; }
+  .city-banner .dates-tag { font-family:sans-serif; font-size:.88rem; opacity:.85; margin-bottom:12px; }
+  .hotel-chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .hotel-chip { display:inline-flex; align-items:center; gap:5px; background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.2); border-radius:20px; padding:4px 14px; font-size:.8rem; font-family:sans-serif; }
+  .hotel-chip a { color:#fff; text-decoration:none; }
+  .hotel-chip a:hover { color:var(--gold-lt); }
+
+  /* ── DAY CARDS ── */
+  .days-container { max-width:900px; margin:0 auto; padding:28px 24px 0; }
+  .day-card { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:18px; overflow:hidden; display:grid; grid-template-columns:76px 1fr; }
+  .day-label { display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:20px 6px; color:#fff; font-family:sans-serif; text-align:center; }
+  .day-card.sh .day-label { background:var(--sh-mid); }
+  .day-card.sz .day-label { background:var(--sz-mid); }
+  .day-card.hk .day-label { background:var(--hk-mid); }
+  .day-label .dn { font-size:1.5rem; font-weight:bold; line-height:1; }
+  .day-label .dm { font-size:.62rem; opacity:.85; letter-spacing:.04em; text-transform:uppercase; margin-top:2px; }
+  .day-label .dw { font-size:.6rem; opacity:.65; margin-top:3px; }
+  .day-label.night { background:#c04a0c; }
+  .day-label.night-sh { background:#0d3d4f; }
+  .day-body { padding:18px 22px 18px 18px; }
+  .day-body h3 { font-size:1rem; margin-bottom:12px; color:var(--ink); font-weight:normal; font-style:italic; }
+  .transit-bar { background:#f8f6f0; border:1px solid rgba(0,0,0,.08); border-radius:8px; padding:8px 12px; margin-bottom:12px; font-size:.8rem; font-family:sans-serif; color:#555; display:flex; align-items:flex-start; gap:6px; }
+  .transit-bar.flight { background:#fffbf0; border-color:#e6c96e; color:#5a4200; }
+  .transit-bar.transfer { background:#f0f8f0; border-color:#7cb87c; color:#2a5a2a; }
+  .transit-bar.hotel { background:#f0f4ff; border-color:#9db4e0; color:#1a2a5a; }
+  .act-list { list-style:none; }
+  .act-list li { display:flex; gap:8px; padding:5px 0; border-bottom:1px solid rgba(0,0,0,.05); font-size:.88rem; align-items:flex-start; }
+  .act-list li:last-child { border:none; }
+  .act-icon { min-width:18px; text-align:center; font-size:.85rem; margin-top:3px; }
+  .act-main { flex:1; }
+  .act-name { color:var(--ink); }
+  .act-tip { font-size:.75rem; color:#777; font-style:italic; margin-top:1px; }
+  .tag { display:inline-block; font-size:.65rem; padding:1px 6px; border-radius:3px; font-family:sans-serif; vertical-align:middle; margin-left:4px; }
+  .tag.eat { background:#fff3e0; color:#e65100; }
+  .tag.book { background:#fce4ec; color:#c62828; }
+  .tag.shop { background:#e8eaf6; color:#283593; }
+  .tag.tip { background:#e8f5e9; color:#1b5e20; }
+  .tag.hotel { background:#f3e5f5; color:#6a1b9a; }
+  .tag.star { background:#fff8e1; color:#e65100; }
+
+  /* ── PRO TIPS ── */
+  .pro-tips { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin:0 0 18px; overflow:hidden; border-top:4px solid var(--gold); }
+  .pro-tips-header { padding:16px 22px 12px; background:#fffdf5; border-bottom:1px solid rgba(0,0,0,.06); display:flex; align-items:center; gap:8px; }
+  .pro-tips-header .icon { font-size:1.1rem; }
+  .pro-tips-header span { font-family:sans-serif; font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; color:var(--gold); font-weight:bold; }
+  .pro-tips-body { padding:16px 22px; }
+  .tip-item { display:flex; gap:10px; padding:7px 0; font-size:.82rem; border-bottom:1px solid rgba(0,0,0,.04); }
+  .tip-item:last-child { border:none; }
+  .tip-item .tip-icon { font-size:.95rem; flex-shrink:0; margin-top:2px; }
+  .tip-item strong { color:var(--ink); }
+  .tip-item a { color:var(--sh-mid); text-decoration:none; font-family:sans-serif; font-size:.78rem; }
+  .tip-item a:hover { text-decoration:underline; }
+  .metro-route { background:#f8f6f0; border-radius:6px; padding:10px 12px; margin-top:8px; font-family:sans-serif; font-size:.78rem; line-height:1.8; color:#444; }
+  .metro-route .step { display:flex; gap:6px; margin:3px 0; }
+  .metro-route .step-label { color:var(--sh-mid); font-weight:bold; flex-shrink:0; }
+  .metro-note { margin-top:8px; font-size:.75rem; color:#888; font-style:italic; }
+  .city-section { padding-bottom:48px; }
+
+  /* ── SHOPPING DAY ── */
+  .shopping-day { background:linear-gradient(135deg,#fff8f0,#fff3e0); border:2px solid #e6c96e; border-radius:var(--radius); padding:14px 18px; font-size:.88rem; color:#5a4200; display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .shopping-day .icon { font-size:1.3rem; flex-shrink:0; }
+
+  /* ── TIPS SECTION ── */
+  .tips-section { padding:48px 24px; }
+  .tips-section h2 { text-align:center; font-weight:normal; font-size:1.6rem; margin-bottom:32px; }
+  .tips-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; max-width:900px; margin:0 auto; }
+  .tip-card { background:#fff; border-radius:var(--radius); padding:20px; box-shadow:0 2px 12px rgba(0,0,0,.07); }
+  .tip-icon { font-size:1.5rem; margin-bottom:8px; }
+  .tip-title { font-size:.9rem; font-weight:bold; font-family:sans-serif; margin-bottom:6px; }
+  .tip-body { font-size:.82rem; color:#555; line-height:1.5; }
+
+  footer { background:var(--ink); color:rgba(255,255,255,.45); text-align:center; padding:28px 24px; font-family:sans-serif; font-size:.8rem; }
+  footer .gold { color:var(--gold); }
+
+  @media (max-width:600px) {
+    .day-card { grid-template-columns:60px 1fr; }
+    .day-label .dn { font-size:1.2rem; }
+    .day-body { padding:14px; }
+    .hotel-callout { grid-template-columns:1fr; }
+    .hotel-callout img { width:100%; height:180px; }
+  }
+  @media print { .sticky-nav { display:none; } .city-banner { break-before:page; } .day-card { break-inside:avoid; } }
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="hero-badge">Tam Family · November – December 2026</div>
+  <h1>Shanghai · Shenzhen · <em>Hong Kong</em></h1>
+  <p class="hero-sub">A 12-night family journey — roam freely, meet for dinner</p>
+  <div class="hero-dates">
+    <div class="hero-date-item"><span class="label">Depart SFO</span><span class="value">Sat · Nov 21, 2026</span></div>
+    <div class="hero-date-item"><span class="label">Arrive Shanghai</span><span class="value">Mon · Nov 23, 2026</span></div>
+    <div class="hero-date-item"><span class="label">Back in SF</span><span class="value">Thu · Dec 4, 2026</span></div>
+  </div>
+  <div class="hero-cities">
+    <span class="city-pill sh">🏙 Shanghai · Nov 23–27</span>
+    <span class="city-pill sz">🌆 Shenzhen · 4 nights</span>
+    <span class="city-pill hk">🌃 Hong Kong · 3 nights</span>
+  </div>
+</section>
+
+<!-- ═══ NAV ═══ -->
+<nav class="sticky-nav">
+  <a href="#family">Family</a>
+  <a href="#flights">Flights</a>
+  <a href="#shanghai">Shanghai</a>
+  <a href="#shenzhen">Shenzhen</a>
+  <a href="#hongkong">Hong Kong</a>
+  <a href="hotels.html">🏨 Hotels</a>
+  <a href="restaurants.html">🍽️ Restaurants</a>
+  <a href="#tips">Tips</a>
+</nav>
+
+<!-- ═══ FAMILY ═══ -->
+<section class="dark-section" id="family">
+  <h2>Our Traveling Party</h2>
+  <p class="section-sub">8 travelers · 3 generations · all on Cathay Pacific Business Class ✈️</p>
+  <div class="family-grid">
+    <div class="family-card">
+      <div style="font-size:2.2rem;margin-bottom:10px;color:var(--gold);">♡</div>
+      <div class="f-name">Ken &amp; Mabel</div>
+      <div class="f-detail" style="text-align:left;margin-top:8px;">
+        Ref: <strong>BL8P5T</strong><br>
+        Outbound: seats 12G &amp; 12D<br>
+        Return: seats 17G &amp; 17D<br>
+        HK: La Rossa Tower B
+      </div>
+    </div>
+    <div class="family-card">
+      <div style="font-size:2.2rem;margin-bottom:10px;color:var(--gold);">⌂</div>
+      <div class="f-name">Vanessa, Travis<br>&amp; the Boys</div>
+      <div class="f-detail" style="text-align:left;margin-top:8px;">
+        Ref: <strong>CPHGRD</strong><br>
+        Vanessa · Travis Tran<br>
+        Coleton &amp; Enzo (the boys!)<br>
+        HK: La Rossa Tower B
+      </div>
+    </div>
+    <div class="family-card">
+      <div style="font-size:2.2rem;margin-bottom:10px;color:var(--gold);">★</div>
+      <div class="f-name">Preston &amp; Sophia</div>
+      <div class="f-detail" style="text-align:left;margin-top:8px;">
+        Ref: <strong>CPHGRD</strong><br>
+        Outbound: seats 14G &amp; 14D<br>
+        Return: seats 18G &amp; 18D<br>
+        HK: Novotel Citygate
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FLIGHTS ═══ -->
+<section class="dark-section" id="flights" style="background:#111827;">
+  <h2>✈️ Flights</h2>
+  <p class="section-sub"><span class="badge-confirmed" style="margin-right:8px;">✓ CONFIRMED</span> Cathay Pacific Business Class · Two bookings: BL8P5T &amp; CPHGRD · <span class="badge-pending">⏳ Internal China flights pending</span></p>
+  <div class="flights-grid">
+    <div class="flight-card">
+      <div class="airline">Cathay Pacific CX 873 <span class="badge-confirmed">✓ CONFIRMED</span></div>
+      <div class="flight-route"><span class="airport">SFO</span><span class="arrow">✈</span><span class="airport">HKG</span></div>
+      <div class="flight-meta">Sat Nov 21 · 22:55 → Mon Nov 23 · 06:15<br>15h 20m · Non-stop · Airbus A350-900</div>
+      <div style="margin-top:9px;font-family:sans-serif;font-size:.75rem;line-height:1.9;opacity:.78;border-top:1px solid rgba(255,255,255,.1);padding-top:9px;">
+        <strong>BL8P5T:</strong> Ken 12G · Mabel 12D<br>
+        <strong>CPHGRD:</strong> Vanessa 14K · Travis 15K<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coleton 15D · Enzo 15G<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston 14G · Sophia 14D
+      </div>
+    </div>
+    <div class="flight-card">
+      <div class="airline">Cathay Pacific CX 316 <span class="badge-confirmed">✓ CONFIRMED</span></div>
+      <div class="flight-route"><span class="airport">HKG</span><span class="arrow">✈</span><span class="airport">PVG</span></div>
+      <div class="flight-meta">Mon Nov 23 · 08:50 → 11:35<br>2h 45m · Pudong Airport T2 arrival</div>
+      <div style="margin-top:9px;font-family:sans-serif;font-size:.75rem;line-height:1.9;opacity:.78;border-top:1px solid rgba(255,255,255,.1);padding-top:9px;">
+        <strong>BL8P5T:</strong> Ken 12D · Mabel 12G<br>
+        <strong>CPHGRD:</strong> Preston 14G · Sophia 14D
+      </div>
+    </div>
+    <div class="flight-card" style="border-color:rgba(201,168,76,.35);">
+      <div class="airline" style="color:var(--gold-lt);">China Eastern MU 5333 <span class="badge-pending">⏳ PENDING</span></div>
+      <div class="flight-route"><span class="airport">SHA</span><span class="arrow">✈</span><span class="airport">SZX</span></div>
+      <div class="flight-meta">Tentative: Nov 28 · 09:25 → 11:50<br>2h 25m · Hongqiao T2 → Shenzhen Bao'an T3</div>
+      <div class="flight-note">⏳ Flight not yet booked — date flexible. Confirm once Shanghai schedule is finalised.</div>
+    </div>
+    <div class="flight-card">
+      <div class="airline">Cathay Pacific CX 872 <span class="badge-confirmed">✓ CONFIRMED</span></div>
+      <div class="flight-route"><span class="airport">HKG</span><span class="arrow">✈</span><span class="airport">SFO</span></div>
+      <div class="flight-meta">Sat Dec 5 · 01:00 AM → Thu Dec 4 · 21:15 (SFO)<br>12h 15m · Non-stop · A350-900 · <em>Crosses date line</em></div>
+      <div style="margin-top:9px;font-family:sans-serif;font-size:.75rem;line-height:1.9;opacity:.78;border-top:1px solid rgba(255,255,255,.1);padding-top:9px;">
+        <strong>BL8P5T:</strong> Ken 17G · Mabel 17D<br>
+        <strong>CPHGRD:</strong> Vanessa 18K · Travis 19K<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coleton 19D · Enzo 19G<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preston 18G · Sophia 18D
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SHANGHAI ═══ -->
+<section class="city-section" id="shanghai">
+  <div class="city-banner sh">
+    <div class="city-banner-inner">
+      <div class="eyebrow">City 01 · Shanghai 上海 · Nights 1–3</div>
+      <h2>Shanghai</h2>
+      <div class="dates-tag">Mon Nov 23 – Sat Nov 27 &nbsp;·&nbsp; 4 nights</div>
+      <div class="hotel-chips">
+        <span class="hotel-chip">🏨 <a href="hotels.html#shanghai">The Shanghai EDITION</a> · ★★★★★ · Nanjing Road</span>
+        <span class="hotel-chip">🏯 <a href="hotels.html#zhujiajiao">Ahn Luh Zhujiajiao</a> · 1-night special stay</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hotel Callout -->
+  <div class="days-container">
+    <div class="hotel-callout">
+      <img src="imgs/shanghai-edition-hotel-luxury-lobby-interior.jpg" alt="The Shanghai EDITION" onerror="this.style.display='none'">
+      <div class="hotel-callout-body">
+        <div class="hotel-callout-eyebrow">Our Home in Shanghai · Nights 1–3</div>
+        <h3>The Shanghai EDITION</h3>
+        <p>Nanjing Road East · 145 rooms · Neri&amp;Hu design · Forbes ★★★★★</p>
+        <div class="tag-row">
+          <span class="tag hotel">🏨 Nightly</span>
+          <span class="tag star">🍸 ROOF Bar (Asia 100 Best)</span>
+          <span class="tag">🚇 East Nanjing Road Metro</span>
+        </div>
+        <a class="hotel-link" href="hotels.html#shanghai">View full hotel details →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="days-container">
+
+    <!-- Nov 23 -->
+    <div class="day-card sh">
+      <div class="day-label"><span class="dn">23</span><span class="dm">Nov</span><span class="dw">Mon</span></div>
+      <div class="day-body">
+        <h3>Arrival Day — Settle In, First Taste of Shanghai</h3>
+        <div class="transit-bar flight">✈️ CX316 arrives Pudong (PVG T2) at 11:35 AM · Take Maglev → DiDi to hotel</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🚅</span><div class="act-main"><span class="act-name">Shanghai Maglev Train</span> <span class="tag tip">15–20 min</span><div class="act-tip">World's fastest commercial train from Pudong Airport — a thrilling first impression of Shanghai!</div></div></li>
+          <li><span class="act-icon">🏨</span><div class="act-main"><span class="act-name">Check in: The Shanghai EDITION</span> <span class="tag hotel">🏨</span><div class="act-tip">Right on Nanjing Pedestrian Road — prime central location</div></div></li>
+          <li><span class="act-icon">🚶</span><div class="act-main"><span class="act-name">Nanjing Road Pedestrian Street</span> <span class="tag tip">Evening stroll</span><div class="act-tip">Great energy at night — lights, shops, street food</div></div></li>
+          <li><span class="act-icon">🍷</span><div class="act-main"><span class="act-name">ROOF Bar — Hotel Edition</span> <span class="tag eat">Dinner &amp; Drinks</span> <span class="tag star">🏆 Asia's 100 Best Bars</span><div class="act-tip">First dinner in Shanghai, right in the hotel · 29th floor panoramic views · 5:30PM–1AM</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nov 24 -->
+    <div class="day-card sh">
+          <li><span class="act-icon">🏯</span><div class="act-main"><span class="act-name">Yu Garden 豫園</span> <span class="tag tip">2–3 hrs</span><div class="act-tip">Open 9AM–4:30PM · Ming Dynasty garden &amp; Old City bazaar · Worth every step</div></div></li>
+          <li><span class="act-icon">🥟</span><div class="act-main"><span class="act-name">Qiao Ai Lai Lai Xiao Long 橋愛來來小籠</span> <span class="tag eat">Lunch</span> <span class="tag book">Book Ahead!</span> <span class="tag star">⭐ Michelin</span><div class="act-tip">Asia Top 100 · Opens 8AM–2PM &amp; 3PM–8PM · Cram roe xiaolongbao = the best on the planet</div></div></li>
+          <li><span class="act-icon">🚶</span><div class="act-main"><span class="act-name">Afternoon: Nanjing Road shopping or French Concession</span><div class="act-tip">Free roam — split up and explore what interests each group</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nov 25 -->
+    <div class="day-card sh">
+      <div class="day-label"><span class="dn">25</span><span class="dm">Nov</span><span class="dw">Wed</span></div>
+      <div class="day-body">
+        <h3>Shanghai Disneyland 🎢 — All Day Adventure</h3>
+        <div class="transit-bar">🎡 Kids + Vanessa's family — full day at the park! Preston &amp; Sophia may explore the French Concession or Anfu Road instead.</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🏰</span><div class="act-main"><span class="act-name">Shanghai Disney Resort</span> <span class="tag book">Buy Tickets Online Now!</span><div class="act-tip">2026 Global 100 · Open 8:30AM–9:30PM · Full day with evening parade &amp; fireworks</div></div></li>
+          <li><span class="act-icon">☕</span><div class="act-main"><span class="act-name">Alternative: French Concession &amp; Anfu Road</span><div class="act-tip">For those skipping Disney — boutiques, art spaces, lovely brunch spots, wine bars</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nov 26 — Zhujiajiao -->
+    <div class="day-card sh">
+      <div class="day-label"><span class="dn">26</span><span class="dm">Nov</span><span class="dw">Thu</span></div>
+      <div class="day-body">
+        <h3>Zhujiajiao Ancient Water Town 🌉 — Ahn Luh Overnight</h3>
+        <div class="transit-bar transfer">🚇 Metro: Line 2 → Hongqiao Railway → Line 17 → Zhujiajiao Station (~1h 45min · ~¥2–6/person) · Walk ~20–25 min to hotel</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🏨</span><div class="act-main"><span class="act-name">Check in: Ahn Luh Zhujiajiao</span> <span class="tag hotel">🏯 Special Stay</span><div class="act-tip">Private courtyard bungalow · 600-year-old Qing Dynasty courthouse · Step outside and you're in the ancient town</div></div></li>
+          <li><span class="act-icon">⛵</span><div class="act-main"><span class="act-name">Zhujiajiao Ancient Town 朱家角</span> <span class="tag tip">Afternoon + Evening</span><div class="act-tip">The "Venice of Shanghai" — stone bridges, canal boats, local snacks &amp; street food. Most magical around sunset and after dark when lanterns light up the canals.</div></div></li>
+          <li><span class="act-icon">🌙</span><div class="act-main"><span class="act-name">Lantern-lit night scene</span><div class="act-tip">After the day-trippers leave, the ancient town is yours. Stunning reflections on the water.</div></div></li>
+          <li><span class="act-icon">🍜</span><div class="act-main"><span class="act-name">Dinner in Zhujiajiao</span> <span class="tag eat">Dinner</span><div class="act-tip">Candlelit dinner in the ancient town — local clay pot dishes, river fish, rice cakes. Magical setting.</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Pro Tips — Metro -->
+    <div class="pro-tips">
+      <div class="pro-tips-header"><span class="icon">🔄</span><span>Getting to Zhujiajiao — Metro Guide</span></div>
+      <div class="pro-tips-body">
+        <div class="tip-item"><span class="tip-icon">📱</span><div><strong>Download "Shanghai Metro" app</strong> or use <strong>MetroMan</strong> for real-time schedules and route planning</div></div>
+        <div class="tip-item"><span class="tip-icon">💳</span><div><strong>Payment:</strong> Use Shanghai Public Transportation Card, Alipay, or WeChat Pay for seamless metro entry — cards accepted at all gates</div></div>
+        <div class="metro-route">
+          <strong>🚇 Step-by-Step: EDITION → Ahn Luh Zhujiajiao</strong>
+          <div class="step"><span class="step-label">Step 1</span>Walk to East Nanjing Road Station (~3 min from hotel · Lines 2 &amp; 10)</div>
+          <div class="step"><span class="step-label">Step 2</span>Line 2 → ride ~30 min → <strong>Hongqiao Railway Station</strong> ( interchange)</div>
+          <div class="step"><span class="step-label">Step 3</span>Transfer to <strong>Line 17</strong> (light brown/dark orange · in-station transfer, no exit needed)</div>
+          <div class="step"><span class="step-label">Step 4</span>Line 17 → ride ~36 min → <strong>Zhujiajiao Station</strong> (last stop · trains every ~10 min)</div>
+          <div class="step"><span class="step-label">Step 5</span>Walk Exit 1 → 1.6km (~20–25 min) → Ahn Luh Zhujiajiao (in ancient town area)</div>
+          <div class="step" style="margin-top:6px;padding-top:6px;border-top:1px dashed rgba(0,0,0,.1);"><span class="step-label">🚖 Alt</span>Taxi/DiDi from Zhujiajiao Station (~¥15–25) · Recommended if carrying heavy bags</div>
+          <div class="step"><span class="step-label">� Line 17 Bonus</span>Scenic route — passes through water town-themed areas · Great views as you approach Zhujiajiao!</div>
+          <div style="margin-top:6px;"><strong>⏰ Last train from Zhujiajiao Station:</strong> 22:33 · Plan to leave the ancient town by ~22:00</div>
+          <div><strong>💰 Total fare:</strong> ~¥2–6 per person · Line 17 runs 06:00–23:00 from Hongqiao</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nov 27 — Lujiazui -->
+    <div class="day-card sh">
+      <div class="day-label night-sh"><span class="dn">27</span><span class="dm">Nov</span><span class="dw">Fri</span></div>
+      <div class="day-body">
+        <h3>Lujiazui 陸家嘴 — The Other Side of the Bund 🌃</h3>
+        <div class="transit-bar transfer">🚇 Return: Walk to Zhujiajiao Station → Line 17 → Hongqiao Railway → Line 2 → East Nanjing Road (~1h 45min) · Last train: 22:33 ⚠️</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🗼</span><div class="act-main"><span class="act-name">Oriental Pearl Tower 東方明珠</span> <span class="tag tip">2–4 hrs</span><div class="act-tip">Open 9AM–9PM · Glass floor observation deck · The Pudong skyline icon</div></div></li>
+          <li><span class="act-icon">🏢</span><div class="act-main"><span class="act-name">Shanghai Tower 上海中心</span> <span class="tag tip">1–3 hrs</span><div class="act-tip">World's 2nd tallest · Open 8:30AM–10PM · 632m above the city · Theview from the top is otherworldly</div></div></li>
+          <li><span class="act-icon">☕</span><div class="act-main"><span class="act-name">Starbucks Reserve Roastery 星巴克烘焙工坊</span><div class="act-tip">World-famous 5-floor roastery · Open until 11PM weekdays, midnight Fri/Sat</div></div></li>
+          <li><span class="act-icon">🌅</span><div class="act-main"><span class="act-name">1000 Trees 千树</span><div class="act-tip">Best sunset photos in Shanghai! Unique rooftop landscape architecture</div></div></li>
+          <li><span class="act-icon">👟</span><div class="act-main"><span class="act-name">322 Anfu Road — Adidas Flagship</span> <span class="tag shop">Shopping</span></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Dinner at Xintiandi 新天地</span> <span class="tag eat">Group Dinner</span><div class="act-tip">Shikumen heritage dining district · Great for group dinners · Lantern-lit streets</div></div></li>
+          <li><span class="act-icon">🏨</span><div class="act-main"><span class="act-name">Return to The Shanghai EDITION</span><div class="act-tip">Evening metro back · Last Line 17 from Zhujiajiao: 22:33 ⚠️</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ SHENZHEN ═══ -->
+<section class="city-section" id="shenzhen">
+  <div class="city-banner sz">
+    <div class="city-banner-inner">
+      <div class="eyebrow">City 02 · Shenzhen 深圳 · Nights 5–8</div>
+      <h2>Shenzhen</h2>
+      <div class="dates-tag">Sat Nov 28 – Wed Dec 2 &nbsp;·&nbsp; 4 nights</div>
+      <div class="hotel-chips">
+        <span class="hotel-chip">🏨 <a href="hotels.html#shenzhen">Andaz Shenzhen Bay</a> · ★★★★★ · Bay views</span>
+      </div>
+    </div>
+  </div>
+  <div class="days-container">
+
+    <!-- Nov 28 -->
+    <div class="day-card sz">
+      <div class="day-label"><span class="dn">28</span><span class="dm">Nov</span><span class="dw">Sat</span></div>
+      <div class="day-body">
+        <h3>Arrival Shenzhen — Bay Park &amp; Arrival Afternoon</h3>
+        <div class="transit-bar flight">✈️ Tentative: MU5333 departs Hongqiao 09:25 → arrives Shenzhen Bao'an T3 at 11:50 <em>· Flight not yet booked — date flexible</em></div>
+        <ul class="act-list">
+          <li><span class="act-icon">🏨</span><div class="act-main"><span class="act-name">Check in: Andaz Shenzhen Bay</span> <span class="tag hotel">🏨</span><div class="act-tip">No. 3 Luxury Hotel in Shenzhen · Stunning bay views · Connected to Sea World promenade</div></div></li>
+          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Shenzhen Bay Mixc 海上世界</span><div class="act-tip">Premium shopping mall right by the bay</div></div></li>
+          <li><span class="act-icon">🌿</span><div class="act-main"><span class="act-name">Shenzhen Talent Park 人才公園</span> <span class="tag tip">1–3 hrs</span><div class="act-tip">Open 6AM–11PM · Waterfront park — great for an afternoon stroll</div></div></li>
+          <li><span class="act-icon">🌊</span><div class="act-main"><span class="act-name">Shenzhen Bay Park 深圳灣公園</span> <span class="tag tip">Sunset walk</span><div class="act-tip">Coastal park with views of Hong Kong across the water · Bring binoculars!</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nov 29 -->
+    <div class="day-card sz">
+      <div class="day-label"><span class="dn">29</span><span class="dm">Nov</span><span class="dw">Sun</span></div>
+      <div class="day-body">
+        <h3>Safari Park, Theme Parks &amp; Sea World</h3>
+        <ul class="act-list">
+          <li><span class="act-icon">🐼</span><div class="act-main"><span class="act-name">Safari Park Shenzhen 野生動物園</span> <span class="tag tip">Morning · Half day</span><div class="act-tip">Open 9:30AM–6PM · Panda Manor in the morning — adorable! Great for families</div></div></li>
+          <li><span class="act-icon">🌍</span><div class="act-main"><span class="act-name">Window of the World 世界之窗</span> <span class="tag tip">2–4 hrs</span><div class="act-tip">2026 Asia 100 Family Attractions · Open 9:30AM–9:30PM · Global landmarks in one park</div></div></li>
+          <li><span class="act-icon">🎡</span><div class="act-main"><span class="act-name">OCT Harbour 歡樂港灣</span> <span class="tag tip">3–5 hrs</span><div class="act-tip">No. 5 Family Attraction in Guangdong · Waterfront entertainment complex with the Bay Glory Ferris Wheel</div></div></li>
+          <li><span class="act-icon">🎢</span><div class="act-main"><span class="act-name">Shenzhen Happy Valley 歡樂谷</span><div class="act-tip">Open 10AM–7PM · Thrilling rides for the adventurous crowd</div></div></li>
+          <li><span class="act-icon">⚓</span><div class="act-main"><span class="act-name">Sea World 海上世界</span> <span class="tag tip">Evening</span><div class="act-tip">Waterfront dining, the Minghua Ship, live music — good for dinner</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nov 30 -->
+    <div class="day-card sz">
+      <div class="day-label"><span class="dn">30</span><span class="dm">Nov</span><span class="dw">Mon</span></div>
+      <div class="day-body">
+        <h3>Hakka Heritage, Night Views &amp; Dongmen</h3>
+        <ul class="act-list">
+          <li><span class="act-icon">🏘️</span><div class="act-main"><span class="act-name">Gankeng Hakka Town 甘坑客家小鎮</span> <span class="tag tip">Morning · 3–5 hrs</span><div class="act-tip">No. 5 Spring Outing in Guangdong · Traditional Hakka architecture &amp; culture</div></div></li>
+          <li><span class="act-icon">🎡</span><div class="act-main"><span class="act-name">Bay Glory Ferris Wheel 海灣光之榮耀摩天輪</span> <span class="tag tip">Afternoon</span><div class="act-tip">Open 10:30AM–10PM · No. 13 Best Thing to Do in Shenzhen · Great views!</div></div></li>
+          <li><span class="act-icon">🌅</span><div class="act-main"><span class="act-name">OCT Harbour Waterfront</span> <span class="tag tip">Evening</span><div class="act-tip">Dinner with bay views, shopping, and entertainment</div></div></li>
+          <li><span class="act-icon">🛒</span><div class="act-main"><span class="act-name">Dongmen Pedestrian Street 東門步行街</span> <span class="tag tip">Evening</span><div class="act-tip">No. 6 Night Attraction in Shenzhen · Street food, local shopping, lively crowds</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Dec 1 — SHOPPING DAY -->
+    <div class="day-card sz">
+      <div class="day-label"><span class="dn">1</span><span class="dm">Dec</span><span class="dw">Tue</span></div>
+      <div class="day-body">
+        <h3>Last Day in Shenzhen 🛍️ — Shopping &amp; Farewell</h3>
+        <div class="shopping-day"><span class="icon">🛍️</span><div><strong>Bonus shopping day!</strong> The extra night in Shenzhen means one more full day to explore, shop, or revisit any highlights before heading to Hong Kong.</div></div>
+        <ul class="act-list">
+          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Shenzhen Shopping Day</span> <span class="tag shop">Free to explore</span><div class="act-tip">MixC (luxury mall), Dongmen Market, Luohu Commercial City — or revisit any favourite spots from the past few days</div></div></li>
+          <li><span class="act-icon">🔬</span><div class="act-main"><span class="act-name">Shenzhen Science &amp; Technology Museum 深圳科學技術館</span> <span class="tag tip">3–5 hrs</span><div class="act-tip">Open 10AM–5PM · No. 9 Family Attraction in SZ · Interactive exhibits for all ages</div></div></li>
+          <li><span class="act-icon">🚗</span><div class="act-main"><span class="act-name">Afternoon: Prepare for Hong Kong departure</span></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Farewell Shenzhen dinner</span> <span class="tag eat">Group Dinner</span><div class="act-tip">Sea World area or hotel — celebrate before the HK split!</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ HONG KONG ═══ -->
+<section class="city-section" id="hongkong">
+  <div class="city-banner hk">
+    <div class="city-banner-inner">
+      <div class="eyebrow">City 03 · Hong Kong 香港 · Nights 9–11</div>
+      <h2>Hong Kong</h2>
+      <div class="dates-tag">Wed Dec 2 – Sat Dec 5 &nbsp;·&nbsp; 3 nights</div>
+      <div class="hotel-chips">
+        <span class="hotel-chip">🏠 La Rossa Tower B · Ken, Mabel, Vanessa, Travis, Coleton &amp; Enzo · Tung Chung</span>
+        <span class="hotel-chip">🏨 Novotel Citygate HK · Preston &amp; Sophia</span>
+        <span class="hotel-chip">🥢 <a href="restaurants.html#hk">The Chairman — Asia's No.1 Restaurant</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="days-container">
+
+    <!-- Dec 2 -->
+    <div class="day-card hk">
+      <div class="day-label"><span class="dn">2</span><span class="dm">Dec</span><span class="dw">Wed</span></div>
+      <div class="day-body">
+        <h3>Arrival Hong Kong — Citygate &amp; Disneyland 🎢</h3>
+        <div class="transit-bar transfer">🚗 DiDi from Andaz to Shenzhen Bay Port → Cross-border coach direct to Tung Chung / Citygate (no train change needed)</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Citygate Outlets 東薈城名店倉</span><div class="act-tip">Premium outlet mall right at Tung Chung MTR · Great for designer shopping on arrival</div></div></li>
+          <li><span class="act-icon">🏠</span><div class="act-main"><span class="act-name">Settle in at La Rossa Tower B</span><div class="act-tip">Ken &amp; Mabel + Vanessa's family · Coastal Skyline, Block 8, 25/F, Flat C</div></div></li>
+          <li><span class="act-icon">🏰</span><div class="act-main"><span class="act-name">Hong Kong Disneyland 香港迪士尼樂園</span> <span class="tag book">Buy Tickets Online!</span><div class="act-tip">2026 Global 100 · Open 10AM–8:30PM · 5 min from Citygate by MTR Disneyland Resort line</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Dec 3 -->
+    <div class="day-card hk">
+      <div class="day-label"><span class="dn">3</span><span class="dm">Dec</span><span class="dw">Thu</span></div>
+      <div class="day-body">
+        <h3>Lantau Island — Ngong Ping &amp; Big Buddha 🗿</h3>
+        <ul class="act-list">
+          <li><span class="act-icon">🚡</span><div class="act-main"><span class="act-name">Ngong Ping 360 Cable Car 昂坪360</span> <span class="tag tip">3–5 hrs</span><div class="act-tip">Open 10AM–6PM · 25-min scenic ride over mountains &amp; sea · Ngong Ping Village below</div></div></li>
+          <li><span class="act-icon">🗿</span><div class="act-main"><span class="act-name">Tian Tan Buddha 天壇大佛</span> <span class="tag tip">1–3 hrs</span><div class="act-tip">Open 10AM–5:30PM · Climb 268 steps to this iconic bronze Buddha — peaceful &amp; majestic</div></div></li>
+          <li><span class="act-icon">🍱</span><div class="act-main"><span class="act-name">Lunch at Ngong Ping Village</span> <span class="tag eat">Lunch</span><div class="act-tip">Po Lin Monastery vegetarian food is a must-try nearby</div></div></li>
+          <li><span class="act-icon">🌊</span><div class="act-main"><span class="act-name">Afternoon free: Tung Chung waterfront or rest</span></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Dec 4 -->
+    <div class="day-card hk">
+      <div class="day-label"><span class="dn">4</span><span class="dm">Dec</span><span class="dw">Fri</span></div>
+      <div class="day-body">
+        <h3>Mong Kok, Harbour &amp; Symphony of Lights 🌃 — Last Night!</h3>
+        <ul class="act-list">
+          <li><span class="act-icon">🐟</span><div class="act-main"><span class="act-name">Mong Kok 旺角</span> <span class="tag tip">Morning/Afternoon</span><div class="act-tip">Goldfish Street, Sneaker Street, Ladies Market — Hong Kong at its most local &amp; bustling</div></div></li>
+          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Tsim Sha Tsui 尖沙咀</span> <span class="tag shop">Shopping</span><div class="act-tip">DFS duty-free, Avenue of Stars, harbour promenade · Go early for best spots!</div></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Final Family Dinner</span> <span class="tag eat">Special Dinner</span><div class="act-tip">TST or Kowloon area — celebrate the journey before flying home!</div></div></li>
+          <li><span class="act-icon">🌃</span><div class="act-main"><span class="act-name">Victoria Harbour — Symphony of Lights 維多利亞港</span> <span class="tag tip">8:00 PM nightly</span><div class="act-tip">2026 Global 100 Night Attractions · World-famous light show from Avenue of Stars</div></div></li>
+        </ul>
+        <div class="transit-bar flight" style="margin-top:14px;">✈️ CX872 departs HKG at 01:00 AM (technically Dec 5) · Head to airport by 10:30 PM Dec 4</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="tips-section" id="tips">
+  <h2>📋 Good to Know</h2>
+  <div class="tips-grid">
+    <div class="tip-card">
+      <div class="tip-icon">💳</div>
+      <div class="tip-title">Cashless Payments</div>
+      <div class="tip-body">Download <strong>Alipay</strong> and <strong>WeChat Pay</strong> before arriving in Shanghai and Shenzhen. Most places don't take foreign cards — these apps are essential. Link to a foreign card or bring cash to top up.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🚇</div>
+      <div class="tip-title">Getting Around</div>
+      <div class="tip-body">Use <strong>DiDi</strong> for ride-hailing in Shanghai &amp; Shenzhen (works like Uber). For Shanghai subway, use the <strong>Shanghai Metro app</strong> or <strong>MetroMan</strong>. In Hong Kong, get an <strong>Octopus card</strong> at the MTR airport station on arrival.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🎟️</div>
+      <div class="tip-title">Book Ahead!</div>
+      <div class="tip-body"><strong>Shanghai Disneyland</strong> and <strong>Hong Kong Disneyland</strong> — book online well in advance. <strong>Qiao Ai Lai Lai</strong> — arrive early or book ahead. <strong>The Chairman</strong> (HK) — book 6–8 weeks ahead via thechairman.hk!</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">📱</div>
+      <div class="tip-title">Internet &amp; VPN</div>
+      <div class="tip-body">China blocks Google, WhatsApp, Instagram etc. Install a <strong>VPN before departure</strong> — you cannot download VPN apps once inside China. Hotel WiFi is usually available. Hong Kong has full open internet.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🧻</div>
+      <div class="tip-title">Small Essentials</div>
+      <div class="tip-body">Carry a <strong>small pack of tissues</strong> — public restrooms in China may not have paper. Some tourist areas have squat toilets; bring hand sanitizer too. Hong Kong is more Western-standard.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🌡️</div>
+      <div class="tip-title">November Weather</div>
+      <div class="tip-body"><strong>Shanghai:</strong> Cool, 10–18°C, bring a jacket. <strong>Shenzhen:</strong> Mild, 18–24°C, light layers. <strong>Hong Kong:</strong> Similar to Shenzhen, 17–23°C, pleasant. Pack a mix of light and warm layers.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🦀</div>
+      <div class="tip-title">Peak Crab Season</div>
+      <div class="tip-body"><strong>November is hairy crab season!</strong> Order crab roe xiaolongbao at Qiao Ai Lai Lai without hesitation. Hairy crab is traditionally paired with Shaoxing wine and ginger vinegar. A must-eat moment on this trip.</div>
+    </div>
+    <div class="tip-card">
+      <div class="tip-icon">🥢</div>
+      <div class="tip-title">Tipping</div>
+      <div class="tip-body">Tipping is <strong>not customary</strong> in mainland China — service charges are built in. In Hong Kong, 10% is appreciated at upscale restaurants if a service charge isn't already added.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="gold">✦ Tam Family China Adventure 2026 ✦</div>
+  <div style="margin-top:8px;">Ken · Mabel · Vanessa · Travis · Coleton · Enzo · Preston · Sophia</div>
+  <div style="margin-top:4px;">Prepared with 💚 by Jade &nbsp;·&nbsp; November 21 – December 5, 2026</div>
+</footer>
+
+</body>
+</html>
