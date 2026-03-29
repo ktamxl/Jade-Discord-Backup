@@ -84,10 +84,9 @@
 
   /* Cards */
   .cards-section { padding:32px 24px 0; max-width:960px; margin:0 auto; }
-  .resto-card { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:28px; overflow:hidden; display:grid; grid-template-columns:300px 1fr; }
-  .resto-card.reverse { grid-template-columns:1fr 300px; }
-  .resto-card.reverse .resto-img { order:2; }
-  .resto-img { width:300px; height:100%; min-height:280px; object-fit:cover; display:block; }
+  .resto-card { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:28px; overflow:hidden; display:grid; grid-template-columns:1fr; }
+  .resto-card.reverse { direction:ltr; }
+  .resto-img { width:100%; height:320px; object-fit:cover; display:block; flex-shrink:0; }
   .resto-body { padding:28px 30px; }
   .resto-eyebrow { font-family:sans-serif; font-size:.68rem; letter-spacing:.15em; text-transform:uppercase; margin-bottom:6px; }
   .resto-body h3 { font-size:1.3rem; font-weight:normal; margin-bottom:4px; color:var(--ink); }
@@ -149,22 +148,25 @@
 
 <!-- THE CHAIRMAN — FEATURED -->
 <div class="featured-section">
-  <div class="featured-card">
-    <div class="feat-left">
-      <div class="eyebrow" style="font-family:sans-serif; font-size:.65rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin-bottom:10px;">★ Asia's No.1 Restaurant · 2026</div>
-      <h2>大班樓 · The Chairman</h2>
-      <div class="subtitle">中環威靈頓街198號 The Wellington · ⭐ 1 Michelin Star</div>
+  <div class="resto-card" style="background:linear-gradient(135deg,#1a0d2e,#3b1f5e);">
+    <img class="resto-img" src="imgs/the-chairman-new.png" alt="The Chairman restaurant" style="width:100%;height:420px;object-fit:cover;border-radius:var(--radius) var(--radius) 0 0;" onerror="this.style.display='none'">
+    <div class="resto-body" style="color:#fff;">
+      <div class="eyebrow" style="font-family:sans-serif; font-size:.65rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold-lt); margin-bottom:10px;">★ Asia's No.1 Restaurant · 2026</div>
+      <h2 style="color:#f0d98a; font-size:2rem; font-weight:normal; margin-bottom:6px;">大班樓 · The Chairman</h2>
+      <div class="resto-sub" style="color:rgba(255,255,255,.7); font-size:.85rem; margin-bottom:16px;">中環威靈頓街198號 The Wellington · ⭐ 1 Michelin Star</div>
       <div class="tag-row">
         <span class="tag award">🏆 Asia's 50 Best — No. 1, 2026</span>
         <span class="tag star">⭐ Michelin 1 Star</span>
+        <span class="tag pick">🌿 No shark's fin, sea cucumber or bird's nest — eco-friendly by philosophy</span>
       </div>
-      <p>In March 2026, The Chairman reclaimed its throne as <strong style="color:#f0d98a;">Asia's Best Restaurant</strong>. Chef Danny Yip's quietly revolutionary approach rebuilds Cantonese classics from the ground up — no fusion flourishes, no technique for its own sake. Just obsessive sourcing, generational respect for ingredients, and a kitchen that believes the best cooking is almost invisible.</p>
-      <p style="margin-top:12px;">The restaurant is intimate — just 18 tables in a handsome Heritage building. Dress well, book far in advance, and let the kitchen lead.</p>
+      <p style="font-size:.88rem; opacity:.82; line-height:1.85; margin-bottom:12px;">Cantonese cuisine has a history of two thousand years. Today it has evolved to become the most popular and widely influential cuisine among the "eight culinary classical styles" of China. The reason for its success boils down to one keyword: <strong style="color:#f0d98a;">"freshness."</strong></p>
+      <p style="font-size:.88rem; opacity:.82; line-height:1.85; margin-bottom:12px;">The Chairman's aspiration is to continue this legacy. As much as possible, they use locally sourced ingredients, products from local condiment stores, and seafood from local fishermen — sent to the restaurant <strong>every morning at 6 AM from Aberdeen Fish Market</strong>. Their cooking style is fundamentally built on tradition, bringing out the original flavours of the ingredients rather than showing off. <em>"The most simple food demands the highest level of culinary skills."</em></p>
+      <p style="font-size:.88rem; opacity:.82; line-height:1.85; margin-bottom:14px;">A few examples: their razor clams are steamed with <strong>aged lemon aged over 10 years</strong>. Their smoked baby pigeon is prepared traditionally with <strong>20-day-old pigeons</strong> until the bones are tender. Their chilli jam is made with <strong>slow-cooked oxtail</strong>. Even the beancurd sheets come from the famous local store <strong>Shu Kee</strong>. The Chairman soy sauce chicken uses herbs <em>more expensive than the chicken itself</em>.</p>
       <ul class="dish-list">
-        <li><span class="dish-icon">🦀</span><div><span class="dish-name">Steamed Fresh Flowery Crab</span><br><span class="dish-note">The dish that made the restaurant. Flower crab with aged Shaoxing wine, chicken fat & flat rice noodles. Worth a trip to Hong Kong on its own.</span></div></li>
-        <li><span class="dish-icon">🥩</span><div><span class="dish-name">Chairman-Style Char Siu</span><br><span class="dish-note">Thick-cut, caramelised, impossibly tender. Not the usual bbq pork — this is a different beast entirely.</span></div></li>
-        <li><span class="dish-icon">🐦</span><div><span class="dish-name">Aged Pigeon with Five Spices</span><br><span class="dish-note">Dry-aged pigeon, extraordinary depth. A dish that stays with you.</span></div></li>
-        <li><span class="dish-icon">⚫</span><div><span class="dish-name">15-Year Aged Tangerine Peel Beef Ball</span><br><span class="dish-note">Aged tangerine peel elevates premium beef to something almost spiritual.</span></div></li>
+        <li><span class="dish-icon">🦀</span><div><span class="dish-name">Steamed Fresh Flowery Crab</span><br><span class="dish-note">The dish that made the restaurant famous. Hand-picked daily from Aberdeen Fish Market at 6AM. Worth a trip to Hong Kong on its own.</span></div></li>
+        <li><span class="dish-icon">🍗</span><div><span class="dish-name">The Chairman Soy Sauce Chicken</span><br><span class="dish-note">House signature. Herbs used are more expensive than the chicken itself. A quiet masterpiece.</span></div></li>
+        <li><span class="dish-icon">🐦</span><div><span class="dish-name">Smoked Baby Pigeon with Longjing Tea</span><br><span class="dish-note">Prepared the traditional way with 20-day-old pigeons until the bones are tender.</span></div></li>
+        <li><span class="dish-icon">🐚</span><div><span class="dish-name">Razor Clams Steamed with Aged Lemon</span><br><span class="dish-note">Lemon aged over 10 years. Fragrant, briny, extraordinary.</span></div></li>
       </ul>
       <div class="resto-meta">
         <span>📍 The Wellington, 198 Wellington St, Central, Hong Kong</span>
@@ -172,10 +174,6 @@
         <span>🌐 thechairman.hk — book 6–8 weeks ahead</span>
         <span>👔 Smart casual dress code</span>
       </div>
-    </div>
-    <div class="feat-right">
-      <img src="imgs/the-chairman-hong-kong-signature-flower-crab.jpg" alt="The Chairman signature steamed flowery crab" onerror="this.style.display='none'">
-      <div class="featured-badge">🏆 Asia's No.1 · 2026</div>
     </div>
   </div>
 </div>
@@ -194,7 +192,8 @@
 
   <!-- ROOF Bar -->
   <div class="resto-card">
-    <img class="resto-img" src="imgs/shanghai-edition-roof-bar-night-view.jpg" alt="ROOF Bar The Shanghai EDITION" onerror="this.style.display='none'">
+    <img class="resto-img" src="imgs/roof-bar-shanghai-edition-new.png" alt="ROOF Bar The Shanghai EDITION open-air terrace" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
+    <img class="resto-img" src="imgs/shanghai-edition-roof-bar-night-view.jpg" alt="ROOF Bar The Shanghai EDITION night view" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
     <div class="resto-body sh">
       <div class="resto-eyebrow">🍸 Rooftop Bar · The Shanghai EDITION · 29th Floor</div>
       <h3>ROOF Bar</h3>
@@ -203,8 +202,8 @@
         <span class="tag award">🏆 Asia's 100 Best Bars 2026</span>
         <span class="tag pick">📍 29th Floor · The Shanghai EDITION</span>
       </div>
-      <p class="resto-desc">Perched on the 29th floor of The Shanghai EDITION, ROOF is where Shanghai gathers as the sun drops. Panoramic windows frame the exact moment the Pudong skyline ignites — Oriental Pearl, Shanghai Tower, the whole electric circus. The cocktail program is serious (expect theatrical punches, aged spirits, impeccable technique), the vibe effortlessly chic. Arrive just before sunset to secure a window table.</p>
-      <p class="resto-desc">Perfect for: arriving-night drinks, celebratory toasts, or a nightcap after Nanjing Road. One of the finest rooftop experiences in Asia.</p>
+      <p class="resto-desc">Located on the 29th floor and surrounded by a stunning ivy-covered trellis, ROOF is an open-air lounge area offering guests a comfortable, intimate setting for casual drinks. Featuring one of the most spectacular panoramic views of Pudong from the Bund, the bar serves a range of classic and innovative libations prepared by EDITION's expert mixologist.</p>
+      <p class="resto-desc">Arrive just before sunset to secure a window table — the moment the Pudong skyline ignites is one you'll remember. Perfect for arriving-night drinks, celebratory toasts, or a nightcap after Nanjing Road.</p>
       <div class="resto-meta" style="background:#f8f6f0; color:#555;">
         <span>📍 The Shanghai EDITION, 199 Nanjing Road East, 29F</span>
         <span>🕐 5:30PM–1AM nightly (Fri/Sat until 2AM)</span>
@@ -214,37 +213,66 @@
     </div>
   </div>
 
-  <!-- Qiao Ai Lai Lai -->
-  <div class="resto-card reverse">
-    <img class="resto-img" src="imgs/qiao-ai-lai-lai-xiaolongbao-shanghai-soup-dumplings.jpg" alt="Qiao Ai Lai Lai xiaolongbao" onerror="this.style.display='none'">
+  <!-- Xin Rong Ji -->
+  <div class="resto-card">
+    <img class="resto-img" src="imgs/xin-rong-ji-new.jpg" alt="Xin Rong Ji restaurant" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
     <div class="resto-body sh">
-      <div class="resto-eyebrow">🥟 Michelin-Recommended · ~30 Years · Near The Bund</div>
+      <div class="resto-eyebrow">⭐ Michelin Star · Est. 1995 · Jade's Pick</div>
+      <h3>新榮記 · Xin Rong Ji</h3>
+      <div class="resto-sub">688 Nanjing West Road, Jing'an · ~5 min from The Shanghai EDITION</div>
+      <div class="tag-row">
+        <span class="tag star">🏆 No. 1 Chinese Restaurant Brand in the World</span>
+        <span class="tag mich">⭐ MICHELIN 1 Star · World's 50 Best Discovery</span>
+        <span class="tag pick">🚶 5 min walk from EDITION</span>
+      </div>
+      <p class="resto-desc" style="font-size:.87rem;line-height:1.8;margin-bottom:12px;"><em style="font-size:.85rem;color:var(--sh-mid);">1995 年 · The launch of Xin Rong Ji</em></p>
+      <p class="resto-desc">Xin Rong Ji is a name that embodies the meaning of <strong>"Flourishing Prosperity."</strong> On October 1, 1995, the first Xin Rong Ji restaurant opened in <strong>Taizhou</strong>, the birthplace of the Tiantai School of Buddhism. Rooted in the bounty of the East China Sea, Xin Rong Ji has gradually expanded to Hangzhou, Ningbo, Chengdu, Xi'an, Wuhan, Shenzhen, Suzhou, Jiangxi, Hainan — and internationally to <strong>Hong Kong</strong> and <strong>Tokyo</strong>.</p>
+      <p class="resto-desc">Xin Rong Ji adheres to the culinary philosophy of <strong>"First Seek the Authentic, Then Achieve the Sublime."</strong> Guided by the <strong>Three True Fires</strong> — genuine ingredients, authentic flavours, and sincere hospitality — they are devoted to revealing the inherent essence of every ingredient.</p>
+      <ul class="dish-list" style="color:#333;">
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🐟</span><div><span class="dish-name" style="color:var(--ink);">Braised Yellow Croaker 手燒黃魚</span><br><span class="dish-note">The dish that made the restaurant famous. Wild yellow croaker with handmade rice cakes in a rich, nostalgic Taizhou sauce. Order without hesitation.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Pork &amp; Crab Roe Soup Dumplings</span><br><span class="dish-note">Michelin inspectors' favourite. Delicate xiao long bao with rich crab roe filling.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🦆</span><div><span class="dish-name" style="color:var(--ink);">Baked Duck Foie Gras Buns</span><br><span class="dish-note">A Xin Rong Ji original — luxury meets tradition. Truffle-scented, extraordinary.</span></div></li>
+      </ul>
+      <div class="resto-meta" style="background:#f8f6f0; color:#555;">
+        <span>📍 688 Nanjing West Road, Jing'an (5 min walk from The Shanghai EDITION)</span>
+        <span>🕐 Lunch 11:30AM–2PM · Dinner 5:30–10PM</span>
+        <span>🌐 xinrongji.com · Book via Dianping or phone</span>
+        <span>💰 ¥500–1,000+/person · Premium but worth every yuan</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Qiao Ai Lai Lai -->
+  <div class="resto-card">
+    <img class="resto-img" src="imgs/qiao-ai-lai-lai-new.png" alt="Qiao Ai Lai Lai xiaolongbao" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
+    <div class="resto-body sh">
+      <div class="resto-eyebrow">🥟 Bib Gourmand · Est. ~2005 · Near The Bund</div>
       <h3>橋愛來來小籠 · Qiao Ai Lai Lai</h3>
       <div class="resto-sub">336 Yunnan Road, Huangpu · Open 8AM–2PM &amp; 3–8PM · Closed Monday</div>
       <div class="tag-row">
-        <span class="tag mich">⭐ MICHELIN Guide Recommended</span>
+        <span class="tag mich">⭐ MICHELIN Bib Gourmand</span>
         <span class="tag star">🌟 Asia's 50 Best Must-Visit</span>
-        <span class="tag pick">💰 ~¥60–100/person</span>
+        <span class="tag pick">💰 ~¥60–100/person (exceptional value!)</span>
       </div>
-      <p class="resto-desc">Three decades of perfecting one thing. Qiao Ai Lai Lai has no ambitions to be anything other than the best xiaolongbao in Shanghai — and many argue it has achieved exactly that. The tiny dining room is perpetually full, the queue legendary. But every person in that line will tell you the same thing: <em>it is worth it.</em></p>
-      <p class="resto-desc">The crab roe xiaolongbao — bursting with rich crab roe in a gossamer-thin wrapper — is arguably the finest soup dumpling on the planet. Come hungry. Come early. Come prepared to wait.</p>
+      <p class="resto-desc"><strong>Bib Gourmand: good quality, good value cooking.</strong></p>
+      <p class="resto-desc">This simple little shop tucked away in a bustling alley has been packed with hungry diners ever since it opened its doors <strong>20 years ago</strong>. The chefs are always busy in the kitchen making xiao long bao, the crab roe variety being the most popular. Brace yourself for an even bigger crowd in hairy crab season, when wontons, spring rolls and soups are generously loaded with crabmeat and roe. The classic soupy pork buns are another must-try.</p>
       <ul class="dish-list" style="color:#333;">
-        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Crab Roe Xiaolongbao 蟹粉小籠包</span><br><span class="dish-note">The crown jewel. Rich crab roe filling, gossamer wrapper. Order 1–2 portions per person.</span></div></li>
-        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🍜</span><div><span class="dish-name" style="color:var(--ink);">Crab Roe Noodles 蟹粉麵</span><br><span class="dish-note">Luxuriant crab roe stirred through hand-pulled noodles. Rarely done this well anywhere.</span></div></li>
-        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Original Pork Xiaolongbao 鮮肉小籠包</span><br><span class="dish-note">The benchmark. Perfectly seasoned pork, pristine broth inside.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Crab Roe Xiaolongbao 蟹粉小籠包</span><br><span class="dish-note">The crown jewel. Rich crab roe filling, gossamer wrapper. Peak season: November. Order 1–2 portions per person.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Classic Soupy Pork Buns 鮮肉小籠包</span><br><span class="dish-note">The benchmark. Perfectly seasoned pork, pristine broth inside.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Hairy Crab Season Specials</span><br><span class="dish-note">Wontons, spring rolls and soups loaded with crabmeat & roe. November is peak — expect the longest queues of the year.</span></div></li>
       </ul>
       <div class="resto-meta" style="background:#f8f6f0; color:#555;">
         <span>📍 336 Yunnan Road, Huangpu (near The Bund)</span>
         <span>🕐 8AM–2PM · 3–8PM · Closed Monday</span>
         <span>🎫 No reservations — arrive before 1PM on weekends</span>
-        <span>⚠️ Expect 20–45 min queue on weekends</span>
+        <span>⚠️ Expect 20–45 min queue · Peak hairy crab season: November</span>
       </div>
     </div>
   </div>
 
   <!-- Xintiandi -->
   <div class="resto-card">
-    <img class="resto-img" src="imgs/shanghai-lujiazui-skyline-night-view.jpg" alt="Xintiandi Shanghai" onerror="this.style.display='none'">
+    <img class="resto-img" src="imgs/xintiandi-new.png" alt="Xintiandi Shanghai Shikumen heritage architecture" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
     <div class="resto-body sh">
       <div class="resto-eyebrow">🍽️ Dining District · Multiple Cuisines · Evening</div>
       <h3>新天地 · Xintiandi</h3>
@@ -277,6 +305,36 @@
 </section>
 
 <div class="cards-section" style="padding-bottom:48px;">
+
+<!-- Tao Tao Ju -->
+  <div class="resto-card">
+    <img class="resto-img" src="imgs/tao-tao-ju-new.png" alt="Tao Tao Ju dim sum restaurant Guangzhou" style="width:100%;height:380px;object-fit:cover;" onerror="this.style.display='none'">
+    <div class="resto-body sz">
+      <div class="resto-eyebrow">🥟 Guangzhou · Est. 1880 · Iconic Cantonese Institution</div>
+      <h3>陶陶居酒家 · Tao Tao Ju</h3>
+      <div class="resto-sub">Guangzhou · Private Room Dining · Open 6:30PM – Midnight</div>
+      <div class="tag-row">
+        <span class="tag star">🏆 One of Guangzhou's Oldest & Most Esteemed Cantonese Restaurants</span>
+        <span class="tag pick">🥟 200+ Dim Sum Varieties</span>
+        <span class="tag">🌿 Lingnan Heritage · Rose Gold &amp; Olive Green Decor</span>
+      </div>
+      <p class="resto-desc">Tao Tao Ju is one of the most authentic dim sum restaurants in Guangzhou — ranked among the very best, if not <em>the</em> best. Named <strong>"House of Happiness,"</strong> this century-old establishment has been delighting visitors since <strong>1880</strong> with a calm and rich dining experience steeped in tradition and flavour.</p>
+      <p class="resto-desc">For tourists, this authentic evening tea restaurant gives you the option to try every facet of Cantonese culinary culture. With over <strong>200 varieties of dim sum</strong>, Tao Tao Ju ensures you can try an enormous range — we recommend coming with a large group so you can order more dishes.</p>
+      <p class="resto-desc">You will be seated in a <strong>private dining room</strong> — decorated in rose gold and olive green, paying homage to Lingnan architectural heritage. Helmed by a seasoned chef from Hong Kong with over three decades of expertise, the dim sum is impeccably crafted.</p>
+      <p class="resto-desc">Operating from <strong>6:30PM until midnight</strong>, it is perfect for an evening meal after exploring the city.</p>
+      <ul class="dish-list" style="color:#333;">
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥮</span><div><span class="dish-name" style="color:var(--ink);">Nai Huang Bao 奶黃包</span><br><span class="dish-note">The signature dish. Exquisitely blending milk and egg yolks — rich, silky, extraordinary. A Tao Tao Ju trademark.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🥟</span><div><span class="dish-name" style="color:var(--ink);">Traditional Dim Sum Selection</span><br><span class="dish-note">Over 200 varieties to choose from. Come with a large group and order everything you can.</span></div></li>
+        <li style="border-color:rgba(0,0,0,.07);"><span class="dish-icon">🍵</span><div><span class="dish-name" style="color:var(--ink);">Traditional Afternoon Tea</span><br><span class="dish-note">Sweet treats and traditional tea service — the Cantonese way.</span></div></li>
+      </ul>
+      <div class="resto-meta" style="background:#f8f6f0; color:#555;">
+        <span>📍 Guangzhou, China (Taxi/DiDi from city centre)</span>
+        <span>🕐 6:30PM – Midnight daily</span>
+        <span>🚗 Parking available · Air conditioning · Terrace</span>
+        <span>💰 ¥150–400/person · Private room dining experience</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Sea World Shekou -->
   <div class="resto-card reverse">

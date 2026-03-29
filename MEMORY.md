@@ -122,6 +122,21 @@ Format for warning:
 - Credits are 100% separate — no shared pool between personal and business
 
 ## System Setup
+- **Status card:** Show formatted session_status card at the start of EVERY session (not just on "status" command). Format from Excel MaxClaw Sisi's template:
+  ```
+  💚 Jade — Here!
+  🦞 OpenClaw v2026.3.3
+  🕒 Time: [Day, Date — Time] Pacific
+  📚 Context: XX% used (XXk / 200k)
+  💵 Cost this session: $X.XX
+  ⚙️ Runtime: Direct · Elevated · Thinking [on/off]
+  🧠 Model: [model name]
+  
+  All systems green. What do you need?
+  ```
+- **Timezone:** ALWAYS use Pacific Time (PDT/GMT-7) when referring to Ken's time. Server logs show GMT+8; Ken is in SF (GMT-7). Subtract 15 hours from GMT+8 to get Ken's time.
+- **Row Call:** When Ken says "Row Call," "Who's here," or "Wake Up!!" → reply immediately confirming presence
+- Telegram: 8745665879 (connected and working)
 - Telegram bot connected: token configured, Ken approved
 - Memory files: /workspace/memory/YYYY-MM-DD.md
 - Documents: burial_report.pdf, burial_diagram2.pdf in /workspace/
@@ -148,3 +163,17 @@ Format for warning:
 ### ✅ 最終穩定版（2026-03-12）— BOTH APPROVED 🌸
 - 中文 V2: `/workspace/fengshui_v2_STABLE.html` / `.pdf`（747KB）
 - 英文 V1: `/workspace/fengshui_english_v1_STABLE.html` / `.pdf`（503KB）
+
+## 譚氏傳承錄 — Family Legacy Project (started 2026-03-26)
+- **Project name:** 譚氏傳承錄 / Tam Family Legacy
+- **Purpose:** Private webpage for Preston & Vanessa — financial map + "what to do" guide
+- **GitHub repo:** ktamxl/family-legacy (private)
+- **Jade's role:** Design, build, maintain the page; own the "what to do" guide, contact info, step-by-step instructions
+- **Win's role:** Statement-driven financial updates → generates data file → Jade deploys
+- **Sections:** Overview → Financial Map → What To Do → Who To Call → Where Documents Are
+- **Design:** Functional-first (corporate/clean); bilingual EN + 繁體中文 for HK content; mobile-friendly
+- **Financial baseline (2026-03-26):** ~$37M total (HK HKD 15.25M + US Fidelity $6.67M + RE $26.9M net + Business $4.51M)
+- **Update cadence:** Quarterly statements (Futu + Fidelity); annual RE revaluation; ad-hoc on material life events
+- **No account numbers on page** — only where to find them
+- **Future task:** Secure digital document storage solution (Phase 2)
+- **Full project brief:** `memory/2026-03-26.md`

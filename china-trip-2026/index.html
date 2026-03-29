@@ -22,6 +22,9 @@
   .hero-badge { display:inline-block; border:1px solid var(--gold); color:var(--gold-lt); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; padding:4px 18px; border-radius:20px; margin-bottom:20px; }
   .hero h1 { font-size:clamp(1.8rem,5vw,3rem); font-weight:normal; letter-spacing:.02em; margin-bottom:12px; line-height:1.25; }
   .hero h1 em { color:var(--gold-lt); font-style:normal; }
+  .hero h1 .sh-city { color:#4db8cc; }
+  .hero h1 .sz-city { color:#e07040; }
+  .hero h1 .hk-city { color:#b08acc; }
   .hero-sub { font-size:1.05rem; opacity:.8; margin-bottom:32px; }
   .hero-dates { display:flex; justify-content:center; gap:32px; flex-wrap:wrap; margin-bottom:32px; }
   .hero-date-item { text-align:center; }
@@ -73,7 +76,10 @@
   .badge-pending { display:inline-block; background:rgba(201,168,76,.25); color:var(--gold-lt); font-size:.62rem; padding:2px 7px; border-radius:3px; letter-spacing:.06em; }
 
   /* ── CITY BANNER ── */
-  .city-banner { padding:48px 24px 36px; color:#fff; }
+  .city-banner { padding:48px 24px 36px; color:#fff; position:relative; overflow:hidden; }
+  .city-banner::before { content:''; position:absolute; inset:0; background:rgba(0,0,0,.45); z-index:0; }
+  .city-banner img.bg-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-1; }
+  .city-banner-inner { position:relative; z-index:1; }
   .city-banner.sh { background:linear-gradient(135deg,var(--sh-dark),var(--sh-mid)); }
   .city-banner.sz { background:linear-gradient(135deg,var(--sz-dark),var(--sz-mid)); }
   .city-banner.hk { background:linear-gradient(135deg,var(--hk-dark),var(--hk-mid)); }
@@ -88,8 +94,8 @@
 
   /* ── DAY CARDS ── */
   .days-container { max-width:900px; margin:0 auto; padding:28px 24px 0; }
-  .day-card { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:18px; overflow:hidden; display:grid; grid-template-columns:76px 1fr; }
-  .day-label { display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:20px 6px; color:#fff; font-family:sans-serif; text-align:center; }
+  .day-card { background:#fff; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:18px; overflow:hidden; display:grid; grid-template-columns:76px 1fr; min-width:0; }
+  .day-label { display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:20px 6px; color:#fff; font-family:sans-serif; text-align:center; overflow:hidden; }
   .day-card.sh .day-label { background:var(--sh-mid); }
   .day-card.sz .day-label { background:var(--sz-mid); }
   .day-card.hk .day-label { background:var(--hk-mid); }
@@ -168,7 +174,7 @@
 <!-- ═══ HERO ═══ -->
 <section class="hero">
   <div class="hero-badge">Tam Family · November – December 2026</div>
-  <h1>Shanghai · Shenzhen · <em>Hong Kong</em></h1>
+  <h1><span class="sh-city">Shanghai</span> · <span class="sz-city">Shenzhen</span> · <span class="hk-city">Hong Kong</span></h1>
   <p class="hero-sub">A 12-night family journey — roam freely, meet for dinner</p>
   <div class="hero-dates">
     <div class="hero-date-item"><span class="label">Depart SFO</span><span class="value">Sat · Nov 21, 2026</span></div>
@@ -280,6 +286,7 @@
 <!-- ═══ SHANGHAI ═══ -->
 <section class="city-section" id="shanghai">
   <div class="city-banner sh">
+    <img class="bg-img" src="imgs/shanghai-hero-city-banner.webp" alt="Shanghai skyline" onerror="this.style.display='none'">
     <div class="city-banner-inner">
       <div class="eyebrow">City 01 · Shanghai 上海 · Nights 1–3</div>
       <h2>Shanghai</h2>
@@ -328,6 +335,11 @@
 
     <!-- Nov 24 -->
     <div class="day-card sh">
+      <div class="day-label"><span class="dn">24</span><span class="dm">Nov</span><span class="dw">Tue</span></div>
+      <div class="day-body">
+        <h3>The Bund, Yu Garden &amp; Xiaolongbao</h3>
+        <ul class="act-list">
+          <li><span class="act-icon">🌇</span><div class="act-main"><span class="act-name">The Bund Night View 外灘</span> <span class="tag tip">Evening walk</span><div class="act-tip">Best at night — the colonial Puxi buildings lit up against the Pudong skyline is one of the world's great city views. Walk from the EDITION in ~10 minutes.</div></div></li>
           <li><span class="act-icon">🏯</span><div class="act-main"><span class="act-name">Yu Garden 豫園</span> <span class="tag tip">2–3 hrs</span><div class="act-tip">Open 9AM–4:30PM · Ming Dynasty garden &amp; Old City bazaar · Worth every step</div></div></li>
           <li><span class="act-icon">🥟</span><div class="act-main"><span class="act-name">Qiao Ai Lai Lai Xiao Long 橋愛來來小籠</span> <span class="tag eat">Lunch</span> <span class="tag book">Book Ahead!</span> <span class="tag star">⭐ Michelin</span><div class="act-tip">Asia Top 100 · Opens 8AM–2PM &amp; 3PM–8PM · Cram roe xiaolongbao = the best on the planet</div></div></li>
           <li><span class="act-icon">🚶</span><div class="act-main"><span class="act-name">Afternoon: Nanjing Road shopping or French Concession</span><div class="act-tip">Free roam — split up and explore what interests each group</div></div></li>
@@ -463,17 +475,18 @@
       </div>
     </div>
 
-    <!-- Dec 1 — SHOPPING DAY -->
+    <!-- Dec 1 — SHENZHEN DEPARTURE / HK ARRIVAL -->
     <div class="day-card sz">
       <div class="day-label"><span class="dn">1</span><span class="dm">Dec</span><span class="dw">Tue</span></div>
       <div class="day-body">
-        <h3>Last Day in Shenzhen 🛍️ — Shopping &amp; Farewell</h3>
-        <div class="shopping-day"><span class="icon">🛍️</span><div><strong>Bonus shopping day!</strong> The extra night in Shenzhen means one more full day to explore, shop, or revisit any highlights before heading to Hong Kong.</div></div>
+        <h3>Leave Shenzhen → Arrive Hong Kong 🌆</h3>
+        <div class="transit-bar transfer">🚗 DiDi to Shenzhen Bay Port → Cross-border van (luggage + passengers) → Direct to Novotel Citygate &amp; La Rossa Tung Chung</div>
         <ul class="act-list">
-          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Shenzhen Shopping Day</span> <span class="tag shop">Free to explore</span><div class="act-tip">MixC (luxury mall), Dongmen Market, Luohu Commercial City — or revisit any favourite spots from the past few days</div></div></li>
-          <li><span class="act-icon">🔬</span><div class="act-main"><span class="act-name">Shenzhen Science &amp; Technology Museum 深圳科學技術館</span> <span class="tag tip">3–5 hrs</span><div class="act-tip">Open 10AM–5PM · No. 9 Family Attraction in SZ · Interactive exhibits for all ages</div></div></li>
-          <li><span class="act-icon">🚗</span><div class="act-main"><span class="act-name">Afternoon: Prepare for Hong Kong departure</span></div></li>
-          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Farewell Shenzhen dinner</span> <span class="tag eat">Group Dinner</span><div class="act-tip">Sea World area or hotel — celebrate before the HK split!</div></div></li>
+          <li><span class="act-icon">🚗</span><div class="act-main"><span class="act-name">DiDi from Andaz Shenzhen Bay → Shenzhen Bay Port</span> <span class="tag tip">~30–40 min</span><div class="act-tip">Cross-border journey: Shenzhen Bay Port → Hong Kong · Luggage travels with the van</div></div></li>
+          <li><span class="act-icon">🚌</span><div class="act-main"><span class="act-name">Cross-border Van → Novotel Citygate HK</span> <span class="tag tip">Direct transfer</span><div class="act-tip">Preston &amp; Sophia check into Novotel Citygate (Tung Chung)</div></div></li>
+          <li><span class="act-icon">🏠</span><div class="act-main"><span class="act-name">La Rossa Tower B — Ken, Mabel, Vanessa, Travis, Coleton &amp; Enzo</span> <span class="tag hotel">🏠 Settle in</span><div class="act-tip">Coastal Skyline, Block 8, 25/F, Flat C · Settle in after the crossing</div></div></li>
+          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Citygate Outlets 東薈城名店倉</span> <span class="tag shop">Afternoon</span><div class="act-tip">Premium outlet mall 5 min from La Rossa by MTR · Great for picking up anything needed after unpacking</div></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">First Hong Kong dinner</span> <span class="tag eat">Dinner</span><div class="act-tip">Tung Chung or Citygate area — easy relaxed night, unpack and rest for Disneyland tomorrow!</div></div></li>
         </ul>
       </div>
     </div>
@@ -501,12 +514,11 @@
     <div class="day-card hk">
       <div class="day-label"><span class="dn">2</span><span class="dm">Dec</span><span class="dw">Wed</span></div>
       <div class="day-body">
-        <h3>Arrival Hong Kong — Citygate &amp; Disneyland 🎢</h3>
-        <div class="transit-bar transfer">🚗 DiDi from Andaz to Shenzhen Bay Port → Cross-border coach direct to Tung Chung / Citygate (no train change needed)</div>
+        <h3>Hong Kong Disneyland 🎢 — Full Day at the Park!</h3>
         <ul class="act-list">
-          <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Citygate Outlets 東薈城名店倉</span><div class="act-tip">Premium outlet mall right at Tung Chung MTR · Great for designer shopping on arrival</div></div></li>
-          <li><span class="act-icon">🏠</span><div class="act-main"><span class="act-name">Settle in at La Rossa Tower B</span><div class="act-tip">Ken &amp; Mabel + Vanessa's family · Coastal Skyline, Block 8, 25/F, Flat C</div></div></li>
-          <li><span class="act-icon">🏰</span><div class="act-main"><span class="act-name">Hong Kong Disneyland 香港迪士尼樂園</span> <span class="tag book">Buy Tickets Online!</span><div class="act-tip">2026 Global 100 · Open 10AM–8:30PM · 5 min from Citygate by MTR Disneyland Resort line</div></div></li>
+          <li><span class="act-icon">🏰</span><div class="act-main"><span class="act-name">Hong Kong Disneyland 香港迪士尼樂園</span> <span class="tag book">Buy Tickets Online!</span><div class="act-tip">2026 Global 100 · Open 10AM–8:30PM · MTR Disneyland Resort line from Tung Chung (~25 min) · World's first Disney park in a Chinese city!</div></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Disneyland dining options</span> <span class="tag eat">Lunch &amp; Dinner</span><div class="act-tip">Explorer Restaurant, Crystal Palace, Starliner Diner — all inside the park</div></div></li>
+          <li><span class="act-icon">🎆</span><div class="act-main"><span class="act-name">Evening: Disneyland fireworks</span> <span class="tag tip">8:30 PM</span><div class="act-tip">The night's fireworks display — the magical end to the park day. Check schedule on arrival.</div></div></li>
         </ul>
       </div>
     </div>
@@ -529,14 +541,27 @@
     <div class="day-card hk">
       <div class="day-label"><span class="dn">4</span><span class="dm">Dec</span><span class="dw">Fri</span></div>
       <div class="day-body">
-        <h3>Mong Kok, Harbour &amp; Symphony of Lights 🌃 — Last Night!</h3>
+        <h3>Mong Kok, Harbour &amp; Symphony of Lights 🌃 — Last Night in HK!</h3>
         <ul class="act-list">
           <li><span class="act-icon">🐟</span><div class="act-main"><span class="act-name">Mong Kok 旺角</span> <span class="tag tip">Morning/Afternoon</span><div class="act-tip">Goldfish Street, Sneaker Street, Ladies Market — Hong Kong at its most local &amp; bustling</div></div></li>
           <li><span class="act-icon">🛍️</span><div class="act-main"><span class="act-name">Tsim Sha Tsui 尖沙咀</span> <span class="tag shop">Shopping</span><div class="act-tip">DFS duty-free, Avenue of Stars, harbour promenade · Go early for best spots!</div></div></li>
-          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Final Family Dinner</span> <span class="tag eat">Special Dinner</span><div class="act-tip">TST or Kowloon area — celebrate the journey before flying home!</div></div></li>
-          <li><span class="act-icon">🌃</span><div class="act-main"><span class="act-name">Victoria Harbour — Symphony of Lights 維多利亞港</span> <span class="tag tip">8:00 PM nightly</span><div class="act-tip">2026 Global 100 Night Attractions · World-famous light show from Avenue of Stars</div></div></li>
+          <li><span class="act-icon">🍽️</span><div class="act-main"><span class="act-name">Final Family Dinner</span> <span class="tag eat">Special Dinner</span><div class="act-tip">🌟 Spring Moon at The Peninsula — ⭐ Michelin Cantonese, 5-min from Avenue of Stars. Book via peninsula.com. Dress well — it's a special last night. Reserve a table for 6:30PM so you finish before the 8PM Symphony of Lights!</div></div></li>
+          <li><span class="act-icon">🌃</span><div class="act-main"><span class="act-name">Victoria Harbour — Symphony of Lights 維多利亞港</span> <span class="tag tip">8:00 PM nightly</span><div class="act-tip">2026 Global 100 Night Attractions · World-famous light show from Avenue of Stars. Walk from The Peninsula to the waterfront in 3 minutes!</div></div></li>
         </ul>
-        <div class="transit-bar flight" style="margin-top:14px;">✈️ CX872 departs HKG at 01:00 AM (technically Dec 5) · Head to airport by 10:30 PM Dec 4</div>
+      </div>
+    </div>
+
+    <!-- Dec 5 — DEPARTURE -->
+    <div class="day-card hk">
+      <div class="day-label"><span class="dn">5</span><span class="dm">Dec</span><span class="dw">Sat</span></div>
+      <div class="day-body">
+        <h3>Fly Home — SFO ✈️</h3>
+        <div class="transit-bar flight">✈️ CX872 departs HKG 01:00 AM (Sat Dec 5) → arrives SFO 21:15 (Fri Dec 4) · Crosses date line</div>
+        <ul class="act-list">
+          <li><span class="act-icon">🚌</span><div class="act-main"><span class="act-name">Novotel Citygate airport shuttle → HK International Airport</span> <span class="tag tip">Meet at Novotel lobby</span><div class="act-tip">All 8 travelers meet at Novotel Citygate lobby · Take the hotel's airport shuttle to HKG Terminal 1 · Allow 1.5 hrs before departure</div></div></li>
+          <li><span class="act-icon">🏠</span><div class="act-main"><span class="act-name">La Rossa residents: take MTR from Tung Chung to airport</span><div class="act-tip">Tung Chung MTR → Airport Express (~35 min) · Or share a taxi from La Rossa to airport</div></div></li>
+          <li><span class="act-icon">✈️</span><div class="act-main"><span class="act-name">Cathay Pacific CX 872 · Business Class</span><div class="act-tip">HKG T1 → SFO · 12h 15m non-stop · Seats: Ken 17G · Mabel 17D · Vanessa 18K · Travis 19K · Coleton 19D · Enzo 19G · Preston 18G · Sophia 18D</div></div></li>
+        </ul>
       </div>
     </div>
 

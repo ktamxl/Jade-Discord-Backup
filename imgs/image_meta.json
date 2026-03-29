@@ -1,0 +1,2264 @@
+[
+  {
+    "query": "Google Cloud Console new project creation page",
+    "image_info": {
+      "url": "https://docs.gadget.dev/.vite/assets/Create-google-cloud-project.d1ec8157.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 95073,
+      "width": 1102,
+      "height": 832,
+      "total_pixels": 916864,
+      "basic_score": 0.919685654406368,
+      "file_name": "google-cloud-console-new-project-creation.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 99.0,
+      "explanation": "The image is a perfect, high-quality screenshot of the Google Cloud Console 'New Project' creation page. It exactly matches the search query and prompt, with clear text and UI elements.",
+      "file_name": "google-cloud-console-new-project-creation.jpg",
+      "caption": "A screenshot of the Google Cloud Console interface showing the 'New Project' creation form with fields for Project Name, Organization, and Location.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Google Cloud Console new project creation page",
+    "image_info": {
+      "url": "https://docs.cloud.google.com/static/talent-solution/job-search/docs/images/newproject.png",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 100728,
+      "width": 1078,
+      "height": 756,
+      "total_pixels": 814968,
+      "basic_score": 0.9095870055511395,
+      "file_name": "google-cloud-console-create-new-project-button.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 92.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 91.0,
+      "explanation": "The image is highly relevant as it shows the exact interface in the Google Cloud Console used to initiate the creation of a new project. It uses red boxes to highlight the project selector and the 'NEW PROJECT' button, making it an excellent instructional screenshot. The clarity is high, and there are no distracting watermarks.",
+      "file_name": "google-cloud-console-create-new-project-button.jpg",
+      "caption": "A screenshot of the Google Cloud Platform console showing the project selection dialog with the 'NEW PROJECT' button and project selector highlighted with red boxes.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Google Cloud Console new project creation page",
+    "image_info": {
+      "url": "https://support.dronesmadeeasy.com/hc/en-us/article_attachments/211762426/Screen_Shot_2016-12-07_at_3.19.34_PM.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 129727,
+      "width": 1938,
+      "height": 806,
+      "total_pixels": 1562028,
+      "basic_score": 0.7990638937817498,
+      "file_name": "google-cloud-console-create-project-dashboard.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 65.0,
+      "watermark_score": 100.0,
+      "overall_score": 75.0,
+      "explanation": "The image accurately displays the Google Cloud Platform console's 'All projects' page, which is the starting point for creating a new project as requested. It features the 'CREATE PROJECT' button clearly. However, the image resolution is a bit low, making the text appear slightly blurry.",
+      "file_name": "google-cloud-console-create-project-dashboard.jpg",
+      "caption": "A screenshot of the Google Cloud Platform (GCP) IAM & Admin 'All projects' dashboard, featuring the 'CREATE PROJECT' button for starting new projects.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Screenshot of MiniMax Agent pricing page showing credit costs per operation",
+    "image_info": {
+      "url": "https://cdn.sanity.io/images/bqtu9hf1/production/66f4393c01e3beee2cb2ce2913c5828c30d5fe86-1376x768.png?fit=max&auto=format",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 2411056,
+      "width": 1376,
+      "height": 768,
+      "total_pixels": 1056768,
+      "basic_score": 0.8483412532168184,
+      "file_name": "minimax-m2-5-pricing-2026-overview.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 80.0,
+      "explanation": "The image is highly relevant to the topic of MiniMax pricing for 2026. However, it is a title graphic or thumbnail rather than a detailed 'screenshot of a pricing page showing credit costs per operation' as specifically requested in the prompt. It lacks the granular data table one would expect from a pricing page.",
+      "file_name": "minimax-m2-5-pricing-2026-overview.jpg",
+      "caption": "A professional title graphic for MiniMax M2.5 Pricing in 2026, highlighting token costs and payment plans against an abstract beige and grey watercolor background with laurel wreath accents.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Screenshot of MiniMax Agent pricing page showing credit costs per operation",
+    "image_info": {
+      "url": "https://preview.redd.it/minimax-m2-coding-plan-pricing-revealed-v0-frggt9tkp10g1.png?width=1120&format=png&auto=webp&s=72e08ca93e051ebe102c6efb9bd65e3a16b3534c",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 48112,
+      "width": 1120,
+      "height": 940,
+      "total_pixels": 1052800,
+      "basic_score": 0.9114056511727818,
+      "file_name": "minimax-agent-pricing-plans-2025-credits.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 75.0,
+      "explanation": "The image directly addresses the search query by showing the MiniMax Agent pricing plans and credit allocations for 2025. While it lists the total credits per plan, it does not explicitly detail the cost per specific operation (e.g., 1 credit per message). The text is legible, though the image resolution is somewhat low.",
+      "file_name": "minimax-agent-pricing-plans-2025-credits.jpg",
+      "caption": "A screenshot of the MiniMax-M2 pricing page detailing API pricing, Coding Plans, and MiniMax Agent Plans, including monthly costs and credit allocations for Lightning, Basic, and Pro tiers as of November 2025.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Raw chicken pieces marinating in a bowl with spices and seasonings",
+    "image_info": {
+      "url": "https://www.thedinnerbite.com/wp-content/uploads/2023/09/mecxican-chicken-marinade-img-2.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 209088,
+      "width": 600,
+      "height": 900,
+      "total_pixels": 540000,
+      "basic_score": 0.8713455750511397,
+      "file_name": "chicken-marinade-spices-bowl-whisk.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image shows a high-quality, professional photograph of a marinade being prepared with various spices in a glass bowl. While raw chicken is visible in the background, it is not yet placed inside the bowl to marinate as specifically requested in the prompt. However, it is highly relevant to the process of marinating chicken.",
+      "file_name": "chicken-marinade-spices-bowl-whisk.jpg",
+      "caption": "A glass bowl containing a vibrant marinade of oil and dried spices, with a metal whisk resting inside. Raw chicken pieces are visible in a blurred bowl in the background, ready to be marinated.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Raw chicken pieces marinating in a bowl with spices and seasonings",
+    "image_info": {
+      "url": "https://www.thedinnerbite.com/wp-content/uploads/2023/09/mecxican-chicken-marinade-img-6.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 208380,
+      "width": 600,
+      "height": 900,
+      "total_pixels": 540000,
+      "basic_score": 0.8712747242496891,
+      "file_name": "marinated-chicken-spices-plastic-bag.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image captures raw chicken pieces marinating in a rich, spiced sauce, which is highly relevant to the core of the query. However, the chicken is in a plastic zip-top bag rather than a bowl as specifically requested. The image is professionally shot, clear, and free of watermarks.",
+      "file_name": "marinated-chicken-spices-plastic-bag.jpg",
+      "caption": "Raw chicken pieces covered in a savory red marinade with visible herbs, stored in a clear zip-top plastic bag for marinating on a white marble surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flat lay of curry chicken ingredients including turmeric, curry powder, coconut cream, potatoes, carrots, bell pepper",
+    "image_info": {
+      "url": "https://bakingwithmaya.com/wp-content/uploads/2026/03/0_0-1772838606955.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 404636,
+      "width": 896,
+      "height": 1344,
+      "total_pixels": 1204224,
+      "basic_score": 0.9145110301281232,
+      "file_name": "curry-chicken-ingredients-flat-lay.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a high-quality, professional flat lay that perfectly matches the 'curry chicken ingredients' search query. It includes chicken, turmeric, ginger, garlic, coconut cream, and chickpeas. However, it misses some specific items mentioned in the prompt like potatoes, carrots, and bell peppers.",
+      "file_name": "curry-chicken-ingredients-flat-lay.jpg",
+      "caption": "A professional flat lay photograph of raw ingredients for chicken curry, featuring chicken thighs, turmeric powder, ginger root, garlic cloves, coconut milk, chickpeas, fresh cilantro, salt, and black pepper arranged on a marble surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flat lay of curry chicken ingredients including turmeric, curry powder, coconut cream, potatoes, carrots, bell pepper",
+    "image_info": {
+      "url": "https://sincerely-cassidy.com/wp-content/uploads/2026/01/Add-a-subheading-3-1024x1024.png",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 1201193,
+      "width": 1024,
+      "height": 1024,
+      "total_pixels": 1048576,
+      "basic_score": 0.9421336979810704,
+      "file_name": "thai-chicken-curry-ingredients-flat-lay.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is a high-quality, professional flat lay that perfectly matches the search query for curry chicken ingredients. While it differs slightly from the prompt's specific list (it includes sweet potato instead of regular potatoes and lacks carrots and bell peppers), it provides a comprehensive set of ingredients for a Thai-style chicken curry. The labels make it very informative and clear.",
+      "file_name": "thai-chicken-curry-ingredients-flat-lay.jpg",
+      "caption": "A high-angle flat lay photograph of various ingredients for a Thai chicken curry, including raw chicken breast, a sweet potato, baby spinach, cilantro, coconut milk, red curry paste, soy sauce, peanut butter, honey, lime, yellow onion, and spices, all neatly arranged and labeled on a white surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flat lay of curry chicken ingredients including turmeric, curry powder, coconut cream, potatoes, carrots, bell pepper",
+    "image_info": {
+      "url": "https://www.foodforfitness.co.uk/wp-content/smush-webp/2026/02/Chicken_Bhuna_Ingredients-1024x683.jpg.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 61202,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9090556509543347,
+      "file_name": "chicken-curry-ingredients-flat-lay.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is a high-quality professional flat lay that perfectly matches the search query for curry chicken ingredients. However, it misses a couple of specific items mentioned in the prompt, namely potatoes and carrots. Despite this, the composition, lighting, and clarity are excellent.",
+      "file_name": "chicken-curry-ingredients-flat-lay.jpg",
+      "caption": "A top-down flat lay photograph of various ingredients for chicken curry, including cubed raw chicken, chopped onions, green bell peppers, tomato sauce, ginger-garlic paste, a bundle of fresh cilantro, and an assortment of spices like turmeric, chili powder, and cinnamon sticks, all arranged on a light-colored stone surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flat lay of curry chicken ingredients including turmeric, curry powder, coconut cream, potatoes, carrots, bell pepper",
+    "image_info": {
+      "url": "https://www.foodforfitness.co.uk/wp-content/smush-webp/2025/08/Sri-Lankan-Chicken-Curry-5-1024x683.jpg.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 77132,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9107764387960998,
+      "file_name": "chicken-curry-ingredients-flat-lay.jpg_96"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a professionally composed flat lay of chicken curry ingredients that perfectly matches the general search query. However, it lacks the potatoes, carrots, and bell peppers specifically requested in the prompt. Despite these missing items, the clarity, lighting, and arrangement are excellent.",
+      "file_name": "chicken-curry-ingredients-flat-lay.jpg",
+      "caption": "A high-angle flat lay showing ingredients for chicken curry: raw chicken cubes, diced onions, minced ginger, garlic, fresh cilantro, lime wedges, tomato sauce, coconut cream, and various ground spices arranged on a neutral stone surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A beautiful plated Portuguese curry chicken dish with golden coconut curry sauce, potatoes and carrots, served in a rustic pan or bowl",
+    "image_info": {
+      "url": "https://i0.wp.com/themissinglokness.com/wp-content/uploads/2011/05/BJG_7531-sf.jpg?fit=850%2C850&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 645345,
+      "width": 850,
+      "height": 850,
+      "total_pixels": 722500,
+      "basic_score": 0.9423053584403785,
+      "file_name": "portuguese-chicken-curry-coconut-sauce-potatoes-carrots.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt. It showcases a Macanese-style Portuguese chicken curry with a vibrant golden coconut sauce, containing all specified ingredients (chicken, potatoes, carrots) and served in a rustic bowl. The photography is professional, well-lit, and clear.",
+      "file_name": "portuguese-chicken-curry-coconut-sauce-potatoes-carrots.jpg",
+      "caption": "A top-down view of a delicious Portuguese chicken curry served in a rustic ceramic bowl. The dish features tender chicken pieces, potatoes, and carrots simmered in a rich, golden coconut cream curry sauce, accompanied by a generous portion of fluffy white rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A beautiful plated Portuguese curry chicken dish with golden coconut curry sauce, potatoes and carrots, served in a rustic pan or bowl",
+    "image_info": {
+      "url": "https://whattocooktoday.com/wp-content/uploads/2023/01/macau-coconut-chicken-1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 96555,
+      "width": 1000,
+      "height": 1500,
+      "total_pixels": 1500000,
+      "basic_score": 0.8355508711667101,
+      "file_name": "portuguese-chicken-curry-coconut-sauce.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 85.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a perfect match for the search query and prompt, showing a beautifully prepared Portuguese chicken curry with coconut cream, potatoes, and carrots. The photography is professional with excellent lighting and composition. A small watermark is present at the bottom, which slightly affects the score for that category.",
+      "file_name": "portuguese-chicken-curry-coconut-sauce.jpg",
+      "caption": "A professional food photograph of Portuguese chicken curry featuring a golden coconut cream sauce, tender chicken, potatoes, and carrots, served both in a baking pan and plated with a mound of white rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A beautiful plated Portuguese curry chicken dish with golden coconut curry sauce, potatoes and carrots, served in a rustic pan or bowl",
+    "image_info": {
+      "url": "https://i0.wp.com/www.themissinglokness.com/wp-content/uploads/2011/05/IMG_1625-n.jpg?resize=850%2C1275&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 683054,
+      "width": 850,
+      "height": 1275,
+      "total_pixels": 1083750,
+      "basic_score": 0.937446374779075,
+      "file_name": "portuguese-chicken-curry-coconut-cream.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 82.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting 'Galinha à Portuguesa' (Portuguese chicken curry). It features the characteristic golden coconut-based sauce, chicken, carrots, and green peppers, topped with a baked crust. While the clarity is good, there is some slight soft focus in the background. It is served in a white bowl on a cork mat, which fits the 'bowl' requirement of the prompt.",
+      "file_name": "portuguese-chicken-curry-coconut-cream.jpg",
+      "caption": "A delicious serving of Portuguese chicken curry (Galinha à Portuguesa) in a white bowl, featuring a rich golden coconut cream sauce, tender chicken pieces, carrots, and green peppers with a baked golden topping.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Baked curry chicken with shaved coconut topping in an oven pan, golden brown, restaurant style",
+    "image_info": {
+      "url": "https://whattocooktoday.com/wp-content/uploads/2023/01/macau-coconut-chicken-1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 96555,
+      "width": 1000,
+      "height": 1500,
+      "total_pixels": 1500000,
+      "basic_score": 0.8355508711667101,
+      "file_name": "portuguese-baked-curry-chicken-with-coconut.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 85.0,
+      "overall_score": 92.0,
+      "explanation": "The image is an exact match for the search query and prompt, depicting Galinha à Portuguesa (Portuguese Chicken Curry) with its signature baked coconut topping. The composition is professional and appetizing, presented in a restaurant-style flat lay. There is a small text watermark at the bottom which slightly affects the score.",
+      "file_name": "portuguese-baked-curry-chicken-with-coconut.jpg",
+      "caption": "Oven-baked Portuguese curry chicken topped with toasted shredded coconut, served in a grey roasting pan alongside a plated portion of white rice and chicken.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Baked curry chicken with shaved coconut topping in an oven pan, golden brown, restaurant style",
+    "image_info": {
+      "url": "https://i0.wp.com/www.themissinglokness.com/wp-content/uploads/2011/05/IMG_1625-n.jpg?resize=850%2C1275&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 683054,
+      "width": 850,
+      "height": 1275,
+      "total_pixels": 1083750,
+      "basic_score": 0.937446374779075,
+      "file_name": "portuguese-baked-curry-chicken-coconut.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly matches the search query for Portuguese baked curry chicken (Galinha à Portuguesa). It features the characteristic golden-brown baked topping, which corresponds well to the 'shaved coconut' or breadcrumb crust typical of this dish. The composition is professional, though the image is slightly soft with a shallow depth of field.",
+      "file_name": "portuguese-baked-curry-chicken-coconut.jpg",
+      "caption": "A delicious serving of Portuguese-style baked curry chicken in a white oven-safe dish, featuring chunks of chicken, green peppers, and carrots topped with a toasted coconut or breadcrumb crust.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Baked curry chicken with shaved coconut topping in an oven pan, golden brown, restaurant style",
+    "image_info": {
+      "url": "https://i0.wp.com/www.themissinglokness.com/wp-content/uploads/2011/05/BJG_7531-sf.jpg?fit=700%2C700&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 157937,
+      "width": 700,
+      "height": 700,
+      "total_pixels": 490000,
+      "basic_score": 0.860444109763767,
+      "file_name": "portuguese_chicken_curry_with_rice.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a high-quality professional food photograph of chicken curry with rice, which fits the general search query. However, it misses the specific 'shaved coconut topping' mentioned in the prompt, and the primary subject is a served bowl rather than the chicken being in an oven pan (though a pan is partially visible in the corner).",
+      "file_name": "portuguese_chicken_curry_with_rice.jpg",
+      "caption": "A top-down view of a vibrant yellow Portuguese-style chicken curry featuring tender chicken pieces, potatoes, and carrots, served with a side of fluffy white rice in a rustic ceramic bowl.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Baked curry chicken with shaved coconut topping in an oven pan, golden brown, restaurant style",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/P7rwibqju6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcarkculjh7HGIPREshHUdeANJ7A",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 63088,
+      "width": 686,
+      "height": 386,
+      "total_pixels": 264796,
+      "basic_score": 0.7768218934276154,
+      "file_name": "portuguese-baked-curry-chicken-oven-pan.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant to the search query, showcasing a Portuguese-style baked chicken dish with a curry-like sauce and black olives, which are characteristic of this cuisine. The golden-brown topping matches the prompt's request for a coconut topping. While the image has good color and composition, there is noticeable motion blur on the spoon and the pouring sauce, which slightly affects clarity.",
+      "file_name": "portuguese-baked-curry-chicken-oven-pan.jpg",
+      "caption": "A close-up of Portuguese-style baked curry chicken in a red oven pan, topped with a golden-brown crispy crust and black olives, as a rich yellow sauce is being poured over it.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Historic black and white or vintage photo of Macau colonial Portuguese street scene or old Macau restaurant",
+    "image_info": {
+      "url": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2019/05/17/718cb8d0-7559-11e9-933d-71f872cf659b_image_hires_095859.jpg?itok=BqpaS91p&v=1558058346",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 150399,
+      "width": 1020,
+      "height": 680,
+      "total_pixels": 693600,
+      "basic_score": 0.9073186858378395,
+      "file_name": "historic-macau-colonial-panorama-vintage.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "This is an authentic vintage black and white photograph of Macau during the colonial era. While it is a panoramic overlook rather than a street-level scene, it provides a comprehensive view of the colonial Portuguese architecture and the historical landscape requested. The clarity is good for a historical archive image.",
+      "file_name": "historic-macau-colonial-panorama-vintage.jpg",
+      "caption": "A historic black and white photograph overlooking colonial Macau, featuring two figures in the foreground looking out over the densely packed Portuguese-style buildings and the harbor.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Hong Kong cha chaan teng cafe interior vintage retro style with customers eating",
+    "image_info": {
+      "url": "https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2019/07/Listicle_Hero_DSC_6891.renditionimage.900.600.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 114862,
+      "width": 900,
+      "height": 600,
+      "total_pixels": 540000,
+      "basic_score": 0.8694614567901765,
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly captures the vintage Hong Kong 'cha chaan teng' aesthetic with iconic elements like retro mailboxes, red pendant lamps, and wooden furniture. While it matches the 'vintage retro' search query exceptionally well, it does not include 'customers eating' as specified in the prompt.",
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior.jpg",
+      "caption": "A stylish restaurant interior featuring a vintage Hong Kong theme, with a wall of colorful retro mailboxes, a wooden staircase, and a dining area illuminated by traditional red pendant lights.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Hong Kong cha chaan teng cafe interior vintage retro style with customers eating",
+    "image_info": {
+      "url": "https://zolimacitymag.com/wp-content/uploads/2025/10/Full_Cup_Cafe_4_2_MJP_Tokwawan-zolima_citymag.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 1359903,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9495286404264097,
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior-retro.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 80.0,
+      "explanation": "The image perfectly captures the vintage retro aesthetic of a Hong Kong-style cafe (cha chaan teng) with its characteristic tiled floor, wooden furniture, and nostalgic decor. However, it fails to meet the specific requirement in the prompt to show 'customers eating,' as the cafe is empty. The image is clear, well-composed, and free of watermarks.",
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior-retro.jpg",
+      "caption": "An atmospheric interior of a vintage Hong Kong cha chaan teng featuring classic wooden chairs, a glass-topped table, and a distinctive small-tiled mosaic floor. The background is filled with retro memorabilia, vintage toys, and traditional signage, creating a nostalgic mid-century aesthetic.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Hong Kong cha chaan teng cafe interior vintage retro style with customers eating",
+    "image_info": {
+      "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2025/04/23/ccf538782d0647d59824108e1940010e_Cha_Chaan_Teng_Hong_Kong_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 274678,
+      "width": 1120,
+      "height": 739,
+      "total_pixels": 827680,
+      "basic_score": 0.9386437488987522,
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior.jpg_6e"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 80.0,
+      "explanation": "The image perfectly captures the vintage retro aesthetic of a Hong Kong cha chaan teng, featuring iconic green-framed windows, mosaic floor tiles, and booth seating. However, it fails to meet the specific prompt requirement of 'with customers eating,' as the cafe is empty.",
+      "file_name": "vintage-hong-kong-cha-chaan-teng-interior.jpg",
+      "caption": "A nostalgic interior view of a traditional Hong Kong cha chaan teng, featuring green-framed windows, tiled walls and floors, and classic booth seating under natural daylight.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil noodles with egg, close up",
+    "image_info": {
+      "url": "https://tiffycooks.com/wp-content/uploads/2021/01/Screen-Shot-2022-01-19-at-11.20.28-PM.png",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 1000867,
+      "width": 1348,
+      "height": 1800,
+      "total_pixels": 2426400,
+      "basic_score": 0.6140092014964689,
+      "file_name": "chinese-shallot-oil-noodles-fried-egg.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a perfect match for the search query and prompt, featuring a classic 'noodle pull' shot of Chinese shallot oil noodles with a fried egg. The lighting is warm and inviting, and the composition is professional. There is a slight stylistic grain, but it doesn't detract from the subject and adds to the authentic aesthetic.",
+      "file_name": "chinese-shallot-oil-noodles-fried-egg.jpg",
+      "caption": "A close-up food photograph of Chinese shallot oil noodles (Cong You Ban Mian) in a ceramic bowl, with a person using chopsticks to lift a bundle of noodles. A fried egg is visible at the bottom of the bowl and in another bowl in the background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil noodles with egg, close up",
+    "image_info": {
+      "url": "https://i0.wp.com/chejorge.com/wp-content/uploads/2020/07/IMG_6363-1.jpg?resize=930%2C620&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 213408,
+      "width": 930,
+      "height": 620,
+      "total_pixels": 576600,
+      "basic_score": 0.8887738722957891,
+      "file_name": "chinese-shallot-oil-noodles-with-tofu.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a high-quality, professional food photograph of Chinese shallot oil noodles. It perfectly matches the search query. However, it fails to meet the specific prompt requirement of including an 'egg', as it features pan-fried tofu instead. Despite this, the composition and clarity are excellent.",
+      "file_name": "chinese-shallot-oil-noodles-with-tofu.jpg",
+      "caption": "A close-up, top-down view of a bowl of Chinese shallot oil noodles topped with crispy fried shallots, sliced green onions, and several pieces of savory pan-fried tofu garnished with sesame seeds, served in a black cast iron pan over a newspaper-lined surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil noodles with egg, close up",
+    "image_info": {
+      "url": "https://omnivorescookbook.com/wp-content/uploads/2024/04/240402_Scallion-Noodles_3.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 183534,
+      "width": 800,
+      "height": 1200,
+      "total_pixels": 960000,
+      "basic_score": 0.9133877547037567,
+      "file_name": "chinese-shallot-oil-noodles-scallion.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 80.0,
+      "clarity_score": 95.0,
+      "watermark_score": 40.0,
+      "overall_score": 75.0,
+      "explanation": "The image is a high-quality, professional photograph of Chinese scallion oil noodles, perfectly matching the search query. However, it fails to include an egg as specified in the prompt. Additionally, there is a prominent website watermark at the bottom of the frame.",
+      "file_name": "chinese-shallot-oil-noodles-scallion.jpg",
+      "caption": "A bowl of traditional Chinese scallion oil noodles topped with crispy fried scallions, served in a speckled ceramic bowl with chopsticks.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil noodles with egg, close up",
+    "image_info": {
+      "url": "https://i0.wp.com/www.wokandkin.com/wp-content/uploads/2021/09/Scallion-Oil-Noodles-Chopsticks-saved-for-web.png?fit=1200%2C1800&ssl=1",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 859626,
+      "width": 1200,
+      "height": 1800,
+      "total_pixels": 2160000,
+      "basic_score": 0.6759779574127436,
+      "file_name": "chinese-shallot-oil-noodles-chopsticks.gif"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 65.0,
+      "watermark_score": 100.0,
+      "overall_score": 75.0,
+      "explanation": "The image perfectly captures the essence of Chinese shallot oil noodles (Cong You Ban Mian) with a dynamic close-up shot of noodles being lifted by chopsticks. However, it fails to include the egg specifically mentioned in the user prompt. Additionally, as an animated GIF, the resolution and clarity are somewhat limited compared to a high-quality static photograph.",
+      "file_name": "chinese-shallot-oil-noodles-chopsticks.gif",
+      "caption": "A close-up, animated shot of Chinese shallot oil noodles being lifted from a white bowl with wooden chopsticks, showing the glossy sauce and garnishes of green onions and fried shallots.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Golden shallot oil being made in pan with green onions",
+    "image_info": {
+      "url": "https://www.beautifulvoyager.com/wp-content/uploads/2025/01/Promo-Website-Website-landscape-content-5-1-1024x683.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 100996,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.903311326768677,
+      "file_name": "homemade-golden-shallot-oil-aromatics.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is a high-quality, professional photograph of homemade shallot oil, which perfectly matches the search query. However, it does not strictly follow the prompt's request for the oil 'being made in a pan' or the inclusion of 'green onions,' as it shows the finished product in a jar surrounded by whole shallots. Despite this, the visual quality and thematic relevance are excellent.",
+      "file_name": "homemade-golden-shallot-oil-aromatics.jpg",
+      "caption": "A top-down view of a glass jar filled with golden, crispy fried shallots and aromatic shallot oil, with whole shallots, a cutting board, and a knife in the background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Golden shallot oil being made in pan with green onions",
+    "image_info": {
+      "url": "https://cookinginchinglish.com/wp-content/uploads/2021/09/fried-shallot-and-oil-2.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 113680,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9344247969609917,
+      "file_name": "homemade-shallot-oil-and-crispy-shallots.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly illustrates 'homemade shallot oil' and 'golden aromatics' from the search query. However, it does not match the specific action in the prompt, which requested the oil being made in a pan with green onions. Instead, it shows the finished products: the crispy fried shallots and the bottled oil. The photography is professional with excellent lighting and composition.",
+      "file_name": "homemade-shallot-oil-and-crispy-shallots.jpg",
+      "caption": "A two-part image showing golden, crispy fried shallots draining on a paper towel next to a small bowl of salt, and a glass mason jar filled with infused shallot oil labeled with a black chalkboard sticker.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Golden shallot oil being made in pan with green onions",
+    "image_info": {
+      "url": "https://www.beautifulvoyager.com/wp-content/uploads/2025/01/Promo-Website-Website-landscape-content-2-1-1024x683.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 72691,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9002989734239041,
+      "file_name": "homemade-golden-shallot-oil-aromatics.jpg_9a"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a high-quality professional photograph that perfectly matches the search query for 'homemade shallot oil'. However, it deviates from the specific prompt as it shows the finished product in a jar rather than the process of being made in a pan with green onions. The lighting and composition are excellent.",
+      "file_name": "homemade-golden-shallot-oil-aromatics.jpg",
+      "caption": "A glass jar filled with golden-hued homemade shallot oil containing crispy fried shallots, surrounded by whole raw red shallots on a light grey surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Golden shallot oil being made in pan with green onions",
+    "image_info": {
+      "url": "https://padaek.com/wp-content/uploads/2014/06/How-to-make-garlic-ginger-and-shallot-oil-16.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 197629,
+      "width": 1024,
+      "height": 769,
+      "total_pixels": 787456,
+      "basic_score": 0.9267280328499418,
+      "file_name": "homemade-golden-shallot-oil-fried-aromatics.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 95.0,
+      "watermark_score": 80.0,
+      "overall_score": 80.0,
+      "explanation": "The image is a high-quality representation of 'homemade shallot oil' and 'golden aromatics'. However, it does not strictly follow the prompt's request for the oil being made 'in a pan' or the inclusion of 'green onions'. Instead, it shows the finished product in a bowl with garlic and red onions as props. There is a small copyright watermark in the bottom right corner.",
+      "file_name": "homemade-golden-shallot-oil-fried-aromatics.jpg",
+      "caption": "A top-down view of a white bowl filled with golden-brown fried shallots and garlic submerged in oil, with raw ingredients like garlic bulbs, red onions, and a lime arranged on a wooden surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Portuguese curry chicken Macau style dish plated beautifully",
+    "image_info": {
+      "url": "https://www.tasteofhome.com/wp-content/uploads/2022/02/Macau-Style-Portuguese-Chicken-_EXPS_RC21_265854_E10_28_9b.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 274202,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8931166426273486,
+      "file_name": "portuguese-curry-chicken-macau-style.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image perfectly represents the Macanese dish 'Galinha à Portuguesa' (Portuguese Chicken). It includes all the signature elements: chicken in a creamy coconut curry sauce, olives, chorizo, hard-boiled egg, and a toasted coconut/breadcrumb topping, served over white rice. The clarity is excellent and there are no watermarks.",
+      "file_name": "portuguese-curry-chicken-macau-style.jpg",
+      "caption": "A beautifully plated Macanese Portuguese curry chicken dish featuring tender chicken in a rich coconut-based sauce, topped with toasted coconut, a slice of hard-boiled egg, and chorizo, served over a bed of white rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Portuguese curry chicken Macau style dish plated beautifully",
+    "image_info": {
+      "url": "https://i0.wp.com/themissinglokness.com/wp-content/uploads/2011/05/BJG_7531-sf.jpg?fit=850%2C850&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 645345,
+      "width": 850,
+      "height": 850,
+      "total_pixels": 722500,
+      "basic_score": 0.9423053584403785,
+      "file_name": "portuguese-curry-chicken-macau-style.jpg_78"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly represents the Macanese Portuguese chicken curry (Galinha à Portuguesa) as requested. It features a rich yellow curry with chicken and vegetables served with white rice. The photography is professional, clear, and lacks any watermarks.",
+      "file_name": "portuguese-curry-chicken-macau-style.jpg",
+      "caption": "A top-down view of a bowl containing Macau-style Portuguese chicken curry with chunks of chicken, potatoes, and carrots in a rich yellow sauce, served alongside a portion of steamed white rice on a rustic wooden surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Portuguese curry chicken Macau style dish plated beautifully",
+    "image_info": {
+      "url": "http://static1.squarespace.com/static/5cf97bedebe67c00015bee1a/601332288bbbfc383fa07882/60e348620418f76d99c9e44b/1712093144978/macau-style-portuguese-chicken-curry.jpg?format=1500w",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 269204,
+      "width": 1342,
+      "height": 1074,
+      "total_pixels": 1441308,
+      "basic_score": 0.8996181277391508,
+      "file_name": "macanese-portuguese-curry-chicken-galinha-a-portuguesa.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly depicts the Macanese dish 'Galinha à Portuguesa' (Portuguese chicken), which is a mild coconut-based curry bake. It features the signature golden-brown coconut topping and black olives. The inclusion of a Portuguese Super Bock beer and a side of rice adds excellent cultural context and authenticity. The composition is professional and appetizing.",
+      "file_name": "macanese-portuguese-curry-chicken-galinha-a-portuguesa.jpg",
+      "caption": "A beautifully plated Macanese Portuguese curry chicken (Galinha à Portuguesa) in a red ceramic baking dish, topped with toasted coconut and black olives, served alongside a bottle of Super Bock beer and a bowl of rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Portuguese curry chicken Macau style dish plated beautifully",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5cf97bedebe67c00015bee1a/1625632739293-BX6D219UMYEQEYBYVSM9/macau-style-portuguese-chicken-curry-vertical.JPG",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 314516,
+      "width": 1074,
+      "height": 1342,
+      "total_pixels": 1441308,
+      "basic_score": 0.876709637567107,
+      "file_name": "portuguese-curry-chicken-macau-style-dish.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly represents the Macau-style Portuguese chicken (Galinha à Portuguesa). It features the characteristic yellow curry sauce, olives, chorizo, and toasted coconut topping. The inclusion of a Super Bock beer bottle provides excellent cultural context. The image is clear, well-lit, and professionally composed.",
+      "file_name": "portuguese-curry-chicken-macau-style-dish.jpg",
+      "caption": "A top-down view of a traditional Macau-style Portuguese curry chicken, also known as Galinha à Portuguesa, baked in a white dish. The dish is rich with yellow curry sauce, potatoes, black olives, and sliced sausage, topped with toasted shredded coconut, and served alongside a Portuguese Super Bock beer.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil chicken legs dish, beautifully plated",
+    "image_info": {
+      "url": "https://hermanathome.com/wp-content/uploads/2025/07/Poached-Chicken-with-Shallot-Oil-Featured.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 101685,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8785734731546523,
+      "file_name": "chinese-shallot-oil-chicken-rice-bowl.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt. It depicts a professionally plated Chinese shallot oil chicken dish with rice and cucumbers. The lighting is bright and natural, the focus is sharp, and there are no watermarks.",
+      "file_name": "chinese-shallot-oil-chicken-rice-bowl.jpg",
+      "caption": "A top-down view of a Chinese shallot oil chicken dish served in a white bowl with steamed rice, sliced fresh cucumbers, and topped with crispy fried shallots and chopped green onions.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil chicken legs dish, beautifully plated",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/lu7y28Vx0xU/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 104001,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9303056205878256,
+      "file_name": "chinese_shallot_oil_chicken_legs_dish.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image perfectly matches the search query and prompt. It depicts a high-quality, professional photograph of Chinese shallot oil chicken legs, featuring excellent clarity, appetizing lighting, and clean plating without any watermarks.",
+      "file_name": "chinese_shallot_oil_chicken_legs_dish.jpg",
+      "caption": "A beautifully plated Chinese dish of tender sliced chicken legs drizzled with fragrant shallot oil and garnished with fresh chopped green onions in a white bowl.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil chicken legs dish, beautifully plated",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/oU2H9Hi5440/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA4t8YyUIppVxmRxBiYZLxOU2dGVw",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 69258,
+      "width": 686,
+      "height": 386,
+      "total_pixels": 264796,
+      "basic_score": 0.7777218000051269,
+      "file_name": "chinese-shallot-oil-chicken-plated.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image perfectly matches the search query and prompt. It shows a professionally plated Chinese shallot oil chicken dish, garnished with a generous amount of shredded scallions and surrounded by cucumber slices. The clarity and lighting are excellent, and there are no watermarks.",
+      "file_name": "chinese-shallot-oil-chicken-plated.jpg",
+      "caption": "A beautifully plated Chinese shallot oil chicken dish, featuring tender poached chicken topped with a mountain of fresh shredded scallions and served with cucumber slices on a white square plate.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil chicken legs dish, beautifully plated",
+    "image_info": {
+      "url": "https://daigasikfaan.co/wp-content/uploads/2024/08/IMG_7719-scaled.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 1129748,
+      "width": 2048,
+      "height": 2560,
+      "total_pixels": 5242880,
+      "basic_score": 0.46783259418908363,
+      "file_name": "chinese-shallot-oil-chicken-rice.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image perfectly matches the search query and prompt. It depicts a beautifully plated Chinese shallot oil chicken dish with crispy skin, served over white rice and topped with a vibrant scallion and shallot oil sauce. The clarity is excellent, and there are no watermarks.",
+      "file_name": "chinese-shallot-oil-chicken-rice.jpg",
+      "caption": "A top-down view of sliced, crispy-skinned Chinese shallot oil chicken served over a bed of fluffy white rice, topped with sautéed scallions and shallots on a light green ceramic plate.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Chinese shallot oil chicken legs dish, beautifully plated",
+    "image_info": {
+      "url": "https://thecantonesecook.com/wp-content/uploads/2024/04/Sand-Ginger-Scallion-Oil-Chicken.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 164978,
+      "width": 960,
+      "height": 1280,
+      "total_pixels": 1228800,
+      "basic_score": 0.9105247448731313,
+      "file_name": "chinese-shallot-oil-chicken-clay-pot.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 92.0,
+      "clarity_score": 88.0,
+      "watermark_score": 100.0,
+      "overall_score": 87.0,
+      "explanation": "The image is highly relevant to the search query, showing a traditional Chinese chicken dish that appears to be cooked in oil and aromatics. The clarity is excellent, with fine details of the chicken skin and sauce visible. There are no watermarks. While the plating is rustic (served directly in the cooking pot) rather than stylized fine-dining, it is authentic and visually appealing for food-related content.",
+      "file_name": "chinese-shallot-oil-chicken-clay-pot.jpg",
+      "caption": "A top-down view of Chinese shallot oil chicken pieces simmered in a savory sauce, served in a traditional black ceramic pot.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Scenic rice paddies farmland in Taishan Guangdong China",
+    "image_info": {
+      "url": "https://wildchina.com/wp-content/uploads/2021/12/3-Ziquejie-Rice-Terraces-Hunan-1024x684.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 152425,
+      "width": 1024,
+      "height": 684,
+      "total_pixels": 700416,
+      "basic_score": 0.9087747823245489,
+      "file_name": "scenic-terraced-rice-paddies-taishan-guangdong.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 65.0,
+      "watermark_score": 100.0,
+      "overall_score": 78.0,
+      "explanation": "The image is a perfect visual match for the search query, showcasing lush green terraced rice paddies typical of the Taishan region in Guangdong. It features good composition with corn stalks in the foreground leading the eye to the terraces. However, the image suffers from noticeable compression artifacts and a lack of fine detail/sharpness, which lowers the clarity score.",
+      "file_name": "scenic-terraced-rice-paddies-taishan-guangdong.jpg",
+      "caption": "A scenic view of vibrant green terraced rice paddies and farmland on a hillside in Taishan, Guangdong, China, with corn plants in the foreground.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Cantonese claypot rice bo zai fan with crispy bottom",
+    "image_info": {
+      "url": "https://assets.bonappetit.com/photos/602c1aa8ddbee1d008caf328/1:1/w_2560%2Cc_limit/GoLive-Clay-Pot-Chicken.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 311144,
+      "width": 1125,
+      "height": 1125,
+      "total_pixels": 1265625,
+      "basic_score": 0.9268616048041145,
+      "file_name": "cantonese-claypot-rice-bo-zai-fan.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image is an excellent representation of Cantonese claypot rice (Bo Zai Fan). it features all the traditional components: the earthenware pot, lap cheong (Chinese sausage), chicken, shiitake mushrooms, and bok choy. The clarity and lighting are professional, and there are no watermarks. While the 'crispy bottom' mentioned in the prompt isn't visible from this top-down angle, the dish is authentic to the search query.",
+      "file_name": "cantonese-claypot-rice-bo-zai-fan.jpg",
+      "caption": "A high-angle, professional photograph of traditional Cantonese claypot rice (Bo Zai Fan) in an earthenware pot, topped with sliced Chinese sausage, chicken, shiitake mushrooms, bok choy, and garnished with fresh scallions.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Cantonese claypot rice bo zai fan with crispy bottom",
+    "image_info": {
+      "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/7/17/fnk_BO_ZAI_FAN_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1689609767196.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 104834,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.940388236874288,
+      "file_name": "cantonese-claypot-rice-bo-zai-fan-crispy-bottom.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 94.0,
+      "explanation": "The image perfectly captures the essence of Cantonese claypot rice (Bo Zai Fan). It clearly shows the 'crispy bottom' rice crust mentioned in the prompt, along with traditional ingredients like Chinese sausage (lap cheong). The lighting is professional, the composition is aesthetically pleasing with the wooden background and colorful bowls, and there are no watermarks.",
+      "file_name": "cantonese-claypot-rice-bo-zai-fan-crispy-bottom.jpg",
+      "caption": "A top-down view of bowls filled with Cantonese claypot rice (Bo Zai Fan), featuring savory Chinese sausage, scallions, and golden crispy rice crust on a rustic wooden table with chopsticks.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Cantonese claypot rice bo zai fan with crispy bottom",
+    "image_info": {
+      "url": "https://www.asiancookingmom.com/wp-content/uploads/2022/02/Cantonese-Style-Clay-Pot-Rice-with-Sausages-19-of-19-850x567.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 221361,
+      "width": 850,
+      "height": 567,
+      "total_pixels": 481950,
+      "basic_score": 0.8653514984824036,
+      "file_name": "cantonese-claypot-rice-bo-zai-fan-sausage-egg.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 94.0,
+      "explanation": "The image is a high-quality, clear representation of Cantonese claypot rice (bo zai fan). It features the classic ingredients: Chinese sausage, bok choy, and an egg. While the 'crispy bottom' mentioned in the prompt isn't visible from this top-down angle, the dish is unmistakably the correct type. The colors and textures are vibrant and professional.",
+      "file_name": "cantonese-claypot-rice-bo-zai-fan-sausage-egg.jpg",
+      "caption": "A top-down close-up of a traditional Cantonese claypot rice dish, featuring rows of sliced Chinese sausage, vibrant green steamed bok choy, and a sunny-side-up egg on a bed of seasoned white rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Cantonese claypot rice bo zai fan with crispy bottom",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/GtG80XG4Lbg/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 108383,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9307395010876445,
+      "file_name": "cantonese-claypot-rice-bo-zai-fan.jpg_9c"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is an excellent representation of Cantonese claypot rice (Bo Zai Fan). It clearly shows the traditional clay pot and the specific types of Cantonese sausages (lap cheong and yun cheong) typically used. While the 'crispy bottom' isn't fully visible from this angle, the toasted edges of the rice suggest its presence. The image is clear and free of watermarks.",
+      "file_name": "cantonese-claypot-rice-bo-zai-fan.jpg",
+      "caption": "A traditional Cantonese claypot rice (Bo Zai Fan) featuring steamed white rice topped with Chinese wind-dried sausages (lap cheong) and liver sausages (yun cheong) in a rustic clay pot.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Lee Kum Kee sweet soy sauce bottle yellow label product photo",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/A14TLGZ6TqL.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 1795396,
+      "width": 1504,
+      "height": 922,
+      "total_pixels": 1386688,
+      "basic_score": 0.8599765660753363,
+      "file_name": "lee-kum-kee-sweet-soy-sauce-claypot-product-photo.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image perfectly matches both the search query and the prompt. It features a Lee Kum Kee sweet soy sauce bottle with its characteristic yellow label prominently displayed alongside a steaming claypot dish. The photography is professional, with excellent lighting, sharp focus, and a clean composition suitable for advertising or editorial use.",
+      "file_name": "lee-kum-kee-sweet-soy-sauce-claypot-product-photo.jpg",
+      "caption": "A high-quality product photo showing a bottle of Lee Kum Kee Sweet Soy Sauce with a yellow label placed next to a traditional ceramic claypot containing a braised pork dish, garnished with sliced green onions on a wooden mat.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Lee Kum Kee sweet soy sauce bottle yellow label product photo",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61cQeLOpkqL._AC_UF894,1000_QL80_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 67064,
+      "width": 565,
+      "height": 1000,
+      "total_pixels": 565000,
+      "basic_score": 0.8552938930630773,
+      "file_name": "lee-kum-kee-sweet-soy-sauce-yellow-label-claypot.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image perfectly matches both the search query and the prompt. It displays two bottles of Lee Kum Kee Sweet Soy Sauce with the characteristic yellow label. The label specifically mentions its use for claypot rice (indicated in Chinese characters), which aligns with the search query. The clarity is excellent, and there are no watermarks.",
+      "file_name": "lee-kum-kee-sweet-soy-sauce-yellow-label-claypot.jpg",
+      "caption": "A product photograph showing two 14 fl oz bottles of Lee Kum Kee Sweet Soy Sauce with distinctive yellow labels, featuring a serving suggestion of claypot rice topped with a fried egg.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Lee Kum Kee sweet soy sauce bottle yellow label product photo",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61NxTIaGywL._AC_UF894,1000_QL80_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 33997,
+      "width": 240,
+      "height": 1000,
+      "total_pixels": 240000,
+      "basic_score": 0.7357666013388621,
+      "file_name": "lee-kum-kee-sweet-soy-sauce-yellow-label-claypot.jpg_29"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a perfect match for both the search query and the prompt. It clearly shows the Lee Kum Kee Sweet Soy Sauce bottle with its signature yellow label. The label specifically includes the Chinese characters for 'Claypot Rice Soy Sauce', directly addressing the search query. The image is clear, professionally shot against a white background, and free of external watermarks.",
+      "file_name": "lee-kum-kee-sweet-soy-sauce-yellow-label-claypot.jpg",
+      "caption": "A professional product photograph of a Lee Kum Kee Sweet Soy Sauce bottle (14 fl oz / 410 ml) featuring a gold and yellow label with a serving suggestion for claypot rice.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A gorgeous finished Cantonese clay pot rice with chicken, Chinese sausage, and mushrooms, dark glossy soy sauce, crispy golden bottom visible",
+    "image_info": {
+      "url": "https://assets.bonappetit.com/photos/602c1aa8ddbee1d008caf328/1:1/w_2560%2Cc_limit/GoLive-Clay-Pot-Chicken.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 311144,
+      "width": 1125,
+      "height": 1125,
+      "total_pixels": 1265625,
+      "basic_score": 0.9268616048041145,
+      "file_name": "cantonese-clay-pot-rice-chicken-sausage-mushrooms.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 92.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is an excellent representation of Cantonese clay pot rice, featuring all the key ingredients mentioned in the prompt: chicken, Chinese sausage, and mushrooms. The photography is professional, with high clarity and a clean composition. While the 'crispy golden bottom' is not visible due to the top-down angle, the dish is beautifully presented and highly relevant to the search query.",
+      "file_name": "cantonese-clay-pot-rice-chicken-sausage-mushrooms.jpg",
+      "caption": "A top-down view of a traditional Cantonese clay pot rice (Bo Zai Fan) topped with tender chicken, sliced Chinese sausage, shiitake mushrooms, and vibrant green bok choy, garnished with fresh scallions.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A gorgeous finished Cantonese clay pot rice with chicken, Chinese sausage, and mushrooms, dark glossy soy sauce, crispy golden bottom visible",
+    "image_info": {
+      "url": "https://i0.wp.com/blog.themalamarket.com/wp-content/uploads/2024/12/claypotrice-drizzle2-dark.jpg?resize=800%2C600&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 127862,
+      "width": 800,
+      "height": 600,
+      "total_pixels": 480000,
+      "basic_score": 0.8550110725277474,
+      "file_name": "cantonese-clay-pot-rice-bo-zai-fan-sausage-egg.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a high-quality representation of Cantonese clay pot rice (Bo Zai Fan). It features Chinese sausage and an egg, which are common ingredients. However, it misses the specific request for chicken and mushrooms from the prompt, and the crispy golden bottom is not visible in the main pot shown, though the dish itself is authentic and visually appealing.",
+      "file_name": "cantonese-clay-pot-rice-bo-zai-fan-sausage-egg.jpg",
+      "caption": "A top-down view of a traditional Cantonese clay pot rice (Bo Zai Fan) topped with sliced Chinese sausage, a perfectly cooked egg with a runny yolk, and garnished with fresh green onions and a drizzle of soy sauce.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A gorgeous finished Cantonese clay pot rice with chicken, Chinese sausage, and mushrooms, dark glossy soy sauce, crispy golden bottom visible",
+    "image_info": {
+      "url": "https://www.asiancookingmom.com/wp-content/uploads/2022/02/Cantonese-Style-Clay-Pot-Rice-with-Sausages-19-of-19-850x567.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 221361,
+      "width": 850,
+      "height": 567,
+      "total_pixels": 481950,
+      "basic_score": 0.8653514984824036,
+      "file_name": "cantonese-clay-pot-rice-sausage-egg-bok-choy.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image is a high-quality, clear depiction of Cantonese clay pot rice (Bo Zai Fan). It features Chinese sausage and a glossy sauce as requested. However, it lacks the chicken and mushrooms specified in the prompt, and the 'crispy golden bottom' is not visible from this top-down angle.",
+      "file_name": "cantonese-clay-pot-rice-sausage-egg-bok-choy.jpg",
+      "caption": "A delicious bowl of Cantonese clay pot rice topped with arranged slices of Chinese sausage, fresh bok choy, and a soft-cooked egg, all drizzled with a savory soy-based sauce.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A gorgeous finished Cantonese clay pot rice with chicken, Chinese sausage, and mushrooms, dark glossy soy sauce, crispy golden bottom visible",
+    "image_info": {
+      "url": "https://i0.wp.com/blog.themalamarket.com/wp-content/uploads/2024/12/claypotrice-hero2-dark.jpg?resize=800%2C600&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 135945,
+      "width": 800,
+      "height": 600,
+      "total_pixels": 480000,
+      "basic_score": 0.8559188370774898,
+      "file_name": "cantonese-clay-pot-rice-sausage-egg.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image clearly shows a traditional Cantonese clay pot rice (Bo Zai Fan). While it features Chinese sausage and cured meats, it lacks the chicken and mushrooms requested in the prompt. Additionally, the dark glossy soy sauce and crispy bottom mentioned in the prompt are not visible, as the rice appears mostly white and the view is from above. However, the image quality is excellent and it is a very authentic representation of the dish.",
+      "file_name": "cantonese-clay-pot-rice-sausage-egg.jpg",
+      "caption": "A top-down view of a traditional Cantonese clay pot rice (Bo Zai Fan) served in a ceramic pot, topped with sliced Chinese sausage, cured meats, green ginkgo nuts, and a fresh egg yolk.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "A gorgeous finished Cantonese clay pot rice with chicken, Chinese sausage, and mushrooms, dark glossy soy sauce, crispy golden bottom visible",
+    "image_info": {
+      "url": "https://i0.wp.com/blog.themalamarket.com/wp-content/uploads/2024/12/claypotrice-larou.jpg?resize=800%2C600&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 104508,
+      "width": 800,
+      "height": 600,
+      "total_pixels": 480000,
+      "basic_score": 0.8523492049300294,
+      "file_name": "cantonese-clay-pot-rice-pork-mushrooms-egg.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 88.0,
+      "watermark_score": 100.0,
+      "overall_score": 78.0,
+      "explanation": "The image is a high-quality photograph of Cantonese clay pot rice (Bo Zai Fan). However, it doesn't perfectly match the prompt's specific ingredients; it features pork belly and a soft-cooked egg instead of chicken and Chinese sausage. Additionally, the dark soy sauce glaze and the crispy bottom mentioned in the prompt are not visible. Despite these discrepancies, it is a very relevant and clear representation of the dish category.",
+      "file_name": "cantonese-clay-pot-rice-pork-mushrooms-egg.jpg",
+      "caption": "A top-down view of a traditional Cantonese clay pot rice (Bo Zai Fan) served with succulent pork belly, sliced shiitake mushrooms, and a soft-cooked egg, garnished with fresh green onions.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Shanghai EDITION hotel exterior and lobby, luxury boutique hotel on Nanjing Pedestrian Road Shanghai",
+    "image_info": {
+      "url": "https://cdn.mos.cms.futurecdn.net/SPfAobHwa9AT3GwfyRSCvc.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 991249,
+      "width": 1540,
+      "height": 944,
+      "total_pixels": 1453760,
+      "basic_score": 0.9141175608480215,
+      "file_name": "shanghai-edition-hotel-lobby-luxury-staircase.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly captures the iconic bronze spiral staircase and lobby bar area of The Shanghai EDITION hotel, which is exactly what the search query and prompt requested. The architectural photography is high-quality, well-lit, and professionally composed.",
+      "file_name": "shanghai-edition-hotel-lobby-luxury-staircase.jpg",
+      "caption": "A stunning view of the luxury lobby bar at The Shanghai EDITION hotel, showcasing the signature sculptural bronze spiral staircase, vertical wood-slatted walls, and sleek modern furniture in a high-ceilinged space.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Shanghai EDITION hotel exterior and lobby, luxury boutique hotel on Nanjing Pedestrian Road Shanghai",
+    "image_info": {
+      "url": "https://cache.marriott.com/content/dam/marriott-renditions/SHAEB/shaeb-hiya-6802-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1300px:*",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 159407,
+      "width": 1300,
+      "height": 866,
+      "total_pixels": 1125800,
+      "basic_score": 0.9377446719123046,
+      "file_name": "shanghai-edition-hotel-lobby-spiral-staircase-luxury.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly captures the iconic lobby of The Shanghai EDITION hotel, specifically highlighting the signature bronze spiral staircase and the warm, wood-paneled interior. It is highly relevant to the search query and prompt, showcasing the luxury boutique atmosphere. The image is clear, well-composed, and free of watermarks.",
+      "file_name": "shanghai-edition-hotel-lobby-spiral-staircase-luxury.jpg",
+      "caption": "A sophisticated view of the luxury lobby at The Shanghai EDITION hotel, featuring a dramatic bronze spiral staircase, warm wooden slat walls, and elegant seating areas with soft ambient lighting.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Shanghai EDITION hotel exterior and lobby, luxury boutique hotel on Nanjing Pedestrian Road Shanghai",
+    "image_info": {
+      "url": "https://cdn.mos.cms.futurecdn.net/76eiiMvtsbQhPKaCtvh379.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 1100782,
+      "width": 1540,
+      "height": 944,
+      "total_pixels": 1453760,
+      "basic_score": 0.9098621221276063,
+      "file_name": "shanghai-edition-hotel-lobby-luxury.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query for The Shanghai EDITION hotel lobby. It captures the iconic design elements of the hotel, including the massive globe pendant light and the high wood-coffered ceiling. The quality is professional, with excellent lighting and no watermarks.",
+      "file_name": "shanghai-edition-hotel-lobby-luxury.jpg",
+      "caption": "The grand lobby of The Shanghai EDITION hotel featuring a signature large globe pendant light, high wood-paneled ceilings, and a sophisticated bar area with a back-lit bottle display.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Shanghai EDITION hotel exterior and lobby, luxury boutique hotel on Nanjing Pedestrian Road Shanghai",
+    "image_info": {
+      "url": "https://cache.marriott.com/content/dam/marriott-renditions/SHAEB/shaeb-urban-lobby-6804-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 344468,
+      "width": 1920,
+      "height": 768,
+      "total_pixels": 1474560,
+      "basic_score": 0.8414421446522443,
+      "file_name": "shanghai-edition-hotel-luxury-lobby-interior.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query, showing the iconic lobby of The Shanghai EDITION hotel. The composition is professional, capturing the luxury boutique aesthetic, including the signature hanging greenery and the fireplace. Clarity is good, though the resolution could be slightly higher for large-scale use.",
+      "file_name": "shanghai-edition-hotel-luxury-lobby-interior.jpg",
+      "caption": "A sophisticated interior view of the lobby lounge at The Shanghai EDITION hotel, featuring warm atmospheric lighting, a modern fireplace filled with candles, and a striking green plant installation suspended from the high ceiling.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Shanghai EDITION hotel exterior and lobby, luxury boutique hotel on Nanjing Pedestrian Road Shanghai",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/7a/9e/22/caption.jpg?w=1100&h=-1&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 375813,
+      "width": 1100,
+      "height": 1467,
+      "total_pixels": 1613700,
+      "basic_score": 0.8361033188183726,
+      "file_name": "shanghai-edition-hotel-luxury-lobby-bar.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly captures the iconic lobby bar of The Shanghai EDITION, matching the search query for 'luxury' and 'lobby'. It features the signature large globe light and wood-paneled walls characteristic of the property. While it doesn't show the exterior mentioned in the prompt, it is a high-quality, relevant interior shot.",
+      "file_name": "shanghai-edition-hotel-luxury-lobby-bar.jpg",
+      "caption": "A sophisticated view of the lobby bar at The Shanghai EDITION hotel, showcasing the dramatic oversized globe pendant light, dark wood-paneled walls, and a fully stocked, backlit bar with elegant lounge seating.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Sea World Shenzhen waterfront restaurants dining evening scene",
+    "image_info": {
+      "url": "https://www.driveontheleft.com/wp-content/uploads/2018/08/SeaWorld-8-min.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 263445,
+      "width": 973,
+      "height": 649,
+      "total_pixels": 631477,
+      "basic_score": 0.9057505696484108,
+      "file_name": "tequila-coyotes-sea-world-shenzhen-mexican-restaurant.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly captures Tequila Coyote's, a popular Mexican restaurant in the Sea World (海上世界) district of Shenzhen. It is highly relevant to the search query for dining in this area. Although the lighting suggests daytime rather than the 'evening scene' mentioned in the prompt, the clarity, resolution, and composition are excellent, and there are no watermarks.",
+      "file_name": "tequila-coyotes-sea-world-shenzhen-mexican-restaurant.jpg",
+      "caption": "Exterior view of Tequila Coyote's Mexican Food & Grill at Sea World (海上世界) in Shekou, Shenzhen, featuring outdoor patio seating and lush tropical landscaping.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Sea World Shenzhen waterfront restaurants dining evening scene",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/aa/ea/49/the-water-fountains.jpg?w=1200&h=-1&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 262222,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9477836888890964,
+      "file_name": "sea-world-shenzhen-minghua-ship-waterfront-night.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly captures the iconic Minghua ship at Sea World Shenzhen, which is the heart of the area's waterfront dining scene. It matches the search query and prompt very well, depicting the evening atmosphere of this popular dining destination. The image is clear and well-composed, although some digital noise is present in the dark sky.",
+      "file_name": "sea-world-shenzhen-minghua-ship-waterfront-night.jpg",
+      "caption": "A vibrant night view of the Minghua ship at Sea World Shenzhen, showing the illuminated waterfront area with restaurants, fountains, and a glowing pyramid structure.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Sea World Shenzhen waterfront restaurants dining evening scene",
+    "image_info": {
+      "url": "http://www.eyeshenzhen.com/pic/2023-05/12/30222725_c1b5aa79-06b1-465c-b990-eeaebdba9d81.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 310338,
+      "width": 764,
+      "height": 511,
+      "total_pixels": 390404,
+      "basic_score": 0.8479160712725002,
+      "file_name": "sea-world-shenzhen-waterfront-dinner-minghua.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a perfect match for the search query and prompt, capturing the iconic Minghua ship and waterfront dining atmosphere at Sea World Shenzhen. While the composition is excellent for the topic, the image lacks high-end sharpness and shows some graininess, likely due to the evening lighting conditions.",
+      "file_name": "sea-world-shenzhen-waterfront-dinner-minghua.jpg",
+      "caption": "Diners enjoy an evening meal at an outdoor waterfront restaurant at Sea World in Shekou, Shenzhen, with the historic Minghua ship prominently featured in the background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Sea World Shenzhen waterfront restaurants dining evening scene",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/yR0F6-LPMLk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBg9M7tZ-IsLmixK-q5f5nT4_DFKg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 82704,
+      "width": 686,
+      "height": 386,
+      "total_pixels": 264796,
+      "basic_score": 0.7796659754563269,
+      "file_name": "sea-world-shenzhen-waterfront-dining-minghua-ship.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 85.0,
+      "watermark_score": 70.0,
+      "overall_score": 82.0,
+      "explanation": "The image perfectly captures the requested location, Sea World Shenzhen, including the iconic Minghua ship and waterfront restaurant seating. However, the scene is during the day rather than the 'evening' specified in the prompt, and there is a visible social media watermark in the bottom-left corner.",
+      "file_name": "sea-world-shenzhen-waterfront-dining-minghua-ship.jpg",
+      "caption": "A scenic view of the waterfront dining area at Sea World in Shenzhen, featuring the iconic Minghua ship and modern architecture under a bright blue sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Sea World Shenzhen waterfront restaurants dining evening scene",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2f/32/a1/a7/entrance.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 223078,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9414110020571124,
+      "file_name": "sea-world-shenzhen-pizzeria-alla-torre-evening.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 60.0,
+      "watermark_score": 100.0,
+      "overall_score": 72.0,
+      "explanation": "The image accurately depicts a popular dining spot (Pizzeria Alla Torre and The Winebar) in the Sea World area of Shenzhen during the evening, which aligns well with the search query. However, the resolution is relatively low, and while the location is part of a waterfront development, no water is actually visible in the shot.",
+      "file_name": "sea-world-shenzhen-pizzeria-alla-torre-evening.jpg",
+      "caption": "An evening view of the Pizzeria Alla Torre and The Winebar facade at Sea World in Shekou, Shenzhen.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Andaz Shenzhen Bay hotel exterior and bay view, luxury hotel Shenzhen",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/dd/07/c8/hotel-exterior.jpg?w=900&h=500&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 99396,
+      "width": 900,
+      "height": 500,
+      "total_pixels": 450000,
+      "basic_score": 0.841954894033182,
+      "file_name": "andaz-shenzhen-bay-hotel-luxury-exterior-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly captures the Andaz Shenzhen Bay hotel (the dark rectangular tower) situated next to the iconic 'Spring Bamboo' China Resources Tower. It provides a luxurious bay view exterior as requested, with high clarity and professional composition including a floral foreground.",
+      "file_name": "andaz-shenzhen-bay-hotel-luxury-exterior-view.jpg",
+      "caption": "A scenic exterior view of the Andaz Shenzhen Bay hotel and the China Resources Tower standing prominently over the Shenzhen Bay skyline, framed by waterfront greenery and flowers.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Andaz Shenzhen Bay hotel exterior and bay view, luxury hotel Shenzhen",
+    "image_info": {
+      "url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/761017725.jpg?k=7a30ec804de0aa5df50257ba5a501040361e457de9e59c48fcbb798d20d57192&o=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 33064,
+      "width": 500,
+      "height": 380,
+      "total_pixels": 190000,
+      "basic_score": 0.7442979944760904,
+      "file_name": "andaz-shenzhen-bay-luxury-hotel-exterior-skyline.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly matches the search query and prompt. It clearly shows the Andaz Shenzhen Bay hotel (identifiable by the signage on the top of the rectangular building) situated next to the iconic China Resources Tower. The composition includes the bay in the foreground and a luxury twilight atmosphere. The clarity is good for web use, though it lacks ultra-high-definition sharpness.",
+      "file_name": "andaz-shenzhen-bay-luxury-hotel-exterior-skyline.jpg",
+      "caption": "A stunning twilight aerial view of the Andaz Shenzhen Bay hotel and the China Resources Tower skyscraper in the Nanshan District of Shenzhen, China, overlooking the bay.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Andaz Shenzhen Bay hotel exterior and bay view, luxury hotel Shenzhen",
+    "image_info": {
+      "url": "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/https://media.iceportal.com/138711/photos/76614497_XL/ANdAZ-Shenzhen-Bay-Exterior.jpg?tr=w-780%2Ch-437%2Cfo-auto",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 59765,
+      "width": 780,
+      "height": 437,
+      "total_pixels": 340860,
+      "basic_score": 0.8028747348231958,
+      "file_name": "andaz-shenzhen-bay-luxury-hotel-skyline-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly captures the requested location, showing the Shenzhen Bay skyline and the luxury developments where the Andaz hotel is situated during a scenic golden hour. While the composition and lighting are excellent, the image resolution is somewhat low, leading to a loss of fine detail upon closer inspection.",
+      "file_name": "andaz-shenzhen-bay-luxury-hotel-skyline-view.jpg",
+      "caption": "A breathtaking aerial view of the Shenzhen Bay skyline at sunset, showcasing modern luxury skyscrapers, the iconic 'Spring Bamboo' tower, and a lush waterfront park.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Andaz Shenzhen Bay hotel exterior and bay view, luxury hotel Shenzhen",
+    "image_info": {
+      "url": "https://images.trvl-media.com/lodging/60000000/59960000/59951000/59950936/a1293d8c.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 202993,
+      "width": 911,
+      "height": 575,
+      "total_pixels": 523825,
+      "basic_score": 0.8725140621686696,
+      "file_name": "andaz-shenzhen-bay-luxury-rooftop-garden-night.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 78.0,
+      "explanation": "The image accurately depicts the exterior of a luxury building in Shenzhen, specifically showcasing the iconic rooftop garden of the Andaz Shenzhen Bay. While it captures the luxury and exterior elements well, it lacks a direct 'bay view' as requested in the query. The resolution is slightly low, resulting in some softness and grain in darker areas.",
+      "file_name": "andaz-shenzhen-bay-luxury-rooftop-garden-night.jpg",
+      "caption": "An aerial nighttime view of the luxurious rooftop garden at Andaz Shenzhen Bay, featuring illuminated trees and a decorative glass pyramid structure set against the modern urban architecture.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Andaz Shenzhen Bay hotel exterior and bay view, luxury hotel Shenzhen",
+    "image_info": {
+      "url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/282527083.jpg?k=19b62803f4069dc87710caa4d14b918d52a5bf41f8c419a8e51fb00303e68fa3&o=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 40696,
+      "width": 500,
+      "height": 327,
+      "total_pixels": 163500,
+      "basic_score": 0.7343642015332497,
+      "file_name": "andaz-shenzhen-bay-hotel-exterior.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 72.0,
+      "explanation": "The image clearly shows the 'Andaz' branding on a modern hotel exterior, which matches the primary subject of the search query. However, it does not include a 'bay view' as specifically requested in both the query and the prompt. The image quality is acceptable but shows some signs of low resolution and compression.",
+      "file_name": "andaz-shenzhen-bay-hotel-exterior.jpg",
+      "caption": "A view of the modern glass facade of the Andaz Shenzhen Bay hotel, partially framed by lush green tree branches against a clear blue sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Qiao Ai Lai Lai xiaolongbao soup dumplings Shanghai restaurant",
+    "image_info": {
+      "url": "https://rachelgouk.com/wp-content/uploads/2023/05/lai-lai-best-xiaolongbao-shanghai-6-2.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 106966,
+      "width": 900,
+      "height": 600,
+      "total_pixels": 540000,
+      "basic_score": 0.8685858219209285,
+      "file_name": "lai-lai-xiaolongbao-shanghai-restaurant-exterior.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query as it shows the storefront of the 'Lai Lai Xiao Long' (莱莱小笼) restaurant, which is famous for its soup dumplings (xiaolongbao) in Shanghai near Nanjing Road. The clarity is excellent, allowing the signage and address numbers (504, 506) to be clearly read, and there are no watermarks.",
+      "file_name": "lai-lai-xiaolongbao-shanghai-restaurant-exterior.jpg",
+      "caption": "A street-level photograph of the Lai Lai Xiao Long (莱莱小笼) restaurant storefront in Shanghai, showing its distinctive brown sign with yellow Chinese characters and an open doorway leading into the dining area.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Qiao Ai Lai Lai xiaolongbao soup dumplings Shanghai restaurant",
+    "image_info": {
+      "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6dc5024b28cf40a88f306ae9ffe71247.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 53043,
+      "width": 500,
+      "height": 500,
+      "total_pixels": 250000,
+      "basic_score": 0.7718877300032749,
+      "file_name": "qiao-ai-lai-lai-xiaolongbao-shanghai-soup-dumplings.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It shows the signature style of xiaolongbao from the famous Qiao Ai Lai Lai restaurant in Shanghai, where the large dumplings are served in individual small bowls inside a bamboo steamer to preserve the soup. The image is clear, well-composed, and free of watermarks.",
+      "file_name": "qiao-ai-lai-lai-xiaolongbao-shanghai-soup-dumplings.jpg",
+      "caption": "A traditional bamboo steamer containing four large, pleated xiaolongbao (soup dumplings) served in individual white ceramic bowls at the Qiao Ai Lai Lai restaurant in Shanghai.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Qiao Ai Lai Lai xiaolongbao soup dumplings Shanghai restaurant",
+    "image_info": {
+      "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/11/23/18e1778a2dcf4311ad449dc672adfff8_shanghai_xiao_long_bao_Qiao_Ai_Lai_Lai_Xiao_Long_%28Huangpu%29_4.JPG",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 103283,
+      "width": 720,
+      "height": 479,
+      "total_pixels": 344880,
+      "basic_score": 0.8104680493963703,
+      "file_name": "qiao-ai-lai-lai-xiaolongbao-shanghai-soup-dumplings.jpg_e0"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is an excellent representation of the search query, showing high-quality xiaolongbao (soup dumplings) served in a traditional bamboo steamer. The focus is sharp on the dumplings, and the composition is professional with no watermarks.",
+      "file_name": "qiao-ai-lai-lai-xiaolongbao-shanghai-soup-dumplings.jpg",
+      "caption": "Four delicate xiaolongbao soup dumplings served in individual saucers inside a traditional bamboo steamer at a restaurant in Shanghai.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Qiao Ai Lai Lai xiaolongbao soup dumplings Shanghai restaurant",
+    "image_info": {
+      "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/11/23/9ebbf2d8c1894d5f8c06f21569e30c4b_Qiao_Ai_Lai_Lai_Xiao_Long_%28Huangpu%29_5.JPG",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 137095,
+      "width": 720,
+      "height": 479,
+      "total_pixels": 344880,
+      "basic_score": 0.8147255045737232,
+      "file_name": "lai-lai-xiaolongbao-shanghai-restaurant-sign.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 82.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image perfectly matches the search query as it features the prominent signage of 'Lai Lai Xiao Long' (莱莱小笼) in Shanghai. The gold-colored Chinese characters are sharp and well-lit. While the interior is slightly less sharp due to the focus and lighting, the overall composition effectively identifies the famous restaurant. There are no watermarks present.",
+      "file_name": "lai-lai-xiaolongbao-shanghai-restaurant-sign.jpg",
+      "caption": "The storefront and golden signage of Lai Lai Xiao Long (莱莱小笼), a renowned xiaolongbao (soup dumpling) restaurant located near Nanjing Road in Shanghai.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ROOF Bar at The Shanghai EDITION hotel rooftop bar night view Shanghai skyline",
+    "image_info": {
+      "url": "https://cache.marriott.com/content/dam/marriott-renditions/SHAEB/shaeb-view-1698-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 375404,
+      "width": 1920,
+      "height": 1280,
+      "total_pixels": 2457600,
+      "basic_score": 0.6394701797082676,
+      "file_name": "shanghai-edition-roof-bar-night-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It provides the exact view of the Pudong skyline, including the Oriental Pearl Tower, from the perspective of a high-end venue like the Roof Bar at The Shanghai EDITION. The interior elements like the candles and window frame add to the upscale atmosphere described in the prompt.",
+      "file_name": "shanghai-edition-roof-bar-night-view.jpg",
+      "caption": "A breathtaking night view of the Shanghai skyline, featuring the Oriental Pearl Tower and the Pudong financial district, captured from the interior of the Roof Bar at The Shanghai EDITION hotel.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ROOF Bar at The Shanghai EDITION hotel rooftop bar night view Shanghai skyline",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/7e/bc/d1/rising-up-from-the-punch.jpg?w=900&h=500&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 69412,
+      "width": 900,
+      "height": 500,
+      "total_pixels": 450000,
+      "basic_score": 0.838374034225595,
+      "file_name": "shanghai-edition-roof-bar-night-skyline.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 88.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query and prompt, showcasing the ROOF Bar at The Shanghai EDITION with a clear, panoramic view of the Pudong skyline at night. The composition effectively balances the bar's lounge atmosphere with the iconic city lights. Clarity is very good for a night shot, with no visible watermarks.",
+      "file_name": "shanghai-edition-roof-bar-night-skyline.jpg",
+      "caption": "A stunning night view from the ROOF bar at The Shanghai EDITION, featuring elegant lounge seating and a breathtaking panorama of the illuminated Shanghai skyline, including the Oriental Pearl Tower and Shanghai Tower.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ROOF Bar at The Shanghai EDITION hotel rooftop bar night view Shanghai skyline",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/1c/4f/c2/caption.jpg?w=1100&h=1100&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 194761,
+      "width": 1100,
+      "height": 1100,
+      "total_pixels": 1210000,
+      "basic_score": 0.9245972012020506,
+      "file_name": "shanghai-edition-roof-bar-night-skyline-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image perfectly matches the search query and prompt, capturing the specific view from the ROOF Bar at The Shanghai EDITION. The composition is aesthetically pleasing, using the bar's signature ivy to frame the Pudong skyline. There is some visible digital noise due to the low-light environment, but the clarity of the landmarks is sufficient for high-quality use.",
+      "file_name": "shanghai-edition-roof-bar-night-skyline-view.jpg",
+      "caption": "A stunning night view of the illuminated Pudong skyline, including the Oriental Pearl Tower, framed by lush greenery from the ROOF Bar at The Shanghai EDITION.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ROOF Bar at The Shanghai EDITION hotel rooftop bar night view Shanghai skyline",
+    "image_info": {
+      "url": "https://ak-d.tripcdn.com/images/1mi02224x98lzmku7C938.jpg?proc=resize%2Fm_z%2Cw_375%2Ch_0%3Bformat%2Ff_webp%2C9C2E",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 19308,
+      "width": 375,
+      "height": 499,
+      "total_pixels": 187125,
+      "basic_score": 0.7521060322392839,
+      "file_name": "shanghai-edition-roof-bar-night-skyline-view.jpg_3f"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 72.0,
+      "watermark_score": 40.0,
+      "overall_score": 70.0,
+      "explanation": "The image is a perfect match for the search query and prompt, capturing the specific view from the ROOF Bar at The Shanghai EDITION. However, the image quality suffers from significant digital noise in the dark areas, and the prominent text overlay 'The Shanghai EDITION' acts as a large watermark, limiting its versatility for professional design use.",
+      "file_name": "shanghai-edition-roof-bar-night-skyline-view.jpg",
+      "caption": "A stunning night view of the Pudong skyline, featuring the Oriental Pearl Tower and various skyscrapers, captured from the outdoor terrace of the ROOF Bar at The Shanghai EDITION hotel.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Bund Shanghai night view looking across Huangpu River to Lujiazui Pudong skyline",
+    "image_info": {
+      "url": "https://chinawondersguide.com/wp-content/uploads/2025/11/945ace16f0dc8428c4dd1310d96f2155.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 341446,
+      "width": 750,
+      "height": 422,
+      "total_pixels": 316500,
+      "basic_score": 0.8378160300533191,
+      "file_name": "shanghai-lujiazui-skyline-night-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 80.0,
+      "explanation": "The image perfectly matches the search query and prompt, capturing the iconic Lujiazui skyline in Pudong, Shanghai, from across the Huangpu River at night. The composition is excellent, featuring all major landmarks like the Oriental Pearl Tower and the Shanghai Tower. However, the clarity is slightly lacking due to visible compression artifacts and a lower resolution, which affects the sharpness of the building details.",
+      "file_name": "shanghai-lujiazui-skyline-night-view.jpg",
+      "caption": "A stunning night view of the Lujiazui skyline in Pudong, Shanghai, showcasing the illuminated Oriental Pearl Tower, Shanghai Tower, and other skyscrapers across the Huangpu River.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ahn Luh Zhujiajiao luxury hotel courtyard pool ancient water town Shanghai",
+    "image_info": {
+      "url": "https://www.uniqhotels.com/media/cache/b0/95/b095b2d604424b0720db2d1b5e10ea9f.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 199393,
+      "width": 937,
+      "height": 623,
+      "total_pixels": 583751,
+      "basic_score": 0.8890672331379676,
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-courtyard-pool.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "This image is a perfect match for the search query and prompt. it features the iconic courtyard of the Ahn Luh Zhujiajiao hotel, showcasing the restored ancient architecture and the central reflecting pool at dusk. The lighting is professional, the symmetry is excellent, and there are no watermarks.",
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-courtyard-pool.jpg",
+      "caption": "A symmetrical evening view of the central reflecting pool and traditional wooden architecture at the Ahn Luh Zhujiajiao luxury hotel in Shanghai's ancient water town.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ahn Luh Zhujiajiao luxury hotel courtyard pool ancient water town Shanghai",
+    "image_info": {
+      "url": "https://images.trvl-media.com/lodging/39000000/38520000/38511800/38511734/b49d1c20.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 190164,
+      "width": 1023,
+      "height": 575,
+      "total_pixels": 588225,
+      "basic_score": 0.8883090082358585,
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-shanghai-courtyard-pool.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a perfect match for the search query, showing the iconic Wu Feng Lou pavilion at the Ahn Luh Zhujiajiao luxury hotel. It captures the ancient water town aesthetic with professional architectural photography, excellent symmetry, and beautiful 'blue hour' lighting. There are no watermarks present.",
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-shanghai-courtyard-pool.jpg",
+      "caption": "A stunning twilight view of the historic Wu Feng Lou pavilion and reflecting pool at the Ahn Luh Zhujiajiao luxury hotel in the ancient water town of Zhujiajiao, Shanghai.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ahn Luh Zhujiajiao luxury hotel courtyard pool ancient water town Shanghai",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/de/3b/19/ahn-luh-zhujiajiao.jpg?w=1200&h=1200&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 347486,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8982617770180635,
+      "file_name": "ahn-luh-zhujiajiao-hotel-ancient-courtyard.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 93.0,
+      "explanation": "The image perfectly captures the iconic Five Phoenix Pavilion (Wu Feng Lou) at the Ahn Luh Zhujiajiao hotel, which is a restored 600-year-old structure. It matches the search query and prompt for the hotel's courtyard and ancient architecture, though it does not show the pool mentioned in the prompt. The composition is professional and the image is very clear.",
+      "file_name": "ahn-luh-zhujiajiao-hotel-ancient-courtyard.jpg",
+      "caption": "A symmetrical view of the historic Five Phoenix Pavilion entrance at the Ahn Luh Zhujiajiao luxury hotel in Shanghai's Zhujiajiao ancient water town, featuring traditional Huizhou-style architecture and a stone-paved courtyard.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ahn Luh Zhujiajiao luxury hotel courtyard pool ancient water town Shanghai",
+    "image_info": {
+      "url": "https://www.zhujiajiao.com/uploadfile/202111/17/135266909.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 252177,
+      "width": 900,
+      "height": 600,
+      "total_pixels": 540000,
+      "basic_score": 0.8835897236568443,
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-ancient-courtyard.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly captures the traditional Ming-dynasty style courtyard of the Ahn Luh Zhujiajiao hotel, which is highly relevant to the search query. The lighting is beautiful, and the composition is professionally balanced. While the prompt mentions a 'pool,' this image features the stone-paved courtyard area, which is still a central feature of the property. There are no watermarks, and the clarity is excellent.",
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-ancient-courtyard.jpg",
+      "caption": "A symmetrical wide-angle view of the traditional Chinese courtyard at the Ahn Luh Zhujiajiao luxury hotel in Shanghai, featuring ancient wooden architecture and warm lanterns under a twilight sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ahn Luh Zhujiajiao luxury hotel courtyard pool ancient water town Shanghai",
+    "image_info": {
+      "url": "https://www.uniqhotels.com/media/hotels/c0-hotel-orig/ahn_luh_zhujiajiao.jpg.938x599_q85_box-0%2C63%2C1800%2C1212_crop_detail.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 148717,
+      "width": 938,
+      "height": 599,
+      "total_pixels": 561862,
+      "basic_score": 0.877286816366903,
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-courtyard-shanghai.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly captures the iconic Ming Dynasty architecture of the Ahn Luh Zhujiajiao hotel in Shanghai. It shows the grand courtyard and the historic Wu Feng Lou building. Although a pool is not visible in this specific shot, it is highly relevant to the search query and prompt as it depicts the core aesthetic of the luxury hotel. The clarity is good and there are no watermarks.",
+      "file_name": "ahn-luh-zhujiajiao-luxury-hotel-courtyard-shanghai.jpg",
+      "caption": "A symmetrical evening shot of the historic 600-year-old Wu Feng Lou building serving as the centerpiece of the Ahn Luh Zhujiajiao luxury hotel in Shanghai's ancient water town, showcasing traditional Chinese architecture and stone guardian lions.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "The Chairman restaurant Hong Kong interior dining room Asia 50 Best restaurant",
+    "image_info": {
+      "url": "https://tinyurbankitchen.com/wp-content/uploads/2018/01/the-chairman-steamed-fresh-flowery-crab-with-aged-shaoxing-wine-fragrant-chicken-oil-flat-rice-noodles-dsc04986.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 155305,
+      "width": 1000,
+      "height": 768,
+      "total_pixels": 768000,
+      "basic_score": 0.919583433338791,
+      "file_name": "the-chairman-hong-kong-signature-flower-crab.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 92.0,
+      "watermark_score": 45.0,
+      "overall_score": 75.0,
+      "explanation": "The image is highly relevant to the search query as it depicts the 'Steamed Flower Crab with Aged Shao Xing Wine', the most famous signature dish of The Chairman restaurant in Hong Kong. However, it does not fulfill the prompt's request for an interior dining room shot. The image is sharp and well-lit but contains a clear watermark from 'Tiny Urban Kitchen'.",
+      "file_name": "the-chairman-hong-kong-signature-flower-crab.jpg",
+      "caption": "A close-up photograph of the signature steamed flower crab with aged Shao Xing wine and fragrant chicken oil, served on a white plate at The Chairman restaurant in Hong Kong.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Zhujiajiao ancient water town at night lanterns canal boats Shanghai",
+    "image_info": {
+      "url": "https://pbs.twimg.com/media/HC-DEy-bMAE1DVo.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 244458,
+      "width": 800,
+      "height": 1200,
+      "total_pixels": 960000,
+      "basic_score": 0.9187004332264045,
+      "file_name": "zhujiajiao-ancient-water-town-night-canal-bridge.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly captures the essence of the search query, showing an ancient stone bridge in a Chinese water town at night. The lighting is excellent, and the reflection in the canal creates a beautiful circular composition. While boats are mentioned in the prompt and are not present, the overall relevance to the 'Zhujiajiao' aesthetic is very high.",
+      "file_name": "zhujiajiao-ancient-water-town-night-canal-bridge.jpg",
+      "caption": "A picturesque night scene of an ancient stone arch bridge in a Chinese water town, likely Zhujiajiao, with warm lights and red lanterns reflecting beautifully in the still canal water.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Zhujiajiao ancient water town at night lanterns canal boats Shanghai",
+    "image_info": {
+      "url": "https://www.pelago.com/img/products/CN-China/zhujiajiao-water-town-private-tour-with-amazing-night-lights-and-rooftop-bar/b7d7f9f9-f708-4fc4-a166-e8e199b63a2f_zhujiajiao-water-town-private-tour-with-amazing-night-lights-and-rooftop-bar.jpg",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 390291,
+      "width": 720,
+      "height": 480,
+      "total_pixels": 345600,
+      "basic_score": 0.831681260597884,
+      "file_name": "zhujiajiao-ancient-water-town-night-bridge-shanghai.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a perfect match for the search query and prompt. it features the iconic Fangsheng Bridge in Zhujiajiao at night, with beautiful warm lighting reflecting in the canal and traditional architecture in the background. The composition is professional and captures the 'blue hour' atmosphere perfectly.",
+      "file_name": "zhujiajiao-ancient-water-town-night-bridge-shanghai.jpg",
+      "caption": "A scenic night view of the historic Fangsheng Bridge in Zhujiajiao water town near Shanghai, featuring golden lights reflecting in the calm canal water and traditional Jiangnan-style buildings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Zhujiajiao ancient water town at night lanterns canal boats Shanghai",
+    "image_info": {
+      "url": "https://i0.wp.com/cws-wp-store.s3.us-west-1.amazonaws.com/uploads/20251103/699d2d12caa4aff20e62c6329804376f.webp?ssl=1",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 930924,
+      "width": 750,
+      "height": 540,
+      "total_pixels": 405000,
+      "basic_score": 0.8659625634127472,
+      "file_name": "zhujiajiao-water-town-night-lanterns-canal.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 82.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image is a great match for the search query, capturing the night atmosphere of a Chinese water town like Zhujiajiao. It features the ancient canal, hanging lanterns, and a bridge in the distance. While it lacks the 'boats' mentioned in the prompt, the overall aesthetic and composition are excellent for a travel-related search.",
+      "file_name": "zhujiajiao-water-town-night-lanterns-canal.jpg",
+      "caption": "A vibrant night scene in Zhujiajiao Water Town, featuring glowing orb lanterns hanging from large trees over a canal, with people walking along the stone-paved waterfront and ancient buildings illuminated in the background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Zhujiajiao ancient water town at night lanterns canal boats Shanghai",
+    "image_info": {
+      "url": "https://i0.wp.com/cws-wp-store.s3.us-west-1.amazonaws.com/uploads/20251103/e32c25711103a6d78d1dc323df557f1f.webp?ssl=1",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 220223,
+      "width": 750,
+      "height": 563,
+      "total_pixels": 422250,
+      "basic_score": 0.83855665562919,
+      "file_name": "zhujiajiao-water-town-night-canal-lanterns.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly captures the atmosphere of Zhujiajiao water town at dusk. It features the ancient buildings, red lanterns, and the canal as requested in the search query and prompt. While a prominent bridge is not the main focus, one is visible in the far distance. The image has some visible digital noise due to the low-light setting, but it remains a strong, high-quality representation of the location.",
+      "file_name": "zhujiajiao-water-town-night-canal-lanterns.jpg",
+      "caption": "A beautiful twilight view of Zhujiajiao ancient water town in Shanghai, featuring traditional buildings with red lanterns lining a calm canal.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Zhujiajiao ancient water town at night lanterns canal boats Shanghai",
+    "image_info": {
+      "url": "https://i0.wp.com/cws-wp-store.s3.us-west-1.amazonaws.com/uploads/20251103/9750187bb40312c6807aa0f752e626c0.webp?ssl=1",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 621515,
+      "width": 750,
+      "height": 540,
+      "total_pixels": 405000,
+      "basic_score": 0.8628337858019357,
+      "file_name": "zhujiajiao-water-town-night-canal-lanterns.jpg_93"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 70.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image is a perfect match for the search query and prompt, showcasing Zhujiajiao water town at night with its iconic canal, traditional architecture, and red lanterns. It also features a dramatic blue light show in the background. While the composition is excellent, the image resolution is somewhat low, leading to some compression artifacts and a slight lack of fine detail.",
+      "file_name": "zhujiajiao-water-town-night-canal-lanterns.jpg",
+      "caption": "A vibrant night scene of the Zhujiajiao ancient water town in Shanghai, showing traditional riverside buildings illuminated by red lanterns and a spectacular blue laser light show over the canal.",
+      "recommend": true,
+      "error": ""
+    }
+  }
+]

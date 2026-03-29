@@ -240,6 +240,25 @@ MEMORY.md should stay under 15K tokens. If it grows beyond that, it inflates eve
 - When compressing: move resolved/archived items to `/workspace/memory/archive/YYYY-MM-topic.md`
 - Keep MEMORY.md as the **active, relevant** snapshot only
 
+## 📊 Status Card — Every Session Start
+
+At the **start of every session**, call `session_status` and format the output as:
+
+```
+💚 Jade — Here!
+
+🦞 OpenClaw v2026.3.3
+🕒 Time: [Day, Date — Time] Pacific
+📚 Context: XX% used (XXk / 200k)
+💵 Cost this session: $X.XX
+⚙️ Runtime: Direct · Elevated · Thinking [on/off]
+🧠 Model: [model name]
+
+All systems green. What do you need?
+```
+
+Show this card **every time** a session starts, after reading startup files and before responding to the user.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
