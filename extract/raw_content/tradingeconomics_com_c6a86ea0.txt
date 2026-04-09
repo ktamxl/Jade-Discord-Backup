@@ -1,0 +1,1130 @@
+# Source URL: https://tradingeconomics.com/hong-kong/stock-market
+# Content Length: 28635 characters
+# Extracted at: 2026-03-16 09:43:22
+#============================================================
+
+
+
+Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News | Trading Economics
+
+
+
+
+
+
+
+[Calendar](/calendar)
+[News](/stream)
+[Markets](#)
+
+* [Commodities](/commodities)
+* [Indexes](/stocks)
+* [Shares](/shares)
+* [Currencies](/currencies)
+* [Crypto](/crypto)
+* [Bonds](/bonds)
+* [Earnings](/earnings)
+
+[Indicators](/indicators)
+[Countries](/countries)
+[Forecasts](#)
+
+* [Commodities](/forecast/commodity)
+* [Indexes](/forecast/stock-market)
+* [Currencies](/forecast/currency)
+* [Crypto](/forecast/crypto)
+* [Bonds](/forecast/government-bond-10y)
+* [Countries](/forecasts)
+* [Indicators](/indicators?g=forecast)
+
+
+
+
+
+
+
+
+
+##### **Members**
+
+
+
+[**DATA PLANS**  
+
+Download historical data for 20 million indicators using your browser.](/analytics/pricing.aspx?source=menu )
+[Subscription Plans](/analytics/pricing.aspx?source=menu)
+|
+[Features](/analytics/features.aspx?source=menu)
+
+
+
+[**API GATEWAY**  
+
+Direct access to our data from your apps using any programing language.](/api/)
+[Features](/api/?source=menu) |
+[Docs](https://docs.tradingeconomics.com/) |
+[Developer](https://developer.tradingeconomics.com/)
+
+
+
+[**Widgets**  
+
+Ready-to-use widgets to display real-time and historical market or economic data directly on your site.](https://widgets.tradingeconomics.com?utm_source=side-menu)
+[Learn More](https://tradingeconomics.com/api/widgets.aspx?utm_source=side-menu) |
+[Docs](https://widgets.tradingeconomics.com/getting-started?utm_source=side-menu)
+
+
+
+ [Already a user? **Login**](https://sso.tradingeconomics.com/sso/login?returnurl=https://tradingeconomics.com/hong-kong/stock-market)
+
+
+
+
+
+
+
+
+##### 
+
+
+
+[Calendar](/calendar)
+
+[News](/stream)
+
+Markets
+
+
+
+* [Commodities](/commodities)
+* [Indexes](/stocks)
+* [Shares](/shares)
+* [Currencies](/currencies)
+* [Crypto](/crypto)
+* [Bonds](/bonds)
+* [Earnings](/earnings)
+* [Holidays](/holidays)
+
+
+
+Countries
+
+
+* [United States](/united-states/indicators)
+* [United Kingdom](/united-kingdom/indicators)
+* [Euro Area](/euro-area/indicators)
+* [Australia](/australia/indicators)
+* [Canada](/canada/indicators)
+* [Japan](/japan/indicators)
+* [China](/china/indicators)
+* [Brazil](/brazil/indicators)
+* [Russia](/russia/indicators)
+* [India](/india/indicators)
+* [More Countries](/countries)
+
+
+
+Indicators
+
+
+
+* [Interest Rate](/country-list/interest-rate)
+* [Inflation Rate](/country-list/inflation-rate)
+* [Unemployment Rate](/country-list/unemployment-rate)
+* [GDP Growth](/country-list/gdp-growth-rate)
+* [GDP per Capita](/country-list/gdp-per-capita)
+* [Current Account](/country-list/current-account-to-gdp)
+* [Gold Reserves](/country-list/gold-reserves)
+* [Government Debt](/country-list/government-debt-to-gdp)
+* [Crude Oil Production](/country-list/crude-oil-production)
+* [Gasoline Prices](/country-list/gasoline-prices)
+* [Credit Rating](/country-list/rating)
+* [More Indicators](/indicators)
+
+
+
+Forecasts
+
+
+
+* [Markets & Indicators](/indicators?g=forecast)
+* [Countries](/forecasts)
+* [Countries](/forecasts)
+* [Indicators](/indicators?g=forecast)
+* [Commodities](/forecast/commodity)
+* [Indexes](/forecast/stock-market)
+* [Currencies](/forecast/currency)
+* [Crypto](/forecast/crypto)
+* [Bonds](/forecast/government-bond-10y)
+
+
+
+Solutions
+
+
+
+* [Data Subscriptions](/analytics/features.aspx)
+* [API Access](/api/)
+* [Widgets](/api/widgets.aspx?utm_source=mobile-sidemenu)
+* [Pricing](/analytics/pricing.aspx?source=nav)
+
+
+
+Apps
+
+
+
+* [App Store](https://itunes.apple.com/us/app/trading-economics/id1142178921?mt=8)
+* [Google Play](https://play.google.com/store/apps/details?id=com.tradingeconomics.calendar)
+* [Twitter](https://www.twitter.com/teconomics)
+
+
+
+About
+
+
+
+* [Customers](/api/customers.aspx)
+* [Investors](/investors.aspx)
+* [Careers](/careers.aspx)
+* [About us](/about-te.aspx)
+* [Contact](/contact.aspx)
+
+
+
+
+
+
+
+
+
+
+Hong Kong Stock Market Index (HK50)Quote - Chart - Historical Data - News
+=========================================================================
+
+
+
+
+
+
+* [Summary](#historical)
+* [Stats](#stats)
+* [Forecast](#forecast)
+* [Alerts](#alerts)
+
+
+Hong Kong's main stock market index, the HK50, fell to 25399 points on March 16, 2026, losing 0.26% from the previous session. Over the past month, the index has declined 3.84%, though it remains 5.19% higher than a year ago, according to trading on a contract for difference (CFD) that tracks this benchmark index from Hong Kong.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Historically, the Hong Kong Stock Market Index (HK50) reached an all time high of 33484.08 in January of 2018. Hong Kong Stock Market Index (HK50) - data, forecasts, historical chart - was last updated on March 16 of 2026.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### The Hong Kong Stock Market Index (HK50) is expected to trade at 25277.52 points by the end of this quarter, according to Trading Economics global macro models and analysts expectations. Looking forward, we estimate it to trade at 21709.42 in 12 months time.
+
+
+
+
+
+
+
+
+  
+
+  
+
+| Indexes | Price |  |  | Day | Month | Year | Date |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [HK50](/hong-kong/stock-market) | 25,315.00 |  | -150.60 | -0.59% | -4.16% | 4.84% | Mar/16 |
+| [SHANGHAI](/china/stock-market) | 4,070.32 |  | -25.13 | -0.61% | -1.14% | 18.80% | Mar/16 |
+| [CSI 300](/shsz300:ind) | 4,628.95 |  | -40.19 | -0.86% | -1.67% | 15.53% | Mar/16 |
+| [SHANGHAI 50](/sse50:ind) | 2,932.59 |  | -24.26 | -0.82% | -3.58% | 7.11% | Mar/16 |
+| [CH50](/xin9:ind) | 14,808.14 |  | -6.24 | -0.04% | 0.29% | 8.32% | Mar/13 |
+
+
+
+  
+
+| Components | Price |  |  | Day | Year | MCap | Date |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Tencent Holdings](/700:hk) | 547.50 |  | 1.00 | 0.18% | 4.99% | 734.3B | Mar/13 |
+| [HSBC Holdings](/5:hk) | 122.50 |  | -6.40 | -4.97% | 43.36% | 316.28B | Mar/13 |
+| [China Construction Bank](/939:hk) | 7.91 |  | -0.01 | -0.13% | 15.81% | 243.4B | Mar/13 |
+| [China Mobile](/941:hk) | 79.95 |  | 0.95 | 1.20% | -4.25% | 227.22B | Mar/13 |
+| [AIA](/1299:hk) | 81.80 |  | -2.55 | -3.02% | 33.55% | 123.36B | Mar/13 |
+| [Xiaomi](/xmgp:hk) | 33.32 |  | 0.02 | 0.06% | -38.12% | 116.15B | Mar/13 |
+| [CNOOC](/883:hk) | 29.76 |  | 0.66 | 2.27% | 64.60% | 113.33B | Mar/13 |
+| [Meituan](/3690:hk) | 75.95 |  | -0.75 | -0.98% | -56.20% | 76.22B | Mar/13 |
+| [Hong Kong Exchanges](/388:hk) | 401.40 |  | -5.00 | -1.23% | 13.33% | 67.89B | Mar/13 |
+| [Ping An Insurance](/2318:hk) | 62.25 |  | -0.60 | -0.95% | 26.65% | 64.74B | Mar/13 |
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+| Related | Last | Previous | Unit | Reference |
+| --- | --- | --- | --- | --- |
+| [Hong Kong Inflation Rate](/hong-kong/inflation-cpi) | 1.10 | 1.40 | percent | Jan 2026 |
+| [Hong Kong Interest Rate](/hong-kong/interest-rate) | 4.00 | 4.00 | percent | Feb 2026 |
+| [Hong Kong Unemployment Rate](/hong-kong/unemployment-rate) | 3.90 | 3.80 | percent | Jan 2026 |
+
+
+
+
+  
+
+
+Hong Kong Stock Market Index (HK50)
+The HK50 tracks the performance of around 50 largest companies listed in the Stock Exchange of Hong Kong. It is a free floating, capitalization-weighted index with a base value of 100 as of June 30, 1964. This index is primarily derived from over-the-counter trading and contracts for difference indexes (CFDs).
+
+|  | Actual | Previous | Highest | Lowest | Dates | Unit | Frequency |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | 25399.00 | 25465.60 | 33484.08 | -1.00 | 1964 - 2026 | points | Daily |  |
+
+
+  
+
+
+Market Data Coverage: [Hong Kong](/hong-kong/stocks)
+
+  
+
+
+News Stream
+**[Hang Seng Stumbles Into Third Weekly Decline](/hong-kong/stock-market/news/533196)**
+The Hang Seng retreated 251 points, or 1.0%, to close at 25,466 on Friday, extending losses for a third straight session as selling pressure spread across sectors. The index also logged its third consecutive weekly decline, down 1.1%. Sentiment was dampened by a notable drop in U.S. stock futures as the Middle East conflict neared the two-week mark with no resolution in sight. Tensions escalated after Tehran threatened disruption in the Strait of Hormuz, keeping crude prices elevated and fueling inflation concerns. Mainland equities also weakened as traders awaited China’s February credit lending data and key activity indicators, including retail sales, for signals on domestic momentum. Still, losses were capped by reports that U.S. Treasury Secretary Bessent will meet He Lifeng in France on March 15–16, ahead of a planned Trump–Xi summit in Beijing in late March. Major decliners included Zijin Gold Intl. (-8.0%), Minimax Group (-6.6%), Knowledge Atlas (-4.1%), and AIA Group (-3.1%).
+2026-03-13  
+
+
+**[Hong Kong Markets Set for Second Weekly Decline](/hong-kong/stock-market/news/533080)**
+Hong Kong shares fell 225 points, or 0.9%, to 25,495 in Friday morning trade, marking a third straight decline after Wall Street’s overnight weakness. The U.S.–Iran conflict entered its 14th day, with Tehran vowing to keep the world’s key oil chokepoint shut, while delayed U.S. reserve deliveries fueled inflation worries. In China, equities edged lower after two sessions of gains as traders awaited activity data for January–February, notably industrial output, retail sales, and the surveyed jobless rate, due next week. Still, losses were partly contained by views that most macro risks are already priced in, with investors continuing to add undervalued names. Selling pressure was evident across sectors in the city, with standout decliners including Orient Overseas (-7.2%), SenseTime (-5.2%), Cathay Pacific (-3.1%), Zijin Gold Intl. (-2.6%), and SMIC (-1.7%). The Hang Seng is on track for a second consecutive weekly decline, down about 1.0% so far.
+2026-03-13  
+
+
+**[Hang Seng Closes 0.7% Lower](/hong-kong/stock-market/news/532836)**
+The Hang Seng retreated 182 points or 0.7% to end at 25,717 on Thursday, down for the second session amid a sharp drop in U.S. equity futures as Iran stepped up attacks on oil and transport facilities across the Middle East, warning the world should be ready for oil at USD 200 a barrel in defiance of President Trump's claim that the U.S. had already won the war. In Hong Kong, authorities said Thursday they had launched an insider trading probe into two brokerages and a hedge fund, arresting eight people in its biggest crackdown on the financial industry in recent years. All sectors fell, with property and financials among biggest laggards, tracking weakness in mainland stocks. Cathay Pacific dropped 1.6% as it will raise fuel surcharges on all routes from March 18, due to geopolitical risks. Swire Properties fell 1.2% as its chief financial officer resigned. Other decliners included Knowledge Atlas (-9.2%), Nongfu Spring (-4.5%), and Henderson Land Development (-3.7%).
+2026-03-12  
+
+
+
+
+
+  
+
+
+Related
+[Hong Kong Manufacturing Growth at 4-Year High](/hong-kong/industrial-production)
+[Hang Seng Stumbles Into Third Weekly Decline](/hong-kong/stock-market)
+[Hong Kong Forex Reserves Highest Since 2022](/hong-kong/foreign-exchange-reserves)
+[Hong Kong Retail Sales Growth at 5-Month Low](/hong-kong/retail-sales-annual)
+[Hong Kong Private Sector Growth at Nearly 3-Year High](/hong-kong/manufacturing-pmi)
+[Hong Kong Imports Growth Strongest Since 2010](/hong-kong/imports-yoy)
+[Hong Kong Exports Hit New Record High](/hong-kong/exports-yoy)
+[Hong Kong Trade Deficit Swings to Deficit](/hong-kong/balance-of-trade)
+[Hong Kong Exchanges earnings above expectations at 3.43 HKD](/388:hk:eps)
+[Hong Kong Inflation Eases in January](/hong-kong/inflation-cpi)
+  
+
+
+
+
+
+Latest
+[Aussie Dollar Rebounds on Rate Hike Bets](/australia/currency)
+[US Natgas Drops Further](/commodity/natural-gas)
+[Japanese Shares Struggle on Mideast Worries](/japan/stock-market)
+[Australian Shares Open the Week Lower](/australia/stock-market)
+[Brent Jolted by Kharg Attack](/commodity/brent-crude-oil)
+[Oil Jolted by Kharg Attack](/commodity/crude-oil)
+[New Zealand Credit Card Spending Rebounds](/new-zealand/credit-card-spending)
+[US Futures Rise Despite Mideast Escalations](/united-states/stock-market)
+[New Zealand Services PMI Eases to 3-Month Low](/new-zealand/services-pmi)
+[Gold Holds Decline as Oil Remains Volatile](/commodity/gold)
+  
+
+
+
+
+
+
+
+
+  
+
+
+* [Commodity](#Commodity)
+* [Index](#Index)
+* [Stocks](#Share)
+* [Forex](#FX)
+* [Crypto](#Crypto)
+* [Bond](#Bond)
+
+|  | Actual | Chg | %Chg |
+| --- | --- | --- | --- |
+| [Crude Oil](/commodity/crude-oil) | 98.353 | 0.36 | -0.36% |
+| [Brent](/commodity/brent-crude-oil) | 103.810 | 0.67 | 0.65% |
+| [Natural gas](/commodity/natural-gas) | 3.1196 | 0.01 | -0.36% |
+| [Gasoline](/commodity/gasoline) | 3.0596 | 0.02 | 0.60% |
+| [Heating Oil](/commodity/heating-oil) | 3.9956 | 0.02 | -0.48% |
+| [Gold](/commodity/gold) | 5001.67 | 20.44 | -0.41% |
+| [Silver](/commodity/silver) | 79.442 | 1.09 | -1.36% |
+| [Copper](/commodity/copper) | 5.6789 | 0.04 | -0.62% |
+| [Soybeans](/commodity/soybeans) | 1200.89 | 24.36 | -1.99% |
+| [Wheat](/commodity/wheat) | 607.04 | 6.71 | -1.09% |
+| [Coal](/commodity/coal) | 137.30 | 1.45 | -1.05% |
+| [Steel](/commodity/steel) | 3134.00 | 4.00 | -0.13% |
+| [TTF Gas](/commodity/eu-natural-gas) | 50.12 | 0.76 | -1.48% |
+| [Lumber](/commodity/lumber) | 600.00 | 3.00 | 0.50% |
+| [Iron Ore CNY](/commodity/iron-ore-cny) | 798.00 | 13.50 | -1.66% |
+| [More](/commodities) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+
+|  | Actual | Chg | %Chg |
+| --- | --- | --- | --- |
+| [EURUSD](/euro-area/currency) | 1.14459 | 0.0029 | 0.26% |
+| [GBPUSD](/united-kingdom/currency) | 1.32526 | 0.0033 | 0.25% |
+| [AUDUSD](/australia/currency) | 0.70057 | 0.0025 | 0.35% |
+| [NZDUSD](/new-zealand/currency) | 0.58019 | 0.0028 | 0.48% |
+| [USDJPY](/japan/currency) | 159.445 | 0.2830 | -0.18% |
+| [USDCNY](/china/currency) | 6.90443 | 0.0041 | -0.06% |
+| [USDCHF](/switzerland/currency) | 0.78961 | 0.0019 | -0.24% |
+| [USDCAD](/canada/currency) | 1.37090 | 0.0010 | -0.07% |
+| [USDMXN](/mexico/currency) | 17.8597 | 0.1112 | -0.62% |
+| [USDINR](/india/currency) | 92.6050 | 0.2360 | 0.26% |
+| [USDBRL](/brazil/currency) | 5.33030 | 0.0855 | 1.63% |
+| [USDRUB](/russia/currency) | 80.1000 | 0.6000 | 0.75% |
+| [USDKRW](/south-korea/currency) | 1497.89 | 4.7500 | -0.32% |
+| [DXY](/united-states/currency) | 100.273 | 0.0892 | -0.09% |
+| [USDTRY](/turkey/currency) | 44.1968 | 0.0032 | -0.01% |
+| [More](/currencies) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+|  | Actual | Chg | %Chg |  |
+| --- | --- | --- | --- | --- |
+| [US500](/united-states/stock-market) | 6654.25 | 22 | 0.33% |  |
+| [US30](/indu:ind) | 46695 | 136 | 0.29% |  |
+| [US100](/us100:ind) | 24470 | 90 | 0.37% |  |
+| [JP225](/japan/stock-market) | 53340 | 480 | -0.89% |  |
+| [GB100](/united-kingdom/stock-market) | 10261 | 44 | -0.43% |  |
+| [DE40](/germany/stock-market) | 23466 | 19 | 0.08% |  |
+| [FR40](/france/stock-market) | 7912 | 73 | -0.91% |  |
+| [IT40](/italy/stock-market) | 44317 | 139 | -0.31% |  |
+| [ES35](/spain/stock-market) | 17059 | 81 | -0.47% |  |
+| [ASX200](/australia/stock-market) | 8551 | 66 | -0.77% |  |
+| [SHANGHAI](/china/stock-market) | 4070 | 25 | -0.61% |  |
+| [SENSEX](/india/stock-market) | 74564 | 1,470 | -1.93% |  |
+| [TSX](/canada/stock-market) | 32542 | 299 | -0.91% |  |
+| [MOEX](/russia/stock-market) | 2872 | 0 | -0.01% |  |
+| [IBOVESPA](/brazil/stock-market) | 177653 | 1,631 | -0.91% |  |
+| [More](/stocks) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+|  | Actual | Chg | %Chg |
+| --- | --- | --- | --- |
+| [Apple](/aapl:us) | 250.12 | 5.64 | -2.21% |
+| [Tesla](/tsla:us) | 391.20 | 3.81 | -0.96% |
+| [Microsoft](/msft:us) | 395.55 | 6.31 | -1.57% |
+| [Amazon](/amzn:us) | 207.67 | 1.86 | -0.89% |
+| [Meta](/fb:us) | 613.71 | 24.47 | -3.83% |
+| [Nvidia](/nvda:us) | 180.25 | 2.89 | -1.58% |
+| [Visa](/v:us) | 307.14 | 0.64 | 0.21% |
+| [JPMorgan](/jpm:us) | 283.44 | 0.55 | 0.19% |
+| [Oracle](/orcl:us) | 155.83 | 0.72 | 0.46% |
+| [J&J](/jnj:us) | 241.52 | 0.52 | -0.21% |
+| [P&G](/pg:us) | 150.65 | 0.15 | 0.10% |
+| [Exxon Mobil](/xom:us) | 156.12 | 2.59 | 1.69% |
+| [Alphabet](/goog:us) | 302.28 | 1.27 | -0.42% |
+| [Goldman Sachs](/gs:us) | 782.21 | 5.31 | -0.67% |
+| [Caterpillar](/cat:us) | 693.99 | 6.70 | -0.96% |
+| [More](/stocks) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+
+|  | Actual | Chg | %Chg |
+| --- | --- | --- | --- |
+| [United States](/united-states/government-bond-yield) | 4.2630 | 0.019 | -0.02% |
+| [United Kingdom](/united-kingdom/government-bond-yield) | 4.7710 | 0.000 | 0.00% |
+| [Japan](/japan/government-bond-yield) | 2.2460 | 0.001 | 0.00% |
+| [Australia](/australia/government-bond-yield) | 4.9750 | 0.024 | 0.02% |
+| [Germany](/germany/government-bond-yield) | 2.9768 | 0.039 | 0.04% |
+| [Brazil](/brazil/government-bond-yield) | 14.3100 | 0.355 | 0.36% |
+| [Russia](/russia/government-bond-yield) | 14.1300 | 0.070 | -0.07% |
+| [India](/india/government-bond-yield) | 6.6830 | 0.012 | 0.01% |
+| [Canada](/canada/government-bond-yield) | 3.5080 | 0.028 | -0.03% |
+| [Italy](/italy/government-bond-yield) | 3.8016 | 0.060 | 0.06% |
+| [France](/france/government-bond-yield) | 3.6697 | 0.059 | 0.06% |
+| [South Africa](/south-africa/government-bond-yield) | 8.9300 | 0.215 | 0.22% |
+| [China](/china/government-bond-yield) | 1.8280 | 0.016 | -0.02% |
+| [Switzerland](/switzerland/government-bond-yield) | 0.3930 | 0.001 | 0.00% |
+| [Chile](/chile/government-bond-yield) | 5.4600 | 0.040 | 0.04% |
+| [More](/bonds) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+
+|  | Actual | Chg | %Chg |
+| --- | --- | --- | --- |
+| [Bitcoin](/btcusd:cur) | 72578 | 243 | -0.33% |
+| [Ether](/ethusd:cur) | 2177.80 | 0.6385 | 0.03% |
+| [Binance](/bnbusd:cur) | 673.2 | 0.6500 | -0.10% |
+| [Cardano](/adausd:cur) | 0.27098 | 0.0010 | 0.38% |
+| [Solana](/solusd:cur) | 91.7100 | 0.6164 | -0.67% |
+| [Ripple](/xrpusd:cur) | 1.44193 | 0.0059 | -0.41% |
+| [Polkadot](/dotusd:cur) | 1.44 | 0.0028 | 0.19% |
+| [Avalanche](/avxusd:cur) | 9.97 | 0.0199 | 0.20% |
+| [Polygon](/mtcusd:cur) | 0.10 | 0.0004 | 0.41% |
+| [Cosmos](/atmusd:cur) | 1.87 | 0.0035 | 0.19% |
+| [Dai](/daiusd:cur) | 0.99977 | 0.0001 | -0.01% |
+| [Litecoin](/ltcusd:cur) | 56.130 | 0.0689 | -0.12% |
+| [Uniswap](/uniusd:cur) | 4.07 | 0.0165 | 0.41% |
+| [Algorand](/algusd:cur) | 0.09 | 0.0023 | 2.57% |
+| [Bitcoin Cash](/bchusd:cur) | 466.47 | 3.0300 | -0.65% |
+| [More](/crypto) | [Add to your site](javascript:void(0);) |
+| --- | --- |
+
+
+
+
+
+Hong Kong
+
+United States
+United Kingdom
+Euro area
+China
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Channel Islands
+Chile
+China
+Colombia
+Comoros
+Congo
+Costa Rica
+Cote d Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Asia and Pacific
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Euro area
+European Union
+Europe and Central Asia
+Faeroe Islands
+Fiji
+Finland
+France
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Greenland
+Grenada
+Guam
+Guatemala
+Guinea
+Guinea Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+North Korea
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Palestine
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Republic of the Congo
+Romania
+Russia
+Rwanda
+Samoa
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Asia
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor Leste
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands
+Yemen
+Zambia
+Zimbabwe
+
+
+[Calendar](/hong-kong/calendar)
+[Forecast](/hong-kong/forecast)
+[Indicators](/hong-kong/indicators)
+[News](/hong-kong/news)
+
+
+Markets
+-------
+
+[Currency](/hong-kong/currency)  
+
+[Government Bond 10Y](/hong-kong/government-bond-yield)  
+
+[Stock Market](/hong-kong/stock-market)  
+
+
+
+
+GDP
+---
+
+[Full Year GDP Growth](/hong-kong/full-year-gdp-growth)  
+
+[GDP](/hong-kong/gdp)  
+
+[GDP Constant Prices](/hong-kong/gdp-constant-prices)  
+
+[GDP from Agriculture](/hong-kong/gdp-from-agriculture)  
+
+[GDP from Construction](/hong-kong/gdp-from-construction)  
+
+[GDP from Manufacturing](/hong-kong/gdp-from-manufacturing)  
+
+[GDP from Public Administration](/hong-kong/gdp-from-public-administration)  
+
+[GDP from Services](/hong-kong/gdp-from-services)  
+
+[GDP from Transport](/hong-kong/gdp-from-transport)  
+
+[GDP from Utilities](/hong-kong/gdp-from-utilities)  
+
+[GDP Growth Rate](/hong-kong/gdp-growth)  
+
+[GDP Growth Rate YoY](/hong-kong/gdp-growth-annual)  
+
+[GDP per Capita](/hong-kong/gdp-per-capita)  
+
+[GDP per Capita PPP](/hong-kong/gdp-per-capita-ppp)  
+
+[Gross Fixed Capital Formation](/hong-kong/gross-fixed-capital-formation)  
+
+[Gross National Product](/hong-kong/gross-national-product)  
+
+
+
+
+Labour
+------
+
+[Employed Persons](/hong-kong/employed-persons)  
+
+[Job Vacancies](/hong-kong/job-vacancies)  
+
+[Labor Force Participation Rate](/hong-kong/labor-force-participation-rate)  
+
+[Minimum Wages](/hong-kong/minimum-wages)  
+
+[Population](/hong-kong/population)  
+
+[Productivity](/hong-kong/productivity)  
+
+[Retirement Age Men](/hong-kong/retirement-age-men)  
+
+[Retirement Age Women](/hong-kong/retirement-age-women)  
+
+[Unemployed Persons](/hong-kong/unemployed-persons)  
+
+[Unemployment Rate](/hong-kong/unemployment-rate)  
+
+[Wages](/hong-kong/wages)  
+
+[Wages in Manufacturing](/hong-kong/wages-in-manufacturing)  
+
+[Youth Unemployment Rate](/hong-kong/youth-unemployment-rate)  
+
+
+
+
+Prices
+------
+
+[Consumer Price Index CPI](/hong-kong/consumer-price-index-cpi)  
+
+[CPI Transportation](/hong-kong/cpi-transportation)  
+
+[Export Prices](/hong-kong/export-prices)  
+
+[Food Inflation](/hong-kong/food-inflation)  
+
+[GDP Deflator](/hong-kong/gdp-deflator)  
+
+[Import Prices](/hong-kong/import-prices)  
+
+[Inflation Rate MoM](/hong-kong/inflation-rate-mom)  
+
+[Inflation Rate YoY](/hong-kong/inflation-cpi)  
+
+[Producer Prices](/hong-kong/producer-prices)  
+
+[Producer Prices Change](/hong-kong/producer-prices-change)  
+
+
+
+
+Money
+-----
+
+[Banks Balance Sheet](/hong-kong/banks-balance-sheet)  
+
+[Foreign Exchange Reserves](/hong-kong/foreign-exchange-reserves)  
+
+[Interbank Rate](/hong-kong/interbank-rate)  
+
+[Interest Rate](/hong-kong/interest-rate)  
+
+[Loans to Private Sector](/hong-kong/loans-to-private-sector)  
+
+[Money Supply M0](/hong-kong/money-supply-m0)  
+
+[Money Supply M1](/hong-kong/money-supply-m1)  
+
+[Money Supply M2](/hong-kong/money-supply-m2)  
+
+[Money Supply M3](/hong-kong/money-supply-m3)  
+
+
+
+
+Trade
+-----
+
+[Balance of Trade](/hong-kong/balance-of-trade)  
+
+[Capital Flows](/hong-kong/capital-flows)  
+
+[Current Account](/hong-kong/current-account)  
+
+[Current Account to GDP](/hong-kong/current-account-to-gdp)  
+
+[Exports](/hong-kong/exports)  
+
+[Exports by Category](/hong-kong/exports-by-category)  
+
+[Exports by Country](/hong-kong/exports-by-country)  
+
+[Exports YoY](/hong-kong/exports-yoy)  
+
+[External Debt](/hong-kong/external-debt)  
+
+[Foreign Direct Investment](/hong-kong/foreign-direct-investment)  
+
+[Gold Reserves](/hong-kong/gold-reserves)  
+
+[Imports](/hong-kong/imports)  
+
+[Imports by Category](/hong-kong/imports-by-category)  
+
+[Imports by Country](/hong-kong/imports-by-country)  
+
+[Imports YoY](/hong-kong/imports-yoy)  
+
+[Terms of Trade](/hong-kong/terms-of-trade)  
+
+[Tourist Arrivals](/hong-kong/tourist-arrivals)  
+
+
+
+
+Government
+----------
+
+[Corruption Index](/hong-kong/corruption-index)  
+
+[Corruption Rank](/hong-kong/corruption-rank)  
+
+[Credit Rating](/hong-kong/rating)  
+
+[Fiscal Expenditure](/hong-kong/fiscal-expenditure)  
+
+[Government Budget](/hong-kong/government-budget)  
+
+[Government Budget Value](/hong-kong/government-budget-value)  
+
+[Government Debt to GDP](/hong-kong/government-debt-to-gdp)  
+
+[Government Revenues](/hong-kong/government-revenues)  
+
+[Government Spending](/hong-kong/government-spending)  
+
+[Holidays](/hong-kong/holidays)  
+
+
+
+
+Business
+--------
+
+[Bankruptcies](/hong-kong/bankruptcies)  
+
+[Business Confidence](/hong-kong/business-confidence)  
+
+[Car Registrations](/hong-kong/car-registrations)  
+
+[Changes in Inventories](/hong-kong/changes-in-inventories)  
+
+[Industrial Production YoY](/hong-kong/industrial-production)  
+
+
+
+
+Consumer
+--------
+
+[Bank Lending Rate](/hong-kong/bank-lending-rate)  
+
+[Consumer Spending](/hong-kong/consumer-spending)  
+
+[Gasoline Prices](/hong-kong/gasoline-prices)  
+
+[Households Debt to GDP](/hong-kong/households-debt-to-gdp)  
+
+[Personal Savings](/hong-kong/personal-savings)  
+
+[Retail Sales MoM](/hong-kong/retail-sales)  
+
+[Retail Sales YoY](/hong-kong/retail-sales-annual)  
+
+
+
+
+Housing
+-------
+
+[Home Ownership Rate](/hong-kong/home-ownership-rate)  
+
+[House Price Index MoM](/hong-kong/house-price-index-mom)  
+
+[Housing Index](/hong-kong/housing-index)  
+
+[Residential Property Prices](/hong-kong/residential-property-prices)  
+
+
+
+
+Taxes
+-----
+
+[Corporate Tax Rate](/hong-kong/corporate-tax-rate)  
+
+[Personal Income Tax Rate](/hong-kong/personal-income-tax-rate)  
+
+[Withholding Tax Rate](/hong-kong/withholding-tax-rate)  
+
+
+
+
+Climate
+-------
+
+[Temperature](/hong-kong/temperature)  
+
+
+
+
+
+More Indicators
+
+[National Statistics](/hong-kong/indicators)  
+
+[World Bank](/hong-kong/indicators-wb-data.html)  
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+   
+
+Indicators
+[Homepage](../)  
+
+[Countries](../countries)  
+
+[Indicators](../indicators)  
+
+[Calendar](../calendar)  
+
+[Forecasts](../forecasts)  
+
+[Ratings](../country-list/rating)
+
+Solutions
+[Data Subscriptions](/analytics/features.aspx?source=footer)  
+
+[API Access](/api/?source=footer)  
+
+[Excel Add-In](/analytics/excel.aspx)  
+
+[Developer Account](https://developer.tradingeconomics.com/)  
+
+[Documentation](https://docs.tradingeconomics.com/)  
+
+[Pricing](/analytics/pricing.aspx?source=footer)  
+
+  
+
+
+About Us
+[Customers](../api/customers.aspx)  
+
+[Careers](../careers.aspx)  
+
+[Investors](../investors.aspx)  
+
+[Advertisers](../advertise.aspx)  
+
+[About us](../about-te.aspx)  
+
+[Privacy](../privacy-policy.aspx)
+
+[![]()](https://itunes.apple.com/us/app/trading-economics/id1142178921?mt=8)
+[![]()](https://play.google.com/store/apps/details?id=com.tradingeconomics.calendar)
+
+
+
+  
+
+[English](https://tradingeconomics.com)  
+
+[Español](https://es.tradingeconomics.com/hong-kong/stock-market)  
+
+[Português](https://pt.tradingeconomics.com/hong-kong/stock-market)  
+
+[Français](https://fr.tradingeconomics.com/hong-kong/stock-market)  
+
+
+[Deutsch](https://de.tradingeconomics.com/hong-kong/stock-market)  
+
+[Italiano](https://it.tradingeconomics.com/hong-kong/stock-market)  
+
+[Polski](https://pl.tradingeconomics.com/hong-kong/stock-market)  
+
+[Indonesian](https://id.tradingeconomics.com/hong-kong/stock-market)  
+
+
+[Русский](https://ru.tradingeconomics.com/hong-kong/stock-market)  
+
+[Türkçe](https://tr.tradingeconomics.com/hong-kong/stock-market)  
+
+[Farsi](https://fa.tradingeconomics.com/hong-kong/stock-market)  
+
+[العربية](https://ar.tradingeconomics.com/hong-kong/stock-market)  
+
+
+[简体中文](https://zh.tradingeconomics.com/hong-kong/stock-market)  
+
+[日本語](https://jp.tradingeconomics.com/hong-kong/stock-market)  
+
+[한국어](https://ko.tradingeconomics.com/hong-kong/stock-market)  
+
+
+
+
+  
+
+  
+
+Copyright ©2026 TRADING ECONOMICS  
+
+All Rights Reserved  
+
+
+  
+
+  
+
+
+
+
+
+
+
+﻿
+
+
+×
+
+
+

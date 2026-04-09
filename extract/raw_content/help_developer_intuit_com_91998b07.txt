@@ -1,0 +1,77 @@
+# Source URL: https://help.developer.intuit.com/s/question/0D54R00007yboK4SAI/reconciling-with-the-help-of-apis-in-qbo
+# Content Length: 7347 characters
+# Extracted at: 2026-03-17 01:22:50
+#============================================================
+
+Question Detail
+Loading
+[×](#)Sorry to interrupt
+CSS Error
+[Refresh](reconciling-with-the-help-of-apis-in-qbo?nocache=https%3A%2F%2Fhelp.developer.intuit.com%2Fs%2Fquestion%2F0D54R00007yboK4SAI%2Freconciling-with-the-help-of-apis-in-qbo)
+[Skip to Main Content](javascript:void(0);)
+[Developer Community](javascript:void(0);)
+Expand search
+Search
+\* [Search
+""](javascript:void(0);)
+Close search
+![]()![]()
+[Account Management](javascript:void(0);)
+\* [API Docs & Tools](https://developer.intuit.com/app/developer/qbo/docs/develop)
+QuickBooks Online
+[Get Started](https://developer.intuit.com/app/developer/qbo/docs/get-started)[API Explorer](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/account)[SDKs](https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples)[Sandbox](https://developer.intuit.com/app/developer/sandbox)[Postman](https://developer.intuit.com/app/developer/qbo/docs/develop/sandboxes/postman)[OAuth](https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0)[Workflows](https://developer.intuit.com/app/developer/qbo/docs/workflows)
+QuickBooks Payment
+[Get Started](https://developer.intuit.com/app/developer/qbpayments/docs/get-started)[API Explorer](https://developer.intuit.com/app/developer/qbpayments/docs/api/resources/all-entities/bankaccounts)[SDKs](https://developer.intuit.com/app/developer/qbpayments/docs/develop/using-an-sdk-to-integrate-with-the-payments-api)[Sandbox](https://developer.intuit.com/app/developer/sandbox)[Postman](https://developer.intuit.com/app/developer/qbpayments/docs/develop/sandboxes/test-basic-payment-requests-in-postman)[Workflows](https://developer.intuit.com/app/developer/qbpayments/docs/workflows)
+QuickBooks Desktop
+[Get Started](https://developer.intuit.com/app/developer/qbdesktop/docs/get-started)[SDKs](https://developer.intuit.com/app/developer/qbdesktop/docs/get-started/download-and-install-the-sdk)[API Reference](https://developer.intuit.com/app/developer/qbdesktop/docs/api-reference)[Code Samples](https://github.com/IntuitDeveloper/QBXML\_SDK13\_Samples)[Free Version (NFR)](https://developer.intuit.com/app/developer/qbdesktop/docs/get-started/not-for-resale-software)[Docs](https://developer.intuit.com/app/developer/qbdesktop/docs/develop)
+QuickBooks Time
+[Get Started](//www.tsheets.com/partners?utm\_source=intuit&utm\_campaign=partner\_leads\_campaign&utm\_medium=in\_product\_nav)[Explore Docs](//developers.tsheets.com/docs/api/?utm\_source=intuit&utm\_campaign=partner\_leads\_campaign&utm\_medium=in\_product\_nav)[FeaturedIntegrations](//www.tsheets.com/app-marketplace/?utm\_source=intuit&utm\_campaign=partner\_leads\_campaign&utm\_medium=in\_product\_nav)[Authentication](//developers.tsheets.com/docs/api/authentication?utm\_source=intuit&utm\_campaign=partner\_leads\_campaign&utm\_medium=in\_product\_nav)
+\* [Blog](https://blogs.intuit.com/)
+\* [Help](https://help.developer.intuit.com/s/)
+Support Topics
+[General Questions](//help.developer.intuit.com/s/topic/0TOG0000000kF9IOAU/general-questions)[QuickBooks Online](//help.developer.intuit.com/s/topic/0TOG0000000kF9JOAU/quickbooks-online)[QuickBooks Desktop](//help.developer.intuit.com/s/topic/0TOG0000000kF9KOAU/quickbooks-desktop)[QuickBooks Sandbox](//help.developer.intuit.com/s/topic/0TO0f0000004sCjGAI/quickbooks-sandbox)[Intuit Payments](//help.developer.intuit.com/s/topic/0TOG0000000kF9LOAU/intuit-payments)[Publishing Apps](//help.developer.intuit.com/s/topic/0TOG0000000kF9MOAU/publishing-apps)[OAuth 2.0](//help.developer.intuit.com/s/topic/0TO0f000000drenGAA/oauth-20)[QuickBooks Time](//help.developer.intuit.com/s/topic/0TO0f000000drXIGAY/tsheets)
+Developer Resources
+[Contact Support](https://help.developer.intuit.com/s/contactsupport)[Code Samples](https://intuitdeveloper.github.io/)[Request a Feature](https://help.developer.intuit.com/s/ideas)[Training](https://developer.intuit.com/app/developer/qbo/docs/develop/tutorials)[FAQ](https://help.developer.intuit.com/s/faqs)[Bug Tracker](https://help.developer.intuit.com/s/bug-tracker-page)[Error Resolver](https://help.developer.intuit.com/s/error-resolver)[Platform Status](http://status.developer.intuit.com/)[Questions](https://help.developer.intuit.com/s/questions)[Help Articles](https://help.developer.intuit.com/s/help-articles)
+## Do you have the answer?
+\* [OAStdMethodRet called without instantiating COAStateManager. Both are required for STDMETHOD interface functions.](javascript:void(0);)
+Number of Views2.25K
+\* [Changes to the Integrated Application Authentication for QuickBooks Desktop users](javascript:void(0);)
+Number of Views2.17K
+\* [QB Online API: How to assign GL accounts to invoice lines?](javascript:void(0);)
+Number of Views1.84K
+\* [Clarification request: When is [chk\\_print\\_state] column available in General Ledger Report?](javascript:void(0);)
+Number of Views1.61K
+\* [Error with Query in Kingway source control in SSIS](javascript:void(0);)
+Number of Views1.26K
+Nothing found
+Loading
+## Related Questions
+Nothing found
+Loading
+Intuit Developer- [Blog](https://blogs.intuit.com/)
+- [Give us feedback](https://help.developer.intuit.com/s/ideas)
+- [Terms of use](https://developer.intuit.com/app/developer/qbo/docs/legal-agreements/intuit-terms-of-service-for-intuit-developer-services)
+Tools and Resources- [Get started](https://developer.intuit.com/app/developer/qbo/docs/get-started)
+- [API references](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/account)
+- [API explorer](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/account)
+- [SDKs and samples](https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples)
+Develop- [QuickBooks sandbox](https://developer.intuit.com/app/developer/sandbox)
+- [Go live](https://developer.intuit.com/app/developer/qbo/docs/go-live)
+- [Release notes](https://developer.intuit.com/app/developer/qbo/docs/develop/release-notes)
+Intuit- [QuickBooks Apps.com](https://apps.intuit.com/)
+- [About QuickBooks](https://quickbooks.intuit.com/)
+- [Contact us](https://help.developer.intuit.com/s/)
+- [![](https://static.developer.intuit.com/images/facebook.svg)](https://www.facebook.com/IntuitDeveloper)
+- [![](https://static.developer.intuit.com/images/github.svg)](https://github.com/IntuitDeveloper)
+- [![](https://static.developer.intuit.com/images/twitter.svg)](https://twitter.com/IntuitDev)
+- [![](https://static.developer.intuit.com/images/youtube-play.svg)](http://www.youtube.com/c/IntuitDeveloperGroup )
+[![](https://static.developer.intuit.com/images/trusted.png)](https://privacy.truste.com/privacy-seal/validation?rid=7fc012b5-d53b-42d8-b980-c4f9091a97e1)
+[![](/resource/1666880969000/intuitnavlogo)](https://www.intuit.com/)
+- [Legal](https://www.intuit.com/legal/)
+- [Privacy](https://security.intuit.com/index.php/privacy)
+- [Security](https://security.intuit.com/)
+© 2026 Intuit Inc. All rights reserved. Intuit and QuickBooks are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.
+- [About cookies](https://security.intuit.com/index.php/intuit-cookie-policy)
+- [Manage cookies](javascript:window.intuit\_gdpr.showCookiePreference();)
+Loading
+Question Detail

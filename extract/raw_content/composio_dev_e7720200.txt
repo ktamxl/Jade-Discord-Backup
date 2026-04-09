@@ -1,0 +1,279 @@
+# Source URL: https://composio.dev/toolkits/quickbooks/framework/openclaw
+# Content Length: 17072 characters
+# Extracted at: 2026-03-15 21:36:33
+#============================================================
+
+
+How to integrate Quickbooks MCP with OpenClaw[![]()](https://composio.dev)[RUBE (MCP)](https://rube.app)[PRICING](https://composio.dev/pricing)[BLOG](https://composio.dev/blog)SOLUTIONS[DOCS](https://docs.composio.dev)[TOOLKITS](https://composio.dev/toolkits)[SIGN IN](https://dashboard.composio.dev)[Home](https://composio.dev)[All Toolkits](/toolkits)[Quickbooks](/toolkits/quickbooks)Quickbooks with OpenClaw
+
+How to integrate Quickbooks MCP with OpenClaw
+=============================================
+
+[GET STARTED FOR FREE](https://dashboard.composio.dev)![]()![]()![]()![]()
+### Table of Contents
+
+[Introduction](#introduction)[What is the Quickbooks MCP server](#mcp-server)[Supported Tools & Triggers](#tools-triggers)[Conclusion](#conclusion)[How to build Quickbooks MCP Agent with another framework](#other-frameworks)[Explore Other Toolkits](#explore-other-toolkits)[FAQ](#faq)
+### Connect Quickbooks without Auth hassles
+
+We manage OAuth, API Key, token refresh, and scopes, you just build.
+
+[Try for Free](#)
+
+Introduction
+------------
+
+OpenClaw is the fastest growing agent harness out there, which can work 24/7 to automate almost any kind of tasks. However, its capabilities are limited to the tools it has access to. Composio allows your OpenClaw to access Quickbooks with authentication management handled for you. You can execute actions on Quickbooks via your favorite OpenClaw interface (Telegram, WhatsApp, TUI, etc), whichever you prefer.
+
+Why use Composio?
+-----------------
+
+Apart from a managed and hosted MCP server, you will get:
+
+* **Programmatic tool calling** allows LLMs to write its code in a remote workbench to handle complex tool chaining. Reduces to-and-fro with LLMs for frequent tool calling.
+* **Handling Large tool responses** out of LLM context to minimize context rot.
+* **Dynamic just-in-time access** to 20,000 tools across 850+ other Apps for cross-app workflows. It loads the tools you need, so LLMs aren't overwhelmed by tools you don't need.
+
+How to install Quickbooks with OpenClaw
+---------------------------------------
+
+### Using Composio API Key and Setup Prompt
+
+* Go to [dashboard.composio.dev/composio/~/connect/clients/openclaw](https://dashboard.composio.dev/)
+* Copy the setup prompt
+
+![]()
+
+* Run it in your OpenClaw chat interface.
+* Authenticate Quickbooks from the [dashboard](https://dashboard.composio.dev)
+* Go back to your OpenClaw interface and start asking questions.
+
+### Using OpenClaw/Composio Plugin
+
+1. Install OpenClaw Composio plugin
+
+bashCopy
+```
+openclaw plugins install @composio/openclaw-plugin
+```
+
+2. Copy the API Key from [dashboard.composio.dev](https://dashboard.composio.dev/composio/~/connect/clients/openclaw)
+
+3. Setup OpenClaw Config
+
+```
+openclaw config set plugins.entries.composio.config.consumerKey "ck_your_key_here"
+```
+
+4. Restart OpenClaw
+
+```
+openclaw gateway restart
+```
+
+5. Go to your chat interface and start asking questions.
+
+6. When prompted, authenticate the app and you're all set.
+
+### How It Works
+
+The plugin connects to Composio's MCP server at `https://connect.composio.dev/mcp` and registers all available tools directly into the OpenClaw agent. Tools are called by name — no extra search or execute steps needed.
+
+If a tool returns an auth error, the agent will prompt you to connect that toolkit at [dashboard.composio.dev](https://dashboard.composio.dev).
+
+#### Configuration
+
+```
+{
+  "plugins": {
+    "entries": {
+      "composio": {
+        "enabled": true,
+        "config": {
+          "consumerKey": "ck_your_key_here"
+        }
+      }
+    }
+  }
+}
+```
+
+| Option | Description | Default |
+| --- | --- | --- |
+| `enabled` | Enable or disable the plugin | `true` |
+| `consumerKey` | Your Composio consumer key (`ck_...`) | — |
+| `mcpUrl` | MCP server URL (advanced) | `https://connect.composio.dev/mcp` |
+
+What is the Quickbooks MCP server, and what's possible with it?
+---------------------------------------------------------------
+
+The Quickbooks MCP server is an implementation of the Model Context Protocol that connects your AI agent and assistants like Claude, Cursor, etc directly to your Quickbooks account. It provides structured and secure access to your accounting data, so your agent can perform actions like managing customers, generating balance reports, creating accounts, and retrieving employee details on your behalf.
+
+* **Customer and vendor management:** Quickly create new customers or vendors, or retrieve detailed information about existing ones to streamline your business relationships.
+* **Automated account creation and queries:** Direct your agent to set up new financial accounts or query existing ones for up-to-date balances and account information.
+* **Employee records and management:** Seamlessly add new employees or pull employee details to keep your Quickbooks records accurate and current.
+* **Financial reporting and insights:** Generate customer balance reports or detailed balance breakdowns, giving you instant access to critical financial insights with just a prompt.
+
+Supported Tools & Triggers
+--------------------------
+
+ToolsCreate AccountCreate a new account in quickbooks with the given parameters.Create CustomerCreate a new customer in quickbooks with the given parameters.Create EmployeeCreate a new employee in quickbooks.Create VendorCreate a new vendor in quickbooks with the given details.Customer Balance DetailGenerate a balance detail report for a customer in quickbooks with the given customer id.Customer Balance ReportGenerate a balance report for a customer in quickbooks with the given customer id.Query AccountQuery an account in quickbooks with the given parameters.Read AccountRead an account in quickbooks with the given account id.Read CustomerRead a customer in quickbooks with the given customer id.Read EmployeeRead an employee's details in quickbooks with the given employee id.Read VendorRead a vendor in quickbooks with the given vendor id.Vendor Balance DetailGenerate a balance detail report for a vendor in quickbooks with the given vendor id.Vendor Balance ReportGet the balance report of a vendor in quickbooks with the given vendor id.
+
+Conclusion
+----------
+
+You've successfully integrated Quickbooks with OpenClaw using Composio plugin. Now interact with Quickbooks directly from your terminal, Web UI, or any messenger app using natural language commands.
+
+**Key benefits of this setup:**
+
+* Seamless integration across TUI, Web UIs, and Messenger apps like Telegram, WhatsApp, Slack, etc.
+* Natural language commands for Quickbooks operations
+* Managed authentication through Composio
+* Access to 20,000+ tools across 850+ apps for cross-app workflows
+* Programmatic tool calling for complex tool chaining
+
+**Next steps:**
+
+* Try asking OpenClaw to perform various Quickbooks operations
+* Explore cross-app workflows by connecting more toolkits like Calendar, Slack, Notion, etc.
+* Build complex automation scripts that leverage OpenClaw's 24/7 running capabilities
+
+How to build Quickbooks MCP Agent with another framework
+--------------------------------------------------------
+
+[![]()
+### OpenAI Agents SDK
+
+Use Quickbooks MCP with OpenAI Agents SDK](/toolkits/quickbooks/framework/open-ai-agents-sdk)[![]()
+### Claude Agent SDK
+
+Use Quickbooks MCP with Claude Agent SDK](/toolkits/quickbooks/framework/claude-agents-sdk)[![]()
+### Claude Code
+
+Use Quickbooks MCP with Claude Code](/toolkits/quickbooks/framework/claude-code)[![]()
+### Codex
+
+Use Quickbooks MCP with Codex](/toolkits/quickbooks/framework/codex)[![]()
+### Google ADK
+
+Use Quickbooks MCP with Google ADK](/toolkits/quickbooks/framework/google-adk)[![]()
+### LangChain
+
+Use Quickbooks MCP with LangChain](/toolkits/quickbooks/framework/langchain)[![]()
+### Vercel AI SDK
+
+Use Quickbooks MCP with Vercel AI SDK](/toolkits/quickbooks/framework/ai-sdk)[![]()
+### Mastra AI
+
+Use Quickbooks MCP with Mastra AI](/toolkits/quickbooks/framework/mastra-ai)[![]()
+### LlamaIndex
+
+Use Quickbooks MCP with LlamaIndex](/toolkits/quickbooks/framework/llama-index)[![]()
+### CrewAI
+
+Use Quickbooks MCP with CrewAI](/toolkits/quickbooks/framework/crew-ai)
+
+Explore Other Toolkits
+----------------------
+
+[![]()
+### Alpha vantage
+
+API Key
+
+Alpha Vantage is a financial data platform offering real-time and historical stock market APIs. Get instant, reliable access to equities, forex, and technical analysis data for smarter trading decisions.](/toolkits/alpha_vantage)[![]()
+### Altoviz
+
+API Key
+
+Altoviz is a cloud-based billing and invoicing platform for businesses. It streamlines online payments, expense tracking, and customizable invoice management.](/toolkits/altoviz)[![]()
+### Benzinga
+
+API Key
+
+Benzinga provides real-time financial news and data APIs for market coverage. It helps you track breaking news and actionable market insights instantly.](/toolkits/benzinga)Load More[TOOLKIT MARKETPLACE](/toolkits)
+
+FAQ
+---
+
+### What are the differences in Tool Router MCP and Quickbooks MCP?
+
+With a standalone Quickbooks MCP server, the agents and LLMs can only access a fixed set of Quickbooks tools tied to that server. However, with the Composio Tool Router, agents can dynamically load tools from Quickbooks and many other apps based on the task at hand, all through a single MCP endpoint.
+### Can I use Tool Router MCP with OpenClaw?
+
+Yes, you can. OpenClaw fully supports MCP integration. You get structured tool calling, message history handling, and model orchestration while Tool Router takes care of discovering and serving the right Quickbooks tools.
+### Can I manage the permissions and scopes for Quickbooks while using Tool Router?
+
+Yes, absolutely. You can configure which Quickbooks scopes and actions are allowed when connecting your account to Composio. You can also bring your own OAuth credentials or API configuration so you keep full control over what the agent can do.
+### How safe is my data with Composio Tool Router?
+
+All sensitive data such as tokens, keys, and configuration is fully encrypted at rest and in transit. Composio is SOC 2 Type 2 compliant and follows strict security practices so your Quickbooks data and credentials are handled as safely as possible.![]()
+### Used by agents from
+
+![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()![]()
+
+Never worry about agent reliability
+-----------------------------------
+
+We handle tool reliability, observability, and security so you never have to second-guess an agent action.
+
+[Book a call↗](https://calendly.com/thomas-composio/composio-enterprise-setup)[Get started for free](https://dashboard.composio.dev)[![]()Harsha GaddipatiCo-founder, Slashy
+
+Karan skipped his own birthday party to fix our critical issue. It was 10 pm and he diverted his Waymo to help us instead. This really sets the bar, shows you the commitment you need to have when users rely on your software.](https://composio.dev/case-study/slashy)[![]()Abhi AryaCo-founder, Opennote
+
+A lot of students tell us that the moment their connected tools start talking to each other inside Opennote feels almost magical. The agent just knows them, and it has immensely helped in keeping new users on the platform.](https://composio.dev/case-study/opennote)[![]()Nirman DaveCEO, Zams
+
+We chose Composio over Pipedream because it delivered depth where it mattered. It supported niche tools and tricky edge cases that other platforms simply ignored. Giving us confidence to scale without compromising.](https://composio.dev/case-study/zams)[![]()Ryan YuFounder, Extra Thursday
+
+As a solo builder, shipping fast is life or death. The only way I can outcompete incumbents is by outmanoeuvring them. Getting bogged down in the complexities of managing agent auth would have been a death sentence for Extra Thursday.](https://composio.dev/case-study/extra-thursday-case-study)[![]()Tomisin JenrolaFounder & CEO, SwarmZero
+
+Before partnering with Composio, adding tool integrations was a slow, resource-intensive process. Each integration could take weeks or months of engineering time, and maintaining them meant constantly keeping up with API changes.](https://composio.dev/case-study/swarmzero-case-study)[![]()Jerome LeclancheCo-Founder, Ingram Technologies
+
+With hands-on help from their founder, we integrated Gmail and Google Drive in just 30 minutes. This level of personal support and commitment is exactly what startups should strive for.](https://composio.dev/case-study/ingram-case-study)[![]()Harsha GaddipatiCo-founder, Slashy
+
+Karan skipped his own birthday party to fix our critical issue. It was 10 pm and he diverted his Waymo to help us instead. This really sets the bar, shows you the commitment you need to have when users rely on your software.](https://composio.dev/case-study/slashy)[![]()Abhi AryaCo-founder, Opennote
+
+A lot of students tell us that the moment their connected tools start talking to each other inside Opennote feels almost magical. The agent just knows them, and it has immensely helped in keeping new users on the platform.](https://composio.dev/case-study/opennote)[![]()Nirman DaveCEO, Zams
+
+We chose Composio over Pipedream because it delivered depth where it mattered. It supported niche tools and tricky edge cases that other platforms simply ignored. Giving us confidence to scale without compromising.](https://composio.dev/case-study/zams)[![]()Ryan YuFounder, Extra Thursday
+
+As a solo builder, shipping fast is life or death. The only way I can outcompete incumbents is by outmanoeuvring them. Getting bogged down in the complexities of managing agent auth would have been a death sentence for Extra Thursday.](https://composio.dev/case-study/extra-thursday-case-study)[![]()Tomisin JenrolaFounder & CEO, SwarmZero
+
+Before partnering with Composio, adding tool integrations was a slow, resource-intensive process. Each integration could take weeks or months of engineering time, and maintaining them meant constantly keeping up with API changes.](https://composio.dev/case-study/swarmzero-case-study)[![]()Jerome LeclancheCo-Founder, Ingram Technologies
+
+With hands-on help from their founder, we integrated Gmail and Google Drive in just 30 minutes. This level of personal support and commitment is exactly what startups should strive for.](https://composio.dev/case-study/ingram-case-study)[![]()Harsha GaddipatiCo-founder, Slashy
+
+Karan skipped his own birthday party to fix our critical issue. It was 10 pm and he diverted his Waymo to help us instead. This really sets the bar, shows you the commitment you need to have when users rely on your software.](https://composio.dev/case-study/slashy)[![]()Abhi AryaCo-founder, Opennote
+
+A lot of students tell us that the moment their connected tools start talking to each other inside Opennote feels almost magical. The agent just knows them, and it has immensely helped in keeping new users on the platform.](https://composio.dev/case-study/opennote)[![]()Nirman DaveCEO, Zams
+
+We chose Composio over Pipedream because it delivered depth where it mattered. It supported niche tools and tricky edge cases that other platforms simply ignored. Giving us confidence to scale without compromising.](https://composio.dev/case-study/zams)[![]()Ryan YuFounder, Extra Thursday
+
+As a solo builder, shipping fast is life or death. The only way I can outcompete incumbents is by outmanoeuvring them. Getting bogged down in the complexities of managing agent auth would have been a death sentence for Extra Thursday.](https://composio.dev/case-study/extra-thursday-case-study)[![]()Tomisin JenrolaFounder & CEO, SwarmZero
+
+Before partnering with Composio, adding tool integrations was a slow, resource-intensive process. Each integration could take weeks or months of engineering time, and maintaining them meant constantly keeping up with API changes.](https://composio.dev/case-study/swarmzero-case-study)[![]()Jerome LeclancheCo-Founder, Ingram Technologies
+
+With hands-on help from their founder, we integrated Gmail and Google Drive in just 30 minutes. This level of personal support and commitment is exactly what startups should strive for.](https://composio.dev/case-study/ingram-case-study)ComposioComposio
+
+Stay updated.
+-------------
+
+[Join discord](https://dub.composio.dev/discord)
+
+COMPARE
+
+[VS PIPEDREAM](https://composio.dev/composio-vs-pipedream)
+
+PRODUCT
+
+[mcp gateway](https://composio.dev/mcp-gateway)[pricing](https://composio.dev/pricing)[startups](https://composio.dev/startups)[enterprise](https://composio.dev/enterprise)[agent auth](https://composio.dev/agentauth)
+
+RESOURCES
+
+[docs](https://docs.composio.dev/getting-started/welcome)[blog](https://composio.dev/blog)[cookbooks](https://composio.dev/cookbook)[OAuth2 guides](https://composio.dev/auth)[Case Studies](https://composio.dev/case-study)
+
+COMPANY
+
+[Careers](https://composio.notion.site/Work-Composio-238f261a6dfe807291c9ddeb8e3205dc)[trust](https://trust.composio.dev/)[Support](https://composio.dev/support)[Terms](https://composio.dev/terms)[Privacy Policy](https://composio.dev/privacy)
+
+© Composio 2025
+

@@ -1,0 +1,116 @@
+# Source URL: https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-transactions/use-automatic-matching-quickbooks-online/L3uACzdrF_US_en_US
+# Content Length: 6407 characters
+# Extracted at: 2026-03-16 23:56:35
+#============================================================
+
+How to use automatic matching in QuickBooks Online
+[![](https://plugin.intuitcdn.net/one-intuit-help-hub-conf/1.212.1/assets/component/navbar/assets/qbo-icon.svg)](//quickbooks.intuit.com/)
+\* Sign In
+- How It Works
+- Support
+\* Get Started
+\* Topics
++ 10 or more employees
++ Account management
++ Advanced accounting
++ Banking
++ Expenses and vendors
++ Get started
++ Invoices and payments
++ QuickBooks Desktop to QuickBooks Online Resource Center
++ Reports
++ Sales and customers
++ Taxes
++ The Intuit Platform
++ View all help
++ Year End Resources
+\* Videos & Classes
++ How to videos
++ Webinars
++ Training classes
+\* Community
++ Community Home
++ QuickBooks Q&A
++ Discuss Your Business
++ Community Basics
++ Champions Program
++ Ask the Community
+\* Resources
++ Live Bookkeeping
++ Find an Expert
++ Resource Center
++ QuickBooks Blog
++ Training classes
+- For Sales: 1.877.683.3280
+- United States
+[![](https://plugin.intuitcdn.net/one-intuit-help-hub-conf/1.212.1/assets/component/navbar/assets/qbo-icon.svg)](//quickbooks.intuit.com/)
+\* [Plans & Pricing](https://quickbooks.intuit.com/pricing/)
+\* [How It Works](https://quickbooks.intuit.com/how-it-works/)
+\* [Explore Products](https://quickbooks.intuit.com/product-finder/?cid=CSSDR067-COM-US-QBO-GEN-NA-GNS-REC-NA-FY25ProductFinderCRTabUKNNewLaunch)
+\* [Support](https://quickbooks.intuit.com/learn-support/)
+\* For Sales: 1.800.264.1981
++ Hours
+Mon - Fri, 5am - 6pm PST
+[Product support & help](/learn-support/)
+[Need help signing in?](https://quickbooks.intuit.com/learn-support/en-us/manage-intuit-account/get-help-if-you-can-t-sign-in-to-your-account/00/419181)
+\* Sign In
+\* [QuickBooks Support](https://quickbooks.intuit.com/learn-support/)
+\* [Get Started](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L4339VdWt)
+\* [Topics](#)
++ [10 or more employees](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L8F1138P7)
++ [Account management](/learn-support/en-us/quickbooks-online/help-topic/account-management)
++ [Advanced accounting](/learn-support/en-us/quickbooks-online/help-topic/advanced-accounting)
++ [Banking](/learn-support/en-us/quickbooks-online/help-topic/banking)
++ [Expenses and vendors](/learn-support/en-us/quickbooks-online/help-topic/expenses-and-vendors)
++ [Get started](/learn-support/en-us/quickbooks-online/help-topic/get-started)
++ [Invoices and payments](/learn-support/en-us/quickbooks-online/help-topic/invoices-and-payments)
++ [QuickBooks Desktop to QuickBooks Online Resource Center](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L1CHl0mTG)
++ [Reports](/learn-support/en-us/quickbooks-online/help-topic/reports)
++ [Sales and customers](/learn-support/en-us/quickbooks-online/help-topic/sales-and-customers)
++ [Taxes](/learn-support/en-us/quickbooks-online/help-topic/taxes)
++ [The Intuit Platform](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L4EsJA3db)
++ [View all help](/learn-support/en-us/quickbooks-online/help-topic/view-all-articles)
++ [Year End Resources](/learn-support/en-us/help-custom/L1bF8N7CG)
+\* Videos & Classes
++ [How to videos](/learn-support/en-us/quickbooks-online/help-tutorial/get-started)
++ [Webinars](https://quickbooks.intuit.com/tutorials/webinars/)
++ [Training classes](https://quickbookstraining.com/)
+\* [Community](#)
++ [Community Home](https://quickbooks.intuit.com/learn-support/us-quickbooks-community/misc/03/community-us)
++ [QuickBooks Q&A](https://quickbooks.intuit.com/learn-support/quickbooks-q-a/misc/03/quickbooks-questions-us)
++ [Discuss Your Business](https://quickbooks.intuit.com/learn-support/business-discussions/misc/03/discussions)
++ [Community Basics](https://quickbooks.intuit.com/learn-support/about-qb-community/misc/02/Community-News)
++ [Champions Program](https://quickbooks.intuit.com/learn-support/en-us/about-qb-community/introducing-the-intuit-community-champions-program/00/415885)
++ [Ask the Community](https://quickbooks.intuit.com/learn-support/forums/postpage/choose-node/true)
+\* [Resources](#)
++ [Live Bookkeeping](https://quickbooks.intuit.com/live/)
++ [Find an Expert](https://quickbooks.intuit.com/find-an-accountant/)
++ [Resource Center](https://quickbooks.intuit.com/r/)
++ [QuickBooks Blog](https://quickbooks.intuit.com/blog/)
+\* + [Australia](/learn-support/en-au)
++ [Canada (English)](/learn-support/en-ca)
++ [Canada (French)](/learn-support/fr-ca)
++ [United States](/learn-support/en-us)
++ [United Kingdom](/learn-support/en-uk)
++ [Singapore](/learn-support/en-sg)
++ [South Africa](/learn-support/en-za)
++ [Ireland](/learn-support/en-ie)
++ [Global (English)](/learn-support/en-global)
+![](https://uxfabric.intuitcdn.net/web-app/sh-exp-sbg-app-experience/sbg\_ohh\_icon.19f2ae89.png)QuickBooksHelpIntuit
+# How to use automatic matching in QuickBooks Online
+##### by Intuit•9•Updated2 months ago
+With automatic matching, QuickBooks can automatically match bank transactions to the transactions already in QuickBooks.
+You must [sign in](https://accounts.intuit.com/index.html?offering\_id=Intuit.help.selfhelp.shexpsbg&redirect\_url=https%3A%2F%2Fquickbooks.intuit.com%2Flearn-support%2Fen-us%2Fhelp-article%2Fbank-transactions%2Fuse-automatic-matching-quickbooks-online%2FL3uACzdrF\_US\_en\_US&locale=en-us&country=US) to vote.
+QuickBooks Payments for Online
+More like this
+\* [\*\*Automatically match QuickBooks Online product transactions\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/payment-processing/automatic-matching-quickbooks-payments/L3EydeQEU\_US\_en\_US)
+by QuickBooks
+\* [\*\*Automatically match QuickBooks Bill Pay transactions\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/pay-bills/automatically-match-quickbooks-bill-pay/L2uwNlB0k\_US\_en\_US)
+by QuickBooks
+\* [\*\*Automatically record bank deposits\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-deposits/automatically-record-quickbooks-payments-bank/L3J7EfQK4\_US\_en\_US)
+by QuickBooks
+\* [\*\*Understand automatic late fees in QuickBooks Online\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/invoicing/understand-automatic-late-fees-quickbooks-online/L0gewLCxt\_US\_en\_US)
+by QuickBooks
+\* [\*\*Send invoice reminders automatically or manually in QuickBooks Online\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/invoicing/send-invoice-reminders-automatically-manually/L84cQjpxo\_US\_en\_US)
+by QuickBooks
+Top

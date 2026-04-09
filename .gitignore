@@ -1,11 +1,14 @@
-# Git ignore — exclude sensitive credentials and large binaries
-.rclone/service-account.json
-rclone
-*.zip
-*.pdf
-*.mp4
-*.m4a
-user_input_files/
-extract/
+pdfvenv/
+pip_pkgs/
+video_frames/
 node_modules/
-dist/
+__pycache__/
+.git/modules/
+chan-kenya-2026/
+family-legacy/
+kenya-safari-2026/
+luxury-timepiece-rental/
+recipe-site/
+tam-cruise-2027/
+*.pyc
+*.log

@@ -1,0 +1,1061 @@
+# Source URL: https://finance.yahoo.com/quote/%5EHSI/
+# Content Length: 61908 characters
+# Extracted at: 2026-03-16 07:00:25
+#============================================================
+
+HANG SENG INDEX (^HSI) Charts, Data & News - Yahoo Finance
+Oops, something went wrong
+[Skip to navigation](#navigation-container) [Skip to main content](#nimbus-app) [Skip to right column](#right-rail)
+### [News](https://www.yahoo.com/)
+\* [Today's news](https://www.yahoo.com/news/)
+\* [US](https://www.yahoo.com/news/us/)
+\* [Politics](https://www.yahoo.com/news/politics/)
+\* [World](https://www.yahoo.com/news/world/)
+\* [Weather](https://weather.yahoo.com/)
+\* [Climate change](https://www.yahoo.com/issues/climate-change/)
+\* [Health](https://health.yahoo.com/)
++ [Wellness](https://health.yahoo.com/wellness/)
+- [Mental health](https://health.yahoo.com/wellness/mental-health/)
+- [Sexual health](https://health.yahoo.com/wellness/sexual-health/)
+- [Dermatology](https://health.yahoo.com/wellness/dermatology/)
+- [Oral health](https://health.yahoo.com/wellness/oral-health/)
+- [Hair loss](https://health.yahoo.com/wellness/hair-loss/)
+- [Foot health](https://health.yahoo.com/wellness/foot-health/)
++ [Nutrition](https://health.yahoo.com/nutrition/)
+- [Healthy eating](https://health.yahoo.com/nutrition/healthy-eating/)
+- [Meal delivery](https://health.yahoo.com/nutrition/meal-delivery/)
+- [Weight loss](https://health.yahoo.com/nutrition/weight-loss/)
+- [Vitamins and supplements](https://health.yahoo.com/nutrition/vitamins-supplements/)
++ [Fitness](https://health.yahoo.com/fitness/)
+- [Equipment](https://health.yahoo.com/fitness/equipment/)
+- [Exercise](https://health.yahoo.com/fitness/exercise/)
++ [Women's health](https://health.yahoo.com/womens-health/)
++ [Sleep](https://health.yahoo.com/sleep/)
++ [Healthy aging](https://health.yahoo.com/healthy-aging/)
+- [Hearing](https://health.yahoo.com/healthy-aging/hearing/)
+- [Mobility](https://health.yahoo.com/healthy-aging/mobility/)
+\* [Science](https://www.yahoo.com/news/science/)
+\* [Originals](https://www.yahoo.com/guides/originals/)
+\* [Newsletters](https://news.yahoo.com/newsletters/)
+\* [Games](https://www.yahoo.com/games)
+### [Life](https://www.yahoo.com/lifestyle/)
+\* [Health](https://health.yahoo.com/)
++ [Wellness](https://health.yahoo.com/wellness/)
+- [Nutrition](https://health.yahoo.com/wellness/nutrition/)
+- [Fitness](https://health.yahoo.com/wellness/fitness/)
+- [Healthy aging](https://health.yahoo.com/wellness/healthy-aging/)
+- [Sleep](https://health.yahoo.com/wellness/sleep/)
++ [Your body](https://health.yahoo.com/your-body/)
+- [Children's health](https://health.yahoo.com/your-body/childrens-health/)
+- [Dermatology](https://health.yahoo.com/your-body/dermatology/)
+- [Foot health](https://health.yahoo.com/your-body/foot-health/)
+- [Hair loss](https://health.yahoo.com/your-body/hair-loss/)
+- [Oral health](https://health.yahoo.com/your-body/oral-health/)
+- [Sexual health](https://health.yahoo.com/your-body/sexual-health/)
+- [Weight management](https://health.yahoo.com/your-body/weight-management/)
+- [Women's health](https://health.yahoo.com/your-body/womens-health/)
++ [Conditions](https://health.yahoo.com/conditions/)
+- [Cardiovascular health](https://health.yahoo.com/conditions/cardiovascular-health/)
+- [Digestive health](https://health.yahoo.com/conditions/digestive-health/)
+- [Endocrine system](https://health.yahoo.com/conditions/endocrine-system/)
+- [Hearing](https://health.yahoo.com/conditions/hearing/)
+- [Mental health](https://health.yahoo.com/conditions/mental-health/)
+\* [Parenting](https://www.yahoo.com/lifestyle/family-relationships/)
++ [Family health](https://www.yahoo.com/lifestyle/family-relationships/)
++ [So mini ways](https://www.yahoo.com/guides/so-mini-ways/)
+\* [Style and beauty](https://www.yahoo.com/lifestyle/style-beauty/)
++ [It Figures](https://www.yahoo.com/guides/it-figures/)
++ [Unapologetically](https://www.yahoo.com/guides/unapologetically/)
+\* [Horoscopes](https://www.yahoo.com/lifestyle/horoscope/)
+\* [Shopping](https://shopping.yahoo.com/)
++ [Style](https://shopping.yahoo.com/style/)
+- [Accessories](https://shopping.yahoo.com/style/accessories/)
+- [Clothing](https://shopping.yahoo.com/style/clothing/)
+- [Luggage](https://shopping.yahoo.com/style/luggage/)
+- [Shoes](https://shopping.yahoo.com/style/shoes/)
++ [Beauty](https://shopping.yahoo.com/beauty/)
+- [Fragrance](https://shopping.yahoo.com/beauty/fragrance/)
+- [Hair](https://shopping.yahoo.com/beauty/hair/)
+- [Makeup](https://shopping.yahoo.com/beauty/makeup/)
+- [Nails](https://shopping.yahoo.com/beauty/nails/)
+- [Skincare](https://shopping.yahoo.com/beauty/skincare/)
+- [Sunscreen](https://shopping.yahoo.com/beauty/sunscreen/)
++ [Health](https://shopping.yahoo.com/health/)
+- [Dental](https://shopping.yahoo.com/health/dental/)
+- [Fitness](https://shopping.yahoo.com/health/fitness/)
+- [Hair loss](https://shopping.yahoo.com/health/hair-loss/)
+- [Hearing](https://shopping.yahoo.com/health/hearing/)
+- [Mental health](https://shopping.yahoo.com/health/mental-health/)
+- [Mobility](https://shopping.yahoo.com/health/mobility/)
+- [Nutrition](https://shopping.yahoo.com/health/nutrition/)
+- [Personal care](https://shopping.yahoo.com/health/personal-care/)
+- [Sexual health](https://shopping.yahoo.com/health/sexual-health/)
+- [Sleep](https://shopping.yahoo.com/health/sleep/)
+- [Women's health](https://shopping.yahoo.com/health/womens-health/)
+- [Home decor](https://shopping.yahoo.com/home-garden/home-decor/)
++ [Home and garden](https://shopping.yahoo.com/home-garden/)
+- [Bath](https://shopping.yahoo.com/home-garden/bath/)
+- [Bedding](https://shopping.yahoo.com/home-garden/bedding/)
+- [Cleaning](https://shopping.yahoo.com/home-garden/cleaning/)
+- [Gardening](https://shopping.yahoo.com/home-garden/gardening/)
+- [Home decor](https://shopping.yahoo.com/home-garden/home-decor/)
+- [Home improvement](https://shopping.yahoo.com/home-garden/home-improvement/)
+- [Kitchen](https://shopping.yahoo.com/home-garden/kitchen/)
+- [Outdoor](https://shopping.yahoo.com/home-garden/outdoor/)
++ [Pets](https://shopping.yahoo.com/pets/)
++ [Tech](https://shopping.yahoo.com/tech/)
+- [Accessories](https://shopping.yahoo.com/tech/accessories/)
+- [Audio](https://shopping.yahoo.com/tech/audio/)
+- [Auto](https://shopping.yahoo.com/tech/auto/)
+- [Computers](https://shopping.yahoo.com/tech/computing/)
+- [Phones](https://shopping.yahoo.com/tech/phones/)
+- [Smart home](https://shopping.yahoo.com/tech/smart-home/)
+- [Streaming](https://shopping.yahoo.com/tech/streaming/)
+- [TVs](https://shopping.yahoo.com/tech/tvs/)
++ [Gift ideas](https://shopping.yahoo.com/gift-ideas/)
+- [Best gifts for men](https://shopping.yahoo.com/gift-ideas/article/best-gift-ideas-for-men-200430444.html)
+- [Best gift cards](https://shopping.yahoo.com/gift-ideas/article/best-gift-cards-184432258.html)
+- [Best gifts for mom](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-mom-172933189.html)
+- [Best gifts for teens](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-teens-185109070.html)
+- [Best gifts for couples](https://shopping.yahoo.com/gift-ideas/article/the-best-gifts-for-couples-that-theyll-both-enjoy-172612914.html)
+- [Best gifts for sister-in-law](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-sister-in-law-183727870.html)
+- [Best gifts for girlfriends](https://www.yahoo.com/lifestyle/gift-ideas/article/best-gifts-for-girlfriend-181221554.html)
+- [Best gifts for grandma](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-grandma-161601644.html)
+- [Best gifts for sisters](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-sisters-201742159.html)
+- [Best gifts for husbands](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-husband-164048138.html)
+- [Best birthday gifts for her](https://shopping.yahoo.com/gift-ideas/article/birthday-gifts-for-her-214215513.html)
+- [Best get well soon gifts](https://shopping.yahoo.com/gift-ideas/article/best-get-well-soon-gifts-163733353.html)
+- [Best travel gifts](https://shopping.yahoo.com/gift-ideas/article/the-best-travel-gifts-for-the-jet-setters-in-your-life-according-to-frequent-fliers-173720063.html)
+- [Best gifts for mother-in-law](https://shopping.yahoo.com/gift-ideas/article/best-gifts-for-mother-in-law-170519303.html)
+- [Best anniversary gifts for wife](https://shopping.yahoo.com/gift-ideas/article/anniversary-gift-wife-180730480.html)
++ [Stores](https://shopping.yahoo.com/stores/)
+- [Amazon](https://shopping.yahoo.com/stores/amazon/)
+- [Best Buy](https://shopping.yahoo.com/stores/best-buy/)
+- [Coach Outlet](https://shopping.yahoo.com/stores/coach-outlet/)
+- [Home Depot](https://shopping.yahoo.com/stores/home-depot/)
+- [Kate Spade New York](https://shopping.yahoo.com/stores/kate-spade-new-york/)
+- [Lowes](https://shopping.yahoo.com/stores/lowes/)
+- [Macy's](https://shopping.yahoo.com/stores/macys/)
+- [Nordstrom](https://shopping.yahoo.com/stores/nordstrom/)
+- [Sephora](https://shopping.yahoo.com/stores/sephora/)
+- [Sur La Table](https://shopping.yahoo.com/stores/sur-la-table/)
+- [Target](https://shopping.yahoo.com/stores/target/)
+- [Ulta](https://shopping.yahoo.com/stores/ulta-beauty/)
+- [Walmart](https://shopping.yahoo.com/stores/walmart/)
+- [Wayfair](https://shopping.yahoo.com/stores/wayfair/)
+- [Zappos](https://shopping.yahoo.com/stores/zappos/)
++ [Shopping Guides](https://shopping.yahoo.com/guides/)
+- [Best cordless stick vacuums](https://shopping.yahoo.com/home-garden/cleaning/article/best-cordless-stick-vacuums-194920452.html)
+- [Best water bottles](https://shopping.yahoo.com/home-garden/kitchen/article/best-water-bottles-151922237.html)
+- [Best vacuums](https://shopping.yahoo.com/home-garden/cleaning/article/best-vacuums-tested-and-reviewed-220428339.html)
+- [Best air fryers](https://shopping.yahoo.com/home-garden/kitchen/article/best-air-fryers-191551179.html)
+- [Best luggage](https://shopping.yahoo.com/style/luggage/article/best-luggage-185322761.html)
+- [Best jeans](https://shopping.yahoo.com/style/clothing/article/best-jeans-193623018.html)
+- [Best bras](https://shopping.yahoo.com/style/clothing/article/best-bras-152359298.html)
+- [Best nontoxic nail polish](https://shopping.yahoo.com/beauty/nails/article/the-best-non-toxic-nail-polish-201830177.html)
+- [Best under eye cream](https://shopping.yahoo.com/beauty/skincare/article/best-under-eye-creams-223255282.html)
+- [Best skin tightening creams](https://shopping.yahoo.com/beauty/skincare/article/best-skin-tightening-creams-212112383.html)
+- [Best coffee makers](https://shopping.yahoo.com/home-garden/kitchen/article/best-single-serve-coffee-maker-215624408.html)
+- [Best comforters](https://shopping.yahoo.com/home-garden/bedding/article/best-comforters-182052430.html)
+- [Best mops](https://shopping.yahoo.com/home-garden/cleaning/article/best-mops-191618379.html)
+- [Best Hoka shoes for walking](https://shopping.yahoo.com/style/shoes/article/best-hoka-shoes-for-walking-153232234.html)
+- [Best instant pot](https://shopping.yahoo.com/home-garden/kitchen/article/best-instant-pot-191632372.html)
++ [Deals](https://shopping.yahoo.com/deals/)
++ [Toys and games](https://shopping.yahoo.com/toys-games/)
++ [General](https://shopping.yahoo.com/general/)
+\* [Food](https://www.yahoo.com/lifestyle/food-drink/)
+\* [Travel](https://travel.yahoo.com/)
+\* [Autos](https://autos.yahoo.com/)
++ [EV & Future Tech](https://autos.yahoo.com/ev-and-future-tech/)
++ [Classic & Collector](https://autos.yahoo.com/classic-and-collector/)
++ [Deals & Buying Guides](https://autos.yahoo.com/deals-and-buying-guides/)
++ [Ownership](https://autos.yahoo.com/ownership/)
++ [Safety & Recalls](https://autos.yahoo.com/safety-and-recalls/)
++ [Policy & Environment](https://autos.yahoo.com/policy-and-environment/)
++ [New Vehicles & Reviews](https://autos.yahoo.com/new-vehicles-and-reviews/)
++ [Auto Shows](https://autos.yahoo.com/auto-shows/)
++ [General](https://autos.yahoo.com/general/)
++ [People & Culture](https://autos.yahoo.com/people-and-culture/)
+\* [Gift ideas](https://shopping.yahoo.com/gift-ideas/)
+\* [Buying guides](https://shopping.yahoo.com/guides/)
+### [Entertainment](https://www.yahoo.com/entertainment/)
+\* [Celebrity](https://www.yahoo.com/entertainment/celebrity/)
+\* [TV](https://www.yahoo.com/entertainment/tv/)
+\* [Movies](https://www.yahoo.com/entertainment/movies/)
+\* [Music](https://www.yahoo.com/entertainment/music/)
+\* [How to Watch](https://www.yahoo.com/guides/how-to-watch/)
+\* [Interviews](https://www.yahoo.com/guides/interviews/)
+\* [Videos](https://www.yahoo.com/guides/videos/)
+### [Finance](https://finance.yahoo.com/)
+\* [My Portfolio](https://finance.yahoo.com/portfolios/)
+\* [News](https://finance.yahoo.com/news/)
++ [Latest](https://finance.yahoo.com/topic/latest-news/)
++ [Originals](https://finance.yahoo.com/topic/yahoo-finance-originals/)
++ [Premium news](https://finance.yahoo.com/topic/premium-news)
++ [Newsletters](https://finance.yahoo.com/news/sign-up-for-yahoo-finances-morning-brief-174158888.html/)
++ [Stock market](https://finance.yahoo.com/topic/stock-market-news/)
++ [Crypto](https://finance.yahoo.com/topic/crypto/)
++ [Earnings](https://finance.yahoo.com/topic/earnings/)
++ [Tariffs](https://finance.yahoo.com/topic/tariffs/)
++ [Tax Insights via H&R Block](https://finance.yahoo.com/topic/hrb-2026/)
++ [More Topics](https://finance.yahoo.com/news/)
+- [Economies](https://finance.yahoo.com/topic/economic-news/)
+- [Tech](https://finance.yahoo.com/topic/tech/)
+- [Housing](https://finance.yahoo.com/topic/housing-market/)
+\* [Markets](https://finance.yahoo.com/markets/)
++ [Stocks](https://finance.yahoo.com/markets/stocks/)
+- [Most active](https://finance.yahoo.com/markets/stocks/most-active/)
+- [Day gainers](https://finance.yahoo.com/markets/stocks/gainers/)
+- [Day losers](https://finance.yahoo.com/markets/stocks/losers/)
+- [Trending](https://finance.yahoo.com/markets/stocks/trending/)
+- [Highest dividend](https://finance.yahoo.com/markets/stocks/highest-dividend/)
+- [Small cap](https://finance.yahoo.com/markets/stocks/small-cap-stocks/)
+- [Large cap](https://finance.yahoo.com/markets/stocks/large-cap-stocks/)
+- [Most expensive](https://finance.yahoo.com/markets/stocks/most-expensive-stocks/)
+- [Highest beta](https://finance.yahoo.com/markets/stocks/highest-beta-stocks/)
+- [Pink sheet](https://finance.yahoo.com/markets/stocks/pink-sheet-stocks/)
+- [Unusual volume](https://finance.yahoo.com/markets/stocks/unusual-volume-stocks/)
++ [Crypto](https://finance.yahoo.com/markets/crypto/all/)
+- [Most active](https://finance.yahoo.com/markets/crypto/most-active/)
+- [Day gainers](https://finance.yahoo.com/markets/crypto/gainers/)
+- [Day losers](https://finance.yahoo.com/markets/crypto/losers/)
++ [Prediction markets](https://finance.yahoo.com/markets/prediction/trending/)
+- [Finance](https://finance.yahoo.com/markets/prediction/finance/)
+- [Crypto](https://finance.yahoo.com/markets/prediction/crypto/)
+- [Equities](https://finance.yahoo.com/markets/prediction/equities/)
+- [Earnings](https://finance.yahoo.com/markets/prediction/earnings/)
+- [Tech](https://finance.yahoo.com/markets/prediction/tech/)
+- [Economy](https://finance.yahoo.com/markets/prediction/economy/)
++ [Private companies](https://finance.yahoo.com/markets/private-companies/highest-valuation/)
+- [52 week gainers](https://finance.yahoo.com/markets/private-companies/52-week-gainers/)
+- [Recently funded](https://finance.yahoo.com/markets/private-companies/recently-funded/)
+- [Most funded](https://finance.yahoo.com/markets/private-companies/most-funded/)
++ [Options](https://finance.yahoo.com/markets/options/most-active/)
+- [Day gainers](https://finance.yahoo.com/markets/options/gainers/)
+- [Day losers](https://finance.yahoo.com/markets/options/losers/)
+- [Highest open interest](https://finance.yahoo.com/markets/options/highest-open-interest/)
+- [Highest implied volatility](https://finance.yahoo.com/markets/options/highest-implied-volatility/)
++ [Sectors](https://finance.yahoo.com/sectors/)
+- [Technology](https://finance.yahoo.com/sectors/technology/)
+- [Financial services](https://finance.yahoo.com/sectors/financial-services/)
+- [Consumer cyclical](https://finance.yahoo.com/sectors/consumer-cyclical/)
+- [Communication services](https://finance.yahoo.com/sectors/communication-services/)
+- [Healthcare](https://finance.yahoo.com/sectors/healthcare/)
+- [Industrials](https://finance.yahoo.com/sectors/industrials/)
+- [Consumer defensive](https://finance.yahoo.com/sectors/consumer-defensive/)
+- [Energy](https://finance.yahoo.com/sectors/energy/)
+- [Basic materials](https://finance.yahoo.com/sectors/basic-materials/)
+- [Real estate](https://finance.yahoo.com/sectors/real-estate/)
+- [Utilities](https://finance.yahoo.com/sectors/utilities/)
++ [Treasury bonds](https://finance.yahoo.com/markets/bonds/)
++ [Futures](https://finance.yahoo.com/markets/commodities/)
++ [Currencies](https://finance.yahoo.com/markets/currencies/ )
++ [World indices](https://finance.yahoo.com/markets/world-indices/)
++ [ETFs](https://finance.yahoo.com/markets/etfs/)
+\* [Research](https://finance.yahoo.com/research-hub/screener/)
++ [Stock picks](https://finance.yahoo.com/stock-picks)
++ [Screeners](https://finance.yahoo.com/research-hub/screener/)
+- [Stocks](https://finance.yahoo.com/research-hub/screener/equity/)
+- [Most shorted](https://finance.yahoo.com/research-hub/screener/most\_shorted\_stocks/)
+- [Most active penny stocks](https://finance.yahoo.com/research-hub/screener/most\_active\_penny\_stocks/)
+- [Analyst strong buy](https://finance.yahoo.com/research-hub/screener/analyst\_strong\_buy\_stocks/)
++ [Calendar](https://finance.yahoo.com/calendar/)
+- [Earnings](https://finance.yahoo.com/calendar/earnings/)
+- [Stock splits](https://finance.yahoo.com/calendar/splits/)
+- [IPOs](https://finance.yahoo.com/calendar/ipo/)
+- [Economic events](https://finance.yahoo.com/calendar/economic/)
++ [Stock comparison](https://finance.yahoo.com/compare/)
+- [NVDA vs INTC](https://finance.yahoo.com/compare?comps=NVDA,INTC)
+- [NVDA vs AMD](https://finance.yahoo.com/compare?comps=NVDA,AMD)
+- [GOOG vs AMZN](https://finance.yahoo.com/compare?comps=GOOG,AMZN)
+- [AAPL vs MSFT](https://finance.yahoo.com/compare?comps=AAPL,MSFT)
+- [TSLA vs RIVN](https://finance.yahoo.com/compare?comps=TSLA,RIVN)
++ [Currency converter](https://finance.yahoo.com/currency-converter/)
++ [Advanced charts](https://finance.yahoo.com/chart/%5EGSPC/)
++ [Investment ideas](/about/plans/select-plan/investmentIdeas/?.done=%2Fresearch%2Ftrade-ideas%3Fncid%3Ddcm\_306158753\_490172245\_127172993&ncid=dcm\_306158753\_490172245\_127172993)
++ [Research reports](/about/plans/select-plan/researchReports/?.done=%2Fresearch%3Fncid%3Ddcm\_306158756\_490172245\_127172993&ncid=dcm\_306158756\_490172245\_127172993)
+\* [Community](https://finance.yahoo.com/community/)
+\* [Personal Finance](https://finance.yahoo.com/personal-finance/)
++ [My Money](https://finance.yahoo.com/my-money/)
++ [Credit cards](https://finance.yahoo.com/personal-finance/credit-cards/)
+- [Compare Credit Cards](https://finance.yahoo.com/personal-finance/credit-cards/compare/)
+- [Best 0% APR cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-zero-percent-apr-credit-cards-202429925.html)
+- [Best balance transfer cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-balance-transfer-credit-cards-123841213.html)
+- [Best rewards cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-rewards-credit-cards-172941111.html)
+- [Best travel cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-travel-rewards-credit-card-172745542.html)
++ [Banking](https://finance.yahoo.com/personal-finance/banking/)
+- [Best CD rates](https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-201308688.html)
+- [Best high-yield savings accounts](https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-account-171334498.html)
+- [Best money market accounts](https://finance.yahoo.com/personal-finance/banking/article/4-percent-interest-money-market-accounts-160154289.html)
+- [Best free checking accounts](https://finance.yahoo.com/personal-finance/banking/article/best-free-checking-accounts-195709452.html)
+- [Best online banks](https://finance.yahoo.com/personal-finance/banking/article/best-online-banks-225003422.html)
++ [Mortgage](https://finance.yahoo.com/personal-finance/mortgages/)
+- [Best mortgage lenders](https://finance.yahoo.com/personal-finance/mortgages/article/best-mortgage-lenders-173044403.html)
+- [Lowest mortgage rates](https://finance.yahoo.com/personal-finance/mortgages/article/8-strategies-for-getting-the-lowest-mortgage-rate-possible-in-2026-224601956.html)
+- [Mortgage refinance](https://finance.yahoo.com/personal-finance/mortgages/article/refinance-mortgage-162831396.html)
+- [First time homebuyer](https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html)
+- [Mortgage payment calculator](https://finance.yahoo.com/personal-finance/calculators/mortgage-payment-calculator/)
+- [Home affordability calculator](https://finance.yahoo.com/personal-finance/calculators/how-much-home-can-i-afford/)
++ [Insurance](https://finance.yahoo.com/personal-finance/insurance/)
+- [Find car insurance](https://finance.yahoo.com/personal-finance/insurance/article/cheap-car-insurance-152307402.html)
+- [Types of car insurance](https://finance.yahoo.com/personal-finance/insurance/article/types-of-car-insurance-175724082.html)
+- [Find life insurance](https://finance.yahoo.com/personal-finance/insurance/article/what-is-life-insurance-200844307.html)
++ [Taxes](https://finance.yahoo.com/personal-finance/taxes/)
+- [How to file](https://finance.yahoo.com/personal-finance/taxes/article/irs-direct-file-230748915.html)
+- [Tax brackets and rates](https://finance.yahoo.com/personal-finance/taxes/article/tax-brackets-165854746.html)
+- [Child tax credit](https://finance.yahoo.com/personal-finance/taxes/article/child-tax-credit-2023-170245284.html)
+- [Tax extension](https://finance.yahoo.com/personal-finance/taxes/article/tax-extension-220004592.html)
+- [Tax refund status](https://finance.yahoo.com/personal-finance/taxes/article/wheres-my-refund-223612874.html)
++ [Student loans](https://finance.yahoo.com/personal-finance/student-loans/)
+- [Federal vs. private](https://finance.yahoo.com/personal-finance/student-loans/article/are-federal-or-private-loans-better-175200294.html)
+- [How to apply](https://finance.yahoo.com/personal-finance/student-loans/article/how-to-apply-for-federal-student-loans-203505397.html)
+- [FAFSA 2026-27](https://finance.yahoo.com/personal-finance/student-loans/article/what-is-fafsa-173422253.html)
+- [Student loan assistance](https://finance.yahoo.com/personal-finance/student-loans/article/when-do-student-loans-resume-203115948.html)
++ [Personal loans](https://finance.yahoo.com/personal-finance/personal-loans/)
+- [Best personal loans](https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-202034980.html)
+- [Improve credit score](https://finance.yahoo.com/personal-finance/banking/article/how-to-improve-credit-score-140045472.html)
+- [How to get approved](https://finance.yahoo.com/personal-finance/personal-loans/article/how-to-get-approved-for-personal-loan-173728303.html)
+\* [Videos](https://finance.yahoo.com/videos/)
++ [Latest](https://finance.yahoo.com/videos/latest/)
++ [Editor's picks](https://finance.yahoo.com/videos/editor-picks/)
++ [Trending stocks](https://finance.yahoo.com/videos/trending-stocks/)
++ [Investing insights](https://finance.yahoo.com/videos/investing-insights/)
++ [Live shows](https://finance.yahoo.com/videos/series/)
+- [Morning Brief](https://finance.yahoo.com/videos/series/morning-brief/)
+- [Opening Bid](https://finance.yahoo.com/videos/series/opening-bid/)
+- [Market Catalysts](https://finance.yahoo.com/videos/series/market-catalysts/)
+- [Market Domination](https://finance.yahoo.com/videos/series/market-domination/)
+- [Market Domination Overtime](https://finance.yahoo.com/videos/series/market-domination-overtime/)
+- [Asking for a Trend](https://finance.yahoo.com/videos/series/asking-for-a-trend/)
++ [Video podcasts](https://finance.yahoo.com/videos/series/)
+- [Stocks in Translation](https://finance.yahoo.com/videos/series/stocks-in-translation/)
+- [Trader Talk](https://finance.yahoo.com/videos/series/trader-talk/)
+- [The Big Idea](https://finance.yahoo.com/videos/series/big-idea/)
+- [Financial Freestyle](https://finance.yahoo.com/videos/series/financial-freestyle/)
++ [FA Corner](https://finance.yahoo.com/topic/fa-corner/)
++ [ETF Report](https://finance.yahoo.com/topic/etf-report/)
++ [Options Unlocked](https://finance.yahoo.com/topic/options-101/)
+\* [Watch Now](https://finance.yahoo.com/live/)
+### [Sports](https://sports.yahoo.com/)
+\* [Selection Sunday](https://sports.yahoo.com/mens-college-basketball/live/selection-sunday-2026-live-updates-on-march-madness-bracketology-for-mens-ncaa-tournament-news-and-more-200000094.html)
+\* [March Madness 2026](https://sports.yahoo.com/college-basketball/topic/march-madness/)
+\* [College basketball](https://sports.yahoo.com/college-basketball/)
++ [Men's college basketball](https://sports.yahoo.com/college-basketball/)
++ [Women's college basketball](https://sports.yahoo.com/college-womens-basketball/)
++ [March Madness](https://sports.yahoo.com/college-basketball/topic/march-madness/)
+\* [Fantasy](https://sports.yahoo.com/fantasy/)
++ [Fantasy baseball](https://baseball.fantasysports.yahoo.com/)
++ [News](https://sports.yahoo.com/fantasy/news/)
++ [Fantasy football](https://football.fantasysports.yahoo.com/)
++ [Best ball](https://bestball.fantasysports.yahoo.com/)
++ [Pro Pick 'Em](https://football.fantasysports.yahoo.com/pickem)
++ [College Pick 'Em](https://football.fantasysports.yahoo.com/college)
++ [Fantasy hockey](https://hockey.fantasysports.yahoo.com/)
++ [Fantasy basketball](https://basketball.fantasysports.yahoo.com/)
++ [Download the app](https://sports.yahoo.com/fantasy/mobile/)
++ [Daily fantasy](https://sports.yahoo.com/dailyfantasy/)
+\* [NFL](https://sports.yahoo.com/nfl/)
++ [Scores](https://sports.yahoo.com/nfl/scoreboard/)
++ [Schedule](https://sports.yahoo.com/nfl/schedule/)
++ [Standings](https://sports.yahoo.com/nfl/standings/)
++ [Stats](https://sports.yahoo.com/nfl/stats/)
++ [Teams](https://sports.yahoo.com/nfl/teams/)
++ [Players](https://sports.yahoo.com/nfl/players/)
++ [Draft](https://sports.yahoo.com/nfl/draft/)
++ [Injuries](https://sports.yahoo.com/nfl/injuries/)
++ [Odds](https://sports.yahoo.com/nfl/odds/)
++ [Super Bowl](https://sports.yahoo.com/nfl/topic/super-bowl/)
++ [GameChannel](https://sports.yahoo.com/nfl/gamechannel/)
++ [Videos](https://sports.yahoo.com/watch/)
++ [News](https://sports.yahoo.com/nfl/news/)
+\* [NBA](https://sports.yahoo.com/nba/)
++ [Scores](https://sports.yahoo.com/nba/scoreboard/)
++ [Schedule](https://sports.yahoo.com/nba/schedule/)
++ [Standings](https://sports.yahoo.com/nba/standings/)
++ [Stats](https://sports.yahoo.com/nba/stats/)
++ [Teams](https://sports.yahoo.com/nba/teams/)
++ [Players](https://sports.yahoo.com/nba/players/)
++ [Injuries](https://sports.yahoo.com/nba/injuries/)
++ [Videos](https://sports.yahoo.com/watch/)
++ [Odds](https://sports.yahoo.com/nba/odds/)
++ [Playoffs](https://sports.yahoo.com/nba/topic/playoffs/)
++ [Draft](https://sports.yahoo.com/nba/draft/)
++ [News](https://sports.yahoo.com/nba/news/)
+\* [MLB](https://sports.yahoo.com/mlb/)
++ [Scores](https://sports.yahoo.com/mlb/scoreboard/)
++ [Schedule](https://sports.yahoo.com/mlb/schedule/)
++ [Standings](https://sports.yahoo.com/mlb/standings/)
++ [Stats](https://sports.yahoo.com/mlb/stats/)
++ [Teams](https://sports.yahoo.com/mlb/teams/)
++ [Players](https://sports.yahoo.com/mlb/players/)
++ [Playoffs](https://sports.yahoo.com/mlb/topic/postseason/)
++ [Odds](https://sports.yahoo.com/mlb/odds/)
++ [Videos](https://sports.yahoo.com/watch/)
++ [World Baseball Classic](https://sports.yahoo.com/mlb/topic/world-baseball-classic/)
++ [News](https://sports.yahoo.com/mlb/news/)
+\* [NHL](https://sports.yahoo.com/nhl/)
++ [Scores](https://sports.yahoo.com/nhl/scoreboard/)
++ [Schedule](https://sports.yahoo.com/nhl/schedule/)
++ [Standings](https://sports.yahoo.com/nhl/standings/)
++ [Stats](https://sports.yahoo.com/nhl/stats/)
++ [Teams](https://sports.yahoo.com/nhl/teams/)
++ [Players](https://sports.yahoo.com/nhl/players/)
++ [Odds](https://sports.yahoo.com/nhl/odds/)
++ [Playoffs](https://sports.yahoo.com/nhl/topic/stanley-cup-playoffs/)
++ [News](https://sports.yahoo.com/nhl/news/)
+\* [College football](https://sports.yahoo.com/college-football/)
++ [Scores](https://sports.yahoo.com/college-football/scoreboard/)
++ [Schedule](https://sports.yahoo.com/college-football/schedule/)
++ [Standings](https://sports.yahoo.com/college-football/standings/)
++ [Rankings](https://sports.yahoo.com/college-football/rankings/)
++ [Stats](https://sports.yahoo.com/college-football/stats/)
++ [Teams](https://sports.yahoo.com/college-football/teams/)
++ [College Football Playoff](https://sports.yahoo.com/college-football/topic/playoffs-bowl-games/)
++ [News](https://sports.yahoo.com/college-football/news/)
+\* [Soccer](https://sports.yahoo.com/soccer/)
++ [Schedule](https://sports.yahoo.com/soccer/schedule/)
++ [Scores](https://sports.yahoo.com/soccer/scoreboard/)
++ [Premier League](https://sports.yahoo.com/soccer/premier-league/)
++ [MLS](https://sports.yahoo.com/soccer/mls/)
++ [NWSL](https://sports.yahoo.com/soccer/nwsl/)
++ [Liga MX](https://sports.yahoo.com/soccer/ligamx-clausura/)
++ [CONCACAF League](https://sports.yahoo.com/soccer/concacaf-league/)
++ [Champions League](https://sports.yahoo.com/soccer/champions-league/)
++ [La Liga](https://sports.yahoo.com/soccer/la-liga/)
++ [Serie A](https://sports.yahoo.com/soccer/serie-a/)
++ [Bundesliga](https://sports.yahoo.com/soccer/bundesliga/)
++ [Ligue 1](https://sports.yahoo.com/soccer/ligue-1/)
++ [World Cup](https://sports.yahoo.com/soccer/world-cup/)
++ [News](https://sports.yahoo.com/soccer/news/)
+\* [Yahoo Sports AM](https://sports.yahoo.com/newsletters/yahoo-sports-am/)
+\* [Show all](https://sports.yahoo.com/)
++ [WNBA](https://sports.yahoo.com/wnba/)
++ [Sportsbook](https://sports.yahoo.com/sportsbook/)
++ [Tennis](https://sports.yahoo.com/tennis/)
++ [Golf](https://sports.yahoo.com/golf/)
++ [NASCAR](https://sports.yahoo.com/nascar/)
++ [Boxing](https://sports.yahoo.com/boxing/)
++ [UFL](https://sports.yahoo.com/ufl/)
++ [Cycling](https://sports.yahoo.com/cycling/)
++ [Racing](https://sports.yahoo.com/racing/)
++ [Horse racing](https://sports.yahoo.com/horse-racing/)
++ [GameChannel](https://sports.yahoo.com/mlb/gamechannel/)
++ [Newsletters](https://sports.yahoo.com/newsletters/)
++ [Podcasts](https://sports.yahoo.com/podcasts/)
++ [Videos](https://sports.yahoo.com/videos/)
++ [RSS](https://sports.yahoo.com/syndication/)
++ [Jobs](https://sports.yahoo.com/jobs/)
++ [Help](https://help.yahoo.com/kb/sports-news)
++ [More news](https://sports.yahoo.com/news/)
+### New on Yahoo
+\* [Yahoo Scout](https://scout.yahoo.com/?fr=fp-more-sct&fr2=p:fp,m:more-sct)
+\* [Creators](https://creators.yahoo.com/)
+\* [Tech](https://tech.yahoo.com/)
++ [AI](https://tech.yahoo.com/ai/)
+- [Apple Intelligence](https://tech.yahoo.com/ai/apple-intelligence/)
+- [ChatGPT](https://tech.yahoo.com/ai/chatgpt/)
+- [Claude](https://tech.yahoo.com/ai/claude/)
+- [Gemini](https://tech.yahoo.com/ai/gemini/)
+- [Meta](https://tech.yahoo.com/ai/meta-ai/)
+- [Microsoft Copilot](https://tech.yahoo.com/ai/copilot/)
+- [Perplexity](https://tech.yahoo.com/ai/perplexity-ai/)
++ [Audio](https://tech.yahoo.com/audio/)
+- [Audio deals](https://tech.yahoo.com/audio/deals/)
+- [Best AirPods](https://tech.yahoo.com/audio/article/the-best-airpods-141951590.html)
+- [Best budget headphones](https://tech.yahoo.com/audio/article/best-budget-headphones-154621859.html)
+- [Best soundbar of 2026](https://tech.yahoo.com/audio/article/best-soundbar-201806176.html)
+- [Best noise cancelling earbuds](https://tech.yahoo.com/audio/article/best-noise-cancelling-earbuds-184654494.html)
+- [Best noise cancelling headphones](https://tech.yahoo.com/audio/article/best-noise-cancelling-headphones-152521694.html)
+- [Best headphones](https://tech.yahoo.com/audio/article/best-headphones-173002347.html)
+- [Best cheap wireless earbuds](https://tech.yahoo.com/audio/article/best-cheap-earbuds-171052338.html)
+- [Best open ear headphones](https://tech.yahoo.com/audio/article/best-open-ear-headphones-165502093.html)
+- [Best outdoor speakers](https://tech.yahoo.com/audio/article/best-outdoor-speakers-185322069.html)
+- [Best wireless tv headphones](https://tech.yahoo.com/audio/article/best-wireless-tv-headphones-132231517.html)
+- [Best portable bluetooth speaker](https://tech.yahoo.com/audio/article/best-small-speakers-110032998.html)
+- [Best wireless earbuds](https://tech.yahoo.com/audio/article/best-wireless-earbuds-191737075.html)
++ [Computing](https://tech.yahoo.com/computing/)
+- [Best iPad](https://tech.yahoo.com/computing/article/best-ipad-135040315.html)
+- [Best tablets of 2026](https://tech.yahoo.com/computing/article/best-tablets-165149966.html)
+- [Best portable monitor](https://tech.yahoo.com/computing/article/best-portable-monitor-132539410.html)
+- [Best laptop for 2026](https://tech.yahoo.com/computing/article/best-laptops-work-from-home-gaming-214704161.html)
+- [Best tablet for kids](https://tech.yahoo.com/computing/article/best-tablet-for-kids-142802152.html)
++ [Gaming](https://tech.yahoo.com/gaming/)
+- [Gaming deals](https://tech.yahoo.com/gaming/deals/)
+- [Nintendo](https://tech.yahoo.com/gaming/nintendo/)
+- [PC](https://tech.yahoo.com/gaming/pc/)
+- [PlayStation](https://tech.yahoo.com/gaming/playstation/)
+- [Xbox](https://tech.yahoo.com/gaming/xbox/)
++ [Home entertainment](https://tech.yahoo.com/home-entertainment/)
+- [TVs](https://tech.yahoo.com/home-entertainment/tvs/)
+- [Best frame TV](https://tech.yahoo.com/home-entertainment/tvs/article/best-art-tvs-140642933.html)
+- [Best OLED TV](https://tech.yahoo.com/home-entertainment/tvs/article/best-oled-tv-193024796.html)
+- [Best budget TV](https://tech.yahoo.com/home-entertainment/tvs/article/best-budget-tvs-145149609.html)
+- [Best digital TV antenna](https://tech.yahoo.com/home-entertainment/article/best-digital-tv-antenna-183744310.html)
++ [Phones](https://tech.yahoo.com/phones/)
++ [Puzzle hints](https://tech.yahoo.com/puzzles/)
+- [Connections](https://tech.yahoo.com/puzzles/connections/)
+- [Quordle](https://tech.yahoo.com/puzzles/quordle/)
+- [Strands](https://tech.yahoo.com/puzzles/strands/)
+- [Wordle](https://tech.yahoo.com/puzzles/wordle/)
++ [Science](https://tech.yahoo.com/science/)
+- [Space](https://tech.yahoo.com/science/space/)
++ [Streaming](https://tech.yahoo.com/streaming/)
+- [Streaming reviews](https://tech.yahoo.com/streaming/reviews/)
+- [Streaming deals](https://tech.yahoo.com/streaming/deals/)
+- [Best streaming services](https://tech.yahoo.com/streaming/article/best-streaming-services-173846237.html)
+- [Best live TV streaming services](https://tech.yahoo.com/streaming/article/best-live-tv-streaming-services-120051955.html)
+- [Best free streaming services](https://tech.yahoo.com/streaming/article/best-free-tv-streaming-services-192511497.html)
+- [Best streaming device of 2026](https://tech.yahoo.com/streaming/article/best-streaming-devices-165920204.html)
++ [Tech News](https://tech.yahoo.com/news/)
++ [VPN](https://tech.yahoo.com/vpn/)
+- [Best VPNs](https://tech.yahoo.com/vpn/article/best-vpn-120000856.html)
+- [VPN deals](https://tech.yahoo.com/vpn/deals/)
+- [Most secure VPN for 2026](https://tech.yahoo.com/vpn/article/most-secure-vpn-130000023.html)
+- [Best VPN for streaming](https://tech.yahoo.com/vpn/article/best-vpn-for-streaming-172123918.html)
+- [Fastest VPNs for 2026](https://tech.yahoo.com/vpn/article/fastest-vpns-130000819.html)
+- [Best VPN for Mac](https://tech.yahoo.com/vpn/article/best-vpn-for-mac-200000271.html)
++ [Deals](https://tech.yahoo.com/deals/)
++ [More](#)
+- [Apps](https://tech.yahoo.com/apps/)
+- [AR and VR](https://tech.yahoo.com/ar-vr/)
+- [Business](https://tech.yahoo.com/business/)
+- [Cameras](https://tech.yahoo.com/cameras/)
+- [Cybersecurity](https://tech.yahoo.com/cybersecurity/)
+- [Entertainment](https://tech.yahoo.com/entertainment/)
+- [General](https://tech.yahoo.com/general/)
+- [Reviews and guides](https://tech.yahoo.com/reviews-and-guides/)
+- [Smart home](https://tech.yahoo.com/home/)
+- [Social media](https://tech.yahoo.com/social-media/)
+- [Transportation](https://tech.yahoo.com/transportation/)
+- [Wearables](https://tech.yahoo.com/wearables/)
+\* [Local](https://local.yahoo.com/)
++ [Moving](https://local.yahoo.com/movers/)
++ [Roofing](https://local.yahoo.com/roofing/)
++ [Painting](https://local.yahoo.com/painting/)
++ [Plumbing](https://local.yahoo.com/plumbing/)
++ [Awards](https://local.yahoo.com/awards/)
+\* [Terms](https://guce.yahoo.com/terms?locale=en-US)
+\* [Privacy](https://guce.yahoo.com/privacy-policy?locale=en-US)
+\* [Your Privacy Choices ![](https://s.yimg.com/dv/static/siteApp/img/privacy-choice-control.png)](https://guce.yahoo.com/state-controls?locale=en-US&state=CA)
+\* [CA Privacy Notice](https://guce.yahoo.com/ca-notice?locale=en-US)
+\* [Feedback](https://yahoo.uservoice.com/forums/952723-finance-b3)
+© 2026 All rights reserved.
+[About our ads](https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html) [Advertising](https://www.adtech.yahooinc.com/advertising/solutions) [Careers](https://www.yahooinc.com/careers/)
+# Yahoo Finance
+[Yahoo Finance](https://finance.yahoo.com/)
+Search query
+Tip: Try a valid symbol or a specific company name for relevant results
+### Trending Tickers
+\* ![](https://s.yimg.com/lb/brands/150x150\_adobe.png)
+ADBE
+249.32
+(-7.58%)
+\* ![](https://s2.coinmarketcap.com/static/img/coins/64x64/1.png)
+BTC-USD
+72690.51
+(+2.78%)
+\* X
+XYZ
+59.79
+(-0.18%)
+\* U
+ULTA
+535.72
+(-14.24%)
+\* R
+RBRK
+53.43
+(-1.09%)
+Select edition
+\* [USEnglish](https://www.yahoo.com/?p=dnr)
+\* [US y LATAMEspañol](https://espanol.yahoo.com/?p=dnr)
+\* [AustraliaEnglish](https://au.yahoo.com/?p=dnr)
+\* [CanadaEnglish](https://ca.yahoo.com/?p=dnr)
+\* [CanadaFrançais](https://qc.yahoo.com/?p=dnr)
+\* [DeutschlandDeutsch](https://de.yahoo.com/?p=dnr)
+\* [FranceFrançais](https://fr.yahoo.com/?p=dnr)
+\* [香港繁中](https://hk.yahoo.com/?p=dnr)
+\* [MalaysiaEnglish](https://malaysia.yahoo.com/?p=dnr)
+\* [New ZealandEnglish](https://nz.yahoo.com/?p=dnr)
+\* [SingaporeEnglish](https://sg.yahoo.com/?p=dnr)
+\* [台灣繁中](https://tw.yahoo.com/?p=dnr)
+\* [UKEnglish](https://uk.yahoo.com/?p=dnr)
+\* [News](https://www.yahoo.com/)
+\* [Finance](https://finance.yahoo.com/)
+\* [Sports](https://sports.yahoo.com/)
+\* More
++ [News](https://www.yahoo.com/)
+- [Today's news](https://www.yahoo.com/news/)
+- [US](https://www.yahoo.com/news/us/)
+- [Politics](https://www.yahoo.com/news/politics/)
+- [World](https://www.yahoo.com/news/world/)
+- [Weather](https://weather.yahoo.com/)
+- [Climate change](https://www.yahoo.com/issues/climate-change/)
+- [Health](https://health.yahoo.com/)
+- [Science](https://www.yahoo.com/news/science/)
+- [Originals](https://www.yahoo.com/guides/originals/)
+- [Newsletters](https://news.yahoo.com/newsletters/)
+- [Games](https://www.yahoo.com/games)
++ [Life](https://www.yahoo.com/lifestyle/)
+- [Health](https://health.yahoo.com/)
+- [Parenting](https://www.yahoo.com/lifestyle/family-relationships/)
+- [Style and beauty](https://www.yahoo.com/lifestyle/style-beauty/)
+- [Horoscopes](https://www.yahoo.com/lifestyle/horoscope/)
+- [Shopping](https://shopping.yahoo.com/)
+- [Food](https://www.yahoo.com/lifestyle/food-drink/)
+- [Travel](https://travel.yahoo.com/)
+- [Autos](https://autos.yahoo.com/)
+- [Gift ideas](https://shopping.yahoo.com/gift-ideas/)
+- [Buying guides](https://shopping.yahoo.com/guides/)
++ [Entertainment](https://www.yahoo.com/entertainment/)
+- [Celebrity](https://www.yahoo.com/entertainment/celebrity/)
+- [TV](https://www.yahoo.com/entertainment/tv/)
+- [Movies](https://www.yahoo.com/entertainment/movies/)
+- [Music](https://www.yahoo.com/entertainment/music/)
+- [How to Watch](https://www.yahoo.com/guides/how-to-watch/)
+- [Interviews](https://www.yahoo.com/guides/interviews/)
+- [Videos](https://www.yahoo.com/guides/videos/)
++ [Finance](https://finance.yahoo.com/)
+- [My portfolio](https://finance.yahoo.com/portfolios/)
+- [News](https://finance.yahoo.com/news/)
+- [Markets](https://finance.yahoo.com/markets/)
+- [Research](https://finance.yahoo.com/research-hub/screener/)
+- [Community](https://finance.yahoo.com/community/)
+- [Personal finance](https://finance.yahoo.com/personal-finance/)
+- [Videos](https://finance.yahoo.com/videos/)
++ [Sports](https://sports.yahoo.com/)
+- [Selection Sunday](https://sports.yahoo.com/mens-college-basketball/live/selection-sunday-2026-live-updates-on-march-madness-bracketology-for-mens-ncaa-tournament-news-and-more-200000094.html)
+- [March Madness 2026](https://sports.yahoo.com/college-basketball/topic/march-madness/)
+- [College basketball](https://sports.yahoo.com/college-basketball/)
+- [Fantasy](https://sports.yahoo.com/fantasy/)
+- [NFL](https://sports.yahoo.com/nfl/)
+- [NBA](https://sports.yahoo.com/nba/)
+- [MLB](https://sports.yahoo.com/mlb/)
+- [NHL](https://sports.yahoo.com/nhl/)
+- [College football](https://sports.yahoo.com/college-football/)
+- [Soccer](https://sports.yahoo.com/soccer/)
+- [Yahoo Sports AM](https://sports.yahoo.com/newsletters/yahoo-sports-am/)
+- [Show all](https://sports.yahoo.com/)
++ - New on Yahoo
+\* [Yahoo Scout](https://scout.yahoo.com/?fr=fp-more-sct&fr2=p:fp,m:more-sct)
+\* [Creators](https://creators.yahoo.com/)
+\* [Tech](https://tech.yahoo.com/)
+\* [Local](https://local.yahoo.com/)
+- [Selected edition](https://www.yahoo.com/everything/world/)USEnglish
+[Mail](https://mail.yahoo.com/)
+[Sign in](https://login.yahoo.com/?.lang=en-US&src=finance&.done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2F%255EHSI%2F&pspid=95993639&activity=ybar-signin)
+1. [My Portfolio](https://finance.yahoo.com/portfolios/)
+2. [News](https://finance.yahoo.com/news/)
+1. [Latest](https://finance.yahoo.com/topic/latest-news/)
+2. [Originals](https://finance.yahoo.com/topic/yahoo-finance-originals/)
+3. [Premium news](https://finance.yahoo.com/topic/premium-news)
+4. [Newsletters](https://finance.yahoo.com/news/sign-up-for-yahoo-finances-morning-brief-174158888.html/)
+5. [Stock market](https://finance.yahoo.com/topic/stock-market-news/)
+6. [Crypto](https://finance.yahoo.com/topic/crypto/)
+7. [Earnings](https://finance.yahoo.com/topic/earnings/)
+8. [Tariffs](https://finance.yahoo.com/topic/tariffs/)
+9. [Tax Insights via H&R Block](https://finance.yahoo.com/topic/hrb-2026/)
+10. More Topics
+1. [Economies](https://finance.yahoo.com/topic/economic-news/)
+2. [Tech](https://finance.yahoo.com/topic/tech/)
+3. [Housing](https://finance.yahoo.com/topic/housing-market/)
+3. [Markets](https://finance.yahoo.com/markets/)
+1. [Stocks](https://finance.yahoo.com/markets/stocks/)
+1. [Most active](https://finance.yahoo.com/markets/stocks/most-active/)
+2. [Day gainers](https://finance.yahoo.com/markets/stocks/gainers/)
+3. [Day losers](https://finance.yahoo.com/markets/stocks/losers/)
+4. [Trending](https://finance.yahoo.com/markets/stocks/trending/)
+5. [Highest dividend](https://finance.yahoo.com/markets/stocks/highest-dividend/)
+6. [Small cap](https://finance.yahoo.com/markets/stocks/small-cap-stocks/)
+7. [Large cap](https://finance.yahoo.com/markets/stocks/large-cap-stocks/)
+8. [Most expensive](https://finance.yahoo.com/markets/stocks/most-expensive-stocks/)
+9. [Highest beta](https://finance.yahoo.com/markets/stocks/highest-beta-stocks/)
+10. [Pink sheet](https://finance.yahoo.com/markets/stocks/pink-sheet-stocks/)
+11. [Unusual volume](https://finance.yahoo.com/markets/stocks/unusual-volume-stocks/)
+2. [Crypto](https://finance.yahoo.com/markets/crypto/all/)
+1. [Most active](https://finance.yahoo.com/markets/crypto/most-active/)
+2. [Day gainers](https://finance.yahoo.com/markets/crypto/gainers/)
+3. [Day losers](https://finance.yahoo.com/markets/crypto/losers/)
+3. [Prediction markets](https://finance.yahoo.com/markets/prediction/trending/)
+1. [Finance](https://finance.yahoo.com/markets/prediction/finance/)
+2. [Crypto](https://finance.yahoo.com/markets/prediction/crypto/)
+3. [Equities](https://finance.yahoo.com/markets/prediction/equities/)
+4. [Earnings](https://finance.yahoo.com/markets/prediction/earnings/)
+5. [Tech](https://finance.yahoo.com/markets/prediction/tech/)
+6. [Economy](https://finance.yahoo.com/markets/prediction/economy/)
+4. [Private companies](https://finance.yahoo.com/markets/private-companies/highest-valuation/)
+1. [52 week gainers](https://finance.yahoo.com/markets/private-companies/52-week-gainers/)
+2. [Recently funded](https://finance.yahoo.com/markets/private-companies/recently-funded/)
+3. [Most funded](https://finance.yahoo.com/markets/private-companies/most-funded/)
+5. [Options](https://finance.yahoo.com/markets/options/most-active/)
+1. [Day gainers](https://finance.yahoo.com/markets/options/gainers/)
+2. [Day losers](https://finance.yahoo.com/markets/options/losers/)
+3. [Highest open interest](https://finance.yahoo.com/markets/options/highest-open-interest/)
+4. [Highest implied volatility](https://finance.yahoo.com/markets/options/highest-implied-volatility/)
+6. [Sectors](https://finance.yahoo.com/sectors/)
+1. [Technology](https://finance.yahoo.com/sectors/technology/)
+2. [Financial services](https://finance.yahoo.com/sectors/financial-services/)
+3. [Consumer cyclical](https://finance.yahoo.com/sectors/consumer-cyclical/)
+4. [Communication services](https://finance.yahoo.com/sectors/communication-services/)
+5. [Healthcare](https://finance.yahoo.com/sectors/healthcare/)
+6. [Industrials](https://finance.yahoo.com/sectors/industrials/)
+7. [Consumer defensive](https://finance.yahoo.com/sectors/consumer-defensive/)
+8. [Energy](https://finance.yahoo.com/sectors/energy/)
+9. [Basic materials](https://finance.yahoo.com/sectors/basic-materials/)
+10. [Real estate](https://finance.yahoo.com/sectors/real-estate/)
+11. [Utilities](https://finance.yahoo.com/sectors/utilities/)
+7. [Treasury bonds](https://finance.yahoo.com/markets/bonds/)
+8. [Futures](https://finance.yahoo.com/markets/commodities/)
+9. [Currencies](https://finance.yahoo.com/markets/currencies/ )
+10. [World indices](https://finance.yahoo.com/markets/world-indices/)
+11. [ETFs](https://finance.yahoo.com/markets/etfs/)
+4. [Research](https://finance.yahoo.com/research-hub/screener/)
+1. [Stock picks](https://finance.yahoo.com/stock-picks)
+2. [Screeners](https://finance.yahoo.com/research-hub/screener/)
+1. [Stocks](https://finance.yahoo.com/research-hub/screener/equity/)
+2. [Most shorted](https://finance.yahoo.com/research-hub/screener/most\_shorted\_stocks/)
+3. [Most active penny stocks](https://finance.yahoo.com/research-hub/screener/most\_active\_penny\_stocks/)
+4. [Analyst strong buy](https://finance.yahoo.com/research-hub/screener/analyst\_strong\_buy\_stocks/)
+3. [Calendar](https://finance.yahoo.com/calendar/)
+1. [Earnings](https://finance.yahoo.com/calendar/earnings/)
+2. [Stock splits](https://finance.yahoo.com/calendar/splits/)
+3. [IPOs](https://finance.yahoo.com/calendar/ipo/)
+4. [Economic events](https://finance.yahoo.com/calendar/economic/)
+4. [Stock comparison](https://finance.yahoo.com/compare/)
+1. [NVDA vs INTC](https://finance.yahoo.com/compare?comps=NVDA,INTC)
+2. [NVDA vs AMD](https://finance.yahoo.com/compare?comps=NVDA,AMD)
+3. [GOOG vs AMZN](https://finance.yahoo.com/compare?comps=GOOG,AMZN)
+4. [AAPL vs MSFT](https://finance.yahoo.com/compare?comps=AAPL,MSFT)
+5. [TSLA vs RIVN](https://finance.yahoo.com/compare?comps=TSLA,RIVN)
+5. [Currency converter](https://finance.yahoo.com/currency-converter/)
+6. [Advanced charts](https://finance.yahoo.com/chart/%5EGSPC/)
+7. [Investment ideas](/about/plans/select-plan/investmentIdeas/?.done=%2Fresearch%2Ftrade-ideas%3Fncid%3Ddcm\_306158753\_490172245\_127172993&ncid=dcm\_306158753\_490172245\_127172993)
+8. [Research reports](/about/plans/select-plan/researchReports/?.done=%2Fresearch%3Fncid%3Ddcm\_306158756\_490172245\_127172993&ncid=dcm\_306158756\_490172245\_127172993)
+5. [Community](https://finance.yahoo.com/community/)
+6. [Personal Finance](https://finance.yahoo.com/personal-finance/)
+1. [My MoneyBETA](https://finance.yahoo.com/my-money/)
+2. [Credit cards](https://finance.yahoo.com/personal-finance/credit-cards/)
+1. [Compare Credit Cards](https://finance.yahoo.com/personal-finance/credit-cards/compare/)
+2. [Best 0% APR cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-zero-percent-apr-credit-cards-202429925.html)
+3. [Best balance transfer cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-balance-transfer-credit-cards-123841213.html)
+4. [Best rewards cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-rewards-credit-cards-172941111.html)
+5. [Best travel cards](https://finance.yahoo.com/personal-finance/credit-cards/article/best-travel-rewards-credit-card-172745542.html)
+3. [Banking](https://finance.yahoo.com/personal-finance/banking/)
+1. [Best CD rates](https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-201308688.html)
+2. [Best high-yield savings accounts](https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-account-171334498.html)
+3. [Best money market accounts](https://finance.yahoo.com/personal-finance/banking/article/4-percent-interest-money-market-accounts-160154289.html)
+4. [Best free checking accounts](https://finance.yahoo.com/personal-finance/banking/article/best-free-checking-accounts-195709452.html)
+5. [Best online banks](https://finance.yahoo.com/personal-finance/banking/article/best-online-banks-225003422.html)
+4. [Mortgage](https://finance.yahoo.com/personal-finance/mortgages/)
+1. [Best mortgage lenders](https://finance.yahoo.com/personal-finance/mortgages/article/best-mortgage-lenders-173044403.html)
+2. [Lowest mortgage rates](https://finance.yahoo.com/personal-finance/mortgages/article/8-strategies-for-getting-the-lowest-mortgage-rate-possible-in-2026-224601956.html)
+3. [Mortgage refinance](https://finance.yahoo.com/personal-finance/mortgages/article/refinance-mortgage-162831396.html)
+4. [First time homebuyer](https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html)
+5. [Mortgage payment calculator](https://finance.yahoo.com/personal-finance/calculators/mortgage-payment-calculator/)
+6. [Home affordability calculator](https://finance.yahoo.com/personal-finance/calculators/how-much-home-can-i-afford/)
+5. [Insurance](https://finance.yahoo.com/personal-finance/insurance/)
+1. [Find car insurance](https://finance.yahoo.com/personal-finance/insurance/article/cheap-car-insurance-152307402.html)
+2. [Types of car insurance](https://finance.yahoo.com/personal-finance/insurance/article/types-of-car-insurance-175724082.html)
+3. [Find life insurance](https://finance.yahoo.com/personal-finance/insurance/article/what-is-life-insurance-200844307.html)
+6. [Taxes](https://finance.yahoo.com/personal-finance/taxes/)
+1. [How to file](https://finance.yahoo.com/personal-finance/taxes/article/irs-direct-file-230748915.html)
+2. [Tax brackets and rates](https://finance.yahoo.com/personal-finance/taxes/article/tax-brackets-165854746.html)
+3. [Child tax credit](https://finance.yahoo.com/personal-finance/taxes/article/child-tax-credit-2023-170245284.html)
+4. [Tax extension](https://finance.yahoo.com/personal-finance/taxes/article/tax-extension-220004592.html)
+5. [Tax refund status](https://finance.yahoo.com/personal-finance/taxes/article/wheres-my-refund-223612874.html)
+7. [Student loans](https://finance.yahoo.com/personal-finance/student-loans/)
+1. [Federal vs. private](https://finance.yahoo.com/personal-finance/student-loans/article/are-federal-or-private-loans-better-175200294.html)
+2. [How to apply](https://finance.yahoo.com/personal-finance/student-loans/article/how-to-apply-for-federal-student-loans-203505397.html)
+3. [FAFSA 2026-27](https://finance.yahoo.com/personal-finance/student-loans/article/what-is-fafsa-173422253.html)
+4. [Student loan assistance](https://finance.yahoo.com/personal-finance/student-loans/article/when-do-student-loans-resume-203115948.html)
+8. [Personal loans](https://finance.yahoo.com/personal-finance/personal-loans/)
+1. [Best personal loans](https://finance.yahoo.com/personal-finance/personal-loans/article/best-personal-loans-202034980.html)
+2. [Improve credit score](https://finance.yahoo.com/personal-finance/banking/article/how-to-improve-credit-score-140045472.html)
+3. [How to get approved](https://finance.yahoo.com/personal-finance/personal-loans/article/how-to-get-approved-for-personal-loan-173728303.html)
+7. [Videos](https://finance.yahoo.com/videos/)
+1. [Latest](https://finance.yahoo.com/videos/latest/)
+2. [Editor's picks](https://finance.yahoo.com/videos/editor-picks/)
+3. [Trending stocks](https://finance.yahoo.com/videos/trending-stocks/)
+4. [Investing insights](https://finance.yahoo.com/videos/investing-insights/)
+5. [Live shows](https://finance.yahoo.com/videos/series/)
+1. [Morning Brief](https://finance.yahoo.com/videos/series/morning-brief/)
+2. [Opening Bid](https://finance.yahoo.com/videos/series/opening-bid/)
+3. [Market Catalysts](https://finance.yahoo.com/videos/series/market-catalysts/)
+4. [Market Domination](https://finance.yahoo.com/videos/series/market-domination/)
+5. [Market Domination Overtime](https://finance.yahoo.com/videos/series/market-domination-overtime/)
+6. [Asking for a Trend](https://finance.yahoo.com/videos/series/asking-for-a-trend/)
+6. [Video podcasts](https://finance.yahoo.com/videos/series/)
+1. [Stocks in Translation](https://finance.yahoo.com/videos/series/stocks-in-translation/)
+2. [Trader Talk](https://finance.yahoo.com/videos/series/trader-talk/)
+3. [The Big Idea](https://finance.yahoo.com/videos/series/big-idea/)
+4. [Financial Freestyle](https://finance.yahoo.com/videos/series/financial-freestyle/)
+7. [FA Corner](https://finance.yahoo.com/topic/fa-corner/)
+8. [ETF Report](https://finance.yahoo.com/topic/etf-report/)
+9. [Options Unlocked](https://finance.yahoo.com/topic/options-101/)
+8. [Watch Now](https://finance.yahoo.com/live/)
+...
+[Upgrade to Premium](/about/plans/select-plan/?.done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2F%25255EHSI%2F&ncid=\_1088\_DCM-PARTNER\_NATIVE\_US\_NoTargeting\_HeaderEyebrow\_YahooFinanceUsers\_\_\_RightRail\_Header-UpgradetoPaidSubscriptionButton\_\_N\_)
+### U.S. markets closed
+US Markets
+US Markets
+Europe Markets
+Asia Markets
+Cryptocurrencies
+Rates
+Commodities
+Currencies
+[S&P Futures](/quote/ES%3DF/)
+6,646.50
++10.50(+0.16%)
+[Dow Futures](/quote/YM%3DF/)
+46,639.00
++47.00(+0.10%)
+[Nasdaq Futures](/quote/NQ%3DF/)
+24,434.00
++39.75(+0.16%)
+[Russell 2000 Futures](/quote/RTY%3DF/)
+2,485.70
++4.80(+0.19%)
+[VIX](/quote/%5EVIX/)
+27.19
+-0.10(-0.37%)
+[Gold](/quote/GC%3DF/)
+5,024.60
+-37.10(-0.73%)
+[Bitcoin USD](/quote/BTC-USD/)
+72,690.51
++1,967.67(+2.78%)
+[CBOE Interest Rate 10 Year T No](/quote/%5ETNX/)
+4.2850
++0.0120(+0.28%)
+ADVERTISEMENT
+^HSI
+HANG SENG INDEX
+25,465.60 -0.98%
+\* [Summary](/quote/%5EHSI/)
+\* [News](/quote/%5EHSI/news/)
+\* [Chart](/quote/%5EHSI/chart/)
+\* [Community](/quote/%5EHSI/community/)
+\* [Historical Data](/quote/%5EHSI/history/)
+\* [Options](/quote/%5EHSI/options/)
+\* [Components](/quote/%5EHSI/components/)
+HKSE - Delayed Quote•HKD
+# HANG SENG INDEX (^HSI)
+25,465.60 -251.20 (-0.98%)
+At close: March 13 at 4:08:40 PM GMT+8
+Chart Range Bar
+1D
+5D
+### -1.13%
+1M
+### -4.15%
+6M
+### -3.50%
+YTD
+### -0.64%
+1Y
+### 8.54%
+5Y
+### -11.39%
+All
+### 891.54%
+Key Events
+Mountain
+[Advanced Chart](/chart/%5EHSI)
+Loading chart for ^HSI
+\* Previous Close 25,716.80
+\* Open 25,583.55
+\* Volume 0
+\* Day's Range 25,419.87 - 25,697.17
+\* 52 Week Range 19,260.21 - 28,056.10
+\* Avg. Volume 3,140,256,896
+### People Also Watch
+^N225 Nikkei 225
+\*\*53,819.61\*\*
+-1.16%
+^GDAXI DAX P
+\*\*23,447.29\*\*
+-0.60%
+^FCHI CAC 40
+\*\*7,911.53\*\*
+-0.91%
+^NYA NYSE Composite Index
+\*\*22,050.94\*\*
+-0.31%
+^DJI Dow Jones Industrial Average
+\*\*46,558.47\*\*
+-0.26%
+### Recent News: ^HSI
+[View More](/quote/%5EHSI/news/)
+[View More](/quote/%5EHSI/news/)
+### Trending Indices
+^GSPC S&P 500
+\*\*6,632.19\*\*
+-0.61%
+^DJI Dow Jones Industrial Average
+\*\*46,558.47\*\*
+-0.26%
+^IXIC NASDAQ Composite
+\*\*22,105.36\*\*
+-0.93%
+^NYA NYSE Composite Index
+\*\*22,050.94\*\*
+-0.31%
+^XAX NYSE American Composite Index
+\*\*8,420.47\*\*
+-2.32%
+^BUK100P Cboe UK 100
+\*\*1,018.98\*\*
+-0.34%
+^RUT Russell 2000 Index
+\*\*2,480.05\*\*
+-0.36%
+^VIX CBOE Volatility Index
+\*\*27.19\*\*
+-0.37%
+^FTSE FTSE 100
+\*\*10,261.15\*\*
+-0.43%
+^GDAXI DAX P
+\*\*23,447.29\*\*
+-0.60%
+^FCHI CAC 40
+\*\*7,911.53\*\*
+-0.91%
+^STOXX50E EURO STOXX 50 I
+\*\*5,716.61\*\*
+-0.56%
+^N100 Euronext 100 Index
+\*\*1,752.72\*\*
+-0.36%
+^BFX BEL 20
+\*\*5,109.48\*\*
+-0.77%
+IMOEX.ME MOEX Russia Index
+\*\*2,222.51\*\*
+-0.19%
+^N225 Nikkei 225
+\*\*53,819.61\*\*
+-1.16%
+000001.SS SSE Composite Index
+\*\*4,095.45\*\*
+-0.81%
+399001.SZ Shenzhen Index
+\*\*14,280.78\*\*
+-0.65%
+^STI STI Index
+\*\*4,842.27\*\*
+-0.27%
+^AXJO S&P/ASX 200
+\*\*8,617.10\*\*
+-0.14%
+^AORD ALL ORDINARIES
+\*\*8,839.10\*\*
+-0.14%
+^BSESN S&P BSE SENSEX
+\*\*74,563.92\*\*
+-1.93%
+^JKSE IDX COMPOSITE
+\*\*7,137.21\*\*
+-3.05%
+^KLSE FTSE Bursa Malaysia KLCI
+\*\*1,698.85\*\*
+-0.71%
+^NZ50 S&P/NZX 50 INDEX GROSS ( GROSS
+\*\*13,135.37\*\*
+-0.39%
+^KS11 KOSPI Composite Index
+\*\*5,487.24\*\*
+-1.72%
+^TWII TWSE Capitalization Weighted Stock Index
+\*\*33,400.32\*\*
+-0.54%
+^GSPTSE S&P/TSX Composite index
+\*\*32,541.93\*\*
+-0.91%
+^BVSP IBOVESPA
+\*\*177,653.31\*\*
+-0.91%
+^MXX IPC MEXICO
+\*\*65,648.91\*\*
+-0.66%
+^IPSA S&P IPSA
+\*\*10,466.52\*\*
++0.64%
+^MERV MERVAL
+\*\*2,642,584.20\*\*
+-1.96%
+^TA125.TA TA-125
+\*\*4,118.09\*\*
++0.55%
+^CASE30 EGX 30 Price Return Index
+\*\*45,926.90\*\*
+-2.69%
+^JN0U.JO Top 40 USD Net TRI Index
+\*\*6,803.83\*\*
+-2.88%
+Copyright © 2026 Yahoo. All rights reserved.
+What's trending
+[Dow Jones](https://finance.yahoo.com/quote/%5EDJI/) [S&P 500](https://finance.yahoo.com/quote/SPY/) [DAX Index](https://finance.yahoo.com/quote/%5EGDAXI/) [Nvidia](https://finance.yahoo.com/quote/NVDA/) [Tesla](https://finance.yahoo.com/quote/TSLA/) [DJT](https://finance.yahoo.com/quote/DJT/) [Tariffs](https://finance.yahoo.com/topic/tariffs/)
+Explore more
+[Mortgages](https://finance.yahoo.com/personal-finance/mortgages/) [Credit Cards](https://finance.yahoo.com/personal-finance/credit-cards/) [Sectors](https://finance.yahoo.com/sectors/) [Crypto Heatmap](https://finance.yahoo.com/crypto/heatmap/) [Financial News](https://finance.yahoo.com/news/)
+About
+[Data Disclaimer](https://help.yahoo.com/kb/finance-for-web/SLN2310.html?locale=en\_US) [Help](https://help.yahoo.com/kb/finance-for-web) [Feedback](https://yahoo.uservoice.com/forums/952723-finance-b3) [Sitemap](https://finance.yahoo.com/sitemap/) [Licensing](https://info.wrightsmedia.com/yahoo-finance-licensing) [What's New](https://finance.yahoo.com/about/whatsnew/) [About Our Ads](https://policies.oath.com/us/en/oath/privacy/adinfo/index.html) [Premium Plans](/about/plans/)
+[Terms](https://guce.yahoo.com/terms?locale=en-US) and [Privacy Policy](https://guce.yahoo.com/privacy-policy?locale=en-US)
+[CA Privacy Notice](https://guce.yahoo.com/ca-notice?locale=en-US)
+[Your Privacy Choices ![](https://s.yimg.com/dv/static/siteApp/img/privacy-choice-control.png)](https://guce.yahoo.com/state-controls?locale=en-US&state=CA)
+[More Info](/more-info)
+Tip: Try a valid symbol or a specific company name for relevant results
+### Trending Tickers
+\* ADBE
+Adobe Inc.
+EquityNMS
+\* BTC-USD
+Bitcoin USD
+CryptocurrencyCCC
+\* XYZ
+Block, Inc.
+EquityNYQ
+\* ULTA
+Ulta Beauty, Inc.
+EquityNMS
+\* RBRK
+Rubrik, Inc.
+EquityNYQ
+\* [Trending tickers](/trending-tickers)
++ [ADBEAdobe Inc.249.32-20.46(-7.58%)](/quote/ADBE/)
++ [BTC-USDBitcoin USD72,690.51+1,967.67(+2.78%)](/quote/BTC-USD/)
++ [XYZBlock, Inc.59.79-0.11(-0.18%)](/quote/XYZ/)
++ [ULTAUlta Beauty, Inc.535.72-88.98(-14.24%)](/quote/ULTA/)
++ [RBRKRubrik, Inc.53.43-0.59(-1.09%)](/quote/RBRK/)
+\* [Portfolio](/portfolios)
+[Portfolio](/portfolios)
+Sign in to access your portfolio
+[Sign in](https://login.yahoo.com/config/login?done=https%3A%2F%2Ffinance.yahoo.com%2Fquote%2F%255EHSI%2F&intl=us⟨=en-US&activity=dock-portfolio&pspid=95993639&src=finance)
+\* [Top gainers](/gainers/)
++ [NPNeptune Insurance Holdings Inc.21.87+3.68(+20.23%)](/quote/NP/)
++ [PAYPPayPay Corporation American Depository Shares21.14+2.98(+16.41%)](/quote/PAYP/)
++ [VEONVEON Ltd.50.60+6.29(+14.20%)](/quote/VEON/)
++ [KLARKlarna Group plc15.91+1.29(+8.82%)](/quote/KLAR/)
++ [KYIVKyivstar Group Ltd.11.07+0.87(+8.53%)](/quote/KYIV/)
+\* [Top losers](/losers/)
++ [ULTAUlta Beauty, Inc.535.72-88.98(-14.24%)](/quote/ULTA/)
++ [MEOHMethanex Corporation51.75-6.31(-10.87%)](/quote/MEOH/)
++ [CACCCredit Acceptance Corporation447.79-46.21(-9.35%)](/quote/CACC/)
++ [AAOIApplied Optoelectronics, Inc.96.81-9.38(-8.83%)](/quote/AAOI/)
++ [EQXEquinox Gold Corp.14.57-1.35(-8.48%)](/quote/EQX/)
+\* [Most active](/most-active/)
++ [NVDANVIDIA Corporation180.25-2.91(-1.59%)](/quote/NVDA/)
++ [AALAmerican Airlines Group Inc.10.30-0.24(-2.28%)](/quote/AAL/)
++ [NOKNokia Oyj8.24+0.10(+1.23%)](/quote/NOK/)
++ [BMNRBitmine Immersion Technologies, Inc.20.54-0.01(-0.05%)](/quote/BMNR/)
++ [MARAMARA Holdings, Inc.9.32+0.56(+6.39%)](/quote/MARA/)
+\* [Top economic events](/calendar/economic)
+\* [Earnings events](/calendar/earnings?day=2026-03-15)
+My earnings events
+Earnings events
+Edit your Dock
+[Terms](https://guce.yahoo.com/terms?locale=en-US) and [Privacy Policy](https://guce.yahoo.com/privacy-policy?locale=en-US)
+[CA Privacy Notice](https://guce.yahoo.com/ca-notice?locale=en-US)
+[Your Privacy Choices ![](https://s.yimg.com/dv/static/siteApp/img/privacy-choice-control.png)](https://guce.yahoo.com/state-controls?locale=en-US&state=CA)
+[Ad Terms](https://policies.oath.com/us/en/oath/privacy/adinfo/index.html) [Feedback](https://yahoo.uservoice.com/forums/952723-finance-b3) [More Info](/more-info)

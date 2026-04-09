@@ -1,0 +1,66 @@
+# Source URL: https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/
+# Content Length: 10977 characters
+# Extracted at: 2026-03-25 07:05:44
+#============================================================
+
+[Skip to main content](https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/#main-content)
+[Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv](https://www.reuters.com/differentiator/)
+![Tencent's logo is displayed at its booth at the China International Fair for Trade in Services](https://www.reuters.com/resizer/v2/OM5SRIX6UFJZTOOVHUKMRRHL4M.jpg?auth=5d3fd49cecac683b2faea3daf0df72b4ee884ca0e80fea8b55fe3a058efe4c67&width=1920&quality=80)
+Tencent's logo is displayed at its booth at the China International Fair for Trade in Services (CIFTIS) in Beijing, China, September 11, 2025. REUTERS/Maxim Shemetov/File Photo [Purchase Licensing Rights, opens new tab](https://www.reutersconnect.com/item/tencents-logo-is-displayed-at-its-booth-at-the-china-international-fair-for-trade-in-services/dGFnOnJldXRlcnMuY29tLDIwMjU6bmV3c21sX1JDMkdQR0FTVllaRw%3D%3D/?utm\_medium=rcom-article-media&utm\_campaign=rcom-rcp-lead)
+BEIJING, March 22 (Reuters) - Tencent [(0700.HK), opens new tab](https://www.reuters.com/markets/companies/0700.HK) launched a tool on Sunday to ​integrate its WeChat messaging platform with the OpenClaw ‌agent, deepening its push into AI agents that have become a key battleground among China's technology companies.
+The software, called ClawBot, will ​appear as a contact within WeChat, allowing ​users of China's most popular app with over ⁠1 billion monthly active users to connect directly with ​OpenClaw.
+Learn about the latest breakthroughs in AI and tech with the Reuters Artificial Intelligencer newsletter. Sign up [here.](https://www.reuters.com/newsletters/reuters-ai/?location=article-paragraph&redirectUrl=%2Ftechnology%2Ftencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22%2F)
+Advertisement · Scroll to continue
+Users can send and receive commands to interact with ​the AI agent through the messaging interface.
+The integration comes as OpenClaw, an open-source AI agent that can perform tasks such as ​transferring files and sending emails on users' behalf, has [gained ​traction](https://www.reuters.com/technology/openclaw-enthusiasm-grips-china-schoolkids-retirees-alike-raise-lobsters-2026-03-19/) in recent weeks.
+Users have rushed to install and experiment with ‌agent ⁠products, prompting tech firms to explore business opportunities even as authorities warn of security risks.
+Tencent's WeChat integration follows the company's launch earlier this month of its own ​AI agent ​suite, [comprising QClaw](https://www.reuters.com/world/asia-pacific/tencent-books-13-rise-quarterly-revenue-gaming-ai-demand-2026-03-18/) for ⁠individual users, Lighthouse for developers and WorkBuddy for enterprises.
+Advertisement · Scroll to continue
+Last week, Alibaba [(9988.HK), opens new tab](https://www.reuters.com/markets/companies/9988.HK) [launched](https://www.reuters.com/world/asia-pacific/alibaba-launches-new-ai-agent-platform-enterprises-2026-03-17/) Wukong, an ​artificial intelligence platform for enterprises that coordinates ​multiple AI ⁠agents to handle complex business tasks including document editing and meeting transcription within a single interface.
+Baidu [(9888.HK), opens new tab](https://www.reuters.com/markets/companies/9888.HK) quickly [followed](https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/) with ⁠a ​series of AI agents built on ​OpenClaw, spanning desktop software, cloud services, mobile tools and smart-home devices.
+)
+Reporting ​by Liam Mo and Ryan Woo; Editing by Michael Perry
+Our Standards: [The Thomson Reuters Trust Principles., opens new tab](https://www.thomsonreuters.com/en/about-us/trust-principles.html)
+Share
+- X
+- Facebook
+- Linkedin
+- Email
+- Link
+[Purchase Licensing Rights](https://www.reutersagency.com/en/licensereuterscontent/?utm\_medium=rcom-article-media&utm\_campaign=rcom-rcp-lead)
+## Read Next
+- 8 hours ago[Worldcategory](https://www.reuters.com/world/)
+[Exclusive: Amazon says AWS' Bahrain region 'disrupted' following drone activity](https://www.reuters.com/world/middle-east/amazon-says-awss-bahrain-region-disrupted-following-drone-activity-2026-03-24/)
+[![Amazon says AWS' Bahrain region 'disrupted' following drone activity](https://www.reuters.com/resizer/v2/7UA5NNXSBRKQVKRTZEAPEA57KM.jpg?auth=e7234572162d79f1b5ad0160862831ef6ecf2f791726d646d441c465ac1033e1&width=1200&quality=80)](https://www.reuters.com/world/middle-east/amazon-says-awss-bahrain-region-disrupted-following-drone-activity-2026-03-24/)
+- 24 mins ago[Litigationcategory](https://www.reuters.com/legal/litigation/)
+[Epic Games to cut more than 1,000 jobs as Fortnite usage falls](https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/)
+[![Fortnite installing on Android](https://www.reuters.com/resizer/v2/YQRNL7K3NVI45LC3BAR6IJRK7I.jpg?auth=7602ac6ea20db1cc78fc482c17b6b0bfcaad12eb539a800bc41f280e4de7af4e&width=1200&quality=80)](https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/)
+- 40 mins ago[Technologycategory](https://www.reuters.com/technology/)
+[Zoox to widen US robotaxi footprint with San Francisco, Vegas expansion](https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/)
+[![Zoox, self-driving vehicle owned by Amazon test drive in Foster City](https://www.reuters.com/resizer/v2/2ODLHGNAP5K6DD6U2TAPRVRIXE.jpg?auth=c29e38c148f58635e6ed4f9933a581a2601d82a1aae52a3a8416064bf3c76b58&width=1200&quality=80)](https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/)
+- 5 hours ago
+[Broadcom flags supply constraints, says TSMC capacity a bottleneck](https://www.reuters.com/world/asia-pacific/broadcom-flags-supply-constraints-says-tsmc-capacity-bottleneck-2026-03-24/)
+[![Broadcom prepares to launch new optical chip tech to fend off Nvidia](https://www.reuters.com/resizer/v2/MW4BQOPB5NJXTJ7YD6YRIWU7WM.jpg?auth=03b4d2728fbf8878bd3fc88e1180f6f90a734dd2d6eba9a09d081f3211577cb7&width=1200&quality=80)](https://www.reuters.com/world/asia-pacific/broadcom-flags-supply-constraints-says-tsmc-capacity-bottleneck-2026-03-24/)
+- 8 hours ago[Asia Pacificcategory](https://www.reuters.com/world/asia-pacific/)
+[Exclusive: ZYT readies AI that can outdrive its own CEO on Shenzhen streets](https://www.reuters.com/world/asia-pacific/zyt-readies-ai-that-can-outdrive-its-own-ceo-shenzhen-streets-2026-03-24/)
+[![Inside the intelligent factory of Chinese autonomous driving technology startup ZYT, in Shenzhen](https://www.reuters.com/resizer/v2/ALZYSIIQ6NILNCMZG5AXHKWDY4.jpg?auth=648e66bb7daea91323148c63e4d9f60746f4f1040a1895c7610d19e7af504d76&width=1200&quality=80)](https://www.reuters.com/world/asia-pacific/zyt-readies-ai-that-can-outdrive-its-own-ceo-shenzhen-streets-2026-03-24/)
+- 2 hours ago[Businesscategory](https://www.reuters.com/business/)
+[Norway wealth fund moves towards some AI-driven decisions but with humans in control](https://www.reuters.com/business/norway-wealth-fund-moves-towards-some-ai-driven-decisions-with-humans-control-2026-03-24/)
+[![The trading floor of Norges Bank Investment Management, the Nordic countryÕs sovereign wealth fund in Oslo](https://www.reuters.com/resizer/v2/QQ2E5C4LVFIMDLC2CUGECNN6MQ.jpg?auth=64f9c6ff82574f2845bce8c477c006fa8685e54432dce7d877d27e12bad7666d&width=1200&quality=80)](https://www.reuters.com/business/norway-wealth-fund-moves-towards-some-ai-driven-decisions-with-humans-control-2026-03-24/)
+## [Technology](https://www.reuters.com/technology/)
+- [![Illustration shows Palantir logo](https://www.reuters.com/resizer/v2/NEF4V4VEQVP5TOMQEAZTISOSCU.jpg?auth=1c60180f03b6ca309938e4e2191550b2abbdff4719cf5cddfc84b66dbd58a2a7&width=1200&quality=80)](https://www.reuters.com/technology/britains-fca-defends-palantir-contract-award-before-lawmakers-2026-03-24/)
+### [Britain's FCA defends Palantir contract award before lawmakers](https://www.reuters.com/technology/britains-fca-defends-palantir-contract-award-before-lawmakers-2026-03-24/)
+[Technologycategory](https://www.reuters.com/technology/) · March 24, 2026 · 11:02 AM EDT · 9 mins ago
+U.S. data analytics firm Palantir, which won a contract to supply AI systems ​to Britain's Financial Conduct Authority, will not have access to regulatory intelligence, an FCA official ‌said on Tuesday, as the deal came under criticism from lawmakers.
+- [![The Apple logo is seen during the preview of the redesigned and reimagined Apple Fifth Avenue store in New York](https://www.reuters.com/resizer/v2/AMMIIZMMZFPIFGZBX6546OI4WU.jpg?auth=d3452954c225dffaa3bfefa8adb965ee91da6884217550f94dc14dc247f2a438&width=960&quality=80)](https://www.reuters.com/business/media-telecom/apple-bring-paid-ads-maps-us-canada-this-summer-2026-03-24/)
+[Businesscategory](https://www.reuters.com/business/) [Apple to bring paid ads to maps to US, Canada this summer](https://www.reuters.com/business/media-telecom/apple-bring-paid-ads-maps-us-canada-this-summer-2026-03-24/)
+11:01 AM EDT
+- [![Fortnite installing on Android](https://www.reuters.com/resizer/v2/YQRNL7K3NVI45LC3BAR6IJRK7I.jpg?auth=7602ac6ea20db1cc78fc482c17b6b0bfcaad12eb539a800bc41f280e4de7af4e&width=960&quality=80)](https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/)
+[Litigationcategory](https://www.reuters.com/legal/litigation/) [Epic Games to cut more than 1,000 jobs as Fortnite usage falls](https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/)
+10:37 AM EDT
+- [![Traders work on the floor of the NYSE in New York](https://www.reuters.com/resizer/v2/UQ53ZEU4KZJWFJNTSOUHMIQX6A.jpg?auth=a522c819341f519f51df4beb0d0e490dbe6c0e79a3d8ce4dcfc3e6342f9aa260&width=960&quality=80)](https://www.reuters.com/business/nyse-teams-up-with-securitize-develop-tokenized-securities-platform-2026-03-24/)
+[Businesscategory](https://www.reuters.com/business/) [NYSE teams up with Securitize to develop tokenized securities platform](https://www.reuters.com/business/nyse-teams-up-with-securitize-develop-tokenized-securities-platform-2026-03-24/)
+9:27 AM EDT
+- [![Zoox, self-driving vehicle owned by Amazon test drive in Foster City](https://www.reuters.com/resizer/v2/2ODLHGNAP5K6DD6U2TAPRVRIXE.jpg?auth=c29e38c148f58635e6ed4f9933a581a2601d82a1aae52a3a8416064bf3c76b58&width=960&quality=80)](https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/)
+[Technologycategory](https://www.reuters.com/technology/) [Zoox to widen US robotaxi footprint with San Francisco, Vegas expansion](https://www.reuters.com/technology/zoox-widen-us-robotaxi-footprint-with-san-francisco-vegas-expansion-2026-03-24/)
+9:02 AM EDT

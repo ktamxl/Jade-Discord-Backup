@@ -1,0 +1,169 @@
+# Source URL: https://www.aibase.com/news/www.aibase.com/news/26459
+# Content Length: 11419 characters
+# Extracted at: 2026-03-25 08:39:13
+#============================================================
+
+
+Breaking Social Barriers! MiniMax Announces MaxClaw Integration with Personal WeChat: The Era of AI Intelligent Agents is Here[![]()](/)[Home](//www.aibase.com)[AI NEWS](//news.aibase.com)[AI Tools](//app.aibase.com)[AI Models](//model.aibase.com)[MCP](//mcp.aibase.com)[AI Services](#)[AI Compute](#)[AI Tutorial](//course.aibase.com)ENEN[Home](//www.aibase.com)AI NEWS Information[#### Latest AI News
+
+Explore AI Frontiers, Master Industry Trends](//news.aibase.com/news)[#### AI Daily Brief
+
+Your Daily AI Brief - Never Miss What's Next](//news.aibase.com/daily)AI Tools Information[#### AI Product Finder
+
+Smart Product Discovery - Comprehensive Market Intelligence](//app.aibase.com/discover)[#### AI Product Rankings
+
+AI Product Power Rankings - Performance, Buzz & Trends](//app.aibase.com/best-ai-tools/)[#### AI Product Submit
+
+Submit Your AI Product - Amplify Reach & Drive Growth](//app.aibase.com/submission) Tools[#### AI Tools Directory
+
+Discover The Best AI Websites & Tools](//app.aibase.com/tools)AI Models Information[#### LLM API Hub
+
+One-stop integration for all major LLM APIs.](//ai.chinaz.net)[#### AI Models Finder
+
+Comprehensive AI Models Collection for All Your Development & Research Needs](//model.aibase.com/llm)[#### Model Providers
+
+Discover Trusted AI Model Partners - Guaranteed Reliable Support](//model.aibase.com/providers)[#### LLM Leaderboard
+
+AI LLM Power Rankings - Performance, Buzz & Trends](//model.aibase.com/leaderboard/text-generation) Tools[#### Compare LLMs
+
+Multi-Dimensional Large Model Comparison - Find Your Perfect Match](//model.aibase.com/compare)[#### LLM Cost Calculator
+
+Calculate AI Model Costs Accurately - Optimize Your Budget](//model.aibase.com/calculator)[#### LLM Arena
+
+Multi-Model Real-Time Evaluation & Quick Output Comparison](//model.aibase.com/arena)MCP Information[#### MCP Servers
+
+Discover Popular AI-MCP Services - Find Your Perfect Match Instantly](//mcp.aibase.com/explore)[#### MCP Client
+
+Easy MCP Client Integration - Access Powerful AI Capabilities](//mcp.aibase.com/client)[#### MCP Case Tutorials
+
+Master MCP Usage - From Beginner to Expert](//mcp.aibase.com/server/doc)[#### MCP Ranking
+
+Top MCP Service Performance Rankings - Find Your Best Choice](//mcp.aibase.com/ranking)[#### MCP Service Submission
+
+Publish & Promote Your MCP Services](//mcp.aibase.com/submit) Tools[#### MCP Playground
+
+Test MCP Services Freely - Quick Online Experience](//mcp.aibase.com/playground)[#### MCP Inspector
+
+Quick MCP Service Testing - Fast Deployment](//mcp.aibase.com/inspector)AI Services Tools[#### GEO Brand Visibility
+
+All-in-One GEO Brand Insights Platform](//geo.aibase.com)[#### AI Brand Monitoring Tool
+
+Analyze & Track How AI Models Cite Your Brand](//app.aibase.com/tools/trackers)[#### AI Search Visibility Checker
+
+Detect brand's visibility on AI platforms](//app.aibase.com/tools/geo)[#### GEO Promotion Link Detection
+
+Quickly evaluate the citation of promotion articles on AI platforms](//app.aibase.com/tools/geo-checker) Service[#### GEO Ranking Optimization System
+
+Own your own GEO system and become a professional GEO optimization service provider.](//app.aibase.com/business/index.html)[#### GEO Services​
+
+Achieve Dominant Visibility in AI Search for Your Business or Brand with GEO Services​](//app.aibase.com/geo)AI Compute Tools[#### AI Model Compatibility Checker
+
+Free PC Hardware Test for DeepSeek & Llama](//model.aibase.com/tools/pc-check)[#### AI Deployment Calculator
+
+Enter Your Large Model Computing Requirements for Instant GPU, Memory & Server Configuration Recommendations](//model.aibase.com/tools/server-config-calculator)[AI Tutorial](//course.aibase.com)
+
+Breaking Social Barriers! MiniMax Announces MaxClaw Integration with Personal WeChat: The Era of AI Intelligent Agents is Here
+==============================================================================================================================
+
+![]()
+#### AIbase基地
+
+Published in[AI News](/news) · 3 min read · Mar 23, 202623
+
+China's AI sector has once again made a major breakthrough. On March 23, **MiniMax** officially announced that its AI Agent product **MaxClaw** now supports access to the personal WeChat platform.
+
+This move marks that **MaxClaw** has completely broken through the last barrier of mainstream instant messaging tools. As of now, this intelligent agent has fully covered the following channels:
+
+**National-level social platforms:** Personal WeChat, Enterprise WeChat.
+
+**Office collaboration:** Feishu, DingTalk.
+
+**International communication:** Telegram, WhatsApp.
+
+With the popularization of AI technology, how to bring intelligent agents out of the laboratory and into users' daily chat windows has become the focus of competition among major manufacturers. **MiniMax**'s integration with WeChat not only greatly lowers the threshold for ordinary users to use AI, but also provides more flexible automation office solutions for "one-person companies" or small startup teams.
+
+At the same time, security and compliance remain the key focus of the industry. Recently, institutions such as the National Internet Emergency Center have specifically released **OpenClaw Security Usage Practice Guide**, aiming to guide developers to more standardized and secure ways to utilize AI plugin capabilities when accessing social platforms like WeChat.
+
+From initial web chats to today's "full-platform penetration," **MiniMax** is building an omnipresent intelligent service network through MaxClaw. When AI can stay in your WeChat like a friend, the transformation of intelligent agents from "tools" to "partners" is accelerating.
+
+[AINeologism](/search/AINeologism&type=0)[MaxClaw](/search/MaxClaw&type=0)[WeChat](/search/WeChat&type=0)[MiniMax](/search/MiniMax&type=0)
+#### This article is from AIbase Daily
+
+Scan to view
+
+Welcome to the [AI Daily] column! This is your daily guide to exploring the world of artificial intelligence. Every day, we present you with hot topics in the AI field, focusing on developers, helping you understand technical trends, and learning about innovative AI product applications.
+
+—— Created by the AIbase Daily Team© Copyright AIbase Base 2024, Click to View Source - loading...
+### AI News Recommendations
+
+[![]()
+
+AI Daily: Luma AI launches Uni-1 image model; Alibaba DAMO Academy releases Xuantie C950; Meituan Longma releases open-source mathematical theorem proving model
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Welcome to the 【AI Daily】 segment! Here is your daily guide to exploring the world of artificial intelligence. Every day, we present you with the latest content in the AI field, focusing on developers, helping you understand technical trends and innovative AI product applications. Click to learn more about new AI products: https://app.aibase.com/zh1. Luma AI launched the Uni-1 image generation model, which uses a autoregressive architecture to generate text and pixels simultaneously. Luma AI released the Uni-1 image generation model based on an autoregressive architecture, supporting text
+
+Mar 24, 2026190](/news/26515)[![]()
+
+Europe's AI Investment Bank, Lone Wolf, Makes a Move: Air Street Raises $232 Million Focused on Early-Stage Hard Tech
+---------------------------------------------------------------------------------------------------------------------
+
+Air Street Capital raises $232M for its third fund, becoming one of Europe's largest solo venture capital firms. Led by Nathan Benaich, the fund focuses on AI, known for precise investments in AI unicorns, highlighting the strong influence of solo VC models in Europe's venture market.....
+
+Mar 24, 2026140](/news/26511)[![]()
+
+Claude Assistant Upgraded! Anthropic Launches New Computer Control Feature
+--------------------------------------------------------------------------
+
+Anthropic's Claude AI assistant can now directly control user computers, shifting AI from chat to action, challenging OpenClaw and advancing agent AI competition.....
+
+Mar 24, 2026490](/news/26507)[![]()
+
+Successfully Running 400 Billion Parameters Model! iPhone 17 Pro Challenges Local Execution of Large Models, but the Speed is Only 0.6 Token
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+iPhone 17 Pro runs a 400B-parameter AI model with only 12GB RAM, using flash memory streaming and MoE to overcome hardware limits.....
+
+Mar 24, 2026180](/news/26504)[![]()
+
+Your Mac Now Has an AI Digital Worker Claude Testing to Take Over Computer Operations
+-------------------------------------------------------------------------------------
+
+AI assistants are evolving from conversational tools to 'deep agents'. Anthropic's preview of a 'computer use' feature enables Claude to directly operate Mac computers, performing complex tasks by moving the mouse and clicking applications. This marks AI's breakthrough in bridging virtual and physical boundaries, advancing toward the role of 'digital employees'.....
+
+Mar 24, 2026150](/news/26503)[![]()
+
+The Endgame of Computing Power Is Energy: OpenAI Gambles on Nuclear Fusion to Secure Unlimited Power of 50 Million Kilowatts
+----------------------------------------------------------------------------------------------------------------------------
+
+OpenAI is negotiating a 10-year power purchase agreement with Helion Energy to secure 5 GW of nuclear fusion electricity by 2030, scaling to 50 GW by 2035, to meet AI's growing energy demands.....
+
+Mar 24, 2026120](/news/26499)[![]()
+
+Oral Treatment Upgraded! The AI Smart Service Account of Qingdao Stomatological Hospital Officially Launched
+------------------------------------------------------------------------------------------------------------
+
+Qingdao Stomatological Hospital launches 'Oral AI Smart Service' on WeChat, integrating local AI models for comprehensive, smart healthcare across all scenarios. Key features include three AI functions, creating a 'pocket dentist' to modernize traditional dental care processes.....
+
+Mar 24, 2026140](/news/26496)[![]()
+
+From Ambiguous Definitions to Explosive Applications: NVIDIA CEO Leverages the OpenClaw Trend to Claim AGI Has Become a Reality
+-------------------------------------------------------------------------------------------------------------------------------
+
+NVIDIA CEO Jensen Huang claims AGI is already here, capable of running major tech companies now, not years away.....
+
+Mar 24, 2026130](/news/26482)[![]()
+
+OpenAI Signs a Massive Nuclear Fusion Order to Build 8,000 Reactors
+-------------------------------------------------------------------
+
+OpenAI partners with Helion for fusion energy to meet AI's high power demands, with CEO Altman stepping down as chairman to avoid conflicts.....
+
+Mar 24, 2026110](/news/26478)[![]()
+
+Tencent's Financial Report Shows Strength: AI Investment Will Exceed 36 Billion Yuan by 2026, Huan Yuan Yuanbao Becomes the Top Contributor
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Tencent's 2025 revenue hit 751.8B yuan, up 14%, with operating profit rising 18%. AI is now a core driver, with intensified investment and doubled growth, reinforcing its tech moat.....
+
+Mar 23, 2026200](/news/26476)

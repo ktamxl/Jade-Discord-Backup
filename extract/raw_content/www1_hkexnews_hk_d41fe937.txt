@@ -1,0 +1,102 @@
+# Source URL: https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=EN&market=SEHK&stockId=1000286746&category=0
+# Content Length: 9012 characters
+# Extracted at: 2026-03-13 21:52:03
+#============================================================
+
+
+Listed Company Information Title Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* [Disclosure of Interests](https://di.hkex.com.hk/di/NSSrchCorpQW.aspx?src=MAIN&lang=EN&in=1&sc=00100)
+* Listing Category: Primary Listing
+Total records found: 21 
+
+
+Hide HeadlineShow Headline
+
+Sort
+
+* Latest information
+* Oldest information
+* Stock Code low to high
+* Stock Code high to low
+* Stock Name A to Z
+* Stock Name Z to A
+
+
+
+
+| Release Time | Stock Code | Stock Short Name | Document |
+| --- | --- | --- | --- |
+| Release Time: 13/03/2026 21:14 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Other - Miscellaneous / Trading Arrangements (other than Change in Board Lot Size)]  [(1) THE STOCK EXCHANGE'S APPROVAL OF THE COMPANY AS A COMMERCIAL COMPANY (2) REMOVAL OF STOCK MARKER](/listedco/listconews/sehk/2026/0313/2026031301613.pdf) (69KB) |
+| Release Time: 04/03/2026 16:36 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Monthly Returns  [Monthly Return of Equity Issuer on Movements in Securities for the month ended 28 February 2026](/listedco/listconews/sehk/2026/0304/2026030400720.pdf) (67KB) |
+| Release Time: 02/03/2026 17:46 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Final Results]  [ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2025](/listedco/listconews/sehk/2026/0302/2026030202837.pdf) (123KB) |
+| Release Time: 11/02/2026 16:31 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Date of Board Meeting]  [DATE OF BOARD MEETING](/listedco/listconews/sehk/2026/0211/2026021100282.pdf) (58KB) |
+| Release Time: 05/02/2026 18:44 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Other - Miscellaneous]  [STABILIZING ACTIONS AND END OF STABILIZATION PERIOD](/listedco/listconews/sehk/2026/0205/2026020502043.pdf) (64KB) |
+| Release Time: 02/02/2026 18:20 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Monthly Returns  [Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 January 2026](/listedco/listconews/sehk/2026/0202/2026020202505.pdf) (70KB) |
+| Release Time: 14/01/2026 22:03 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Next Day Disclosure Returns - [Others]  [Next Day Disclosure Return](/listedco/listconews/sehk/2026/0114/2026011401258.pdf) (84KB) |
+| Release Time: 11/01/2026 19:13 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Other - Miscellaneous]  [FULL EXERCISE OF THE OVER-ALLOTMENT OPTION](/listedco/listconews/sehk/2026/0111/2026011100015.pdf) (68KB) |
+| Release Time: 08/01/2026 22:40 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Allotment Results]  [ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS](/listedco/listconews/sehk/2026/0108/2026010801342.pdf) (1MB) |
+| Release Time: 08/01/2026 06:42 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [List of Directors and their Role and Function]  [LIST OF DIRECTORS AND THEIR ROLES AND FUNCTIONS](/listedco/listconews/sehk/2026/0108/2026010800039.pdf) (67KB) |
+| Release Time: 08/01/2026 06:35 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Terms of Reference of Other Board Committees]  [TERMS OF REFERENCE OF THE CORPORATE GOVERNANCE COMMITTEE](/listedco/listconews/sehk/2026/0108/2026010800037.pdf) (70KB) |
+| Release Time: 08/01/2026 06:30 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Terms of Reference of the Nomination Committee]  [TERMS OF REFERENCE OF THE NOMINATION COMMITTEE](/listedco/listconews/sehk/2026/0108/2026010800035.pdf) (69KB) |
+| Release Time: 08/01/2026 06:22 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Terms of Reference of the Remuneration Committee]  [TERMS OF REFERENCE OF THE REMUNERATION COMMITTEE](/listedco/listconews/sehk/2026/0108/2026010800029.pdf) (442KB) |
+| Release Time: 08/01/2026 06:16 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Terms of Reference of the Audit Committee]  [TERMS OF REFERENCE OF THE AUDIT COMMITTEE](/listedco/listconews/sehk/2026/0108/2026010800025.pdf) (449KB) |
+| Release Time: 08/01/2026 06:10 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Constitutional Documents  [AMENDED AND RESTATED MEMORANDUM AND ARTICLES OF ASSOCIATION](/listedco/listconews/sehk/2026/0108/2026010800013.pdf) (171KB) |
+| Release Time: 31/12/2025 06:44 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Documents on Display  [Documents on Display](/listedco/listconews/sehk/dod/en.html) (Multi-Files) |
+| Release Time: 31/12/2025 06:10 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Listing Documents - [Offer for Subscription]  [GLOBAL OFFERING](/listedco/listconews/sehk/2025/1231/2025123100025.pdf) (7MB) |
+| Release Time: 31/12/2025 06:04 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Announcements and Notices - [Formal Notice]  [GLOBAL OFFERING](/listedco/listconews/sehk/2025/1231/2025123100003.pdf) (198KB) |
+| Release Time: 21/12/2025 19:40 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Application Proofs, OC Announcements and Post Hearing Information Packs or PHIPs - [OC Announcements or related materials]  [OC Announcement - Appointment](/listedco/listconews/sehk/2026/0109/sehk25122100340.pdf) (106KB) |
+| Release Time: 21/12/2025 19:35 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Application Proofs, OC Announcements and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or... [More](javascript:void(0))Application Proofs, OC Announcements and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or PHIPs or related materials]]  [PHIP (1st submission)](/listedco/listconews/sehk/2026/0109/sehk25122100270.pdf) (7MB) |
+| Release Time: 21/12/2025 19:35 | Stock Code: 00100 | Stock Short Name: MINIMAX-WP | Document:  Application Proofs, OC Announcements and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or... [More](javascript:void(0))Application Proofs, OC Announcements and Post Hearing Information Packs or PHIPs - [Post Hearing Information Packs or PHIPs or related materials]]  [PHIP (1st submission)](/listedco/listconews/sehk/2026/0109/2025122100265.htm) (Multi-Files) |
+
+Showing 21 of 21 records
+
+
+
+Showing 21 of 21 records
+
+
+
+
+Disclaimer
+
+Information contained in the materials available under the web page containing the hyperlink to this disclaimer is posted on this website for the purpose of providing information to the public in Hong Kong. It is not intended as investment advice and must not be relied on as such. It is the sole responsibility of any person who is located outside of Hong Kong to check and comply with all applicable laws and regulations before accessing and using the materials and information.
+
+Please note that the web page contains materials and information provided to HKEX electronically (including information provided in electronic format) by listed issuers, new listing applicants and relevant parties and there is no agency, employee or partner relationship between HKEX and such parties. HKEX does not assume responsibility for screening, editing or monitoring such materials and the information contained in the materials. The information contained in the materials is not verified by HKEX.
+
+HKEX and/or its subsidiaries take no responsibility for the materials and information available under the web page, make no representation as to their accuracy, reliability, completeness or ownership and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the information. Some materials may contain hyperlinks to external websites or web pages for which HKEX and/or its subsidiaries are not responsible. (Please see HKEX's "[Hyperlink Policy](http://www2.hkexnews.hk/Global/Exchange/Hyperlink-Policy?sc_lang=en)").
+
+Nothing herein shall constitute or be considered to be a limitation upon or a waiver of the privileges and immunities of HKEX and its subsidiaries, which are specifically reserved.
+
+Copyright exists in the information and materials available under the web page and may belong to HKEX, to the author or to any other party depending on the circumstances of publications. Reproduction, distribution, use and/or linking without consent from the relevant parties is not permitted.
+
+If you believe or are aware that any information contained in the materials is inaccurate, erroneous, unlawful, obscene, defamatory or infringes any intellectual property rights of a third party, please contact HKEX e-Submission by email at: [ESSHotline@hkex.com.hk](mailto:ESSHotline@hkex.com.hk).
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+# Source URL: https://agent.minimax.io/docs/changelog
+# Content Length: 15212 characters
+# Extracted at: 2026-03-25 01:51:40
+#============================================================
+
+# Changelog
+Updates from the MiniMax Agent engineering team.
+2025-12-11
+Feature
+Scheduled Task: Users can now create recurring workflows using natural language, allowing the Agent to handle tasks like information gathering or website updates while you rest. You can also manage tasks, view execution logs, and track credit consumption via the new management page.
+![Scheduled Task](https://filecdn.minimax.chat/public/f708cf11-f436-4847-b1b9-d921590ee4b3.png)
+![Scheduled Task](https://filecdn.minimax.chat/public/5cf604fd-ac13-4c63-a66e-81593d2c5f5b.png)
+Dark Mode: Users can now switch between Light, Dark, and System themes for reduced eyestrain and improved readability during low-light sessions.
+![Dark Mode](https://filecdn.minimax.chat/public/596314c3-7905-413d-af51-d0b5dee0e919.png)
+Preset Query: Users can now access a list of example queries to better understand the MiniMax Agent's capabilities. These examples serve as a guide to help users unlock the Agent's full potential.
+![Preset Query](https://filecdn.minimax.chat/public/1474f86e-602e-4bad-8a9d-2c9faae78214.png)
+2025-12-03
+Feature
+Custom Mode: Users can now configure Agent behavior through custom settings to match specific workflows and preferences. The first customization option introduces subagents: specialized agents that operate independently with their own context. Available for all Free, Basic, and Pro users, with additional customization options coming soon.
+![Custom Mode](https://filecdn.minimax.chat/public/e0c35a48-d89c-480e-a301-34a8b56020b5.png)
+2025-11-14
+Feature
+New Subscription Management Page: Users can now easily view account information, manage subscription plans, and check task credit consumption records.
+![New Subscription Management Page](https://cdn.hailuoai.video/open-hailuo-video-web/public\_assets/7b6f74f3-fd51-4340-9d37-7d3b9710b54d.png)
+Custom Title: Users can now edit the names of "Tasks" or "Branch Sessions" to better organize and find past tasks.
+![Custom Title](https://filecdn.minimax.chat/public/22781bb8-52e8-4a30-8902-b9111c6531fa.png)
+Title Search: Users can now quickly search by "Task" or "Branch Session" titles.
+![Title Search](https://filecdn.minimax.chat/public/5c1801d8-fef4-4cb1-a7ce-2d9a54ac9bee.png)
+Improvements
+Improved PPT and PDF export performance, resulting in significantly faster exports and less waiting time for large files.
+Add gateway error codes to handle server errors
+2025-09-30
+Feature
+Pro Mode now supports the Project Settings module, allowing for the pre-configuration and runtime configuration of Supabase and API keys.
+![Project Settings](https://filecdn.minimax.chat/public/a7f90599-93ee-43d7-9152-dd4c880b24b2.jpeg)
+Share Chat now supports previewing, downloading, and packaging files.
+![Share Chat Files](https://cdn.hailuoai.video/open-hailuo-video-web/public\_assets/e6599b41-6159-4cf5-943e-c14e8d2c7145.png)
+Improvements
+Optimized browser memory usage.
+Improved file preview functionality.
+2025-09-20
+Feature
+Create Branch Sessions: Pro mode supports creating branch sessions for existing projects and sharing current project files to new sessions. It is suitable for the following situations:
+![Create Branch Sessions](https://filecdn.minimax.chat/public/c5f6e369-636b-44cc-bb37-ce48b24fef8d.png)
+![Share Project Files](https://filecdn.minimax.chat/public/72eded92-c72c-4f50-a203-3a9904e53959.png)
+Complex bug fix: Branch sessions only retain project files to avoid interference from historical session information, making the fix more efficient.
+Adding new web features: Use branch sessions to manage different features. This prevents interference between features, making project development clearer and easier to manage.
+Original session is approaching the context limit: For a project with a long conversation that is about to exceed the context limit, you can create a new branch session to continue modifying the project in a new context.
+2025-09-12
+Feature
+Introducing Lightning Mode: A free mode that can handle some simple tasks at a faster speed, such as online information retrieval, data analysis, etc.
+In Lightning Mode, the agent processes the user's tasks at a higher speed.
+Lightning Mode supports displaying the model's "thinking" process and streams the output.
+![Lightning Mode](https://cdn.hailuoai.video/open-hailuo-video-web/public\_assets/84002998-71be-42d0-b1de-8d76553f21b7.png)
+Improvements
+File Management
+Supports previewing files at any time. References to files made by the Agent can be clicked to jump to a preview.
+Supports file editing as well as downloading folders and files at any level of granularity (requires the Agent to be stopped).
+Optimized the access speed for file previews.
+2025-09-05
+Feature
+Team Plan Now Available: offers a shared credit pool and centralized member and billing management
+![Team Plan Now Available](https://filecdn.minimax.chat/public/bd32cb87-023f-48b9-8ce6-224c3742e3f8.png)
+Enhanced PPT Editing: now supports editing every detail of PPT
+![Enhanced PPT Editing](https://filecdn.minimax.chat/public/b29d3016-b79b-4f10-b95a-df11bf08b39f.png)
+Direct Code Editing: now support direct code editing via click selection, enabling technical users to modify code without agent prompts
+![Website Selector Editing](https://filecdn.minimax.chat/public/343ae102-b7b6-42fe-adc1-4543a12cd761.png)
+Improvements
+Performance optimizations
+Several bug fixes
+2025-08-29
+Feature
+Conversational Help: now can ask questions about how to use features and get instant help in chat
+![Conversational Help](https://filecdn.minimax.chat/public/dde0543b-f4cf-46e8-9ad8-e5995975df32.png)
+Improvements
+Enhanced image generation quality
+2025-08-23
+Feature
+Support for image editing with natural language prompts and intelligent object modification
+![Image Editing](https://filecdn.minimax.chat/public/cae6ec96-5816-43a9-ab56-decfb062318b.png)
+Improvements
+Performance optimizations
+Several bug fixes
+2025-08-15
+Feature
+PPT Live Preview: now can see real-time previews as PPT is being generated, know exactly what's happening.
+![PPT Live Preview](https://filecdn.minimax.chat/public/4da8887f-53e8-484f-a559-13beffb2512d.png)
+Instant Export: export presentations to PDF or PPTX with a simple button click while the Agent continues working
+![Instant Export](https://filecdn.minimax.chat/public/0b585317-a4fb-4c92-94af-1dcbe2938f55.png)
+Yahoo Finance Integration: get instant access to stock prices, market news, and financial analysis for creating data-driven presentations and reports
+Improvements
+Performance optimizations
+Several bug fixes
+2025-08-08
+Feature
+Selector Editing: Click any element on complex web pages and tell Agent how to improve it. Fine-tuning your sites just became effortless.
+![Website Selector Editing](https://filecdn.minimax.chat/public/e94b0fa9-0893-4eb1-8c54-6e0d477a8ae2.png)
+Persistent File Directory: A fixed file directory is now available at all stages of your workflow, ensuring constant and easy access to your documents.
+Agent works in parallel now: Tasks now run in parallel, which means less waiting time and lower credit costs for you.
+Improvements
+Optimized loading speed for large chat pages
+Enhanced image search and understanding capabilities
+Improved visual quality in reports and websites
+2025-08-01
+Feature
+Custom Domain: Users can now connect their own domain to websites built by the Minimax agent.
+Custom Minimax Subdomain: Users can now set a custom subdomain for their Minimax space.
+Delete Website: Users can now unbind or completely delete a deployed website.
+![Website Settings](https://filecdn.minimax.chat/public/37dd81b9-c5ce-4e54-bdba-b4211ec9c89a.png)
+2025-07-26
+Feature
+Publish to Gallery & Remix:
+Users can now publish projects to Gallery for increased visibility and account exposure, and remix published projects from other users without starting from scratch.
+![Switch News Hub from OpenAI to Anthropic](https://filecdn.minimax.chat/public/da24724f-1779-4db8-bd3d-ca481cd44df1.png)
+Try it:
+Switch News Hub from OpenAI to Anthropic
+Improvement
+Stripe Subscription: Added monthly auto-billing subscription support
+Long Conversation Summarization: Enhanced capability for processing extended dialogues
+Research Efficiency: Optimized to prevent redundant API research calls
+API Key Collection: Improved user credential gathering process
+Supabase Authorization: Fixed authentication-related issues
+Enhanced Chart Rendering: Added Mermaid diagram rendering support
+2025-07-18
+Feature
+New Features: Enhanced Task Control
+Requirement Clarification: Complex tasks now include plan confirmation step with users before execution, ensuring accurate requirement understanding
+Testing Confirmation: Added user choice between Agent-performed testing vs user self-confirmation
+Web Version History & Settings:
+Historical web pages organized and displayed
+Watermark removal settings on Basic/Pro Plan
+Improvement
+Performance Improvements: Faster & More Cost-Effective
+PPT Cost Optimization: Lower-cost models and batch mode for speed and cost efficiency
+Browser Agent: Upgraded underlying models for lower credit consumption
+Dynamic Tool Loading: Agent dynamically loads required tools based on task requirements
+2025-07-15
+Feature
+Version control: Introduced version control for agent tasks, enabling the correction of previous execution path.
+Restore Checkpoint: Reverts the agent to a previous state.
+Edit & Regenerate: Re-executes the task from a checkpoint with modified instructions.
+![Edit & Regenerate feature](https://filecdn.minimax.chat/public/1b43de1d-6ba3-4225-b289-f2e07e314ad5.png)
+2025-07-10
+Feature
+Stripe integration: seamlessly build websites with robust payment solutions, guaranteeing a secure and reliable checkout experience.
+![Stripe integration](https://filecdn.minimax.chat/public/7cd86c0a-8b1a-4ce6-84cb-61a26824ac29.jpeg)
+Try it:
+Crystal Bracelet Online Store with Stripe Payment
+2025-07-09
+Improvement
+Reduced average execution time by 30% and token usage by 23%.
+Accelerated tasks with parallel tool call support.
+Added a Python linter for pre-execution error checking.
+Code output is now compressed to further reduce token consumption.
+Code output is now compressed to further reduce token consumption.
+Browser Agent switched to a self-developed solution:
+Enhanced long-term memory for improved stability in long-running tasks.
+Lowered credit consumption for image recognition.
+Improved performance in multi-turn interactions.
+Enhanced PPTX Export Quality: Upgraded HTML-to-PPTX conversion for state-of-the-art visual fidelity.
+![Enhanced PPTX Export Quality](https://filecdn.minimax.chat/public/98a1fad3-8f6e-4656-9d95-0084a022bdc5.jpeg)
+Try it:
+Enhanced PPTX Export Quality
+2025-07-02
+Feature
+Backend Services:
+![Backend Services](https://filecdn.minimax.chat/public/f10a7307-0036-417f-975f-ad3c1c405d70.jpg)
+Try it:
+Real-time Tech Stock Tracker & Sentiment Analysis
+Introduced Supabase integration for full support for database, authentication, and APIs.
+Includes built-in Cron job capabilities for flexible task scheduling.
+Guarantees the quality of delivery and bug-free operation through powerful automated testing.
+MCP Builder:
+![MCP Builder](https://filecdn.minimax.chat/public/3171bbcf-a37f-45bb-87b3-4766f89405fd.png)
+Build custom MCPs from scratch or by wrapping existing tools.
+Completed MCPs can be added to the Agent marketplace for future reuse.
+2025-06-23
+Improvement
+Optimized image generation and external API call stability.
+Enhanced the understanding of images, videos, and voice, improving processing efficiency for large batches of media files.
+Fix
+Fixed several edge cases encountered during content concatenation tasks.
+Browser Agent now reads web pages with a new model, enabling support for a larger context window at a lower cost.
+Fixed issues with browser use and PDF reading large web pages/files.
+2025-06-18
+Improvement
+Enhanced PPT stability and resolved an issue where components would overflow in certain scenarios.
+2025-06-16
+Improvement
+Enhanced the execution efficiency of web development tasks and reduced the credits consumption.
+Shifted testing focus to comprehensive, end-to-end validation.
+Focused development on core business-critical features.
+Introduced visual reviews to accelerate UI/content bug fixes.
+Automated image compression for faster load times.
+Improved the response speed of the Agent's first sentence.
+Optimized MCP calls for more stable invocation. Especially for MiniMax Audio/Video.
+2025-06-12
+Feature
+Brand-new PPT Agent: generates presentations through a new model, reducing costs while improving performance and stability.
+![Brand-new PPT Agent](https://filecdn.minimax.chat/public/28afd3c2-9ba0-42fa-971a-e33a21d30037.png)
+Try it:
+Convert PDF to Academic Conference Presentation
+Improvement
+Improved multi-turn performance, retains sub-Agent conversation history.
+Optimized MCP initialization, faster first response.
+Fix
+Fixed various tool errors, improved stability (file, img search, download).
+Fixed message concatenation issues causing long errors.
+Temporarily disabled FE Agent reflection to save tokens.
+2025-06-11
+Improvement
+Significantly improved PPT export speed.
+2025-06-10
+Fix
+Fixed PPT export filename generation issue.
+2025-06-10
+General system improvements and bug fixes.
+Enhanced user experience across all platforms.
+Performance optimizations for better response times.
+2025-06-09
+Feature
+Document export supports PDF and Docx formats.
+![Document export](https://filecdn.minimax.chat/public/00191492-6c3a-41b1-a173-9cda2763ccdc.png)
+Try it:
+PDF/DOCX Export Sample
+PPT export supports PDF and PPTX formats (beta).
+Improvement
+Significantly improved image search relevance.
+![Image search improvement](https://filecdn.minimax.chat/public/f408af6e-edc8-44ee-bbb4-711f15a4ba2c.png)
+Try it:
+Image Search for Recipe Website
+Significantly improved result visualization, tasks with strong visualization needs now generate HTML pages.
+Improved multi-turn tasks and memory.
+Long task optimization, added reflection process, much higher completion rate.
+![Long task optimization](https://filecdn.minimax.chat/public/28dc9ecc-be58-42eb-ae22-090ee32b3e16.png)
+Try it:
+Reflection Process during Researching
+Significantly improved web scraping success rate (anti-crawling optimized).
+Python visualization charts now perfectly support CJK (Chinese, Japanese, Korean) fonts.
+On this page
+2025-12-11
+2025-12-03
+2025-11-14
+2025-09-30
+2025-09-20
+2025-09-12
+2025-09-05
+2025-08-29
+2025-08-23
+2025-08-15
+2025-08-08
+2025-08-01
+2025-07-26
+2025-07-18
+2025-07-15
+2025-07-10
+2025-07-09
+2025-07-02
+2025-06-23
+2025-06-18
+2025-06-16
+2025-06-12
+2025-06-11
+2025-06-10
+2025-06-10
+2025-06-09
+New Model
+Agent Upgraded: Powered by MiniMax-M2.1
+Your Agent in Lightning mode is now powered by our smartest MiniMax-M2.1 model, built for advanced coding and agentic tasks.
+What's New:
+- Multilingual Coding: Expert performance in multi-language development, excelling in test case generation, code optimization, and code review.
+- Agentic Tool Use: Reliably executes long-horizon tool chains and browser-based tasks with strong autonomous planning.
+- Digital Employee: Purpose-built for complex office workflows, acting as a "Digital Employee" to execute multi-step instructions and reasoning.
+Try M2.1

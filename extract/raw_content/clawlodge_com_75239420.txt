@@ -1,0 +1,176 @@
+# Source URL: https://clawlodge.com/lobsters/ozharsky-openclaw-workspace-backup
+# Content Length: 5909 characters
+# Extracted at: 2026-03-16 11:07:50
+#============================================================
+
+
+OpenClaw Workspace Backup - OpenClaw Setup | ClawLodge[![]()ClawLodge](/)[Publish](/publish)[Plugin Upload](/mcp)[Settings](/settings)[GitHub](https://github.com/memepilot/clawlodge)[中文](/api/v1/locale?locale=zh&next=%2Flobsters%2Fozharsky-openclaw-workspace-backup)...![]()
+
+OpenClaw Workspace Backup
+=========================
+
+by @ozharsky
+
+Automates backup and organization of OpenClaw workspace files, agents, skills, and business assets with regular sync to Google Drive.
+
+[workspace](/categories/workspace)[Productivity](/topics/productivity)[Automation](/topics/automation)[#openclaw](/tags/openclaw)[#backup](/tags/backup)[#workspace](/tags/workspace)[#automation](/tags/automation)[#business](/tags/business)[#google-drive](/tags/google-drive)[README](#readme)[Workspace](#workspace)[Community](#community)Latest release**v0.1.0**License**MIT**Files**6**Downloads**9**Favorites**0**[Download .zip](/api/v1/lobsters/ozharsky-openclaw-workspace-backup/versions/0.1.0/download)[View on GitHub](https://github.com/ozharsky/openclaw-workspace-backup)
+
+README
+------
+
+[Download workspace .zip](/api/v1/lobsters/ozharsky-openclaw-workspace-backup/versions/0.1.0/download)
+
+OpenClaw Workspace — Folder Structure
+=====================================
+
+**Last Updated:** 2026-02-21  
+
+**Purpose:** Organized workspace for Oleg Zharsky's business operations
+
+---
+
+📁 Folder Overview
+-----------------
+
+### 01-Core/
+
+System files, identity, and configuration
+
+* **identity/** — AGENTS.md, IDENTITY.md, SOUL.md, USER.md, etc.
+* **config/** — HEARTBEAT.md, TIMEZONE.md, TOOLS.md
+* **system/** — OpenClaw system files, skills, scripts
+
+### 02-Etsy-Shop/
+
+Everything related to OZ3DPrint Etsy business
+
+* **listings/** — Product copy, titles, tags, descriptions
+* **strategies/** — Growth plans, pricing strategies
+* **competitor-research/** — Market analysis, competitor intel
+* **marketing/** — Promotional content, campaigns
+
+### 03-Photography-Business/
+
+Photography services and client work
+
+* **quotes/** — Client quotes, proposals, pricing
+* **client-materials/** — NFC cards, setup guides
+* **growth-opportunities/** — Grants, publications, events
+
+### 04-Marketing-Tools/
+
+Lead generation and marketing assets
+
+* **calculator/** — Nicotine Pouch Savings Calculator
+* **landing-pages/** — HTML landing pages
+* **email-sequences/** — Email automation flows
+
+### 05-Strategy-Docs/
+
+High-level business strategy
+
+* **b2b-wholesale/** — Wholesale pricing, retailer targets
+* **intelligence-reports/** — Competitor analysis, market research
+
+### 06-Archive/
+
+Old versions and drafts
+
+* **old-versions/** — Previous iterations
+* **drafts/** — Work in progress
+
+### memory/
+
+Daily logs and session notes
+
+---
+
+🔄 Auto-Sync to Google Drive
+---------------------------
+
+This workspace syncs to Google Drive every 8 hours automatically.
+
+**Manual sync:**
+
+```
+./01-Core/system/sync-to-gdrive.sh
+
+```
+
+**Google Drive location:** `Gdrive:OpenClaw-Workspace/`
+
+---
+
+🎯 Current Priorities
+--------------------
+
+1. **Etsy Growth** — 10 → 20 orders/month (3-month goal)
+2. **Photography Business** — NYC event quote pending
+3. **Marketing Tools** — Calculator launch
+
+---
+
+*Organized by: Kimi Claw*  
+
+*Date: 2026-02-21*
+
+Workspace
+---------
+
+Current published snapshot. New publishes overwrite this view.
+
+[Download .zip](/api/v1/lobsters/ozharsky-openclaw-workspace-backup/versions/0.1.0/download)6 FilesUpdated 2026-03-08 10:25:22 UTC22 redactions83 blockedrootPublished via backfill-null-source-repo-v1memory1 itemsskills1 itemsAGENTS.md101 BREADME.md734 BSOUL.md72 BTOOLS.md30 B**AGENTS.md**text · 101 B
+### Community
+
+00CommentPost Comment
+
+No comments yet.
+
+Spam or unsafe content? Report now
+
+Related Lobsters
+----------------
+
+![]()
+### [OpenClaw Config](/lobsters/openclaw-config)
+
+[Workspace](/categories/workspace)[Productivity](/topics/productivity)[Automation](/topics/automation)
+
+Give your AI assistant memory, skills, and autonomy. A shareable config that turns Claude Code into an AI that remembers you, connects to your tools, and run...
+
+@TechNickAI21000![]()
+### [OpenClaw Workspace Template](/lobsters/afr6262-openclaw-workspace-template)
+
+[Workspace](/categories/workspace)[Productivity](/topics/productivity)[Automation](/topics/automation)
+
+A customizable OpenClaw workspace template for AI agents featuring persistent memory, PARA organization, and automated workflows for tech users.
+
+@afr626210000![]()
+### [OpenClaw Config](/lobsters/douphealth-openclaw-config)
+
+[Workspace](/categories/workspace)[Automation](/topics/automation)[Productivity](/topics/productivity)
+
+Enterprise-grade OpenClaw configuration and skill repository for streamlined, autonomous WordPress portfolio management.
+
+@douphealth10000![]()
+### [OpenClaw Starter Kit](/lobsters/ranshammer-openclaw-starter-kit)
+
+[Workspace](/categories/workspace)[Productivity](/topics/productivity)[Automation](/topics/automation)
+
+A ready-to-use workspace template for building a personalized OpenClaw AI assistant with structured memory, task tracking, and integrations.
+
+@RanSHammer9000![]()
+### [Clwatch Skill](/lobsters/cyperx84-clwatch-skill)
+
+[Tooling](/categories/tooling)[Productivity](/topics/productivity)[Automation](/topics/automation)
+
+Monitors AI harness changelogs and local config impacts, generating daily digest reports for streamlined tracking.
+
+@cyperx849000![]()
+### [Edict](/lobsters/cft0808-edict)
+
+[Workspace](/categories/workspace)[Multi-Agent](/topics/multiagent)[Automation](/topics/automation)
+
+Edict is an OpenClaw multi-agent orchestration system inspired by ancient Chinese bureaucracy, offering real-time dashboards, full audit trails, and strict t...
+
+@cft080825111ClawLodge is a library for discovering and sharing real OpenClaw setups, skills, agents, and workflows.[About](/about)[Privacy](/privacy)[GitHub](https://github.com/memepilot/clawlodge)[Install CLI](https://www.npmjs.com/package/clawlodge-cli)

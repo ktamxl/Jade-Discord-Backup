@@ -1,0 +1,208 @@
+# Source URL: https://www.panewslab.com/en/articles/019d1b5c-05be-743a-86a8-700f8c6cd2f0
+# Content Length: 32361 characters
+# Extracted at: 2026-03-25 08:39:14
+#============================================================
+
+
+Android users can connect to WeChat Clawbot with one click, even without gray-scale testing status. | PANews[![]()](/en)
+
+* [Home](/en)
+* [In-Depth](/en/in-depth)
+* [Newsflash](/en/newsflash)
+* [Event Calendar](/en/calendar)
+* [Series](/en/series)
+* [Directory](/en/tools)
+* Discover
+### Android users can connect to WeChat Clawbot with one click, even without gray-scale testing status.
+
+[![]()](/en/columns/019cb27f-9245-71b9-8391-cd6c7e62ae56)[01Founder](/en/columns/019cb27f-9245-71b9-8391-cd6c7e62ae56)
+
+* WeChat Launches Clawbot Plugin: Tencent officially introduces WeChat Clawbot, different from previous QClaw, directly placed in the primary chat interface as a private AI Agent.
+* Quick Access Tutorial: Users can update WeChat to version 8.0.70, enable Clawbot in the plugin page, then install by running commands and scanning QR codes, accessible even without gray release qualification.
+* Tencent's Strategic Motivation: To seize AI entry points, leveraging WeChat's 1.2 billion MAU; build AI Agent ecosystem, integrating services like public accounts and mini-programs; respond to competitor pressure from ByteDance and DingTalk; empower Tencent Cloud business, driving B2B from C2C.
+* Conclusion: The combination of WeChat and AI Agent may evolve into the next-generation super app, with OpenClaw as the key to Tencent's vast ecosystem.
+SummaryShow More
+### "First Release on the Entire Network" - One-Click Connection to WeChat Clawbot for Android! Even without gray-scale testing status, you can use it. A tutorial on one-click integration with WeChat Clawbot is here!
+
+Author: [Max](http://%E3%80%8C%E5%85%A8%E7%BD%91%E9%A6%96%E5%8F%91%E3%80%8D%E5%AE%89%E5%8D%93%E4%B8%80%E9%94%AE%E9%93%BE%E6%8E%A5%E5%BE%AE%E4%BF%A1Clawbot%EF%BC%81%E6%B2%A1%E6%9C%89%E7%81%B0%E5%BA%A6%E8%B5%84%E6%A0%BC%E4%B9%9F%E8%83%BD%E7%94%A8%EF%BC%8C%E4%B8%80%E9%94%AE%E6%8E%A5%E5%85%A5%E5%BE%AE%E4%BF%A1Clawbot%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86%EF%BC%81%20Image%20%E4%BB%8A%E5%A4%A9%E5%BE%AE%E4%BF%A1%E5%81%B7%E5%81%B7%E6%90%9E%E4%BA%86%E4%B8%AA%E5%A4%A7%E5%8A%A8%E4%BD%9C%EF%BC%8C%E5%AE%98%E6%96%B9%E6%AD%A3%E5%BC%8F%E6%8E%A8%E5%87%BA%E4%BA%86%E5%BE%AE%E4%BF%A1Clawbot%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%81%20%20%E5%92%8C%E4%B9%8B%E5%89%8D%E9%9A%90%E8%97%8F%E5%9C%A8%E5%AE%A2%E6%9C%8D%E6%B6%88%E6%81%AF%E9%87%8C%E7%9A%84QClaw%E3%80%81WorkBuddy%E4%B9%8B%E7%B1%BB%E7%9A%84%E5%AE%8C%E5%85%A8%E4%B8%8D%E5%90%8C%E3%80%82%20%20%E8%BF%99%E6%AC%A1%E8%85%BE%E8%AE%AF%E9%9D%9E%E5%B8%B8%E6%BF%80%E8%BF%9B%EF%BC%8C%E5%92%8C%E4%B9%8B%E5%89%8D%E5%85%83%E5%B0%8F%E5%AE%9D%E4%B8%80%E6%A0%B7%EF%BC%8C%E7%9B%B4%E6%8E%A5%E6%8A%8A%E5%BE%AE%E4%BF%A1Clawbot%E6%94%BE%E5%9C%A8%E4%BA%86%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E7%9A%84%E4%B8%80%E7%BA%A7%E5%85%A5%E5%8F%A3%EF%BC%81%20%20%E5%AE%83%E5%B8%A6%E6%9C%89%E7%B1%BB%E4%BC%BC%E2%80%9C%E5%85%83%E5%AE%9D%E2%80%9D%E7%9A%84%E4%B8%93%E5%B1%9EAI%E6%A0%87%E8%AF%86%EF%BC%8C%E4%BD%86%E5%8C%BA%E5%88%AB%E5%9C%A8%E4%BA%8E%EF%BC%9A%20%20%E5%85%83%E5%AE%9D%E7%9A%84Agent%E8%B7%91%E5%9C%A8%E8%85%BE%E8%AE%AF%E8%87%AA%E5%AE%B6%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E3%80%82%20%20%E8%80%8CClawBot%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%8E%A5%E5%85%A5%E4%BD%A0%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E7%9A%84OpenClaw%E7%9A%84%EF%BC%8C%E4%B9%9F%E5%B0%B1%E6%98%AF%E8%AF%B4%EF%BC%8C%E8%BF%99%E5%AE%8C%E5%85%A8%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B1%9E%E4%BA%8E%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E5%8C%96Agent%EF%BC%81%20%20%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%98%AF%EF%BC%8C%E4%BB%8A%E5%A4%A9%E7%BB%99%E5%A4%A7%E5%AE%B6%E5%B8%A6%E6%9D%A5%E4%B8%80%E4%B8%AA%E7%A7%98%E5%AF%86%E7%8E%A9%E6%B3%95%EF%BC%9A%20%20%E6%B2%A1%E6%9C%89%E6%94%B6%E5%88%B0%E5%BE%AE%E4%BF%A1%E7%81%B0%E5%BA%A6%E5%86%85%E6%B5%8B%E9%80%9A%E7%9F%A5%E7%9A%84%E5%B0%8F%E4%BC%99%E4%BC%B4%EF%BC%8C%E7%8E%B0%E5%9C%A8%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%BC%BA%E5%BC%80%E4%BD%BF%E7%94%A8%E4%BA%86%EF%BC%81%20%20%E7%9B%B4%E6%8E%A5%E5%A4%8D%E5%88%B6%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4%E5%88%B0%E4%BD%A0%E7%9A%84%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%E9%87%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BD%93%E9%AA%8C%EF%BC%81%20%20%E5%BA%9F%E8%AF%9D%E4%B8%8D%E5%A4%9A%E8%AF%B4%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%BF%AB%E9%80%9F%E6%8E%A5%E5%85%A5%E6%95%99%E7%A8%8B%E7%9B%B4%E6%8E%A5%E5%A5%89%E4%B8%8A%E3%80%82%20%20PART.01%20%E5%8D%87%E7%BA%A7%E4%BD%A0%E7%9A%84%E5%BE%AE%E4%BF%A1%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20THUMB%20STOPPING%20%E9%A6%96%E5%85%88%EF%BC%8C%E7%9B%AE%E5%89%8D%E8%BF%99%E4%B8%AA%E7%8E%A9%E6%B3%95%E6%9A%82%E6%97%B6%E5%AE%98%E6%96%B9%E7%9B%AE%E5%89%8D%E5%8F%AA%E6%94%AF%E6%8C%81%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%EF%BC%8C%E4%BD%A0%E9%9C%80%E8%A6%81%E6%8A%8A%E5%BE%AE%E4%BF%A1%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E5%88%B0%E6%9C%80%E6%96%B0%E7%9A%84%208.0.70%20%20%E5%AE%89%E5%8D%93%E5%85%9A%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E6%89%AB%E6%8F%8F%E9%BE%99%E8%99%BE%E7%BB%99%E4%BD%A0%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%9D%A5%E8%8E%B7%E5%BE%97%E6%8F%90%E5%89%8D%E5%8D%87%E7%BA%A7%E3%80%82%20%20%E6%9B%B4%E6%96%B0%E5%AE%8C%E6%88%90%E5%90%8E%EF%BC%8C%E6%89%93%E5%BC%80%E5%BE%AE%E4%BF%A1%EF%BC%8C%E8%BF%9B%E5%85%A5%E3%80%90%E6%88%91%E3%80%91-%E3%80%90%E8%AE%BE%E7%BD%AE%E3%80%91-%E3%80%90%E6%8F%92%E4%BB%B6%E3%80%91%E9%A1%B5%E9%9D%A2%E3%80%82%20%20%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%8C%E4%BD%A0%E5%B0%B1%E8%83%BD%E5%9C%A8%E2%80%9C%E5%BE%AE%E4%BF%A1%E8%BE%93%E5%85%A5%E6%B3%95%E2%80%9D%E7%9A%84%E4%B8%8A%E6%96%B9%E7%9C%8B%E5%88%B0%E6%96%B0%E5%A2%9E%E7%9A%84%E3%80%90%E5%BE%AE%E4%BF%A1ClawBot%E3%80%91%E6%8F%92%E4%BB%B6%E4%BA%86%E3%80%82%20%20%E5%A6%82%E6%9E%9C%E5%88%9A%E6%9B%B4%E6%96%B0%E5%AE%8C%E7%89%88%E6%9C%AC%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%BF%9B%E5%8E%BB%E6%B2%A1%E7%9C%8B%E5%88%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E4%B8%8D%E7%94%A8%E6%85%8C%EF%BC%8C%E6%8A%8A%E5%BE%AE%E4%BF%A1%E5%90%8E%E5%8F%B0%E6%9D%80%E6%8E%89%E9%87%8D%E6%96%B0%E8%BF%9B%E4%B8%80%E6%AC%A1%E5%B0%B1%E4%BC%9A%E5%87%BA%E7%8E%B0%E4%BA%86%E3%80%82%20%20PART.02%20%E5%AE%89%E8%A3%85Openclaw%E5%BE%AE%E4%BF%A1%E6%8F%92%E4%BB%B6%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20THUMB%20STOPPING%20%E7%82%B9%E5%87%BB%E8%BF%9B%E5%85%A5%E2%80%9C%E5%BE%AE%E4%BF%A1ClawBot%E2%80%9D%E7%9A%84%E8%AF%A6%E6%83%85%E9%A1%B5%EF%BC%8C%E4%BD%A0%E4%BC%9A%E7%9C%8B%E5%88%B0%E5%AE%98%E6%96%B9%E7%9A%84%E6%8E%A5%E5%85%A5%E5%BC%95%E5%AF%BC%E3%80%82%20%20%E4%B8%8D%E7%AE%A1%E4%BD%A0%E6%9C%89%E6%B2%A1%E6%9C%89%E7%81%B0%E5%BA%A6%E5%90%8D%E9%A2%9D%EF%BC%8C%E7%9B%B4%E6%8E%A5%E6%8C%89%E4%BB%A5%E4%B8%8B%E4%B8%A4%E6%AD%A5%E6%93%8D%E4%BD%9C%E5%8D%B3%E5%8F%AF%EF%BC%9A%20%20%E6%AD%A5%E9%AA%A4%E4%B8%80%EF%BC%9A%E5%9C%A8%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%E4%B8%AD%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4%20%E5%9C%A8%E4%BD%A0%E8%BF%90%E8%A1%8COpenclaw%E7%9A%84%E7%94%B5%E8%84%91%E4%B8%8A%EF%BC%8C%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E4%BD%A0%E7%9A%84%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%EF%BC%8C%E5%A4%8D%E5%88%B6%E5%B9%B6%E5%9B%9E%E8%BD%A6%E8%BF%90%E8%A1%8C%E4%B8%8B%E9%9D%A2%E8%BF%99%E8%A1%8C%E5%91%BD%E4%BB%A4%EF%BC%9A%20npx%20-y%20@tencent-weixin/openclaw-weixin-cli@latest%20install%20%20%E4%BD%9C%E8%80%85%E7%94%A8%E8%87%AA%E5%B7%B1%E5%9C%A8%E6%89%A3%E5%AD%90%E4%B8%8A%E7%9A%84%E9%BE%99%E8%99%BE%E6%B5%8B%E8%AF%95%EF%BC%88%E6%89%A3%E5%AD%90%E5%8F%AF%E4%BB%A5%E5%B0%B1%E4%BB%A3%E8%A1%A8%E5%85%A8%E9%83%A8%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E9%BE%99%E8%99%BE%E9%83%BD%E5%8F%AF%E4%BB%A5%EF%BC%89%20%20Image%20%E8%B7%91%E5%AE%8C%E8%BF%99%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%90%8E%EF%BC%8C%E7%94%B5%E8%84%91%E5%B1%8F%E5%B9%95%E4%B8%8A%E4%BC%9A%E7%9B%B4%E6%8E%A5%E5%BC%B9%E5%87%BA%E4%B8%80%E4%B8%AA%E4%BA%8C%E7%BB%B4%E7%A0%81%E3%80%82%20%20%E6%88%91%E4%BB%AC%E8%BF%9B%E5%85%A5%E7%AC%AC%E4%BA%8C%E6%AD%A5%20%20%E6%AD%A5%E9%AA%A4%E4%BA%8C%EF%BC%9A%E7%94%A8%E4%BD%A0%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%20%E7%94%B5%E8%84%91%E4%B8%8A%E5%87%BA%E7%8E%B0%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%90%8E%EF%BC%8C%E7%9B%B4%E6%8E%A5%E7%94%A8%E6%89%8B%E6%9C%BA%E5%BE%AE%E4%BF%A1%E7%9A%84%E2%80%9C%E6%89%AB%E4%B8%80%E6%89%AB%E2%80%9D%E8%BF%9B%E8%A1%8C%E6%89%AB%E6%8F%8F%E3%80%82%20%20%E6%89%AB%E7%A0%81%E6%88%90%E5%8A%9F%E5%B9%B6%E7%A1%AE%E8%AE%A4%E8%BF%9E%E6%8E%A5%E5%90%8E%EF%BC%8C%E5%8F%AA%E8%A6%81%E7%9C%8B%E5%88%B0%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%E7%9A%84%E6%8F%90%E7%A4%BA%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%EF%BC%81%20%20Image%20%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E6%98%AF%EF%BC%8C%E5%8D%B3%E4%BD%BF%E4%BD%A0%E6%B2%A1%E6%9C%89%E8%8E%B7%E5%BE%97%E7%81%B0%E5%BA%A6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%89%AB%E7%A0%81%EF%BC%8C%E7%9B%B4%E6%8E%A5%E7%94%A8%E6%89%AB%E4%B8%80%E6%89%AB%E5%B0%B1%E5%8F%AF%E4%BB%A5%E3%80%82%20%20%E5%AE%89%E5%8D%93%E7%89%88%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%89%AB%E7%A0%81%EF%BC%8C%E4%BC%9A%E6%8F%90%E7%A4%BA%E5%8D%87%E7%BA%A7%E3%80%82%20%20%E5%8D%87%E7%BA%A7%E5%AE%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E8%BF%9E%E6%8E%A5%E9%BE%99%E8%99%BE%E4%BA%86%EF%BC%81%20%20Image%20%E8%BF%99%E6%97%B6%E5%80%99%E4%BD%A0%E7%BB%99%E5%AE%83%E5%8F%91%E6%9D%A1%E6%B6%88%E6%81%AF%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B%EF%BC%8C%E4%BC%9A%E5%8F%91%E7%8E%B0%E5%AE%83%E5%92%8C%E5%BE%AE%E4%BF%A1%E5%85%83%E5%AE%9D%E4%B8%80%E6%A0%B7%EF%BC%8C%E9%A1%B6%E9%83%A8%E4%B9%9F%E4%BC%9A%E6%98%BE%E7%A4%BA%E2%80%9C%E5%AF%B9%E6%96%B9%E6%AD%A3%E5%9C%A8%E8%BE%93%E5%85%A5...%E2%80%9D%E7%9A%84%E9%80%BC%E7%9C%9F%E6%8F%90%E7%A4%BA%E3%80%82%20%20PART.03%20%E8%85%BE%E8%AE%AF%E8%BF%99%E6%AC%A1%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E6%8B%BC%EF%BC%9F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20THUMB%20STOPPING%20%E5%92%B1%E4%BB%AC%E5%85%88%E7%AE%80%E5%8D%95%E8%B0%88%E8%B0%88%E6%88%91%E7%9A%84%E5%AE%9E%E6%B5%8B%E5%88%9D%E4%BD%93%E9%AA%8C%E3%80%82%20%20%E4%BB%8E%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91%E6%9D%A5%E7%9C%8B%EF%BC%8C%E8%BF%99%E5%92%8C%E5%92%B1%E4%BB%AC%E5%B9%B3%E6%97%B6%E6%8A%8AAI%E6%8E%A5%E5%85%A5%E9%A3%9E%E4%B9%A6%E3%80%81%E9%92%89%E9%92%89%E7%AD%89%E8%BD%AF%E4%BB%B6%E6%B2%A1%E6%9C%89%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB%E3%80%82%20%20%E4%BD%86%E5%9C%A8%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D%E4%B8%8A%EF%BC%8C%E8%85%BE%E8%AE%AF%E8%BF%99%E6%AC%A1%E6%9E%81%E5%85%B6%E6%BF%80%E8%BF%9B%EF%BC%9A%20%20%E7%9B%B8%E6%AF%94%E4%B9%8B%E5%89%8D%E9%9A%90%E8%97%8F%E5%9C%A8%E5%AE%A2%E6%9C%8D%E6%B6%88%E6%81%AF%E9%87%8C%E7%9A%84QClaw%E5%92%8CWorkBuddy%EF%BC%8C%E8%BF%99%E6%AC%A1%E7%9B%B4%E6%8E%A5%E6%8A%8A%E7%A7%81%E4%BA%BAAI%E6%94%BE%E5%88%B0%E4%BA%86%E5%BE%AE%E4%BF%A1%E7%9A%84%E4%B8%80%E7%BA%A7%E8%81%8A%E5%A4%A9%E7%95%8C%E9%9D%A2%EF%BC%8C%E7%89%8C%E9%9D%A2%E7%9B%B4%E6%8E%A5%E6%8B%89%E6%BB%A1%E3%80%82%20%20%E5%BD%93%E7%84%B6%EF%BC%8C%E7%9B%AE%E5%89%8D%E7%9A%84%E4%B8%8D%E8%B6%B3%E4%B9%8B%E5%A4%84%E4%B9%9F%E5%BE%88%E6%98%8E%E6%98%BE%EF%BC%9A%20%20%E5%AE%83%E8%BF%98%E6%97%A0%E6%B3%95%E5%83%8F%E7%9C%9F%E5%AE%9E%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%A5%BD%E5%8F%8B%E9%82%A3%E6%A0%B7%E5%AE%8C%E5%85%A8%E8%87%AA%E7%94%B1%E4%BD%BF%E7%94%A8%E3%80%82%E6%AF%94%E5%A6%82%E4%B8%8D%E8%83%BD%E6%8B%89%E8%BF%9B%E7%BE%A4%E8%81%8A%EF%BC%8C%E4%B9%9F%E4%B8%8D%E8%83%BD%E5%B8%AE%E4%BD%A0%E4%BB%A3%E5%9B%9E%E5%85%B6%E4%BB%96%E5%BE%AE%E4%BF%A1%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%B6%88%E6%81%AF%EF%BC%8C%E7%9B%AE%E5%89%8D%E5%8F%AA%E8%83%BD%E4%BD%9C%E4%B8%BA%E7%A7%81%E4%BA%BA%E7%9A%84%E5%B0%8F%E5%8A%A9%E6%89%8B%E8%87%AA%E9%97%AE%E8%87%AA%E7%AD%94%EF%BC%8C%E5%BC%80%E6%94%BE%E7%A8%8B%E5%BA%A6%E8%BF%98%E6%98%AF%E7%A8%8D%E5%BE%AE%E5%B7%AE%E7%82%B9%E6%84%8F%E6%80%9D%E3%80%82%20%20%E6%97%A2%E7%84%B6%E4%BD%93%E9%AA%8C%E8%BF%98%E4%B8%8D%E5%AE%8C%E7%BE%8E%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E8%85%BE%E8%AE%AF%E8%BF%99%E6%AC%A1%E5%8A%A8%E4%BD%9C%E8%BF%99%E4%B9%88%E5%BF%AB%E3%80%81%E8%BF%99%E4%B9%88%E6%BF%80%E8%BF%9B%EF%BC%9F%20%20%E6%AF%AB%E6%97%A0%E7%96%91%E9%97%AE%EF%BC%8C%E5%BE%AE%E4%BF%A1%E8%BF%99%E6%AC%A1%E6%8E%A8%E5%87%BA%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%E6%8F%92%E4%BB%B6%EF%BC%8C%E5%BF%85%E5%B0%86%E6%8A%8A%E5%AE%89%E8%A3%85%E9%BE%99%E8%99%BE%E7%9A%84%E7%83%AD%E5%BA%A6%E6%8E%A8%E5%90%91%E6%96%B0%E7%9A%84%E9%AB%98%E5%BA%A6%E3%80%82%20%20%E8%BF%99%E8%83%8C%E5%90%8E%EF%BC%8C%E5%BE%97%E4%BB%8E%E5%9B%9B%E4%B8%AA%E7%BB%B4%E5%BA%A6%E6%9D%A5%E7%9C%8B%E9%BE%99%E5%93%A5%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%9A%20%20%E7%AC%AC%E4%B8%80%EF%BC%8C%E6%8A%A2%E5%85%A5%E5%8F%A3%20%20AI%20Agent%20%E7%9A%84%E5%85%A5%E5%8F%A3%E4%B9%8B%E4%BA%89%E5%B7%B2%E7%BB%8F%E7%99%BD%E7%83%AD%E5%8C%96%E3%80%82%20%20%E5%BD%93%E4%B8%8B%E6%89%80%E6%9C%89%E5%A4%A7%E5%8E%82%E9%83%BD%E5%9C%A8%E8%AE%A9%20AI%20%E5%8A%A9%E6%89%8B%E6%88%90%E4%B8%BA%E7%94%A8%E6%88%B7%E6%97%A5%E5%B8%B8%E7%9A%84%E9%BB%98%E8%AE%A4%E5%85%A5%E5%8F%A3%E3%80%82%20%20%E8%85%BE%E8%AE%AF%E6%9C%80%E5%A4%A7%E7%9A%84%E7%89%8C%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%20%20%E6%98%AF%E5%BE%AE%E4%BF%A112%E4%BA%BF%E7%9A%84%E6%9C%88%E6%B4%BB%EF%BC%8C%E8%A6%86%E7%9B%96%E4%BA%86%E5%87%A0%E4%B9%8E%E6%89%80%E6%9C%89%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%9A%84%E7%A4%BE%E4%BA%A4%E3%80%81%E6%94%AF%E4%BB%98%E5%92%8C%E5%B7%A5%E4%BD%9C%E5%9C%BA%E6%99%AF%E3%80%82%20%20%E5%A6%82%E6%9E%9C%20AI%20%E7%9A%84%E6%88%98%E5%9C%BA%E6%9C%80%E7%BB%88%E6%98%AF%E2%80%9C%E8%B0%81%E7%A6%BB%E7%94%A8%E6%88%B7%E6%9C%80%E8%BF%91%E2%80%9D%EF%BC%8C%E5%BE%AE%E4%BF%A1%E5%A4%A9%E7%84%B6%E5%B0%B1%E6%98%AF%E9%82%A3%E4%B8%AA%E6%9C%80%E8%BF%91%E7%9A%84%E4%BD%8D%E7%BD%AE%E3%80%82%20%20%E6%8A%8A%20OpenClaw%20%E6%8E%A5%E8%BF%9B%E5%BE%AE%E4%BF%A1%EF%BC%8C%E7%AD%89%E4%BA%8E%E8%AE%A9%E6%AF%8F%E4%B8%AA%E4%BA%BA%E5%8F%A3%E8%A2%8B%E9%87%8C%E7%9A%84%E5%BE%AE%E4%BF%A1%E7%9B%B4%E6%8E%A5%E5%8F%98%E6%88%90%20AI%20%E5%8A%A9%E6%89%8B%E7%9A%84%E5%89%8D%E7%AB%AF%20%20%E4%B8%8D%E7%94%A8%E8%A3%85%E6%96%B0%20App%EF%BC%8C%E4%B8%8D%E7%94%A8%E5%AD%A6%E6%96%B0%E4%BA%A4%E4%BA%92%EF%BC%8C%E6%89%93%E5%BC%80%E8%81%8A%E5%A4%A9%E5%B0%B1%E8%A1%8C%E3%80%82%20%20%E7%AC%AC%E4%BA%8C%EF%BC%8C%E5%81%9AAgent%E7%94%9F%E6%80%81%20%20%E5%BE%AE%E4%BF%A1%E7%94%9F%E6%80%81%E9%87%8C%E6%9C%89%E5%85%AC%E4%BC%97%E5%8F%B7%E3%80%81%E5%B0%8F%E7%A8%8B%E5%BA%8F%E3%80%81%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E3%80%81%E6%94%AF%E4%BB%98%E3%80%81%E8%A7%86%E9%A2%91%E5%8F%B7%EF%BC%8C%E4%BD%86%E8%BF%99%E4%BA%9B%E8%83%BD%E5%8A%9B%E4%B8%80%E7%9B%B4%E7%9B%B8%E5%AF%B9%E5%89%B2%E8%A3%82%E3%80%82%20%20%E4%B8%80%E4%B8%AA%E8%83%BD%E8%B0%83%E7%94%A8%E5%B7%A5%E5%85%B7%E3%80%81%E8%AF%BB%E5%86%99%E6%96%87%E6%A1%A3%E3%80%81%E6%90%9C%E7%B4%A2%E4%BF%A1%E6%81%AF%E7%9A%84%20AI%20Agent%EF%BC%8C%E6%81%B0%E5%A5%BD%E6%98%AF%E4%B8%B2%E8%81%94%E5%AE%83%E4%BB%AC%E7%9A%84%E7%BB%9D%E4%BD%B3%E8%BD%BD%E4%BD%93%E3%80%82%20%20%E4%BB%8A%E5%A4%A9%E8%99%BD%E7%84%B6%E5%8F%AA%E8%83%BD%E4%B8%80%E5%AF%B9%E4%B8%80%E7%A7%81%E8%81%8A%EF%BC%8C%E4%BD%86%E6%98%8E%E5%A4%A9%E5%A6%82%E6%9E%9C%E5%BC%80%E6%94%BE%E4%BA%86%E7%BE%A4%E8%81%8A%E6%9D%83%E9%99%90%EF%BC%8C%E5%90%8E%E5%A4%A9%E5%AE%83%E5%8F%AF%E8%83%BD%E5%B0%B1%E6%98%AF%E5%B8%AE%E4%BD%A0%E7%AE%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BA%97%E9%93%BA%E3%80%81%E5%86%99%E5%85%AC%E4%BC%97%E5%8F%B7%E3%80%81%E5%9C%A8%E7%BE%A4%E9%87%8C%E5%81%9A%E4%BC%9A%E8%AE%AE%E7%BA%AA%E8%A6%81%E7%9A%84%E5%85%A8%E8%83%BD%E7%AE%A1%E5%AE%B6%E3%80%82%20%20%E5%BE%AE%E4%BF%A1%E4%BB%8E%E2%80%9C%E9%80%9A%E8%AE%AF%E5%B7%A5%E5%85%B7%E2%80%9D%E8%BF%9B%E5%8C%96%E6%88%90%E2%80%9CAI%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E2%80%9D%EF%BC%8C%E6%83%B3%E8%B1%A1%E7%A9%BA%E9%97%B4%E6%9E%81%E5%85%B6%E5%B7%A8%E5%A4%A7%E3%80%82%20%20%E7%AC%AC%E4%B8%89%EF%BC%8C%E5%8F%8B%E5%95%86%E5%8E%8B%E5%8A%9B%20%20%E5%AD%97%E8%8A%82%E7%B3%BB%E7%9A%84%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B7%B2%E7%BB%8F%E5%9C%A8%E9%A3%9E%E4%B9%A6%E9%87%8C%E8%B7%91%E5%BE%97%E9%A3%9E%E8%B5%B7%EF%BC%8C%E9%92%89%E9%92%89%E6%8E%A5%E4%BA%86%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE%EF%BC%8C%E7%94%9A%E8%87%B3%E8%BF%9E%20Telegram%20%E4%B8%8A%E9%83%BD%E6%9C%89%E4%BA%86%E6%9E%81%E5%85%B6%E7%B9%81%E8%8D%A3%E7%9A%84%20bot%20%E7%94%9F%E6%80%81%E3%80%82%20%20%E5%A6%82%E6%9E%9C%E5%BE%AE%E4%BF%A1%E4%B8%8D%E5%8A%A8%EF%BC%8C%E7%94%A8%E6%88%B7%E7%9A%84%E2%80%9CAI%20%E5%AF%B9%E8%AF%9D%E4%B9%A0%E6%83%AF%E2%80%9D%E5%B0%B1%E4%BC%9A%E5%9C%A8%E5%88%AB%E7%9A%84%E5%B9%B3%E5%8F%B0%E4%B8%8A%E5%85%BB%E6%88%90%EF%BC%8C%E4%B8%80%E6%97%A6%E4%B9%A0%E6%83%AF%E5%9B%BA%E5%8C%96%EF%BC%8C%E5%86%8D%E6%83%B3%E6%8A%A2%E5%9B%9E%E6%9D%A5%E5%B0%B1%E9%9A%BE%E4%BA%86%E3%80%82%20%20%E6%89%80%E4%BB%A5%E8%BF%99%E4%B8%8D%E6%98%AF%E8%85%BE%E8%AE%AF%E6%83%B3%E5%BF%AB%EF%BC%8C%E8%80%8C%E6%98%AF%E4%B8%8D%E5%BE%97%E4%B8%8D%E5%BF%AB%E3%80%82%20%20%E7%AC%AC%E5%9B%9B%EF%BC%8C%E7%BB%99%E4%BA%91%E4%B8%9A%E5%8A%A1%E8%B5%8B%E8%83%BD%20%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E8%85%BE%E8%AE%AF%E5%9C%A8%E8%B4%A2%E5%8A%A1%E4%B8%8A%E6%9C%80%E7%9B%B4%E6%8E%A5%E7%9A%84%E5%8A%A8%E6%9C%BA%E3%80%82%20%20%E6%83%B3%E6%83%B3%E7%9C%8B%EF%BC%8C%E5%BD%93%E6%B5%B7%E9%87%8F%E7%94%A8%E6%88%B7%E5%9C%A8%E5%BE%AE%E4%BF%A1%E9%87%8C%E8%B7%91%E8%B5%B7%E8%87%AA%E5%B7%B1%E7%9A%84%20AI%20Agent%20%E6%97%B6%EF%BC%8C%E8%83%8C%E5%90%8E%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%EF%BC%9F%20%20%E9%9C%80%E8%A6%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%20API%20%E7%9A%84%E8%B0%83%E7%94%A8%EF%BC%8C%E9%9C%80%E8%A6%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B7%91%20OpenClaw%20%E5%AE%9E%E4%BE%8B%EF%BC%8C%E9%9C%80%E8%A6%81%E5%AD%98%E5%82%A8%E5%92%8C%E5%B8%A6%E5%AE%BD%E3%80%82%20%20%E4%B8%AA%E4%BA%BA%E7%8E%A9%E5%AE%B6%E5%8F%AF%E4%BB%A5%E7%94%A8%E9%BE%99%E8%99%BE%E5%9C%A8%E6%9C%AC%E5%9C%B0%E8%B7%91%EF%BC%8C%E4%BD%86%E4%BC%81%E4%B8%9A%E7%94%A8%E6%88%B7%E3%80%81%E5%BC%80%E5%8F%91%E8%80%85%E5%9B%A2%E9%98%9F%E6%9C%80%E7%BB%88%E9%83%BD%E4%BC%9A%E8%B5%B0%E5%90%91%E4%BA%91%E7%AB%AF%E9%83%A8%E7%BD%B2%E3%80%82%20%20%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%20GPU%20%E7%AE%97%E5%8A%9B%E3%80%81%E6%B7%B7%E5%85%83%E5%A4%A7%E6%A8%A1%E5%9E%8B%20API%E3%80%81%E4%BA%91%E5%AD%98%E5%82%A8%E2%80%94%E2%80%94%E8%BF%99%E4%BA%9B%E5%85%A8%E9%83%BD%E6%98%AF%E7%8E%B0%E6%88%90%E7%9A%84%E3%80%82%20%20%E6%9C%AC%E8%B4%A8%E4%B8%8A%EF%BC%8C%E8%BF%99%E6%98%AF%E5%9C%A8%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%85%A5%E5%8F%A3%E5%81%9A%E6%BC%8F%E6%96%97%E9%A1%B6%E9%83%A8%EF%BC%8C%E5%90%B8%E5%BC%95%E6%B5%B7%E9%87%8F%E7%94%A8%E6%88%B7%E8%BF%9B%E6%9D%A5%EF%BC%8C%E5%86%8D%E9%80%9A%E8%BF%87%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%96%B9%E6%A1%88%E5%B1%82%E5%B1%82%E5%8F%98%E7%8E%B0%E3%80%82%20%20ToC%20%E5%B8%A6%20ToB%EF%BC%8C%E7%A4%BE%E4%BA%A4%E5%B8%A6%E4%BA%91%E8%AE%A1%E7%AE%97%EF%BC%8CPony%20%E8%BF%99%E4%B8%80%E6%89%8B%E5%8D%A1%E4%BD%8D%EF%BC%8C%E6%9E%81%E5%85%B6%E7%BB%9D%E5%A6%99%E3%80%82%20%20%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%EF%BC%9A%20%20%E5%BE%AE%E4%BF%A1%20+%20AI%20Agent%20%E7%9A%84%E7%BB%84%E5%90%88%E5%A6%82%E6%9E%9C%E8%B7%91%E9%80%9A%EF%BC%8C%E8%BF%99%E5%B0%B1%E6%98%AF%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%B6%85%E7%BA%A7%E5%BA%94%E7%94%A8%E7%9A%84%E9%9B%8F%E5%BD%A2%E3%80%82%20%20%E8%99%BD%E7%84%B6%E7%8E%B0%E5%9C%A8%E8%BF%98%E6%9C%89%E7%A7%8D%E7%A7%8D%E9%99%90%E5%88%B6%EF%BC%8C%E4%BD%86%E8%83%BD%E6%8A%8A%E6%9C%AC%E5%9C%B0Agent%E7%9B%B4%E6%8E%A5%E6%90%AC%E8%BF%9B%E5%9B%BD%E6%B0%91%E7%BA%A7%E5%BA%94%E7%94%A8%E7%9A%84%E4%B8%80%E7%BA%A7%E5%85%A5%E5%8F%A3%EF%BC%8C%E5%B7%B2%E7%BB%8F%E6%98%AF%E5%B7%A8%E5%A4%A7%E7%9A%84%E8%BF%9B%E6%AD%A5%EF%BC%81%20%20%E8%80%8C%20OpenClaw%EF%BC%8C%E5%8F%AA%E6%98%AF%E9%82%A3%E6%8A%8A%E6%89%93%E5%BC%80%E6%96%B0%E4%B8%96%E7%95%8C%E5%A4%A7%E9%97%A8%E7%9A%84%E9%92%A5%E5%8C%99%E3%80%82%20%20%E9%97%A8%E5%90%8E%E9%9D%A2%EF%BC%8C%E6%98%AF%E6%95%B4%E4%B8%AA%E5%BA%9E%E5%A4%A7%E7%9A%84%E8%85%BE%E8%AE%AF%E7%94%9F%E6%80%81%E3%80%82%20%20%E6%B2%A1%E6%9C%89%E7%81%B0%E5%BA%A6%E5%90%8D%E9%A2%9D%E7%9A%84%E5%85%84%E5%BC%9F%E4%BB%AC%EF%BC%8C%E5%88%AB%E7%AD%89%E4%BA%86%EF%BC%8C%E8%B5%B6%E7%B4%A7%E6%89%93%E5%BC%80%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%E5%8E%BB%E5%A4%8D%E5%88%B6%E5%91%BD%E4%BB%A4%E8%AF%95%E8%AF%95%E5%90%A7%EF%BC%81%20%20%E5%9B%BE%E7%89%87%20%20%20%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9A%84%E8%A7%82%E7%9C%8B%F0%9F%A5%B9%20%E6%88%91%E6%98%AFMax%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%9C%A8AI%E6%96%B9%E5%90%91%E6%8C%81%E7%BB%AD%E6%8E%A2%E7%B4%A2%E7%9A%84%E5%B0%8F%E5%AD%A6%E7%94%9F%E3%80%82%20%E6%88%91%E4%BC%9A%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%80%E4%BA%9BAI%E6%96%B9%E5%90%91%E6%9C%80%E6%96%B0%E6%9C%80%E5%BF%AB%E7%9A%84%E4%BA%A7%E5%93%81%EF%BC%8C%E6%8A%80%E6%9C%AF%EF%BC%8C%E6%80%9D%E8%80%83%20%E6%B1%82%E5%90%84%E4%BD%8D%E7%9C%8B%E5%AE%98%E7%82%B9%E8%B5%9E%EF%BC%8C%E5%85%B3%E6%B3%A8%EF%BC%8C%E5%86%8D%E7%9C%8B%E4%B8%89%E8%BF%9E%F0%9F%99%87%20%20%20PS%EF%BC%9A%E6%AC%A2%E8%BF%8E%E5%8A%A0%E6%88%91%E7%9A%84%E5%BE%AE%E4%BF%A1%E4%B8%8E%E6%88%91%E4%BA%A4%E6%B5%81%20%20%20%E5%9B%BE%E7%89%87%20%20%20%20%20%20%E6%9A%82%E6%97%A0%E8%AF%84%E8%AE%BA) , 01Founder
+
+![]()
+
+WeChat quietly made a big move today, officially launching the WeChat Clawbot robot!
+
+It's completely different from QClaw and WorkBuddy, which were previously hidden in customer service messages.
+
+This time, Tencent is very aggressive. Just like with Yuan Xiaobao before, they have placed WeChat Clawbot in the primary entry point of WeChat chat!
+
+It features a unique AI logo similar to a "gold ingot," but the difference lies in:
+
+Yuanbao's agent runs on Tencent's own servers.
+
+ClawBot connects directly to OpenClaw on your local computer, meaning it's a completely private agent that belongs to you!
+
+Most importantly, today I'm going to share a secret trick with you:
+
+For those who didn't receive a notification for the WeChat beta test, you can now force it to be available!
+
+Simply copy the installation command to your "Lobster" app to try it out!
+
+Without further ado, here's a step-by-step, quick setup tutorial.
+
+### Upgrade your WeChat version
+
+First, currently this feature is only officially supported on iPhones. You'll need to update WeChat to the latest version, 8.0.70.
+
+Android users can get early access by scanning the QR code provided by the lobster.
+
+After the update is complete, open WeChat and go to [Me] - [Settings] - [Plugins].
+
+Here, you can see the newly added 【WeChat ClawBot】 plugin above the WeChat keyboard.
+
+If you don't see the plugin the first time you log in after updating, don't panic. Just close WeChat from the background and log in again, and it will appear.
+
+### Install the Openclaw WeChat plugin
+
+Click to enter the details page of "WeChat ClawBot" and you will see the official access guide.
+
+Regardless of whether you have a gray-scale quota or not, simply follow these two steps:
+
+Step 1: Run the command in "Lobster"
+
+On the computer where you run Openclaw, directly open your "Lobster" browser, copy and press Enter to run the following command:
+
+npx -y @tencent-weixin/openclaw-weixin-cli@latest install
+
+The author used his own lobster on a button as a test (if the button works, then all third-party lobsters will work).
+
+![]()
+
+After running this line of code, a QR code will pop up on your computer screen.
+
+We move on to the second step.
+
+Step 2: Scan the QR code with your WeChat.
+
+Once the QR code appears on your computer, simply scan it using the "Scan" function in WeChat on your mobile phone.
+
+Once you successfully scan the QR code and confirm the connection, you're all set to complete the installation once you see the success message!
+
+![]()
+
+It's important to note that you can still scan the code even if you don't have the grayscale version; you can simply use the scan function.
+
+The Android version can also scan the QR code, and will prompt you to upgrade.
+
+Once the upgrade is complete, you can connect to the lobster!
+
+![]()
+
+If you send it a message to test it out, you'll find that, just like WeChat Yuanbao, it will display a realistic "The other party is typing..." prompt at the top.
+
+### Why is Tencent going all out this time?
+
+Let me briefly share my initial experience with the test.
+
+From a fundamental perspective, this is no different from how we usually integrate AI into software like Lark and DingTalk.
+
+However, Tencent's product positioning this time is extremely aggressive:
+
+Compared to QClaw and WorkBuddy, which were previously hidden in customer service messages, this time they have placed their personal AI directly in the main chat interface of WeChat, showcasing their full potential.
+
+Of course, the current shortcomings are also obvious:
+
+It cannot yet be used as freely as real WeChat friends. For example, it cannot add you to group chats, nor can it reply to messages from other WeChat friends on your behalf. Currently, it can only act as a personal assistant, asking and answering its own questions. Its openness is still somewhat lacking.
+
+Since the experience is not perfect, why did Tencent act so quickly and aggressively this time?
+
+Undoubtedly, WeChat's launch of the "Lobster" plugin will push the popularity of installing Lobster to new heights.
+
+Behind this, we need to look at Brother Long's thinking from four dimensions:
+
+First, seize the entrance.
+
+The battle for entry points into AI agents has reached a fever pitch.
+
+Currently, all major companies are making AI assistants the default entry point for users' daily lives.
+
+What is Tencent's biggest asset?
+
+With 1.2 billion monthly active users, WeChat covers almost all of China's social, payment, and work scenarios.
+
+If the ultimate battleground for AI is "who is closest to the user," then WeChat is naturally in that closest position.
+
+Integrating OpenClaw into WeChat essentially turns the WeChat account in everyone's pocket into the front end of an AI assistant.
+
+No need to install a new app or learn new interaction methods, just open the chat.
+
+Second, build an Agent ecosystem.
+
+The WeChat ecosystem includes official accounts, mini programs, WeChat Work, payment, and video accounts, but these capabilities have always been relatively fragmented.
+
+An AI agent that can invoke tools, read and write documents, and search information is the perfect vehicle to connect them.
+
+Today it can only be used for one-on-one private chats, but if group chat permissions are opened tomorrow, the day after tomorrow it may become an all-around manager that helps you manage your mini-program store, write official accounts, and take meeting minutes in groups.
+
+WeChat has evolved from a "communication tool" into an "AI operating system," with enormous potential.
+
+Third, pressure from competitors
+
+ByteDance's cloud services and large-scale models are already running rapidly on Lark, DingTalk has connected with Tongyi Qianwen, and even Telegram has a very thriving bot ecosystem.
+
+If WeChat doesn't take action, users' "AI conversation habits" will develop on other platforms. Once these habits become ingrained, it will be difficult to win them back.
+
+So it's not that Tencent wants to be fast, but that it has no choice but to be fast.
+
+Fourth, empower cloud services.
+
+This is probably Tencent's most direct financial motivation.
+
+Think about it, what's needed behind the scenes when a massive number of users run their own AI Agents within WeChat?
+
+It requires calls to the large model API, a server running an OpenClaw instance, and storage and bandwidth.
+
+Individual users can run Lobster locally, but enterprise users and development teams will eventually move to cloud deployment.
+
+Tencent Cloud's GPU computing power, Hunyuan large model API, and cloud storage are all readily available.
+
+Essentially, this is using the free WeChat entry point as the top of a funnel to attract a massive number of users, and then monetizing them layer by layer through enterprise-level solutions.
+
+Pony Ma's strategic positioning—combining consumer (ToC) with business (ToB), and social media with cloud computing—is absolutely brilliant.
+
+To summarize:
+
+If the combination of WeChat and AI Agent works, it will be the prototype of the next generation of super apps.
+
+Although there are still various restrictions, being able to directly integrate the local agent into the primary entry point of a national-level application is already a huge step forward!
+
+OpenClaw is simply the key that unlocks a new world.
+
+Behind the door lies the entire vast Tencent ecosystem.
+
+For those of you who don't have a gray-scale quota, don't wait any longer, quickly open "Lobster" and try copying the command!
+
+[Original Link](https://mp.weixin.qq.com/s/O0e5oeVyo337w3q3zSvtdw)Share to:
+
+Author: 01Founder
+
+Opinions belong to the column author and do not represent PANews.
+
+This content is not investment advice.
+
+Image source: 01Founder. If there is any infringement, please contact the author for removal.
+
+Follow PANews official accounts, navigate bull and bear markets togetherPANews WeChat Group[Telegram Discussion Group](https://t.me/PANewsLab)[Telegram News Channel](https://t.me/ChannelPANews)[@PANews](https://x.com/PANews)Recommended Reading[![]()
+
+Max.S](/en/columns/N3144584)19 hours ago[Don't let OpenClaw steal your independent thinking: A psychological disaster preparedness manual for Web3 users.](/en/articles/019d1d30-35bb-742f-aa18-8b8648cdfd9b)[![]()
+
+Nancy](/en/columns/N7042814)03/23/2026, 10:17 AM[After tokens became the new currency in Silicon Valley, engineers started playing the game of inflating transaction volumes.](/en/articles/019d1a38-9ece-7716-ae47-a6902789701c)[![]()
+
+Frank](/en/columns/z9ulw096)03/23/2026, 03:30 AM[Interview with Bill, Head of Bitget AI: In the era of AI trading, how far are we from "making money while lying down"?](/en/articles/019d18b3-fbcc-742f-bcca-804e8186454c)[![]()
+
+PA一线](/en/columns/166)03/23/2026, 02:30 AM[Important news from last night and this morning (March 22-March 23)](/en/articles/019d1814-cc6a-768f-ba39-2d958a01aae2)[![]()
+
+PA一线](/en/columns/166)03/21/2026, 05:18 AM[Cook responds to OpenClaw boosting Mac Mini sales](/en/articles/019d0ed5-fd14-7059-8cca-5f3cdfe4446c)[![]()
+
+一周精选](/en/columns/1645177891034307)03/21/2026, 01:30 AM[Weekly Highlights | Cryptocurrency Receives New Regulations but Bitcoin Doesn't Rise, TAO Remains Popular](/en/articles/019d0a8b-2459-737c-8c2a-30f83e1e96c1)Trending:[BTC](/en/search?query=BTC)[Ethereum](/en/search?query=Ethereum)[Stablecoins](/en/search?query=Stablecoins)[Prediction Market](/en/search?query=Prediction+Market)[Trump](/en/search?query=Trump)[Binance](/en/search?query=Binance)[OKX](/en/search?query=OKX)[USDT](/en/search?query=USDT)[DeFi](/en/search?query=DeFi)[AI](/en/search?query=AI)[Federal Reserve Chairman](/en/search?query=Federal+Reserve+Chairman)
+### Popular Articles
+
+[Hong Kong Securities and Futures Commission: RWA tokenized products are not currently suitable for stock trading and have no advantages over traditional trading](/en/articles/4ec833eb-5c12-4c9d-8155-4ef5759b395b)[PA一线](/en/columns/166)[Did Trump leak information before posting the tweet? Polymarket's unusual betting points to a US-Iran ceasefire by next week.](/en/articles/019d1d92-dbd8-7044-a1ae-be17fd95597a)[PA荐读](/en/columns/1585194023472091)[HashKey Chain supports the on-chain issuance of Hong Kong's first regulated silver RWA "silver token".](/en/articles/019d1e39-af26-70af-a597-ede9c9cbeabe)[HashKey Group](/en/columns/1634872039895366)[U.S. stocks opened lower, with the Dow Jones Industrial Average down 0.76%.](/en/articles/019d2009-f43e-75b3-a523-b9abbc8738fe)[PA一线](/en/columns/166)[In the past 24 hours, a total of $144 million in contract liquidations occurred across the entire network, primarily involving long positions.](/en/articles/019d2077-c901-723f-8feb-e6ea99ae0fb8)[PA一线](/en/columns/166)![]()Industry NewsMarket TrendsCurated Readings[Subscribe](https://panewscn.substack.com/)PANews App24/7 blockchain news tracking and in-depth analysis.![]()[App Store](https://apps.apple.com/app/panews/id1543133117)[Google Play](https://play.google.com/store/apps/details?id=shanghai.panewsApp.com)![]()Morgan Stanley: Wall Street's foray into the crypto space is the culmination of years of infrastructure development.PANews Newsflash3 minutes ago![]()NewsletterSubscribePANews[About Us](/en/about)[Contact Us](mailto:panews@panony.com)[Brand Assets](https://www.panewslab.com/brandingassets)[Jobs](https://panony.com/cn/col.jsp?id=111)[Privacy Policy](/en/privacy-policy)[User Agreement](/en/user-agreement)Recommended[Event Calendar](https://www.panewslab.com/en/calendar/index.html)[Popular Events](https://www.panewslab.com/en/events)[RSS Subscription](/en/rss)[Apply for Column](/en/columns/apply)[Directory](https://www.panewslab.com/en/tools)Download App[![]()](https://apps.apple.com/cn/app/id1543133117)[![]()](https://play.google.com/store/apps/details?id=shanghai.panewsApp.com)[Android](https://assets.panewslab.com/panews-android-30019.apk)Follow Us [@沪ICP备19004913号](https://beian.miit.gov.cn/#/) 

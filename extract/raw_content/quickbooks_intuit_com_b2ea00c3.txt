@@ -1,0 +1,172 @@
+# Source URL: https://quickbooks.intuit.com/learn-support/en-us/help-article/banking/set-bank-rules-categorize-online-banking-online/L0mjJl0nD_US_en_US
+# Content Length: 14094 characters
+# Extracted at: 2026-03-16 23:57:35
+#============================================================
+
+Set up bank rules to categorize online banking transactions in QuickBooks Online
+[![](https://plugin.intuitcdn.net/one-intuit-help-hub-conf/1.212.1/assets/component/navbar/assets/qbo-icon.svg)](//quickbooks.intuit.com/)
+\* Sign In
+- How It Works
+- Support
+\* Get Started
+\* Topics
++ 10 or more employees
++ Account management
++ Advanced accounting
++ Banking
++ Expenses and vendors
++ Get started
++ Invoices and payments
++ QuickBooks Desktop to QuickBooks Online Resource Center
++ Reports
++ Sales and customers
++ Taxes
++ The Intuit Platform
++ View all help
++ Year End Resources
+\* Videos & Classes
++ How to videos
++ Webinars
++ Training classes
+\* Community
++ Community Home
++ QuickBooks Q&A
++ Discuss Your Business
++ Community Basics
++ Champions Program
++ Ask the Community
+\* Resources
++ Live Bookkeeping
++ Find an Expert
++ Resource Center
++ QuickBooks Blog
++ Training classes
+- For Sales: 1.877.683.3280
+- United States
+[![](https://plugin.intuitcdn.net/one-intuit-help-hub-conf/1.212.1/assets/component/navbar/assets/qbo-icon.svg)](//quickbooks.intuit.com/)
+\* [Plans & Pricing](https://quickbooks.intuit.com/pricing/)
+\* [How It Works](https://quickbooks.intuit.com/how-it-works/)
+\* [Explore Products](https://quickbooks.intuit.com/product-finder/?cid=CSSDR067-COM-US-QBO-GEN-NA-GNS-REC-NA-FY25ProductFinderCRTabUKNNewLaunch)
+\* [Support](https://quickbooks.intuit.com/learn-support/)
+\* For Sales: 1.800.264.1981
++ Hours
+Mon - Fri, 5am - 6pm PST
+[Product support & help](/learn-support/)
+[Need help signing in?](https://quickbooks.intuit.com/learn-support/en-us/manage-intuit-account/get-help-if-you-can-t-sign-in-to-your-account/00/419181)
+\* Sign In
+\* [QuickBooks Support](https://quickbooks.intuit.com/learn-support/)
+\* [Get Started](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L4339VdWt)
+\* [Topics](#)
++ [10 or more employees](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L8F1138P7)
++ [Account management](/learn-support/en-us/quickbooks-online/help-topic/account-management)
++ [Advanced accounting](/learn-support/en-us/quickbooks-online/help-topic/advanced-accounting)
++ [Banking](/learn-support/en-us/quickbooks-online/help-topic/banking)
++ [Expenses and vendors](/learn-support/en-us/quickbooks-online/help-topic/expenses-and-vendors)
++ [Get started](/learn-support/en-us/quickbooks-online/help-topic/get-started)
++ [Invoices and payments](/learn-support/en-us/quickbooks-online/help-topic/invoices-and-payments)
++ [QuickBooks Desktop to QuickBooks Online Resource Center](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L1CHl0mTG)
++ [Reports](/learn-support/en-us/quickbooks-online/help-topic/reports)
++ [Sales and customers](/learn-support/en-us/quickbooks-online/help-topic/sales-and-customers)
++ [Taxes](/learn-support/en-us/quickbooks-online/help-topic/taxes)
++ [The Intuit Platform](https://quickbooks.intuit.com/learn-support/en-us/help-custom/L4EsJA3db)
++ [View all help](/learn-support/en-us/quickbooks-online/help-topic/view-all-articles)
++ [Year End Resources](/learn-support/en-us/help-custom/L1bF8N7CG)
+\* Videos & Classes
++ [How to videos](/learn-support/en-us/quickbooks-online/help-tutorial/get-started)
++ [Webinars](https://quickbooks.intuit.com/tutorials/webinars/)
++ [Training classes](https://quickbookstraining.com/)
+\* [Community](#)
++ [Community Home](https://quickbooks.intuit.com/learn-support/us-quickbooks-community/misc/03/community-us)
++ [QuickBooks Q&A](https://quickbooks.intuit.com/learn-support/quickbooks-q-a/misc/03/quickbooks-questions-us)
++ [Discuss Your Business](https://quickbooks.intuit.com/learn-support/business-discussions/misc/03/discussions)
++ [Community Basics](https://quickbooks.intuit.com/learn-support/about-qb-community/misc/02/Community-News)
++ [Champions Program](https://quickbooks.intuit.com/learn-support/en-us/about-qb-community/introducing-the-intuit-community-champions-program/00/415885)
++ [Ask the Community](https://quickbooks.intuit.com/learn-support/forums/postpage/choose-node/true)
+\* [Resources](#)
++ [Live Bookkeeping](https://quickbooks.intuit.com/live/)
++ [Find an Expert](https://quickbooks.intuit.com/find-an-accountant/)
++ [Resource Center](https://quickbooks.intuit.com/r/)
++ [QuickBooks Blog](https://quickbooks.intuit.com/blog/)
+\* + [Australia](/learn-support/en-au)
++ [Canada (English)](/learn-support/en-ca)
++ [Canada (French)](/learn-support/fr-ca)
++ [United States](/learn-support/en-us)
++ [United Kingdom](/learn-support/en-uk)
++ [Singapore](/learn-support/en-sg)
++ [South Africa](/learn-support/en-za)
++ [Ireland](/learn-support/en-ie)
++ [Global (English)](/learn-support/en-global)
+![](https://uxfabric.intuitcdn.net/web-app/sh-exp-sbg-app-experience/sbg\_ohh\_icon.19f2ae89.png)QuickBooksHelpIntuit
+# Set up bank rules to categorize online banking transactions in QuickBooks Online
+##### by Intuit•2110•Updated6 days ago
+Learn how to use bank rules to automatically categorize transactions from your bank.
+When you [\*\*download transactions from your bank\*\*](https://community.intuit.com/oicms/L4yDAHMNH\_US\_en\_US), you need to [\*\*categorize them\*\*](https://community.intuit.com/oicms/L1bTafTz3\_US\_en\_US) so that they enter the right accounts. Bank rules can do this automatically.
+The more ‌QuickBooks Online uses the bank rules you create, the better it gets at categorizing. After a while, the app learns how to read transactions, then automatically adds details.
+Here's how to set up bank rules.
+For a better experience, open this article in QuickBooks Online. [\*\*Launch side-by-side view\*\*](https://app.qbo.intuit.com/app/login?pagereq=olbrules?jtlexp=L0mjJl0nD\_US\_en\_US)![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/new-window-icon-sbseg.svg)
+Automatically categorize transactions with [\*\*QuickBooks Payments\*\*](https://quickbooks.intuit.com/payments/payment-rates/?cid=CSSDR058-VIDEO-US-QBPAY-GEN-NA-XSLL-REC-NA-FY25VideoExpansionReuseBkCAP).
+## Step 1: Create a bank rule
+\*\*Note\*\*: You can create up to 2,000 bank rules.
+1. Go to \*\*All apps\*\*![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/MyApps\_icon\_QBO\_SBSEG.png), then \*\*Accounting\*\*, then \*\*Rules\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=olbrules?jobId=accounting)).
+2. Select \*\*New rule\*\*.
+3. Enter a name in the \*\*What do you want to call this rule?\*\* field.
+4. From the \*\*Apply this to transactions that are\*\* ▼ dropdown, select \*\*Money in\*\* or \*\*Money out\*\*.
+5. From the \*\*in\*\* ▼ dropdown, select a bank or credit card account, or select \*\*All bank accounts\*\*.
+6. Set the rule's conditions. You can set a single rule with up to 5 conditions. \*\*Set and include the following\*\*, then select + \*\*Add a condition\*\*.
+7. In the Conditions fields, specify whether the rule applies to \*\*Description\*\*, \*\*Bank text,\*\* or \*\*Amount\*\*. Then select \*\*Contains\*\*, \*\*Doesn't contain\*\*, or \*\*Is exactly\*\* to decide how QuickBooks applies the rules.
+8. Select the settings for the rule. Select the \*\*Transaction type\*\*, \*\*Category\*\*, \*\*Tags\*\*, and the \*\*Payee\*\* to apply.
+9. Select \*\*Save\*\*.
+10. (Optional) To reorder your bank rules priority, select reorder ![](https://digitalasset.intuit.com/IMAGE/A2RQHsLGT/Grid\_alt\_icon\_QBO\_US\_Ext\_11102022.png) and drag the rule to your desired order. The rule with the highest priority will always be applied first.
+QuickBooks automatically applies your rules to transactions in the \*\*For review\*\* tab. These are the ones you need to review every day.
+\*\*Tip\*\*\*\*s\*\*: 
+\* Quickly add a rule for transactions in the \*\*For review\*\* tab. Just select a transaction, then select the \*\*Create a rule\*\* link to open the Rule Window and start setting conditions for the rule.
+\* \*\*Copy\*\*, \*\*Disable/Enable\*\*, or \*\*Delete\*\* bank rules from the \*\*Actions\*\* ▼ dropdown on the \*\*Rules\*\* page.
+Import existing bank rules
+If you set up banking rules on another QuickBooks Online company file, you can export them to another company file:
+1. Sign in to the company file you want to export the bank rules from.
+2. Go to \*\*Settings\*\*![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/gear-settings-icon.png) then select \*\*Rules\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=olbrules)).
+3. Select the \*\*New rule\*\* ▼ dropdown and then \*\*Export rules\*\*.
+4. Sign out of the company file and sign in to the one you want to import the rules into.
+5. Save the export file in Excel.
+6. Go to \*\*Settings\*\*![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/gear-settings-icon.png) then select \*\*Rules\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=olbrules)).
+7. Select the \*\*New rule\*\* ▼ dropdown and then \*\*Import rules\*\*.
+8. Select \*\*Browse\*\* and find the Excel file you exported.
+9. Select the rules and details you want to import.
+10. Follow the prompts to finish the import.
+## Step 2: Review recognized transactions
+After a rule is applied, a \*\*RULE\*\* badge appears in the \*\*Category\*\* field of the transaction. For auto-post rules, an \*\*AUTO\*\* badge appears.
+To filter rules, follow these steps. 
+1. Go to \*\*All apps\*\*![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/MyApps\_icon\_QBO\_SBSEG.png), then \*\*Accounting\*\*, then \*\*Bank transactions\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=banking?jobId=accounting)).2. Select the \*\*All transactions\*\* dropdown menu.3. Select \*\*Rules\*\*, \*\*No rules\*\*, or \*\*Auto-post rules\*\*.
+## Next steps: Set up auto-post
+Create targeted rules so that specific transactions are automatically accepted into your books from the \*\*Bank\*\*\*\*transactions\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=banking)) page.
+\*\*Tip\*\*: We recommend starting with simple, consistent transactions like rent or gas expenses. Then, use it to cover more transactions.
+1. Follow the steps to create a new bank rule.
+2. Turn on \*\*Auto-post\*\* under \*\*Automatically confirm transactions this rule applies to\*\* in the \*\*Rules\*\* window.
+3. Select \*\*Save\*\*.
+After you create an auto-post rule, any transactions on the \*\*Pending\*\* tab that meet the conditions are automatically added. Auto-post rules run when you sign in, upload a file, or create or modify a new auto-post rule.
+## If your bank rules aren't getting applied to transactions
+If your bank rules aren't getting applied, it might be because you’re using a rule based on bank text when you meant to make a rule based on description, or vice versa. To explain the difference:
+\* The \*\*bank text\*\* is exactly the same information the app receives from the bank. The bank text is the transaction you'd see listed in your bank account or on your bank statement.
+\* The \*\*description\*\* is a simplified version of the bank text to make it easier to understand. For example, the app might simplify bank text by just giving the vendor name.
+By default, the app shows the description in your list of transactions. To show the bank text instead:
+1. Go to \*\*All apps\*\*![](https://digitalasset.intuit.com/content/dam/intuit/sbsegcs/en\_us/quickbooks-online/icons/MyApps\_icon\_QBO\_SBSEG.png), then \*\*Accounting\*\*, then \*\*Bank transactions\*\* ([\*\*Take me there\*\*](https://c1.qbo.intuit.com/qbo1/login?pagereq=banking?jobId=accounting)).
+2. Select the \*\*Settings\*\* ⚙ within the Bank transactions section.
+3. Select \*\*Show full bank description\*\*.
+If you moved from QuickBooks Desktop
+Bank rules work similarly in QuickBooks Online as they do in QuickBooks Desktop. If your rules have been automatically migrated from QuickBooks Desktop, notice the following differences:
+\* QuickBooks Online supports up to 5 conditions per rule. The first 5 conditions for each rule from QuickBooks Desktop are migrated.
+\* QuickBooks Desktop bank rules containing \*\*Begins with\*\* and \*\*Ends with\*\* clauses are matched with the \*\*Contains\*\* clause once migrated to QuickBooks Online.
+\* If a migrated QuickBooks Desktop bank rule contains both \*\*Money in\*\* and \*\*Money out\*\* conditions, two bank rules are created in QuickBooks Online.
+Find out more about [\*\*how features and data move to QuickBooks Online\*\*](https://community.intuit.com/oicms/L0dEyNosU\_US\_en\_US).
+You must [sign in](https://accounts.intuit.com/index.html?offering\_id=Intuit.help.selfhelp.shexpsbg&redirect\_url=https%3A%2F%2Fquickbooks.intuit.com%2Flearn-support%2Fen-us%2Fhelp-article%2Fbanking%2Fset-bank-rules-categorize-online-banking-online%2FL0mjJl0nD\_US\_en\_US&locale=en-us&country=US) to vote.
+QuickBooks LedgerQuickBooks Online AdvancedQuickBooks Online EssentialsQuickBooks Online LiteQuickBooks Online PlusQuickBooks Online Simple StartQuickBooks Solopreneur Plus
+More like this
+\* [\*\*Use rules to categorize bank transactions in QuickBooks Solopreneur\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-transactions/use-rules-categorize-bank-transactions-quickbooks/L5wJZvUTD\_US\_en\_US)
+by QuickBooks
+\* [\*\*Categorize online bank transactions in QuickBooks Online\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/banking/categorize-match-online-bank-transactions-online/L1bTafTz3\_US\_en\_US)
+by QuickBooks
+\* [\*\*Create rules to categorize transactions in QuickBooks Desktop\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-feeds/use-renaming-rules-bank-feeds/L7m7kwjDP\_US\_en\_US)
+by QuickBooks
+\* [\*\*Learn how to refresh your connection for Express Web Connect online banking in QuickBooks Desktop for Mac\*\*](https://quickbooks.intuit.com/learn-support/en-us/help-article/bank-connectivity/refresh-connection-express-web-connect-online-mac/L9ZWdumlx\_US\_en\_US)
+by QuickBooks
+Top

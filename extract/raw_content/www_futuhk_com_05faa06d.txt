@@ -1,0 +1,262 @@
+# Source URL: https://www.futuhk.com/en/blog/detail-00100-ipo-minimax-100-251288005
+# Content Length: 20125 characters
+# Extracted at: 2026-03-13 21:50:37
+#============================================================
+
+Clear
+All
+Quotes
+News
+Learn
+Help
+All
+HK
+US
+CN
+SG
+AU
+JP
+CA
+MY
+All
+News
+Announcements
+Reports
+![]()![]()
+No matches yet
+Operations too frequent. Please try again later.
+Please check network settings and try again Refresh
+Refresh
+Loading![]()
+History record
+Latest News
+[Is the US stock market poised for a recovery? Trump and Jensen Huang both advocate bullish positions, with these three key themes worth watching!](https://q.futunn.com/feed/116040046084100?futusource=news\_expressnews\_list⟨=en-us) [Futu Morning Brief \| Trump Sets 15% Growth Target, Adding Pressure on Kevin Warsh's Potential Fed Leadership; Overwhelming Demand! Alphabet Plans to Raise $20 Billion Through Dollar Bonds; SMIC to Release Earnings Today](https://news.futunn.com/en/post/68662235/futu-morning-brief-trump-sets-15-growth-target-adding-pressure?futusource=news\_expressnews\_list⟨=en-us) [The mysterious model Pony Alpha has sparked market expectations, driving up the stock prices of Zhipu and MINIMAX-WP.](https://news.futunn.com/en/post/68666654/the-mysterious-model-pony-alpha-has-sparked-market-expectations-driving?futusource=news\_expressnews\_list⟨=en-us)
+Quotes
+More
+News
+More
+Learn
+More
+Help
+More
+Loading
+![]()
+News
+More
+Announcements
+More
+Reports
+More
+![](https://foss1.futunn.com/official\_config\_oss/prod/5beb5198-48d9-4f23-859b-cbf4b7caa511)
+![](https://foss1.futunn.com/official\_config\_oss/prod/bb620a34-f724-4178-82b2-44cf15fb5ca0)
+- [Futu Blog](https://www.futuhk.com/en/blog)
+- [Getting Started with Investment](https://www.futuhk.com/en/blog/list/getting-started-with-investment-3)
+- IPO Subscription \| Real 0 Interest 0 Handling Fee
+- [Getting Started with Investment](https://www.futuhk.com/en/blog/list/getting-started-with-investment-3)
+IPO Subscription \| Real 0 Interest 0 Handling Fee
+Views 34722025.12.31
+# 00100 IPO \| MiniMax IPO Subscription Amount HK$333.28
+[$ MINIMAX-WP (00100.HK) $](https://www.futunn.com/stock/00100-HK?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) The announcement was made that the Company intends to offer approximately 25.3892 million shares worldwide at the [IPO](https://www.futuhk.com/products/ipo?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) on December 31-January 6, which is expected to be listed on January 9, 2026.
+[![MiniMax IPO](https://blogimg.futunn.com/1767149002087.jpeg?imageMogr2/quality/100/ignore-error/1/format/webp)](https://www.futuhk.com/products/ipo?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D)
+## MiniMax Company Profile
+MiniMax is the world's leading General Artificial Intelligence Technology company. The company independently developed a series of multi-mode general-purpose models, including MiniMax M2, Hailuo 2.3, Speech 2.6 and Music 2.0, Backup Coding and Agent capabilities, as well as longer text processing capabilities, capable of analyzing, generating and integrating multiple modes including text, audio, images, video, and music. Based on this self-research model, the company launched a series of AI products worldwide, including MiniMax Agent, Herringbone, MiniMax Audio, Zodiac, and an open platform for companies and developers.
+MiniMax's AI native product matrix has attracted a huge user base, with the average MAU growing more than sixfold from 3.1 million in 2023 to 19.1 million in 2024, and further increasing to 27.6 million in the nine months ended 30 September 2025. As of September 30, 2025, MiniMax already has over 0.212 billion individual users in more than 200 countries and territories and 0.13 million enterprise customers in more than 100 countries.
+## MiniMax Financial Overview
+In terms of financial condition, MiniMax's revenue increased 174.7% from $19.454 million for the nine months ended September 30, 2024 to $53.437 million (approximately RMB 0.376 billion) for the same period in 2025. Revenue in 2023 is $3.46 million and revenue in 2024 is $30.523 million.
+## Industry Overview
+The main pathways in major model applications now include productivity, entertainment, visual generation, audio generation, and common 2B services such as Social Media Content Recommendation System, Chatbot, Smart Personal Assistant, Autonomous Driving System, Intelligent Wind Modeling, AI Assistive Diagnostic.
+Once released, MiniMax's model led the way in text, video, and audio modes, ranking first in Artificial Analysis's review list and ranked first among all open source models. According to Insight Consulting, MiniMax is the world's 10th largest large model technology company and the fourth largest pureplay large model technology company in the world by 2024 global model-based revenue.
+According to Insight Consulting, the global large model market is still in the early stages of commercialization. On a model-based revenue metric, the global large model market will grow rapidly from US$10.7 billion in 2024 to US$206.5 billion in 2029 at a CAGR of 80.7%. The large model application market size is expected to grow from US$7.1 billion in 2024 to US$151.5 billion in 2029 at a CAGR of 84.3%; meanwhile, the large model MaaS market size is expected to increase from US$3.6 billion in 2024 to US$55 billion in 2029 at a CAGR of 72.7%.
+IDC expects AI to collectively contribute $19.9 trillion to the global economy by 2030 and drive global GDP growth of 3.5% by 2030.
+## MiniMax Cornerstone Investors
+Cornerstone investors have agreed to sell a number of shares available for purchase at a total subscription price of approximately $0.35 billion, subject to certain conditions. Assuming an offer price of HK$158.0 (the median of the offer price), the total number of shares to be subscribed for by cornerstone investors will be 17.23512 million shares. Cornerstone investors include:
+Abu Dhabi [Investment](https://www.futuhk.com/en/blog/detail-how-to-invest-102-241283002?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) Authority (ADIA), Alisoft China Holding Limited (Alisoft China), Alibaba Group Affiliates, Aspex Master Fund (AMF), Boyu, Hong Kong, EastSpring Investments (Singapore) Limited Eastspring, IDG Breyer Capital Fund L.P., IDG Breyer Capital Fund L.P., Janchor Funds, Martis Fund, L.P., Mirae Asset Securities, MPC VII, Perseverance Asset Management, Thai Life.
+## Minimax Funding Purposes
+For financing purposes, MiniMax expects net proceeds from global sales to be approximately HK$3.8183 billion (assuming no overallotment options are exercised, based on the median of the offering price of HK$158). According to the prospectus, MiniMax intends to use the global IPO for the following purposes:
+About 90% will be spent on the company's R&D over the next five years, including the development company's large models and the company's AI native products. Specifically, (i) approximately 70.0% will be invested in the R&D of large models over the next five years; and approximately 20.0% will be devoted to the development, improvement and global scaling of AI native products over the next five years; approximately 10.0% will be allocated to working capital and general corporate use.
+Read more: [MiniMax Prospectus](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1231/2025123100026\_c.pdf?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D)
+The New Stock Gold Season Has Arrived! Upcoming Share Futures, 0 Interest, 0 Operating Fees, 0 Cash Purchase. The opportunity to participate and participate in the event is exempt from 1 year of renewal fees, [Come and experience it >>](https://invest.futuhk.com/ipo\_season?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D)
+Note: The event is limited to Hong Kong users.
+Frequency Asked Questions
+When does MiniMax go on sale?
+In its IPO on December 31-January 6, 2025, MiniMax intends to offer approximately 25.3892 million shares worldwide and is expected to be listed on January 9, 2026.
+What company is MiniMax?
+MiniMax is the world's leading General Artificial Intelligence Technology company. The company independently developed a series of multi-mode general-purpose models, including MiniMax M2, Hailuo 2.3, Speech 2.6 and Music 2.0, Backup Coding and Agent capabilities, as well as longer text processing capabilities, capable of analyzing, generating and integrating multiple modes including text, audio, images, video, and music. Based on this self-research model, the company launched a series of AI products worldwide, including MiniMax Agent, Herringbone, MiniMax Audio, Zodiac, and an open platform for companies and developers.
+What is the subscription amount for MiniMax?
+MiniMax First Order Amount HK$333.28
+One-stop trading with Futubull
+Enjoy welcome rewards and lifetime 0 commission on HK stocks
+[Open Account](https://setup2.futuhk.com/hksetup) [Terms and conditions apply\\
+![right-arrow]()](https://www.futunn.com/about/services)
+The above content does not represent any position of Futu and does not constitute any investment advice related to Futu. Before making any investment decision, investors should consider the risk factors related to investment products based on their own circumstances and seek professional investment advice when necessary. Futu tries its best but cannot confirm the authenticity, accuracy and originality of the above content, and Futu does not make any guarantee or commitment in this regard.
+"Futubull" is a one-stop financial investment and trading platform. The securities trading service is provided by Futu Securities International (Hong Kong) Limited.
+Expand
+Recommended
+- [![recommend-img]()\\
+\\
+Introduction to US Stock Trading\\
+\\
+\\
+Views 200K](https://www.futuhk.com/en/blog/detail-us-stock-entry-new-hand-investment-must-reads-us-stock-market-hours-fundamentals-top-3-exchanges-25-240213002)
+- [![recommend-img]()\\
+\\
+Getting Started with Capital Investment\\
+\\
+\\
+Views 36K](https://www.futuhk.com/en/blog/detail-is-investing-in-gold-an-avoidance-requirement-what-causes-affect-gold-prices-103-241255011)
+- [![recommend-img]()\\
+\\
+Monthly Savings Plan Introduction2026 \| How are the monthly stocks doing well?\\
+\\
+\\
+Views 38K](https://www.futuhk.com/en/blog/detail-regular-savings-plan-introduction2026-are-hong-kong-stocks-and-us-stocks-doing-well-72-240796009)
+- [![recommend-img]()\\
+\\
+HKD FUTURES INDEX GAMEPLAY AND CONSIDERATIONS\\
+\\
+\\
+Views 76K](https://www.futuhk.com/en/blog/detail-getting-started-get-a-quick-look-at-how-hkd-futures-play-and-what-to-note-87-240896006)
+- [![recommend-img]()\\
+\\
+【What is ETF】Hong Kong Investors Must See ETF Investment Guide\\
+\\
+\\
+Views 35K](https://www.futuhk.com/en/blog/detail-what-is-etf-hong-kong-investors-must-see-etf-investment-guide-65-240799003)
+- [![recommend-img]()\\
+\\
+A MUST READ FOR BEGINNERS TO START INVESTING\\
+\\
+\\
+Views 36K](https://www.futuhk.com/en/blog/detail-2026good-margin-for-securities-securities-vs-bank-stock-stocksaccount-comparison-59-240615012)
+- [![recommend-img]()\\
+\\
+Structured Product Investment Guide\\
+\\
+\\
+Views 22K](https://www.futuhk.com/en/blog/detail-what-are-structured-investments-understand-the-characteristics-and-potential-risks-111-250595004)
+- [![recommend-img]()\\
+\\
+See what is a bull bear card in one article \| Latest bull bear card games\\
+\\
+\\
+Views 41K](https://www.futuhk.com/en/blog/detail-see-what-is-a-bull-bear-card-in-one-article-latest-bull-bear-card-games-41-240539006)
+- [![recommend-img]()\\
+\\
+【REITs Hong Kong 2026】Real Estate Trust Funds Investment Guide\\
+\\
+\\
+Views 54K](https://www.futuhk.com/en/blog/detail-reits-hong-kong-2026-real-estate-trust-funds-investment-guide-51-240618001)
+- [![recommend-img]()\\
+\\
+Introduction to US Stock Trading\\
+\\
+\\
+Views 200K](https://www.futuhk.com/en/blog/detail-us-stock-entry-new-hand-investment-must-reads-us-stock-market-hours-fundamentals-top-3-exchanges-25-240213002)
+- [![recommend-img]()\\
+\\
+Getting Started with Capital Investment\\
+\\
+\\
+Views 36K](https://www.futuhk.com/en/blog/detail-is-investing-in-gold-an-avoidance-requirement-what-causes-affect-gold-prices-103-241255011)
+- [![recommend-img]()\\
+\\
+Monthly Savings Plan Introduction2026 \| How are the monthly stocks doing well?\\
+\\
+\\
+Views 38K](https://www.futuhk.com/en/blog/detail-regular-savings-plan-introduction2026-are-hong-kong-stocks-and-us-stocks-doing-well-72-240796009)
+- [![recommend-img]()\\
+\\
+HKD FUTURES INDEX GAMEPLAY AND CONSIDERATIONS\\
+\\
+\\
+Views 76K](https://www.futuhk.com/en/blog/detail-getting-started-get-a-quick-look-at-how-hkd-futures-play-and-what-to-note-87-240896006)
+- [![recommend-img]()\\
+\\
+【What is ETF】Hong Kong Investors Must See ETF Investment Guide\\
+\\
+\\
+Views 35K](https://www.futuhk.com/en/blog/detail-what-is-etf-hong-kong-investors-must-see-etf-investment-guide-65-240799003)
+- [![recommend-img]()\\
+\\
+A MUST READ FOR BEGINNERS TO START INVESTING\\
+\\
+\\
+Views 36K](https://www.futuhk.com/en/blog/detail-2026good-margin-for-securities-securities-vs-bank-stock-stocksaccount-comparison-59-240615012)
+On this page
+- MiniMax Company Profile
+- MiniMax Financial Overview
+- Industry Overview
+- MiniMax Cornerstone Investors
+- Minimax Funding Purposes
+Market Insights
+IPOs IPOs
+![IPOs](https://foss1.futunn.com/official\_config\_oss/prod/21d528ce-2c93-495c-ba1a-561a12852134)
+HK IPOs have shone brightly, with market buzz soaring and subscriptions hitting new highs. Industry giants awaiting listing are drawingthe spotlight. HK IPOs have shone brightly, with market buzz soaring and subscriptions hitting new highs. Industry giants awaiting listing are drawingthe spotlight.
+No. Symbol % Year-to-date
+[Sample Name\\
+\\
+Sample Code\\
+\\
++229.09%](https://www.futunn.com/en/stock/00100-HK) [Sample Name\\
+\\
+Sample Code\\
+\\
++184.17%](https://www.futunn.com/en/stock/02513-HK) [Sample Name\\
+\\
+Sample Code\\
+\\
++115.02%](https://www.futunn.com/en/stock/02720-HK) [4 \\
+\\
+ONEROBOTICS \\
+\\
+06600 \\
+\\
++112.15%](https://www.futunn.com/en/stock/06600-HK) [5 \\
+\\
+INSILICO \\
+\\
+03696 \\
+\\
++95.48%](https://www.futunn.com/en/stock/03696-HK)
+View More
+Hot Topics Hot Topics
+Blockbuster new stocks hit the market, IPO New Year party begins!
+\*\*All 19 new stocks listed in 2026 rose on their first day,\*\* marking a 'strong start for new listings in 2026'! \*\*Montage Technology,\*\* the world’s Show More
+All new stocks rose on their first day in 2026! Will you subscribe?
+79%
+21%
+Choose the best to buy
+Must seize every opportunity
+3052 votes
+![](https://avatar.futunn.com/public/profile/10221643/20250718/31033176.jpeg/120)
+量化鱼叔说财
+Jan 4 02:44
+Jingfeng Medical > TianShu Zhixin > Zhipu Technology > Ruibo Biotech > Minimax > Jinxun Stock 3+H
+The final ranking will be based on this. The logic should have been clearly laid out in the previous articles.
+Uncle Yu must point out that
+Every time it differs from the market, I feel immense pressure.
+To be honest, I don’t hope to differ from the market at all, as it would save me a lot of effort in providing reassurance and save time searching for data and conducting analysis to support my judgment.
+This time, the stocks may differ from your assessment and the market's margin financing situation.
+Please evaluate according to your own risk preference.
+It should be added that,In Uncle Yu’s opinion, both Ruibo and Zhipu are stocks highly susceptible to emotional fluctuations.
+There is no issue with Ruibo's fundamentals, but it may be weighed down by sentiment in the innovative drug sector, so there are risks. Those with low risk tolerance can also be cautious.
+The reason Zhipu’s stock is ranked third isn't because it deserves it,but rather to see how institutions view the 'AI First Stock,' and how retail investors feel about this stock.
+Ensure you're on board as a witness, witnessing the rise of China's AI revolution, and pay the ticket price.
+1\. Jinfeng Medical [$EDGE MEDICAL-B (02675.HK)$](https://www.futunn.com/en/stock/02675-HK?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D)
+This is a domestic medical technology company that relies on hard-core technology to break overseas monopolies and is rapidly expanding in both domestic and international markets. Jinfeng Medical's technological strength is not only reflected in its mature product portfolio but also fully demonstrated in cutting-edge breakthroughs. For example, its recently achieved autonomous suturing technology for robots has brought new possibilities to the industry. By 2026, the med...
+![](https://avatar.futunn.com/public/profile/14657515/20241025/49683856.jpeg/120)
+问就是加多
+Dec 18, 2025 21:21
+\[HKEX IPO\] Six stocks launched simultaneously: 'Linch Clear', 'Metropoly Holdings', 'Xunce', 'Insilico Medicine', 'Woan Robotics', '51 World'
+The quality of this batch of new stocks is pretty good, much better than the previous nine. In particular, there are 2-3 stocks that you can blindly invest in without worry, it just depends if you get allotted shares.
+By the end of each year, the HKEX pushes for performance, and listed companies avoid data expiration by clustering in December. If this were before the implementation of Mechanism B, these IPOs could have made a bunch of investors rich. Unfortunately, with Mechanism B now in place, even after all the hustle, at most you can be allotted one lot.
+Institutional investors took away 40% of the shares originally allocated to retail investors. When high-quality stocks appear, retail investors can only struggle and sigh helplessly. This so-called 'robbing the poor to feed the rich' is exactly what’s happening here.
+With many new stocks, we still analyze them simply based on their supply volume. These new offerings are transparent, so further elaboration would be redundant.
+[$FOREST CABIN (02657.HK)$](https://www.futunn.com/en/stock/02657-HK?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) A total of 27,933 lots from both Group A and B, with 109 million publicly available shares. It's a high-end Chinese skincare brand, similar to [$MAO GEPING (01318.HK)$](https://www.futunn.com/en/stock/01318-HK?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) Mao Geping, which truly enriched a group of people.
+Cornerstone investors account for 44.43%, with no adjustment rights over issuance volume. Huatai has been quite assertive since the implementation of Mechanism B, with its presence noted in many new stock sponsorships. Before Mechanism B, Huatai's performance was lackluster, but after reviewing their results post-Mechanism B: 6 wins and 2 losses out of 8 attempts — not bad at all.
+I will subscribe. (Package, fully utilizing the maximum allocation under Group A)
+Allocate funds reasonably; these six are all conflicting.
+[$USAS BUILDING (02671.HK)$](https://www.futunn.com/en/stock/02671-HK?chain\_id=qe2McTM5hcOe1s.1kol9it&global\_content=%7B%22promote\_id%22%3A13765%2C%22sub\_promote\_id%22%3A24%2C%22f%22%3A%22hk%2Fen%2Fblog%2Fdetail-00100-ipo-minimax-100-251288005%22%7D) A and B together total 8200...
+Invest with Futu! Invest with Futu!
+![](https://foss1.futunn.com/official\_config\_oss/prod/edacb8ac-ac15-407c-92a6-207e24b56082)
+\- No more -

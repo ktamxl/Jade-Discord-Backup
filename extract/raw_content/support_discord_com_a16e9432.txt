@@ -1,0 +1,99 @@
+# Source URL: https://support.discord.com/hc/en-us/articles/360060145013
+# Content Length: 10742 characters
+# Extracted at: 2026-03-23 00:29:48
+#============================================================
+
+Why isn't my DM going through? – Discord
+[![](/hc/theming\_assets/01JYJB58V9PVW92W0ZMXZ7WD5A)](/hc/en-us)
+[Feedback](//feedback.discord.com/)[Submit a request](/hc/en-us/requests/new)[Sign in](/hc/en-us/signin?return\_to=https%3A%2F%2Fsupport.discord.com%2Fhc%2Fen-us%2Farticles%2F360060145013-Why-isn-t-my-DM-going-through)
+Articles in this section
+\* [Mention Suggestions FAQ](/hc/en-us/articles/35692242798743-Mention-Suggestions-FAQ)
+\* [Message Bookmarks and Reminders](/hc/en-us/articles/26442819646999-Message-Bookmarks-and-Reminders)
+\* [File Attachments FAQ](/hc/en-us/articles/25444343291031-File-Attachments-FAQ)
+\* [Message Forwarding](/hc/en-us/articles/24640649961367-Message-Forwarding)
+\* [Text Channels & Text Chat In Voice Channels](/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels)
+\* [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
+\* [Voice Messages](/hc/en-us/articles/13091096725527-Voice-Messages)
+\* [Message Requests](/hc/en-us/articles/7924992471191-Message-Requests)
+\* [File Preview](/hc/en-us/articles/1500005466681-File-Preview)
+\* [Replies FAQ](/hc/en-us/articles/360057382374-Replies-FAQ)
+[See more](/hc/en-us/sections/115000458672-Messaging-and-Chat)
+1. [Discord](/hc/en-us)
+2. [Discord Basics](/hc/en-us/categories/115000217151-Discord-Basics)
+3. [Messaging and Chat](/hc/en-us/sections/115000458672-Messaging-and-Chat)
+Articles in this section
+\* [Mention Suggestions FAQ](/hc/en-us/articles/35692242798743-Mention-Suggestions-FAQ)
+\* [Message Bookmarks and Reminders](/hc/en-us/articles/26442819646999-Message-Bookmarks-and-Reminders)
+\* [File Attachments FAQ](/hc/en-us/articles/25444343291031-File-Attachments-FAQ)
+\* [Message Forwarding](/hc/en-us/articles/24640649961367-Message-Forwarding)
+\* [Text Channels & Text Chat In Voice Channels](/hc/en-us/articles/4412085582359-Text-Channels-Text-Chat-In-Voice-Channels)
+\* [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
+\* [Voice Messages](/hc/en-us/articles/13091096725527-Voice-Messages)
+\* [Message Requests](/hc/en-us/articles/7924992471191-Message-Requests)
+\* [File Preview](/hc/en-us/articles/1500005466681-File-Preview)
+\* [Replies FAQ](/hc/en-us/articles/360057382374-Replies-FAQ)
+[See more](/hc/en-us/sections/115000458672-Messaging-and-Chat)
+# Why isn't my DM going through?
+![](https://support.discord.com/system/photos/1500300735082/ZD\_Avatar\_the\_Last\_AirBender\_\_2\_.jpg)
+[Bubbles](/hc/en-us/profiles/1504238994441-Bubbles)
+\* 10 days ago
+\* Updated
+FollowNot yet followed by anyone
+If your direct message was unable to be sent, you'll receive an error message from Clyde that states the following:
+> \*\*Your message could not be delivered. This is usually because you don't share a server with the recipient or the recipient is only accepting direct messages from friends.\*\*
+Clyde’s message will look something like this:
+\*\*![](/hc/article\_attachments/38971509168663)\*\*
+# \*\*Possible Reasons for This Error\*\*
+\*\*There can be a few reasons why you are unable to send a direct message to someone.\*\* Here are possible reasons for the error that you may be encountering:
+\* You don't share a [server](/hc/en-us/articles/360034842871) with the DM recipient.
+\* You've [disabled direct messages](/hc/en-us/articles/217916488) on your shared server.
+\* You have not completed the required [membership screening](/hc/en-us/articles/1500000466882) steps in your shared server.
+\* The DM recipient is [only accepting direct messages from friends](/hc/en-us/articles/217916488).
+\* You were [blocked](/hc/en-us/articles/217916488) by the DM recipient.
+\* This error may also appear if the content you're trying to share has been identified as violating Discord's Community Guidelines and cannot be uploaded
+If it seems you are running into a technical error when trying to send a DM, please reach out to our [Discord Support team](href). Otherwise, the Discord Support team will not be able to provide further assistance.
+For further information, please review our [Blocking & Privacy article](/hc/en-us/articles/217916488) to learn more about these features.
+Share
+Was this article helpful?
+YesNo
+588588 out of 878488 found this helpful
+Have more questions? [Submit a request](/hc/en-us/requests/new)
+[Return to top](#article-container)
+## Related articles
+\* [Blocking & Privacy Settings](/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkESCT9DDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCHXNQdVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI7L2hjL2VuLXVzL2FydGljbGVzLzIxNzkxNjQ4OC1CbG9ja2luZy1Qcml2YWN5LVNldHRpbmdzBjsIVDoJcmFua2kG--941e57ed0d00e1cb206b34b9d4f70ef7a9bc458a)
+\* [How do I join a Server?](/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCPe4v9NTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCHXNQdVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI7L2hjL2VuLXVzL2FydGljbGVzLzM2MDAzNDg0Mjg3MS1Ib3ctZG8tSS1qb2luLWEtU2VydmVyBjsIVDoJcmFua2kH--7953a97e77a13f006f49a2846db2314a680a2c47)
+\* [How to Verify Your Discord Account](/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBehokufBToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCHXNQdVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJIL2hjL2VuLXVzL2FydGljbGVzLzYxODE3MjY4ODgyMTUtSG93LXRvLVZlcmlmeS1Zb3VyLURpc2NvcmQtQWNjb3VudAY7CFQ6CXJhbmtpCA%3D%3D--b1ad9e979f3fb0f609442e7e0010b11896030a47)
+\* [Time Out FAQ](/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJe2fY0DBDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCHXNQdVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSIyL2hjL2VuLXVzL2FydGljbGVzLzQ0MTMzMDUyMzkxOTEtVGltZS1PdXQtRkFRBjsIVDoJcmFua2kJ--e2229127d9389e8b212140dbd44dd4ff4ba2806f)
+\* [How do I enable my mic in Chrome?](/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkEb3o5DDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCHXNQdVTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJCL2hjL2VuLXVzL2FydGljbGVzLzIwNTA5MzQ4Ny1Ib3ctZG8tSS1lbmFibGUtbXktbWljLWluLUNocm9tZQY7CFQ6CXJhbmtpCg%3D%3D--1ec81ec1e100de1c616d35e77e3e99ae3ed25830)
+English (US)
+[Dansk](/hc/change\_language/da?return\_to=%2Fhc%2Fda%2Farticles%2F360060145013-Hvorfor-bliver-min-DM-ikke-sendt)[Deutsch](/hc/change\_language/de?return\_to=%2Fhc%2Fde%2Farticles%2F360060145013-Warum-kommt-meine-DM-nicht-an)[Español](/hc/change\_language/es?return\_to=%2Fhc%2Fes%2Farticles%2F360060145013--Por-qu%25C3%25A9-no-se-env%25C3%25ADa-mi-MD)[Français](/hc/change\_language/fr?return\_to=%2Fhc%2Ffr%2Farticles%2F360060145013-Pourquoi-mon-MP-ne-s-envoie-pas)[हिन्दी (भारत)](/hc/change\_language/hi-in?return\_to=%2Fhc%2Fhi-in%2Farticles%2F360060145013-%25E0%25A4%25AE%25E0%25A5%2587%25E0%25A4%25B0%25E0%25A5%2587-DM-%25E0%25A4%2595-%25E0%25A4%25AF%25E0%25A5%258B%25E0%25A4%2582-%25E0%25A4%25A8%25E0%25A4%25B9%25E0%25A5%2580%25E0%25A4%2582-%25E0%25A4%259C%25E0%25A4%25BE-%25E0%25A4%25B0%25E0%25A4%25B9%25E0%25A5%2587-%25E0%25A4%25B9%25E0%25A5%2588%25E0%25A4%2582)[Italiano](/hc/change\_language/it?return\_to=%2Fhc%2Fit%2Farticles%2F360060145013-Perch%25C3%25A9-il-mio-messaggio-diretto-non-viene-inviato)[日本語](/hc/change\_language/ja?return\_to=%2Fhc%2Fja%2Farticles%2F360060145013-%25E3%2581%25AA%25E3%2582%2593%25E3%2581%25A7DM%25E3%2581%258C%25E7%259B%25B8%25E6%2589%258B%25E3%2581%25AB%25E5%25B1%258A%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE)[한국어](/hc/change\_language/ko?return\_to=%2Fhc%2Fko%2Farticles%2F360060145013-DM%25EC%259D%25B4-%25EC%25A0%2584%25EC%2586%25A1%25EB%2590%2598%25EC%25A7%2580-%25EC%2595%258A%25EB%258A%2594-%25EC%259D%25B4%25EC%259C%25A0%25EB%258A%2594-%25EB%25AC%25B4%25EC%2597%2587%25EC%259D%25B8%25EA%25B0%2580%25EC%259A%2594)[Nederlands](/hc/change\_language/nl?return\_to=%2Fhc%2Fnl%2Farticles%2F360060145013-Waarom-wordt-mijn-priv%25C3%25A9bericht-niet-verzonden)[Polski](/hc/change\_language/pl?return\_to=%2Fhc%2Fpl%2Farticles%2F360060145013-Dlaczego-moja-wiadomo%25C5%259B%25C4%2587-DM-nie-dochodzi)[Português do Brasil](/hc/change\_language/pt-br?return\_to=%2Fhc%2Fpt-br%2Farticles%2F360060145013-Por-que-minha-DM-n%25C3%25A3o-est%25C3%25A1-sendo-enviada)[Русский](/hc/change\_language/ru?return\_to=%2Fhc%2Fru%2Farticles%2F360060145013-%25D0%259F%25D0%25BE%25D1%2587%25D0%25B5%25D0%25BC%25D1%2583-%25D0%25BC%25D0%25BE%25D0%25B8-%25D1%2581%25D0%25BE%25D0%25BE%25D0%25B1%25D1%2589%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F-%25D0%25BD%25D0%25B5-%25D0%25BE%25D1%2582%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25BB%25D1%258F%25D1%258E%25D1%2582%25D1%2581%25D1%258F)[Svenska](/hc/change\_language/sv?return\_to=%2Fhc%2Fsv%2Farticles%2F360060145013-Varf%25C3%25B6r-skickas-inte-mitt-DM)[ไทย](/hc/change\_language/th?return\_to=%2Fhc%2Fth%2Farticles%2F360060145013-%25E0%25B8%2597%25E0%25B8%25B3%25E0%25B9%2584%25E0%25B8%25A1-DM-%25E0%25B8%2582%25E0%25B8%25AD%25E0%25B8%2587%25E0%25B8%2589%25E0%25B8%25B1%25E0%25B8%2599%25E0%25B8%2596%25E0%25B8%25B6%25E0%25B8%2587%25E0%25B9%2584%25E0%25B8%25A1-%25E0%25B8%259C-%25E0%25B8%25B2%25E0%25B8%2599)[Türkçe](/hc/change\_language/tr?return\_to=%2Fhc%2Ftr%2Farticles%2F360060145013-DM-lerim-Neden-%25C4%25B0letilmiyor)[Tiếng Việt](/hc/change\_language/vi?return\_to=%2Fhc%2Fvi%2Farticles%2F360060145013-T%25E1%25BA%25A1i-sao-Tin-Nh%25E1%25BA%25AFn-Tr%25E1%25BB%25B1c-Ti%25E1%25BA%25BFp-DM-C%25E1%25BB%25A7a-T%25C3%25B4i-Kh%25C3%25B4ng-%25C4%2590%25C6%25B0%25E1%25BB%25A3c-G%25E1%25BB%25ADi-%25C4%2590i)[繁體中文](/hc/change\_language/zh-tw?return\_to=%2Fhc%2Fzh-tw%2Farticles%2F360060145013-%25E7%2582%25BA%25E4%25BB%2580%25E9%25BA%25BC%25E6%2588%2591%25E7%259A%2584%25E7%25A7%2581%25E8%25A8%258A%25E9%2580%2581%25E4%25B8%258D%25E5%2587%25BA%25E5%258E%25BB)
+### Social
+### Product
+\* [Download](//discord.com/download)
+\* [Nitro](//discord.com/nitro)
+\* [Status](//status.discord.com)
+\* [App Directory](//discord.com/app-directory)
+### Company
+\* [About](//discord.com/company)
+\* [Jobs](//discord.com/careers)
+\* [Brand](//discord.com/branding)
+\* [Newsroom](//discord.com/newsroom)
+### Resources
+\* [Support](//support.discord.com)
+\* [Safety](//discord.com/safety)
+\* [Blog](//discord.com/blog)
+\* [Feedback](//feedback.discord.com)
+\* [Creators](//discord.com/creators)
+\* [Community](//discord.com/community)
+\* [Developers](//discord.com/developers)
+\* [Quests](//discord.com/quests)
+\* [Official 3rd Party Merch](https://discordmerch.com/evergreenfooter)
+### Policies
+\* [Terms](//discord.com/tos)
+\* [Privacy](//discord.com/privacy)
+\* [Cookie Settings](#)
+\* [Guidelines](//discord.com/guidelines)
+\* [Acknowledgements](//discord.com/acknowledgements)
+\* [Licenses](//discord.com/licenses)
+\* [Company Information](//discord.com/company-information)
+![](/hc/theming\_assets/01JYJB54Q7NQKBMYN89G6P02NF)
