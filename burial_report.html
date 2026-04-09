@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>安葬完整分析報告 / Complete Burial Analysis Report</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Serif:wght@400;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Serif TC', 'Noto Serif', 'Georgia', serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 0;
+  }
+
+  .page {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 18mm 20mm 18mm;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    border-bottom: 3px double #8B0000;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+  }
+  .header .title-zh {
+    font-size: 22pt;
+    font-weight: 700;
+    color: #8B0000;
+    letter-spacing: 4px;
+    margin-bottom: 6px;
+  }
+  .header .title-en {
+    font-size: 13pt;
+    color: #555;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .header .meta {
+    font-size: 9pt;
+    color: #888;
+  }
+
+  /* Section headers */
+  .section {
+    margin-bottom: 26px;
+    page-break-inside: avoid;
+  }
+  .section-title {
+    background: #8B0000;
+    color: #fff;
+    padding: 6px 14px;
+    font-size: 12pt;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+  }
+  .section-title .en {
+    font-size: 9pt;
+    font-weight: 400;
+    opacity: 0.85;
+    display: block;
+    letter-spacing: 1px;
+  }
+
+  /* Info boxes */
+  .info-box {
+    background: #fdf8f0;
+    border: 1px solid #d4a853;
+    border-left: 4px solid #8B0000;
+    padding: 12px 16px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+  }
+  .info-box .label {
+    font-weight: 700;
+    color: #8B0000;
+    font-size: 10pt;
+  }
+
+  /* Warning box */
+  .warning-box {
+    background: #fff8e1;
+    border: 1px solid #f0c040;
+    border-left: 4px solid #e67e00;
+    padding: 10px 14px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+    font-size: 10pt;
+  }
+  .warning-box .warn-title {
+    font-weight: 700;
+    color: #e67e00;
+  }
+
+  /* Good/Bad boxes */
+  .result-good {
+    background: #f0fff0;
+    border: 1px solid #4caf50;
+    border-left: 4px solid #2e7d32;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+  }
+  .result-bad {
+    background: #fff0f0;
+    border: 1px solid #ef9a9a;
+    border-left: 4px solid #c62828;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+  }
+  .result-neutral {
+    background: #f5f5f5;
+    border: 1px solid #bbb;
+    border-left: 4px solid #757575;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 14px;
+    font-size: 10pt;
+  }
+  th {
+    background: #8B0000;
+    color: #fff;
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #e0d0c0;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #fdf8f0; }
+  tr:last-child td { border-bottom: none; }
+  .good { color: #2e7d32; font-weight: 700; }
+  .bad { color: #c62828; font-weight: 700; }
+  .neutral { color: #757575; }
+  .best { color: #1a5276; font-weight: 700; background: #eaf3fb; }
+
+  /* Highlighted recommended date */
+  .highlight-date {
+    background: #eaf3fb;
+    border: 2px solid #1a5276;
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .highlight-date .date-main {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #1a5276;
+    letter-spacing: 2px;
+  }
+  .highlight-date .date-sub {
+    font-size: 10pt;
+    color: #555;
+    margin-top: 4px;
+  }
+
+  /* Diagram */
+  .diagram {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 16px 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    white-space: pre;
+  }
+
+  /* Schedule table */
+  .schedule td:first-child {
+    font-weight: 700;
+    color: #8B0000;
+    white-space: nowrap;
+    width: 130px;
+  }
+
+  /* Two-column layout */
+  .two-col {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .two-col .col {
+    flex: 1;
+    border: 1px solid #d4a853;
+    padding: 12px;
+    border-radius: 2px;
+    background: #fdf8f0;
+  }
+  .two-col .col .col-title {
+    font-weight: 700;
+    color: #8B0000;
+    font-size: 11pt;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #d4a853;
+    padding-bottom: 5px;
+  }
+
+  /* Checklist */
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 14px;
+  }
+  .checklist li {
+    padding: 5px 0 5px 24px;
+    position: relative;
+    border-bottom: 1px dotted #ddd;
+    font-size: 10pt;
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist li::before {
+    content: '□';
+    position: absolute;
+    left: 4px;
+    color: #8B0000;
+    font-size: 12pt;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 8pt;
+    color: #999;
+    text-align: center;
+  }
+
+  /* Page break */
+  .page-break { page-break-before: always; }
+
+  /* Bilingual pair */
+  .bilingual {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+  }
+  .zh { font-size: 11pt; }
+  .en-small { font-size: 9pt; color: #666; }
+
+  p { margin-bottom: 8px; }
+  ul { padding-left: 20px; margin-bottom: 10px; }
+  li { margin-bottom: 4px; font-size: 10pt; }
+  strong { color: #8B0000; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="title-zh">安葬完整分析報告</div>
+    <div class="title-en">Complete Burial Analysis Report</div>
+    <div class="meta">
+      逝者 Deceased: Father &nbsp;|&nbsp; 地點 Location: Woodlawn Memorial Park, Colma, California<br>
+      製作日期 Prepared: 11 March 2026 &nbsp;|&nbsp; 製作 Prepared by: Sisi (詩詩)
+    </div>
+  </div>
+
+  <!-- SECTION 1: CONFIRMED INFO -->
+  <div class="section">
+    <div class="section-title">
+      第一部分：確認資料
+      <span class="en">Part 1 — Confirmed Information</span>
+    </div>
+
+    <table>
+      <tr>
+        <th></th>
+        <th>父親 Father (Deceased)</th>
+        <th>母親 Mother (Future Planning)</th>
+      </tr>
+      <tr>
+        <td><strong>生日 Birthday</strong></td>
+        <td>14 July 1936 (1936年7月14日)</td>
+        <td>26 April 1942 (1942年4月26日)</td>
+      </tr>
+      <tr>
+        <td><strong>年柱 Year Pillar</strong></td>
+        <td>丙子 — Fire Rat 🐀</td>
+        <td>壬午 — Water Horse 🐴</td>
+      </tr>
+      <tr>
+        <td><strong>月柱 Month Pillar</strong></td>
+        <td>己未 — Earth Goat</td>
+        <td>戊辰 — Earth Dragon</td>
+      </tr>
+      <tr>
+        <td><strong>日柱 Day Pillar</strong></td>
+        <td>己丑 — Earth Ox</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><strong>狀態 Status</strong></td>
+        <td>逝於 Passed: 8 March 2026</td>
+        <td>健在 Alive — reserving plot now</td>
+      </tr>
+    </table>
+
+    <div class="warning-box">
+      <span class="warn-title">⚠️ 重要提醒 Important Note:</span>
+      2026年為丙午年 (Year of the Horse) — 這是母親的<strong>本命年</strong>，屬於特別需要注意的年份。
+      傳統上，本命年應佩戴紅色飾物以趨吉避凶（紅腰帶、紅手鍊或紅色內衣）。<br>
+      <em>2026 is a Horse year — Mother's birth zodiac year (本命年). She should wear a red accessory
+      (red bracelet, belt or inner garment) throughout this period as traditional protection.</em>
+    </div>
+  </div>
+
+  <!-- SECTION 2: BURIAL DATE -->
+  <div class="section">
+    <div class="section-title">
+      第二部分：安葬擇日（週末）
+      <span class="en">Part 2 — Burial Date Selection (Weekends Only)</span>
+    </div>
+
+    <div class="highlight-date">
+      <div class="date-main">✅ 首選日期：2026年3月21日（星期六）甲寅日</div>
+      <div class="date-sub">Recommended Date: Saturday, 21 March 2026 — 甲寅 (Wood Tiger Day)</div>
+    </div>
+
+    <p><strong>選擇理由 Why this date:</strong></p>
+    <ul>
+      <li><strong>除日</strong> — 建除十二神中最適合安葬的吉日，意為掃除舊穢、迎接新安。<br>
+        <em>(Best burial category in Chinese almanac — "sweep away, begin anew")</em></li>
+      <li><strong>甲寅（虎日）</strong> 不沖父親任何命柱（子年、未月、丑日）— 完全安全。<br>
+        <em>Tiger day has NO clash with any of Father's pillars (Rat year, Goat month, Ox day)</em></li>
+      <li><strong>寅午半合</strong> — 虎日與2026丙午年形成半合火局，氣場穩定吉祥。<br>
+        <em>Tiger + 2026 Horse year form a harmonious half-fire combination</em></li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>日期 Date</th>
+        <th>干支 Pillar</th>
+        <th>生肖 Zodiac</th>
+        <th>評估 Assessment</th>
+      </tr>
+      <tr><td>3月14日 Sat</td><td>己未</td><td>羊 Goat</td><td class="bad">❌ 避免 — 子未害 + 丑未沖（雙重不利）</td></tr>
+      <tr style="background:#eaf3fb"><td><strong>3月21日 Sat</strong></td><td><strong>甲寅</strong></td><td><strong>虎 Tiger</strong></td><td class="best">✅✅ 首選 BEST — 除日，無沖，寅午半合</td></tr>
+      <tr><td>3月22日 Sun</td><td>乙卯</td><td>兔 Rabbit</td><td class="bad">❌ 避免 — 子卯刑（刑父親鼠年）</td></tr>
+      <tr><td>3月28日 Sat</td><td>辛酉</td><td>雞 Rooster</td><td class="neutral">⚠️ 中性，無大問題</td></tr>
+      <tr><td>3月29日 Sun</td><td>壬戌</td><td>狗 Dog</td><td class="neutral">⚠️ 輕微 — 丑戌刑（父親丑日）</td></tr>
+      <tr><td>4月4日 Sat</td><td>戊辰</td><td>龍 Dragon</td><td class="good">✅ 次選 — 子辰半合水（利鼠年）</td></tr>
+      <tr><td>4月5日 Sun</td><td>己巳</td><td>蛇 Snake</td><td class="good">✅ 可用</td></tr>
+      <tr><td>4月12日 Sun</td><td>乙亥</td><td>豬 Pig</td><td class="good">✅ 次選 — 亥子丑北方三合</td></tr>
+      <tr><td>4月18日 Sat</td><td>辛巳</td><td>蛇 Snake</td><td class="good">✅ 可用</td></tr>
+      <tr><td>4月19日 Sun</td><td>壬午</td><td>馬 Horse</td><td class="bad">❌❌ 最差 — 子午相沖（直沖父親鼠年）</td></tr>
+      <tr><td>4月25日 Sat</td><td>戊子</td><td>鼠 Rat</td><td class="bad">❌ 避免 — 伏吟（與父親年柱相同）</td></tr>
+      <tr><td>4月26日 Sun</td><td>己丑</td><td>牛 Ox</td><td class="bad">❌ 避免 — 伏吟（與父親日柱相同）</td></tr>
+    </table>
+  </div>
+
+  <!-- SECTION 3: TIME SCHEDULE -->
+  <div class="section">
+    <div class="section-title">
+      第三部分：3月21日儀式時間安排
+      <span class="en">Part 3 — Ceremony Schedule for March 21</span>
+    </div>
+
+    <div class="result-good" style="margin-bottom:12px">
+      <strong>最佳時辰 Best Time Window: 上午11:00 至 下午1:00 PDT（午時）</strong><br>
+      <em>午時為一日陽氣最旺之時，配合寅日、丙午年，形成三合火局，利於安葬儀式。<br>
+      Peak Yang energy hour — in harmony with Tiger day and Horse year. Must complete coffin lowering before 1:00 PM.</em>
+    </div>
+
+    <table class="schedule">
+      <tr><th>時間 Time</th><th>活動 Activity</th></tr>
+      <tr><td>10:15 AM</td><td>家屬抵達墓地，準備祭品<br><em>Family arrives at cemetery, prepare offerings</em></td></tr>
+      <tr><td>10:30 AM</td><td>開始祭拜儀式<br><em>Begin memorial service</em></td></tr>
+      <tr><td><strong>11:00 AM</strong></td><td><strong>正式開始落葬 — 務必在此時開始棺木入土</strong><br><em>BEGIN lowering of coffin — must start at this time</em></td></tr>
+      <tr><td>11:00–12:30 PM</td><td>完成棺木入土<br><em>Complete the lowering and burial</em></td></tr>
+      <tr><td><strong>1:00 PM前</strong></td><td><strong>完成覆土及立碑儀式 — 務必在午時結束前完畢</strong><br><em>Complete all covering and headstone rituals — must finish before 1:00 PM</em></td></tr>
+    </table>
+  </div>
+
+  <!-- PAGE BREAK -->
+  <div class="page-break"></div>
+
+  <!-- SECTION 4: FENG SHUI -->
+  <div class="section">
+    <div class="section-title">
+      第四部分：風水坐向
+      <span class="en">Part 4 — Feng Shui Orientation</span>
+    </div>
+
+    <div class="two-col">
+      <div class="col">
+        <div class="col-title">父親墓穴 Father's Plot</div>
+        <p><strong>坐向：坐壬向丙</strong></p>
+        <p>坐山（棺頭方向）：壬方<br>
+        <strong>North-Northwest — 345°</strong></p>
+        <p>向首（棺腳/訪客方向）：丙方<br>
+        <strong>South-Southeast — 165°</strong></p>
+        <p>✅ 壬方屬水，滋養父親水鼠命<br>
+        <em>Water element nourishes Water Rat</em></p>
+        <p>✅ 丙方為九運（2024–2043）旺氣方<br>
+        <em>Period 9 prosperity direction</em></p>
+        <p>✅ 避開正南午方（子午相沖）<br>
+        <em>Avoids direct clash with Rat</em></p>
+      </div>
+      <div class="col">
+        <div class="col-title">母親墓穴 Mother's Plot（預留 Reserved）</div>
+        <p><strong>坐向：坐壬向丙（同父親）</strong><br>
+        <em>Same orientation as Father</em></p>
+        <p>坐山：壬方 <strong>345°</strong><br>
+        向首：丙方 <strong>165°</strong></p>
+        <p>✅ 兩個獨立墓穴，子午相沖不直接發生<br>
+        <em>Separate plots — 子午沖 does not directly manifest</em></p>
+        <p>✅ 向丙帶來火氣，有利母親（馬/火）<br>
+        <em>Facing Fire direction supports Horse (Fire element)</em></p>
+        <p>✅ 同向象徵夫妻同心<br>
+        <em>Same facing direction — symbolic unity as couple</em></p>
+      </div>
+    </div>
+
+    <div class="warning-box">
+      <span class="warn-title">關於子午相沖的處理 / Handling the 子午沖 Conflict:</span><br>
+      父（鼠/子）與母（馬/午）生肖相沖，但採用<strong>兩個獨立墓穴</strong>可大幅減少影響。
+      每個墓穴有獨立的地氣，沖煞不會在同一穴位直接發生。兩人並排、同向，象徵上仍是夫妻同在。<br><br>
+      <em>Father (Rat/子) and Mother (Horse/午) have a zodiac clash. Using <strong>two separate plots</strong>
+      significantly reduces this — each plot has its own earth energy field, so the clash does not
+      occur within the same burial cavity. They remain side by side, facing the same direction.</em>
+    </div>
+  </div>
+
+  <!-- SECTION 5: LAYOUT DIAGRAM -->
+  <div class="section">
+    <div class="section-title">
+      第五部分：墓地平面佈局圖（俯視圖）
+      <span class="en">Part 5 — Plot Layout Diagram (Top View / Bird's Eye)</span>
+    </div>
+
+    <div class="diagram">NORTH 北方 — 坐壬（345°）
+          棺頭方向 / Head of Coffin
+          墓碑位置 / Headstone Location
+                    ↑
+     ┌──────────────────────────────────┐
+     │         HEAD OF COFFIN           │
+     │         棺頭 / 墓碑 Headstone    │
+     ├─────────────────┬────────────────┤
+     │    FATHER 父親  │  MOTHER 母親   │
+     │    Rat 鼠 🐀    │  Horse 馬 🐴   │
+     │    LEFT 左側    │  RIGHT 右側    │
+     │   East 東 / 青龍│  West 西 / 白虎│
+     ├─────────────────┴────────────────┤
+     │     FEET OF COFFIN 棺腳方向      │
+     │     訪客站立處 Visitor Side       │
+     └──────────────────────────────────┘
+                    ↓
+     SOUTH 南方 — 向丙（165°）
+     訪客由此方向面北閱讀墓碑
+     Visitors stand here, face NORTH to read headstones</div>
+
+    <table>
+      <tr><th>位置 Position</th><th>說明 Description</th></tr>
+      <tr><td>父親 Father — 左/東/青龍</td><td>LEFT side, East, Azure Dragon — 陽位，男性尊位<br><em>Yang position, male side — correct for husband</em></td></tr>
+      <tr><td>母親 Mother — 右/西/白虎</td><td>RIGHT side, West, White Tiger — 陰位，女性位<br><em>Yin position, female side — correct for wife</em></td></tr>
+      <tr><td>墓碑 Headstone</td><td>位於北端（坐壬方），訪客從南方（向丙方）閱讀<br><em>At North end (345°); visitors read from South side (165°)</em></td></tr>
+      <tr><td>棺木方向 Coffin</td><td>棺頭朝北（壬方345°），棺腳朝南（丙方165°）<br><em>Head of coffin points North-NW (345°), feet point South-SE (165°)</em></td></tr>
+      <tr><td>兩穴間距 Plot gap</td><td>建議兩穴之間保留小間距或界石，作為能量隔斷<br><em>A small gap or border marker between plots is recommended</em></td></tr>
+    </table>
+  </div>
+
+  <!-- SECTION 6: FAMILY PRECAUTIONS -->
+  <div class="section">
+    <div class="section-title">
+      第六部分：出席家屬注意事項（3月21日甲寅日）
+      <span class="en">Part 6 — Family Precautions on Burial Day (March 21, Tiger Day)</span>
+    </div>
+
+    <table>
+      <tr><th>人員 Person</th><th>生肖 Zodiac</th><th>當日狀況 Status</th><th>建議 Action</th></tr>
+      <tr>
+        <td>Ken（兒子）</td>
+        <td>兔 Rabbit</td>
+        <td class="good">✅ 安全 — 寅卯相鄰，無沖</td>
+        <td>正常出席 Normal attendance</td>
+      </tr>
+      <tr>
+        <td>Mabel（兒媳）</td>
+        <td>牛 Ox</td>
+        <td class="good">✅ 安全 — 與虎日無沖</td>
+        <td>正常出席 Normal attendance</td>
+      </tr>
+      <tr>
+        <td>母親 Mother</td>
+        <td>馬 Horse</td>
+        <td class="good">✅ 吉利 — 寅午半合，虎馬相合</td>
+        <td>正常出席；佩戴紅色飾物（本命年）<br><em>Normal attendance; wear red accessory (本命年 protection)</em></td>
+      </tr>
+    </table>
+
+    <div class="warning-box">
+      <span class="warn-title">⚠️ 請向所有出席者確認生肖 / Check zodiac of ALL attendees:</span><br><br>
+      <strong>屬猴 Monkey 申</strong>（出生年份：1944, 1956, 1968, 1980, 1992, 2004）<br>
+      原因：寅申相沖 — Tiger day directly clashes Monkey<br>
+      建議：在棺木入土的瞬間，暫時退後並轉身背對墓穴，待下葬完成後再上前。<br>
+      <em>Must step back and turn away from the grave during the moment of lowering the coffin.</em>
+      <br><br>
+      <strong>屬蛇 Snake 巳</strong>（出生年份：1941, 1953, 1965, 1977, 1989, 2001）<br>
+      原因：寅巳相害 — Tiger day harms Snake<br>
+      建議：同上，在下葬瞬間暫時轉身迴避。<br>
+      <em>Same — briefly step back and look away during the lowering.</em>
+    </div>
+  </div>
+
+  <!-- SECTION 7: QUESTIONS FOR FUNERAL HOME -->
+  <div class="section">
+    <div class="section-title">
+      第七部分：向殯儀館詢問事項清單
+      <span class="en">Part 7 — Questions for the Funeral Home</span>
+    </div>
+
+    <p style="margin-bottom:10px">請在與殯儀館會面時提出以下問題：<br>
+    <em>Please raise the following questions at your funeral home meeting:</em></p>
+
+    <ul class="checklist">
+      <li>兩個墓穴均可否設定為<strong>坐壬向丙</strong>方向（坐345°、向165°）？<br>
+        <em>Can both plots be set to 坐壬向丙 orientation — sitting at 345°, facing at 165°?</em></li>
+      <li>是否有<strong>兩個緊鄰並排</strong>的墓穴可選——父親在左（東方），母親在右（西方）？<br>
+        <em>Are two adjacent side-by-side plots available — Father on LEFT (East), Mother on RIGHT (West) when facing South?</em></li>
+      <li>墓穴北方是否有<strong>自然靠山</strong>（山坡、樹木或牆壁）？（風水靠山要求）<br>
+        <em>Is there a natural backing to the North of the plots — hill, trees, or wall? (靠山 requirement)</em></li>
+      <li>墓穴南方是否<strong>開闊明亮</strong>，無阻擋？（風水明堂要求）<br>
+        <em>Is the South side open and unobstructed? (明堂 requirement)</em></li>
+      <li>附近是否有<strong>道路尖角、電線桿或電氣設施</strong>？（需避免）<br>
+        <em>Are there any sharp road corners, electrical poles, or utility facilities nearby? (Must avoid)</em></li>
+      <li>可否<strong>現在預留</strong>母親的墓穴（緊鄰父親右方）？<br>
+        <em>Can Mother's plot be reserved now, adjacent to Father's (on his right)?</em></li>
+      <li>殯儀館是否有<strong>處理華人風水方向</strong>要求的經驗？<br>
+        <em>Does the cemetery have experience accommodating Chinese feng shui orientation requests?</em></li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    此報告根據父親實際生日（1936年7月14日）及母親實際生日（1942年4月26日）重新計算，取代所有先前分析。<br>
+    This report is calculated fresh from actual birth dates (Father: 14 Jul 1936 | Mother: 26 Apr 1942) and supersedes all previous analysis.<br>
+    地點 Location: Woodlawn Memorial Park, Colma, California &nbsp;|&nbsp; 時區 Timezone: Pacific (PDT)<br>
+    製作 Prepared by Sisi (詩詩) &nbsp;|&nbsp; 11 March 2026
+  </div>
+
+</div>
+</body>
+</html>

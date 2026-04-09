@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanessa Wing San Tam — BaZi Destiny Report</title>
+<style>
+/* ── PRINT BUTTON (screen only) ── */
+#printBtn {
+  position: fixed; top: 18px; right: 22px; z-index: 9999;
+  background: #f97316; color: #fff; border: none;
+  padding: 10px 22px; font-size: 14px; font-weight: 700;
+  border-radius: 6px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  font-family: Georgia, serif;
+}
+#printBtn:hover { background: #ea6c0a; }
+@media print { #printBtn { display: none; } }
+
+/* ── GLOBAL ── */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.8;
+  color: #1f2937;
+  background: #f5f3f0;
+  margin: 0; padding: 0;
+}
+
+/* ── SCREEN WRAPPER ── */
+.page-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+/* ── COVER ── */
+.cover {
+  background: #1c1917;
+  color: #fafaf9;
+  padding: 80px 60px 70px;
+  text-align: center;
+}
+.cover-fire { font-size: 52px; color: #f97316; margin-bottom: 20px; }
+.cover-name { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+.cover-chinese { font-size: 18px; color: #a8a29e; margin-bottom: 12px; }
+.cover-title { font-size: 15px; color: #d6d3d1; font-style: italic; margin-bottom: 28px; }
+.cover-line { width: 80px; height: 1px; background: #57534e; margin: 0 auto 28px; }
+.cover-bazi { font-size: 14px; color: #a8a29e; line-height: 2.2; }
+.cover-bazi strong { color: #e7e5e4; }
+.cover-note { margin-top: 40px; font-size: 11px; color: #57534e; }
+
+/* ── CONTENT ── */
+.content { padding: 48px 60px; }
+
+h1 {
+  font-size: 22px; font-weight: 700; color: #1c1917;
+  border-bottom: 2.5px solid #f97316; padding-bottom: 8px;
+  margin: 48px 0 6px;
+}
+h1:first-of-type { margin-top: 0; }
+h2 { font-size: 17px; font-weight: 700; color: #292524; margin: 28px 0 8px; }
+p { margin: 8px 0 14px; }
+.zh { color: #78716c; font-size: 13px; font-style: italic; display: block; margin: -4px 0 14px; }
+.lead {
+  font-size: 16px; font-style: italic;
+  border-left: 4px solid #f97316; padding-left: 16px;
+  margin: 0 0 20px; color: #292524; line-height: 1.8;
+}
+
+/* ── PILLARS TABLE ── */
+.pillar-wrap { overflow-x: auto; margin: 16px 0 24px; }
+.pillar-table { width: 100%; border-collapse: collapse; min-width: 380px; }
+.pillar-table th {
+  background: #292524; color: #fafaf9;
+  padding: 10px 8px; text-align: center; font-size: 13px;
+}
+.pillar-table td { border: 1px solid #e5e7eb; padding: 12px 8px; text-align: center; }
+.stem { font-size: 32px; font-weight: 700; color: #1c1917; line-height: 1.1; }
+.stem.fire { color: #dc2626; }
+.branch { font-size: 26px; font-weight: 700; color: #374151; }
+.el { font-size: 11px; color: #9ca3af; margin-top: 4px; }
+
+/* ── BOXES ── */
+.box { margin: 16px 0; padding: 16px 20px; border-radius: 4px; }
+.box-fire { background: #fff7ed; border-left: 4px solid #f97316; }
+.box-good { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.box-note { background: #f0f9ff; border-left: 4px solid #2563eb; }
+.box-warn { background: #fef2f2; border-left: 4px solid #dc2626; }
+.box-title { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+
+/* ── DATA TABLES ── */
+.dt { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 14px; }
+.dt th { background: #374151; color: #f9fafb; padding: 8px 12px; text-align: left; font-size: 13px; }
+.dt td { border: 1px solid #e5e7eb; padding: 8px 12px; vertical-align: top; }
+.dt tr:nth-child(even) td { background: #f9fafb; }
+.pos { color: #16a34a; font-weight: 700; }
+.neg { color: #dc2626; font-weight: 700; }
+.now { color: #f97316; font-weight: 700; }
+
+/* ── TIMELINE ── */
+.tl { display: flex; gap: 16px; margin: 10px 0; padding: 10px 0; border-bottom: 1px solid #f3f4f6; font-size: 14px; }
+.tl-yr { min-width: 120px; font-weight: 700; color: #374151; flex-shrink: 0; }
+.tl-gz { min-width: 36px; color: #9ca3af; flex-shrink: 0; }
+.tl-desc { flex: 1; }
+.tl-now .tl-yr { color: #f97316; }
+.tl-now .tl-gz { color: #f97316; }
+
+/* ── QUOTE ── */
+.quote {
+  margin: 24px 0; padding: 20px 28px;
+  border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;
+  font-style: italic; text-align: center;
+  font-size: 17px; color: #374151;
+}
+
+/* ── CLOSING ── */
+.closing { margin-top: 40px; padding-top: 20px; border-top: 2px solid #374151; font-size: 13px; color: #9ca3af; }
+
+/* ── PRINT STYLES ── */
+@media print {
+  @page { size: letter; margin: 1.8cm 1.8cm 2cm; }
+  body { background: #fff; font-size: 10pt; }
+  .page-wrap { max-width: 100%; box-shadow: none; }
+  .content { padding: 0 0 20pt; }
+  .cover { padding: 60pt 50pt; page-break-after: always; }
+  .cover-fire { font-size: 40pt; }
+  .cover-name { font-size: 26pt; }
+  .cover-chinese { font-size: 15pt; }
+  .cover-title { font-size: 12pt; }
+  .cover-bazi { font-size: 11pt; }
+  h1 { font-size: 16pt; page-break-after: avoid; margin: 30pt 0 5pt; }
+  h2 { font-size: 13pt; page-break-after: avoid; margin: 18pt 0 5pt; }
+  .lead { font-size: 12pt; }
+  .stem { font-size: 24pt; }
+  .branch { font-size: 20pt; }
+  .box { page-break-inside: avoid; }
+  .tl { page-break-inside: avoid; }
+  tr { page-break-inside: avoid; }
+  .dt { font-size: 9pt; }
+  .tl { font-size: 9pt; }
+  .tl-yr { min-width: 100pt; }
+  .quote { font-size: 13pt; }
+}
+</style>
+</head>
+<body>
+
+<button id="printBtn" onclick="window.print()">🖨️ Print / Save PDF</button>
+
+<div class="page-wrap">
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-fire">丙 ☀</div>
+  <div class="cover-name">Vanessa Wing San Tam</div>
+  <div class="cover-chinese">譚穎珊</div>
+  <div class="cover-title">Four Pillars of Destiny (BaZi 子平八字)<br>A Complete Life Reading</div>
+  <div class="cover-line"></div>
+  <div class="cover-bazi">
+    <strong>Born:</strong> October 7, 1992 &nbsp;·&nbsp; San Francisco, CA<br>
+    <strong>Hour:</strong> 亥時 (Hài) &nbsp;·&nbsp; 9:00–11:00 PM<br><br>
+    Year 壬申 &nbsp;|&nbsp; Month 己酉 &nbsp;|&nbsp; Day 丙辰 &nbsp;|&nbsp; Hour 己亥<br><br>
+    <strong>Day Master: 丙火 Yang Fire — The Sun</strong><br><br>
+    A gift from your father, Ken Tam
+  </div>
+  <div class="cover-note">This reading is based on the ancient Chinese art of Four Pillars (BaZi). It is offered as a mirror of your nature, timing, and potential — a tool for understanding, not prediction.</div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+<!-- 1. DAY MASTER -->
+<h1>Who You Are: The Day Master 日主</h1>
+<span class="zh">你是誰——日主丙火，陽火，太陽之火</span>
+
+<p class="lead">Your Day Master is 丙火 (Bǐng Huǒ) — Yang Fire. Not a candle or a fireplace. You are the Sun itself.</p>
+
+<p>In Four Pillars, the Day Master is the center of your chart — your core nature, your deepest instincts. Everything else orbits around it. The Sun gives light and warmth without asking for anything in return. It rises every morning without fail. It doesn't hide. It doesn't do small. That is you.</p>
+
+<div class="pillar-wrap">
+<table class="pillar-table">
+  <thead><tr><th>Year 年柱</th><th>Month 月柱</th><th>Day 日柱 — YOU</th><th>Hour 時柱</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><div class="stem">壬</div><div class="el">Rén · Yang Water</div></td>
+      <td><div class="stem">己</div><div class="el">Jǐ · Yin Earth</div></td>
+      <td><div class="stem fire">丙</div><div class="el">★ Bǐng · Yang Fire</div></td>
+      <td><div class="stem">己</div><div class="el">Jǐ · Yin Earth</div></td>
+    </tr>
+    <tr>
+      <td><div class="branch">申</div><div class="el">Shēn · Metal (Monkey)</div></td>
+      <td><div class="branch">酉</div><div class="el">Yǒu · Metal (Rooster)</div></td>
+      <td><div class="branch">辰</div><div class="el">Chén · Earth (Dragon)</div></td>
+      <td><div class="branch">亥</div><div class="el">Hài · Water (Pig)</div></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>You were born in October — the heart of Autumn, when Metal is at its strongest and Fire is at its weakest. The Sun in autumn has to work harder to shine through the chill. This is not a weakness. It is precisely what makes you more driven, more resilient, and more appreciative of what you earn. You don't coast — you build your fire deliberately, every single day.</p>
+
+<div class="box box-fire">
+  <div class="box-title">Your Natural Strengths</div>
+  <table class="dt">
+    <tr><td class="pos">Warmth &amp; Magnetism</td><td>People are drawn to you. You make the energy in a room shift when you walk in — without trying.</td></tr>
+    <tr><td class="pos">Natural Leadership</td><td>You don't need a title to lead. People follow your energy. You organize by presence.</td></tr>
+    <tr><td class="pos">Generosity</td><td>You give freely — time, ideas, energy. You're not a scorekeeper.</td></tr>
+    <tr><td class="pos">Directness</td><td>You say what you mean. People always know where they stand with you.</td></tr>
+    <tr><td class="pos">Competitive Fire</td><td>You don't like to lose. Challenges sharpen you — they don't shrink you.</td></tr>
+  </table>
+</div>
+
+<div class="box box-warn">
+  <div class="box-title">Your Patterns to Watch</div>
+  <table class="dt">
+    <tr><td class="neg">Emotional surges</td><td>Your fire can flare fast. Things that bother you show on your face immediately. Important conversations deserve a cool-down first.</td></tr>
+    <tr><td class="neg">Hates being managed</td><td>You resist control from people who haven't earned your respect. You'll find a way around them — sometimes gracefully, sometimes not.</td></tr>
+    <tr><td class="neg">Vision outruns capacity</td><td>Your ambition is always slightly ahead of your resources — which is your engine. But scale thoughtfully. Overextension is the real risk.</td></tr>
+  </table>
+</div>
+
+
+<!-- 2. CHART PATTERN -->
+<h1>Your Chart Pattern 格局</h1>
+<span class="zh">傷官生財——以才華創造財富</span>
+
+<p class="lead">"Hurting Officer Produces Wealth" — one of the most powerful wealth-generating patterns in BaZi. Your creativity and expression convert directly into money.</p>
+
+<p>The flow: <strong>You (丙 Fire) → create 己 Earth (Talent &amp; Expression) → which generates Metal (Wealth)</strong>. Your ideas, your communication, your personality — these are your money-making engine.</p>
+
+<div class="box box-good">
+  <div class="box-title">What This Means For Your Life</div>
+  <p>You are built to run things, not work inside someone else's system. Business ownership, leadership, sales, hospitality, creative work — anywhere your personality can operate freely. The moment you're in a box being managed by someone who didn't earn your respect, you underperform. Not because you aren't capable — because you aren't in the environment your chart is designed for.</p>
+</div>
+
+<h2>Five Elements in Your Chart</h2>
+<table class="dt">
+  <thead><tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Fire 火</strong></td><td>You (Day Master)</td><td class="neg">Weak</td><td>You carry your fire alone in this chart. Protect your energy — it's more finite than it looks.</td></tr>
+    <tr><td><strong>Metal 金</strong></td><td>Wealth 財</td><td class="pos">Very Strong</td><td>Enormous wealth potential — but must be managed with wisdom, not just hunger.</td></tr>
+    <tr><td><strong>Water 水</strong></td><td>Power / Challenge 七殺</td><td class="neg">Strong</td><td>Constant pressure and challenge. Fire and water in tension. This is also what drives you forward.</td></tr>
+    <tr><td><strong>Earth 土</strong></td><td>Talent 傷官</td><td class="pos">Strong</td><td>Your expression, creativity, and communication are your greatest assets.</td></tr>
+    <tr><td><strong>Wood 木</strong></td><td>Wisdom 印星</td><td class="neg">Very Weak</td><td>Your greatest gap. You need wisdom and grounding around you — people who bring what you're missing.</td></tr>
+  </tbody>
+</table>
+
+<div class="box box-note">
+  <div class="box-title">About the Missing Wood — and Your Father</div>
+  <p>Wood (印星) is what feeds and protects Fire. In your chart, it's barely present — hidden deep in two branches. The element you crave most is wisdom: steady, grounding, protective wisdom.</p>
+  <p>Your father Ken's chart is Yang Metal (庚金). Metal shapes and guards Wood. He is the source and guardian of the Wood your chart needs. His master 鄺師傅 told him decades ago: <em>"You are Vanessa's protective umbrella. Her shade tree."</em> Today's analysis independently confirms exactly the same thing.</p>
+  <p>Keep that channel of communication open. It is more precious — and more structurally important — than either of you may fully realize.</p>
+</div>
+
+
+<!-- 3. PERSONALITY -->
+<h1>Your Character in Full 性格</h1>
+<span class="zh">立體人格畫像</span>
+
+<p>BaZi doesn't just reveal what you're good at. It reveals <em>how you're wired</em> — the patterns you can't easily change, the instincts that show up under pressure.</p>
+
+<h2>The Hurting Officer Personality (傷官格)</h2>
+<p>Your dominant pattern is "Hurting Officer" — which simply means: <strong>you are the person who breaks conventions to find a better way.</strong></p>
+
+<table class="dt">
+  <thead><tr><th>Trait</th><th>How It Shows Up</th></tr></thead>
+  <tbody>
+    <tr><td class="pos">Brilliance</td><td>You see solutions others miss. Your mind moves fast and laterally. You're rarely the person following the manual.</td></tr>
+    <tr><td class="pos">Persuasion</td><td>You can talk people into things — through genuine enthusiasm and clarity, not manipulation.</td></tr>
+    <tr><td class="pos">Rule-breaking</td><td>You find the loophole. The workaround. The smarter path nobody else thought of.</td></tr>
+    <tr><td class="pos">Resilience</td><td>Setbacks don't finish you. They recalibrate you. You come back faster than most.</td></tr>
+    <tr><td class="neg">Authority friction</td><td>You struggle with people who try to control you without earning your respect. You will find a way around them.</td></tr>
+    <tr><td class="neg">Emotional volatility</td><td>When you feel something, it shows. This is also what makes you authentic — pick the battles worth the fire.</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">"She doesn't follow the rules — she understands why rules exist, then decides whether they apply to her."</div>
+
+
+<!-- 4. WEALTH -->
+<h1>Wealth &amp; Money 財運</h1>
+<span class="zh">財星極旺，傷官生財，靠才華賺財</span>
+
+<div class="box box-fire">
+  <div class="box-title">Your Wealth Profile</div>
+  <p>申金 and 酉金 — double Metal, side by side, feeding each other — are the two strongest elements in your chart. You have the configuration of someone who can accumulate real wealth over a lifetime. The question has never been <em>whether</em> the money comes. It's <em>how</em> to hold it wisely when it does.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Wealth Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>How you earn</strong></td><td>Through your talent, creativity, and personality — not through a salary. Business, sales, deals, services.</td></tr>
+    <tr><td><strong>Income style</strong></td><td>Irregular (偏財): big months and quiet months, not a smooth constant stream. Plan accordingly.</td></tr>
+    <tr><td><strong>Peak earning years</strong></td><td>Ages 25–45. You are right in the middle of your peak now.</td></tr>
+    <tr><td><strong>Core caution</strong></td><td>Wealth-heavy, self-light (財多身弱): your vision often runs ahead of your capacity. The opportunity is real — the foundation must be solid first.</td></tr>
+    <tr><td><strong>Best year ahead</strong></td><td>2026 (丙午 Year): Fire supports Fire. Your most powerful financial year to date. Push forward — with eyes open.</td></tr>
+  </tbody>
+</table>
+
+
+<!-- 5. LOVE -->
+<h1>Love &amp; Relationships 感情婚姻</h1>
+<span class="zh">夫星七殺壬水，強勢伴侶，傷官駕殺</span>
+
+<p>For a woman in BaZi, the husband star is the element that challenges her Day Master. For 丙 Fire, that's Water — specifically 壬水 (Yang Water), which sits prominently in your Year Pillar: strong, visible, present from birth.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Partner type</strong></td><td>Strong, capable, opinionated. He won't fade into the background. He has to earn your respect — not just your affection.</td></tr>
+    <tr><td><strong>Dynamic</strong></td><td>Two strong people. Friction is part of the chemistry. The relationship works when you each lead your own domain and don't encroach. Space is not distance — it's how you thrive.</td></tr>
+    <tr><td><strong>Your pattern</strong></td><td>You resist being managed (傷官 pattern). If a partner becomes controlling, you will find a way around that — consciously or not. Choose someone who challenges you intellectually and respects your independence.</td></tr>
+    <tr><td><strong>Day Palace (辰)</strong></td><td>Your marriage palace holds 辰 Earth — a Talent/Creativity Star. At his best, your partner is nurturing, creative, and family-oriented.</td></tr>
+  </tbody>
+</table>
+
+<div class="box box-note">
+  <div class="box-title">Relationship Timing</div>
+  <p><strong>Now through 2027</strong> (壬子 Grand Cycle): Relationships carry real intensity. This is not the time for impulsive major decisions made from an emotional place.</p>
+  <p><strong>2027 onward</strong> (癸丑 Grand Cycle): The pressure softens. What's real deepens and stabilizes. This is when lasting partnerships take shape.</p>
+</div>
+
+
+<!-- 6. CHILDREN -->
+<h1>Children 子女</h1>
+<span class="zh">子女聰明有個性，老來有靠</span>
+
+<p>Your children's palace (Hour Pillar 己亥) tells a clear story. 己 Earth is your Talent Star — your children will carry your creative, expressive, independent spirit. They will have very strong opinions. They will not be easy. Sound familiar?</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Number</strong></td><td>Most likely 1–2 children</td></tr>
+    <tr><td><strong>Personality</strong></td><td>Bright, independent, opinionated. Parenting them will require the same patience and respect for autonomy that you needed.</td></tr>
+    <tr><td><strong>Hidden gift</strong></td><td>Inside your Hour Branch (亥) lives 甲木 — the Wisdom Star your chart is missing. Your children will become your wisdom and your anchor in later life.</td></tr>
+    <tr><td><strong>Later years</strong></td><td>The relationship with your children deepens beautifully as they mature. They grow into people who genuinely support you.</td></tr>
+  </tbody>
+</table>
+
+
+<!-- 7. CAREER -->
+<h1>Career &amp; Vocation 事業</h1>
+<span class="zh">傷官格——天生的老闆，不適合打工</span>
+
+<div class="box box-fire">
+  <div class="box-title">Your Career Blueprint</div>
+  <p>You are not built for a ladder. You're built for a table — one where you sit at the head. Business ownership, entrepreneurship, sales leadership, hospitality, creative industries, client-facing work. Anywhere your personality can operate without a ceiling.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Career Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Best environment</strong></td><td>Running your own operation, or leading a team with real authority</td></tr>
+    <tr><td><strong>Your edge</strong></td><td>Business instinct (you see opportunities fast), people magnetism (teams rally around you), communication (you can sell ideas and vision)</td></tr>
+    <tr><td><strong>Watch out for</strong></td><td>Overexpanding before the foundation is solid; making big decisions in an emotional state; not delegating when you should</td></tr>
+    <tr><td class="now"><strong>Now (2017–2027) ★</strong></td><td class="now">壬子 Grand Cycle: Maximum pressure AND maximum achievement. What you build this decade defines your foundation for life. Do not waste it playing small.</td></tr>
+    <tr><td><strong>Next (2027–2037)</strong></td><td>癸丑 Grand Cycle: The harvest. Pressure eases, wealth consolidates. A time to refine and deepen what you've built — not tear it down and restart.</td></tr>
+  </tbody>
+</table>
+
+
+<!-- 8. HEALTH -->
+<h1>Health &amp; Well-being 健康福氣</h1>
+<span class="zh">心臟眼睛需留意，人緣極好，晚年有福</span>
+
+<p>Your Day Master element (Fire 火) governs the <strong>heart, eyes, and circulatory system</strong>. With Water pressing against your Fire throughout your chart, these areas deserve consistent attention.</p>
+
+<table class="dt">
+  <thead><tr><th>Area</th><th>Guidance</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Heart &amp; blood pressure</strong></td><td>Your chart runs high-intensity. Build regular cardiovascular check-ups into your life, not just when something feels off.</td></tr>
+    <tr><td><strong>Eyes</strong></td><td>Fire governs vision. Screen time and sleep quality matter more than you probably think.</td></tr>
+    <tr><td><strong>Nervous system</strong></td><td>Water pressing on Fire = a chart that runs hot. Deliberate rest — the kind that genuinely restores you, not just sleep — is not optional. It's maintenance.</td></tr>
+  </tbody>
+</table>
+
+<div class="box box-good">
+  <div class="box-title">Your Blessings 福氣</div>
+  <p>Your warmth creates deep loyalty in the people around you. People who light up rooms tend to live with more vitality, more support, and more beauty. And tucked in your Hour Branch — in the hidden root of 亥 — is 甲木, the Wisdom Star. It grows slowly. But by the time you reach your 40s and 50s, it will be the most sustaining force in your life.</p>
+</div>
+
+
+<!-- 9. PROPERTY -->
+<h1>Home &amp; Property 田宅</h1>
+<span class="zh">有能力置業，宜長線持有</span>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Capacity</strong></td><td>With your wealth stars so strong, you have real capacity to own property — possibly multiple properties over a lifetime.</td></tr>
+    <tr><td><strong>Best fit</strong></td><td>Commercial property suits your chart better than pure residential investment — retail, hospitality, mixed-use. Own what you understand.</td></tr>
+    <tr><td><strong>Caution</strong></td><td>Your property palace hides 癸水 inside 辰 — complications can lurk in property deals. Vet details carefully, especially in partnerships or timing decisions.</td></tr>
+    <tr><td><strong>Best window</strong></td><td>2026–2027: Fire years strengthen your Day Master. Evaluate property from a position of strength, not pressure.</td></tr>
+    <tr><td><strong>Strategy</strong></td><td>Buy and hold. Your chart does not favor quick flipping. Long-term ownership builds wealth steadily and naturally.</td></tr>
+  </tbody>
+</table>
+
+
+<!-- 10. LIFE JOURNEY -->
+<h1>Your Life Journey 一生大運</h1>
+<span class="zh">大運流年——人生的十年節奏</span>
+
+<p>BaZi maps life in 10-year Grand Cycles (大運). Each decade carries a different energy. Here is the arc of your life:</p>
+
+<div class="tl"><div class="tl-yr">Ages 0–5<br>(1992–97)</div><div class="tl-gz"></div><div class="tl-desc"><strong>Foundation.</strong> Born into a family with commercial roots and deep values. Your father's steady, protective presence is the Wood your Fire chart needs most. These early years gave you more than you know.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 5–15<br>(1997–2007)</div><div class="tl-gz">庚戌</div><div class="tl-desc"><strong>Growing up in abundance.</strong> 庚金 Wealth Star runs — you grew up in a financially solid environment. 戌 Earth develops your natural talents. School likely came easier than you let on. Your competitive edge was already forming.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 15–25<br>(2007–2017)</div><div class="tl-gz">辛亥</div><div class="tl-desc"><strong>Finding your own way.</strong> The transition from school to real life. Pressure begins to show up. First serious experiences in love and work. You start becoming the person you're going to be.</div></div>
+
+<div class="tl tl-now"><div class="tl-yr">Ages 25–35<br>(2017–2027) ★ NOW</div><div class="tl-gz">壬子</div><div class="tl-desc"><strong>Maximum pressure and maximum achievement.</strong> 壬水 Seven-Killing Power Star runs at full force. This is the hardest decade and the most important decade. What you build here — the business, the reputation, the relationships, the foundation — defines everything that follows. The pressure is real. So is the power.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 35–45<br>(2027–2037)</div><div class="tl-gz">癸丑</div><div class="tl-desc"><strong>The harvest.</strong> Pressure softens. 丑 Earth — a wealth vault — stabilizes your finances. This is not the time to start over. This is the time to deepen and refine what you've built in your 20s and 30s. Let the roots grow stronger.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 45–55<br>(2037–2047)</div><div class="tl-gz">甲寅</div><div class="tl-desc"><strong>Wisdom arrives.</strong> 甲木 — the Wisdom Star your chart has been missing your entire life — finally arrives as a Grand Cycle. For the first time, the element that feeds and protects your Fire runs strong. Mentors, wisdom, genuine support appear. This may be the most comfortable and expansive decade of your life.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 55–65<br>(2047–2057)</div><div class="tl-gz">乙卯</div><div class="tl-desc"><strong>Full bloom.</strong> Wisdom energy continues. Your body and spirit are nourished. Children are grown and thriving. You are enjoying the fruits of a life built well.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 65+<br>(2057+)</div><div class="tl-gz">丙辰</div><div class="tl-desc"><strong>Radiant later life.</strong> 丙火 — your own element — returns as the Grand Cycle. Like-for-like support. Your later years are your most serene, most open-hearted. The Sun still rises.</div></div>
+
+
+<h1>2026–2027 Spotlight 流年重點</h1>
+<span class="zh">未來兩年對你的影響</span>
+
+<div class="box box-good">
+  <div class="box-title">2026 (丙午 — Year of the Fire Horse) — Your Power Year</div>
+  <p>丙火 — your own element — arrives as the year energy. Fire supports Fire. You will feel more energized, more confident, more capable than in recent years. The pressure from your Grand Cycle partly eases. <strong>This is your year to push forward in business and take the initiative you've been building toward.</strong> Go for it — with a clear plan and eyes open.</p>
+</div>
+
+<div class="box box-note">
+  <div class="box-title">2027 (丁未 — Year of the Fire Goat) — Wisdom and Refinement</div>
+  <p>丁火 continues to support your Day Master. 未 Earth brings hidden 乙木 — the Wisdom Star your chart is missing surfaces! This is a year for learning, expanding your thinking, and making decisions from a more grounded place. <strong>In 2027, grow smarter, not just bigger.</strong></p>
+</div>
+
+
+<div class="quote">"The Sun in autumn works harder to shine — and that is exactly why it is more beautiful."</div>
+
+<div class="closing">
+  <p><strong>About This Reading:</strong> This report is based on the Four Pillars of Destiny (子平八字 BaZi), using the master system of 鄺偉雄師傅 — the same master who read your father Ken's chart. The analysis is offered as a framework for self-understanding, not as fixed fate. Your choices shape your life; BaZi reveals the terrain.</p>
+  <p><strong>Prepared by:</strong> Sisi (詩詩) for Ken Tam &nbsp;·&nbsp; March 2026 &nbsp;·&nbsp; <em>With love, from your father who is your shade tree.</em></p>
+</div>
+
+</div>
+</div>
+
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>

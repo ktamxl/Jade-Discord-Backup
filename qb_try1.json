@@ -1,0 +1,1 @@
+{"Fault":{"Error":[{"Message":"Invalid query","Detail":"QueryValidationError: invalid context declaration: BankTransaction","code":"4001"}],"type":"ValidationFault"},"time":"2026-03-16T08:54:47.363-07:00"}

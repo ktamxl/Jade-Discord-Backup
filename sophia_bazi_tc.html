@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>李麗欣 — 八字命盤全解</title>
+<style>
+#printBtn {
+  position: fixed; top: 18px; right: 22px; z-index: 9999;
+  background: #9d174d; color: #fff; border: none;
+  padding: 10px 22px; font-size: 14px; font-weight: 700;
+  border-radius: 6px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+#printBtn:hover { background: #831843; }
+@media print { #printBtn { display: none; } }
+*, *::before, *::after { box-sizing: border-box; }
+body { font-family: 'Microsoft JhengHei','Microsoft JhengHei','MingLiU',Georgia,serif; line-height: 1.95; color: #1f2937; background: #fdf2f8; margin: 0; padding: 0; }
+.page-wrap { max-width: 860px; margin: 0 auto; background: #fff; box-shadow: 0 0 30px rgba(0,0,0,0.1); }
+.cover { background: #1a0a14; color: #f8fafc; padding: 80px 60px 70px; text-align: center; }
+.cover-icon { font-size: 52px; margin-bottom: 20px; }
+.cover-name { font-size: 36px; font-weight: 700; margin-bottom: 6px; letter-spacing: 6px; }
+.cover-en { font-size: 16px; color: #f9a8d4; margin-bottom: 12px; font-family: Georgia, serif; }
+.cover-title { font-size: 15px; color: #cbd5e1; margin-bottom: 28px; }
+.cover-line { width: 80px; height: 1px; background: #4a1535; margin: 0 auto 28px; }
+.cover-bazi { font-size: 14px; color: #94a3b8; line-height: 2.4; }
+.cover-bazi strong { color: #e2e8f0; }
+.cover-note { margin-top: 40px; font-size: 11px; color: #6b3a56; }
+.content { padding: 48px 60px; }
+h1 { font-size: 21px; font-weight: 700; color: #1a0a14; border-bottom: 2.5px solid #9d174d; padding-bottom: 8px; margin: 48px 0 6px; letter-spacing: 1px; }
+h1:first-of-type { margin-top: 0; }
+h2 { font-size: 16px; font-weight: 700; color: #1e293b; margin: 28px 0 8px; }
+p { margin: 8px 0 14px; }
+.en { color: #be185d; font-size: 12px; display: block; margin: -4px 0 14px; font-family: Georgia, serif; }
+.lead { font-size: 15px; border-left: 4px solid #9d174d; padding-left: 16px; margin: 0 0 20px; color: #1e293b; line-height: 2; }
+.pw { overflow-x: auto; margin: 16px 0 24px; }
+.pt { width: 100%; border-collapse: collapse; min-width: 420px; }
+.pt th { background: #1a0a14; color: #f8fafc; padding: 10px 8px; text-align: center; font-size: 13px; }
+.pt td { border: 1px solid #fce7f3; padding: 12px 8px; text-align: center; }
+.stem { font-size: 36px; font-weight: 700; line-height: 1.1; }
+.stem.wood { color: #15803d; }
+.stem.fire { color: #b45309; }
+.stem.metal { color: #6b7280; }
+.branch { font-size: 28px; font-weight: 700; color: #374151; }
+.el { font-size: 11px; color: #9ca3af; margin-top: 4px; }
+.role { font-size: 10px; color: #be185d; margin-top: 2px; }
+.box { margin: 16px 0; padding: 16px 20px; border-radius: 4px; }
+.be { background: #fef9c3; border-left: 4px solid #ca8a04; }
+.bg { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.bn { background: #fdf2f8; border-left: 4px solid #9d174d; }
+.bw { background: #fef2f2; border-left: 4px solid #dc2626; }
+.bpurple { background: #faf5ff; border-left: 4px solid #7c3aed; }
+.bt { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.dt { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 14px; }
+.dt th { background: #1a0a14; color: #f9fafb; padding: 8px 12px; text-align: left; font-size: 13px; }
+.dt td { border: 1px solid #fce7f3; padding: 9px 12px; vertical-align: top; }
+.dt tr:nth-child(even) td { background: #fdf6fb; }
+.pos { color: #15803d; font-weight: 700; }
+.neg { color: #dc2626; font-weight: 700; }
+.now { color: #9d174d; font-weight: 700; }
+.compat { display: flex; gap: 16px; margin: 12px 0; }
+.cs { flex: 1; padding: 14px; background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: 4px; font-size: 13px; }
+.cp { flex: 1; padding: 14px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 4px; font-size: 13px; }
+.ct { font-weight: 700; margin-bottom: 6px; font-size: 13px; }
+.tl { display: flex; gap: 16px; margin: 10px 0; padding: 10px 0; border-bottom: 1px solid #fce7f3; font-size: 14px; }
+.tl-yr { min-width: 120px; font-weight: 700; color: #374151; flex-shrink: 0; }
+.tl-gz { min-width: 36px; color: #9ca3af; flex-shrink: 0; font-size: 16px; }
+.tl-desc { flex: 1; }
+.tn .tl-yr { color: #9d174d; }
+.tn .tl-gz { color: #9d174d; }
+.quote { margin: 24px 0; padding: 20px 28px; border-top: 1px solid #fce7f3; border-bottom: 1px solid #fce7f3; text-align: center; font-size: 18px; color: #374151; letter-spacing: 2px; line-height: 2.2; }
+.closing { margin-top: 40px; padding-top: 20px; border-top: 2px solid #1a0a14; font-size: 13px; color: #9ca3af; }
+.five-el { display: flex; gap: 8px; margin: 14px 0; flex-wrap: wrap; }
+.fel { flex: 1; min-width: 90px; padding: 10px 12px; border-radius: 4px; text-align: center; font-size: 13px; font-weight: 700; line-height: 1.8; }
+.fel-wood { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+.fel-fire { background: #fef3c7; color: #b45309; border: 1px solid #fcd34d; }
+.fel-water { background: #dbeafe; color: #1d4ed8; border: 1px solid #93c5fd; }
+.fel-metal { background: #f3f4f6; color: #4b5563; border: 1px solid #d1d5db; }
+.fel-earth { background: #fef9c3; color: #854d0e; border: 1px solid #fde68a; }
+@media print {
+  @page { size: letter; margin: 1.8cm 1.8cm 2cm; }
+  body { background: #fff; font-size: 10pt; }
+  .page-wrap { max-width: 100%; box-shadow: none; }
+  .content { padding: 0 0 20pt; }
+  .cover { padding: 60pt 50pt; page-break-after: always; }
+  h1 { font-size: 16pt; page-break-after: avoid; margin: 28pt 0 5pt; }
+  h2 { font-size: 13pt; page-break-after: avoid; }
+  .lead { font-size: 11pt; }
+  .stem { font-size: 26pt; } .branch { font-size: 22pt; }
+  .box, .tl, tr { page-break-inside: avoid; }
+  .compat { flex-direction: column; }
+  .dt, .tl { font-size: 9pt; }
+  .five-el { flex-direction: row; }
+}
+</style>
+</head>
+<body>
+<button id="printBtn" onclick="window.print()">列印 / 儲存 PDF</button>
+<div class="page-wrap">
+<div class="cover">
+  <div class="cover-icon">🌸</div>
+  <div class="cover-name">李 麗 欣</div>
+  <div class="cover-en">Sophia Li</div>
+  <div class="cover-title">子平八字命盤全解</div>
+  <div class="cover-line"></div>
+  <div class="cover-bazi">
+    <strong>出生：</strong>1996年2月7日 · 凌晨4時03分 · 美國舊金山<br>
+    <strong>時辰：</strong>寅時（凌晨3時至5時）<br><br>
+    年柱 丙子 ｜ 月柱 庚寅 ｜ 日柱 甲戌 ｜ 時柱 丙寅<br>
+    八字：丙庚甲丙 ／ 子寅戌寅<br><br>
+    <strong>日主：甲木 — 陽木 — 參天大樹</strong>
+  </div>
+  <div class="cover-note">本報告依據子平八字命理學，以命盤爲鏡，照見天性、時機與潛力，非定數，乃方向。</div>
+</div>
+<div class="content">
+
+<h1>一、日主：甲木——參天大樹</h1>
+<span class="en">Day Master: Jiǎ Mù (Yang Wood) — The Great Tree</span>
+
+<p class="lead">你的日主是甲木——陽木，參天大樹。不是盆栽，不是藤蔓，而是一棵筆直向天生長的大樹。而你的完整八字顯示：這棵樹根深而茂，雙氣併發，正值最旺之時。</p>
+
+<p>在八字命理中，日主是一切的核心——你最本質的性情，最深層的本能，所有其他柱位都圍繞它運轉。甲木是最剛正、最具氣象的日主之一。樹不向任何人道歉它的生長，它只是不斷向上，穿石而出，無聲給予蔭涼，而一旦紮根，便不再輕易移動。</p>
+
+<p>你生於寅月——虎月，正是木氣最旺盛的節候。更特別的是，你生於寅時——虎時，木之本氣的時辰。<strong>月支時支雙寅，年干時幹雙丙</strong>——大樹在自己最盛的時刻降臨，自帶光明。這是一張罕見而有力的命盤。</p>
+
+<div class="pw">
+<table class="pt">
+  <thead><tr><th>年柱</th><th>月柱</th><th>日柱（本命）</th><th>時柱</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="stem fire">丙</div>
+        <div class="el">陽火</div>
+        <div class="role">食神</div>
+      </td>
+      <td>
+        <div class="stem metal">庚</div>
+        <div class="el">陽金</div>
+        <div class="role">七殺</div>
+      </td>
+      <td>
+        <div class="stem wood">甲</div>
+        <div class="el">★ 陽木 · 日主</div>
+        <div class="role">日主</div>
+      </td>
+      <td>
+        <div class="stem fire">丙</div>
+        <div class="el">陽火</div>
+        <div class="role">食神</div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="branch">子</div>
+        <div class="el">水 · 鼠</div>
+        <div class="role">正印</div>
+      </td>
+      <td>
+        <div class="branch">寅</div>
+        <div class="el">木 · 虎</div>
+        <div class="role">比肩</div>
+      </td>
+      <td>
+        <div class="branch">戌</div>
+        <div class="el">土 · 狗</div>
+        <div class="role">偏財</div>
+      </td>
+      <td>
+        <div class="branch">寅</div>
+        <div class="el">木 · 虎</div>
+        <div class="role">比肩</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="five-el">
+  <div class="fel fel-wood">🌿 木<br>極旺 ★★★★★</div>
+  <div class="fel fel-fire">🔥 火<br>旺 ★★★★</div>
+  <div class="fel fel-water">💧 水<br>有根 ★★★</div>
+  <div class="fel fel-earth">🏔 土<br>適中 ★★</div>
+  <div class="fel fel-metal">⚔ 金<br>受制 ★</div>
+</div>
+
+<div class="box bpurple">
+  <div class="bt">✦ 雙寅雙丙——罕見而珍貴的命盤結構</div>
+  <p>你的命盤呈現兩組對稱的力量：<strong>丙火（食神）同時出現在年干與時幹</strong>——雙食神，你最主要的表達之星，貫穿全局。而<strong>寅木同時出現在月支與時支</strong>——雙寅，日主之氣，從兩個位置託舉日主本身。</p>
+  <p>月日寅戌半合火局，進一步從命局內部生髮火氣。這是一張<strong>自帶光源、自產熱量</strong>的命盤——你不需要等別人點亮你，你本身就是光源。你來到世上，便攜帶着創造力、溫暖與向上的力量。</p>
+</div>
+
+<h1>二、格局：食神制殺格</h1>
+<span class="en">Chart Pattern: Food God Subdues the Killings</span>
+
+<p class="lead">你的命局構成"食神制殺格"——古典八字中最受推崇的格局之一。才華馴服壓力，創意化解挑戰。逆境不是終點，而是你的素材。你不是在困難中枯萎的人；你在逆境中綻放。</p>
+
+<p>核心邏輯：強旺的甲木日主，受庚金七殺所克（斧頭砍樹），而雙丙火食神從中化解制約（火克金，以才華耗去殺氣）。火是木的輸出，是樹結出的果實、發出的光。你承受壓力，然後<em>創造</em>。這個格局，在藝術家、創業者、建造者、留下遺產之人的命盤中頻繁出現。</p>
+
+<h2>五行分析</h2>
+<table class="dt">
+  <thead><tr><th>五行</th><th>角色</th><th>旺衰</th><th>意義</th></tr></thead>
+  <tbody>
+    <tr><td><strong>木</strong></td><td>日主</td><td class="pos">極旺 ★★★★★</td><td>自我強大，方向清晰，生命力超強。雙寅紮根，子水滋養，日主根基深厚穩固。</td></tr>
+    <tr><td><strong>火</strong></td><td>食神（表達星）</td><td class="pos">旺 ★★★★</td><td>雙丙火貫穿年干與時幹，寅戌暗合火局。表達力、創造力、感染力是你命盤最鮮明的特徵。你天生就要發光、輸出、分享、創造。</td></tr>
+    <tr><td><strong>水</strong></td><td>正印（資源星）</td><td class="pos">有根 ★★★</td><td>年支子水爲正印——知識、直覺、長輩支持、學習能力。水生木，智慧滋養你的成長，你的求知慾和領悟力是真實的天賦。</td></tr>
+    <tr><td><strong>土</strong></td><td>偏財（財星）</td><td class="neg">適中 ★★</td><td>日支戌土藏財，低調而真實。你的財富與輸出直接相關——創造越多，財富越豐厚。財在表達之後，不在之前。</td></tr>
+    <tr><td><strong>金</strong></td><td>七殺（挑戰星）</td><td class="neg">受制 ★</td><td>庚金被旺木與雙火夾制，雖存在但已被駕馭。這正是食神制殺的理想狀態：挑戰存在，但被才華馴服，反成砥礪你的力量。</td></tr>
+  </tbody>
+</table>
+
+<h1>三、性格本象</h1>
+<span class="en">Your Character in Full</span>
+
+<table class="dt">
+  <thead><tr><th>特質</th><th>在生活中的體現</th></tr></thead>
+  <tbody>
+    <tr><td class="pos">天然的溫暖與光</td><td>雙丙火讓溫暖成爲你最鮮明的氣質。你不是表演出來的溫暖，而是天生如此。人們被你吸引，往往說不清原因——只是感覺到你在場，空氣都不同了。</td></tr>
+    <tr><td class="pos">創造力與表達欲</td><td>食神是你命局的主導星，出現兩次。你天生需要創造——想法、美、解決方案、聯結。不在創造的時候，你會感到某種說不清的缺失。這不是焦慮，是你的命盤在說話。</td></tr>
+    <tr><td class="pos">有原則的正氣</td><td>大樹筆直生長。你有強烈的內在羅盤，不輕易在社會壓力下彎折。某件事不對，你骨子裏就感覺到——而你往往不會悄悄妥協掉它。</td></tr>
+    <tr><td class="pos">求知慾與洞察力</td><td>正印（子水）在年支：你天生愛學習，愛挖掘表象之下的意義。知識真的讓你興奮。你記得住東西，能看到別人看不到的聯結。</td></tr>
+    <tr><td class="pos">逆境中的韌勁</td><td>食神制殺的人，是被壓力塑造的。你經歷過考驗，你撐過來了。那段經歷在你身上留下了某種沉靜的韌勁——人們感受得到，只是不一定說得出來。</td></tr>
+    <tr><td class="neg">驕傲與自足</td><td>大樹挺立，有時挺得太直，不願彎腰。開口求助對你來說可能比它實際應該的更難。學會依靠，不是軟弱——那是樹與樹如何形成森林的方式。</td></tr>
+    <tr><td class="neg">過度付出</td><td>因爲你天然輻射溫暖、產出豐富，人們習慣向你索取。學會什麼時候大樹需要休息——不是輸出，只是<em>存在</em>——是你最重要的功課之一。</td></tr>
+    <tr><td class="neg">難耐停滯</td><td>甲木永遠在生長。當處境感覺停滯或收縮，你感受特別強烈。你需要向前的動力、新鮮的空氣、足夠的空間去伸展。限制對你的消耗，大於對大多數人。</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">大樹不向任何人請示它的生長。<br>它只是伸展——<br>而在伸展中，將蔭涼給予了它下方的一切。</div>
+
+<h1>四、財富與事業</h1>
+<span class="en">Wealth &amp; Career</span>
+
+<div class="box be">
+  <div class="bt">你的財富結構</div>
+  <p>財星（土）藏於日支戌中。戌內藏火、金、土三種能量——複雜而富有層次的財庫。你的財富增長與你的表達和創造直接掛鉤：你輸出越多，財富越豐盈。在你的命局裏，財在表達之後，不在之前。</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>維度</th><th>解讀</th></tr></thead>
+  <tbody>
+    <tr><td><strong>財從何來</strong></td><td>從你的才華、想法與溫暖的存在感中來。你是創造者與連接者，不是被動等待的人。你輸出給這個世界的東西，就是你的財富發動機。</td></tr>
+    <tr><td><strong>最適合的環境</strong></td><td>創造力、溫暖與專業能力都被重視的地方。你能領導、能開創、能從無到有地構建。環境僵化、冷漠或純粹交易性的場所會持續消耗你。</td></tr>
+    <tr><td><strong>事業優勢領域</strong></td><td>創意領域、傳播、設計、教育、創業、需要人際溫度的行業——任何你的食神與天然溫暖能成爲核心競爭力的地方。</td></tr>
+    <tr><td><strong>當下（2022—2032）★</strong></td><td class="now">現行大運甲午強化日主、激活表達星。這是你命局最旺盛的十年——你現在所做的一切，每一段口碑的積累，每一段真誠關係的投入，都在以複利方式爲未來儲蓄。</td></tr>
+    <tr><td><strong>財富高峯</strong></td><td>三十五至四十五歲，表達與聲望交匯，才華所種下的果實開始加速顯現。</td></tr>
+  </tbody>
+</table>
+
+<h1>五、情緣與婚姻</h1>
+<span class="en">Love &amp; Relationships</span>
+
+<p>在八字中，女命的夫星是剋制日主的五行——金。你的正官是辛金（精煉之金），七殺是庚金（剛硬之金）。夫星能量指向具有金之特質的伴侶：有結構、果斷、可靠——言出必行、有方向感、能托住你的能量而不壓制它的人。</p>
+
+<table class="dt">
+  <thead><tr><th>維度</th><th>解讀</th></tr></thead>
+  <tbody>
+    <tr><td><strong>伴侶類型</strong></td><td>踏實、有原則、靠得住。跟得上自己說的話，有真實深度的人。你被真實吸引，而不是被表演吸引。你很快就能判斷誰是真的，誰是在演。</td></tr>
+    <tr><td><strong>吸引你的特質</strong></td><td>有骨氣的沉穩。不需要自我宣稱的力量。真正在去某個有意義的地方，並且全力以赴地去。</td></tr>
+    <tr><td><strong>你們的相處模式</strong></td><td>你帶來溫暖、創造力與向上的光。合適的伴侶帶來沉穩與方向，卻不限制你的生長。你是火炬，對的人是能在你光芒中巋然不動的山。</td></tr>
+    <tr><td><strong>婚姻宮（戌）</strong></td><td>日支戌土是你的婚姻宮。戌內藏火、金、土三氣——有層次，有深度。你愛得完整，選定了，就是全心全意地選——不留退路，不藏着掖着。</td></tr>
+    <tr><td><strong>緣分時機</strong></td><td>二十七至三十五歲，正當大運甲午最旺之時，感情能量在這個窗口沉澱、紮根，有意建立的關係，往往是持久的。</td></tr>
+  </tbody>
+</table>
+
+<div class="box bn">
+  <div class="bt">✦ 麗欣與Preston：合婚參考</div>
+  <div class="compat">
+    <div class="cs">
+      <div class="ct">李麗欣 — 甲木 參天大樹 🌸</div>
+      陽木 · 強旺，向上，善於表達<br>
+      雙食神（丙）貫穿全局<br>
+      食神制殺格，才華馴服壓力<br>
+      以創造力、溫暖、正氣爲驅動<br>
+      走進任何地方都讓氣場不同<br>
+      <strong>夫星：金（結構、原則、可靠）</strong>
+    </div>
+    <div class="cp">
+      <div class="ct">Preston — 戊土 大山 🏔</div>
+      陽土 · 穩重，厚實，有原則<br>
+      正官格（誠信驅動）<br>
+      財星（水）紮根命局<br>
+      以可靠與長線深度爲驅動<br>
+      逆境中最沉穩的那個人<br>
+      <strong>妻星：水（智慧、獨立、自主）</strong>
+    </div>
+  </div>
+  <p><strong>八字合參：</strong>木之根扎入土中——土正是給大樹立足之處的東西。在麗欣命局裏，Preston的土對她而言是偏財——代表強烈的吸引力、動態的牽引感，以及一段讓她活力煥發的關係。Preston的水（妻財星）對她而言是正印——滋養她的心智，支撐她的成長。</p>
+  <p>大樹在實土上生長得最有力；山因有東西從它身上生長而煥發生命。這裏有一種天然的互補：她的溫暖與向上的力量，他的沉穩與深度。彼此不消耗對方，各自給對方真實的東西。</p>
+  <p><strong>共振的五行：隱火。</strong>Preston命中的隱藏智慧火（戌內）與麗欣命局生髮的火（雙丙，寅戌合）在同一頻率上共鳴。他們之間有一種溫暖，比任何境況都更深——它寫在五行裏。</p>
+  <p><strong>年柱呼應：</strong>Preston生於乙亥年（木年），乙木是麗欣的比肩之氣；她所攜帶的火（丙），正是表達Preston那大山所孕育之物的能量。他們在五行循環中彼此成全。</p>
+</div>
+
+<h1>六、子女宮</h1>
+<span class="en">Children's Palace</span>
+
+<p>你的時柱丙寅，正是八字中的子女宮——而這個子女宮，是整張命盤中最美的柱位之一。時幹丙火（食神）代表溫暖而善於表達的孩子；時支寅木代表生命力與和諧的親子聯結。</p>
+
+<table class="dt">
+  <thead><tr><th>維度</th><th>解讀</th></tr></thead>
+  <tbody>
+    <tr><td><strong>子女氣質</strong></td><td>溫暖、有表達力、有創造力——攜帶你的光而來的孩子。食神在子女宮，是親子關係深厚、自然流動的經典象徵。</td></tr>
+    <tr><td><strong>親子聯結</strong></td><td>親子關係將是你最深、最自然的情感聯結之一。你會本能地給予溫暖，你的孩子會感受到被真正看見。</td></tr>
+    <tr><td><strong>時機</strong></td><td>三十五至四十歲前後，子女宮能量最自然激活。你現在所構建的根基——關係的、物質的——正是你將傳遞給下一代的東西。</td></tr>
+  </tbody>
+</table>
+
+<h1>七、健康養生</h1>
+<span class="en">Health &amp; Well-being</span>
+
+<p>在五行醫理中，木主<strong>肝膽</strong>。強旺的木命加上雙火輸出，意味着這個系統承載着巨大的能量——而在持續壓力下，它也是身體最先登記代價的地方。</p>
+
+<table class="dt">
+  <thead><tr><th>方面</th><th>養生建議</th></tr></thead>
+  <tbody>
+    <tr><td><strong>肝氣疏泄</strong></td><td>壓力、鬱結的挫敗感、過度勞累，首先在肝經顯現。動起來、走出去、真實地表達情緒——對你的命盤而言，這些不是建議，是良藥。</td></tr>
+    <tr><td><strong>保持流動</strong></td><td>木氣向上向外流動。久坐不動——無論身體還是情感——都會讓你鬱結。運動、換環境、創造性的輸出，是你體質最需要的日常處方。</td></tr>
+    <tr><td><strong>管理火氣</strong></td><td>雙丙火讓你燃燒得光亮——而燃燒是有代價的。警惕耗竭：整日給出光和熱的樹，如果不休息，樹冠會稀疏下去。安排真正的休息，不只是高效的恢復。</td></tr>
+    <tr><td><strong>體質根基</strong></td><td>強旺的木命體質恢復力強，韌性出色。你的風險不是脆弱，而是長期從深井裏汲取而不補充。以對待別人的慷慨，同樣對待自己。</td></tr>
+  </tbody>
+</table>
+
+<div class="box bg">
+  <div class="bt">你的天生稟賦</div>
+  <p>旺季中的參天大樹，是自然界最具生命力與慷慨之美的存在。你的命盤結構健全：水滋養你（子），木託舉你（雙寅），火表達你（雙丙）。護好肝氣，保持流動，持續創造——這副體質，將以力量與溫暖陪伴你走很遠很遠的路。</p>
+</div>
+
+<h1>八、一生大運</h1>
+<span class="en">Grand Cycles — The Rhythm of Your Life</span>
+
+<p>八字以十年大運丈量人生。每個十年，攜帶不同的能量與機遇。以下是麗欣的人生弧線：</p>
+
+<div class="tl"><div class="tl-yr">0—6歲<br>(1996—2002)</div><div class="tl-gz">辛卯</div><div class="tl-desc"><strong>紮根歲月。</strong>辛金（正官）——幼年便有一種把事情做對的本能感。卯木滋養日主。以結構感與學習欲開啓人生，家庭的深厚聯結在此期形成底色。</div></div>
+
+<div class="tl"><div class="tl-yr">6—16歲<br>(2002—2012)</div><div class="tl-gz">壬辰</div><div class="tl-desc"><strong>學習與開闊。</strong>壬水（正印）當令——教育、求知、導師、智識的大開放。你的心在這個十年裏被真正打開。老師很重要。讀書很重要。你的思維根基在這裏建立。</div></div>
+
+<div class="tl"><div class="tl-yr">16—26歲<br>(2012—2022)</div><div class="tl-gz">癸巳</div><div class="tl-desc"><strong>自我發現。</strong>癸水延續印綬之氣；巳火激活表達（食傷）。你找到自己的聲音。創造力有了形狀。你是誰，開始成爲你做什麼。一個有挑戰、有成長、有破殼而出的十年。</div></div>
+
+<div class="tl tn"><div class="tl-yr">26—36歲<br>(2022—2032) ★ 當下</div><div class="tl-gz">甲午</div><div class="tl-desc"><strong>命局最旺的十年。</strong>甲木（比肩）直接強化日主；午火（傷官）激活表達。你的五行全面在狀態。事業、感情、創造力、個人力量——都處於最活躍的狀態。<strong>你現在所投入的一切——每一段用心建立的關係，每一個以全力完成的項目——都在以複利的方式累積，化爲下一個十年的基石。大樹正在最旺的時節。</strong></div></div>
+
+<div class="tl"><div class="tl-yr">36—46歲<br>(2032—2042)</div><div class="tl-gz">乙未</div><div class="tl-desc"><strong>收穫與認可。</strong>乙木同氣相助，未土（偏財）鞏固物質。三十歲代積累的口碑與成果，在這個十年開始以可見的方式回報。財富與聲譽在加速度中複利。</div></div>
+
+<div class="tl"><div class="tl-yr">46—56歲<br>(2042—2052)</div><div class="tl-gz">丙申</div><div class="tl-desc"><strong>權威與影響。</strong>丙火（食神）在天干全力運行，你的創造力與表達力達到最高峯；申金帶來官殺之氣，給你的權威以結構與形態。你在各自領域發揮高層次的影響力。</div></div>
+
+<div class="tl"><div class="tl-yr">56歲以後<br>(2052+)</div><div class="tl-gz">丁酉、戊戌</div><div class="tl-desc"><strong>智慧與從容。</strong>大樹進入收穫季。受人尊重，被人需要，被你所愛的人圍繞。你的光變得更安靜、更深沉。你成爲別人來尋求真實的那個人。一生向上，筆直而長。</div></div>
+
+<h1>九、2026—2027 年度聚焦</h1>
+<span class="en">2026–2027 Spotlight</span>
+
+<div class="box bg">
+  <div class="bt">2026年（丙午年 — 火馬年）—— 表達之巔，全力出擊</div>
+  <p>丙火是你的食神（表達星）——而2026年的年柱正是丙午，年幹是丙，年支午也屬火。這與你命盤的雙丙形成三重共鳴。<strong>2026年是你當前大運中能量最充沛的年份之一。</strong>一切屬於創造、表達、向前、讓自己被看見的行動，在這一年都將被放大。把你的作品推出去，踏出那一步，讓合適的人看到你在做什麼。這一年的能量，是爲你這樣的人量身打造的。</p>
+</div>
+
+<div class="box bn">
+  <div class="bt">2027年（丁未年 — 火羊年）—— 深化沉澱，真實紮根</div>
+  <p>丁火（傷官）帶來更內省的創造力；未土（偏財）激活財星，與你的日支戌形成未戌相刑（有益的張力，推動成長與整合）。<strong>2026年播下的種，在2027年開始結實。</strong>關係在這一年深化，物質在這一年穩固，你所建立的一切開始以持久的方式落地。</p>
+</div>
+
+<div class="quote">經歷過許多冬天的大樹，<br>年輪最美。<br>每一季的成長，都刻在木裏——<br>而它的蔭涼，也因此更深。</div>
+
+<div class="closing">
+  <p><strong>關於本報告：</strong>本報告依據子平八字命理學（Four Pillars of Destiny / BaZi）。時柱以舊金山本地時間（PST，UTC-8）計算，凌晨4時03分屬寅時。命理爲參考框架，非固定命運。你的選擇塑造你的人生；八字揭示你行走其上的地形。</p>
+  <p><strong>完整八字：</strong>丙庚甲丙 ／ 子寅戌寅 &nbsp;·&nbsp; 日主：甲木（陽木）</p>
+  <p><strong>報告製作：</strong>詩詩（Sisi）· 2026年3月 · <em>以心相待。</em></p>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>子平八字命盤全解 — 陳浩鈞</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+  :root {
+    --gold: #c9a84c;
+    --deep: #1a3a2a;
+    --earth: #7a5c2e;
+    --cream: #faf6ee;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#1a2e1a; font-family:'Noto Sans TC',sans-serif; color:#333; }
+
+  .cover {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    min-height:100vh;
+    background: linear-gradient(160deg, #0d1f0d 0%, #1a3a1a 40%, #2d5a2d 100%);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:60px 40px; position:relative; overflow:hidden;
+  }
+  .cover::before {
+    content:''; position:absolute; top:0; left:0; right:0; bottom:0;
+    background: radial-gradient(ellipse at center, rgba(201,168,76,0.15) 0%, transparent 70%);
+  }
+  .cover-symbol { font-size:72px; margin-bottom:20px; }
+  .cover-title { font-size:48px; color:var(--gold); font-weight:700; letter-spacing:6px; margin-bottom:12px; font-family:'Noto Serif TC',serif; }
+  .cover-name { font-size:42px; color:#fff; font-weight:500; letter-spacing:8px; margin-bottom:8px; font-family:'Noto Serif TC',serif; }
+  .cover-en { font-size:20px; color:rgba(255,255,255,0.6); margin-bottom:40px; letter-spacing:2px; }
+  .cover-pillars { display:flex; gap:20px; margin:30px 0; }
+  .pillar-box {
+    background:rgba(201,168,76,0.15); border:1px solid rgba(201,168,76,0.4);
+    border-radius:12px; padding:16px 20px; text-align:center; min-width:80px;
+  }
+  .pillar-label { font-size:11px; color:rgba(201,168,76,0.7); letter-spacing:2px; margin-bottom:8px; }
+  .pillar-char { font-size:34px; color:var(--gold); line-height:1.3; font-family:'Noto Serif TC',serif; }
+  .cover-subtitle { font-size:13px; color:rgba(255,255,255,0.45); letter-spacing:4px; margin-top:30px; }
+  .cover-date { font-size:13px; color:rgba(255,255,255,0.35); margin-top:10px; }
+
+  .content { background:var(--cream); max-width:900px; margin:0 auto; }
+  .section { padding:60px 60px; border-bottom:1px solid rgba(0,0,0,0.08); }
+  .section:last-child { border-bottom:none; }
+
+  .section-header { display:flex; align-items:center; gap:16px; margin-bottom:36px; }
+  .section-number {
+    width:48px; height:48px; border-radius:50%;
+    background: linear-gradient(135deg, #2d5a2d, #1a3a1a);
+    color:var(--gold); font-size:18px; font-weight:700;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    font-family:'Noto Serif TC',serif;
+  }
+  .section-title { font-family:'Noto Serif TC',serif; font-size:26px; color:var(--deep); letter-spacing:3px; }
+
+  .chart-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:36px; }
+  .chart-cell {
+    background:#fff; border:2px solid #e8dfc8; border-radius:16px;
+    padding:20px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.06);
+  }
+  .chart-cell.day { border-color:var(--gold); background:linear-gradient(135deg,#fffbf0,#fff8e0); }
+  .cell-label { font-size:11px; color:#999; letter-spacing:2px; margin-bottom:12px; }
+  .cell-stems { font-size:42px; color:var(--earth); line-height:1; margin-bottom:8px; font-family:'Noto Serif TC',serif; }
+  .cell-branch { font-size:38px; color:var(--deep); font-family:'Noto Serif TC',serif; }
+  .cell-element { font-size:12px; color:#aaa; margin-top:10px; }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #f0f8f0, #e8f5e8);
+    border-left:4px solid #2d5a2d; border-radius:0 12px 12px 0;
+    padding:24px 28px; margin:24px 0;
+  }
+  .highlight-box h3 { color:var(--deep); font-family:'Noto Serif TC',serif; font-size:18px; margin-bottom:12px; letter-spacing:2px; }
+  .highlight-box p { color:#555; line-height:2.0; font-size:16px; }
+
+  .gold-box {
+    background: linear-gradient(135deg, #fdf8ed, #faf0d0);
+    border:1px solid rgba(201,168,76,0.3); border-radius:16px;
+    padding:28px; margin:24px 0;
+  }
+  .gold-box h3 { color:var(--earth); font-family:'Noto Serif TC',serif; font-size:18px; margin-bottom:12px; letter-spacing:2px; }
+  .gold-box p { color:#555; line-height:2.1; font-size:16px; }
+
+  p { line-height:2.1; color:#444; margin-bottom:18px; font-size:16px; }
+
+  .element-tag {
+    display:inline-block; padding:4px 14px; border-radius:20px;
+    font-size:13px; font-weight:700; margin:4px;
+  }
+  .wood { background:#e8f5e0; color:#2d6a1a; }
+  .fire { background:#fdecea; color:#c0392b; }
+  .earth { background:#fdf5e0; color:#8b6914; }
+  .metal { background:#edf4ff; color:#2c5282; }
+  .water { background:#e8f4fd; color:#1a5a8a; }
+
+  .print-btn {
+    position:fixed; bottom:30px; right:30px;
+    background:linear-gradient(135deg,#2d5a2d,#1a3a1a); color:var(--gold);
+    border:none; padding:14px 28px; border-radius:30px; cursor:pointer;
+    font-size:15px; font-weight:700; box-shadow:0 4px 20px rgba(0,0,0,0.3); z-index:999;
+  }
+  @media print {
+    body { background:#fff; }
+    .print-btn { display:none; }
+    .cover {
+      min-height:100vh;
+      page-break-after:always;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    .section { page-break-inside:avoid; }
+  }
+  /* Force background printing for all elements */
+  .cover, .special-box {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-symbol">🌱</div>
+  <div class="cover-title">子平八字命盤全解</div>
+  <div class="cover-name">陳浩鈞</div>
+  <div class="cover-en">Coleton Johnson Tran</div>
+
+  <div class="cover-pillars">
+    <div class="pillar-box">
+      <div class="pillar-label">年柱</div>
+      <div class="pillar-char">庚<br>子</div>
+    </div>
+    <div class="pillar-box">
+      <div class="pillar-label">月柱</div>
+      <div class="pillar-char">癸<br>未</div>
+    </div>
+    <div class="pillar-box" style="border-color:rgba(201,168,76,0.8);background:rgba(201,168,76,0.25);">
+      <div class="pillar-label">日柱 ✦</div>
+      <div class="pillar-char">己<br>未</div>
+    </div>
+    <div class="pillar-box">
+      <div class="pillar-label">時柱</div>
+      <div class="pillar-char">戊<br>辰</div>
+    </div>
+  </div>
+
+  <div class="cover-subtitle">鄺師傅命理系統 · 子平正宗</div>
+  <div class="cover-date">2020年7月15日生 · 美國三藩市</div>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">一</div>
+      <div class="section-title">四柱一覽</div>
+    </div>
+
+    <div class="chart-grid">
+      <div class="chart-cell">
+        <div class="cell-label">年柱</div>
+        <div class="cell-stems">庚</div>
+        <div class="cell-branch">子</div>
+        <div class="cell-element">金·水<br>庚子 金鼠</div>
+      </div>
+      <div class="chart-cell">
+        <div class="cell-label">月柱</div>
+        <div class="cell-stems">癸</div>
+        <div class="cell-branch">未</div>
+        <div class="cell-element">水·土<br>癸未 水羊</div>
+      </div>
+      <div class="chart-cell day">
+        <div class="cell-label">日柱 ✦ 本命</div>
+        <div class="cell-stems">己</div>
+        <div class="cell-branch">未</div>
+        <div class="cell-element">土·土<br>己未 土羊</div>
+      </div>
+      <div class="chart-cell">
+        <div class="cell-label">時柱</div>
+        <div class="cell-stems">戊</div>
+        <div class="cell-branch">辰</div>
+        <div class="cell-element">土·土<br>戊辰 土龍</div>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h3>日主：己土 — 田園沃土</h3>
+      <p>浩鈞之日主為己土，乃田間之沃土、花圃之腴壤。戊土為高山巍峨，屹立不移；己土則是孕育萬物之地，柔順受種，深厚滋養，靜待豐收。此子天生具備包容之德，有養育萬物之心，是家族中最能凝聚人心、默默奉獻之人。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">二</div>
+      <div class="section-title">未土重疊：深情厚義之命</div>
+    </div>
+
+    <p>浩鈞生於庚子年、癸未月、己未日、戊辰時。四柱之中，土氣最盛——月柱未、日柱未、時柱辰，三重土氣匯聚，命盤以土為根基，厚重而持久。</p>
+
+    <p>尤值一提者，月柱與日柱皆為「未」——兩未相聚，在命理中稱為「羊刃重見」或「未未自刑」，需細加審視。然而在己土日主之格局中，兩未相聚更代表其人感情深厚、重情義、重承諾，一旦認定之人，終身不棄。</p>
+
+    <div class="gold-box">
+      <h3>✦ 戊辰時柱：深藏的龍之力量</h3>
+      <p>時柱為戊辰，乃「土龍」之象。辰藏癸水、戊土、乙木，三種元素潛伏其中，猶如龍之深穴，蓄而不發。浩鈞表面穩重溫和，內心卻有豐富的層次與深度——他比旁人看到的更有內涵，也比他自己所知的更有潛力。這份力量，將在歲月磨礪中緩緩浮現。</p>
+    </div>
+
+    <p>年柱庚子，金鼠之象，代表祖輩傳承。庚金剛毅果斷，子水靈動適應。浩鈞從外公外婆一輩承繼了剛柔並濟的家族氣脈——這是他命盤最深處的根源。</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">三</div>
+      <div class="section-title">五行格局分析</div>
+    </div>
+
+    <div style="margin:24px 0;">
+      <div style="margin-bottom:12px;">
+        <span class="element-tag earth">土 ●●●● 極旺</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">己未日、戊辰時、癸未月之未藏己丁乙</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag metal">金 ●● 有根</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">庚子年之庚</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag water">水 ●● 有根</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">癸未月之癸、庚子年之子</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag fire">火 ○ 微弱</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">隱藏於未之藏干丁火</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag wood">木 ○ 最缺</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">辰藏乙木，極微，為命局所最需</span>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h3>土旺需木疏，方能生生不息</h3>
+      <p>土氣過旺，若無木氣疏通，則有板結之患——固執保守，難以突破。木能剋土、疏土、令土鬆活肥沃，如農夫鬆土，方能播種生長。浩鈞命局最需木氣相扶：生活環境宜多接觸大自然，多種植花草樹木，多閱讀創作，讓木的能量滋養他的土，使其豐饒而不板滯。火亦有助，能溫暖其土，令萬物得以生長。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">四</div>
+      <div class="section-title">性格與命格</div>
+    </div>
+
+    <p>己土日主之人，天性包容，如大地承載萬物而不挑剔。浩鈞自幼便予人一種可靠、踏實的感覺——他不是最搶眼的那一個，卻往往是最讓人放心依靠的那一個。</p>
+
+    <p>兩未相聚，情義之人。浩鈞一旦視人為友，便是終身之誼。他不輕易轉換立場，不輕易放棄關係。對他而言，背叛比對其他人傷害更深，因為他的忠誠是真實的、全力的。</p>
+
+    <div class="gold-box">
+      <h3>✦ 建造者的命格</h3>
+      <p>浩鈞命盤之最深讀法，指向「建造持久之物」的人生。無論是事業、家庭、社群或個人成就——他不是那種快速創造、隨即轉身的人。他慢工出細活，所建之物紮實長久。他的高峰歲月在三十五歲至四十五歲之間，屆時年輕時打下的根基，將次第開花結果。此乃需要長遠眼光才能看清的命格。</p>
+    </div>
+
+    <p>戊辰時柱賦予他一種內在的深厚力量，在童年時期或許不顯眼，卻隨著歲月愈見清晰。作為家族中的長外孫，領導者的責任對他而言並非負擔，而是自然生長而來的擔當。</p>
+
+    <p>癸水月干與庚子年柱賦予他靈活的智慧，令他在土氣的穩重之外，又能隨機應變，如水繞石而行，柔中有剛。</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">五</div>
+      <div class="section-title">才華與人生方向</div>
+    </div>
+
+    <p>依浩鈞命盤之五行格局，以下領域最能發揮其天賦：</p>
+
+    <div class="highlight-box">
+      <h3>最宜發展之方向</h3>
+      <p><strong>地產與實業</strong>——土命之人對土地、建築、資產有天然的直覺與親切感。<br><br>
+      <strong>金融與投資管理</strong>——年柱庚金賦予他精準評估價值的能力，善於分析與規劃。<br><br>
+      <strong>傳統行業中的領導職位</strong>——他在有根基、有結構的環境中如魚得水，能在既有框架上穩步建設。<br><br>
+      <strong>農業、環保、可持續發展</strong>——兩未之土與自然世界有深厚共鳴。<br><br>
+      <strong>醫療或照顧行業</strong>——土的本質是承托、包容與滋養，這些正是醫者仁心所需的品質。</p>
+    </div>
+
+    <p>作為陳家長外孫，浩鈞在中華傳統中承擔著特殊的位置：繼承責任、延續家風、在風雨中成為眾人的依靠。這不是強加給他的重擔，而是他命格本自具足的召喚。</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">六</div>
+      <div class="section-title">家族情緣</div>
+    </div>
+
+    <p>月柱癸未，代表浩鈞與父母及早年環境的關係。癸水月干，意味著母親（Vanessa）溫柔細膩、直覺敏銳、情感豐富。未土月支與其日支完全相同——<strong>浩鈞與母親之間有一種天然的默契與共鳴</strong>，無需言語，彼此心領神會。</p>
+
+    <div class="gold-box">
+      <h3>✦ 隔代相傳：外公的子水與浩鈞的子年</h3>
+      <p>外公Ken的日柱為「庚子」，子水在日支。浩鈞的年柱為「庚子」，子水在年支。同一個「子」，一在外公日柱，一在浩鈞年柱——<strong>祖孫之間，同樣的地支在不同位置呼應</strong>，這是命盤中跨代氣脈相傳的印證。家族的精神通過這條看不見的線，從外公流向長外孫。</p>
+    </div>
+
+    <p>以己土之包容、以忠誠之心、以深藏的龍之力量——浩鈞將是家族中默默支撐眾人的那根樑柱。不是最高調的，卻是最不可或缺的。這是一份厚重的禮物，也是一份值得珍惜的使命。</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">八</div>
+      <div class="section-title">兩兄弟：浩鈞與演章，各有其道</div>
+    </div>
+
+    <p>鄺師傅命盤解讀後，外公Ken作出了一個重要的觀察，值得在這裡寫下來，讓Vanessa和Travis仔細思考。</p>
+
+    <div class="special-box" style="background:linear-gradient(135deg,#1a3a1a,#0d1f0d);border-radius:16px;padding:32px;margin:28px 0;color:#fff;">
+      <h3 style="color:#c9a84c;font-family:'Noto Serif TC',serif;font-size:20px;margin-bottom:16px;letter-spacing:3px;">✦ 導演的剪輯：一個值得預見的場景</h3>
+      <p style="color:rgba(255,255,255,0.85);line-height:2.1;">
+      <em>想像一個週日晚飯。演章（七歲）正在飯桌上說故事——生動、有趣、滿座歡笑，所有人都在看他。浩鈞（九歲）靜靜坐在一旁，看著大家。</em><br><br>
+      <em>沒有人注意到浩鈞在看著。浩鈞注意到了。</em><br><br>
+      <em>飯後，爸爸說：「浩鈞，明天有棒球練習，之後還有柔術。」浩鈞點點頭，沒有抱怨。他從不抱怨。但心裡，又多了一筆安靜的存款，存入一個叫做「我不是他們注目的那一個」的帳戶。</em><br><br>
+      <em>這個場景，若在歲月中不斷重複，便是最需要預防的風險。不是因為任何人做錯了——而是因為己土會悄悄地記帳，而那個帳戶，可能在無人察覺之前就已滿溢。</em>
+      </p>
+    </div>
+
+    <div class="highlight-box">
+      <h3>命盤的提醒：演章是演章，浩鈞是浩鈞</h3>
+      <p>演章的丁酉命盤，天生為被看見而來——魅力、口才、日坐貴人，他照亮的是一個房間。這不是浩鈞需要追趕或競爭的東西，那只是同一個樂團裡，不同樂器奏出的不同聲部。<br><br>
+      浩鈞的己未雙土命盤，天生為<strong>深度、忠誠與持久</strong>而來。他的天賦在人生早期不那麼顯眼——但那是會隨時間複利增長的天賦。問題在於，身邊的人是否能看見尚未完全長成的東西。</p>
+    </div>
+
+    <p>外公Ken的直覺從一開始就是對的：<strong>當外婆陪演章的時候，我陪浩鈞。</strong>這種刻意的平衡——確保浩鈞是被「選擇」的，而不只是被「包括」在內——是家人能給他的最重要禮物。</p>
+
+    <div class="gold-box">
+      <h3>✦ 關於運動與浩鈞真正需要的事</h3>
+      <p>Travis熱愛運動，他視體育為成長，出發點是愛。但浩鈞的命盤告訴我們，他真正能茁壯成長的地方，其實在別處：<br><br>
+      <strong>會消耗他的事：</strong>高競爭的團體運動，在眾目睽睽下與隊友即時比較表現。籃球比分、棒球失誤、公開場合的得失評判——這些對己土是一種持續的消磨。<br><br>
+      <strong>能滋養他的事：</strong><br>
+      • <strong>個人精進型運動</strong>——游泳（與他的水元素相合）、柔術（按自己步伐升級，有自己的道）<br>
+      • <strong>建造與創作</strong>——樂高、工程模型、烹飪、種植、編程。任何能讓他親手構建、看著它隨時間成長的事<br>
+      • <strong>閱讀與安靜的內心世界</strong>——月柱癸水賦予他豐富的內在宇宙，書本是他天然的棲息地<br>
+      • <strong>具體而真實的讚美</strong>——不是泛泛的「做得好」，而是「你在這個地方花了很多心思」。他會把具體的讚美存起來，帶著它走很多年<br><br>
+      <strong>行程太滿的風險</strong>不只是疲憊——而是他從未有機會在安靜中聆聽自己真正喜歡什麼。己土需要靜，才能認識自己。</p>
+    </div>
+
+    <p>外公外婆的心意是智慧的：<em>讓孩子按照自己的興趣和天性茁壯，而不是按照父母未竟的夢想成長。</em>浩鈞會告訴你他愛什麼——只要給他足夠的空間和安靜，讓他聽見自己的聲音。</p>
+
+    <div class="highlight-box">
+      <h3>豐收在後</h3>
+      <p>八歲的浩鈞，看起來或許不如八歲的演章那樣耀眼。這是正常的，是命格使然，完全不需要擔心。<br><br>
+      三十八歲的浩鈞，將是一個令人刮目相看的人——前提是，前面那些年，他的土地被好好地耕耘過。<strong>能看見父母眼中尚未顯現之物的祖父母，是孩子生命中最有力量的存在之一。</strong><br><br>
+      這件事，在這個家裡已經在發生了。繼續走下去。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">七</div>
+      <div class="section-title">給浩鈞的話</div>
+    </div>
+
+    <div class="gold-box">
+      <h3>外公外婆寫給你的話</h3>
+      <p style="font-style:italic;font-size:17px;line-height:2.2;color:#5a3e1a;">
+      浩鈞，我的孩子——<br><br>
+      你是大地之子。生來就帶著土的厚重、土的溫柔、土的包容。世間很多人急於證明自己，你不必如此。大地不追趕春風，卻承載了所有的花開花落。<br><br>
+      你不會是最快的，但你會是最持久的。你不會是最耀眼的，但你會是最讓人信賴的。當風雨來臨，人們會自然向你靠攏——因為你是他們腳下最踏實的土地。<br><br>
+      外公在你的命盤裡看見了他自己年輕時的影子——那份沉默的力量，那份不聲不響卻撐起一切的心。你們同一個「子」，跨越了三十多年的時間在命盤中相遇。這不是巧合，是緣分。<br><br>
+      好好栽培你的人際關係，就像耕種你心中那片沃土。你種下的，終會豐收。<br><br>
+      外公外婆愛你，永遠。🌱
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<button class="print-btn" onclick="window.print()">🖨️ 列印報告</button>
+
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>

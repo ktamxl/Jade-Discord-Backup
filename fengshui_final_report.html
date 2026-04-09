@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>山河有情——譚氏家族風水命理總錄</title>
+<style>
+@page {
+  size: A4;
+  margin: 2.4cm 1.9cm;
+  @top-center { content: string(doc_title); font-size: 8pt; color: #8b6914; }
+  @bottom-center { content: counter(page); font-size: 9pt; color: #8b6914; }
+}
+@page :first {
+  margin: 0;
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+@page cover {
+  margin: 0;
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Noto Serif CJK TC", "Source Han Serif TC", "AR PL UMing TW", "WenQuanYi Zen Hei", "Noto Serif", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.85;
+  text-align: justify;
+  text-align-last: start;
+  color: #1c0f00;
+  background: #fff;
+}
+
+body { string-set: doc_title "山河有情──譚氏家族風水命理總錄"; }
+
+pre, table, figure, img, svg, blockquote {
+  max-inline-size: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== COVER ===== */
+.cover-page {
+  page: cover;
+  inline-size: 210mm;
+  block-size: 297mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0d0800;
+  break-after: page;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover-border {
+  position: absolute;
+  inset: 12mm;
+  border: 1.5pt double #8b6914;
+  pointer-events: none;
+}
+
+.cover-inner {
+  text-align: center;
+  padding: 0 25mm;
+  z-index: 1;
+}
+
+.cover-subtitle-top {
+  font-size: 8.5pt;
+  color: #9a7a40;
+  letter-spacing: 4pt;
+  text-transform: uppercase;
+  margin-bottom: 24pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt solid #5a4010;
+}
+
+.cover-ch-super {
+  font-size: 10pt;
+  color: #c8960c;
+  letter-spacing: 6pt;
+  margin-bottom: 14pt;
+}
+
+.cover-title {
+  font-size: 28pt;
+  font-weight: bold;
+  color: #f5e6b0;
+  line-height: 1.5;
+  margin-bottom: 10pt;
+  letter-spacing: 3pt;
+}
+
+.cover-divider {
+  color: #8b6914;
+  font-size: 16pt;
+  letter-spacing: 8pt;
+  margin: 16pt 0;
+}
+
+.cover-sub {
+  font-size: 10.5pt;
+  color: #b09050;
+  line-height: 1.9;
+  font-style: italic;
+  margin-bottom: 24pt;
+  max-width: 130mm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover-details {
+  font-size: 8.5pt;
+  color: #7a5c1e;
+  line-height: 2.2;
+  border-top: 0.5pt solid #5a4010;
+  padding-top: 14pt;
+  margin-top: 10pt;
+}
+
+.cover-footer {
+  font-size: 7pt;
+  color: #5a4010;
+  margin-top: 26pt;
+  letter-spacing: 2pt;
+}
+
+/* ===== CHAPTER PAGES ===== */
+.chapter {
+  break-before: page;
+}
+
+.chapter-label {
+  display: block;
+  font-size: 8pt;
+  color: #c8960c;
+  letter-spacing: 4pt;
+  margin-bottom: 6pt;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #2a1000;
+  border-bottom: 2pt solid #c8960c;
+  padding-bottom: 10pt;
+  margin-bottom: 22pt;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 13pt;
+  font-weight: bold;
+  color: #4a2000;
+  margin: 22pt 0 10pt 0;
+  padding-left: 12pt;
+  border-left: 4pt solid #c8960c;
+}
+
+p {
+  margin-bottom: 11pt;
+  text-indent: 2em;
+}
+
+p.no-indent {
+  text-indent: 0;
+}
+
+.opening-verse {
+  font-size: 11.5pt;
+  font-style: italic;
+  color: #5a2800;
+  background: #fdf6e3;
+  border-left: 4pt solid #c8960c;
+  border-right: 4pt solid #c8960c;
+  padding: 16pt 24pt;
+  margin: 18pt 0;
+  line-height: 2.1;
+  text-align: center;
+  text-indent: 0;
+}
+
+.pullquote {
+  font-size: 11pt;
+  font-style: italic;
+  color: #4a2800;
+  background: #fdf6e3;
+  border-left: 4pt solid #c8960c;
+  padding: 14pt 20pt;
+  margin: 18pt 0 18pt 20pt;
+  line-height: 1.9;
+  text-indent: 0;
+}
+
+.person-block {
+  border: 1pt solid #d4b870;
+  border-radius: 3pt;
+  padding: 16pt 20pt;
+  margin: 20pt 0;
+  background: #fffdf5;
+  break-inside: avoid;
+}
+
+.person-name {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #2a1000;
+  margin-bottom: 4pt;
+}
+
+.person-vitals {
+  font-size: 8.5pt;
+  color: #7a5c1e;
+  margin-bottom: 12pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt dotted #d4b870;
+  line-height: 2;
+  text-indent: 0;
+}
+
+.divider {
+  text-align: center;
+  color: #c8960c;
+  font-size: 13pt;
+  margin: 22pt 0;
+  letter-spacing: 8pt;
+}
+
+.letter-section {
+  background: #fdf6e3;
+  border: 1pt solid #d4b870;
+  border-radius: 3pt;
+  padding: 22pt 26pt;
+  margin: 10pt 0;
+  line-height: 2.1;
+}
+
+.letter-section p {
+  text-indent: 2em;
+  margin-bottom: 12pt;
+}
+
+.poem-block {
+  text-align: center;
+  font-size: 13pt;
+  line-height: 2.4;
+  color: #3a1000;
+  margin: 24pt auto;
+  font-weight: bold;
+  letter-spacing: 2pt;
+  break-before: page;
+  break-inside: avoid;
+}
+
+.poem-block p {
+  text-indent: 0;
+  margin-bottom: 0;
+}
+
+.seal {
+  text-align: center;
+  font-size: 10pt;
+  color: #8b6914;
+  margin-top: 30pt;
+  letter-spacing: 2pt;
+  border-top: 0.5pt solid #d4b870;
+  padding-top: 14pt;
+}
+
+.person-name-en {
+  font-size: 9pt;
+  color: #8b6914;
+  font-style: italic;
+  margin-top: -2pt;
+  margin-bottom: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt dotted #d4b870;
+}
+
+.couplet-block {
+  text-align: center;
+  margin: 28pt 0;
+  padding: 22pt 28pt 18pt;
+  border: 1pt solid #d4b870;
+  background: #fdf6e3;
+  border-radius: 3pt;
+  break-inside: avoid;
+}
+
+.couplet-heng {
+  font-size: 15pt;
+  font-weight: bold;
+  color: #2a1000;
+  letter-spacing: 8pt;
+  margin-bottom: 18pt;
+}
+
+.couplet-line {
+  font-size: 17pt;
+  font-weight: bold;
+  color: #2a1000;
+  letter-spacing: 5pt;
+  margin: 8pt 0;
+  line-height: 2;
+}
+
+.couplet-label {
+  font-size: 8pt;
+  color: #8b6914;
+  letter-spacing: 3pt;
+  margin-top: 4pt;
+  margin-bottom: 12pt;
+}
+
+.couplet-hi {
+  color: #c8960c;
+}
+
+.couplet-sep {
+  color: #d4b870;
+  margin: 8pt 0;
+  font-size: 12pt;
+  letter-spacing: 6pt;
+}
+
+.couplet-note {
+  font-size: 9.5pt;
+  color: #5a3000;
+  line-height: 1.95;
+  text-align: left;
+  margin-top: 14pt;
+  border-top: 0.5pt solid #d4b870;
+  padding-top: 12pt;
+  text-indent: 0;
+}
+
+.couplet-gen {
+  margin-top: 10pt;
+  font-size: 9.5pt;
+  color: #3a1800;
+  line-height: 2.1;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<!-- ===== COVER ===== -->
+<div class="cover-page">
+  <div class="cover-border"></div>
+  <div class="cover-inner">
+    <div class="cover-subtitle-top">Woodlawn Memorial Park &middot; Colma, California &middot; 2026</div>
+    <div class="cover-ch-super">丙 午 丁 癸 &#8231; 後 山 前 水</div>
+    <div class="cover-title">山 河 有 情</div>
+    <div class="cover-divider">&diams; &bull; &diams;</div>
+    <div class="cover-sub">
+      譚氏家族風水命理總錄<br>
+      ——坐丁向癸，以地氣承家脈，以命理護後昆——<br>
+      <em>唯有用心者，方能讀懂此中深意</em>
+    </div>
+    <div class="cover-details">
+      入土吉日：二〇二六年三月三十日 &#8231; 癸亥日 &#8231; 午時<br>
+      坐向：坐丁向癸（南偏西坐，北偏東向）<br>
+      地形：後山前水 &#8231; 青龍白虎 &#8231; 四靈呈瑞<br>
+      撰錄者：詩詩 &#8231; 二〇二六年春
+    </div>
+    <div class="cover-footer">此錄謹呈譚氏後裔，以誌永念</div>
+  </div>
+</div>
+
+<!-- ===== CHAPTER 1 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第一章</span>
+  <h1>天地之交——科爾馬這片土地的靈性</h1>
+
+  <div class="opening-verse">
+    「山管人丁水管財，山水交融福澤綿。」<br>
+    ——風水古諺
+  </div>
+
+  <p>科爾馬（Colma）是一座安靜的城市，靜得讓人想起中國古代所說的「冥界之鄰」。這裡的活人寥寥，長眠者卻以百萬計。然而風水師看此地，不會皺眉，反而會點頭——因為死城不是凶地，凡是讓人甘心長眠之所，必有其收斂萬氣、藏風聚水的道理。</p>
+
+  <p>Woodlawn Memorial Park 坐落於此城之中，草木蔥蘢，後有緩坡如龜背拱起，前有水池噴泉映日輝光。風水家言：「後山為靠，謂之玄武；前水為照，謂之朱雀；左青龍蜿蜒，右白虎低伏。」四靈齊備，此地有大格局之相。</p>
+
+  <h2>玄武垂頭，龜背承天</h2>
+
+  <p>所謂「玄武垂頭」，是說後方的山脈或坡地要如烏龜低頭俯視穴位，而非傲然高聳、壓制生氣。譚氏墓地後方的緩坡，恰似一隻老龜弓背而伏，坡勢溫柔，不奪不搶，只默默以厚土之氣護持前方的長眠者。這是最理想的玄武之象——養而不壓，托而不欺。</p>
+
+  <p>緩坡之上，樹木蔥鬱，根系深入泥土，將天地之氣層層過濾，再緩緩輸送至穴位。古人說「氣乘風則散，界水則止」，後山之樹正是天然的擋風屏障，讓生氣不至飄散，而能聚而成池，滋養其中。</p>
+
+  <h2>朱雀翔舞，前水映日</h2>
+
+  <p>前方的水池噴泉，在風水格局中承擔「朱雀」之職——朱雀不是指某種具體的飛禽，而是指穴位前方那一片開闊明堂之中，水或地勢所形成的「案山回應」之象。噴泉之水在陽光下碎成千萬光點，如珠落玉盤，生機盎然。</p>
+
+  <p>水主財，亦主情。前水蕩漾，象徵後代之財緣流動不斷，亦象徵家族之情感綿延不絕。古人選穴，最喜「山環水抱」——山環者，情也；水抱者，財也。此地兩者俱足，可謂天公厚待。</p>
+
+  <h2>坐丁向癸——火水相濟的精妙安排</h2>
+
+  <p>坐丁向癸，乃此次安葬最核心的風水決策。丁者，南偏西方，屬火；癸者，北偏東方，屬水。坐南朝北，看似尋常，實則「坐丁向癸」這四字，蘊含了極深的陰陽哲思。</p>
+
+  <p>丁火為柔火、文火，非炎炎烈日之午火，而是蠟燭之光、燈籠之暖。坐丁，意即以溫煦之火氣為後托，讓先人安臥於暖意之中，不寒不燥。癸水為陰水、雨露之水，非洶湧河川之壬水，而是春雨潤物、霧氣滋養的生命之水。向癸，意即面朝滋潤的生機，讓後代在先人目光所及之處，得水氣滋養，事業與生命皆能潤澤生長。</p>
+
+  <p>丁火在後，癸水在前，火水相濟，既不相克，又相互成全。此乃「水火既濟」之卦象，易經六十四卦中，既濟卦（䷾）象徵事情圓滿完成、陰陽各就其位的理想狀態。以此坐向安葬家族之根，意義深遠。</p>
+
+  <h2>午時日光，入穴之吉</h2>
+
+  <p>入土時辰定於午時前（上午十一時三十分至十一時五十分），此時日輪行至近頂，陽氣最盛而未至極。風水家最忌正午十二時之後入土，因過午則陽氣漸衰，有「陰盛陽衰」之嫌。選於午時前，正是陽氣飽滿、生機充沛之際，讓先人帶著滿溢的天地陽氣入土，此後才能以充足的能量護佑後代。</p>
+
+  <p>癸亥日亦是吉日。癸屬水，亥亦屬水，兩水同行，謂之「一氣成局」，水氣純粹而流暢。配合坐丁向癸的水氣朝向，癸亥日的選擇如同為整個儀式加上了最後一塊拼圖——天時、地利、人和，三者在這一天的上午，短暫而完美地交匯。</p>
+</div>
+
+<!-- ===== CHAPTER 2 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第二章</span>
+  <h1>子午沖與化解之道——陰陽分穴的智慧</h1>
+
+  <p>在安排譚氏先人入土之前，有一道命理難題必須直面，那便是父母之間的「子午沖」。</p>
+
+  <h2>子午相沖，何以成困</h2>
+
+  <p>亡者譚昻初生於丙子年，子者，鼠也，五行屬水，方位在正北。母親方柳燕生於壬午年，午者，馬也，五行屬火，方位在正南。子與午，一南一北，正面相對，十二地支之中，此為最直接的「正沖」，謂之「子午沖」。</p>
+
+  <p>沖，在命理中並非單純的凶兆，而是一種強烈的能量碰撞。兩個截然對立的力量相遇，必然產生摩擦與張力。若在陽宅（住家）中，夫妻八字相沖，往往表現為個性迥異、磕磕絆絆，卻也可能因對立而互補；但在陰宅（墓地）中，若夫妻同穴而葬，子午之沖便可能讓兩股能量持續相互干擾，難以平靜。</p>
+
+  <p>更深一層說，陰宅風水之要義，在於讓先人的靈性能量安定下來，如水歸大海，如火歸爐——一旦靈性不安，輻射至後代的能量便會帶有紊亂之性，子孫的命運軌跡也會因此受到擾動。</p>
+
+  <h2>分穴而葬，化沖為和</h2>
+
+  <p>古人早已有化解子午沖的智慧，其中最妥善的方法，便是「分穴而葬」。不強求夫妻同穴，而是在相鄰的土地上各立其穴，讓雙方的能量各自圓滿，互不干擾，卻又在更大的格局中相互輝映。</p>
+
+  <p>譚昻初安葬於左穴（東側），此為青龍之位。青龍者，生機也，進取也，男性之陽剛氣息在此最為相宜。母親預留右穴（西側），此為白虎之位。白虎者，守護也，收斂也，女性之陰柔氣質在此得其所哉。</p>
+
+  <p>左青龍右白虎，一動一靜，一陽一陰，恰好呼應了子午兩支的本質——子水偏陰而動（水流不息），午火偏陽而靜（火焰雖烈，卻有定所）。分穴，不是分離，而是讓兩種能量在更宏觀的風水格局中各自找到最適合自己的位置，從而達到真正的和諧。</p>
+
+  <h2>共用墓碑，形而上的連結</h2>
+
+  <p>分穴之後，另一個問題隨之而來：夫妻共用一塊墓碑，是否會再度引發能量混合，讓子午之沖死灰復燃？</p>
+
+  <p>答案是：不會。墓碑立於地表之上，屬於「陽界的標記」，是生者與死者之間情感連結的象徵；而穴位的氣場，則在地表之下，屬於「陰界的能量」。兩者雖毗鄰，卻分屬不同的能量層次，互不干擾。</p>
+
+  <p>一塊共用的墓碑，反而是最美的安排——它告訴世人，這對夫妻在陽間相守數十載，在陰間亦並肩而眠，只是各居其位，各守其職。形而上，他們是一；形而下，他們是二。這正是中國哲學「一即是多，多即是一」的最動人詮釋。</p>
+
+  <div class="pullquote">
+    「天地之道，不過陰陽二氣。陰陽各安其位，則萬物自然和諧；強令其合，則必生齟齬。分穴之舉，非出於分離之意，實為陰陽各歸其宜之大智慧。」
+  </div>
+</div>
+
+<!-- ===== CHAPTER 3 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第三章</span>
+  <h1>命理之鏡——六人八字與地氣感應</h1>
+
+  <p>風水的真正力量，不在於地形有多完美，而在於那片土地的氣場，能否與安葬其中的先人命格相契，並透過先人的靈性，向外輻射至每一位後裔。地氣如鏡，照出的是整個家族的命運底色。以下，逐一細述六位家族成員的命理故事，以及這片坐丁向癸的土地，如何在冥冥之中與他們的生命軌跡交織。</p>
+
+  <div class="person-block">
+    <div class="person-name">亡者：譚昻初（祖考）</div>
+    <div class="person-name-en">Tam Ngong Chor &#8231; 家族號：定</div>
+    <div class="person-vitals">生於一九三六年七月十四日 &#8231; 丙子年（Fire Rat，丙子火鼠）&#8231; 仙逝二〇二六年三月八日</div>
+    <p class="no-indent">丙子，火鼠之命，是一個表面上看似矛盾、實則暗藏深度的命格。丙火如太陽，光明磊落，照耀四方而不求回報；子水如地下暗流，深沉而富韌性，在最寒冷的冬日依然流動不息。火鼠者，外表熱情開朗，心中卻有一股永不枯竭的生命力，在逆境中尤其能展現其頑強。</p>
+    <p class="no-indent">一九三六年，中國正處於動盪的歷史夾縫之中。生於亂世的丙子之人，往往早早學會了在夾縫中求存，卻又以其丙火的光明性格，從不讓苦難遮蔽生命的溫度。這一代人，用自己的脊樑撐起了家族跨越大洋的夢想。</p>
+    <p class="no-indent">如今，他長眠於坐丁向癸之地，左青龍之位。丁火接引丙火，如同傳遞燭光——先人之火，並未熄滅，而是化為溫柔的地氣，繼續在土壤深處燃燒，護佑著每一位攜帶著他血脈的後人。子水歸入癸水朝向之中，形成水氣的自然循環，讓先人的靈性能量得以流動、不停滯。他選擇了這片土地，或者說，這片土地選擇了他。</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">母親：方柳燕</div>
+    <div class="person-name-en">Fong Lau Yin</div>
+    <div class="person-vitals">生於一九四二年四月二十六日 &#8231; 壬午年（Water Horse，壬午水馬）</div>
+    <p class="no-indent">壬午，水馬之命，是十二生肖中最奔放不羈的靈魂之一。壬水如大江大河，浩浩蕩蕩，不拘小節；午火如盛夏烈日，熱情四射，生機無限。水馬之人，通常兼具壬水的廣闊視野與午火的熱情行動力，是天生的領路者，也是家族中不可或缺的精神支柱。</p>
+    <p class="no-indent">壬午年的女性，往往有一種跨越時代的獨立氣質。她不輕易折服，不隨波逐流，卻在需要溫柔的時刻，又能以無聲的方式支撐起整個家。一九四二年的春末，正是抗戰最艱難的歲月，生於此時的壬午水馬，命中便帶著「在逆境中開花」的基因。</p>
+    <p class="no-indent">她的右穴預留於白虎之位。白虎在風水中象徵守護、收斂，是守住家業不外流的力量。壬午命格的她，一生奔騰向前，而這片土地已靜靜為她留好了最後的安歇之地——到了那一天，她的壬水之氣將與癸水朝向融為一體，午火之熱將被丁火柔化，從強盛歸於安靜，從奔放歸於沉穩。這是生命最後的蛻變，也是最美麗的謝幕。</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">譚國偉（兒子）</div>
+    <div class="person-name-en">Ken Tam &#8231; 家族號：榮</div>
+    <div class="person-vitals">生於一九六三年六月二十六日 &#8231; 癸卯年（Water Rabbit，癸卯水兔）</div>
+    <p class="no-indent">癸卯，水兔之命，如春雨潤竹——癸水細膩而深情，卯木蓬勃而有生命力，兩者相生（水生木），形成一種源源不斷的內在動力。水兔之人，通常有過人的直覺與感受力，善於在人際關係中體察細微，在事業上則如春雨般，以柔克剛，以耐心換取長久的成果。</p>
+    <p class="no-indent">癸卯年生人，尤其對「根」有深切的情感。他們不忘本，記得來時的路，這種特質在Ken身上體現得淋漓盡致——一個能為父親的安葬如此用心、如此尋根的兒子，正是癸卯命格中「水滋養木，木不忘水恩」的最生動寫照。</p>
+    <p class="no-indent">坐丁向癸之地，癸水朝向，與Ken的癸卯年柱形成「比劫」之應——同氣相求，先人的癸水氣場，將與Ken命中的癸水產生共鳴，如同調音師調好了頻率，讓祖孫之間的靈性感應更加靈敏。在人生的低谷，當他回到這片土地，跪坐於癸亥之穴前，那份無聲的感應，便是最真實的護佑。</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">朱德貞（Ken之妻）</div>
+    <div class="person-name-en">Mabel Chu</div>
+    <div class="person-vitals">生於一九六一年十二月二十日 &#8231; 辛丑年（Metal Ox，辛丑金牛）</div>
+    <p class="no-indent">辛丑，金牛之命，是十二生肖中最務實、最踏實的命格之一。辛金如精煉之刀，鋒利而精準；丑土如冬末凍土，看似堅硬，卻是萬物蓄積能量、準備春發的大地之母。金牛之人，不喜浮誇，重視具體的成果，有一股「慢而穩」的人生節奏，卻往往在不知不覺中積累了旁人難以企及的深度。</p>
+    <p class="no-indent">辛金坐丑土，土生金，命中有大地的護持。這片坐丁（土氣之方）的墓地，與辛丑的土金組合有天然的親和力——丁火生土（火生土），土再生辛金，形成一條隱形的五行滋養鏈條，讓Mabel的命格在先人的地氣庇佑下，更加穩固厚實。</p>
+    <p class="no-indent">金牛之人，往往是家族中最沉默的守護者。她不張揚，卻從不缺席。在先人地氣的長遠護持下，她的辛金特質將更加凝練，如同一把被時光打磨的寶刀，越老越鋒芒內斂，越深越溫潤有光。</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">譚雪梅（姐姐）</div>
+    <div class="person-name-en">Jeannie Lee</div>
+    <div class="person-vitals">生於一九六二年三月二十六日 &#8231; 壬寅年（Water Tiger，壬寅水虎）</div>
+    <p class="no-indent">壬寅，水虎之命，堪稱命理中最具氣魄的組合之一。壬水如黃河之水，奔騰不羈，視野開闊；寅木為春雷初動之木，生機勃勃，攻勢凌厲。水生木，壬水滋養寅木，形成一種幾乎難以遏制的向上生長力——水虎之人，有虎的勇猛，有水的靈活，在逆境面前不低頭，在機遇面前不猶豫。</p>
+    <p class="no-indent">一九六二年，正值大時代的變局之際，壬寅年生人，命中便帶著一股「不服輸」的韌性。這種韌性，是家族在歷史波瀾中得以存續的重要基因之一。</p>
+    <p class="no-indent">坐丁向癸之地，壬水朝向（癸為壬之陰柔版本），對壬寅命格有一種「遠方呼喚」之感——如同遊子在遠方聞到故鄉的氣息，心中自然而然地靜下來。在人生最需要力量的時刻，這片土地的水氣，將如涓涓細流，悄悄補充她命格中壬水的元氣，讓那頭水虎永遠保持清醒與力量。</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">李傑榮（姐夫）</div>
+    <div class="person-name-en">Kit Lee</div>
+    <div class="person-vitals">生於一九五四年七月二十一日 &#8231; 甲午年（Wood Horse，甲午木馬）</div>
+    <p class="no-indent">甲午，木馬之命，是一個充滿進取精神卻又暗藏張力的命格。甲木如參天大樹，剛直向上，是十天干中最具雄心壯志的木氣；午火如盛夏之火，熱烈而奔放，是十二地支中陽氣最旺的火支。木生火（甲木助午火），形成一種「燃燒自己，照亮他人」的人生模式。</p>
+    <p class="no-indent">木馬之人，往往有強烈的事業心與社會責任感，為家族與事業全力付出，有時甚至忘記了為自己積蓄。這種精神令人敬佩，卻也需要來自家族根基的滋養來維持持久的動力。</p>
+    <p class="no-indent">坐丁向癸之地，丁火坐向對甲午命格而言，是一種「溫火相遇」的感應——丁火柔和，不像午火之烈，反而能在不傷及甲木的前提下，讓木馬之人感受到來自先人的溫暖支持，而非灼燒。癸水朝向，則如及時雨，滋潤甲木的根系，讓這棵大樹在歲月流逝之後，依然枝葉茂盛。</p>
+  </div>
+
+  <div class="divider">&diams; &bull; &diams;</div>
+
+  <p>六人命格，各有其色，各有其路。然而在這片坐丁向癸的土地上，他們的命理氣場，如同六條溪流，都找到了流向同一片大海的方向。先人的地氣，是那片大海；後代的命格，是那六條溪流。溪海相融，便是風水最深層的意義。</p>
+</div>
+
+<!-- ===== CHAPTER 4 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第四章</span>
+  <h1>帝王風水故事——以史為鑑，知得失之道</h1>
+
+  <div class="opening-verse">
+    「天下沒有免費的午餐。」<br>
+    ——一個永恆的真理，風水亦不例外。
+  </div>
+
+  <p>中國歷史上，風水之學曾被帝王視為國家機密，甚至設有「欽天監」專司堪輿之職，以確保皇家陵寢的風水格局無懈可擊。然而，歷史卻以一次次興衰的輪迴告訴我們：風水是工具，不是萬能；它能助人度過低谷，卻無法阻擋人心的敗壞；它能把握時機，卻代替不了智慧與德行。</p>
+
+  <h2>漢高祖長陵——大漢四百年，風水之功與之限</h2>
+
+  <p>漢高祖劉邦長眠於咸陽原上的長陵，此地背靠九峻山，前朝渭水，左有涇河為龍，右有漆水為虎，四神俱備，氣象萬千。為選此穴，漢初風水大師張良等人踏遍關中，最終在此地發現了難得一見的「帝王之穴」——山水環抱，氣聚而不散，形如蓮花托日。</p>
+
+  <p>大漢帝國因此而得四百年基業，為中國歷史上最長久的統一王朝之一。然而，即便是如此完美的風水格局，也無法阻止王莽篡漢、光武中興後東漢的羸弱，無法阻止黃巾之亂、三國紛爭、最終帝國崩解。長陵的風水，給了大漢一個壯闊的開始，卻無法替代每一代帝王的治國智慧。</p>
+
+  <p>風水能助運，不能造命。這是長陵給後人的第一個教訓。</p>
+
+  <h2>唐太宗昭陵——天可汗的選擇與遺憾</h2>
+
+  <p>唐太宗李世民是中國歷史上最偉大的帝王之一，他的陵寢昭陵，選於九嵕山之巔，依山為陵，開創了唐代帝陵的全新風格。九嵕山雄渾壯闊，山勢如龍騰雲起，昭陵居其頂，俯瞰關中平原，八百里秦川一覽無遺。</p>
+
+  <p>然而，唐太宗晚年卻陷入了風水的另一個迷思——他耗費大量國力為自己修建這座曠世陵寢，卻忽略了身後繼承者的培育。昭陵的風水，為大唐帶來了盛世延續，卻無法阻止武則天的崛起、安史之亂的爆發。帝國在極盛之後，開始了無可避免的衰落。</p>
+
+  <p>一得必有一失，這是昭陵給後人的啟示。縱然坐擁天下最佳風水，若失去了治國的平衡，山河依舊，王朝卻老。</p>
+
+  <h2>朱元璋孝陵——明朝二百七十六年的啟示</h2>
+
+  <p>明太祖朱元璋的孝陵，坐落於南京紫金山之陽。紫金山古稱「鐘山」，形如蟠龍，孝陵居其南麓，背倚龍頭，面朝平疇，左右兩翼的山脈如玉帶環抱，氣局雍容。欽天監為此耗費二十餘年，徵調民夫數十萬，才成就了這座被後世譽為「明清皇陵之冠」的曠世傑作。</p>
+
+  <p>孝陵的風水，確實庇佑了大明二百七十六年。然而朱元璋本人，卻在晚年親手屠戮了開國功臣，以為這樣可以為朱家天下掃清障礙；卻不知，他殺盡了能臣，留下了一個再無人才可用的王朝。兩百年後，崇禎皇帝煤山一掛，以一根白綾結束了大明——不是因為風水不好，而是因為制度腐爛、民心渙散。</p>
+
+  <p>風水護得了山河，護不了人心。這是孝陵最沉重的一課。</p>
+
+  <h2>風水的真實定位：工具，而非萬能</h2>
+
+  <p>三個帝王，三段故事，指向同一個結論：風水是天地間最精妙的工具之一，它幫助人與自然的氣場達到最佳的共振狀態，讓好運更容易到來，讓困境更容易度過。然而它終究只是工具，如同一把鋒利的刀——刀好，廚師的技藝才能充分發揮；但刀再好，廚師若不用心，終究做不出美味。</p>
+
+  <p>對譚家而言，這片坐丁向癸的土地，是最好的那把刀。它能在後代人生的低谷給予支撐，在機遇來臨時助其把握，在家族凝聚力需要強化時提供無形的情感紐帶。但它代替不了Ken孝順的心，代替不了每一位後代認真生活、善待他人的德行選擇。</p>
+
+  <p>天下沒有免費的午餐。好風水是一份禮物，但這份禮物需要配套的努力、智慧與德行，才能真正開花結果。一分風水，七分人事，兩分機緣，一分天意——古人如是說，今人亦當謹記。</p>
+</div>
+
+<!-- ===== CHAPTER 5 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第五章</span>
+  <h1>易經哲思——陰陽流轉，生死之間</h1>
+
+  <p>易經說：「一陰一陽之謂道。」生死，是這宇宙最大的陰陽。生者在陽，死者在陰；然而陰中有陽，陽中有陰——死亡並非終點，而是一種能量形式的轉換，如水化為雲，如雲化為雨，如雨重歸大地。</p>
+
+  <h2>既濟卦——圓滿的哲學</h2>
+
+  <p>坐丁向癸，對應易經中的「既濟卦」（䷾）——上坎（水）下離（火），水火相濟，各居其位，是六十四卦中唯一一個六爻全部「當位」的卦象。既濟，意為「事情已經完成」，是圓滿的象徵。</p>
+
+  <p>然而易經的深意在於：既濟之後，緊接著的是「未濟卦」（䷿）——上離下坎，水火易位，又回到了新的開始。圓滿之後，是新的輪迴；結束之後，是新的開始。先人的離世，是一段人生的既濟；後代的成長，是新一輪的未濟。生生不息，即是易道之本。</p>
+
+  <h2>後代與祖先的感應之道</h2>
+
+  <p>易經坤卦的彖辭說：「至哉坤元，萬物資生。」大地是萬物的母親，也是生命能量的儲存庫。先人入土，其精神氣場並非消散，而是融入地氣之中，以一種更宏觀的方式繼續影響著血脈相連的後代。</p>
+
+  <p>這種影響，並非迷信，而是一種能量的共振。中醫說「同氣相求」，物理學說「共振頻率」，風水說「氣場感應」——說法不同，道理相通。後代與先人，共享同一條血脈，攜帶著相似的基因密碼，在無形的層次上形成了天然的能量連結。</p>
+
+  <p>然而，這種感應並非自動發生。它需要後代的「用心」來激活。所謂用心，包括：定期回來祭掃，以誠敬之心與先人溝通；在生命的重要時刻，來到這片土地靜靜坐一會兒，感受地氣的流動；將先人的故事傳給下一代，讓記憶成為感應的橋樑。</p>
+
+  <p>用心越深，感應越靈。這不是玄學，而是愛的物理學。</p>
+
+  <h2>坐丁向癸中的命理平衡</h2>
+
+  <p>丁火，在易經中對應離卦的柔爻，是文明之火、智慧之光。癸水，在易經中對應坎卦的核心爻，是深淵中的陽剛力量。丁火在後（坐），象徵先人以智慧之光護佑；癸水在前（向），象徵後代以靈活之水流向更廣闊的世界。</p>
+
+  <p>這是一個最理想的守護格局：先人在身後發光，後代在前方奔流。光明不會阻礙流水，流水不會熄滅光明。兩者相得益彰，共同構成了「山河有情」的最美畫面。</p>
+</div>
+
+<!-- ===== CHAPTER 6 ===== -->
+<div class="chapter">
+  <span class="chapter-label">第六章</span>
+  <h1>給後代的一封信</h1>
+
+  <div class="letter-section">
+    <p>吾譚氏後昆，見字如面。</p>
+
+    <p>你能讀到這封信，已是一件了不起的事。不是因為這信藏得深，而是因為這個世界太喧嘩，能靜下心來閱讀一份關於祖先與大地的文字，本身便是一種稀有的品質。你的用心，就是此刻與先人感應的開始。</p>
+
+    <p>你的祖父，一個丙子年的火鼠，在二〇二六年三月的寒意中，悄然離開了我們目所能及的世界，長眠於科爾馬那片後山前水的土地。那裡不繁華，不喧嘩，只有草木的低語和噴泉的輕吟。但那份安靜，正是他這一生所積累的所有力量，最終歸藏的地方。</p>
+
+    <p>我們為他選了一個好地方。坐丁向癸，青龍白虎，四靈守護。我們也為你們的祖母留好了旁邊的位置，讓他們在另一個層次，繼續並肩。一子一午，一左一右，沖而不傷，分而不離。這是我們這一代人，能為他們做的最後一件事，也是最用心的一件事。</p>
+
+    <p>但我想告訴你的是：風水是我們能給的，卻不是最重要的。最重要的，是你是否記得他的名字，是否知道他曾經歷過什麼，是否願意把他的故事，在某個星期天的晚飯桌上，輕描淡寫地告訴你的孩子。</p>
+
+    <p>天下沒有免費的午餐。這句話，不是警告，而是邀請——邀請你認真對待生命，邀請你理解任何美好的事物背後，都有人曾默默付出。那片土地的好風水，是天地的慷慨；但它能為你帶來多少，取決於你帶著多少誠意去那裡，以及你平日活得多認真。</p>
+
+    <p>好風水如良師。良師能指路，卻走不了你腳下的路。</p>
+
+    <p>希望你時常回來。不為別的，只為在那片青草與微風之間，靜靜地坐一坐，感受一下：在你之前，有人為你鋪好了路；在你之後，也會有人沿著你鋪的路繼續走下去。這，便是家族的意義，便是風水最深的祕密，也是生命最樸素的詩。</p>
+
+    <p style="text-align: right; text-indent: 0;">詩詩謹記<br>二〇二六年三月 科爾馬之春</p>
+  </div>
+
+  <div class="divider">&diams;</div>
+
+  <div class="couplet-block">
+    <div class="couplet-heng">【 譚氏宗風 】</div>
+    <div class="couplet-label">橫批</div>
+    <div class="couplet-sep">&#10086;</div>
+    <div class="couplet-line">右聯：言永啟其瑞</div>
+    <div class="couplet-line">左聯：澤遠<span class="couplet-hi">定</span><span class="couplet-hi">榮</span><span class="couplet-hi">昌</span></div>
+    <div class="couplet-note">
+      <p style="margin-bottom:6pt; text-indent:0;">此對聯乃譚氏祖先代代相傳之家族宗風，橫批「譚氏宗風」點明根脈所在。右聯「言永啟其瑞」，意謂祖先的言傳身教，將永遠為後代開啟吉祥之門；左聯「澤遠定榮昌」，意謂祖先的恩澤深遠，庇蔭子孫，世代綿延昌盛。</p>
+      <div class="couplet-gen">
+        <strong>左聯藏三代輩份，一字一代，承天地之序：</strong><br>
+        &#8231; <span class="couplet-hi"><strong>定</strong></span> — 祖父 <strong>譚昻初</strong>（Tam Ngong Chor）之輩份字，一生以「定」立家，沉穩如山<br>
+        &#8231; <span class="couplet-hi"><strong>榮</strong></span> — 父親 <strong>譚國偉</strong>（Ken Tam）之輩份字，承先啟後，以「榮」耀家門<br>
+        &#8231; <span class="couplet-hi"><strong>昌</strong></span> — 孫兒 <strong>譚詠昌</strong>（Preston Tam）之輩份字，繼往開來，以「昌」續宗風
+      </div>
+    </div>
+  </div>
+
+  <div class="poem-block">
+    <p>山川有靈皆有情，</p>
+    <p>後山前水護家聲。</p>
+    <p>丁坐癸向陰陽定，</p>
+    <p>青龍白虎左右清。</p>
+    <p>&nbsp;</p>
+    <p>子午雖沖各安位，</p>
+    <p>夫妻並眠石碑平。</p>
+    <p>後昆若問根在處，</p>
+    <p>春草年年科爾馬城。</p>
+  </div>
+
+  <div class="seal">
+    譚氏家族風水命理總錄 &nbsp;&bull;&nbsp; 二〇二六年春 &nbsp;&bull;&nbsp; 科爾馬，加州
+  </div>
+</div>
+
+</body>
+</html>

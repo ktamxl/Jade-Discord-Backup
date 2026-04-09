@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sophia Li — BaZi Destiny Report</title>
+<style>
+#printBtn {
+  position: fixed; top: 18px; right: 22px; z-index: 9999;
+  background: #9d174d; color: #fff; border: none;
+  padding: 10px 22px; font-size: 14px; font-weight: 700;
+  border-radius: 6px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  font-family: Georgia, serif;
+}
+#printBtn:hover { background: #831843; }
+@media print { #printBtn { display: none; } }
+*, *::before, *::after { box-sizing: border-box; }
+body { font-family: Georgia, serif; line-height: 1.8; color: #1f2937; background: #fdf2f8; margin: 0; padding: 0; }
+.page-wrap { max-width: 860px; margin: 0 auto; background: #fff; box-shadow: 0 0 30px rgba(0,0,0,0.1); }
+.cover { background: #1a0a14; color: #f8fafc; padding: 80px 60px 70px; text-align: center; }
+.cover-icon { font-size: 52px; margin-bottom: 20px; }
+.cover-name { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+.cover-ch { font-size: 18px; color: #f9a8d4; margin-bottom: 12px; }
+.cover-title { font-size: 15px; color: #cbd5e1; font-style: italic; margin-bottom: 28px; }
+.cover-line { width: 80px; height: 1px; background: #4a1535; margin: 0 auto 28px; }
+.cover-bazi { font-size: 14px; color: #94a3b8; line-height: 2.4; }
+.cover-bazi strong { color: #e2e8f0; }
+.cover-note { margin-top: 40px; font-size: 11px; color: #6b3a56; }
+.content { padding: 48px 60px; }
+h1 { font-size: 22px; font-weight: 700; color: #1a0a14; border-bottom: 2.5px solid #9d174d; padding-bottom: 8px; margin: 48px 0 6px; }
+h1:first-of-type { margin-top: 0; }
+h2 { font-size: 17px; font-weight: 700; color: #1e293b; margin: 28px 0 8px; }
+p { margin: 8px 0 14px; }
+.zh { color: #be185d; font-size: 13px; font-style: italic; display: block; margin: -4px 0 14px; }
+.lead { font-size: 16px; font-style: italic; border-left: 4px solid #9d174d; padding-left: 16px; margin: 0 0 20px; color: #1e293b; line-height: 1.8; }
+.pw { overflow-x: auto; margin: 16px 0 24px; }
+.pt { width: 100%; border-collapse: collapse; min-width: 420px; }
+.pt th { background: #1a0a14; color: #f8fafc; padding: 10px 8px; text-align: center; font-size: 13px; }
+.pt td { border: 1px solid #fce7f3; padding: 12px 8px; text-align: center; }
+.stem { font-size: 32px; font-weight: 700; color: #0f172a; line-height: 1.1; }
+.stem.wood { color: #15803d; }
+.stem.fire { color: #b45309; }
+.stem.metal { color: #6b7280; }
+.branch { font-size: 26px; font-weight: 700; color: #374151; }
+.el { font-size: 11px; color: #9ca3af; margin-top: 4px; }
+.role { font-size: 10px; color: #be185d; margin-top: 2px; font-style: italic; }
+.box { margin: 16px 0; padding: 16px 20px; border-radius: 4px; }
+.be { background: #fef9c3; border-left: 4px solid #ca8a04; }
+.bg { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.bn { background: #fdf2f8; border-left: 4px solid #9d174d; }
+.bw { background: #fef2f2; border-left: 4px solid #dc2626; }
+.bpurple { background: #faf5ff; border-left: 4px solid #7c3aed; }
+.bt { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.dt { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 14px; }
+.dt th { background: #1a0a14; color: #f9fafb; padding: 8px 12px; text-align: left; font-size: 13px; }
+.dt td { border: 1px solid #fce7f3; padding: 8px 12px; vertical-align: top; }
+.dt tr:nth-child(even) td { background: #fdf6fb; }
+.pos { color: #15803d; font-weight: 700; }
+.neg { color: #dc2626; font-weight: 700; }
+.now { color: #9d174d; font-weight: 700; }
+.compat { display: flex; gap: 16px; margin: 12px 0; }
+.cs { flex: 1; padding: 14px; background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: 4px; font-size: 13px; }
+.cp { flex: 1; padding: 14px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 4px; font-size: 13px; }
+.ct { font-weight: 700; margin-bottom: 6px; font-size: 13px; }
+.tl { display: flex; gap: 16px; margin: 10px 0; padding: 10px 0; border-bottom: 1px solid #fce7f3; font-size: 14px; }
+.tl-yr { min-width: 140px; font-weight: 700; color: #374151; flex-shrink: 0; }
+.tl-gz { min-width: 36px; color: #9ca3af; flex-shrink: 0; }
+.tl-desc { flex: 1; }
+.tn .tl-yr { color: #9d174d; }
+.tn .tl-gz { color: #9d174d; }
+.quote { margin: 24px 0; padding: 20px 28px; border-top: 1px solid #fce7f3; border-bottom: 1px solid #fce7f3; font-style: italic; text-align: center; font-size: 17px; color: #374151; }
+.closing { margin-top: 40px; padding-top: 20px; border-top: 2px solid #1a0a14; font-size: 13px; color: #9ca3af; }
+.five-el { display: flex; gap: 8px; margin: 14px 0; flex-wrap: wrap; }
+.fel { flex: 1; min-width: 100px; padding: 10px 12px; border-radius: 4px; text-align: center; font-size: 13px; font-weight: 700; }
+.fel-wood { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+.fel-fire { background: #fef3c7; color: #b45309; border: 1px solid #fcd34d; }
+.fel-water { background: #dbeafe; color: #1d4ed8; border: 1px solid #93c5fd; }
+.fel-metal { background: #f3f4f6; color: #4b5563; border: 1px solid #d1d5db; }
+.fel-earth { background: #fef9c3; color: #854d0e; border: 1px solid #fde68a; }
+@media print {
+  @page { size: letter; margin: 1.8cm 1.8cm 2cm; }
+  body { background: #fff; font-size: 10pt; }
+  .page-wrap { max-width: 100%; box-shadow: none; }
+  .content { padding: 0 0 20pt; }
+  .cover { padding: 60pt 50pt; page-break-after: always; }
+  .cover-icon { font-size: 40pt; }
+  .cover-name { font-size: 26pt; }
+  h1 { font-size: 16pt; page-break-after: avoid; margin: 30pt 0 5pt; }
+  h2 { font-size: 13pt; page-break-after: avoid; }
+  .lead { font-size: 12pt; }
+  .stem { font-size: 24pt; } .branch { font-size: 20pt; }
+  .box, .tl, tr { page-break-inside: avoid; }
+  .compat { flex-direction: column; }
+  .dt, .tl { font-size: 9pt; }
+  .quote { font-size: 13pt; }
+  .five-el { flex-direction: row; }
+}
+</style>
+</head>
+<body>
+<button id="printBtn" onclick="window.print()">Print / Save PDF</button>
+<div class="page-wrap">
+<div class="cover">
+  <div class="cover-icon">🌸</div>
+  <div class="cover-name">Sophia Li</div>
+  <div class="cover-ch">李麗欣</div>
+  <div class="cover-title">Four Pillars of Destiny (BaZi)<br>A Complete Life Reading</div>
+  <div class="cover-line"></div>
+  <div class="cover-bazi">
+    <strong>Born:</strong> February 7, 1996 &middot; 4:03 AM &middot; San Francisco, CA<br>
+    <strong>Hour:</strong> 寅時 (Tiger Hour) &middot; 3:00&ndash;5:00 AM<br><br>
+    Year 丙子 &nbsp;|&nbsp; Month 庚寅 &nbsp;|&nbsp; Day 甲戌 &nbsp;|&nbsp; Hour 丙寅<br><br>
+    <strong>Day Master: 甲木 &mdash; Yang Wood &mdash; The Great Tree</strong><br><br>
+    Prepared with care by Sisi
+  </div>
+  <div class="cover-note">This reading is based on the ancient Chinese art of Four Pillars (BaZi / 子平八字). Offered as a mirror of your nature, timing, and potential &mdash; not fixed fate.</div>
+</div>
+<div class="content">
+
+<h1>Who You Are: The Day Master</h1>
+<span class="zh">甲木日主 &mdash;&mdash; 陽木，參天大樹，向光而生</span>
+
+<p class="lead">Your Day Master is 甲木 (Jiǎ Mù) &mdash; Yang Wood. Not a garden shrub. Not a climbing vine. You are a great towering tree: tall, straight, reaching always upward toward the light. And now that your full chart is revealed &mdash; this tree is exceptionally well-rooted, doubly expressed, and powerfully in season.</p>
+
+<p>In Four Pillars, the Day Master is the center of everything &mdash; your core nature, your deepest instincts, the element that everything else orbits. A great tree is one of the most powerful and noble Day Masters. Trees don't apologize for growing. They reach. They push through stone. They give shade freely. And once rooted, they do not move.</p>
+
+<p>Your hour pillar reveals something remarkable: you were born at 寅時 &mdash; the Tiger Hour, Wood's own hour. Your month branch is also 寅 (Tiger). <strong>Double Tiger, double 丙 Fire</strong> &mdash; the tree born at its own peak moment, carrying its own torch. This is a genuinely strong and beautiful chart.</p>
+
+<div class="pw">
+<table class="pt">
+  <thead><tr><th>Year 年柱</th><th>Month 月柱</th><th>Day 日柱 &mdash; YOU</th><th>Hour 時柱</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="stem fire">丙</div>
+        <div class="el">Bǐng &middot; Yang Fire</div>
+        <div class="role">Food God 食神</div>
+      </td>
+      <td>
+        <div class="stem metal">庚</div>
+        <div class="el">Gēng &middot; Yang Metal</div>
+        <div class="role">7-Killings 七殺</div>
+      </td>
+      <td>
+        <div class="stem wood">甲</div>
+        <div class="el">&#9733; Jiǎ &middot; Yang Wood</div>
+        <div class="role">Day Master 日主</div>
+      </td>
+      <td>
+        <div class="stem fire">丙</div>
+        <div class="el">Bǐng &middot; Yang Fire</div>
+        <div class="role">Food God 食神</div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="branch">子</div>
+        <div class="el">Zǐ &middot; Water (Rat)</div>
+        <div class="role">Proper Seal 正印</div>
+      </td>
+      <td>
+        <div class="branch">寅</div>
+        <div class="el">Yín &middot; Wood (Tiger)</div>
+        <div class="role">Parallel 比肩</div>
+      </td>
+      <td>
+        <div class="branch">戌</div>
+        <div class="el">Xū &middot; Earth (Dog)</div>
+        <div class="role">Indirect Wealth 偏財</div>
+      </td>
+      <td>
+        <div class="branch">寅</div>
+        <div class="el">Yín &middot; Wood (Tiger)</div>
+        <div class="role">Parallel 比肩</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="five-el">
+  <div class="fel fel-wood">🌿 Wood<br>Strong ★★★★★</div>
+  <div class="fel fel-fire">🔥 Fire<br>Strong ★★★★</div>
+  <div class="fel fel-water">💧 Water<br>Present ★★★</div>
+  <div class="fel fel-earth">🏔 Earth<br>Moderate ★★</div>
+  <div class="fel fel-metal">⚔ Metal<br>Pressed ★</div>
+</div>
+
+<div class="box bpurple">
+  <div class="bt">✦ The Double Tiger, Double Fire Chart &mdash; A Rare Configuration</div>
+  <p>Your chart carries two remarkable symmetries: <strong>丙 (Yang Fire) appears in both your Year and Hour stems</strong> &mdash; double Food God (食神), your primary expression star. And <strong>寅 (Tiger) appears in both your Month and Hour branches</strong> &mdash; double Wood, your own element reinforcing your Day Master from two positions.</p>
+  <p>What this means: you came with your own light. You don't wait for others to illuminate you &mdash; you generate warmth and creativity from within. The 寅戌 (Tiger-Dog) combination in your month and day pillars further generates hidden Fire. This chart <em>produces</em> &mdash; endlessly, naturally, generously.</p>
+</div>
+
+<h1>Your Chart Pattern</h1>
+<span class="zh">食神制殺格 &mdash;&mdash; 才華馴服壓力，創意化解挑戰</span>
+
+<p class="lead">Your chart forms the "Food God Subdues the Killings" pattern (食神制殺格) &mdash; one of the most admired configurations in classical BaZi. Creative force transforms challenge into achievement. Pressure becomes fuel. You are not someone who wilts under adversity; you bloom through it.</p>
+
+<p>The central dynamic: strong 甲木 Day Master, pressed by 庚金 Seven Killings (the axe that shapes the tree), and expressed through double 丙火 Food God (the torch). Fire is the output of Wood. You take the pressure, and you <em>create</em> from it. This pattern appears in the charts of artists, writers, founders, and people who build things that outlast them.</p>
+
+<h2>Five Elements in Your Chart</h2>
+<table class="dt">
+  <thead><tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Wood 木</strong></td><td>Day Master</td><td class="pos">Very Strong ★★★★★</td><td>Deep identity, clear direction, extraordinary vitality. Double Tiger roots + the Rat (子) feeding you from the year branch. You are well-nourished and well-grounded.</td></tr>
+    <tr><td><strong>Fire 火</strong></td><td>Expression 食神</td><td class="pos">Strong ★★★★</td><td>Double 丙 in year and hour stems, plus hidden fire from 寅戌 combination. Your creative expression is your defining trait &mdash; it runs through the whole chart. You light up rooms. You make things. You share.</td></tr>
+    <tr><td><strong>Water 水</strong></td><td>Resource 正印</td><td class="pos">Present ★★★</td><td>子 (Rat) in year branch is 正印 (Proper Seal) &mdash; knowledge, intuition, elder support, learning. Water nourishes the tree. Your intellectual and intuitive capacity is a genuine strength.</td></tr>
+    <tr><td><strong>Earth 土</strong></td><td>Wealth 財</td><td class="neg">Moderate ★★</td><td>戌 (Dog) in your Day Palace contains Earth &mdash; your wealth star. Modest but real. Your Day Palace wealth grows with your output: the more you create and express, the more it builds.</td></tr>
+    <tr><td><strong>Metal 金</strong></td><td>Challenge 七殺</td><td class="neg">Pressed ★</td><td>庚金 is surrounded by strong Wood and double Fire &mdash; it is present but contained. The axe that shapes the tree is controlled. This is the ideal state for 食神制殺: challenge exists, but it sharpens rather than harms.</td></tr>
+  </tbody>
+</table>
+
+<h1>Your Character in Full</h1>
+<span class="zh">性格 &mdash;&mdash; 向光而生，溫暖而力，根深而遠</span>
+
+<p>BaZi reveals how you are <em>wired</em> &mdash; the instincts you can't easily override, the things that make you unmistakably you.</p>
+
+<table class="dt">
+  <thead><tr><th>Trait</th><th>How It Shows Up</th></tr></thead>
+  <tbody>
+    <tr><td class="pos">Natural warmth &amp; radiance</td><td>Double 丙火 makes warmth your most defining quality. You don't perform it &mdash; it is you. People feel genuinely drawn to you, often without knowing why. You make spaces lighter. You make people feel seen.</td></tr>
+    <tr><td class="pos">Driven to create and express</td><td>Food God (食神) is the dominant star of your chart, appearing twice. You are compelled to make things &mdash; ideas, beauty, solutions, connections. When you're not creating, something inside you feels off. This is not restlessness; it's your chart speaking.</td></tr>
+    <tr><td class="pos">Principled integrity</td><td>Great trees grow straight. You have a strong inner compass that does not bend easily to social pressure. When something is wrong, you feel it in your bones &mdash; and you don't compromise it away quietly.</td></tr>
+    <tr><td class="pos">Intellectual depth</td><td>正印 (Proper Seal / Water) in your year branch: you are drawn to learning, to ideas, to meaning beneath the surface. Knowledge genuinely excites you. You remember things. You make connections others miss.</td></tr>
+    <tr><td class="pos">Resilience under pressure</td><td>食神制殺 means you were built to handle challenge. You've been tested. You came through. That experience left something in you &mdash; a quiet toughness that people sense without being able to name it.</td></tr>
+    <tr><td class="neg">Pride &amp; self-sufficiency</td><td>Great trees stand tall &mdash; sometimes too tall to bend. Asking for help can feel harder than it needs to be. Leaning on others is not weakness; it is how trees form a forest.</td></tr>
+    <tr><td class="neg">Over-giving</td><td>Because you radiate warmth and generate so much, people are drawn to take from you. Learning when the tree needs to rest &mdash; not to produce, just to be &mdash; is one of your most important lessons.</td></tr>
+    <tr><td class="neg">Impatience with stagnation</td><td>甲木 always grows. When circumstances feel stuck or shrinking, you feel it acutely. You need forward motion, fresh air, and space to expand. Constraint is harder on you than on most.</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">"The great tree does not ask permission to grow. It simply reaches — and in reaching, it carries light to everything below."</div>
+
+<h1>Wealth &amp; Career</h1>
+<span class="zh">才華是你最大的財富 &mdash;&mdash; 以創造換取豐盛</span>
+
+<div class="box be">
+  <div class="bt">Your Wealth Profile</div>
+  <p>Your wealth star (Earth 土) sits in your Day Palace (戌 Dog). The Dog contains three hidden elements: Fire, Metal, and Earth &mdash; complex, layered, and rich. Your financial growth is tied directly to what you express and create. The stronger your creative output, the stronger your material return. In your chart, wealth follows expression &mdash; not the other way around.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>How you earn</strong></td><td>Through your talent, your ideas, and the warmth of your presence. You are a creator and a connector &mdash; not a passive recipient. The work you put out into the world is your financial engine.</td></tr>
+    <tr><td><strong>Best environment</strong></td><td>Where creativity, warmth, and competence are all valued. You can lead, build, inspire, and create from very little. Environments that are rigid, cold, or purely transactional drain you.</td></tr>
+    <tr><td><strong>Career strengths</strong></td><td>Creative fields, communications, design, education, entrepreneurship, people-facing roles, any domain where your expression star and natural warmth become assets. Your 食神 is your career engine.</td></tr>
+    <tr><td><strong>Now (2022&ndash;2032) &#9733;</strong></td><td class="now">Your current Grand Cycle (甲午) reinforces your Day Master and activates your expression star. This is your prime decade &mdash; everything you build now, every reputation you earn, every relationship you invest in compounds powerfully into the next cycle.</td></tr>
+    <tr><td><strong>Financial peak</strong></td><td>Mid-30s through mid-40s: expression and recognition align. The work done now becomes undeniable then. Your chart's wealth builds with momentum &mdash; each year more visible than the last.</td></tr>
+  </tbody>
+</table>
+
+<h1>Love &amp; Relationships</h1>
+<span class="zh">情緣 &mdash;&mdash; 戌宮藏情，深情而完整</span>
+
+<p>For a woman in BaZi, the husband star is the element that governs her Day Master &mdash; Metal. Your Proper Officer (正官) is 辛金 (refined Metal); your Seven Killings (七殺) is 庚金 (raw Metal). Both are Metal. Your partner energy points to someone with Metal qualities: structured, decisive, reliable &mdash; someone who holds their word, who has direction, and who gives form to your energy without constraining it.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Partner type</strong></td><td>Steady, principled, reliable. Someone who follows through, who has genuine depth behind their words, who can be counted on. You are drawn to substance &mdash; not performance. You sense quickly who is real and who is not.</td></tr>
+    <tr><td><strong>What attracts you</strong></td><td>Integrity and quiet strength. Someone who doesn't need to announce themselves. Someone going somewhere meaningful, and doing it with their whole self.</td></tr>
+    <tr><td><strong>Your dynamic</strong></td><td>You bring warmth, creativity, and a radiant upward energy. The right partner brings groundedness and direction without limiting your growth. You are the torch; the right partner is the mountain that holds steady in your light.</td></tr>
+    <tr><td><strong>Marriage palace (戌)</strong></td><td>Your Day Branch (戌 Dog) is your marriage palace. 戌 contains Earth, Fire, and Metal within it &mdash; layered and complex. You love with great depth and care. When you choose someone, you choose with your whole self &mdash; fully, without reservation.</td></tr>
+    <tr><td><strong>Timing</strong></td><td>Late 20s into early 30s &mdash; your current Grand Cycle &mdash; is when relationship energy deepens and grounds in your chart. Connections made with intention in this window tend to be lasting ones.</td></tr>
+  </tbody>
+</table>
+
+<div class="box bn">
+  <div class="bt">✦ Preston &amp; Sophia: Compatibility Reading</div>
+  <div class="compat">
+    <div class="cs">
+      <div class="ct">Sophia — 甲木 The Great Tree 🌸</div>
+      Yang Wood · Strong, upward, expressive<br>
+      Double Food God (丙) · Expression star dominant<br>
+      Food God Subdues Killing pattern<br>
+      Driven by creativity, warmth, integrity<br>
+      Lights up every room she enters<br>
+      <strong>Husband star: Metal (structure, principle)</strong>
+    </div>
+    <div class="cp">
+      <div class="ct">Preston — 戊土 The Mountain 🏔</div>
+      Yang Earth · Solid, patient, principled<br>
+      Correct Officer pattern (integrity-driven)<br>
+      Wealth star (Water) rooted in chart<br>
+      Driven by reliability &amp; long-term depth<br>
+      Still, steady, enduring under pressure<br>
+      <strong>Wife star: Water (intelligence, independence)</strong>
+    </div>
+  </div>
+  <p><strong>The BaZi Reading:</strong> Wood's roots grow into Earth &mdash; and Earth is what gives the tree something to stand on. Sophia's chart shows Preston's Earth element as her 偏財 (Indirect Wealth) &mdash; indicating strong attraction, dynamic pull, and a relationship that energizes her. Preston's Water wealth star functions as Sophia's 正印 (Proper Seal) &mdash; nourishing her mind and supporting her growth.</p>
+  <p>A tree grows most powerfully from solid ground. A mountain comes alive when something grows from it. There is a natural complementarity here: her warmth and upward drive, his steadiness and depth. Neither diminishes the other. Each gives the other something real.</p>
+  <p><strong>Shared element: Hidden Fire.</strong> Preston's hidden wisdom Fire (in 戌 Dog) and Sophia's chart-generated Fire (double 丙, 寅戌 combine) resonate on the same frequency. There is a warmth between them that runs deeper than circumstance &mdash; it's written in the elements.</p>
+  <p><strong>Year harmony:</strong> Preston born 乙亥 (Wood Pig year) &mdash; 乙木 is Sophia's companion element. His year energy nurtures and supports her nature directly. She in turn carries the Fire (丙) that expresses what his Earth produces. They complete a natural cycle.</p>
+</div>
+
+<h1>Children</h1>
+<span class="zh">子嗣 &mdash;&mdash; 時柱丙寅，子女宮溫暖有光</span>
+
+<p>Your Hour Pillar (丙寅) is your Children's Palace in BaZi &mdash; and it is one of the most beautifully aspected in your chart. 丙火 (Food God) in the hour stem speaks to children who carry your warmth and expressiveness. 寅木 in the hour branch reflects vitality and a natural connection between you and your children.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Children's energy</strong></td><td>Warm, expressive, creative &mdash; children who carry your light. The 食神 in the children's palace is a classic sign of a genuinely nurturing parent-child bond.</td></tr>
+    <tr><td><strong>Bond</strong></td><td>The parent-child relationship will be one of your deepest and most natural connections. You will give warmth freely and instinctively. Your children will feel seen by you in ways that matter.</td></tr>
+    <tr><td><strong>Timing</strong></td><td>Mid-to-late 30s is when the children's energy activates most naturally in your chart. The foundation you are building now &mdash; relationally and materially &mdash; is what you will pass forward.</td></tr>
+  </tbody>
+</table>
+
+<h1>Health &amp; Well-being</h1>
+<span class="zh">健康 &mdash;&mdash; 肝膽護養，保持流動，勿過勞</span>
+
+<p>In Five Element medicine, Wood governs the <strong>liver and gallbladder</strong>. A strong Wood chart with double Fire output means these systems carry enormous energy &mdash; and under sustained stress, they are where your body first registers the cost.</p>
+
+<table class="dt">
+  <thead><tr><th>Area</th><th>Guidance</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Liver energy</strong></td><td>Stress, repressed frustration, and overwork show in your liver meridian first. Movement, fresh air, and genuine emotional expression are your most effective health practices. What you don't express outwardly, your liver absorbs.</td></tr>
+    <tr><td><strong>Keep moving</strong></td><td>Wood energy flows upward and outward. When you stay still too long &mdash; physically or emotionally &mdash; you stagnate. Exercise, nature, and creative outlets are not luxuries for your chart; they are medicine.</td></tr>
+    <tr><td><strong>Fire management</strong></td><td>Double 丙 Fire means you burn bright &mdash; and burning bright costs something. Watch for burnout: the tree that gives too much shade without rest eventually thins at the crown. Schedule genuine rest, not just efficient recovery.</td></tr>
+    <tr><td><strong>Strong constitution</strong></td><td>Strong Wood charts have remarkable vitality and bounce-back ability. The risk is not fragility &mdash; it's overdrawing from a deep well without refilling it. Tend yourself with the same generosity you extend to others.</td></tr>
+  </tbody>
+</table>
+
+<div class="box bg">
+  <div class="bt">Your Natural Blessing</div>
+  <p>A great tree in its season is one of the most vital and generous forces in nature. Your chart has beautiful structural health: Water feeds you (子), Wood roots you (double 寅), and Fire expresses you (double 丙). Take care of the liver, keep moving, keep creating &mdash; and this constitution will carry you with strength and warmth for a very long time.</p>
+</div>
+
+<h1>Your Life Journey &mdash; Grand Cycles</h1>
+<span class="zh">一生大運 &mdash;&mdash; 人生的十年節奏</span>
+
+<p>BaZi maps life in 10-year Grand Cycles (大運). Each decade carries a different energy and opportunity. Here is Sophia's arc:</p>
+
+<div class="tl"><div class="tl-yr">Ages 0&ndash;6<br>(1996&ndash;2002)</div><div class="tl-gz">辛卯</div><div class="tl-desc"><strong>Taking root.</strong> 辛金 (Proper Officer) &mdash; even in early childhood, a sense of doing things correctly. 卯木 nourishes your Day Master. A structured, learning-oriented beginning. Formative bonds with family are strong.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 6&ndash;16<br>(2002&ndash;2012)</div><div class="tl-gz">壬辰</div><div class="tl-desc"><strong>Learning and expanding.</strong> 壬水 (Proper Seal) runs &mdash; excellent for education, mentorship, and intellectual development. Your mind opens widely. Teachers and mentors matter greatly. This is when your intellectual foundation is laid. A decade of genuine growth in knowledge and inner life.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 16&ndash;26<br>(2012&ndash;2022)</div><div class="tl-gz">癸巳</div><div class="tl-desc"><strong>Identity and expression.</strong> 癸水 continues the resource/seal energy; 巳火 activates expression (Hurting Officer). You discover your voice. Your creativity finds form. Who you are begins to become what you do. A decade of emergence, some challenge, and the first shaping of your own path.</div></div>
+
+<div class="tl tn"><div class="tl-yr">Ages 26&ndash;36<br>(2022&ndash;2032) &#9733; NOW</div><div class="tl-gz">甲午</div><div class="tl-desc"><strong>Your prime decade.</strong> 甲木 (Parallel) directly reinforces your Day Master; 午火 (Hurting Officer) fires up your expression. Your element is fully in season. Career, relationships, creative output, personal power &mdash; all are at their most active. <strong>This is your decade of building. Everything you invest in now &mdash; with your whole self &mdash; compounds powerfully. The tree is at full height.</strong></div></div>
+
+<div class="tl"><div class="tl-yr">Ages 36&ndash;46<br>(2032&ndash;2042)</div><div class="tl-gz">乙未</div><div class="tl-desc"><strong>Harvest and recognition.</strong> 乙木 companion energy sustains momentum; 未土 (Indirect Wealth) consolidates material gains. The recognition you earned in your 30s arrives in full. Financial reward and creative authority compound visibly. A decade of reaping what you've sown.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 46&ndash;56<br>(2042&ndash;2052)</div><div class="tl-gz">丙申</div><div class="tl-desc"><strong>Authority and influence.</strong> 丙火 (Food God) runs at full force at the stem level &mdash; your creative expression reaches peak influence. 申金 brings officer energy back &mdash; structure and authority to match your creative power. A decade of high-level impact.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 56+<br>(2052+)</div><div class="tl-gz">丁酉&nbsp;/&nbsp;戊戌</div><div class="tl-desc"><strong>Wisdom and elder grace.</strong> The great tree in harvest. Respected, warm, surrounded by what and who you have grown. Your light becomes quieter and deeper. You become the person others come to for what is real. A life grown tall and true.</div></div>
+
+<h1>2026&ndash;2027 Spotlight</h1>
+<span class="zh">未來兩年 &mdash;&mdash; 對你的特別影響</span>
+
+<div class="box bg">
+  <div class="bt">2026 (丙午 &mdash; Year of the Fire Horse) &mdash; Peak Expression Year</div>
+  <p>丙火 is your Food God (expression star) &mdash; and the year energy in 2026 is 丙午, combining your expression star stem with an 午火 (午 is Hurting Officer) branch. This <em>triples down</em> on your already-double-Fire chart energy. <strong>2026 is one of the most energized years of your current Grand Cycle.</strong> Everything creative, expressive, and forward-moving is amplified. Put your work out. Take the visible step. Launch. Build. Let yourself be seen. This year's energy is made for exactly who you are.</p>
+</div>
+
+<div class="box bn">
+  <div class="bt">2027 (丁未 &mdash; Year of the Fire Goat) &mdash; Depth and Grounding</div>
+  <p>丁火 (Hurting Officer) brings a more introspective creative current. 未土 activates wealth and harmonizes with your 戌 Day Palace (未戌相刑 &mdash; productive tension, prompting resolution and growth). Relationships that began in 2026 deepen and solidify in 2027. <strong>What you built creatively and relationally in 2026 becomes real and lasting in 2027.</strong> A year of meaningful consolidation.</p>
+</div>
+
+<div class="quote">"The tree that has weathered many winters grows the most beautiful rings. Every season of growth is written into the wood — and it shows in the shade it gives."</div>
+
+<div class="closing">
+  <p><strong>About This Reading:</strong> This report is based on the Four Pillars of Destiny (子平八字 BaZi). Chart calculated using San Francisco local time (PST, UTC&minus;8) for hour pillar. Offered as a framework for self-understanding &mdash; not fixed fate. Your choices shape your life; BaZi reveals the terrain you walk.</p>
+  <p><strong>Eight Characters (八字):</strong> 丙庚甲丙 &nbsp;/&nbsp; 子寅戌寅 &nbsp;&middot;&nbsp; Day Master: 甲木 (Yang Wood)</p>
+  <p><strong>Prepared by:</strong> Sisi (詩詩) &middot; March 2026 &middot; <em>With warmth and care.</em></p>
+</div>
+</div>
+</div>
+</body>
+</html>

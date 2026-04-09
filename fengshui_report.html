@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>譚氏家族墓地風水分析報告</title>
+<style>
+  @page { size: letter portrait; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Noto Serif TC', Georgia, 'Times New Roman', serif;
+    background: #fff; color: #1a1208; font-size: 10pt; line-height: 1.75; width: 8.5in;
+  }
+  .page { width: 8.5in; background: #fff; padding: 0.58in 0.62in 0.5in 0.62in; }
+
+  /* Header */
+  .cover-header { text-align:center; border-bottom:2.5pt double #7a4f00; padding-bottom:10pt; margin-bottom:14pt; }
+  .main-title { font-size:20pt; font-weight:700; color:#4a2800; letter-spacing:4pt; margin-bottom:3pt; }
+  .sub-title { font-size:11pt; color:#7a5c1e; font-style:italic; margin-bottom:4pt; }
+  .cover-meta { font-size:8.5pt; color:#9a7a40; letter-spacing:1pt; }
+
+  /* Sections */
+  .section { margin-bottom:12pt; page-break-inside:avoid; }
+  .section-title { font-size:10.5pt; font-weight:700; color:#4a2800; background:#fdf6e3; border-left:4pt solid #c8960c; padding:4.5pt 8pt 4.5pt 11pt; margin-bottom:7pt; letter-spacing:0.5pt; }
+  .section-body { padding:0 3pt; }
+
+  /* Info Table */
+  .info-t { display:table; width:100%; margin-bottom:6pt; }
+  .info-r { display:table-row; }
+  .info-lbl { display:table-cell; width:88pt; font-size:8.5pt; font-weight:700; color:#7a4f00; padding:2.5pt 4pt 2.5pt 0; border-bottom:0.5pt dotted #e0d098; vertical-align:top; }
+  .info-val { display:table-cell; font-size:9.5pt; color:#1a1208; padding:2.5pt 0; border-bottom:0.5pt dotted #e0d098; vertical-align:top; }
+  .info-val.b { font-weight:700; color:#3a1800; }
+
+  /* Terrain */
+  .terrain-box { background:#f5fbf0; border:1pt solid #5a8a3a; border-radius:3pt; padding:9pt 12pt; margin-bottom:8pt; }
+  .t-row { display:table; width:100%; margin-bottom:5pt; font-size:9pt; }
+  .t-icon { display:table-cell; width:18pt; vertical-align:top; font-size:12pt; }
+  .t-lbl { display:table-cell; width:72pt; font-weight:700; color:#2a5a10; vertical-align:top; }
+  .t-desc { display:table-cell; color:#1a3a08; vertical-align:top; line-height:1.6; }
+
+  /* Plot diagram */
+  .plot-wrap { border:1.5pt solid #8b6914; border-radius:4pt; padding:9pt 10pt; background:#fdf8ed; text-align:center; margin-bottom:9pt; }
+  .dir-label { font-size:8.5pt; font-weight:700; color:#5a3a00; letter-spacing:0.5pt; }
+  .wall-bar { font-size:7.5pt; color:#444; background:#ddd; padding:2.5pt 0; border-radius:2pt; margin:5pt 0; }
+  .plot-line { display:table; margin:0 auto 5pt; }
+  .pc { display:table-cell; vertical-align:top; padding:0 1.5pt; text-align:center; }
+  .hs { font-size:7pt; color:#5a3a00; background:#e8d898; border:0.5pt solid #c8960c; border-radius:2pt; padding:2pt 3pt; margin-bottom:2pt; white-space:nowrap; }
+  .pb { width:72pt; height:48pt; border:1.5pt solid #8b6914; border-radius:3pt; display:table; margin:0 auto; background:#fffdf5; }
+  .pi { display:table-cell; vertical-align:middle; text-align:center; line-height:1.4; padding:2pt; }
+  .pg { font-size:7pt; color:#8b6914; }
+  .pn { font-size:9pt; font-weight:700; }
+  .pp { font-size:7.5pt; }
+  .psep { display:table-cell; vertical-align:middle; font-size:14pt; color:#c8a04a; padding-top:14pt; }
+  .pb-mabel  { border-color:#1a4a8a; background:#f0f4ff; color:#1a3a6a; }
+  .pb-ken    { border-color:#1a4a8a; background:#e8f0ff; color:#1a3a6a; }
+  .pb-mother { border-color:#8b2060; background:#fff0f5; color:#6a1040; }
+  .pb-father { border-color:#2a5a2a; background:#f0f8f0; color:#1a4a1a; }
+  .pb-jeannie{ border-color:#5a4a00; background:#fff8e0; color:#4a3800; }
+  .pb-kit    { border-color:#5a0050; background:#fef0fe; color:#4a0040; }
+  .plot-legend { font-size:7.5pt; color:#7a5c1e; margin-top:5pt; }
+
+  /* Person cards */
+  .pcard { border:1pt solid #d4b870; border-radius:4pt; padding:8pt 11pt; margin-bottom:10pt; background:#fffdf5; page-break-inside:avoid; }
+  .ph { display:table; width:100%; border-bottom:0.75pt solid #e8d898; padding-bottom:5pt; margin-bottom:6pt; }
+  .ph-left { display:table-cell; vertical-align:middle; }
+  .ph-name { font-size:12pt; font-weight:700; color:#3a1800; }
+  .ph-info { font-size:8.5pt; color:#7a5c1e; margin-top:1pt; }
+  .ph-right { display:table-cell; text-align:right; vertical-align:middle; white-space:nowrap; }
+  .ph-stars { font-size:14pt; color:#c8960c; }
+  .ph-rlbl { font-size:7.5pt; color:#9a7a40; display:block; }
+  .two { display:table; width:100%; }
+  .tc { display:table-cell; width:50%; vertical-align:top; padding-right:8pt; font-size:9pt; line-height:1.6; }
+  .tc:last-child { padding-right:0; padding-left:8pt; border-left:0.5pt dotted #e8d898; }
+  .tc-lbl { font-size:8pt; font-weight:700; color:#7a5c1e; margin-bottom:2pt; letter-spacing:0.5pt; display:block; }
+  ul.bl { padding-left:12pt; }
+  ul.bl li { margin-bottom:2pt; }
+  .g { color:#1a5a1a; } .w { color:#7a3a00; } .n { color:#333; }
+
+  /* Boxes */
+  .gbox { background:#f0f8f0; border:1pt solid #3a7a3a; border-radius:3pt; padding:7pt 10pt; font-size:9pt; margin-bottom:8pt; }
+  .gbox .bt { font-weight:700; color:#1a5a1a; margin-bottom:4pt; font-size:9.5pt; }
+  .gbox ul { padding-left:13pt; color:#1a4a1a; }
+  .gbox li { margin-bottom:2.5pt; }
+  .ybox { background:#fff9e6; border:1pt solid #c8960c; border-radius:3pt; padding:7pt 10pt; font-size:9pt; margin-bottom:8pt; }
+  .ybox .bt { font-weight:700; color:#5a3a00; margin-bottom:4pt; font-size:9.5pt; }
+  .ybox ul { padding-left:13pt; }
+  .ybox li { margin-bottom:2.5pt; }
+
+  /* Summary table */
+  table.sum { width:100%; border-collapse:collapse; font-size:8.5pt; margin-top:4pt; }
+  table.sum th { background:#6a4000; color:#fff; padding:5pt 7pt; text-align:left; font-weight:700; font-size:8pt; }
+  table.sum td { padding:5pt 7pt; border-bottom:0.5pt solid #ede5c8; vertical-align:middle; }
+  table.sum tr:nth-child(even) td { background:#fdf8ed; }
+  .ss { color:#c8960c; font-size:11pt; }
+
+  /* Footer */
+  .footer { margin-top:14pt; border-top:2pt double #8b6914; padding-top:7pt; text-align:center; font-size:7.5pt; color:#9a7a40; line-height:1.9; }
+  .pb-page { page-break-before:always; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<div class="cover-header">
+  <div class="main-title">譚氏家族墓地風水分析報告</div>
+  <div class="sub-title">Woodlawn Memorial Park · Colma, California · 坐丁向癸</div>
+  <div class="cover-meta">八字相性 · 地形巒頭 · 六人個人分析 · 丙午年三月 · 九運</div>
+</div>
+
+<!-- 一、基本資料 -->
+<div class="section">
+  <div class="section-title">一、墓地基本資料</div>
+  <div class="section-body">
+    <div class="info-t">
+      <div class="info-r"><span class="info-lbl">墓園</span><span class="info-val b">Woodlawn Memorial Park，科爾馬（Colma），加州</span></div>
+      <div class="info-r"><span class="info-lbl">坐向</span><span class="info-val b">坐丁向癸 — 坐山：丁方 ≈195°（SSW）；向首：癸方 ≈15°（NNE）</span></div>
+      <div class="info-r"><span class="info-lbl">穴位安排</span><span class="info-val">六穴並排一行，三對夫妻；各對共用一塊墓碑（三碑）</span></div>
+      <div class="info-r"><span class="info-lbl">男女排列</span><span class="info-val">訪客視角（面向墓碑）：女左男右；風水視角（面向癸方）：男左（青龍）女右（白虎）</span></div>
+      <div class="info-r"><span class="info-lbl">安葬日期</span><span class="info-val b">2026年3月30日（星期一）癸亥日 · 入土：11:30–11:50 AM PDT（午時）</span></div>
+      <div class="info-r"><span class="info-lbl">年運</span><span class="info-val">丙午年（2026）· 九運（Period 9，2024–2043）· 離卦主南，文明旺氣當令</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 二、佈局圖 -->
+<div class="section">
+  <div class="section-title">二、六穴佈局圖</div>
+  <div class="section-body">
+    <div class="plot-wrap">
+      <div class="dir-label">↑ 坐丁方（SSW ≈195°）· 後靠山丘 · 墓碑在此端</div>
+      <div class="wall-bar">▓ 石砌擋土牆 · 牆後坡地持續上升 · 密植常綠喬木（玄武靠山）▓</div>
+      <div class="plot-line">
+        <div class="pc">
+          <div class="hs">Mabel &amp; Ken 墓碑</div>
+          <div class="pb pb-mabel"><div class="pi"><span class="pg">♀</span><br><span class="pn">Mabel</span><br><span class="pp">辛丑 金牛</span></div></div>
+        </div>
+        <div class="psep">|</div>
+        <div class="pc">
+          <div class="hs" style="visibility:hidden">x</div>
+          <div class="pb pb-ken"><div class="pi"><span class="pg">♂</span><br><span class="pn">Ken</span><br><span class="pp">癸卯 水兔</span></div></div>
+        </div>
+        <div class="psep" style="padding:0 4pt;font-size:10pt;">‖</div>
+        <div class="pc">
+          <div class="hs">Mother &amp; Father ✚</div>
+          <div class="pb pb-mother"><div class="pi"><span class="pg">♀</span><br><span class="pn">Mother</span><br><span class="pp">壬午 水馬</span></div></div>
+        </div>
+        <div class="psep">|</div>
+        <div class="pc">
+          <div class="hs" style="visibility:hidden">x</div>
+          <div class="pb pb-father"><div class="pi"><span class="pg">♂</span><br><span class="pn">Father</span><br><span class="pp">丙子 火鼠</span></div></div>
+        </div>
+        <div class="psep" style="padding:0 4pt;font-size:10pt;">‖</div>
+        <div class="pc">
+          <div class="hs">Jeannie &amp; Kit 墓碑</div>
+          <div class="pb pb-jeannie"><div class="pi"><span class="pg">♀</span><br><span class="pn">Jeannie</span><br><span class="pp">壬寅 水虎</span></div></div>
+        </div>
+        <div class="psep">|</div>
+        <div class="pc">
+          <div class="hs" style="visibility:hidden">x</div>
+          <div class="pb pb-kit"><div class="pi"><span class="pg">♂</span><br><span class="pn">Kit</span><br><span class="pp">甲午 木馬</span></div></div>
+        </div>
+      </div>
+      <div class="dir-label">↓ 向癸方（NNE ≈15°）· 明堂草地 · 噴水池 · 開闊視野</div>
+      <div class="plot-legend">訪客面向墓碑方向：Mabel（最左）→ Kit（最右） ‖ 為夫妻分隔</div>
+    </div>
+  </div>
+</div>
+
+<!-- 三、地形總評 -->
+<div class="section">
+  <div class="section-title">三、地形風水總評（巒頭）</div>
+  <div class="section-body">
+    <div class="terrain-box">
+      <div class="t-row"><span class="t-icon">🏔</span><span class="t-lbl">玄武（後靠）</span><span class="t-desc">石砌擋土牆 + 牆後草坡上升 + 坡頂密植常綠喬木，後山層疊厚實。玄武托靠極佳，主後代穩固、根基深厚。<br><strong class="g">評：★★★★★ 頂級靠山，力量雄厚</strong></span></div>
+      <div class="t-row"><span class="t-icon">🌅</span><span class="t-lbl">朱雀（明堂）</span><span class="t-desc">穴前草地緩坡 → 石板步道 → 繼續開闊下延，明堂三層，氣場聚而有情。前方開闊無阻，利財氣聚集。<br><strong class="g">評：★★★★ 明堂寬廣，氣聚財旺</strong></span></div>
+      <div class="t-row"><span class="t-icon">⛲</span><span class="t-lbl">水法（水景）</span><span class="t-desc">向首癸方前方有噴水池（水聚明堂格局），向癸本身屬水，再加人工噴泉，水法雙重加持。財星入穴，丁財兩旺之象。<br><strong class="g">評：★★★★★ 水聚明堂，財源廣進</strong></span></div>
+      <div class="t-row" style="margin-bottom:0"><span class="t-icon">🐉</span><span class="t-lbl">龍虎護砂</span><span class="t-desc">墓區處於山坡臺地，地勢自然形成左右護砂，環抱有情。整體地形符合「枕山、環水、面屏」三要素。<br><strong class="g">評：★★★★ 護砂有情，左右平衡</strong></span></div>
+    </div>
+    <div class="gbox">
+      <div class="bt">✅ 巒頭綜合評級：★★★★★ 上吉之地</div>
+      <ul>
+        <li>「巒頭為體，理氣為用」——本穴巒頭上乘（後山前水），地形力量遠超方位理氣的細微差異。</li>
+        <li>坐丁向癸雖非九運最旺之向，但地形優勢充分補足，整體評級優良。</li>
+        <li>Woodlawn Memorial Park 地處 Colma 丘陵地帶，天然地脈充沛，為灣區少見的優質風水地。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE BREAK -->
+<div class="pb-page"></div>
+
+<!-- 四、坐丁向癸分析 -->
+<div class="section">
+  <div class="section-title">四、坐丁向癸 方位能量分析</div>
+  <div class="section-body">
+    <div class="gbox">
+      <div class="bt">✅ 坐丁向癸核心吉應</div>
+      <ul>
+        <li><strong>坐丁（SSW）</strong>：丁為陰火，溫暖穩定，坐山有力，後人文昌運旺，利讀書考試、事業晉升。</li>
+        <li><strong>向癸（NNE）</strong>：癸為陰水，水主財，向首得水氣，財源滾滾，後人理財有道。</li>
+        <li><strong>子午不沖</strong>：坐丁（195°）≠ 正午（180°），向癸（15°）≠ 正子（0°），有效規避父親（水鼠）與母親（水馬）之子午相沖。</li>
+        <li><strong>九運相配</strong>：丙午年九運，離火當令，丁方鄰近南火，坐山得九運旺氣支持。</li>
+        <li><strong>癸水潤木</strong>：向癸水氣流入，對家中屬木（兔、虎）命格的成員尤為有利，水生木之吉象。</li>
+      </ul>
+    </div>
+    <div class="ybox">
+      <div class="bt">⚠️ 方位注意點</div>
+      <ul>
+        <li>坐丁向癸在九運理氣中屬中吉之向（非最旺），但實際堪輿「巒頭優先」，地形已充分補足。</li>
+        <li>此向為墓園可提供之最佳選擇，已由風水師確認，接受度高。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 五、六人分析 -->
+<div class="section">
+  <div class="section-title">五、六位家族成員個人風水相性分析</div>
+  <div class="section-body">
+
+    <!-- FATHER -->
+    <div class="pcard" style="border-color:#2a5a2a;background:#f8fdf8;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#1a4a1a;">父親（先人）</div>
+          <div class="ph-info">1936年7月14日生 · 2026年3月8日辭世 · 年柱：丙子（火鼠）· 月柱：己未 · 日柱：己丑</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★☆☆</span><span class="ph-rlbl">與坐丁向癸相性：中吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐀 年命吉應（丙子 · 水鼠）</span>
+          <ul class="bl">
+            <li><strong class="g">向癸扶子</strong>：癸水向首直接滋養「子」（水鼠）年命，同氣相扶，命格與穴位高度契合。</li>
+            <li><strong class="g">坐丁護命</strong>：坐山丁火溫暖，丁與父親年干丙（同為火）為同類，坐山不剋命格。</li>
+            <li><strong class="g">亥子丑水局</strong>：入土日癸亥，加上子年（父親）與丑日（父親日柱），三合水局圓滿。</li>
+            <li><strong class="g">後山庇蔭</strong>：玄武靠山厚實，主後人穩固，父親精神得安頓。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">⚠️ 注意事項</span>
+          <ul class="bl">
+            <li><strong class="w">月柱己未</strong>：未為土羊，未與丑（日柱）相沖，在方位上有輕微影響，但穴位地形吉，能化解。</li>
+            <li><strong class="w">母親（馬）</strong>：父（鼠）母（馬）子午有象，已以獨立穴位分隔，為妥善解決方案。</li>
+            <li><strong class="n">評語</strong>：坐丁向癸對父親年命屬「中吉」，入土癸亥日大吉，整體安葬安排圓滿。父親安息此地，後人定得庇蔭。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOTHER -->
+    <div class="pcard" style="border-color:#8b2060;background:#fff8fb;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#6a1040;">母親</div>
+          <div class="ph-info">1942年4月26日生（在世）· 年柱：壬午（水馬）· 月柱：戊辰 · 預留穴位</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★☆☆</span><span class="ph-rlbl">與坐丁向癸相性：中吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐴 年命吉應（壬午 · 水馬）</span>
+          <ul class="bl">
+            <li><strong class="g">坐丁護午</strong>：丁火（坐山）與午（馬·火）同氣，坐山能量支持母親命格，午日有丁火呼應。</li>
+            <li><strong class="g">壬癸同源</strong>：母親年干壬，向首為癸，壬癸皆水，同源相親，向首對母親年干有親和力。</li>
+            <li><strong class="g">獨立穴位</strong>：父母各自獨立穴位，子午相沖之憂已化解，母親安葬不受影響。</li>
+            <li><strong class="g">月柱戊辰</strong>：辰中藏癸，向癸方與母親月柱藏干相合，隱含深層親和。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">⚠️ 注意事項</span>
+          <ul class="bl">
+            <li><strong class="w">本命年（2026）</strong>：丙午年為母親本命年（馬年），全年務必佩戴紅色飾物，增強個人運氣防護。</li>
+            <li><strong class="w">子午相沖化解</strong>：父母分別安葬於獨立穴位（共用墓碑為象徵），地下能量不合並，子午沖已妥善處理。</li>
+            <li><strong class="n">評語</strong>：此穴對母親屬中吉，配合獨立穴位設計及本命年防護，母親未來安葬此地安心妥善。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- KEN -->
+    <div class="pcard" style="border-color:#1a4a8a;background:#f5f8ff;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#1a3a6a;">Ken</div>
+          <div class="ph-info">1963年6月26日生（在世）· 年柱：癸卯（水兔）· 月柱：壬午 · 預留穴位</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★★★</span><span class="ph-rlbl">與坐丁向癸相性：極吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐇 年命吉應（癸卯 · 水兔）</span>
+          <ul class="bl">
+            <li><strong class="g">年干癸 ＝ 向癸</strong>：Ken 年干為癸，向首亦為癸方，命與向相應，謂「命與向合」，極為罕見之吉象。</li>
+            <li><strong class="g">水生木</strong>：向癸（水）滋養卯（兔·木），水生木，命格得向首水氣持續滋潤，生旺有力。</li>
+            <li><strong class="g">木生火</strong>：Ken 屬木（兔），坐丁屬火，木生火，Ken 的命氣反過來支撐坐山，形成良性循環。</li>
+            <li><strong class="g">月柱壬午</strong>：壬午月，壬與向癸同源（皆水），午與坐丁同氣（皆火），月柱與穴位坐向雙雙呼應，極為難得。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">✅ 綜合評語</span>
+          <ul class="bl">
+            <li><strong class="g">全方位最佳配合</strong>：六人之中，Ken 與坐丁向癸的相性最高，年干、月柱、生肖三重契合。</li>
+            <li><strong class="g">丁火文昌</strong>：坐山丁火主文昌，兔木遇火，事業學問皆旺。</li>
+            <li><strong class="g">水聚財星</strong>：向癸引水，水兔本命得財星入局，財運持續有利。</li>
+            <li><strong class="n">評語</strong>：此穴對 Ken 屬最高相性，乃家族成員中最受此地庇蔭者，子孫後代亦同得此地之福。</li>
+          </ul>
+        </div>      </div>
+    </div>
+
+    <!-- MABEL -->
+    <div class="pcard" style="border-color:#8b4a00;background:#fffaf5;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#6a3000;">Mabel</div>
+          <div class="ph-info">1961年12月20日生（在世）· 年柱：辛丑（金牛）· 月柱：壬子 · 預留穴位</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★★☆</span><span class="ph-rlbl">與坐丁向癸相性：吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐂 年命吉應（辛丑 · 金牛）</span>
+          <ul class="bl">
+            <li><strong class="g">癸藏丑中</strong>：丑之藏干含「癸辛己」，向首癸方正是丑中本有的元素，向癸對 Mabel 有天然親和力，謂「向與藏干相應」。</li>
+            <li><strong class="g">火生土</strong>：坐丁（火）生丑（土），坐山火氣滋養 Mabel 的牛土命格，坐山對命格有生旺之力。</li>
+            <li><strong class="g">丁壬合</strong>：Mabel 月柱壬子，月干壬與坐山丁形成「丁壬合」，月柱與坐山合化，和諧共鳴。</li>
+            <li><strong class="g">月柱壬子</strong>：壬子月，壬與向癸同源（水），子與父親子年呼應，月柱與穴位多重呼應。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">✅ 綜合評語</span>
+          <ul class="bl">
+            <li><strong class="g">隱藏吉象豐富</strong>：表面上牛（土）與水的互動需注意，但深層藏干與月柱合化，抵消潛在憂慮。</li>
+            <li><strong class="g">金生水</strong>：辛（金牛）金生向癸水，Mabel 的命氣反過來助生向首，命穴相互支持。</li>
+            <li><strong class="n">評語</strong>：Mabel 與此穴相性屬吉，隱藏吉象豐富，安葬此地定得安康。與 Ken 同葬一區，夫妻命格互補，相輔相成。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- JEANNIE -->
+    <div class="pcard" style="border-color:#5a4a00;background:#fffde8;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#4a3800;">Jeannie（姐姐）</div>
+          <div class="ph-info">1962年3月26日生（在世）· 年柱：壬寅（水虎）· 月柱：癸卯 · 預留穴位</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★★★</span><span class="ph-rlbl">與坐丁向癸相性：極吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐯 年命吉應（壬寅 · 水虎）</span>
+          <ul class="bl">
+            <li><strong class="g">丁壬合（年干）</strong>：Jeannie 年干為壬，坐山為丁，丁壬相合，年干直接與坐山合化，乃六人之中最強的坐山配合。此合謂「命與坐合」，極為吉祥。</li>
+            <li><strong class="g">水生木</strong>：向癸（水）滋養寅（虎·木），水生木，命格得向首持續滋養。</li>
+            <li><strong class="g">木生火</strong>：虎（木）生坐丁（火），Jeannie 命氣支撐坐山，與 Ken（兔·木）同樣形成良性循環。</li>
+            <li><strong class="g">月柱癸卯</strong>：月干癸與向首癸方完全相同，「月干與向相應」，月柱與穴位直接呼應，吉上加吉。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">✅ 綜合評語</span>
+          <ul class="bl">
+            <li><strong class="g">與 Ken 並列最佳</strong>：Jeannie（壬寅）的「年干丁壬合」甚至比 Ken 的「年干癸向相應」更直接，兩人並列六人最高相性。</li>
+            <li><strong class="g">水木循環</strong>：水虎命格與向癸水、坐丁火形成完美五行流通，生機旺盛。</li>
+            <li><strong class="n">評語</strong>：此穴對 Jeannie 屬最高相性，是家中最受此地庇蔭的女性成員。與父親（丙子 火鼠）之間子寅和諧，無沖剋，善緣深厚。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- KIT -->
+    <div class="pcard" style="border-color:#5a0050;background:#fef8fe;">
+      <div class="ph">
+        <div class="ph-left">
+          <div class="ph-name" style="color:#4a0040;">Kit（姐夫）</div>
+          <div class="ph-info">1954年7月21日生（在世）· 年柱：甲午（木馬）· 月柱：丁未 · 預留穴位</div>
+        </div>
+        <div class="ph-right"><span class="ph-stars">★★★☆☆</span><span class="ph-rlbl">與坐丁向癸相性：中吉</span></div>
+      </div>
+      <div class="two">
+        <div class="tc">
+          <span class="tc-lbl">🐴 年命吉應（甲午 · 木馬）</span>
+          <ul class="bl">
+            <li><strong class="g">甲木生丁火</strong>：年干甲（木）生坐山丁（火），Kit 命氣支撐坐山，有貢獻之義，坐山對他是「食傷」關係，主才藝展現。</li>
+            <li><strong class="g">水生甲木</strong>：向癸水生甲木（Kit 年干），向首水氣滋養命格，命格得生旺。</li>
+            <li><strong class="g">月柱丁未</strong>：月干丁與坐山丁相同，月干「伏吟」坐山，有強烈的坐山共鳴，主穩定扎根之象。</li>
+          </ul>
+        </div>
+        <div class="tc">
+          <span class="tc-lbl">⚠️ 注意事項</span>
+          <ul class="bl">
+            <li><strong class="w">午與癸</strong>：午（馬·火）受向首癸（水）所制，水克火，有輕微的向首壓制效應，但屬時辰層面（輕微）。</li>
+            <li><strong class="w">同為馬年</strong>：母親（壬午）與 Kit（甲午）同屬馬年，兩馬同在墓區，「午午自刑」有輕微考量，但獨立穴位可化解大部分影響。</li>
+            <li><strong class="n">評語</strong>：Kit 與此穴屬中吉，甲木生丁、水生甲木的五行流通流暢，輕微的午受癸制屬可接受範圍，整體安葬安心妥善。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- section-body -->
+</div>
+
+<!-- PAGE BREAK -->
+<div class="pb-page"></div>
+
+<!-- 六、綜合評分表 -->
+<div class="section">
+  <div class="section-title">六、六人相性綜合評分表</div>
+  <div class="section-body">
+    <table class="sum">
+      <thead>
+        <tr>
+          <th>成員</th>
+          <th>生日</th>
+          <th>年柱</th>
+          <th>關鍵吉應</th>
+          <th>評分</th>
+          <th>備注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>父親（先人）</strong></td>
+          <td>1936-07-14</td>
+          <td>丙子 火鼠</td>
+          <td>向癸扶子，亥子丑水局</td>
+          <td><span class="ss">★★★</span></td>
+          <td>安葬日期極佳，整體圓滿</td>
+        </tr>
+        <tr>
+          <td><strong>母親</strong></td>
+          <td>1942-04-26</td>
+          <td>壬午 水馬</td>
+          <td>壬癸同源，坐丁護午</td>
+          <td><span class="ss">★★★</span></td>
+          <td>獨立穴位化解子午，2026佩紅</td>
+        </tr>
+        <tr>
+          <td><strong>Ken</strong></td>
+          <td>1963-06-26</td>
+          <td>癸卯 水兔</td>
+          <td>年干癸＝向癸，月柱壬午雙應</td>
+          <td><span class="ss">★★★★★</span></td>
+          <td>六人最高相性，命向完全相應</td>
+        </tr>
+        <tr>
+          <td><strong>Mabel</strong></td>
+          <td>1961-12-20</td>
+          <td>辛丑 金牛</td>
+          <td>癸藏丑中，丁壬合，金生水</td>
+          <td><span class="ss">★★★★</span></td>
+          <td>隱藏吉象豐富，夫妻互補</td>
+        </tr>
+        <tr>
+          <td><strong>Jeannie</strong></td>
+          <td>1962-03-26</td>
+          <td>壬寅 水虎</td>
+          <td>丁壬合（年干），月干癸＝向癸</td>
+          <td><span class="ss">★★★★★</span></td>
+          <td>六人最高相性，雙重直接合應</td>
+        </tr>
+        <tr>
+          <td><strong>Kit</strong></td>
+          <td>1954-07-21</td>
+          <td>甲午 木馬</td>
+          <td>甲木生丁，水生甲木</td>
+          <td><span class="ss">★★★</span></td>
+          <td>中吉，五行流通，輕微午癸需注意</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:8pt;color:#7a5c1e;margin-top:5pt;font-style:italic;">
+      六人評分全部三星或以上，無一人有嚴重沖剋。此穴對全家族均屬吉地，尤以 Ken 與 Jeannie 相性最高（★★★★★）。
+    </p>
+  </div>
+</div>
+
+<!-- 七、擇日分析 -->
+<div class="section">
+  <div class="section-title">七、入土擇日分析（2026年3月30日 癸亥日）</div>
+  <div class="section-body">
+    <div class="gbox">
+      <div class="bt">✅ 癸亥日入土吉應分析</div>
+      <ul>
+        <li><strong>癸亥日</strong>：日干癸水當令，直接配合向首癸方，葬日與穴位坐向同氣，謂「日與向合」，吉上加吉。</li>
+        <li><strong>亥子丑三會水局</strong>：亥日（今日）＋子年（父親鼠年）＋丑日（父親日柱）＝亥子丑北方三會水局，命格與葬日形成最完整的水局組合，無出其右。</li>
+        <li><strong>女婿（戊辰 龍）</strong>：女婿屬辰（龍），辰加入後形成「亥子辰」三合水局，其到場在能量上更添完整，是善緣。</li>
+        <li><strong>戊癸合</strong>：日干癸（今日）配午時時干戊，戊癸相合，日時和諧，主葬儀順利平和。</li>
+        <li><strong>入土時間</strong>：11:30–11:50 AM PDT（午時前段），陽氣充足，時間窗口乾淨利落。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 八、家族特別提醒 -->
+<div class="section">
+  <div class="section-title">八、當日特別提醒及家族注意事項</div>
+  <div class="section-body">
+    <div class="ybox">
+      <div class="bt">⚠️ 入土時暫退生肖（11:30 AM 棺木入土時）</div>
+      <ul>
+        <li><strong>屬猴</strong>（1944, 1956, 1968, 1980, 1992, 2004年）：請暫退幾步，勿正對棺木</li>
+        <li><strong>屬蛇</strong>（1941, 1953, 1965, 1977, 1989, 2001年）：同上</li>
+        <li>甲寅（虎）日本為寅日，寅申相沖（猴），亥日巳亥相沖（蛇），以上兩生肖需多加注意</li>
+      </ul>
+    </div>
+    <div class="ybox">
+      <div class="bt">🔴 重要個人注意事項</div>
+      <ul>
+        <li><strong>母親（壬午 水馬）</strong>：2026年丙午年為其本命年，全年務必佩戴紅色飾物（紅繩、紅手帕或紅玉），出入均需佩戴。</li>
+        <li><strong>女婿（戊辰 木龍，1988年3月30日生）</strong>：生日當天出席喪禮，屬傳統禁忌，請隨身攜帶紅色物品貼身，離開後洗手，當晚務必慶祝生日以補陽氣。</li>
+        <li><strong>所有家屬</strong>：離開墓地後以清水洗手；回家後可點燃香燭或準備簡單吉祥食物（如湯圓、糕點），迎吉納福。</li>
+        <li><strong>六個月後</strong>：待安葬六個月後（約2026年9月），可在父親忌日或重要節日（清明、重陽）前往掃墓，屆時帶鮮花、茶酒，告知父親家族近況，延續孝道。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 九、結語 -->
+<div class="section">
+  <div class="section-title">九、結語</div>
+  <div class="section-body">
+    <div class="gbox">
+      <div class="bt">🌸 總結</div>
+      <ul>
+        <li>Woodlawn Memorial Park 此穴，後有山丘重疊（玄武）、前有明堂開闊（朱雀）、水景聚氣（噴水池），地形屬上吉之地。</li>
+        <li>坐丁向癸為此地可選之最佳方位，有效化解家族子午相沖，向首癸水滋養全家族木系命格，整體和諧。</li>
+        <li>入土日期癸亥日，配合亥子丑三合水局，葬日與父親命格天作之合，圓滿無憾。</li>
+        <li>六位家族成員與此穴相性評分全部三星或以上，尤以 Ken（★★★★★）與 Jeannie（★★★★★）相性最高，後福深遠。</li>
+        <li>此地將成為譚氏家族的精神歸宿，凝聚家族情感，世代傳承，願先人安息，後人昌盛。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div>本報告由 Sisi（詩詩）AI 助理根據八字學、巒頭風水、擇日術及飛星理氣綜合分析整理</div>
+  <div>僅供家族參考，建議日後配合專業風水師現場複核</div>
+  <div style="margin-top:3pt;">Woodlawn Memorial Park, Colma, California &nbsp;·&nbsp; 丙午年三月 · 2026 &nbsp;·&nbsp; 譚氏家族珍藏</div>
+</div>
+
+</div>
+</body>
+</html>

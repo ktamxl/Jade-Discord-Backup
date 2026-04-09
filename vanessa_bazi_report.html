@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vanessa Wing San Tam — BaZi Destiny Report</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+@page {
+  size: letter;
+  margin: 2cm 1.9cm 2.2cm 1.9cm;
+  @top-center { content: string(doc_title); font-size: 8.5pt; color: #9ca3af; font-family: Georgia, serif; }
+  @bottom-center { content: counter(page); font-size: 8.5pt; color: #9ca3af; font-family: Georgia, serif; }
+}
+@page :first { @top-center { content: none; } @bottom-center { content: none; } }
+@page titlepage { margin: 0; @top-center { content: none; } @bottom-center { content: none; } }
+
+body {
+  font-family: Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.75;
+  color: #1f2937;
+  text-align: justify;
+  text-align-last: start;
+  string-set: doc_title "Vanessa Wing San Tam — BaZi Destiny Report";
+}
+
+.cover-page {
+  page: titlepage;
+  width: 215.9mm;
+  height: 279.4mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1c1917;
+  color: #fafaf9;
+  break-after: page;
+  text-align: center;
+  padding: 2.5cm;
+  position: relative;
+}
+.cover-fire { font-size: 44pt; color: #f97316; margin-bottom: 0.7cm; }
+.cover-name { font-size: 22pt; font-weight: 700; margin-bottom: 0.2cm; }
+.cover-chinese { font-size: 13pt; color: #a8a29e; margin-bottom: 0.4cm; }
+.cover-title { font-size: 11pt; color: #d6d3d1; margin-bottom: 0.7cm; font-style: italic; }
+.cover-line { width: 50mm; height: 1px; background: #57534e; margin: 0 auto 0.7cm; }
+.cover-bazi { font-size: 10.5pt; color: #a8a29e; line-height: 2.2; }
+.cover-bazi strong { color: #d6d3d1; }
+.cover-note { position: absolute; bottom: 1.5cm; left: 2cm; right: 2cm; font-size: 7.5pt; color: #57534e; text-align: center; }
+
+h1 { font-size: 16pt; font-weight: 700; color: #1c1917; border-bottom: 2.5px solid #f97316; padding-bottom: 0.2em; margin: 1.4em 0 0.4em; break-after: avoid; }
+h2 { font-size: 12.5pt; font-weight: 700; color: #292524; margin: 1.2em 0 0.3em; break-after: avoid; }
+p { margin: 0.4em 0 0.7em; }
+.zh { color: #78716c; font-size: 9pt; font-style: italic; display: block; margin-top: -0.3em; margin-bottom: 0.6em; }
+.lead { font-size: 11pt; font-style: italic; border-left: 4px solid #f97316; padding-left: 1em; margin: 0.8em 0 1em; color: #292524; line-height: 1.8; }
+
+.pillar-table { width: 100%; border-collapse: collapse; margin: 0.8em 0 1.2em; }
+.pillar-table th { background: #292524; color: #fafaf9; padding: 0.45em; text-align: center; font-size: 9pt; }
+.pillar-table td { border: 1px solid #d6d3d1; padding: 0.5em; text-align: center; }
+.stem { font-size: 22pt; font-weight: 700; color: #1c1917; line-height: 1.1; }
+.stem.fire { color: #dc2626; }
+.branch { font-size: 18pt; font-weight: 700; color: #374151; }
+.el { font-size: 8pt; color: #6b7280; }
+
+.box { margin: 0.7em 0; padding: 0.75em 1em; break-inside: avoid; }
+.box-fire { background: #fff7ed; border-left: 4px solid #f97316; }
+.box-good { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.box-note { background: #f0f9ff; border-left: 4px solid #2563eb; }
+.box-warn { background: #fef2f2; border-left: 4px solid #dc2626; }
+.box-title { font-weight: 700; font-size: 10pt; margin-bottom: 0.4em; }
+
+.dt { width: 100%; border-collapse: collapse; margin: 0.6em 0 1em; font-size: 9.5pt; }
+.dt th { background: #374151; color: #f9fafb; padding: 0.4em 0.7em; text-align: left; font-size: 9pt; }
+.dt td { border: 1px solid #e5e7eb; padding: 0.4em 0.7em; vertical-align: top; }
+.dt tr:nth-child(even) td { background: #f9fafb; }
+.pos { color: #16a34a; font-weight: 700; }
+.neg { color: #dc2626; font-weight: 700; }
+.now { color: #f97316; font-weight: 700; }
+
+.tl { display: flex; gap: 0.8em; margin: 0.5em 0; break-inside: avoid; font-size: 9.5pt; }
+.tl-yr { min-width: 7em; font-weight: 700; color: #374151; }
+.tl-gz { min-width: 2.5em; color: #9ca3af; }
+.tl-desc { flex: 1; }
+.tl-now .tl-yr { color: #f97316; }
+.tl-now .tl-gz { color: #f97316; }
+
+.quote { margin: 1em 0; padding: 0.8em 1.2em; border-top: 1px solid #d1d5db; border-bottom: 1px solid #d1d5db; font-style: italic; text-align: center; font-size: 10.5pt; color: #374151; break-inside: avoid; }
+.closing { margin-top: 2em; padding-top: 1em; border-top: 2px solid #374151; font-size: 8.5pt; color: #9ca3af; }
+pre, table, img { max-width: 100%; box-sizing: border-box; }
+tr { break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<section class="cover-page">
+  <div class="cover-fire">丙 &#9728;</div>
+  <div class="cover-name">Vanessa Wing San Tam</div>
+  <div class="cover-chinese">譚穎珊</div>
+  <div class="cover-title">Four Pillars of Destiny (BaZi 子平八字)<br>A Complete Life Reading</div>
+  <div class="cover-line"></div>
+  <div class="cover-bazi">
+    <strong>Born:</strong> October 7, 1992 &nbsp;·&nbsp; San Francisco, CA<br>
+    <strong>Hour:</strong> 亥時 (Hài) &nbsp;·&nbsp; 9:00–11:00 PM<br><br>
+    Year 壬申 &nbsp;|&nbsp; Month 己酉 &nbsp;|&nbsp; Day 丙辰 &nbsp;|&nbsp; Hour 己亥<br><br>
+    <strong>Day Master: 丙火 Yang Fire — The Sun</strong><br><br>
+    A gift from your father, Ken Tam
+  </div>
+  <div class="cover-note">This reading is based on the ancient Chinese art of Four Pillars (BaZi). It is offered as a mirror of your nature, timing, and potential — a tool for understanding, not prediction.</div>
+</section>
+
+<h1>Who You Are: The Day Master 日主</h1>
+<p class="zh">你是誰——日主丙火，陽火，太陽之火</p>
+
+<p class="lead">Your Day Master is 丙火 (Bǐng Huǒ) — Yang Fire. Not a candle or a fireplace. You are the Sun itself.</p>
+
+<p>In Four Pillars, the Day Master is the center of your chart — your core nature, your deepest instincts. Everything else in your chart orbits around it. The Sun gives light and warmth without asking for anything in return. It rises every morning without fail. It doesn't hide. It doesn't do small. That is you.</p>
+
+<table class="pillar-table">
+  <thead><tr><th>Year 年柱</th><th>Month 月柱</th><th>Day 日柱 — YOU</th><th>Hour 時柱</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><div class="stem">壬</div><div class="el">Rén · Yang Water</div></td>
+      <td><div class="stem">己</div><div class="el">Jǐ · Yin Earth</div></td>
+      <td><div class="stem fire">丙</div><div class="el">★ Bǐng · Yang Fire</div></td>
+      <td><div class="stem">己</div><div class="el">Jǐ · Yin Earth</div></td>
+    </tr>
+    <tr>
+      <td><div class="branch">申</div><div class="el">Shēn · Metal (Monkey)</div></td>
+      <td><div class="branch">酉</div><div class="el">Yǒu · Metal (Rooster)</div></td>
+      <td><div class="branch">辰</div><div class="el">Chén · Earth (Dragon)</div></td>
+      <td><div class="branch">亥</div><div class="el">Hài · Water (Pig)</div></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You were born in October — the heart of Autumn, when Metal is at its strongest and Fire is at its weakest. The Sun in autumn has to work harder to shine through the chill. This is not a weakness. It is precisely what makes you more driven, more resilient, and more appreciative of what you earn. You don't coast — you build your fire deliberately, every single day.</p>
+
+<div class="box box-fire">
+  <div class="box-title">Your Natural Strengths</div>
+  <table class="dt">
+    <tr><td class="pos">Warmth &amp; Magnetism</td><td>People are drawn to you. You make the energy in a room shift when you walk in — without trying.</td></tr>
+    <tr><td class="pos">Natural Leadership</td><td>You don't need a title to lead. People follow your energy. You organize by presence.</td></tr>
+    <tr><td class="pos">Generosity</td><td>You give freely — time, ideas, energy. You're not a scorekeeper.</td></tr>
+    <tr><td class="pos">Directness</td><td>You say what you mean. People always know where they stand with you.</td></tr>
+    <tr><td class="pos">Competitive fire</td><td>You don't like to lose. Challenges sharpen you, they don't shrink you.</td></tr>
+  </table>
+</div>
+
+<div class="box box-warn">
+  <div class="box-title">Your Patterns to Watch</div>
+  <table class="dt">
+    <tr><td class="neg">Emotional surges</td><td>Your fire can flare fast. Things that bother you show on your face immediately. Important conversations deserve a cool-down first.</td></tr>
+    <tr><td class="neg">Hates being managed</td><td>You resist control from people who haven't earned your respect. You'll find a way around them — sometimes gracefully, sometimes not.</td></tr>
+    <tr><td class="neg">Vision outruns capacity</td><td>Your ambition is always slightly ahead of your resources — which is your engine. But scale thoughtfully. Overextension is the real risk.</td></tr>
+  </table>
+</div>
+
+
+<h1>Your Chart Pattern 格局</h1>
+<p class="zh">傷官生財——以才華創造財富</p>
+
+<p class="lead">"Hurting Officer Produces Wealth" — one of the most powerful wealth-generating patterns in BaZi. Your creativity and expression convert directly into money.</p>
+
+<p>The flow works like this: <strong>You (丙 Fire) → create 己 Earth (Talent &amp; Expression) → which generates Metal (Wealth 財)</strong>. Your ideas, your communication, your personality — these are not soft assets. They are your money-making engine.</p>
+
+<div class="box box-good">
+  <div class="box-title">What This Means For Your Life</div>
+  <p>You are built to run things, not work inside someone else's system. Business ownership, leadership, sales, hospitality, creative work — anywhere your personality and communication can operate freely. The moment you're in a box being managed by someone who didn't earn your respect, you underperform. Not because you aren't capable — because you aren't in the environment your chart is designed for.</p>
+</div>
+
+<h2>Five Elements in Your Chart</h2>
+<table class="dt">
+  <thead><tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Fire 火</strong></td><td>You (Day Master)</td><td class="neg">Weak</td><td>You carry your fire alone in this chart. Protect your energy — it's more finite than it looks.</td></tr>
+    <tr><td><strong>Metal 金</strong></td><td>Wealth 財</td><td class="pos">Very Strong</td><td>Enormous wealth potential — but must be managed with wisdom, not just hunger.</td></tr>
+    <tr><td><strong>Water 水</strong></td><td>Power/Challenge 七殺</td><td class="neg">Strong</td><td>Constant pressure and challenge. Fire and water in tension. This is also what drives you forward.</td></tr>
+    <tr><td><strong>Earth 土</strong></td><td>Talent 傷官</td><td class="pos">Strong</td><td>Your expression, creativity, and communication are your greatest assets and weapons.</td></tr>
+    <tr><td><strong>Wood 木</strong></td><td>Wisdom 印星</td><td class="neg">Very Weak</td><td>Your greatest gap. You need wisdom and grounding around you — people who bring what you're missing.</td></tr>
+  </tbody>
+</table>
+
+<div class="box box-note">
+  <div class="box-title">About the Missing Wood — and Your Father</div>
+  <p>Wood (印星) is what feeds and protects Fire. In your chart, it's barely present — hidden deep in two branches, rarely surfacing. This means the element you crave most is wisdom: steady, grounding, protective wisdom.</p>
+  <p>Your father Ken's chart is Yang Metal (庚金). Metal shapes Wood. He is the source and guardian of the Wood your chart needs. His master 鄺師傅 told him decades ago: <em>"You are Vanessa's protective umbrella. Her shade tree."</em> Today's analysis independently confirms the same thing.</p>
+  <p>Keep that channel of communication open. It is more precious — and more structurally important — than either of you may realize.</p>
+</div>
+
+
+<h1>Wealth &amp; Money 財運</h1>
+<p class="zh">財星極旺，傷官生財，靠才華賺財</p>
+
+<div class="box box-fire">
+  <div class="box-title">Your Wealth Profile</div>
+  <p>申金 and 酉金 — double Metal, side by side, feeding each other — are the two strongest elements in your chart. You have the configuration of someone who can accumulate real wealth over a lifetime. The question has never been <em>whether</em> the money comes. It's <em>how</em> to hold it wisely when it does.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Wealth Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>How you earn</strong></td><td>Through your talent, creativity, and personality — not through a salary. Business, sales, deals, services.</td></tr>
+    <tr><td><strong>Income style</strong></td><td>Irregular (偏財): big months and quiet months, not a smooth constant stream. Plan accordingly.</td></tr>
+    <tr><td><strong>Peak earning years</strong></td><td>Ages 25–45. You are right in the middle of your peak now.</td></tr>
+    <tr><td><strong>Core caution</strong></td><td>Wealth-heavy, self-light (財多身弱): your vision often runs ahead of your capacity. The opportunity is real — the foundation must be solid first.</td></tr>
+    <tr><td><strong>Best ahead</strong></td><td>2026 (丙午 Year): Fire supports Fire — your most powerful financial year to date. Push forward, but with eyes open.</td></tr>
+  </tbody>
+</table>
+
+
+<h1>Love &amp; Relationships 感情婚姻</h1>
+<p class="zh">夫星七殺壬水，強勢伴侶，傷官駕殺</p>
+
+<p>For a woman in BaZi, the husband star is the element that challenges her Day Master. For 丙 Fire, that's Water — specifically 壬水 (Yang Water), which sits prominently in your Year Pillar: strong, visible, present from birth.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Partner type</strong></td><td>Strong, capable, opinionated. He won't fade into the background. He has to earn your respect — not just your affection. That's how you're wired.</td></tr>
+    <tr><td><strong>Relationship dynamic</strong></td><td>Two strong people. Friction is part of the chemistry. The relationship works when you each lead your own domain and don't encroach. Space is not distance — it's how you thrive.</td></tr>
+    <tr><td><strong>Your pattern</strong></td><td>You resist being managed (傷官 pattern). If a partner becomes controlling, you will find a way around that — consciously or not. Choose someone who challenges you intellectually and respects your independence.</td></tr>
+    <tr><td><strong>Day Branch (辰)</strong></td><td>Your marriage palace holds 辰 Earth — a Talent/Creativity Star. At his best, your partner is nurturing, creative, and family-oriented.</td></tr>
+  </tbody>
+</table>
+
+<div class="box box-note">
+  <div class="box-title">Relationship Timing</div>
+  <p><strong>Now through 2027</strong> (壬子 Grand Cycle): The Power Star runs strong — relationships carry real intensity. This is not the time for impulsive major decisions made from an emotional place.</p>
+  <p><strong>2027 onward</strong> (癸丑 Grand Cycle): The pressure softens. What's real deepens and stabilizes. This is when lasting partnerships take shape.</p>
+</div>
+
+
+<h1>Children 子女</h1>
+<p class="zh">子女聰明有個性，老來有靠</p>
+
+<p>Your children's palace (Hour Pillar 己亥) tells a clear story. 己 Earth is your Talent Star — your children will carry your creative, expressive, independent spirit. They will have very strong opinions. They will not be easy. Sound familiar?</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Number</strong></td><td>Most likely 1–2 children</td></tr>
+    <tr><td><strong>Personality</strong></td><td>Bright, independent, opinionated. Parenting them will require the same patience and respect for autonomy that you needed.</td></tr>
+    <tr><td><strong>Hidden gift</strong></td><td>Inside your Hour Branch (亥) lives 甲木 — the Wisdom Star your chart is missing. Your children will become your wisdom and your anchor in later life.</td></tr>
+    <tr><td><strong>Later years</strong></td><td>The relationship with your children deepens beautifully as they mature. They grow into people who genuinely support you.</td></tr>
+  </tbody>
+</table>
+
+
+<h1>Career &amp; Vocation 事業</h1>
+<p class="zh">傷官格——天生的老闆，不適合打工</p>
+
+<div class="box box-fire">
+  <div class="box-title">Your Career Blueprint</div>
+  <p>You are not built for a ladder. You're built for a table — one where you sit at the head. Business ownership, entrepreneurship, sales leadership, hospitality, creative industries, client-facing work. Anywhere your personality can operate without a ceiling.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Career Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Best environment</strong></td><td>Running your own operation, or leading a team with real authority</td></tr>
+    <tr><td><strong>Your edge</strong></td><td>Business instinct (you see opportunities fast), people magnetism (teams rally around you), communication (you can sell ideas and vision)</td></tr>
+    <tr><td><strong>Watch out for</strong></td><td>Overexpanding before the foundation is solid; making big decisions in an emotional state; not delegating when you should</td></tr>
+    <tr><td><strong>Now (2017–2027)</strong></td><td class="now">壬子 Grand Cycle: Maximum pressure AND maximum achievement. What you build this decade defines your foundation for life. Do not waste it playing small.</td></tr>
+    <tr><td><strong>Next (2027–2037)</strong></td><td>癸丑 Grand Cycle: The harvest. Pressure eases, wealth consolidates. A time to refine and deepen what you've built — not tear it down and restart.</td></tr>
+  </tbody>
+</table>
+
+
+<h1>Health &amp; Well-being 健康福氣</h1>
+<p class="zh">心臟眼睛需留意，人緣極好，晚年有福</p>
+
+<p>Your Day Master element (火 Fire) governs the <strong>heart, eyes, and circulatory system</strong>. With Water pressing against your Fire throughout your chart, these areas deserve consistent attention.</p>
+
+<table class="dt">
+  <thead><tr><th>Area</th><th>Guidance</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Heart &amp; blood pressure</strong></td><td>Your chart runs high-intensity. Build regular cardiovascular check-ups into your life, not just when something feels off.</td></tr>
+    <tr><td><strong>Eyes</strong></td><td>Fire governs vision. Screen time and sleep quality matter more than you probably think.</td></tr>
+    <tr><td><strong>Nervous system</strong></td><td>Water pressing on Fire = a chart that runs hot. Deliberate rest — the kind that genuinely restores you, not just sleep — is not optional. It's maintenance.</td></tr>
+    <tr><td><strong>Blessings 福氣</strong></td><td>Your warmth creates deep loyalty in people around you. People who light up rooms tend to live with more vitality, more support, and more beauty. That is its own kind of health.</td></tr>
+  </tbody>
+</table>
+
+
+<h1>Home &amp; Property 田宅</h1>
+<p class="zh">有能力置業，宜長線持有</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Capacity</strong></td><td>With your wealth stars so strong, you have real capacity to own property — possibly multiple properties over a lifetime.</td></tr>
+    <tr><td><strong>Best fit</strong></td><td>Commercial property suits your chart better than pure residential investment — retail, hospitality, mixed-use. Own what you understand.</td></tr>
+    <tr><td><strong>Caution</strong></td><td>Your property palace hides 癸水 inside 辰 — complications can lurk in property deals. Vet the details carefully, especially in partnerships or timing.</td></tr>
+    <tr><td><strong>Best window</strong></td><td>2026–2027: Fire years strengthen your Day Master. Evaluate property decisions from a position of strength, not pressure.</td></tr>
+    <tr><td><strong>Strategy</strong></td><td>Buy and hold. Your chart does not favor quick flipping. Long-term ownership builds your wealth steadily and naturally.</td></tr>
+  </tbody>
+</table>
+
+
+<h1>Your Life Journey 一生大運</h1>
+<p class="zh">大運流年——人生的十年節奏</p>
+
+<p>BaZi maps life in 10-year Grand Cycles (大運). Each decade carries a different quality and energy. Here is the arc of your life:</p>
+
+<div class="tl"><div class="tl-yr">Ages 0–5<br>(1992–97)</div><div class="tl-gz"></div><div class="tl-desc"><strong>Foundation.</strong> Born into a family with commercial roots and deep values. Your father's presence — steady, protective, shaped by hard work — is the Wood your Fire chart needs most. These years gave you more than you know.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 5–15<br>(1997–2007)</div><div class="tl-gz">庚戌</div><div class="tl-desc"><strong>Growing up in abundance.</strong> 庚金 Wealth Star runs — you grew up in a financially solid environment. 戌 Earth develops your natural talents and expression. School likely came easier than you let on. Your competitive edge was already forming.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 15–25<br>(2007–2017)</div><div class="tl-gz">辛亥</div><div class="tl-desc"><strong>Finding your own way.</strong> The transition from school to real life. Pressure from the outside world begins to show up. First serious experiences in love and work. You start becoming the person you're going to be.</div></div>
+
+<div class="tl tl-now"><div class="tl-yr">Ages 25–35<br>(2017–2027) ★</div><div class="tl-gz">壬子</div><div class="tl-desc"><strong>NOW — Your decade of maximum pressure and maximum achievement.</strong> 壬水 Seven-Killing Power Star runs at full force. This is the hardest decade and the most important decade. What you build here — the business, the reputation, the relationships, the foundation — defines everything that follows. The pressure is real. So is the power.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 35–45<br>(2027–2037)</div><div class="tl-gz">癸丑</div><div class="tl-desc"><strong>The harvest.</strong> Pressure softens. 丑 Earth — a wealth vault — stabilizes your finances. This is not the time to start over. This is the time to deepen and refine what you've built in your 20s and 30s. Let the roots grow stronger.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 45–55<br>(2037–2047)</div><div class="tl-gz">甲寅</div><div class="tl-desc"><strong>Wisdom arrives.</strong> 甲木 — the Wisdom Star your chart has been missing your entire life — finally arrives as a Grand Cycle. For the first time, the element that feeds and protects your Fire is running strong. Mentors, wisdom figures, and genuine support appear. This may be the most comfortable and expansive decade of your life.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 55–65<br>(2047–2057)</div><div class="tl-gz">乙卯</div><div class="tl-desc"><strong>Full bloom.</strong> 乙木 and 卯木 continue the Wisdom energy. Your body and spirit are nourished. Children are grown and thriving. You are enjoying the fruits of a life built well.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 65+<br>(2057+)</div><div class="tl-gz">丙辰</div><div class="tl-desc"><strong>Radiant later life.</strong> 丙火 — your own element — returns as the Grand Cycle. Like-for-like support. Strength where you began. 辰 Earth steadies you. Your later years are your most serene, most open-hearted. The Sun still rises.</div></div>
+
+
+<h1>2026–2027 Spotlight 流年重點</h1>
+<p class="zh">未來兩年對Vanessa的影響</p>
+
+<div class="box box-good">
+  <div class="box-title">2026 (丙午 Year of the Fire Horse) — Your Power Year</div>
+  <p>丙火 — your own element — arrives as the year. Fire supports Fire. You will feel more energized, more confident, and more capable than in recent years. The Seven-Killing Water pressure in your Grand Cycle gets partly neutralized this year. <strong>This is your year to push forward in business and take the initiative you've been building toward.</strong> Go for it — with clear eyes and a solid plan.</p>
+</div>
+
+<div class="box box-note">
+  <div class="box-title">2027 (丁未 Year of the Fire Goat) — Wisdom and Refinement</div>
+  <p>丁火 supports your Day Master again. 未 Earth brings a hidden 乙木 — the Wisdom Star your chart is missing appears! This is a year for learning, expanding your thinking, and making decisions from a more grounded place. Financial opportunities also present themselves (卯未 Wood partial combination activates wealth). <strong>In 2027, grow smarter, not just bigger.</strong></p>
+</div>
+
+
+<div class="quote">"The Sun in autumn works harder to shine — and that is exactly why it is more beautiful."</div>
+
+<div class="closing">
+  <p><strong>About This Reading:</strong> This report is based on the Four Pillars of Destiny (子平八字 BaZi), using the master system of 鄺偉雄師傅 — the same master who read your father Ken's chart. The analysis is offered as a framework for self-understanding, not as fixed fate. Your choices shape your life; BaZi reveals the terrain.</p>
+  <p><strong>Prepared by:</strong> Sisi (詩詩) for Ken Tam · March 2026 · <em>With love, from your father who is your shade tree.</em></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>墓地佈局圖 Burial Plot Layout Diagram</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', 'Noto Serif TC', serif;
+    background: #fff;
+    width: 210mm;
+    margin: 0 auto;
+    padding: 15mm 15mm;
+    color: #1a1a1a;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    border-bottom: 3px double #8B0000;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .header h1 { font-size: 18pt; color: #8B0000; letter-spacing: 3px; margin-bottom: 4px; }
+  .header h2 { font-size: 11pt; color: #555; font-weight: normal; }
+  .header p { font-size: 8.5pt; color: #888; margin-top: 6px; }
+
+  /* Main diagram container */
+  .diagram-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 24px auto;
+  }
+
+  /* Compass rose */
+  .compass {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .compass-n {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #8B0000;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+  }
+  .compass-arrow-n {
+    font-size: 24pt;
+    color: #8B0000;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .compass-degrees {
+    font-size: 9pt;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  /* Plot area */
+  .plot-area {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0;
+    margin: 0 auto;
+    max-width: 480px;
+  }
+
+  /* Side labels */
+  .side-label {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    font-size: 9pt;
+    color: #555;
+    min-width: 40px;
+  }
+  .side-label .label-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .east-label { color: #1a5276; }
+  .west-label { color: #6e2fa0; }
+
+  /* Plots container */
+  .plots-container {
+    display: flex;
+    gap: 12px;
+    border: 2px solid #333;
+    padding: 0;
+    position: relative;
+    background: #f9f5ef;
+  }
+
+  /* Individual plot */
+  .plot {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #8B0000;
+    min-width: 170px;
+  }
+
+  .plot-father { border-color: #1a5276; background: #eaf3fb; }
+  .plot-mother { border-color: #6e2fa0; background: #f5eafb; }
+
+  /* Headstone */
+  .headstone {
+    margin: 16px auto 8px auto;
+    text-align: center;
+    position: relative;
+  }
+  .headstone-shape {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 40px 40px 4px 4px;
+    font-size: 9pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    min-width: 100px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  .headstone-label {
+    font-size: 8pt;
+    color: #555;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  /* Coffin */
+  .coffin-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 12px 12px 12px;
+    gap: 6px;
+  }
+
+  .coffin-label-top {
+    font-size: 8pt;
+    color: #8B0000;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .coffin-shape {
+    position: relative;
+    width: 90px;
+    height: 180px;
+    margin: 4px auto;
+  }
+
+  /* SVG coffin drawn inline */
+  .coffin-svg { width: 100%; height: 100%; }
+
+  .coffin-label-bottom {
+    font-size: 8pt;
+    color: #666;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  /* Plot title bar */
+  .plot-title {
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+  }
+  .plot-father .plot-title { background: #1a5276; color: #fff; }
+  .plot-mother .plot-title { background: #6e2fa0; color: #fff; }
+
+  /* Plot footer */
+  .plot-footer {
+    text-align: center;
+    padding: 6px;
+    font-size: 8pt;
+    color: #444;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    line-height: 1.5;
+  }
+
+  /* Divider between plots */
+  .plot-divider {
+    width: 12px;
+    background: repeating-linear-gradient(
+      45deg,
+      #ccc,
+      #ccc 2px,
+      #f9f5ef 2px,
+      #f9f5ef 8px
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7pt;
+    color: #888;
+    writing-mode: vertical-rl;
+    letter-spacing: 1px;
+  }
+
+  /* South compass */
+  .compass-s {
+    text-align: center;
+    margin-top: 8px;
+  }
+  .compass-arrow-s {
+    font-size: 24pt;
+    color: #333;
+    line-height: 1;
+  }
+  .compass-s-text {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 2px;
+  }
+  .compass-s-degrees {
+    font-size: 9pt;
+    color: #555;
+  }
+
+  /* Visitor label */
+  .visitor-label {
+    text-align: center;
+    margin-top: 10px;
+    background: #f0f0f0;
+    border: 1px dashed #999;
+    padding: 8px;
+    font-size: 9pt;
+    color: #444;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+  }
+
+  /* East/West arrows */
+  .ew-row {
+    display: flex;
+    max-width: 480px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    font-size: 9pt;
+  }
+  .east-arrow { color: #1a5276; font-weight: 700; }
+  .west-arrow { color: #6e2fa0; font-weight: 700; }
+  .ew-center { font-size: 8pt; color: #888; text-align: center; }
+
+  /* Legend */
+  .legend {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    background: #fdf8f0;
+    border-radius: 4px;
+  }
+  .legend h3 {
+    font-size: 10pt;
+    color: #8B0000;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d4a853;
+    padding-bottom: 4px;
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .legend-item {
+    font-size: 8.5pt;
+    line-height: 1.5;
+    padding: 6px 8px;
+    background: #fff;
+    border: 1px solid #e0d0c0;
+    border-radius: 2px;
+  }
+  .legend-item strong { color: #8B0000; display: block; margin-bottom: 2px; }
+
+  /* Orientation summary box */
+  .orientation-box {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .orient-card {
+    flex: 1;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 10px 14px;
+    text-align: center;
+  }
+  .orient-father { border-color: #1a5276; background: #eaf3fb; }
+  .orient-mother { border-color: #6e2fa0; background: #f5eafb; }
+  .orient-card .person { font-size: 10pt; font-weight: 700; margin-bottom: 4px; }
+  .orient-father .person { color: #1a5276; }
+  .orient-mother .person { color: #6e2fa0; }
+  .orient-card .sitting { font-size: 9pt; margin-bottom: 2px; }
+  .orient-card .facing { font-size: 9pt; }
+  .orient-card .degrees { font-size: 8pt; color: #666; margin-top: 4px; }
+
+  .footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+    font-size: 7.5pt;
+    color: #999;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>墓地佈局圖</h1>
+  <h2>Burial Plot Layout Diagram — Top View (Bird's Eye)</h2>
+  <p>父親 Father: 14 Jul 1936 (Rat 鼠) &nbsp;|&nbsp; 母親 Mother: 26 Apr 1942 (Horse 馬) &nbsp;|&nbsp;
+     Woodlawn Memorial Park, Colma, California</p>
+</div>
+
+<!-- ORIENTATION SUMMARY -->
+<div class="orientation-box">
+  <div class="orient-card orient-father">
+    <div class="person">父親 FATHER 🐀 Rat</div>
+    <div class="sitting">🧭 坐山（棺頭）Sitting: <strong>壬方 North-NW</strong></div>
+    <div class="facing">👁 向首（棺腳）Facing: <strong>丙方 South-SE</strong></div>
+    <div class="degrees">345° sitting / 165° facing</div>
+    <div class="degrees">LEFT 左側 · East 東 · 青龍</div>
+  </div>
+  <div class="orient-card orient-mother">
+    <div class="person">母親 MOTHER 🐴 Horse</div>
+    <div class="sitting">🧭 坐山（棺頭）Sitting: <strong>壬方 North-NW</strong></div>
+    <div class="facing">👁 向首（棺腳）Facing: <strong>丙方 South-SE</strong></div>
+    <div class="degrees">345° sitting / 165° facing</div>
+    <div class="degrees">RIGHT 右側 · West 西 · 白虎</div>
+  </div>
+</div>
+
+<!-- NORTH COMPASS -->
+<div class="compass">
+  <div class="compass-n">NORTH 北方 ↑</div>
+  <div class="compass-degrees">坐壬方 (345°) — 棺頭方向 / Head of Coffin / Headstone Side</div>
+</div>
+
+<!-- EW ROW -->
+<div class="ew-row">
+  <div class="east-arrow">← EAST 東方 (青龍 Azure Dragon)</div>
+  <div class="ew-center">父 Father LEFT&nbsp;&nbsp;|&nbsp;&nbsp;Mother 母 RIGHT</div>
+  <div class="west-arrow">(白虎 White Tiger) WEST 西方 →</div>
+</div>
+
+<!-- MAIN PLOT DIAGRAM -->
+<div class="diagram-wrapper">
+  <div style="display:flex; justify-content:center; align-items:stretch; gap:0;">
+
+    <!-- East side label -->
+    <div class="side-label east-label">
+      <div class="label-inner">
+        <span>東</span><span>East</span><span>青龍</span><span>Azure</span><span>Dragon</span>
+      </div>
+    </div>
+
+    <!-- Plots -->
+    <div class="plots-container">
+
+      <!-- FATHER PLOT -->
+      <div class="plot plot-father">
+        <div class="plot-title">父親 FATHER 🐀<br>Left / East / 青龍</div>
+
+        <!-- Headstone -->
+        <div class="headstone">
+          <div class="headstone-shape">
+            ✝ 父親<br>
+            <span style="font-size:8pt;font-weight:normal">FATHER<br>Headstone</span>
+          </div>
+          <div class="headstone-label">墓碑 Headstone<br>（面向南方 Faces South）</div>
+        </div>
+
+        <!-- Coffin -->
+        <div class="coffin-wrapper">
+          <div class="coffin-label-top">棺頭 HEAD ↑<br>North-NW 壬方 (345°)</div>
+          <div class="coffin-shape">
+            <svg class="coffin-svg" viewBox="0 0 90 180" xmlns="http://www.w3.org/2000/svg">
+              <!-- Coffin shape: hexagonal/traditional -->
+              <polygon points="30,0 60,0 80,40 80,150 60,180 30,180 10,150 10,40"
+                fill="#8B6914" stroke="#5a4010" stroke-width="3"/>
+              <!-- Cross on lid -->
+              <line x1="45" y1="20" x2="45" y2="100" stroke="#d4a853" stroke-width="2.5"/>
+              <line x1="25" y1="55" x2="65" y2="55" stroke="#d4a853" stroke-width="2.5"/>
+              <!-- Label inside -->
+              <text x="45" y="130" text-anchor="middle" fill="#fff" font-size="9" font-family="Georgia">父 Father</text>
+              <text x="45" y="145" text-anchor="middle" fill="#d4a853" font-size="8" font-family="Georgia">Rat 🐀</text>
+              <!-- Head indicator -->
+              <rect x="30" y="4" width="30" height="8" rx="3" fill="#d4a853"/>
+              <text x="45" y="11" text-anchor="middle" fill="#5a4010" font-size="7" font-weight="bold">HEAD</text>
+              <!-- Foot indicator -->
+              <rect x="30" y="168" width="30" height="8" rx="3" fill="#888"/>
+              <text x="45" y="175" text-anchor="middle" fill="#fff" font-size="7">FOOT</text>
+            </svg>
+          </div>
+          <div class="coffin-label-bottom">棺腳 FOOT ↓<br>South-SE 丙方 (165°)</div>
+        </div>
+
+        <div class="plot-footer">
+          坐壬向丙<br>345° → 165°
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="plot-divider">間隔 Gap</div>
+
+      <!-- MOTHER PLOT -->
+      <div class="plot plot-mother">
+        <div class="plot-title">母親 MOTHER 🐴<br>Right / West / 白虎</div>
+
+        <!-- Headstone -->
+        <div class="headstone">
+          <div class="headstone-shape" style="background:#555;">
+            ✝ 母親<br>
+            <span style="font-size:8pt;font-weight:normal">MOTHER<br>Headstone</span>
+          </div>
+          <div class="headstone-label">墓碑 Headstone<br>（面向南方 Faces South）</div>
+        </div>
+
+        <!-- Coffin -->
+        <div class="coffin-wrapper">
+          <div class="coffin-label-top" style="color:#6e2fa0;">棺頭 HEAD ↑<br>North-NW 壬方 (345°)</div>
+          <div class="coffin-shape">
+            <svg class="coffin-svg" viewBox="0 0 90 180" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="30,0 60,0 80,40 80,150 60,180 30,180 10,150 10,40"
+                fill="#7b5a8a" stroke="#4a2a6a" stroke-width="3"/>
+              <line x1="45" y1="20" x2="45" y2="100" stroke="#d4a853" stroke-width="2.5"/>
+              <line x1="25" y1="55" x2="65" y2="55" stroke="#d4a853" stroke-width="2.5"/>
+              <text x="45" y="130" text-anchor="middle" fill="#fff" font-size="9" font-family="Georgia">母 Mother</text>
+              <text x="45" y="145" text-anchor="middle" fill="#d4a853" font-size="8" font-family="Georgia">Horse 🐴</text>
+              <rect x="30" y="4" width="30" height="8" rx="3" fill="#d4a853"/>
+              <text x="45" y="11" text-anchor="middle" fill="#5a4010" font-size="7" font-weight="bold">HEAD</text>
+              <rect x="30" y="168" width="30" height="8" rx="3" fill="#888"/>
+              <text x="45" y="175" text-anchor="middle" fill="#fff" font-size="7">FOOT</text>
+            </svg>
+          </div>
+          <div class="coffin-label-bottom" style="color:#6e2fa0;">棺腳 FOOT ↓<br>South-SE 丙方 (165°)</div>
+        </div>
+
+        <div class="plot-footer">
+          坐壬向丙<br>345° → 165°
+        </div>
+      </div>
+
+    </div><!-- end plots-container -->
+
+    <!-- West side label -->
+    <div class="side-label west-label">
+      <div class="label-inner">
+        <span>西</span><span>West</span><span>白虎</span><span>White</span><span>Tiger</span>
+      </div>
+    </div>
+
+  </div><!-- end flex wrapper -->
+</div><!-- end diagram-wrapper -->
+
+<!-- SOUTH COMPASS -->
+<div class="compass-s">
+  <div class="compass-arrow-s">↓</div>
+  <div class="compass-s-text">SOUTH 南方</div>
+  <div class="compass-s-degrees">向丙方 (165°) — 棺腳方向 / Foot of Coffin</div>
+</div>
+
+<!-- VISITOR LABEL -->
+<div class="visitor-label">
+  👥 <strong>訪客站立於此，面向北方閱讀墓碑</strong><br>
+  <em>Visitors stand here on the SOUTH side, face NORTH to read the headstones</em>
+</div>
+
+<!-- LEGEND -->
+<div class="legend">
+  <h3>圖例說明 Legend &amp; Key Notes</h3>
+  <div class="legend-grid">
+    <div class="legend-item">
+      <strong>🧭 坐壬向丙 Orientation</strong>
+      坐山（棺頭/墓碑）：壬方，北偏西北 345°<br>
+      向首（棺腳/訪客）：丙方，南偏東南 165°<br>
+      <em>Sitting (head/headstone): NNW 345° | Facing (foot/visitors): SSE 165°</em>
+    </div>
+    <div class="legend-item">
+      <strong>🐀 父親 Father — Left (East/青龍)</strong>
+      生日 Born: 14 July 1936 | 年柱: 丙子 Fire Rat<br>
+      東方為陽位（青龍），適合男性<br>
+      <em>East = Yang/male position (Azure Dragon) — correct for husband</em>
+    </div>
+    <div class="legend-item">
+      <strong>🐴 母親 Mother — Right (West/白虎)</strong>
+      生日 Born: 26 April 1942 | 年柱: 壬午 Water Horse<br>
+      西方為陰位（白虎），適合女性<br>
+      <em>West = Yin/female position (White Tiger) — correct for wife</em>
+    </div>
+    <div class="legend-item">
+      <strong>⬛ 兩個獨立墓穴 Two Separate Plots</strong>
+      各有獨立地氣，子午相沖不在同一穴位發生<br>
+      中間保留小間距作能量隔斷<br>
+      <em>Separate earth cavities reduce 子午沖. Small gap between plots recommended.</em>
+    </div>
+    <div class="legend-item">
+      <strong>✝ 墓碑位置 Headstone Position</strong>
+      墓碑位於北端（坐壬方，345°）<br>
+      訪客從南端（向丙方，165°）面北閱讀<br>
+      <em>Headstone at North end (345°); visitors face North from South side (165°) to read</em>
+    </div>
+    <div class="legend-item">
+      <strong>🌿 九運旺氣 Period 9 Prosperity</strong>
+      2024–2043年為九運，旺氣在離卦（丙方/南方）<br>
+      兩個墓穴均朝向丙方，同享九運旺氣加持<br>
+      <em>Period 9 (2024–2043) prosperity from 丙/South direction — both plots benefit</em>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  安葬日期 Burial Date: 2026年3月21日（星期六）甲寅日 · 上午11:00至下午1:00 PDT &nbsp;|&nbsp;
+  Woodlawn Memorial Park, Colma, California &nbsp;|&nbsp;
+  製作 Prepared by Sisi (詩詩) · 11 March 2026
+</div>
+
+</body>
+</html>

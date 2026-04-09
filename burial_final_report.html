@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>Burial Arrangement Record — Tam Family</title>
+<style>
+  @page {
+    size: letter portrait;
+    margin: 0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Serif TC', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+    background: #fff;
+    color: #2c2416;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    width: 8.5in;
+  }
+
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    background: #fff;
+    padding: 0.65in 0.65in 0.55in 0.65in;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    border-bottom: 2.5pt double #8b6914;
+    padding-bottom: 10pt;
+    margin-bottom: 14pt;
+  }
+  .header .zh-title {
+    font-size: 20pt;
+    font-weight: 700;
+    color: #5a3a00;
+    letter-spacing: 4pt;
+    margin-bottom: 3pt;
+  }
+  .header .en-title {
+    font-size: 12pt;
+    color: #7a5c1e;
+    font-style: italic;
+    letter-spacing: 0.5pt;
+    margin-bottom: 4pt;
+  }
+  .header .subtitle {
+    font-size: 8.5pt;
+    color: #9a7a40;
+    letter-spacing: 1pt;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 12pt;
+    page-break-inside: avoid;
+  }
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #5a3a00;
+    background: #fdf6e3;
+    border-left: 3.5pt solid #c8960c;
+    padding: 4pt 6pt 4pt 10pt;
+    margin-bottom: 7pt;
+    letter-spacing: 0.5pt;
+  }
+
+  /* Info Grid */
+  .info-grid {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .info-grid-row {
+    display: table-row;
+  }
+  .info-cell {
+    display: table-cell;
+    width: 50%;
+    padding: 3pt 4pt 3pt 0;
+    border-bottom: 0.5pt dotted #e0d5b0;
+    vertical-align: top;
+  }
+  .info-cell.full {
+    width: 100%;
+    display: block;
+    padding: 3pt 0;
+    border-bottom: 0.5pt dotted #e0d5b0;
+  }
+  .info-label {
+    font-size: 8.5pt;
+    color: #8b6914;
+    font-weight: 700;
+    display: inline;
+    margin-right: 4pt;
+  }
+  .info-value {
+    font-size: 9.5pt;
+    color: #2c2416;
+    display: inline;
+  }
+  .info-value.highlight {
+    color: #5a3a00;
+    font-weight: 700;
+  }
+
+  /* Badge */
+  .badge {
+    display: inline-block;
+    background: #5a3a00;
+    color: #fff;
+    border-radius: 2pt;
+    padding: 0pt 4pt;
+    font-size: 7.5pt;
+    font-weight: 700;
+    margin-left: 3pt;
+    vertical-align: middle;
+  }
+  .badge.green { background: #2a6a2a; }
+  .badge.red { background: #8b2000; }
+
+  /* Good Box */
+  .good-box {
+    background: #f0f8f0;
+    border: 0.75pt solid #4a8c4a;
+    border-radius: 3pt;
+    padding: 7pt 10pt;
+    margin-top: 6pt;
+    font-size: 9pt;
+  }
+  .good-box .box-title {
+    font-weight: 700;
+    color: #1a5a1a;
+    margin-bottom: 4pt;
+    font-size: 9pt;
+  }
+  .good-box ul {
+    padding-left: 14pt;
+    color: #1a4a1a;
+  }
+  .good-box li { margin-bottom: 2pt; line-height: 1.5; }
+
+  /* Timeline */
+  .timeline { margin-top: 4pt; }
+  .tl-row {
+    display: table;
+    width: 100%;
+    padding: 4pt 0;
+    border-bottom: 0.5pt dotted #e0d5b0;
+    font-size: 9pt;
+  }
+  .tl-time {
+    display: table-cell;
+    width: 90pt;
+    font-weight: 700;
+    color: #5a3a00;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  .tl-desc {
+    display: table-cell;
+    color: #2c2416;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .tl-row.key-moment {
+    background: #fff8e6;
+    padding: 5pt 6pt;
+    border-radius: 2pt;
+    border: 0.75pt solid #d4a840;
+    margin: 3pt 0;
+    display: table;
+  }
+  .tl-row.key-moment .tl-time { color: #8b2000; }
+  .tl-row.key-moment .tl-desc { font-weight: 600; color: #8b2000; }
+
+  /* Two column for precautions */
+  .two-col {
+    display: table;
+    width: 100%;
+    border-spacing: 8pt;
+    margin: 0 -4pt;
+  }
+  .two-col-cell {
+    display: table-cell;
+    width: 50%;
+    padding: 0 4pt;
+    vertical-align: top;
+  }
+  .alert-box {
+    background: #fff9e6;
+    border: 0.75pt solid #c8960c;
+    border-radius: 3pt;
+    padding: 7pt 9pt;
+    font-size: 8.5pt;
+    height: 100%;
+  }
+  .alert-box .alert-title {
+    font-weight: 700;
+    color: #5a3a00;
+    margin-bottom: 4pt;
+    font-size: 8.5pt;
+  }
+  .alert-box ul {
+    padding-left: 12pt;
+    color: #4a3a10;
+  }
+  .alert-box li { margin-bottom: 3pt; line-height: 1.45; }
+
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+    margin-top: 4pt;
+  }
+  th {
+    background: #7a5510;
+    color: #fff;
+    padding: 5pt 7pt;
+    text-align: left;
+    font-weight: 700;
+    font-size: 8pt;
+  }
+  td {
+    padding: 5pt 7pt;
+    border-bottom: 0.5pt solid #ede5c8;
+    vertical-align: middle;
+    line-height: 1.4;
+  }
+  tr:nth-child(even) td { background: #fdf8ed; }
+  .stars { color: #c8960c; font-size: 10pt; }
+
+  /* Plot Diagram */
+  .plot-diagram {
+    border: 1.5pt solid #8b6914;
+    border-radius: 4pt;
+    padding: 10pt 12pt;
+    text-align: center;
+    margin-top: 6pt;
+    background: #fdf8ed;
+    font-size: 9pt;
+  }
+  .compass-label {
+    font-size: 8.5pt;
+    color: #7a5c1e;
+    font-weight: 700;
+    letter-spacing: 0.5pt;
+    margin-bottom: 6pt;
+  }
+  .plot-outer {
+    display: inline-block;
+    border: 0.75pt solid #c8a04a;
+    padding: 8pt 12pt;
+    background: white;
+    border-radius: 3pt;
+    margin: 4pt auto;
+  }
+  .plot-section {
+    margin-bottom: 6pt;
+  }
+  .plot-section-label {
+    font-size: 8pt;
+    color: #999;
+    margin-bottom: 4pt;
+    text-align: center;
+  }
+  .plot-row {
+    display: table;
+    margin: 0 auto;
+  }
+  .plot-divider {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 6pt;
+    font-size: 14pt;
+    color: #c8a04a;
+  }
+  .plot-box {
+    display: table-cell;
+    width: 100pt;
+    height: 44pt;
+    border: 1.5pt solid #8b6914;
+    border-radius: 3pt;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 8.5pt;
+    font-weight: 700;
+    background: #fffdf5;
+    padding: 3pt;
+    line-height: 1.4;
+  }
+  .plot-box .plot-top { font-size: 7pt; font-weight: 400; color: #8b6914; display: block; }
+  .plot-box .plot-name { font-size: 9pt; font-weight: 700; }
+  .plot-box .plot-pillar { font-size: 7.5pt; font-weight: 400; }
+
+  .plot-box.father { border-color: #2a5a2a; background: #f0f8f0; color: #1a4a1a; }
+  .plot-box.mother { border-color: #8b2060; background: #fff0f5; color: #6a1040; }
+  .plot-box.ken    { border-color: #1a4a8a; background: #f0f4ff; color: #1a3a6a; }
+  .plot-box.mabel  { border-color: #8b4a00; background: #fff5e6; color: #6a3000; }
+  .plot-box.sister { border-color: #4a5a00; background: #f5f8e0; color: #3a4a00; }
+  .plot-box.bil    { border-color: #5a0050; background: #fef0fe; color: #4a0040; }
+
+  .plot-legend {
+    font-size: 8pt;
+    color: #7a5c1e;
+    margin-top: 6pt;
+    line-height: 1.8;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 14pt;
+    border-top: 2pt double #8b6914;
+    padding-top: 7pt;
+    text-align: center;
+    font-size: 7.5pt;
+    color: #9a7a40;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="zh-title">譚氏先人安葬記錄</div>
+    <div class="en-title">Tam Family Burial Arrangement Record</div>
+    <div class="subtitle">風水擇日分析 &nbsp;·&nbsp; Feng Shui &amp; Auspicious Date Analysis &nbsp;·&nbsp; 2026</div>
+  </div>
+
+  <!-- SECTION 1: DECEASED -->
+  <div class="section">
+    <div class="section-title">📋 先人資料 &nbsp;|&nbsp; Deceased Information</div>
+    <div class="info-grid">
+      <div class="info-grid-row">
+        <div class="info-cell">
+          <span class="info-label">姓名 Name:</span>
+          <span class="info-value highlight">譚氏先人（父親）</span>
+        </div>
+        <div class="info-cell">
+          <span class="info-label">出生 Born:</span>
+          <span class="info-value">1936年7月14日</span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell">
+          <span class="info-label">年柱 Year Pillar:</span>
+          <span class="info-value">丙子（火鼠 Fire Rat）</span>
+        </div>
+        <div class="info-cell">
+          <span class="info-label">辭世 Passed:</span>
+          <span class="info-value">2026年3月8日</span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell full">
+          <span class="info-label">八字 BaZi:</span>
+          <span class="info-value">年柱：丙子 &nbsp;|&nbsp; 月柱：己未 &nbsp;|&nbsp; 日柱：己丑</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: BURIAL DETAILS -->
+  <div class="section">
+    <div class="section-title">⚰️ 安葬詳情 &nbsp;|&nbsp; Burial Details</div>
+    <div class="info-grid">
+      <div class="info-grid-row">
+        <div class="info-cell full">
+          <span class="info-label">墓園 Cemetery:</span>
+          <span class="info-value highlight">Woodlawn Memorial Park, Colma, California</span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell">
+          <span class="info-label">安葬日期:</span>
+          <span class="info-value highlight">2026年3月30日（星期一）<span class="badge red">癸亥日</span></span>
+        </div>
+        <div class="info-cell">
+          <span class="info-label">入土時間:</span>
+          <span class="info-value highlight">11:30–11:50 AM PDT <span class="badge">午時</span></span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell">
+          <span class="info-label">坐向 Orientation:</span>
+          <span class="info-value">坐丁向癸 <span class="badge green">已確認</span></span>
+        </div>
+        <div class="info-cell">
+          <span class="info-label">穴位安排:</span>
+          <span class="info-value">兩獨立穴位，共用墓碑</span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell">
+          <span class="info-label">坐山:</span>
+          <span class="info-value">丁方 ≈ 195° (SSW)</span>
+        </div>
+        <div class="info-cell">
+          <span class="info-label">向首:</span>
+          <span class="info-value">癸方 ≈ 15° (NNE)</span>
+        </div>
+      </div>
+      <div class="info-grid-row">
+        <div class="info-cell full">
+          <span class="info-label">地形 Land Form:</span>
+          <span class="info-value">後有靠山（玄武）· 前有噴水池（明堂聚水）— 頂級地形</span>
+        </div>
+      </div>
+    </div>
+    <div class="good-box">
+      <div class="box-title">✅ 癸亥日擇日分析 · Why March 30 is Auspicious</div>
+      <ul>
+        <li><strong>癸亥日</strong>：癸水當令，直接扶持父親丙子（水鼠）年命，同氣相扶</li>
+        <li><strong>亥子丑三會</strong>：癸亥日 + 父親子年 + 父親丑日 = 北方三會水局，命格與日期高度相合</li>
+        <li><strong>日時相合</strong>：癸（日干）配戊（午時時干）= 戊癸合，日時和諧</li>
+        <li><strong>坐丁向癸</strong>：向首癸方引入癸水旺氣，與癸亥日呼應，水局圓滿</li>
+        <li><strong>後山前水</strong>：靠山（玄武托靠）+ 噴水池（明堂聚水）= 地形風水絕佳</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 3: CEREMONY SCHEDULE -->
+  <div class="section">
+    <div class="section-title">⏰ 儀式時間表 &nbsp;|&nbsp; Ceremony Schedule — March 30, 2026</div>
+    <div class="timeline">
+      <div class="tl-row">
+        <span class="tl-time">10:30 AM</span>
+        <span class="tl-desc">家屬抵達墓地，佈置供品、花圈 · Family arrives, arrange flowers and offerings</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-time">11:00 AM</span>
+        <span class="tl-desc">開始追思禮拜 · Begin memorial / graveside service</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-time">11:15 AM</span>
+        <span class="tl-desc">最後告別、家屬瞻仰 · Final farewell and viewing</span>
+      </div>
+      <div class="tl-row key-moment">
+        <span class="tl-time">⏰ 11:30 AM</span>
+        <span class="tl-desc">【入土開始】棺木正式下葬 — 最重要時刻 &nbsp;·&nbsp; COFFIN LOWERING BEGINS — most critical moment</span>
+      </div>
+      <div class="tl-row key-moment">
+        <span class="tl-time">11:30–11:50 AM</span>
+        <span class="tl-desc">【覆土完成】務必在此時段內完成入土及覆土 &nbsp;·&nbsp; BURIAL COMPLETE — finish within this window</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-time">12:00–1:00 PM</span>
+        <span class="tl-desc">最後祭禮、整理墓碑，家屬離開 · Final rites, tidy up and depart</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: PRECAUTIONS -->
+  <div class="section">
+    <div class="section-title">⚠️ 當日注意事項 &nbsp;|&nbsp; Day-of Precautions</div>
+    <div class="two-col">
+      <div class="two-col-cell">
+        <div class="alert-box">
+          <div class="alert-title">⚠️ 入土時暫退人士 · Step Back at Lowering</div>
+          <ul>
+            <li>屬猴 Monkey 🐒<br>（1944, 1956, 1968, 1980, 1992, 2004）</li>
+            <li>屬蛇 Snake 🐍<br>（1941, 1953, 1965, 1977, 1989, 2001）</li>
+            <li>請退後幾步，勿正對棺木<br><em>Step back, avoid facing the grave directly</em></li>
+          </ul>
+        </div>
+      </div>
+      <div class="two-col-cell">
+        <div class="alert-box">
+          <div class="alert-title">🔴 特別提醒 · Special Notes</div>
+          <ul>
+            <li>母親（屬馬）全年佩戴紅飾<br><em>Mother (Horse) wear red all year — 本命年</em></li>
+            <li>女婿（屬龍，生日當天）帶紅物品<br><em>Son-in-law (Dragon, birthday) carry red item</em></li>
+            <li>離開墓地後清水洗手<br><em>Wash hands after leaving cemetery</em></li>
+            <li>當晚慶祝以補陽氣<br><em>Celebrate that evening to restore positive energy</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5: FAMILY ANALYSIS -->
+  <div class="section">
+    <div class="section-title">👨‍👩‍👧‍👦 家族成員相性 &nbsp;|&nbsp; Family Compatibility — 坐丁向癸</div>
+    <table>
+      <thead>
+        <tr>
+          <th>成員 Member</th>
+          <th>生日 Birthday</th>
+          <th>年柱 Year Pillar</th>
+          <th>評分</th>
+          <th>原因 Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>父親（先人）</strong></td>
+          <td>1936-07-14</td>
+          <td>丙子 Fire Rat</td>
+          <td><span class="stars">★★★</span></td>
+          <td>癸水扶鼠，避開正午沖</td>
+        </tr>
+        <tr>
+          <td><strong>母親</strong></td>
+          <td>1942-04-26</td>
+          <td>壬午 Water Horse</td>
+          <td><span class="stars">★★★</span></td>
+          <td>坐丁避開正子午，可接受</td>
+        </tr>
+        <tr>
+          <td><strong>Ken（兒子）</strong></td>
+          <td>1963-06-26</td>
+          <td>癸卯 Water Rabbit</td>
+          <td><span class="stars">★★★★★</span></td>
+          <td>年干癸與向癸相應，水生木</td>
+        </tr>
+        <tr>
+          <td><strong>Mabel（媳婦）</strong></td>
+          <td>1961-12-20</td>
+          <td>辛丑 Metal Ox</td>
+          <td><span class="stars">★★★★</span></td>
+          <td>癸藏丑中，丁壬合</td>
+        </tr>
+        <tr>
+          <td><strong>姐姐 Sister</strong></td>
+          <td>1962-03-26</td>
+          <td>壬寅 Water Tiger</td>
+          <td><span class="stars">★★★★★</span></td>
+          <td>丁壬合，水生木，最佳</td>
+        </tr>
+        <tr>
+          <td><strong>姐夫 Bro-in-law</strong></td>
+          <td>1954-07-21</td>
+          <td>甲午 Wood Horse</td>
+          <td><span class="stars">★★★</span></td>
+          <td>甲木生丁火，可接受</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-size:7.5pt; color:#7a5c1e; margin-top:4pt; font-style:italic;">六人評分全部三星或以上，無一人有嚴重沖剋。All six members rated ★★★ or above — no severe conflicts with this plot orientation.</p>
+  </div>
+
+  <!-- SECTION 6: PLOT LAYOUT -->
+  <div class="section">
+    <div class="section-title">🗺️ 墓地佈局圖 &nbsp;|&nbsp; Plot Layout Diagram</div>
+    <div class="plot-diagram">
+      <div class="compass-label">↑ 坐丁方 Sitting Direction (~195° SSW) — Headstone Side</div>
+      <div style="font-size:8.5pt; color:#7a5c1e; margin-bottom:6pt;">
+        ═══ 共用墓碑 Shared Headstone：父親（左）譚氏先人 &nbsp;|&nbsp; 母親（右）譚母 ═══
+      </div>
+
+      <div class="plot-outer">
+
+        <div class="plot-section">
+          <div class="plot-section-label">— 第一排 Row 1：父母 Parents —</div>
+          <div class="plot-row">
+            <div class="plot-box father">
+              <span class="plot-top">LEFT 左 · 青龍 · ♂</span>
+              <span class="plot-name">父親</span>
+              <span class="plot-pillar">丙子 Fire Rat</span>
+            </div>
+            <div class="plot-divider">|</div>
+            <div class="plot-box mother">
+              <span class="plot-top">RIGHT 右 · 白虎 · ♀</span>
+              <span class="plot-name">母親</span>
+              <span class="plot-pillar">壬午 Water Horse</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="plot-section">
+          <div class="plot-section-label">— 第二排 Row 2：Ken &amp; Mabel —</div>
+          <div class="plot-row">
+            <div class="plot-box ken">
+              <span class="plot-top">LEFT 左 · 青龍 · ♂</span>
+              <span class="plot-name">Ken</span>
+              <span class="plot-pillar">癸卯 Water Rabbit</span>
+            </div>
+            <div class="plot-divider">|</div>
+            <div class="plot-box mabel">
+              <span class="plot-top">RIGHT 右 · 白虎 · ♀</span>
+              <span class="plot-name">Mabel</span>
+              <span class="plot-pillar">辛丑 Metal Ox</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="plot-section" style="margin-bottom:0">
+          <div class="plot-section-label">— 第三排 Row 3：姐姐 Sister &amp; 姐夫 —</div>
+          <div class="plot-row">
+            <div class="plot-box sister">
+              <span class="plot-top">LEFT 左 · 青龍 · ♀</span>
+              <span class="plot-name">姐姐 Sister</span>
+              <span class="plot-pillar">壬寅 Water Tiger</span>
+            </div>
+            <div class="plot-divider">|</div>
+            <div class="plot-box bil">
+              <span class="plot-top">RIGHT 右 · 白虎 · ♂</span>
+              <span class="plot-name">姐夫</span>
+              <span class="plot-pillar">甲午 Wood Horse</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="compass-label" style="margin-top:8pt;">↓ 向癸方 Facing Direction (~15° NNE) — Visitor Approach Side</div>
+      <div class="plot-legend">
+        🏔 靠山 Backing Hill · 玄武 &nbsp;&nbsp;|&nbsp;&nbsp; ⛲ 噴水池 Fountain · 明堂 &nbsp;&nbsp;|&nbsp;&nbsp; 男左女右 Husband Left, Wife Right
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div>本記錄由 Sisi（詩詩）AI 助理根據八字、風水、擇日原則綜合分析整理</div>
+    <div>Prepared by Sisi (詩詩) AI Assistant · BaZi · Feng Shui · Auspicious Date Analysis</div>
+    <div style="margin-top:3pt;">Woodlawn Memorial Park, Colma, California &nbsp;·&nbsp; March 2026 &nbsp;·&nbsp; 譚氏家族珍藏</div>
+  </div>
+
+</div>
+</body>
+</html>

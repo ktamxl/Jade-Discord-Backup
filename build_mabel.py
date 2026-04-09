@@ -1,0 +1,168 @@
+
+body = ""
+
+body += """<h1>Who You Are: The Day Master</h1>
+<span class="zh">&#19969;&#28779;&#26085;&#20027;&mdash;&mdash;&#38452;&#28779;&#65292;&#29755;&#20809;&#12289;&#26376;&#20809;&#20043;&#28276;</span>
+<p class="lead">Your Day Master is &#19969;&#28779; (D&imacr;ng Hu&omacr;) &mdash; Yin Fire. Not the blazing sun. You are candlelight.</p>
+<p>Candlelight is one of the most quietly powerful forces in nature. It doesn't shout or demand attention. But in a dark room, every eye goes to it. It creates warmth simply by existing. It illuminates faces. It holds the room. That is you. Your power is not in volume &mdash; it is in depth, warmth, and an almost uncanny ability to make the people around you feel seen and cared for.</p>
+<div class="pw"><table class="pt"><thead><tr><th>Year &#24180;&#26609;</th><th>Month &#26376;&#26609;</th><th>Day &#26085;&#26609; &mdash; YOU</th><th>Hour &#26178;&#26609;</th></tr></thead><tbody>
+<tr><td><div class="stem">&#36758;</div><div class="el">X&imacr;n &middot; Yin Metal</div></td><td><div class="stem">&#24218;</div><div class="el">G&emacr;ng &middot; Yang Metal</div></td><td><div class="stem fire">&#19969;</div><div class="el">&#9733; D&imacr;ng &middot; Yin Fire</div></td><td><div class="stem">&#24218;</div><div class="el">G&emacr;ng &middot; Yang Metal</div></td></tr>
+<tr><td><div class="branch">&#19985;</div><div class="el">Ch&omacr;u &middot; Earth (Ox)</div></td><td><div class="branch">&#23376;</div><div class="el">Z&imacr; &middot; Water (Rat)</div></td><td><div class="branch">&#20165;</div><div class="el">H&agrave;i &middot; Water (Pig)</div></td><td><div class="branch">&#23376;</div><div class="el">Z&imacr; &middot; Water (Rat)</div></td></tr>
+</tbody></table></div>
+<p>You were born in December, at midnight &mdash; the coldest, darkest hour of the coldest month. A candle burning at the heart of winter's night. It takes extraordinary inner strength to hold that flame in so much darkness. And you have held it &mdash; quietly, steadily, for a lifetime.</p>
+<div class="box bp"><div class="bt">Your Natural Strengths</div><table class="dt">
+<tr><td class="pos">Deep warmth</td><td>You create a feeling of home wherever you are. People relax around you in a way they cannot always explain.</td></tr>
+<tr><td class="pos">Emotional intelligence</td><td>You read people accurately and quietly. You notice things others miss &mdash; feelings unspoken, tensions unacknowledged. You are rarely wrong about people.</td></tr>
+<tr><td class="pos">Devoted care</td><td>Your love shows up in action &mdash; in what you prepare, what you arrange, what you quietly do without being asked. You are the heartbeat of your family.</td></tr>
+<tr><td class="pos">Inner steel</td><td>You appear gentle. But you have an iron core. On the things that truly matter to you, you do not bend. Like a flame that will not go out.</td></tr>
+<tr><td class="pos">Resilience</td><td>You have carried a chart full of pressure for your entire life &mdash; and you are still here, still warm, still giving. That is not luck. That is extraordinary strength.</td></tr>
+</table></div>
+<div class="box bw"><div class="bt">Your Patterns to Watch</div><table class="dt">
+<tr><td class="neg">Absorbs too much</td><td>You carry other people's worries as your own. The candle that tries to light the whole world burns out faster. You are allowed to let some things go.</td></tr>
+<tr><td class="neg">Internalizes stress</td><td>When something is wrong, you tend to hold it inside. This protects others &mdash; but at a cost to yourself.</td></tr>
+<tr><td class="neg">Self-last</td><td>You take care of everyone before yourself. In this chapter of life, your own rest and nourishment matter more, not less.</td></tr>
+<tr><td class="neg">Needs warmth</td><td>Cold environments &mdash; physical and emotional &mdash; drain you more than others. Create warmth deliberately around you.</td></tr>
+</table></div>"""
+
+body += """<h1>Your Chart &mdash; The Full Picture</h1>
+<span class="zh">&#21629;&#30424;&#32080;&#26684;&mdash;&mdash;&#19968;&#28846;&#28775;&#28784;&#20013;&#30340;&#34071;&#20809;</span>
+<p class="lead">Your chart is a candle surrounded by metal and water &mdash; in the coldest season, at the darkest hour. And yet the flame persists. That persistence is the defining story of your life.</p>
+<p>Three Metal stems surround your gentle Fire from the Heavenly Stems. Double Water branches (month and hour) threaten to extinguish it. And yet inside your Day Branch &#20165;, hidden and protected, lives &#30002;&#26408; &mdash; the Wood that quietly feeds your flame. Your saving grace has always been there.</p>
+<div class="box bp"><div class="bt">Five Elements in Your Chart</div><table class="dt">
+<tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr>
+<tr><td><strong>Fire &#28779;</strong></td><td>You (Day Master)</td><td class="neg">Very Weak</td><td>You carry your flame alone, surrounded by forces that challenge it. You've always had to work harder for the same warmth others take for granted.</td></tr>
+<tr><td><strong>Metal &#37329;</strong></td><td>Wealth &#36001;</td><td class="neg">Very Strong</td><td>Enormous capacity to generate and manage wealth. You are capable of far more than you are often given credit for.</td></tr>
+<tr><td><strong>Water &#27700;</strong></td><td>Husband Star &#23448;</td><td class="neg">Very Strong</td><td>Powerful, present, overwhelming at times. Brings both pressure and structure. This is the energy your husband carries.</td></tr>
+<tr><td><strong>Earth &#22334;</strong></td><td>Expression &#39292;&#20135;</td><td>Moderate</td><td>Your creativity, your voice, your ability to nurture and care. Hidden but real and always present.</td></tr>
+<tr><td><strong>Wood &#26408;</strong></td><td>Wisdom &amp; Protection &#21360;</td><td class="neg">Hidden</td><td>Your most precious element &mdash; the rarest in your chart. Hidden inside your Day Branch. Always there, always quietly protecting you.</td></tr>
+</table></div>
+<div class="box bh"><div class="bt">The Most Beautiful Discovery: &#19969;&#22764;&#21512; &mdash; Ding and Ren Unite</div>
+<p>Inside your Day Branch (&#20165; Pig) lives &#22764;&#27700; &mdash; your Husband Star. Your Day Master &#19969;&#28779; and this &#22764;&#27700; form a special bond called <strong>&#19969;&#22764;&#21512;&#21270;&#26408;</strong>: Ding and Ren combine and transform into Wood.</p>
+<p>Wood is your Wisdom Star &mdash; the element that feeds and protects your Fire. <strong>The bond with your husband transforms, at its deepest level, into wisdom and protection for you.</strong> The marriage itself is the source of your greatest inner strength. This is rare. This is yours.</p>
+</div>"""
+
+body += """<h1>Your Character in Full</h1>
+<span class="zh">&#24615;&#26684;&mdash;&mdash;&#22806;&#26580;&#20869;&#21018;&#65292;&#28385;&#21153;&#24773;&#28145;</span>
+<p>&#19969;&#28779; people are among the most emotionally sophisticated in the entire BaZi system. They understand things that words can't fully capture. They feel the room before they enter it.</p>
+<table class="dt"><thead><tr><th>Trait</th><th>How It Shows Up</th></tr></thead><tbody>
+<tr><td class="pos">The quiet observer</td><td>You miss nothing. You have been reading people accurately your entire life &mdash; their motivations, their true feelings, what they mean behind what they say. You simply don't always share what you see.</td></tr>
+<tr><td class="pos">Devotion as love language</td><td>You don't say "I love you" with words. You say it by making sure everything is taken care of &mdash; by the things you remember, by anticipating needs before they're spoken.</td></tr>
+<tr><td class="pos">Outer gentleness, inner iron</td><td>People who don't know you well think you are soft. People who know you well understand there are things you will not move on. The flame bends in the wind &mdash; but it never goes out.</td></tr>
+<tr><td class="pos">Deep loyalty</td><td>Once you have given your trust, you give it completely. You are the kind of person people can call at any hour, knowing you will be there.</td></tr>
+<tr><td class="neg">Worry</td><td>Water pressing on Fire creates a background hum of concern. You carry worry for the people you love as a constant companion. Learning to put it down is a lifelong &mdash; and worthy &mdash; practice.</td></tr>
+<tr><td class="neg">Doesn't ask for enough</td><td>You give generously but find it hard to receive. You deserve to be taken care of too.</td></tr>
+</tbody></table>
+<div class="quote">"The candle doesn't ask for credit. It simply lights the room &mdash; and everyone who was ever warmed by it never quite forgets it."</div>"""
+
+body += """<h1>Wealth &amp; Money</h1>
+<span class="zh">&#36001;&#36939;&mdash;&mdash;&#36001;&#22823;&#36523;&#24369;&#65292;&#20860;&#25317;&#20849;&#31649;</span>
+<p>Metal is your Wealth Star &mdash; and there is an enormous amount of it in your chart. Three Metal stems in the Heavenly Stems alone. Your instinctive understanding of value and finances is real and significant.</p>
+<table class="dt"><thead><tr><th>Wealth Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Natural ability</strong></td><td>You have an instinctive sense of what things cost, what they're worth, and where the leaks are. You don't waste, and you notice when others do.</td></tr>
+<tr><td><strong>The challenge</strong></td><td>Wealth-heavy, self-light: the wealth in your chart is larger than your Day Master alone can fully hold. Partnership &mdash; especially marriage &mdash; is where your financial strength compounds.</td></tr>
+<tr><td><strong>Best approach</strong></td><td>Joint management and shared decisions. Your financial instincts paired with the right partner's strength is where everything works best.</td></tr>
+<tr><td><strong>Now</strong></td><td>2025&ndash;2035: Financial life is stable. Focus on enjoying what has been built &mdash; not creating new pressure. You have earned this.</td></tr>
+</tbody></table>"""
+
+body += """<h1>Love &amp; Marriage</h1>
+<span class="zh">&#24863;&#24773;&#23130;&#23035;&mdash;&mdash;&#19969;&#22764;&#21512;&#21270;&#26408;&#65292;&#34071;&#20809;&#22312;&#31881;&#20013;&#28666;&#28988;</span>
+<p>For a woman in BaZi, the husband star is the element that governs her Day Master. For &#19969; Fire, that is Water. And your chart is full of it &mdash; your husband star is one of the most dominant forces in your life.</p>
+<div class="box bh"><div class="bt">Ken &amp; Mabel &mdash; A Rare and Beautiful Pairing</div>
+<p><strong>Ken's Day Master is &#24218;&#37329; (Yang Metal). Your Day Master is &#19969;&#28779; (Yin Fire).</strong></p>
+<p>&#19969;&#22764;&#21512; (Ding-Ren Combine): Your Day Master and the &#22764;&#27700; in your Day Branch form one of the most celebrated bonds in BaZi. They combine and transform into Wood &mdash; your Wisdom Star. <strong>At the deepest level, your marriage is the source of your wisdom and your protection.</strong></p>
+<p>From Ken's side: &#19969;&#28779; (you) is his &#27491;&#21360; &mdash; Correct Wisdom Star. You are the element that generates him, warms him, gives him depth. <em>He sharpens the metal. You provide the warmth that transforms it.</em> Each one makes the other more complete.</p>
+<p><strong>Note:</strong> Ken's Day Pillar is &#24218;&#23376; &mdash; identical to your Month and Hour pillars. You share the same core energy signature. This creates a depth of mutual understanding that goes beyond words.</p>
+</div>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Husband type</strong></td><td>Strong, capable, forceful. He carries his own gravitational field. He brings both pressure and protection &mdash; and over decades, the protection deepens.</td></tr>
+<tr><td><strong>Your dynamic</strong></td><td>The candle and the metal: he is the structure that holds you; you are the warmth that transforms him. Without the candle, metal is cold. Without metal, the candle has no lamp.</td></tr>
+<tr><td><strong>What marriage gives you</strong></td><td>In your chart, marriage literally activates your Wisdom Star through the &#19969;&#22764;&#21512; combination. The right partner doesn't just bring love &mdash; he brings the element your chart needs most to thrive.</td></tr>
+<tr><td><strong>Day Palace (&#20165;)</strong></td><td>Your marriage palace holds &#20165; (Pig) &mdash; a rich, deep, soulful energy. Inside lives both your husband star AND your wisdom. Marriage for you is a soul-level connection.</td></tr>
+</tbody></table>"""
+
+body += """<h1>Children</h1>
+<span class="zh">&#23376;&#22899;&mdash;&mdash;&#23376;&#22899;&#26159;&#20320;&#26368;&#22823;&#30340;&#31119;&#27668;</span>
+<p>Your children's stars are Earth &mdash; the element &#19969; Fire naturally creates. Your children are the expression of your flame.</p>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Vanessa (&#20805;&#28779;)</strong></td><td>Vanessa's Day Master is &#20805;&#28779; (Yang Fire) &mdash; your same element, expressed brighter and outward. She is the Sun to your candlelight. She carries your warmth turned up to full volume, and draws strength from you in ways she may not always say.</td></tr>
+<tr><td><strong>Preston (&#25098;&#22334;)</strong></td><td>Preston's Day Master is &#25098;&#22334; (Yang Earth) &mdash; the element Fire creates. He is built from your flame. His depth, his principles, his standards &mdash; they came from the candle that never went out, no matter how cold the winter.</td></tr>
+<tr><td><strong>Your role</strong></td><td>You are the root of both your children's characters. Vanessa's warmth and Preston's principles came from the same source: you, holding your light steady through every winter.</td></tr>
+<tr><td><strong>Blessing</strong></td><td>Your children are your greatest joy and your deepest pride. As they mature, the relationship becomes something even more beautiful than it already is.</td></tr>
+</tbody></table>"""
+
+body += """<h1>Career &amp; Vocation</h1>
+<span class="zh">&#20107;&#26989;&mdash;&mdash;&#28204;&#36793;&#21161;&#20154;&#65292;&#23478;&#20154;&#31119;&#27668;</span>
+<div class="box bp"><div class="bt">Your Natural Role</div>
+<p>&#19969; Fire people thrive where warmth and care can be felt directly. Not the spotlight &mdash; the room where your presence makes everything work. In any family or team, you are the one who holds the culture together, sets the tone, and notices what's wrong before anyone else does. This is indispensable.</p>
+</div>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Natural strengths</strong></td><td>Emotional intelligence, hospitality, devoted care, financial instinct, keeping relationships and systems running smoothly behind the scenes</td></tr>
+<tr><td><strong>Best arrangement</strong></td><td>Partnership rather than solo leadership. Your chart is designed for collaboration. Together with the right people, you achieve what would be overwhelming alone.</td></tr>
+<tr><td><strong>Your real contribution</strong></td><td>You are the reason things feel good to be part of. That is a rare and irreplaceable gift.</td></tr>
+<tr><td class="now"><strong>Now (2025&ndash;2035)</strong></td><td class="now">A time for stability and choosing wisely where your energy goes. You have more than earned the right to be selective. Be generous &mdash; but wiser about where your flame burns.</td></tr>
+</tbody></table>"""
+
+body += """<h1>Health &amp; Well-being</h1>
+<span class="zh">&#20581;&#24247;&mdash;&mdash;&#20445;&#26292;&#24515;&#33臟;&#65292;&#27178;&#30041;&#28201;&#26292;</span>
+<p>&#19969; Fire governs the <strong>heart, eyes, and nervous system</strong>. With Metal and Water pressing on your Fire throughout your chart, these are the areas most likely to absorb your stress.</p>
+<table class="dt"><thead><tr><th>Area</th><th>Guidance</th></tr></thead><tbody>
+<tr><td><strong>Heart &amp; circulation</strong></td><td>Stay warm. Avoid prolonged cold and damp. Regular check-ups. Your constitution is genuinely affected by temperature in ways that matter.</td></tr>
+<tr><td><strong>Nervous system</strong></td><td>Water pressing on Fire creates background anxiety. You are not imagining it &mdash; it's in the chart. Genuine calm practices are investments, not indulgences.</td></tr>
+<tr><td><strong>Warmth as medicine</strong></td><td>You were born in winter's midnight. Warm food, warm environments, warm company &mdash; these literally restore your element. This is not preference. It is your constitution.</td></tr>
+<tr><td><strong>Rest</strong></td><td>You have given for decades. You are allowed &mdash; you are <em>required</em> &mdash; to rest more in this chapter. The candle that never rests burns out.</td></tr>
+</tbody></table>
+<div class="box bg"><div class="bt">Your Blessings</div>
+<p>You have carried an extraordinarily challenging chart with grace, dignity, and warmth for over sixty years. Inside your Day Branch, quietly and always, lives &#30002;&#26408; &mdash; the Wood that feeds your flame. It has always been there. The wisdom you've accumulated, the family you built, the people who love you &mdash; these are your Wood. They keep the candle burning. And after all these winters, it still burns.</p>
+</div>"""
+
+body += """<h1>Home &amp; Property</h1>
+<span class="zh">&#30000;&#23429;&mdash;&mdash;&#23478;&#26159;&#20320;&#30340;&#26681;&#22522;&#21644;&#21807;&#20805;</span>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Home as sanctuary</strong></td><td>For you, home is not just where you live &mdash; it is where you regenerate. The warmth and quality of your living environment matters deeply for your health and spirit.</td></tr>
+<tr><td><strong>What home should feel like</strong></td><td>Warm. Calm. Comfortable. Not status-driven &mdash; soul-driven. A home that restores you the moment you walk in.</td></tr>
+<tr><td><strong>Property capacity</strong></td><td>With Metal (wealth) so strong in your chart, the financial capacity for property is real. Joint decisions with careful consideration work best.</td></tr>
+<tr><td><strong>Later life</strong></td><td>Your ideal home in this chapter requires less management and more enjoyment. Simplify where you can. The candle burns best in a calm, warm room.</td></tr>
+</tbody></table>"""
+
+body += """<h1>Your Life Journey &mdash; Grand Cycles</h1>
+<span class="zh">&#19968;&#29983;&#22823;&#36939;&mdash;&mdash;&#34071;&#20809;&#30340;&#24341;&#31243;</span>
+<p>BaZi maps life in 10-year Grand Cycles (&#22823;&#36939;). Each decade carries a different energy. Here is the arc of your remarkable life:</p>
+<div class="tl"><div class="tl-yr">Ages 0&ndash;4<br>(1961&ndash;65)</div><div class="tl-gz"></div><div class="tl-desc"><strong>The flame begins.</strong> Born in December's midnight &mdash; the coldest possible start. Whatever your early years held, they taught you before anything else what it means to hold your own warmth.</div></div>
+<div class="tl"><div class="tl-yr">Ages 4&ndash;14<br>(1965&ndash;75)</div><div class="tl-gz">&#24049;&#20165;</div><div class="tl-desc"><strong>Childhood into girlhood.</strong> &#24049;&#22334; Food God runs &mdash; expression, intelligence, sensitivity. A child who noticed everything. You were already reading the room before you had words for it.</div></div>
+<div class="tl"><div class="tl-yr">Ages 14&ndash;24<br>(1975&ndash;85)</div><div class="tl-gz">&#25098;&#25106;</div><div class="tl-desc"><strong>Finding yourself.</strong> &#25098;&#22334; brings quiet steadiness; &#25106; holds hidden Fire that subtly warms the chart. You were forming your values, your standards, your sense of who you would become.</div></div>
+<div class="tl"><div class="tl-yr">Ages 24&ndash;34<br>(1985&ndash;95)</div><div class="tl-gz">&#19969;&#37193;</div><div class="tl-desc"><strong>The flame finds its partner.</strong> &#19969;&#28779; Companion Star runs &mdash; your own element, strengthening your Day Master. <strong>You met and married Ken. Vanessa and Preston were born.</strong> Your Fire found its lamp. This decade was the foundation of everything.</div></div>
+<div class="tl"><div class="tl-yr">Ages 34&ndash;44<br>(1995&ndash;2005)</div><div class="tl-gz">&#20805;&#30003;</div><div class="tl-desc"><strong>The family years in full.</strong> &#20805;&#28779; Yang Fire runs alongside &mdash; helping your Day Master. Your children were growing. Everything was pulling at you. And you held it all together.</div></div>
+<div class="tl"><div class="tl-yr">Ages 44&ndash;54<br>(2005&ndash;15)</div><div class="tl-gz">&#20057;&#26410;</div><div class="tl-desc"><strong>Wisdom arrives.</strong> &#20057;&#26408; (your most needed Wisdom Star) runs for the first time. The pressure begins to lift. Your thinking becomes clearer. Your heart, lighter. <strong>You felt it.</strong></div></div>
+<div class="tl"><div class="tl-yr">Ages 54&ndash;64<br>(2015&ndash;25)</div><div class="tl-gz">&#30002;&#21320;</div><div class="tl-desc"><strong>Your best decade.</strong> &#30002;&#26408; (strongest Wisdom Star) + &#21320;&#28779; (Fire companion) together at last. <strong>The most balanced, most comfortable, most peaceful ten years of your life.</strong> The warmth you gave for so long came back to you.</div></div>
+<div class="tl tn"><div class="tl-yr">Ages 64&ndash;74<br>(2025&ndash;35) &#9733; NOW</div><div class="tl-gz">&#30001;&#24049;</div><div class="tl-desc"><strong>Present: the fire continues.</strong> &#30001;&#27700; is present; &#24049;&#28779; (Fire inside &#24049;) still feeds your Day Master. <strong>This decade is for enjoying what you have built.</strong> Not creating new pressure &mdash; but receiving the warmth you have given so generously for so long.</div></div>
+<div class="tl"><div class="tl-yr">Ages 74&ndash;84<br>(2035&ndash;45)</div><div class="tl-gz">&#22764;&#36791;</div><div class="tl-desc"><strong>Serenity.</strong> &#22764;&#27700; carries husband energy. The decade has a quality of completeness &mdash; surrounded by those you love, and they surround you.</div></div>
+<div class="tl"><div class="tl-yr">Ages 84+<br>(2045+)</div><div class="tl-gz">&#36758;&#21345;</div><div class="tl-desc"><strong>The long flame.</strong> The chart completes its cycle. A quiet, enduring light into great age.</div></div>"""
+
+body += """<h1>2026&ndash;2027 Spotlight</h1>
+<span class="zh">&#26410;&#20358;&#20004;&#24180;&mdash;&mdash;&#28258;&#28779;&#24310;&#32493;&#65292;&#26368;&#36827;&#26368;&#34989;</span>
+<div class="box bg"><div class="bt">2026 (&#20805;&#21320; &mdash; Year of the Fire Horse) &mdash; Warmth &amp; Vitality</div>
+<p>&#20805;&#28779; (Yang Fire Companion) arrives and &#21320;&#28779; in the branch adds more Fire support. <strong>This is one of your very best years: more energy, more lightness, more vitality than in recent memory.</strong> Go out. See the people you love. Travel if you can. The universe is offering you a genuinely good year &mdash; take it with both hands.</p>
+</div>
+<div class="box bn"><div class="bt">2027 (&#19969;&#26410; &mdash; Year of the Fire Goat) &mdash; Comfort &amp; Joy</div>
+<p>&#19969;&#28779; (your exact element) arrives as the year energy. Like seeing yourself at your very best. Hidden &#20057;&#26408; (Wisdom Star) inside &#26410; also quietly supports. <strong>2027 is a year of genuine comfort, family warmth, and quiet happiness.</strong> Savor every moment.</p>
+</div>
+<div class="quote">"The candle that has burned through sixty winters knows something the sun can only guess at: that warmth, given faithfully in the dark, is the most enduring light of all."</div>
+<div class="closing">
+<p><strong>About This Reading:</strong> This report is based on the Four Pillars of Destiny (&#23376;&#24179;&#20843;&#23383; BaZi), using the master system of &#37040;&#20530;&#38596;&#24072;&#20064; &mdash; the same master who read your husband Ken's chart. Offered as a framework for self-understanding, not fixed fate. Your choices shape your life; BaZi reveals the terrain.</p>
+<p><strong>Prepared by:</strong> Sisi (&#35443;&#35443;) for Ken Tam &middot; March 2026 &middot; <em>With love, from your husband who is grateful every day for the candle that lights his life.</em></p>
+</div>
+</div></div></body></html>"""
+
+# Write complete file
+existing = open('/workspace/mabel_bazi_web.html').read()
+with open('/workspace/mabel_bazi_web.html', 'w') as f:
+    f.write(existing + body)
+
+import os, shutil
+os.makedirs('/workspace/mabel_report_dist', exist_ok=True)
+shutil.copy('/workspace/mabel_bazi_web.html', '/workspace/mabel_report_dist/index.html')
+
+final = open('/workspace/mabel_bazi_web.html').read()
+print(f"Total size: {len(final)} chars")
+print(f"H1 sections: {final.count('<h1>')}")
+print(f"Has closing tag: {'</html>' in final}")

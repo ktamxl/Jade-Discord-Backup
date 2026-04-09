@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preston Wing Chong Tam - BaZi Destiny Report</title>
+<style>
+#printBtn {
+  position: fixed; top: 18px; right: 22px; z-index: 9999;
+  background: #1d4ed8; color: #fff; border: none;
+  padding: 10px 22px; font-size: 14px; font-weight: 700;
+  border-radius: 6px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  font-family: Georgia, serif;
+}
+#printBtn:hover { background: #1e40af; }
+@media print { #printBtn { display: none; } }
+*, *::before, *::after { box-sizing: border-box; }
+body { font-family: Georgia, serif; line-height: 1.8; color: #1f2937; background: #f0f4f8; margin: 0; padding: 0; }
+.page-wrap { max-width: 860px; margin: 0 auto; background: #fff; box-shadow: 0 0 30px rgba(0,0,0,0.1); }
+.cover { background: #0f172a; color: #f8fafc; padding: 80px 60px 70px; text-align: center; }
+.cover-icon { font-size: 52px; color: #60a5fa; margin-bottom: 20px; }
+.cover-name { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+.cover-ch { font-size: 18px; color: #94a3b8; margin-bottom: 12px; }
+.cover-title { font-size: 15px; color: #cbd5e1; font-style: italic; margin-bottom: 28px; }
+.cover-line { width: 80px; height: 1px; background: #334155; margin: 0 auto 28px; }
+.cover-bazi { font-size: 14px; color: #94a3b8; line-height: 2.2; }
+.cover-bazi strong { color: #e2e8f0; }
+.cover-note { margin-top: 40px; font-size: 11px; color: #475569; }
+.content { padding: 48px 60px; }
+h1 { font-size: 22px; font-weight: 700; color: #0f172a; border-bottom: 2.5px solid #1d4ed8; padding-bottom: 8px; margin: 48px 0 6px; }
+h1:first-of-type { margin-top: 0; }
+h2 { font-size: 17px; font-weight: 700; color: #1e293b; margin: 28px 0 8px; }
+p { margin: 8px 0 14px; }
+.zh { color: #64748b; font-size: 13px; font-style: italic; display: block; margin: -4px 0 14px; }
+.lead { font-size: 16px; font-style: italic; border-left: 4px solid #1d4ed8; padding-left: 16px; margin: 0 0 20px; color: #1e293b; line-height: 1.8; }
+.pw { overflow-x: auto; margin: 16px 0 24px; }
+.pt { width: 100%; border-collapse: collapse; min-width: 380px; }
+.pt th { background: #1e293b; color: #f8fafc; padding: 10px 8px; text-align: center; font-size: 13px; }
+.pt td { border: 1px solid #e2e8f0; padding: 12px 8px; text-align: center; }
+.stem { font-size: 32px; font-weight: 700; color: #0f172a; line-height: 1.1; }
+.stem.earth { color: #92400e; }
+.branch { font-size: 26px; font-weight: 700; color: #374151; }
+.el { font-size: 11px; color: #9ca3af; margin-top: 4px; }
+.box { margin: 16px 0; padding: 16px 20px; border-radius: 4px; }
+.be { background: #fef3c7; border-left: 4px solid #d97706; }
+.bg { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.bn { background: #eff6ff; border-left: 4px solid #1d4ed8; }
+.bw { background: #fef2f2; border-left: 4px solid #dc2626; }
+.bt { font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+.dt { width: 100%; border-collapse: collapse; margin: 10px 0 18px; font-size: 14px; }
+.dt th { background: #1e293b; color: #f9fafb; padding: 8px 12px; text-align: left; font-size: 13px; }
+.dt td { border: 1px solid #e5e7eb; padding: 8px 12px; vertical-align: top; }
+.dt tr:nth-child(even) td { background: #f9fafb; }
+.pos { color: #16a34a; font-weight: 700; }
+.neg { color: #dc2626; font-weight: 700; }
+.now { color: #1d4ed8; font-weight: 700; }
+.compare { display: flex; gap: 16px; margin: 12px 0; }
+.cv { flex: 1; padding: 14px; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 4px; font-size: 13px; }
+.cp { flex: 1; padding: 14px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 4px; font-size: 13px; }
+.ct { font-weight: 700; margin-bottom: 6px; font-size: 13px; }
+.tl { display: flex; gap: 16px; margin: 10px 0; padding: 10px 0; border-bottom: 1px solid #f3f4f6; font-size: 14px; }
+.tl-yr { min-width: 130px; font-weight: 700; color: #374151; flex-shrink: 0; }
+.tl-gz { min-width: 36px; color: #9ca3af; flex-shrink: 0; }
+.tl-desc { flex: 1; }
+.tn .tl-yr { color: #1d4ed8; }
+.tn .tl-gz { color: #1d4ed8; }
+.quote { margin: 24px 0; padding: 20px 28px; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; font-style: italic; text-align: center; font-size: 17px; color: #374151; }
+.closing { margin-top: 40px; padding-top: 20px; border-top: 2px solid #1e293b; font-size: 13px; color: #9ca3af; }
+@media print {
+  @page { size: letter; margin: 1.8cm 1.8cm 2cm; }
+  body { background: #fff; font-size: 10pt; }
+  .page-wrap { max-width: 100%; box-shadow: none; }
+  .content { padding: 0 0 20pt; }
+  .cover { padding: 60pt 50pt; page-break-after: always; }
+  .cover-icon { font-size: 40pt; }
+  .cover-name { font-size: 26pt; }
+  h1 { font-size: 16pt; page-break-after: avoid; margin: 30pt 0 5pt; }
+  h2 { font-size: 13pt; page-break-after: avoid; }
+  .lead { font-size: 12pt; }
+  .stem { font-size: 24pt; } .branch { font-size: 20pt; }
+  .box, .tl, tr { page-break-inside: avoid; }
+  .compare { flex-direction: column; }
+  .dt, .tl { font-size: 9pt; }
+  .quote { font-size: 13pt; }
+}
+</style>
+</head>
+<body>
+<button id="printBtn" onclick="window.print()">Print / Save PDF</button>
+<div class="page-wrap">
+<div class="cover">
+  <div class="cover-icon">&#25098; &#9968;</div>
+  <div class="cover-name">Preston Wing Chong Tam</div>
+  <div class="cover-ch">&#35674;&#35424;&#26124;</div>
+  <div class="cover-title">Four Pillars of Destiny (BaZi)<br>A Complete Life Reading</div>
+  <div class="cover-line"></div>
+  <div class="cover-bazi">
+    <strong>Born:</strong> January 12, 1996 &middot; San Francisco, CA<br>
+    <strong>Hour:</strong> &#25106;&#26178; (Xu) &middot; 7:00&ndash;9:00 PM<br><br>
+    Year &#20057;&#20165; | Month &#24049;&#19985; | Day &#25098;&#30003; | Hour &#22764;&#25106;<br><br>
+    <strong>Day Master: &#25098;&#22334; Yang Earth &mdash; The Mountain</strong><br><br>
+    A gift from your father, Ken Tam
+  </div>
+  <div class="cover-note">This reading is based on the ancient Chinese art of Four Pillars (BaZi). Offered as a mirror of your nature, timing, and potential.</div>
+</div>
+<div class="content">
+
+<h1>Who You Are: The Day Master</h1>
+<span class="zh">&#25098;&#22334;&#26085;&#20027;&mdash;&mdash;&#38525;&#22334;&#65292;&#22823;&#23665;&#20043;&#31114;</span>
+
+<p class="lead">Your Day Master is &#25098;&#22334; (Wu Tu) &mdash; Yang Earth. Not soft soil. Not a garden bed. You are a great mountain.</p>
+
+<p>In Four Pillars, the Day Master is the center of your chart &mdash; your core nature, your deepest instincts, the element everything else orbits. A mountain is the most solid, most reliable, most enduring of all Day Masters. Mountains don't move under pressure. They don't react to every storm. They simply stand &mdash; and everything leans on them.</p>
+
+<div class="pw">
+<table class="pt">
+  <thead><tr><th>Year &#24180;&#26609;</th><th>Month &#26376;&#26609;</th><th>Day &#26085;&#26609; &mdash; YOU</th><th>Hour &#26178;&#26609;</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><div class="stem">&#20057;</div><div class="el">Yi &middot; Yin Wood</div></td>
+      <td><div class="stem">&#24049;</div><div class="el">Ji &middot; Yin Earth</div></td>
+      <td><div class="stem earth">&#25098;</div><div class="el">&#9733; Wu &middot; Yang Earth</div></td>
+      <td><div class="stem">&#22764;</div><div class="el">Ren &middot; Yang Water</div></td>
+    </tr>
+    <tr>
+      <td><div class="branch">&#20165;</div><div class="el">Hai &middot; Water (Pig)</div></td>
+      <td><div class="branch">&#19985;</div><div class="el">Chou &middot; Earth (Ox)</div></td>
+      <td><div class="branch">&#30003;</div><div class="el">Shen &middot; Metal (Monkey)</div></td>
+      <td><div class="branch">&#25106;</div><div class="el">Xu &middot; Earth (Dog)</div></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>You were born in January &mdash; the depths of winter, when Earth is cold and still. A winter mountain: powerful, patient, ancient-feeling even in youth. You warm slowly. But once warm, you hold that heat for a very long time. People who earn your trust find that you are one of the most solid people they will ever know.</p>
+
+<div class="box be">
+  <div class="bt">Your Natural Strengths</div>
+  <table class="dt">
+    <tr><td class="pos">Reliability</td><td>When you say you will do something, you do it. This is rarer than you think, and people notice and remember it.</td></tr>
+    <tr><td class="pos">Unshakeable under pressure</td><td>When things fall apart, you stay calm. You process internally rather than reacting outwardly. In a crisis, people instinctively turn to you.</td></tr>
+    <tr><td class="pos">Deep loyalty</td><td>Slow to trust, but once you do &mdash; fully committed. You don't abandon people who have earned your trust.</td></tr>
+    <tr><td class="pos">Long-term thinking</td><td>You play the long game naturally. You're building something that lasts &mdash; not chasing this quarter's results.</td></tr>
+    <tr><td class="pos">Principled</td><td>You have a strong internal compass. You know what you stand for &mdash; and you stand there regardless of social pressure.</td></tr>
+  </table>
+</div>
+
+<div class="box bw">
+  <div class="bt">Your Patterns to Watch</div>
+  <table class="dt">
+    <tr><td class="neg">Inflexibility</td><td>The strength that makes you principled can make you immovable when you shouldn't be. Even mountains are carved by rivers over time.</td></tr>
+    <tr><td class="neg">Slow to start</td><td>Your peak comes later than most. The early years can feel slow &mdash; trust the foundation you're laying. It's real.</td></tr>
+    <tr><td class="neg">Understated</td><td>You do the work and assume people will notice. Sometimes you need someone to speak up for you. Don't mistake modesty for strategy.</td></tr>
+    <tr><td class="neg">Ox-Dog clash (&#19985;&#25106;&#30456;&#21010;)</td><td>Your two strongest Earth branches clash internally. You can mistake stubbornness for principle. They feel the same &mdash; but they're not always the same.</td></tr>
+  </table>
+</div>
+
+<h1>Your Chart Pattern</h1>
+<span class="zh">&#27491;&#23448;&#26684;&mdash;&mdash;&#26377;&#35215;&#31684;&#12289;&#26377;&#36131;&#20219;&#24515;&#12289;&#34384;&#24471;&#20449;&#35489;</span>
+
+<p class="lead">Your chart leans toward the "Correct Officer" pattern (&#27491;&#23448;&#26684;) &mdash; the person of deep integrity, who respects structure, and earns trust through consistent, reliable action built over time.</p>
+
+<p>The central dynamic in your chart: you have enormous, powerful Earth (yourself) &mdash; and relatively weak Wood as your Official Star, which governs and gives direction to all that mountain strength. A mountain without a path is just mass. Wood &mdash; as your direction star &mdash; is the path: the goals, the responsibilities, the structure that gives your power somewhere meaningful to go.</p>
+
+<div class="box bn">
+  <div class="bt">The Sibling Contrast: Preston and Vanessa</div>
+  <div class="compare">
+    <div class="cv">
+      <div class="ct">Vanessa &mdash; &#20805;&#28779; The Sun</div>
+      Hurting Officer pattern<br>
+      Breaks conventions to find a better way<br>
+      External, expressive, emotionally vivid<br>
+      Earns through creativity and charisma<br>
+      <strong>Peak: right now (age 25&ndash;35)</strong>
+    </div>
+    <div class="cp">
+      <div class="ct">Preston &mdash; &#25098;&#22334; The Mountain</div>
+      Correct Officer pattern<br>
+      Works within structure to build something lasting<br>
+      Internal, steady, principled<br>
+      Earns through reliability and long-term depth<br>
+      <strong>Peak: ahead (age 38&ndash;48)</strong>
+    </div>
+  </div>
+  <p>Different elements, different timing, different styles &mdash; and together they complement each other perfectly. One illuminates, one anchors. Your father's two children, fitting together like sun and mountain.</p>
+</div>
+
+<h2>Five Elements in Your Chart</h2>
+<table class="dt">
+  <thead><tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Earth &#22334;</strong></td><td>You (Day Master)</td><td class="pos">Very Strong</td><td>Enormous inner stability and self-containment. The mountain needs direction, not more rock.</td></tr>
+    <tr><td><strong>Metal &#37329;</strong></td><td>Expression &#39292;&#20135;</td><td class="pos">Strong</td><td>High-quality output. You build and produce things that are solid and well-made.</td></tr>
+    <tr><td><strong>Water &#27700;</strong></td><td>Wealth &#36131;</td><td class="pos">Rooted</td><td>Wealth is present and real &mdash; deep like groundwater. Patient, accumulating, growing over time.</td></tr>
+    <tr><td><strong>Wood &#26408;</strong></td><td>Direction &#23448;</td><td class="neg">Weak</td><td>Your direction star is light. Clear goals and external structure are what unlock your power.</td></tr>
+    <tr><td><strong>Fire &#28779;</strong></td><td>Wisdom &#21360;</td><td class="neg">Hidden</td><td>Your wisdom is real but deeply internalized &mdash; buried in your Dog branch (&#25106;). It surfaces in quiet moments, not in performance.</td></tr>
+  </tbody>
+</table>
+
+<h1>Your Character in Full</h1>
+<span class="zh">&#24615;&#26684;&mdash;&mdash;&#31561;&#20854;&#33258;&#36842;&#65292;&#20843;&#38989;&#35759;&#20154;</span>
+
+<p>BaZi reveals how you are <em>wired</em> &mdash; the patterns that show up under pressure, the instincts you can't easily override, the things that make you unmistakably you.</p>
+
+<table class="dt">
+  <thead><tr><th>Trait</th><th>How It Shows Up</th></tr></thead>
+  <tbody>
+    <tr><td class="pos">Trust through action</td><td>You don't sell yourself. You show up, do the work, and let results speak. This takes longer &mdash; but the trust you build is ironclad. People who trust you, trust you completely.</td></tr>
+    <tr><td class="pos">Crisis composure</td><td>When things go wrong, you are often the stillest person in the room. This is a rare gift that cannot be faked and is always noticed.</td></tr>
+    <tr><td class="pos">Depth over breadth</td><td>You go deep on what matters. You'd rather master one thing than dabble in ten. This is why people eventually come to you as the authority.</td></tr>
+    <tr><td class="pos">Keeper of standards</td><td>You hold people to what they promised. You don't let things slide because it's easier. That's not stubbornness &mdash; that's integrity. Most people don't have it.</td></tr>
+    <tr><td class="neg">Slow to open up</td><td>People have to earn access to the real you. This protects you &mdash; but it can read as distance or coldness to those who haven't yet understood you.</td></tr>
+    <tr><td class="neg">Stubbornness</td><td>Your Ox and Dog branches clash internally &mdash; making you extraordinarily firm in your convictions. Power and limitation in equal measure. The question is always: is this principle, or is this pride?</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">"The mountain doesn't chase. It stands. And everything that matters eventually finds its way there."</div>
+
+<h1>Wealth &amp; Money</h1>
+<span class="zh">&#36001;&#22312;&#26178;&#26609;&#65292;&#26085;&#31215;&#26376;&#32004;&#65292;&#38750;&#24180;&#36001;&#36939;&#26356;&#24378;</span>
+
+<div class="box be">
+  <div class="bt">Your Wealth Profile</div>
+  <p>Your wealth star (Water) is rooted deep in your chart &mdash; present in multiple branches and in your Hour Pillar. Like groundwater: invisible on the surface, but enormous underneath, and more accessible the deeper you go. Your financial peak is ahead of you, not behind you.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Wealth Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>How you earn</strong></td><td>Through reliability, expertise, and relationships built over time &mdash; not through flash or quick deals. People pay a premium for someone they can genuinely trust with important things.</td></tr>
+    <tr><td><strong>Income style</strong></td><td>Steady accumulation (&#27491;&#36001; style): consistent, compounding growth rather than volatile peaks and crashes. Patience is your financial strategy.</td></tr>
+    <tr><td><strong>Timeline</strong></td><td>Your wealth builds with time. The 30s lay the foundation. The 40s are when it becomes undeniable.</td></tr>
+    <tr><td><strong>True peak</strong></td><td>Ages 38&ndash;48 (&#30001;&#24049; Grand Cycle, 2034&ndash;2044): Wealth Star AND Wisdom Star run together. Everything you have built converges. This is your decade of arrival.</td></tr>
+    <tr><td><strong>Right now</strong></td><td>2024&ndash;2034 (&#22764;&#36791; Cycle): Foundation decade. Don't be impatient. Every decision you make with integrity now is loading a spring that will release in your 40s.</td></tr>
+  </tbody>
+</table>
+
+<h1>Love &amp; Relationships</h1>
+<span class="zh">&#22867;&#26143;&#20255;&#36001;&#65292;&#30003;&#37329;&#22253;&#23470;&#65292;&#27969;&#27700;&#32929;&#23665;</span>
+
+<p>For a man in BaZi, the wife star is the element he governs &mdash; Water. Your Wealth Star and your Wife Star are the same element. Your most natural partner is someone capable, intelligent, and self-directed &mdash; someone who moves through the world on her own terms.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Partner type</strong></td><td>Smart, independent, capable. She has her own world and her own direction. Not someone who needs you to manage her life &mdash; and not someone who will try to manage yours.</td></tr>
+    <tr><td><strong>What attracts you</strong></td><td>Competence and intelligence. Someone who is genuinely going somewhere. Not just someone who looks good &mdash; someone who <em>is</em> something.</td></tr>
+    <tr><td><strong>Your dynamic</strong></td><td>You are the mountain; she is the river. She brings flow and adaptability to your solidity. You bring stability and direction to her movement. Complementary when the respect is mutual.</td></tr>
+    <tr><td><strong>Day Palace (&#30003;)</strong></td><td>&#30003; Metal is your marriage palace &mdash; the Food God star. This means your ideal partnership is nurturing, comfortable, and genuinely satisfying in daily life. The relationship should feel good to live inside every day.</td></tr>
+  </tbody>
+</table>
+
+<div class="box bn">
+  <div class="bt">Relationship Timing</div>
+  <p><strong>Now through 2034</strong> (&#22764;&#36791; Grand Cycle): Wealth Star runs strong &mdash; this decade favors both financial and romantic grounding. Relationships that deepen now tend to be lasting.</p>
+  <p><strong>Key insight:</strong> You open slowly. The right partner will be patient enough to earn that trust &mdash; and perceptive enough to recognize that what's on the other side of your walls is absolutely worth it.</p>
+</div>
+
+<h1>Children</h1>
+<span class="zh">&#23376;&#22899;&#32102;&#26469;&#28201;&#26292;&#65292;&#24773;&#24863;&#32027;&#23494;&#65292;&#20844;&#24320;&#25105;&#20320;&#30340;&#20869;&#24515;</span>
+
+<p>Your children's palace (Hour Branch &#25106; Dog) holds within it the Fire element &mdash; your hidden Wisdom Star. Your children will carry warmth into your life in a way that draws out the gentleness and openness you keep so carefully protected.</p>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Number</strong></td><td>Most likely 1&ndash;2 children</td></tr>
+    <tr><td><strong>Personality</strong></td><td>Warm, creative, expressive &mdash; often in ways you are not. They bring out a softer side of you that few people get to see.</td></tr>
+    <tr><td><strong>Bond</strong></td><td>The parent-child relationship will be one of your most emotionally close connections &mdash; more naturally warm and open than most of your adult relationships.</td></tr>
+    <tr><td><strong>Their effect on you</strong></td><td>Children warm the mountain. They bring out the hidden Fire &mdash; the wisdom and tenderness you keep so carefully inside. Parenthood will open you in ways little else can.</td></tr>
+  </tbody>
+</table>
+
+<h1>Career &amp; Vocation</h1>
+<span class="zh">&#20107;&#26989;&mdash;&mdash;&#21487;&#38054;&#65292;&#35777;&#20491;&#21487;&#38760;&#20043;&#20154;</span>
+
+<div class="box be">
+  <div class="bt">Your Career Blueprint</div>
+  <p>You are built for roles where reliability and integrity are the highest currency. Finance, property, management, operations, engineering, logistics &mdash; anywhere the key question is "can I trust this person completely?" You become the person that organizations and clients depend on most, and that position is irreplaceable.</p>
+</div>
+
+<table class="dt">
+  <thead><tr><th>Career Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Best environment</strong></td><td>Where your word means something. Where long-term relationships and consistent execution are valued over flashy short-term wins.</td></tr>
+    <tr><td><strong>Your edge</strong></td><td>Trustworthiness (rare and valuable at any level), crisis management, long-term execution, depth of expertise over breadth</td></tr>
+    <tr><td><strong>Watch out for</strong></td><td>Waiting to be recognized instead of advocating for yourself; passing on opportunities because change feels too risky; letting the fixed-conviction pattern slow adaptation</td></tr>
+    <tr><td><strong>Now (2024&ndash;2034) &#9733;</strong></td><td class="now">&#22764;&#36791; Grand Cycle: Wealth Star runs. This is your foundation decade. Every relationship built with integrity, every commitment honored, every skill deepened now is an investment that pays back tenfold in your 40s.</td></tr>
+    <tr><td><strong>Peak (2034&ndash;2044)</strong></td><td>&#30001;&#24049; Grand Cycle: Wealth AND Wisdom together. Recognition, reputation, financial reward &mdash; all converging at once. This is your decade of arrival. Plan for it.</td></tr>
+  </tbody>
+</table>
+
+<h1>Health &amp; Well-being</h1>
+<span class="zh">&#20491;&#20307;&#21079;&#31119;&#27668;&mdash;&mdash;&#36010;&#36947;&#33178;&#32032;&#38989;&#30041;&#24847;</span>
+
+<p>Your Day Master element (Earth &#22334;) governs the <strong>digestive system, stomach, and spleen</strong>. Earth so dominant in your chart means these systems are most likely to absorb and reflect your stress &mdash; even when you don't show it outwardly.</p>
+
+<table class="dt">
+  <thead><tr><th>Area</th><th>Guidance</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Digestive health</strong></td><td>Earth excess + cold winter birth = digestive system is your body's stress register. Watch what you eat under pressure. Warming, nourishing foods matter more for your constitution than for most.</td></tr>
+    <tr><td><strong>Internal processing</strong></td><td>You hold stress internally &mdash; the mountain absorbs without showing cracks. This is strength, but it's also a health risk. Build genuine outlets: exercise, quiet time, people you can actually talk to.</td></tr>
+    <tr><td><strong>The need for warmth</strong></td><td>Winter Earth needs Fire. In physical terms: stay warm, be cautious with cold/damp environments, prioritize sleep. In emotional terms: don't let your natural reserve become isolation.</td></tr>
+  </tbody>
+</table>
+
+<div class="box bg">
+  <div class="bt">Your Blessings</div>
+  <p>Mountains endure. Your constitution, once you take care of it, is one of the most durable in the zodiac. Your hidden Wisdom Star (Fire in &#25106;) means that in quiet moments &mdash; in reflection, in the right conversation, with the right person &mdash; you access depths of insight that genuinely surprise people who only know your surface. That depth is a gift worth protecting.</p>
+</div>
+
+<h1>Home &amp; Property</h1>
+<span class="zh">&#30000;&#23429;&mdash;&mdash;&#22810;&#22334;&#20043;&#20154;&#65292;&#24448;&#26356;&#38989;&#30041;&#24847;&#22320;&#20135;</span>
+
+<table class="dt">
+  <thead><tr><th>Factor</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Natural affinity</strong></td><td>Earth is your element &mdash; and Earth governs land, property, and physical assets. You have a natural instinct for real estate and tangible investments.</td></tr>
+    <tr><td><strong>Best fit</strong></td><td>Residential property, land, long-term real estate holdings. Physical, tangible, enduring assets suit your chart perfectly.</td></tr>
+    <tr><td><strong>Your Day Palace (&#30003; Metal)</strong></td><td>Your home and marriage palace holds Metal &mdash; a Food God. Your home should be a place of genuine comfort, nourishment, and quality. Don't compromise on your living environment.</td></tr>
+    <tr><td><strong>Strategy</strong></td><td>Buy, hold, let time do the work. This matches your natural temperament exactly &mdash; and it will make you wealthy if you're patient with it.</td></tr>
+    <tr><td><strong>Caution</strong></td><td>Earth-heavy charts can be over-cautious about entering the market at all. The risk of doing nothing is also real. Pick the right property and commit.</td></tr>
+  </tbody>
+</table>
+
+<h1>Your Life Journey &mdash; Grand Cycles</h1>
+<span class="zh">&#19968;&#29983;&#22823;&#36939;&mdash;&mdash;&#20154;&#29983;&#30340;&#21313;&#24180;&#31680;&#22870;</span>
+
+<p>BaZi maps life in 10-year Grand Cycles (&#22823;&#36939;). Each decade carries a different energy and opportunity. Here is the arc of your life:</p>
+
+<div class="tl"><div class="tl-yr">Ages 0&ndash;8<br>(1996&ndash;2004)</div><div class="tl-gz"></div><div class="tl-desc"><strong>Foundation years.</strong> Born into a family with strong values and commercial roots. Your father's steady, principled presence &mdash; the Yang Metal mountain that shapes the Wood of direction &mdash; set the frame for who you would become.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 8&ndash;18<br>(2004&ndash;2014)</div><div class="tl-gz">&#24218;&#23493;</div><div class="tl-desc"><strong>Learning and developing.</strong> &#24218;&#37329; Food God runs &mdash; a productive, creative cycle. School and learning came with a real sense of capability. &#23493;&#26408; brings ambition and competitive drive. You start discovering what you're genuinely good at.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 18&ndash;28<br>(2014&ndash;2024)</div><div class="tl-gz">&#36758;&#21345;</div><div class="tl-desc"><strong>Finding independence.</strong> &#36758;&#37329; Hurting Officer &mdash; a restless, questioning energy. You challenged assumptions, changed direction, looked for what was actually yours rather than what you inherited. Some friction with authority figures. Essential growth.</div></div>
+
+<div class="tl tn"><div class="tl-yr">Ages 28&ndash;38<br>(2024&ndash;2034) &#9733; NOW</div><div class="tl-gz">&#22764;&#36791;</div><div class="tl-desc"><strong>Building the foundation.</strong> Wealth Star &#22764;&#27700; runs strong. This is your decade of deliberate construction &mdash; financial, professional, relational. What you build with integrity in this decade compounds into everything that follows. The mountain is rising.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 38&ndash;48<br>(2034&ndash;2044)</div><div class="tl-gz">&#30001;&#24049;</div><div class="tl-desc"><strong>Your peak decade.</strong> &#27491;&#36001; Correct Wealth AND &#24049;&#28779; (&#20559;&#21360; Wisdom Fire) run together. For the first time, Wealth and Wisdom converge. Financial reward and genuine recognition arrive simultaneously. This is your decade of arrival &mdash; everything you've been building toward.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 48&ndash;58<br>(2044&ndash;2054)</div><div class="tl-gz">&#30002;&#21320;</div><div class="tl-desc"><strong>Authority and reputation.</strong> &#30002;&#26408; Seven Killings brings powerful challenge &mdash; but &#20282;&#28779; (&#27491;&#21360;) provides the wisdom and protection to meet it. You operate at the highest levels of your field. Your name carries weight.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 58&ndash;68<br>(2054&ndash;2064)</div><div class="tl-gz">&#20057;&#26410;</div><div class="tl-desc"><strong>Respected elder.</strong> &#27491;&#23448; Correct Officer Grand Cycle &mdash; social recognition, authority, the respect of having done things the right way over a long time. People come to you for wisdom and guidance. You have earned it.</div></div>
+
+<div class="tl"><div class="tl-yr">Ages 68+<br>(2064+)</div><div class="tl-gz">&#20413;&#30003;</div><div class="tl-desc"><strong>Serene later life.</strong> &#20413;&#26408; and &#30003;&#37329; &mdash; the mountain in harvest. Comfortable, respected, surrounded by people who love you. The groundwater of your wealth rises fully. A life built well.</div></div>
+
+<h1>2026&ndash;2027 Spotlight</h1>
+<span class="zh">&#26410;&#20358;&#20004;&#24180;&#23565;&#20320;&#30340;&#24433;&#38989;</span>
+
+<div class="box bg">
+  <div class="bt">2026 (&#20805;&#21320; &mdash; Year of the Fire Horse) &mdash; Wisdom &amp; Recognition</div>
+  <p>&#20805;&#28779; arrives as the year energy &mdash; your Wisdom Star (&#20559;&#21360;). This is one of the best years of the decade for your chart. Mentors, support, and recognition show up. Your thinking becomes clearer and more expansive. People in positions of influence notice what you're doing. <strong>2026 is your year to be seen &mdash; step forward, share your expertise, let the right people know what you're capable of.</strong></p>
+</div>
+
+<div class="box bn">
+  <div class="bt">2027 (&#19969;&#26410; &mdash; Year of the Fire Goat) &mdash; Wisdom Deepens</div>
+  <p>&#19969;&#28779; (&#27491;&#21360; Correct Wisdom Star) arrives &mdash; even more directly supportive of your Day Master. &#26410;&#22334; steadies your foundation. Hidden inside &#26410; is &#19969;&#28779; &mdash; the purest Fire for your chart. <strong>2027 is a year of intellectual breakthrough and expanding recognition. Build the reputation that will carry you into your peak decade.</strong></p>
+</div>
+
+<div class="quote">"The mountain that endures the winter is the one that bursts with life in spring."</div>
+
+<div class="closing">
+  <p><strong>About This Reading:</strong> This report is based on the Four Pillars of Destiny (&#23376;&#24179;&#20843;&#23383; BaZi), using the master system of &#37040;&#20530;&#38596;&#24072;&#20064; &mdash; the same master who read your father Ken's chart. Offered as a framework for self-understanding, not fixed fate. Your choices shape your life; BaZi reveals the terrain.</p>
+  <p><strong>Prepared by:</strong> Sisi (&#35443;&#35443;) for Ken Tam &middot; March 2026 &middot; <em>From your father, with love and pride.</em></p>
+</div>
+</div>
+</div>
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>

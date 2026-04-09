@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BaZi Destiny Report — Coleton Johnson Tran</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lato:wght@300;400;700&display=swap');
+  :root {
+    --gold: #c9a84c;
+    --deep: #1a3a2a;
+    --earth: #7a5c2e;
+    --cream: #faf6ee;
+    --brown: #4a3520;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#1a2e1a; font-family:'Lato',sans-serif; color:#333; }
+  
+  .cover {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    min-height:100vh;
+    background: linear-gradient(160deg, #0d1f0d 0%, #1a3a1a 40%, #2d5a2d 100%);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:60px 40px; position:relative; overflow:hidden;
+  }
+  .cover::before {
+    content:''; position:absolute; top:0; left:0; right:0; bottom:0;
+    background: radial-gradient(ellipse at center, rgba(201,168,76,0.15) 0%, transparent 70%);
+  }
+  .cover-symbol { font-size:80px; margin-bottom:20px; }
+  .cover-zh { font-size:52px; color:var(--gold); font-weight:700; letter-spacing:8px; margin-bottom:12px; font-family:'Playfair Display',serif; }
+  .cover-name { font-size:36px; color:#fff; font-weight:300; letter-spacing:4px; margin-bottom:8px; }
+  .cover-chinese { font-size:28px; color:rgba(201,168,76,0.8); margin-bottom:40px; }
+  .cover-pillars {
+    display:flex; gap:20px; margin:30px 0;
+  }
+  .pillar-box {
+    background:rgba(201,168,76,0.15); border:1px solid rgba(201,168,76,0.4);
+    border-radius:12px; padding:16px 20px; text-align:center; min-width:80px;
+  }
+  .pillar-label { font-size:11px; color:rgba(201,168,76,0.7); text-transform:uppercase; letter-spacing:2px; margin-bottom:8px; }
+  .pillar-char { font-size:32px; color:var(--gold); line-height:1.2; }
+  .cover-subtitle { font-size:14px; color:rgba(255,255,255,0.5); letter-spacing:3px; text-transform:uppercase; margin-top:30px; }
+  .cover-date { font-size:13px; color:rgba(255,255,255,0.4); margin-top:10px; }
+  
+  .content { background:var(--cream); max-width:900px; margin:0 auto; }
+  
+  .section { padding:60px 60px; border-bottom:1px solid rgba(0,0,0,0.08); }
+  .section:last-child { border-bottom:none; }
+  
+  .section-header {
+    display:flex; align-items:center; gap:16px; margin-bottom:36px;
+  }
+  .section-number {
+    width:48px; height:48px; border-radius:50%;
+    background: linear-gradient(135deg, #2d5a2d, #1a3a1a);
+    color:var(--gold); font-size:18px; font-weight:700;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .section-title { font-family:'Playfair Display',serif; font-size:28px; color:var(--deep); }
+  
+  .chart-grid {
+    display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:36px;
+  }
+  .chart-cell {
+    background:#fff; border:2px solid #e8dfc8; border-radius:16px;
+    padding:20px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.06);
+  }
+  .chart-cell.day { border-color:var(--gold); background:linear-gradient(135deg,#fffbf0,#fff8e0); }
+  .cell-label { font-size:11px; color:#999; text-transform:uppercase; letter-spacing:2px; margin-bottom:12px; }
+  .cell-stems { font-size:42px; color:var(--earth); line-height:1; margin-bottom:8px; }
+  .cell-branch { font-size:38px; color:var(--deep); }
+  .cell-element { font-size:12px; color:#aaa; margin-top:10px; }
+  
+  .highlight-box {
+    background: linear-gradient(135deg, #f0f8f0, #e8f5e8);
+    border-left:4px solid #2d5a2d; border-radius:0 12px 12px 0;
+    padding:24px 28px; margin:24px 0;
+  }
+  .highlight-box h3 { color:var(--deep); font-family:'Playfair Display',serif; font-size:18px; margin-bottom:10px; }
+  .highlight-box p { color:#555; line-height:1.8; }
+  
+  .gold-box {
+    background: linear-gradient(135deg, #fdf8ed, #faf0d0);
+    border:1px solid rgba(201,168,76,0.3); border-radius:16px;
+    padding:28px; margin:24px 0;
+  }
+  .gold-box h3 { color:var(--earth); font-family:'Playfair Display',serif; font-size:18px; margin-bottom:12px; }
+  .gold-box p { color:#555; line-height:1.9; }
+  
+  p { line-height:1.9; color:#444; margin-bottom:16px; font-size:16px; }
+  
+  .element-tag {
+    display:inline-block; padding:4px 14px; border-radius:20px;
+    font-size:13px; font-weight:700; margin:4px;
+  }
+  .wood { background:#e8f5e0; color:#2d6a1a; }
+  .fire { background:#fdecea; color:#c0392b; }
+  .earth { background:#fdf5e0; color:#8b6914; }
+  .metal { background:#edf4ff; color:#2c5282; }
+  .water { background:#e8f4fd; color:#1a5a8a; }
+  
+  .timeline { margin:24px 0; }
+  .timeline-item { display:flex; gap:20px; padding:16px 0; border-bottom:1px solid #eee; }
+  .timeline-age { font-size:22px; font-weight:700; color:var(--gold); min-width:60px; }
+  .timeline-content h4 { font-size:16px; color:var(--deep); margin-bottom:4px; }
+  .timeline-content p { font-size:14px; color:#666; margin:0; }
+  
+  .print-btn {
+    position:fixed; bottom:30px; right:30px;
+    background:linear-gradient(135deg,#2d5a2d,#1a3a1a); color:var(--gold);
+    border:none; padding:14px 28px; border-radius:30px; cursor:pointer;
+    font-size:15px; font-weight:700; letter-spacing:1px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.3); z-index:999;
+  }
+  .print-btn:hover { transform:translateY(-2px); box-shadow:0 8px 30px rgba(0,0,0,0.4); }
+  
+  @media print {
+    body { background:#fff; }
+    .print-btn { display:none; }
+    .cover {
+      min-height:100vh;
+      page-break-after:always;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    .section { page-break-inside:avoid; }
+  }
+  /* Force background printing for all elements */
+  .cover, .special-box {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-symbol">🌱</div>
+  <div class="cover-zh">子平八字命盤全解</div>
+  <div class="cover-name">Coleton Johnson Tran</div>
+  <div class="cover-chinese">陳浩鈞</div>
+  
+  <div class="cover-pillars">
+    <div class="pillar-box">
+      <div class="pillar-label">Year</div>
+      <div class="pillar-char">庚<br>子</div>
+    </div>
+    <div class="pillar-box">
+      <div class="pillar-label">Month</div>
+      <div class="pillar-char">癸<br>未</div>
+    </div>
+    <div class="pillar-box" style="border-color:rgba(201,168,76,0.8);background:rgba(201,168,76,0.25);">
+      <div class="pillar-label">Day ✦</div>
+      <div class="pillar-char">己<br>未</div>
+    </div>
+    <div class="pillar-box">
+      <div class="pillar-label">Hour</div>
+      <div class="pillar-char">戊<br>辰</div>
+    </div>
+  </div>
+  
+  <div class="cover-subtitle">BaZi Destiny Report · Master Kwong System</div>
+  <div class="cover-date">Born July 15, 2020 · San Francisco, California</div>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">1</div>
+      <div class="section-title">The Four Pillars at a Glance</div>
+    </div>
+    
+    <div class="chart-grid">
+      <div class="chart-cell">
+        <div class="cell-label">Year Pillar</div>
+        <div class="cell-stems">庚</div>
+        <div class="cell-branch">子</div>
+        <div class="cell-element">Metal · Water<br>庚子 Metal Rat</div>
+      </div>
+      <div class="chart-cell">
+        <div class="cell-label">Month Pillar</div>
+        <div class="cell-stems">癸</div>
+        <div class="cell-branch">未</div>
+        <div class="cell-element">Water · Earth<br>癸未 Water Goat</div>
+      </div>
+      <div class="chart-cell day">
+        <div class="cell-label">Day Pillar ✦ Self</div>
+        <div class="cell-stems">己</div>
+        <div class="cell-branch">未</div>
+        <div class="cell-element">Earth · Earth<br>己未 Earth Goat</div>
+      </div>
+      <div class="chart-cell">
+        <div class="cell-label">Hour Pillar</div>
+        <div class="cell-stems">戊</div>
+        <div class="cell-branch">辰</div>
+        <div class="cell-element">Earth · Earth<br>戊辰 Earth Dragon</div>
+      </div>
+    </div>
+    
+    <div class="highlight-box">
+      <h3>Day Master: 己土— The Fertile Earth</h3>
+      <p>Coleton's ruling element is <strong>己土</strong> — the yielding, nourishing earth of cultivated fields and garden soil. Where 戊土 is the immovable mountain, 己土 is the earth that gives life: soft enough to receive seeds, rich enough to grow crops, patient enough to wait for the harvest. He is born to nurture, to build, and to sustain.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">2</div>
+      <div class="section-title">The Child of the Goat: Who Is Coleton?</div>
+    </div>
+    
+    <p>Coleton was born in the year of the Metal Rat, in the month of the Water Goat, on a day of the Earth Goat, during the hour of the Earth Dragon. The concentration of <strong>Earth</strong> in his chart — three Earth pillars out of four — tells us something fundamental: this child is grounded, steady, and built for endurance.</p>
+    
+    <p>The Goat (未) appears twice in his chart — in his Month and Day pillars. In classical BaZi, this is called a <strong>doubled Goat formation</strong>. The Goat is the earth of midsummer heat, rich and fragrant like a garden in full bloom. Two Goats strengthen his Earth energy considerably: he has great capacity for patience, loyalty, and deep emotional bonds.</p>
+    
+    <div class="gold-box">
+      <h3>✦ The Mountain and the Dragon</h3>
+      <p>His Hour Pillar is 戊辰 — the Earth Dragon. This is powerful imagery: a great mountain (戊) rising from the Dragon's earth (辰). The Dragon contains hidden Water, hidden Earth, and hidden Wood — a reservoir of potential energy. Coleton carries within him depths that others may not see immediately. He is deeper than he appears on the surface.</p>
+    </div>
+    
+    <p>His Year Pillar is 庚子 — Metal Rat. The Metal here represents structure, precision, and strength. The Rat holds Water within it, and Water is the element that flows, connects, and adapts. From his grandparents' generation (year pillar), Coleton inherits a legacy of both strength and adaptability — a fitting inheritance for the eldest grandson of the Tam family.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">3</div>
+      <div class="section-title">Five Elements Balance</div>
+    </div>
+    
+    <p>Coleton's chart tells a clear story about elemental balance:</p>
+    
+    <div style="margin:24px 0;">
+      <div style="margin-bottom:12px;">
+        <span class="element-tag earth">Earth 土 ●●●● Very Strong</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">己未日, 戊辰時, 癸未月之未藏己丁乙</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag metal">Metal 金 ●● Present</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">庚子年之庚</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag water">Water 水 ●● Present</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">癸未月之癸, 庚子年之子</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag fire">Fire 火 ○ Weak</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">Hidden in 未 branches only</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span class="element-tag wood">Wood 木 ○ Weak</span>
+        <span style="font-size:14px;color:#666;margin-left:8px;">Minimal — hidden trace in 辰 and 未</span>
+      </div>
+    </div>
+    
+    <div class="highlight-box">
+      <h3>What This Means for Coleton</h3>
+      <p>With Earth dominant, Coleton is naturally <strong>stable, reliable, and patient</strong> — qualities that serve him beautifully as a leader and builder. However, too much Earth can become stubbornness or over-caution. His chart benefits greatly from <strong>Wood</strong> (which controls Earth and keeps it fertile) and <strong>Fire</strong> (which feeds Earth and brings warmth and inspiration). Surrounding him with living plants, natural environments, and creative activities will help keep his earth balanced and productive.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">4</div>
+      <div class="section-title">Character & Destiny</div>
+    </div>
+    
+    <p>Coleton's 己土 Day Master gives him a character that is <strong>inclusive and nurturing</strong>. Like fertile soil that accepts all seeds without judgment, he has a natural warmth and acceptance toward people. He is the kind of person others feel comfortable around — steady, honest, non-threatening.</p>
+    
+    <p>The doubled Goat formation gives him <strong>exceptional loyalty</strong>. Once Coleton calls someone a friend, that friendship is meant to last. He does not change allegiances easily, and he expects the same depth of commitment in return. Betrayal hits him harder than it does others because his loyalty runs so deep.</p>
+    
+    <div class="gold-box">
+      <h3>✦ The Builder's Path</h3>
+      <p>The strongest reading of Coleton's chart points to a life of <strong>building things that last</strong>. Whether in business, architecture, community, or family — he is not someone who creates quickly and moves on. He creates slowly, carefully, and permanently. His peak years arrive in his late 30s and 40s, when his patience has matured and the foundations he laid in youth begin to bear fruit. This is a man worth watching over the long arc.</p>
+    </div>
+    
+    <p>The 戊辰 hour pillar gives him an <strong>inner reservoir of strength</strong> that may not be visible in childhood. As the eldest grandson, there is a natural expectation of leadership that suits his nature — he will grow into responsibility naturally, not reluctantly.</p>
+    
+    <p>His Water elements (癸 month stem, 子 year branch) give him <strong>intelligence and adaptability</strong> alongside his Earth steadiness. He can think clearly under pressure when others cannot, flowing around obstacles like water around stone.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">5</div>
+      <div class="section-title">Talents & Life Path</div>
+    </div>
+    
+    <p>Based on the elemental composition of his chart, Coleton is naturally drawn toward:</p>
+    
+    <div class="highlight-box">
+      <h3>Fields Where He Will Excel</h3>
+      <p><strong>Real estate and land development</strong> — Earth people have an instinctive understanding of land and property.<br><br>
+      <strong>Finance and investment</strong> — His Metal year energy (庚子) gives him an affinity for precision and value assessment.<br><br>
+      <strong>Leadership roles in established institutions</strong> — He thrives where there is structure to build upon, not blank spaces to fill.<br><br>
+      <strong>Agriculture, environment, sustainability</strong> — The doubled Goat carries deep resonance with the natural world.<br><br>
+      <strong>Medicine or healing professions</strong> — Earth nourishes, supports, and holds — qualities essential to caregiving.</p>
+    </div>
+    
+    <p>As the eldest son of Vanessa and Travis, Coleton carries the 陳 lineage forward. In Chinese tradition, the eldest grandson holds a special position — inheriting responsibility, inheriting legacy, and inheriting the expectation to be steady when others are not.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">6</div>
+      <div class="section-title">Relationships & Family Bonds</div>
+    </div>
+    
+    <p>The Month Pillar (癸未) speaks to Coleton's relationship with his immediate environment — parents, siblings, and early influences. The 癸 (Water) stem suggests a mother figure who is thoughtful, intuitive, and emotionally intelligent. The 未 (Goat) branch matches his own Day Branch exactly — <strong>Coleton and his mother share deep energetic resonance</strong>. He understands her intuitively.</p>
+    
+    <div class="gold-box">
+      <h3>✦ The Tam Family Legacy</h3>
+      <p>Through the Year Pillar (庚子), Coleton carries the energy of his grandparents' generation. His grandfather Ken's 庚子 Day Pillar shares the same branch 子 — <strong>grandfather and eldest grandson are energetically connected</strong>. Ken's Water Rat day and Coleton's Metal Rat year form a resonance across generations: the same branch, different positions. The family legacy flows through this connection.</p>
+    </div>
+    
+    <p>With his naturally patient and loyal character, Coleton will be a <strong>pillar of stability</strong> for those around him — not the loudest presence, but the one everyone leans on. This is a gift, and also a responsibility to carry with awareness.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">8</div>
+      <div class="section-title">Brothers in Different Keys: Coleton & Enzo</div>
+    </div>
+
+    <p>Grandpa Ken observed something important after Master Kwong's reading, and it is worth writing down here for Vanessa and Travis to consider carefully.</p>
+
+    <div class="special-box" style="background:linear-gradient(135deg,#1a3a1a,#0d1f0d);border-radius:16px;padding:32px;margin:28px 0;color:#fff;">
+      <h3 style="color:#c9a84c;font-family:'Playfair Display',serif;font-size:20px;margin-bottom:16px;">✦ The Director's Cut: A Scene Worth Preparing For</h3>
+      <p style="color:rgba(255,255,255,0.85);line-height:1.9;">
+      <em>Imagine a Sunday dinner. Enzo (age 7) is holding the table — telling a story, making everyone laugh, eyes bright and voice full. Everyone leans in. Coleton (age 9) sits quietly at the edge, watching.</em><br><br>
+      <em>Nobody notices that Coleton is watching. Coleton notices.</em><br><br>
+      <em>Later, Dad says: "Coleton, baseball practice tomorrow, then Jujitsu." Coleton nods. He doesn't complain. He never complains. But inside, another small deposit goes into an account labeled: "I am not the one they came to see."</em><br><br>
+      <em>This scene, repeated over years, is the risk. Not because anyone is wrong — but because 己土 keeps score quietly, and the account can fill without anyone knowing.</em>
+      </p>
+    </div>
+
+    <div class="highlight-box">
+      <h3>What the Chart Says: Enzo is Enzo. Coleton is Coleton.</h3>
+      <p>Enzo's 丁酉 chart is built for visibility — natural charisma, eloquence, 日坐貴人. He will light up rooms. This is not something Coleton needs to match or compete with. It is simply a different instrument playing a different part in the same orchestra.<br><br>
+      Coleton's 己未 doubled Earth chart is built for <strong>depth, loyalty, and endurance</strong>. His gifts are less visible early in life — but they are the kind that compound. The question is whether those around him can see what is not yet fully grown.</p>
+    </div>
+
+    <p>Grandpa Ken's instinct has been right from the beginning: <strong>when Grandma is with Enzo, stay with Coleton.</strong> That intentional balance — making sure Coleton is <em>chosen</em>, not just included — is the most important gift the family can give him.</p>
+
+    <div class="gold-box">
+      <h3>✦ On Sports & What Coleton Actually Needs</h3>
+      <p>Travis loves sport. He sees athleticism as development, and his intentions are loving. But Coleton's chart tells a different story about where he will truly flourish:<br><br>
+      <strong>What will drain him:</strong> High-competition team sports where performance is constantly visible and compared in real time. Basketball scores. Baseball errors. Being measured publicly against teammates.<br><br>
+      <strong>What will build him:</strong><br>
+      • <strong>Individual mastery</strong> — swimming (perfect for his Water element), Jujitsu (own pace, own belt, own discipline)<br>
+      • <strong>Building and making</strong> — Lego, engineering kits, cooking, coding, growing things. Anything where he constructs something with his hands and watches it grow over time<br>
+      • <strong>Reading and quiet imagination</strong> — his 癸水 Month Pillar gives him a rich inner world. Books are his natural habitat<br>
+      • <strong>Being praised specifically</strong> — not generically. "You worked really hard on that" lands differently than "good job." He files the specific ones away and carries them for years<br><br>
+      <strong>The risk of a packed schedule</strong> is not just exhaustion — it is that he never gets quiet time to discover what he actually loves. 己土 needs stillness to know itself.</p>
+    </div>
+
+    <p>Mabel and Ken's instinct is wise: <em>let the children flourish based on their own interests and nature, not their parents' unfulfilled dreams.</em> Coleton will show you what he loves — if given the space and silence to hear himself.</p>
+
+    <div class="highlight-box">
+      <h3>The Harvest Comes Later</h3>
+      <p>Coleton at 8 will not look like much compared to Enzo at 8. That is expected and normal and completely fine.<br><br>
+      Coleton at 38 will be something extraordinary — if the soil was tended properly in the years before. <strong>Patient grandparents who see what parents might miss are among the most powerful forces in a child's life.</strong><br><br>
+      That is already happening in this family. Keep going.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">7</div>
+      <div class="section-title">A Note to Coleton</div>
+    </div>
+    
+    <div class="gold-box">
+      <h3>From Grandfather Ken, through Sisi</h3>
+      <p style="font-style:italic;font-size:17px;line-height:2.0;color:#5a3e1a;">
+      You were born in the Year of the Metal Rat, on the Day of the Earth Goat, and the earth runs deep in you.<br><br>
+      You will not always be the fastest in the room, or the loudest. But you will be the one still standing when others have moved on. That is not weakness — that is your great strength.<br><br>
+      Tend your relationships like a garden. The soil you have is rich; what you plant in it will grow for a long time.<br><br>
+      Your grandfather sees in you the steady heart that every family needs. The mountain does not chase the river — it holds the water, lets it flow, and trusts that everything finds its way.<br><br>
+      Be patient with yourself. Your best years are still ahead.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<button class="print-btn" onclick="window.print()">🖨️ Print Report</button>
+
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>

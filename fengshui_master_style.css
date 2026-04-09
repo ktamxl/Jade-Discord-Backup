@@ -1,0 +1,27 @@
+@page { size: 8.5in 11in; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'DejaVu Serif', Georgia, serif; background: #fff; color: #1c1208; font-size: 10.5pt; line-height: 1.85; width: 8.5in; }
+.page { width: 8.5in; background: #fff; padding: 0.75in 0.8in 0.7in 0.8in; }
+.cover { text-align: center; min-height: 9.5in; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 2pt solid #8b6914; margin: 0.2in; padding: 0.5in; background: #fffdf5; }
+.cover-top { font-size: 9pt; color: #9a7a40; letter-spacing: 3pt; text-transform: uppercase; margin-bottom: 30pt; border-bottom: 0.5pt solid #c8960c; padding-bottom: 12pt; width: 100%; text-align: center; }
+.cover-title { font-size: 26pt; font-weight: bold; color: #3a1800; line-height: 1.4; margin-bottom: 14pt; letter-spacing: 1pt; }
+.cover-subtitle { font-size: 13pt; color: #7a5c1e; font-style: italic; margin-bottom: 30pt; line-height: 1.6; }
+.cover-ornament { font-size: 24pt; color: #c8960c; margin: 20pt 0; }
+.cover-details { font-size: 9.5pt; color: #7a5c1e; line-height: 2; margin-top: 20pt; border-top: 0.5pt solid #c8960c; padding-top: 14pt; width: 100%; }
+.cover-footer { font-size: 8pt; color: #b09050; margin-top: 30pt; letter-spacing: 1pt; }
+.pb { page-break-before: always; }
+h1.chapter { font-size: 16pt; font-weight: bold; color: #3a1800; border-bottom: 2pt solid #c8960c; padding-bottom: 7pt; margin-bottom: 16pt; letter-spacing: 0.5pt; margin-top: 8pt; }
+h2.section { font-size: 12pt; font-weight: bold; color: #5a3000; margin: 14pt 0 8pt 0; padding-left: 10pt; border-left: 3pt solid #c8960c; letter-spacing: 0.3pt; }
+p.body { margin-bottom: 10pt; text-align: justify; text-indent: 18pt; }
+p.body:first-of-type { text-indent: 0; }
+.pullquote { background: #fdf6e3; border-left: 4pt solid #c8960c; border-right: 4pt solid #c8960c; padding: 14pt 20pt; margin: 18pt 0; font-size: 11pt; font-style: italic; color: #4a2800; line-height: 1.7; text-align: center; }
+.infobox { background: #f5f8f0; border: 1pt solid #5a8a3a; border-radius: 3pt; padding: 12pt 16pt; margin: 14pt 0; font-size: 9.5pt; }
+.infobox-title { font-weight: bold; color: #2a5a10; font-size: 10pt; margin-bottom: 6pt; }
+.warnbox { background: #fff9e6; border: 1pt solid #c8960c; border-radius: 3pt; padding: 12pt 16pt; margin: 14pt 0; font-size: 9.5pt; }
+.warnbox-title { font-weight: bold; color: #5a3a00; font-size: 10pt; margin-bottom: 6pt; }
+.person-block { border: 1pt solid #d4b870; border-radius: 4pt; padding: 14pt 18pt; margin: 16pt 0; background: #fffdf5; page-break-inside: avoid; }
+.person-name { font-size: 14pt; font-weight: bold; color: #3a1800; margin-bottom: 2pt; }
+.person-vitals { font-size: 8.5pt; color: #7a5c1e; margin-bottom: 10pt; padding-bottom: 8pt; border-bottom: 0.5pt dotted #d4b870; }
+.divider { text-align: center; color: #c8960c; font-size: 14pt; margin: 20pt 0; letter-spacing: 6pt; }
+.chapter-num { font-size: 9pt; color: #c8960c; letter-spacing: 2pt; text-transform: uppercase; margin-bottom: 4pt; display: block; }
+.footer-line { font-size: 8pt; color: #9a7a40; text-align: center; border-top: 0.5pt solid #d4b870; padding-top: 8pt; margin-top: 20pt; }

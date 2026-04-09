@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"/>
+<title>玄空風水堪輿報告 — 60 Yerba Buena Ave</title>
+<style>
+@font-face {
+  font-family: 'NotoTC';
+  src: url('/workspace/NotoSansCJKtc-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'NotoSerifTC';
+  src: url('/workspace/fonts/NotoSerifTC-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'NotoSerifTC';
+  src: url('/workspace/fonts/NotoSerifTC-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@page { size: 8.5in 11in; margin: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'NotoSerifTC', 'NotoTC', serif;
+  background: #fff;
+  color: #1c1208;
+  font-size: 11pt;
+  line-height: 1.95;
+  width: 8.5in;
+}
+.page { width: 8.5in; background: #fff; padding: 0.75in 0.85in 0.7in 0.85in; }
+.cover {
+  text-align: center;
+  min-height: 10.5in;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  background: #fffdf5; padding: 1in 0.9in;
+  border: 2pt solid #8b6914; margin: 0.2in;
+}
+.cover-badge { font-size: 8.5pt; color: #9a7a40; letter-spacing: 4pt; border-bottom: 0.5pt solid #c8960c; padding-bottom: 10pt; width: 100%; margin-bottom: 28pt; }
+.cover-main-title { font-size: 28pt; font-weight: bold; color: #3a1800; line-height: 1.5; margin-bottom: 12pt; letter-spacing: 2pt; }
+.cover-sub { font-size: 13pt; color: #7a5c1e; font-style: italic; line-height: 1.7; margin-bottom: 26pt; }
+.cover-ornament { font-size: 20pt; color: #c8960c; margin: 16pt 0; letter-spacing: 8pt; }
+.cover-property { font-size: 10pt; color: #5a3a00; line-height: 2.1; border: 0.5pt solid #c8960c; padding: 16pt 24pt; margin-top: 22pt; background: #fdf6e3; width: 100%; text-align: left; }
+.cover-footer { font-size: 8pt; color: #a08840; margin-top: 28pt; letter-spacing: 1pt; border-top: 0.5pt solid #d4b870; padding-top: 12pt; width: 100%; }
+.pb { page-break-before: always; }
+.chapter-label { font-size: 8.5pt; color: #c8960c; letter-spacing: 3pt; display: block; margin-bottom: 4pt; }
+h1.chapter { font-size: 17pt; font-weight: bold; color: #3a1800; border-bottom: 2pt solid #c8960c; padding-bottom: 8pt; margin-bottom: 18pt; letter-spacing: 1pt; }
+h2.section { font-size: 12.5pt; font-weight: bold; color: #5a3000; margin: 16pt 0 9pt 0; padding-left: 11pt; border-left: 3.5pt solid #c8960c; }
+h3.sub { font-size: 11pt; font-weight: bold; color: #4a2800; margin: 12pt 0 6pt 0; }
+p.body { margin-bottom: 10pt; text-align: justify; text-indent: 22pt; }
+.pullquote { background: #fdf6e3; border-left: 4pt solid #c8960c; border-right: 4pt solid #c8960c; padding: 14pt 22pt; margin: 18pt 0; font-size: 11.5pt; font-style: italic; color: #4a2800; line-height: 1.75; text-align: center; }
+.infobox { background: #f5f8f0; border: 1pt solid #5a8a3a; border-radius: 3pt; padding: 12pt 18pt; margin: 14pt 0; font-size: 10pt; page-break-inside: avoid; }
+.infobox-title { font-weight: bold; color: #2a5a10; font-size: 11pt; margin-bottom: 7pt; }
+.warnbox { background: #fff3f3; border: 1pt solid #c84040; border-radius: 3pt; padding: 12pt 18pt; margin: 14pt 0; font-size: 10pt; page-break-inside: avoid; }
+.warnbox-title { font-weight: bold; color: #900; font-size: 11pt; margin-bottom: 7pt; }
+.goldbox { background: #fff9e6; border: 1pt solid #c8960c; border-radius: 3pt; padding: 12pt 18pt; margin: 14pt 0; font-size: 10pt; page-break-inside: avoid; }
+.goldbox-title { font-weight: bold; color: #5a3a00; font-size: 11pt; margin-bottom: 7pt; }
+.palace-table { width: 100%; border-collapse: collapse; margin: 16pt 0; font-size: 10pt; page-break-inside: avoid; }
+.palace-table td { border: 2pt solid #0D47A1; padding: 10pt 12pt; vertical-align: top; width: 33.3%; text-align: center; line-height: 1.7; }
+.p-se { background: rgba(79,195,247,0.18); }
+.p-e  { background: rgba(239,83,80,0.18); }
+.p-ne { background: rgba(102,187,106,0.18); }
+.p-s  { background: rgba(46,125,50,0.22); }
+.p-c  { background: rgba(144,164,174,0.18); }
+.p-n  { background: rgba(27,94,32,0.25); }
+.p-sw { background: rgba(255,241,118,0.30); }
+.p-w  { background: rgba(174,213,129,0.25); }
+.p-nw { background: rgba(183,28,28,0.20); }
+.pname { font-weight: bold; font-size: 12pt; color: #1a1a1a; }
+.pstars { font-size: 10pt; color: #333; }
+.prating { font-size: 9.5pt; color: #B71C1C; font-weight: bold; margin-top: 3pt; }
+.prooms { font-size: 9pt; color: #555; font-style: italic; }
+.room-table { width: 100%; border-collapse: collapse; margin: 12pt 0; font-size: 10pt; }
+.room-table th { background: #3a1800; color: #f5e6c0; padding: 7pt 10pt; text-align: left; font-weight: bold; }
+.room-table td { padding: 7pt 10pt; border-bottom: 0.5pt solid #e0d0b0; vertical-align: top; }
+.room-table tr:nth-child(even) { background: #fdf8f0; }
+.ok { color: #1a5c10; font-weight: bold; }
+.warn { color: #900; font-weight: bold; }
+.divider { text-align: center; color: #c8960c; font-size: 16pt; margin: 20pt 0; letter-spacing: 8pt; }
+.footer-line { font-size: 8pt; color: #9a7a40; text-align: center; border-top: 0.5pt solid #d4b870; padding-top: 8pt; margin-top: 20pt; }
+.action-box { border-left: 4pt solid #c8960c; padding: 10pt 16pt; margin: 10pt 0; background: #fffdf5; page-break-inside: avoid; }
+.action-red { border-left-color: #c00; background: #fff8f8; }
+.action-green { border-left-color: #2a7a10; background: #f5fff5; }
+.action-blue { border-left-color: #1a5090; background: #f5f8ff; }
+.action-label { font-weight: bold; font-size: 10.5pt; color: #3a1800; }
+.action-detail { font-size: 9.5pt; color: #444; margin-top: 4pt; line-height: 1.7; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="page">
+<div class="cover">
+  <div class="cover-badge">玄空飛星 · 堪輿分析 · 住宅風水報告</div>
+  <div class="cover-ornament">☯ ◈ ☯</div>
+  <div class="cover-main-title">玄空飛星風水<br/>住宅堪輿全覽</div>
+  <div class="cover-sub">第八運 · 坐丁向癸 · 雙星到坐格局</div>
+  <div class="cover-ornament">❋ ❋ ❋</div>
+  <div class="cover-property">
+    <strong>物業地址：</strong>60 Yerba Buena Avenue, San Francisco, CA 94127<br/>
+    <strong>建築年份：</strong>1948年（第五運落成）<br/>
+    <strong>大裝修竣工：</strong>2019年（第八運重置元運）<br/>
+    <strong>居住面積：</strong>3,092 平方呎 + 436 平方呎車庫<br/>
+    <strong>地盤面積：</strong>45 呎 × 121.5 呎（約5,468平方呎）<br/>
+    <strong>坐向：</strong>坐丁向癸（坐南南西195°，向北北東15°）<br/>
+    <strong>元運：</strong>第八運（2004–2023年）<br/>
+    <strong>屋主：</strong>譚國偉（Ken）· 朱德貞（Mabel）
+  </div>
+  <div class="cover-footer">本報告依傳統玄空飛星學派編製，謹供研習參考，2026年</div>
+</div>
+</div>
+
+<!-- CHAPTER 1 -->
+<div class="page pb">
+  <span class="chapter-label">第一章</span>
+  <h1 class="chapter">玄空飛星學說概說</h1>
+
+  <p class="body">風水之道，源遠流長，乃中華文化最深邃的哲學傳承之一。玄空飛星（Xuan Kong Fei Xing）為風水學中最精微細膩的一支，融合洛書九宮、八卦理氣、時間元運與空間方位於一體，以「飛星」動態排盤的方式，精確計算一棟建築物在特定時間與空間中的氣場分佈。</p>
+
+  <p class="body">玄空飛星之精髓，在於「天、地、人、時」四者的統一。天者，天時也，即建築物落成或重大裝修時所處的元運；地者，地氣也，即坐向與山水形局；人者，居住者的命理五行；時者，年運月運的即時疊加。四者合一，方能全面掌握一宅之吉凶。</p>
+
+  <div class="pullquote">
+    「山管人丁，水管財。」<br/>
+    ——玄空飛星學說核心綱領
+  </div>
+
+  <h2 class="section">三元九運：時間之輪</h2>
+  <p class="body">宇宙時間依「三元九運」循環運行，每運二十年，九運共一百八十年為一完整周期。每一運皆有其「當旺之星」，建築物在哪個元運落成或重建，即以該運的飛星排盤為根基，主導此後二十年的氣場分佈。</p>
+
+  <div class="infobox">
+    <div class="infobox-title">▶ 近代元運對照</div>
+    第七運（1984–2003年）：七赤兌金當旺<br/>
+    <strong>第八運（2004–2023年）：八白艮土當旺 ← 本宅所屬元運</strong><br/>
+    第九運（2024–2043年）：九紫離火當旺 ← 現正進行中
+  </div>
+
+  <p class="body">60 Yerba Buena Ave 原於1948年（第五運）落成，惟2019年進行大規模裝修，工程涉及結構改動、屋頂整修及室內全面重建，已達「換元」標準。依玄空風水換元之規，元運由第五運重置為第八運（2004–2023），以2019年重新入住作為基準點。</p>
+
+  <h2 class="section">坐向：一宅氣場之主軸</h2>
+  <p class="body">坐向是玄空風水最重要的基礎。「坐」乃建築物背靠之方向，主山星、主人丁；「向」乃建築物面朝之方向，主向星、主財氣。本宅面向 Yerba Buena Avenue，大門朝北，故向為北（癸方）；後院在南，坐為南（丁方）。坐向定為：<strong>坐丁向癸</strong>。</p>
+
+  <p class="body">丁屬火，癸屬水，坐火向水，有水火既濟之意象。向首癸水主財祿，坐方丁火主貴氣人丁，先天格局已具良好氣象。</p>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 1 頁</div>
+</div>
+
+<!-- CHAPTER 2 -->
+<div class="page pb">
+  <span class="chapter-label">第二章</span>
+  <h1 class="chapter">格局定性與飛星總覽</h1>
+
+  <h2 class="section">格局定性：雙星到坐</h2>
+  <p class="body">飛星排盤後，本宅在第八運坐丁向癸的格局下，呈現一個極具特色的飛星格局——<strong>雙星到坐</strong>（Double Stars at Sitting）。此格局是玄空飛星分析中的重要判斷依據。</p>
+
+  <div class="goldbox">
+    <div class="goldbox-title">☉ 雙星到坐格局解說</div>
+    在第八運飛星盤中，本宅的<strong>山星8（當旺山星）</strong>與<strong>向星8（當旺向星）</strong>兩粒最旺星曜，同飛南方（坐方 / 離宮）——即 Family Room 與後院一帶，而<strong>未能</strong>飛臨北方（向首 / 坎宮）。<br/><br/>
+    山星主人丁健康；向星主財氣進財。兩粒旺星皆在坐方，財星未在向首，故：<br/><br/>
+    <strong>旺丁不旺財</strong>——家人健康、感情、子孫運皆佳；財運需主動佈局方能催動，不會自然湧現。<br/><br/>
+    此格局之優勢：家庭和諧、健康長壽、感情穩固、子孫有成就。<br/>
+    此格局之挑戰：財富積累較慢，需勤奮工作與風水佈局雙管齊下。
+  </div>
+
+  <p class="body">然而，本宅向首（北方 / 坎宮）的向星為9，正值第九運（2024–2043年）當旺之九紫星。九運已於2024年正式接棒，此一「逢時轉旺」的機遇，意味著本宅財位的爆發力即將啟動。只需在北方玄關佈置水局，財運可望在九運期間大幅改善。</p>
+
+  <div class="divider">—— ✦ ——</div>
+
+  <h2 class="section">完整飛星盤（山星 / 向星 / 運星）</h2>
+  <p class="body" style="text-indent:0; font-size:9.5pt; color:#555;">閱讀方法：以下表格呈現九宮格飛星分佈。表格方位：<strong>左欄=南（坐方/後院）、右欄=北（向首/大門）、上排=東、下排=西</strong>。</p>
+
+  <table class="palace-table">
+    <tr>
+      <td class="p-se">
+        <div class="pname">巽宮 · 東南</div>
+        <div class="pstars">山4 · 向3 · 運7</div>
+        <div class="prating">中平</div>
+        <div class="prooms">Family Room東南角</div>
+      </td>
+      <td class="p-e">
+        <div class="pname">震宮 · 正東 ⚠</div>
+        <div class="pstars">山5 · 向2 · 運6</div>
+        <div class="prating">五二交加 · 需化解</div>
+        <div class="prooms">車道 · Pantry · 車庫東側</div>
+      </td>
+      <td class="p-ne">
+        <div class="pname">艮宮 · 東北 ★★</div>
+        <div class="pstars">山9 · 向7 · 運2</div>
+        <div class="prating">山星9旺 · 宜靜</div>
+        <div class="prooms">前院車道入口</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-s">
+        <div class="pname">離宮 · 正南 ★★★★</div>
+        <div class="pstars">山8 · 向8 · 運3</div>
+        <div class="prating">雙星到坐 · 旺丁極旺</div>
+        <div class="prooms">Family Room · 後院露台</div>
+      </td>
+      <td class="p-c">
+        <div class="pname">中宮 · 中央</div>
+        <div class="pstars">山3 · 向4 · 運8</div>
+        <div class="prating">中 · 運8有根</div>
+        <div class="prooms">廚房 · 吧台 · 樓梯 · 洗手間</div>
+      </td>
+      <td class="p-n">
+        <div class="pname">坎宮 · 正北 ★★★★★</div>
+        <div class="pstars">山7 · 向9 · 運4</div>
+        <div class="prating">九運大財位 · 極旺</div>
+        <div class="prooms">玄關 · 門廊 · 車庫前方</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="p-sw">
+        <div class="pname">坤宮 · 西南 ★</div>
+        <div class="pstars">山6 · 向1 · 運5</div>
+        <div class="prating">1,6相生 · 小吉</div>
+        <div class="prooms">飯廳西南角 · 後院一角</div>
+      </td>
+      <td class="p-w">
+        <div class="pname">兌宮 · 正西 ★★★</div>
+        <div class="pstars">山1 · 向6 · 運1</div>
+        <div class="prating">財官雙美 · 吉</div>
+        <div class="prooms">客廳（新加建）· 飯廳</div>
+      </td>
+      <td class="p-nw">
+        <div class="pname">乾宮 · 西北 ⚠⚠</div>
+        <div class="pstars">山2 · 向5 · 運9</div>
+        <div class="prating">二五交加 · 最凶</div>
+        <div class="prooms">前院西北角庭園</div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 2 頁</div>
+</div>
+
+<!-- CHAPTER 3 -->
+<div class="page pb">
+  <span class="chapter-label">第三章</span>
+  <h1 class="chapter">各宮詳細解析</h1>
+
+  <h2 class="section">一、坎宮 · 正北（向首）★★★★★ 九運大財位</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星7 · 向星9 · 運星4 · 對應房間：玄關 · 門廊 · 車庫前方</div>
+  </div>
+  <p class="body">向首為全宅財氣進入之主要氣口，是風水分析中最為關鍵的宮位。坎宮的向星9，恰恰是第九運（2024–2043年）的當旺星「九紫離火」。2024年元運已正式轉入第九運，意味著本宅向首的財位威力正在持續升溫，且將橫跨整個九運時期（至2043年），長達二十年的財運光芒。</p>
+  <p class="body">山星7雖已過旺（第七運旺星），但向星9的「火」可生土補益整體氣場。運星4屬木主文昌，有助學術、文書、才智方面的發展。整體而言，此宮以財旺為主，亦有助家中子女在學業上的成就。</p>
+  <div class="goldbox">
+    <div class="goldbox-title">☉ 催財建議：玄關放水</div>
+    在玄關或門廊處安置<strong>小型流水噴泉</strong>或<strong>魚缸</strong>（圓形佳，金魚9條或8條）。「水」為財之源，流動之水象徵財源活絡，是催動向星9財氣的最佳方法。水景不必龐大，取其聲音清脆、水流持續即可。
+  </div>
+
+  <h2 class="section">二、離宮 · 正南（坐方）★★★★ 雙星旺丁</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星8 · 向星8 · 運星3 · 對應房間：Family Room · 後院大露台</div>
+  </div>
+  <p class="body">雙星到坐的核心所在。山星8與向星8同聚於坐方，是第八運中最強大的旺氣聚集點。山星8主人丁旺盛、家人健康；向星8雖在坐方而財氣未能全發，但兩粒旺星齊聚一宮，仍散發強烈的正面能量。</p>
+  <p class="body">Family Room是全家日常歡聚之所，獲此雙星加持，家庭氣氛和諧，成員感情深厚，長輩健康，子孫聰明上進。後院露台若能善加利用（如增設水景），更能啟動向星8的財氣潛力。</p>
+  <div class="goldbox">
+    <div class="goldbox-title">☉ 催旺建議：後院置水</div>
+    在後院露台或後院一角安置<strong>小型水缸、噴水盆或水景裝置</strong>，以水催動向星8的財氣。水缸宜置於南方，面朝室內（象徵財水入宅）。植物翠綠亦有加分，生機勃勃之景象助旺人丁。
+  </div>
+
+  <h2 class="section">三、兌宮 · 正西 ★★★ 財官雙美</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星1 · 向星6 · 運星1 · 對應房間：客廳（新加建）· 飯廳</div>
+  </div>
+  <p class="body">西宮的山星1與向星6，形成「一六共宗」的吉祥組合。一白屬水，六白屬金，金生水，水生木，三才有情，相生不息。傳統玄空視一六為財官之星，主事業順遂、財祿穩定。運星1加持，整體格局積極向好。</p>
+  <p class="body">此宮對應客廳（2019年新加建部分），是一家人接待賓客、日常起居的重要空間，獲財官雙美之星加持，主人際關係良好，事業發展穩健，貴人多助。</p>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 3 頁</div>
+</div>
+
+<!-- CHAPTER 4 -->
+<div class="page pb">
+  <span class="chapter-label">第四章（續）</span>
+  <h1 class="chapter">各宮詳細解析（續）</h1>
+
+  <h2 class="section">四、乾宮 · 西北（最凶）⚠⚠ 二五交加</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星2 · 向星5 · 運星9 · 對應位置：前院西北角庭園</div>
+  </div>
+  <p class="body">西北乾宮的山星2與向星5，形成玄空風水中最凶猛的組合——「二五交加」（又稱「五黃廉貞」）。二黑主疾病、是非、纏擾；五黃為廉貞，主大煞、意外、損傷。兩星相聚，禍患之力倍增，尤以「動」則更猛。</p>
+  <div class="warnbox">
+    <div class="warnbox-title">⚠ 警示與化解</div>
+    此宮幸在前院西北角庭園（戶外），若該區域保持安靜，不常開挖動土，禍患尚可控。惟若在此方位動工裝修、開挖地基、大型施工，則有機會激動煞氣，影響家人健康與運途。<br/><br/>
+    <strong>化解方法（最優先）：</strong><br/>
+    1. 在西北角放置<strong>六枚銅錢</strong>（古錢串成一排）或<strong>銅葫蘆</strong>一個。金克土，銅器可化解二黑、五黃之土煞。<br/>
+    2. 此區域避免掛風鈴、放置大型金屬物件（金生土，反助煞）。<br/>
+    3. 不宜在此方位長時間坐臥或辦公。<br/>
+    4. 若有計劃在前院西北角施工（如建圍牆），宜先擇吉日，並提前放置化煞物件。
+  </div>
+
+  <h2 class="section">五、震宮 · 正東 ⚠ 五二交加</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星5 · 向星2 · 運星6 · 對應位置：車道側 · Pantry · 車庫東側</div>
+  </div>
+  <p class="body">東宮的山星5與向星2，同為二五土煞，雖排列次序
+與乾宮順序相反，但五二同宮之凶性不容忽視。幸而此宮對應的是車道側面、Pantry及車庫東側，並非主要居住空間，人員停留時間不多，凶性影響相對有限。</p>
+  <p class="body">建議保持此區域整潔有序，避免堆放雜物。不宜在東方一帶大幅裝修動土。若需在Pantry一帶長時間工作，可在東方放置六枚銅錢或銅製擺件作化煞之用。</p>
+
+  <h2 class="section">六、艮宮 · 東北 ★★</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星9 · 向星7 · 運星2 · 對應位置：前院車道入口 · 東北庭園</div>
+  </div>
+  <p class="body">東北艮宮的山星9屬火，為九運（2024+）的當旺星，在山星位置發揮旺丁之效。向星7雖已失旺（第七運已結束），但山星9的火旺可補益整體氣場。此宮主人丁，居住者健康氣色俱佳，且有助長輩長壽。</p>
+  <p class="body">此宮對應前院車道入口，建議保持此處整潔開朗，植物生長茂盛為佳。宜靜不宜動，避免在此放置大型水景（山星宜山，不宜見水過多）。</p>
+
+  <h2 class="section">七、巽宮 · 東南</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星4 · 向星3 · 運星7 · 對應位置：Family Room東南角</div>
+  </div>
+  <p class="body">東南巽宮的山星4屬木主文昌，向星3亦屬木，木木同宮，文昌氣象較旺，對學習、寫作、創意方面有助益。運星7雖已過旺，整體仍屬中平之局。此宮對應Family Room的東南角落，若家中有子女需要加強學習，可在此角落放置文昌塔或文房四寶，以助文昌。</p>
+
+  <h2 class="section">八、坤宮 · 西南 ★</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星6 · 向星1 · 運星5 · 對應位置：飯廳西南角 · 後院西南</div>
+  </div>
+  <p class="body">西南坤宮的山星6與向星1，形成「一六共宗」之象，金水相生，主財祿。惟運星5為五黃，有一定阻滯力，需注意保持此宮位的寧靜。飯廳角落若有足夠空間，可放置植物或小型水晶球，以柔化五黃之氣，同時催動一六之財氣。</p>
+
+  <h2 class="section">九、中宮 · 中央</h2>
+  <div class="infobox">
+    <div class="infobox-title">飛星：山星3 · 向星4 · 運星8 · 對應位置：廚房 · 吧台 · 樓梯 · 洗手間</div>
+  </div>
+  <p class="body">中宮為全宅氣場的核心，四方之氣皆匯聚於此。運星8為第八運當旺星，鎮守中宮，是本宅元氣穩固的重要支柱。山星3屬木主生發，向星4屬木主文昌，木木同宮，生機盎然。廚房、吧台、樓梯等日常動線俱集中於此，動則生氣，有助全宅氣場流通。</p>
+  <p class="body">廚房為全家財帛之源，竈位方向亦需注意：竈口宜朝向吉方（北方九運財位或南方旺丁之方），切忌朝向西北（二五煞方）。</p>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 4 頁</div>
+</div>
+
+<!-- CHAPTER 5 -->
+<div class="page pb">
+  <span class="chapter-label">第五章</span>
+  <h1 class="chapter">屋主命理與住宅氣場共鳴</h1>
+
+  <h2 class="section">Ken（譚國偉）· 1963年6月26日 · 水命</h2>
+  <div class="infobox">
+    <div class="infobox-title">命理基礎</div>
+    生辰：1963年6月26日（農曆五月初六）<br/>
+    四柱：癸卯年 · 戊午月 · 庚子日 · 庚辰時<br/>
+    五行：水命（日元庚金生水）<br/>
+    本命宮：坎卦（北方 · 水）<br/>
+    先天財位：南方（水見火，財官旺）
+  </div>
+
+  <p class="body">Ken 的本命宮為坎（北方），與本宅向首（北方 / 坎宮）天然共鳴。向首坎宮的向星9正是九運大財位，Ken 的水命與坎方水局一氣相連，財氣入門直接與他的命格產生感應，形成「命宅相合」的佳象。</p>
+
+  <p class="body">Ken 的四柱以庚金為日元，金能生水，水旺而財透。北方玄關若能放置水景，財氣可透過命格中水的管道自然流入，應驗在個人財富積累和事業發展上。</p>
+
+  <div class="goldbox">
+    <div class="goldbox-title">☉ Ken 與住宅的氣場共鳴</div>
+    ✦ 本命宮（坎/北）與向首（坎/北）完全一致 → 財運最佳進氣方向<br/>
+    ✦ 水命與向首九運水財位共鳴 → 九運期間財運提升最顯著<br/>
+    ✦ 庚金日元 → 金生水 → 天然助旺財位水氣<br/>
+    ✦ 建議：多時間在北方（玄關、客廳北側）活動，吸收財氣加持
+  </div>
+
+  <h2 class="section">Mabel（朱德貞）· 1961年12月20日 · 金命</h2>
+  <div class="infobox">
+    <div class="infobox-title">命理基礎</div>
+    生辰：1961年12月20日（辛丑年冬至後）<br/>
+    年柱：辛丑年（金牛）<br/>
+    五行：金命（辛金生人，金氣強）<br/>
+    旺位：西方（兌 / 金宮）
+  </div>
+
+  <p class="body">Mabel 屬辛丑金命，旺方在西（兌金宮）。而本宅西宮（兌宮）的飛星組合恰為山星1、向星6——正是「一六共宗」的財官吉星，金命的Mabel在西方獲得充分的氣場滋養。</p>
+
+  <p class="body">更值得一提的是：Mabel 的金命氣質，天然具有化洩西北（乾宮）二五土煞的能力。五黃與二黑皆屬土，土生金，金命之人可以吸納化解部分土煞之氣，成為住宅中天然的「鎮宅守護」力量。</p>
+
+  <div class="goldbox">
+    <div class="goldbox-title">☉ Mabel 與住宅的氣場共鳴</div>
+    ✦ 金命旺位（西 / 兌）與西宮財官雙美（山1向6）共鳴 → 健康財運俱佳<br/>
+    ✦ 金命天然化洩西北土煞（二五交加）→ Mabel 是住宅天然守護者<br/>
+    ✦ 建議：客廳與飯廳（西宮範圍）多加利用，此為 Mabel 個人最佳活動空間<br/>
+    ✦ 西方可放置白色水晶球或金屬藝術擺件，與金命共鳴催旺
+  </div>
+
+  <h2 class="section">夫妻合局分析</h2>
+  <p class="body">Ken 的水命與 Mabel 的金命，恰成「金生水」的相生關係，夫妻間五行相生，感情融洽，彼此扶持。在住宅氣場上，兩人各自與本宅不同宮位產生共鳴：Ken 主北方財位，Mabel 主西方健康財官位，一宅之內各得其所，夫唱婦隨，相輔相成。</p>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 5 頁</div>
+</div>
+
+<!-- CHAPTER 6 -->
+<div class="page pb">
+  <span class="chapter-label">第六章</span>
+  <h1 class="chapter">三大優先行動計劃</h1>
+
+  <p class="body">根據本宅飛星格局分析，以下三大佈局行動最能提升整體氣場，建議依優先順序逐步落實：</p>
+
+  <div class="action-box action-red">
+    <div class="action-label">🔴 第一優先（最緊迫）：西北乾宮化煞</div>
+    <div class="action-detail">
+      <strong>位置：</strong>前院西北角庭園區域<br/>
+      <strong>問題：</strong>山星2 + 向星5 = 二五交加，玄空最凶組合<br/>
+      <strong>方法：</strong>在西北角放置六枚古銅錢（用紅繩串連）或一個實心銅葫蘆。銅為金屬，金克土，可化解二黑五黃之土煞。<br/>
+      <strong>注意：</strong>切勿在此方位動工挖土或大幅改建，以免激動煞氣。
+    </div>
+  </div>
+
+  <div class="action-box action-green">
+    <div class="action-label">🟢 第二優先（催財首選）：北方玄關置水</div>
+    <div class="action-detail">
+      <strong>位置：</strong>北方玄關 / 門廊入口一帶（坎宮）<br/>
+      <strong>目的：</strong>催動向星9九運大財位，開啟二十年財運週期<br/>
+      <strong>方法：</strong>安置小型流水噴泉（直徑30–60cm即可）或圓形魚缸（養金魚8或9條）。水宜動、宜清，象徵財水長流。<br/>
+      <strong>效果：</strong>此乃本宅最具爆發力的財位，催動後效果在九運期間（2024–2043）持續顯現。
+    </div>
+  </div>
+
+  <div class="action-box action-green">
+    <div class="action-label">🟢 第三優先（旺丁催財）：南方後院置水</div>
+    <div class="action-detail">
+      <strong>位置：</strong>後院大露台南方一帶（離宮 / 坐方）<br/>
+      <strong>目的：</strong>啟動向星8潛藏財氣，讓「雙星到坐」格局兼旺丁旺財<br/>
+      <strong>方法：</strong>後院安置小型噴水盆、水缸或流水裝置。水缸宜圓形，面朝室內方向。配合綠植翠竹，生機勃勃，助旺人丁氣象。<br/>
+      <strong>效果：</strong>解鎖向星8的財氣潛力，配合北方水局，南北雙水并行，財丁兩旺。
+    </div>
+  </div>
+
+  <div class="action-box action-blue">
+    <div class="action-label">🔵 第四建議（長期佈局）：廚房竈位方向</div>
+    <div class="action-detail">
+      <strong>位置：</strong>廚房爐竈（中宮 / 廚房區域）<br/>
+      <strong>目的：</strong>廚房為財帛之源，竈向影響財帛能量的轉化<br/>
+      <strong>建議：</strong>爐竈灶口（點火方向）朝向北方或南方為佳，取坎離既濟之意，旺財旺丁。避免竈口朝西北（乾宮二五煞方）。<br/>
+      <strong>注意：</strong>若竈位固定難以改動，可在竈旁放置六枚銅錢以作化解。
+    </div>
+  </div>
+
+  <div class="action-box action-blue">
+    <div class="action-label">🔵 第五建議（個人佈局）：床位擺設方向</div>
+    <div class="action-detail">
+      <strong>位置：</strong>二樓主臥室<br/>
+      <strong>目的：</strong>床位方向影響睡眠質量與健康運勢<br/>
+      <strong>建議：</strong>Ken（水命）床頭宜朝向北方或東方，與坎卦本命宮共鳴；Mabel（金命）床頭宜朝向西方或西北方（西北雖有二五，但金命化煞，Mabel頭朝西北反能鎮煞）。<br/>
+      <strong>注意：</strong>二樓飛星盤與地下層不同，需另行分析（可在後續報告中詳細探討）。
+    </div>
+  </div>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 6 頁</div>
+</div>
+
+<!-- CHAPTER 7 -->
+<div class="page pb">
+  <span class="chapter-label">第七章</span>
+  <h1 class="chapter">2026年流年飛星疊加分析</h1>
+
+  <p class="body">玄空風水除了元運飛星盤外，每年尚有「年飛星」（流年飛星）疊加在元運盤上，形成年度的吉凶疊加效應。2026年（丙午年）的年飛星中宮為<strong>八白艮土</strong>，飛星分佈如下：</p>
+
+  <div class="infobox">
+    <div class="infobox-title">▶ 2026年（丙午年）流年飛星分佈</div>
+    東南：4 · 正南：9 · 西南：2<br/>
+    正東：3 · 中宮：8 · 正西：1<br/>
+    東北：6 · 正北：5 · 西北：7
+  </div>
+
+  <h2 class="section">2026年各宮流年疊加要點</h2>
+
+  <table class="room-table">
+    <tr>
+      <th>宮位</th>
+      <th>元運星</th>
+      <th>2026流年星</th>
+      <th>疊加吉凶</th>
+    </tr>
+    <tr>
+      <td><strong>北（向首）坎</strong></td>
+      <td>山7·向9·運4</td>
+      <td><strong>年星5</strong></td>
+      <td class="warn">⚠ 年星5到向首，財氣有阻，需特別化解。放六銅錢於玄關。</td>
+    </tr>
+    <tr>
+      <td><strong>南（坐方）離</strong></td>
+      <td>山8·向8·運3</td>
+      <td><strong>年星9</strong></td>
+      <td class="ok">★ 年星9（九運旺星）到南方，旺丁更旺，家人健康大吉。</td>
+    </tr>
+    <tr>
+      <td><strong>西 兌</strong></td>
+      <td>山1·向6·運1</td>
+      <td><strong>年星1</strong></td>
+      <td class="ok">★★ 年星1與元運星1重疊，財官雙美加倍，吉上加吉。</td>
+    </tr>
+    <tr>
+      <td><strong>西北 乾</strong></td>
+      <td>山2·向5·運9</td>
+      <td><strong>年星7</strong></td>
+      <td>年星7到西北，稍緩二五煞氣，但原有煞氣仍在，化煞物需保留。</td>
+    </tr>
+    <tr>
+      <td><strong>東北 艮</strong></td>
+      <td>山9·向7·運2</td>
+      <td><strong>年星6</strong></td>
+      <td class="ok">★ 年星6（乾金）到艮，有助長輩運勢，出行利市。</td>
+    </tr>
+    <tr>
+      <td><strong>東 震</strong></td>
+      <td>山5·向2·運6</td>
+      <td><strong>年星3</strong></td>
+      <td class="warn">⚠ 年星3（三碧）加入五二組合，是非口舌易起。此方保持安靜。</td>
+    </tr>
+    <tr>
+      <td><strong>中宮</strong></td>
+      <td>山3·向4·運8</td>
+      <td><strong>年星8</strong></td>
+      <td class="ok">★★ 年星8到中宮，與運星8疊加，中宮氣場大旺，全宅受惠。</td>
+    </tr>
+  </table>
+
+  <div class="warnbox">
+    <div class="warnbox-title">⚠ 2026年最重要提示：向首（北方）五黃到臨</div>
+    2026年流年五黃飛臨正北（向首 / 坎宮），與該宮的九運財位形成衝突。五黃主阻滯、意外與財損，到達向首時，財氣進入受阻，需在玄關處<strong>加放六枚銅錢</strong>或<strong>銅葫蘆</strong>以化解，切勿在此年在北方大動土木裝修。
+  </div>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 7 頁</div>
+</div>
+
+<!-- CHAPTER 8 -->
+<div class="page pb">
+  <span class="chapter-label">第八章</span>
+  <h1 class="chapter">總結與展望</h1>
+
+  <h2 class="section">本宅風水總評</h2>
+  <p class="body">60 Yerba Buena Avenue，坐丁向癸，第八運入宅，格局定性為「雙星到坐」。此格局之核心特質，在於以人丁旺盛為本，財氣則需主動催動。二十多年來，Ken 與 Mabel 在此安居，家庭和諧，健康穩固，子女成材——這正是雙星到坐格局最真實的體現。</p>
+
+  <p class="body">進入第九運（2024–2043年），本宅向首的向星9正式當旺，一個嶄新的財運周期已悄然展開。過去二十年以丁（人丁）為主的格局，將逐步向財丁兩旺過渡。北方玄關的一道流水，是開啟這個新周期的金鑰匙。</p>
+
+  <div class="pullquote">
+    「風水者，乘生氣也。」——郭璞《葬書》<br/>
+    生氣在，則人丁旺；生氣聚，則財帛豐。<br/>
+    此宅生氣豐盛，善加催動，必能蒸蒸日上。
+  </div>
+
+  <h2 class="section">宅運與家運：相輔相成</h2>
+  <p class="body">風水，是工具，不是萬能。最好的風水師，也常提醒：「一命、二運、三風水、四積陰德、五讀書。」住宅氣場能錦上添花，卻難以逆天改命。然而，當居住者與住宅氣場達到共鳴，那種「天時地利人和」的感覺，便是最自然的風水之效。</p>
+
+  <p class="body">Ken 與 Mabel 在這所住宅中度過了生命中最重要的歲月——子女成長、家業發展、風雨與共。宅運所承載的，不僅是氣場的流動，更是一個家庭所積累的愛、信念與韌性。</p>
+
+  <h2 class="section">待深入分析的項目</h2>
+  <div class="infobox">
+    <div class="infobox-title">▶ 後續可探討方向</div>
+    1. <strong>二樓飛星詳析</strong>：主臥室、Sun Room、各臥室的具體飛星與建議<br/>
+    2. <strong>床位方向建議</strong>：結合 Ken 與 Mabel 的八字命理，給出精確的床頭朝向<br/>
+    3. <strong>廚房竈位分析</strong>：竈口方向、冰箱位置、廚房動線的風水影響<br/>
+    4. <strong>月飛星疊加</strong>：按月份追蹤吉凶方位，提供更精細的短期指引<br/>
+    5. <strong>擇日入住紀念</strong>：重要裝修或搬遷時的吉日選擇
+  </div>
+
+  <div class="divider">—— ✦ 此報告謹獻予 Ken · Mabel ✦ ——</div>
+
+  <p class="body" style="text-align:center; text-indent:0; color:#7a5c1e; font-style:italic;">
+    願此宅庇蔭家人，歲月靜好，財丁兩旺，<br/>
+    南山之壽，北海之財，代代相傳。
+  </p>
+
+  <div class="footer-line">60 Yerba Buena Ave · 玄空飛星風水報告 · 第 8 頁 · 完</div>
+</div>
+
+</body>
+</html>

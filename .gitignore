@@ -5,7 +5,6 @@ rclone
 *.pdf
 *.mp4
 *.m4a
-imgs/
 user_input_files/
 extract/
 node_modules/

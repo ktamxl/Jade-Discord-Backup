@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>譚氏傳承錄 · Tam Family Legacy</title>
+<style>
+  :root { --navy:#0d1b2a; --gold:#c9a84c; --gold-light:#e8c97a; --bg:#f5f3ef; --card:#fff; --text:#1a1a2e; --text-muted:#555; --border:#e0d8cc; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Georgia',serif;background:var(--bg);color:var(--text);line-height:1.7;font-size:16px;}
+  a{color:var(--gold);text-decoration:none;}
+  /* Header */
+  .site-header{background:var(--navy);color:#fff;padding:2rem 1.5rem;text-align:center;}
+  .site-header h1{font-size:1.8rem;color:var(--gold-light);letter-spacing:.05em;margin-bottom:.25rem;}
+  .site-header .subtitle{font-size:.9rem;color:#aab;letter-spacing:.1em;text-transform:uppercase;}
+  .confidential-badge{display:inline-block;margin-top:.75rem;padding:.25rem .8rem;border:1px solid var(--gold);color:var(--gold);font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;border-radius:3px;}
+  /* Nav */
+  .site-nav{background:#162032;border-bottom:1px solid #2a3a50;overflow-x:auto;white-space:nowrap;}
+  .site-nav a{display:inline-block;color:#c0cce0;padding:.75rem 1.25rem;font-size:.85rem;letter-spacing:.05em;transition:color .2s;}
+  .site-nav a:hover{color:var(--gold-light);}
+  /* Sections */
+  .section{max-width:960px;margin:0 auto;padding:2.5rem 1.25rem;}
+  .section-header{border-left:4px solid var(--gold);padding-left:1rem;margin-bottom:1.5rem;}
+  .section-header h2{font-size:1.3rem;color:var(--navy);margin-bottom:.25rem;}
+  .section-header .section-num{font-size:.8rem;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;}
+  /* Letter box */
+  .letter-box{background:var(--navy);color:#e8e0d0;padding:2rem;border-radius:6px;border-left:4px solid var(--gold);font-size:.95rem;line-height:1.9;margin-bottom:1.5rem;}
+  .letter-box .quote{color:var(--gold-light);font-style:italic;font-size:1.05rem;margin:1rem 0;}
+  .letter-box .signature{margin-top:1.25rem;color:var(--gold);font-size:.9rem;}
+  /* Summary table */
+  .summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;}
+  .summary-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1.25rem;border-top:3px solid var(--gold);}
+  .summary-card .label{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:.5rem;}
+  .summary-card .value{font-size:1.1rem;font-weight:bold;color:var(--navy);}
+  .summary-card .sub{font-size:.8rem;color:var(--text-muted);margin-top:.25rem;}
+  /* Tabs */
+  .tab-container{background:var(--card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:2rem;}
+  .tab-bar{display:flex;overflow-x:auto;background:var(--navy);border-bottom:1px solid #2a3a50;}
+  .tab-btn{flex-shrink:0;padding:.75rem 1.1rem;background:none;border:none;color:#9aabb8;cursor:pointer;font-size:.82rem;font-family:'Georgia',serif;letter-spacing:.04em;white-space:nowrap;border-bottom:3px solid transparent;transition:color .2s;}
+  .tab-btn:hover{color:#ddd;}
+  .tab-btn.active{color:var(--gold-light);border-bottom-color:var(--gold);}
+  .tab-panel{display:none;padding:1.75rem 1.5rem;}
+  .tab-panel.first-tab{display:block;}
+  /* Tables */
+  .data-table{width:100%;border-collapse:collapse;font-size:.85rem;margin:1rem 0;}
+  .data-table th{background:var(--navy);color:var(--gold-light);text-align:left;padding:.5rem .75rem;font-weight:normal;letter-spacing:.05em;}
+  .data-table td{padding:.45rem .75rem;border-bottom:1px solid var(--border);}
+  .data-table tr:last-child td{border-bottom:none;}
+  .data-table tr:hover td{background:#faf8f4;}
+  .pos{color:#1a7a3a;font-weight:bold;}
+  .neg{color:#b03030;}
+  .neutral{color:#555;}
+  .fire{font-style:normal;}
+  /* Sub-section headers */
+  .sub-h{margin:1.5rem 0 .75rem;font-size:1rem;color:var(--navy);border-bottom:1px solid var(--border);padding-bottom:.4rem;}
+  .sub-h2{margin:1rem 0 .5rem;font-size:.9rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;}
+  .total-row td{font-weight:bold;background:#f5f0e8 !important;border-top:2px solid var(--gold);}
+  /* Alert boxes */
+  .alert{padding:.9rem 1.1rem;border-radius:4px;margin:1rem 0;font-size:.88rem;}
+  .alert-sacred{background:#fff8e8;border-left:4px solid var(--gold);color:#5a4000;}
+  .alert-warn{background:#fff3f3;border-left:4px solid #c04040;color:#600;}
+  .alert-info{background:#eef4ff;border-left:4px solid #4060c0;color:#1a2a60;}
+  /* What To Do steps */
+  .steps ol{padding-left:1.5rem;}
+  .steps li{margin-bottom:1rem;padding-left:.25rem;}
+  .steps li strong{color:var(--navy);}
+  /* Contact cards */
+  .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0;}
+  .contact-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1.25rem;border-top:3px solid var(--navy);}
+  .contact-card .role{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);margin-bottom:.4rem;}
+  .contact-card .name{font-size:1rem;color:var(--navy);margin-bottom:.5rem;}
+  .contact-card .details{font-size:.85rem;color:var(--text-muted);line-height:1.8;}
+  /* Document items */
+  .doc-item{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1.25rem;margin-bottom:1rem;}
+  .doc-item h4{color:var(--navy);margin-bottom:.5rem;font-size:.95rem;}
+  .doc-item p, .doc-item ul{font-size:.88rem;color:var(--text-muted);line-height:1.7;}
+  .doc-item ul{padding-left:1.25rem;margin-top:.4rem;}
+  /* Footer */
+  footer{background:var(--navy);color:#9aabb8;text-align:center;padding:2rem 1.5rem;font-size:.85rem;line-height:1.8;}
+  footer span{color:var(--gold);}
+  /* Divider */
+  .divider{border:none;border-top:1px solid var(--border);margin:2rem 0;}
+  /* Property grid mobile */
+  @media(max-width:600px){
+    .site-header h1{font-size:1.35rem;}
+    .tab-btn{padding:.6rem .8rem;font-size:.78rem;}
+    .data-table{font-size:.78rem;}
+    .data-table th, .data-table td{padding:.4rem .5rem;}
+    .section{padding:1.75rem 1rem;}
+    .tab-panel{padding:1.25rem 1rem;}
+    .summary-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="site-header">
+  <div style="font-size:.8rem;letter-spacing:.2em;color:#8899aa;text-transform:uppercase;margin-bottom:.5rem;">Private &amp; Confidential</div>
+  <h1>譚氏傳承錄</h1>
+  <div class="subtitle">Tam Family Legacy · Family Access Only</div>
+  <div class="confidential-badge">Ken &amp; Mabel Tam · San Francisco · Est. 2026</div>
+</div>
+
+<!-- NAV -->
+<nav class="site-nav">
+  <a href="#read-first">閱讀指引 Read First</a>
+  <a href="#financial-map">財務總覽 Financial Map</a>
+  <a href="#what-to-do">行動指南 What To Do</a>
+  <a href="#who-to-call">重要聯絡 Who To Call</a>
+  <a href="#documents">文件位置 Documents</a>
+</nav>
+
+<!-- SECTION 1: READ FIRST -->
+<div class="section" id="read-first">
+  <div class="section-header">
+    <div class="section-num">Section 1 · 閱讀指引</div>
+    <h2>Read This First — 開始閱讀本頁之前</h2>
+  </div>
+  <div class="letter-box">
+    <p>If you're reading this because something has happened to me, take a breath. Everything is in order. I built this so you would never have to guess, search blindly, or feel lost.</p>
+    <br>
+    <p>This page is your instruction manual. Start here, then go to <strong style="color:var(--gold-light)">What To Do</strong> — it will walk you through every step in the right order. Do not make any financial decisions before you speak to <strong style="color:var(--gold-light)">Win</strong> (my financial advisor) and our <strong style="color:var(--gold-light)">attorney</strong> — their contacts are in the <em>Who To Call</em> section.</p>
+    <br>
+    <p>The assets here took three generations to build. Your great-grandfather <strong style="color:var(--gold-light)">譚遠詒</strong> arrived in San Francisco at sixteen, alone, with nothing. He built something. Your grandfather <strong style="color:var(--gold-light)">譚昻初</strong> carried it forward across oceans and decades. I have tried to honor what they started. Now I pass it to you.</p>
+    <div class="quote">照顧好你們的媽媽。互相照顧。其他的事，都會迎刃而解。</div>
+    <div class="signature">— 爸爸 Dad · Ken Tam（譚國偉）</div>
+  </div>
+</div>
+
+<!-- SECTION 2: FINANCIAL MAP -->
+<div class="section" id="financial-map">
+  <div class="section-header">
+    <div class="section-num">Section 2 · 財務總覽</div>
+    <h2>Financial Map &amp; Portfolio Overview</h2>
+  </div>
+  <div style="font-size:.85rem;color:var(--text-muted);margin-bottom:1.25rem;">Managed by Win Financial Advisor · Baseline: March 2026 · Last Updated: March 2026</div>
+
+  <!-- Summary cards -->
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="label">🇭🇰 HK Portfolio</div>
+      <div class="value">HKD ~20.3M</div>
+      <div class="sub">≈ USD $2.6M · Futu, ZA, CMB Wing Lung, Hang Seng, Ant</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">🇺🇸 US Investments (Personal)</div>
+      <div class="value">$2,786,092</div>
+      <div class="sub">Fidelity · 4 personal accounts</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">🏘 Real Estate</div>
+      <div class="value">~$26.9M net</div>
+      <div class="sub">8 properties · SF + HK · ~Zero external debt</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">🔧 Business Equity</div>
+      <div class="value">~$4.51M</div>
+      <div class="sub">Excel Plumbing Supply &amp; Showroom</div>
+    </div>
+    <div class="summary-card" style="border-top-color:#1a7a3a;">
+      <div class="label">💼 Estimated Net Worth</div>
+      <div class="value" style="color:#1a5a2a;">≈ $37M USD</div>
+      <div class="sub">Personal assets only · March 2026</div>
+    </div>
+  </div>
+
+  <!-- TAB CONTAINER -->
+  <div class="tab-container">
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="showTab('hk-securities',this)">🇭🇰 HK Securities<br><span style="font-size:.72rem;opacity:.7">港股證券</span></button>
+      <button class="tab-btn" onclick="showTab('hk-banking',this)">🏦 HK Banking &amp; Paper Gold<br><span style="font-size:.72rem;opacity:.7">港元存款及紙黃金</span></button>
+      <button class="tab-btn" onclick="showTab('us-fidelity',this)">🇺🇸 US Fidelity<br><span style="font-size:.72rem;opacity:.7">美國富達</span></button>
+      <button class="tab-btn" onclick="showTab('real-estate',this)">🏠 Real Estate<br><span style="font-size:.72rem;opacity:.7">物業</span></button>
+      <button class="tab-btn" onclick="showTab('business',this)">🔧 Business<br><span style="font-size:.72rem;opacity:.7">生意</span></button>
+    </div>
+
+    <!-- TAB 1: HK Securities -->
+    <div class="tab-panel first-tab" id="panel-hk-securities">
+      <div class="alert alert-sacred">⭐ <strong>Biotech Holdings Note:</strong> Several positions are held for deeply personal reasons related to Mom's health. These are <u>NOT purely financial investments</u>. Do not liquidate without consulting the family and Win first.</div>
+
+      <h3 class="sub-h">🤖 AI &amp; Technology — HKD ~3,506,000</h3>
+      <table class="data-table">
+        <tr><th>Code</th><th>Name</th><th>Shares</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>00100</td><td><strong>MiniMax-W</strong></td><td>820</td><td>828,200</td><td class="pos">+231%</td></tr>
+        <tr><td>02513</td><td>智譜AI Zhipu AI</td><td>800</td><td>424,000</td><td class="pos">+134%</td></tr>
+        <tr><td>00700</td><td>騰訊控股 Tencent</td><td>1,200</td><td>657,000</td><td class="pos">+48%</td></tr>
+        <tr><td>00981</td><td>中芯國際 SMIC</td><td>7,500</td><td>466,500</td><td class="pos">+120%</td></tr>
+        <tr><td>01347</td><td>華虹半導體 Hua Hong Semi</td><td>5,000</td><td>440,000</td><td class="pos">+7%</td></tr>
+        <tr><td>01024</td><td>快手-W Kuaishou</td><td>2,000</td><td>118,300</td><td class="neg">-21%</td></tr>
+        <tr><td>02230</td><td>科大訊飛 iFlytek</td><td>5,500</td><td>284,900</td><td class="neutral">0%</td></tr>
+        <tr><td>09698</td><td>萬國數據 GDS Holdings</td><td>7,000</td><td>287,280</td><td class="pos">+17%</td></tr>
+      </table>
+
+      <h3 class="sub-h">⛏ Mining, Energy &amp; Resources — HKD ~2,627,000</h3>
+      <table class="data-table">
+        <tr><th>Code</th><th>Name</th><th>Shares</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>02899</td><td>紫金礦業 Zijin Mining</td><td>30,000</td><td>1,147,800</td><td class="pos">+212%</td></tr>
+        <tr><td>00358</td><td>江西銅業 Jiangxi Copper</td><td>5,000</td><td>200,400</td><td class="pos">+176%</td></tr>
+        <tr><td>00883</td><td>中國海洋石油 CNOOC</td><td>10,000</td><td>297,600</td><td class="pos">+168%</td></tr>
+        <tr><td>01088</td><td>中國神華 Shenhua Energy</td><td>8,000</td><td>387,520</td><td class="pos">+60%</td></tr>
+        <tr><td>03081</td><td>價值黃金ETF</td><td>13,000</td><td>311,480</td><td class="pos">+51%</td></tr>
+        <tr><td>02259</td><td>紫金黃金國際</td><td>1,500</td><td>282,150</td><td class="pos">+69%</td></tr>
+      </table>
+
+      <h3 class="sub-h">⚡ EV &amp; New Energy — HKD ~1,087,000</h3>
+      <table class="data-table">
+        <tr><th>Code</th><th>Name</th><th>Shares</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>01211</td><td>比亞迪 BYD</td><td>6,000</td><td>580,500</td><td class="pos">+14%</td></tr>
+        <tr><td>03750</td><td>寧德時代 CATL</td><td>600</td><td>372,600</td><td class="pos">+109%</td></tr>
+        <tr><td>09868</td><td>小鵬汽車 XPeng</td><td>1,700</td><td>134,300</td><td class="pos">+49%</td></tr>
+      </table>
+
+      <h3 class="sub-h">🧬 Biotech &amp; Healthcare ⭐ — HKD ~1,277,000</h3>
+      <div class="alert alert-sacred">Dad holds these because Mom is a cancer survivor. <em>"就算虧光，也願意支持這些公司去攻破癌症的難關。"</em><br><strong>Never sell without family consensus.</strong></div>
+      <table class="data-table">
+        <tr><th>Code</th><th>Name</th><th>Shares</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>02269</td><td>藥明生物 WuXi Biologics</td><td>12,500</td><td>431,500</td><td class="pos">+44%</td></tr>
+        <tr><td>09926</td><td>康方生物 Akeso</td><td>2,000</td><td>220,400</td><td class="pos">+51%</td></tr>
+        <tr><td>06160</td><td>百濟神州 BeiGene</td><td>1,000</td><td>170,700</td><td class="pos">+6%</td></tr>
+        <tr><td>01801</td><td>信達生物 Innovent Bio</td><td>2,000</td><td>161,700</td><td class="neg">-9%</td></tr>
+        <tr><td>09688</td><td>再鼎醫藥 Zai Lab ⭐</td><td>2,000</td><td>28,600</td><td class="neg">-50%</td></tr>
+        <tr><td>01276</td><td>恒瑞醫藥 Hengrui</td><td>2,000</td><td>128,000</td><td class="neg">-23%</td></tr>
+        <tr><td>01093</td><td>石藥集團 CSPC</td><td>8,000</td><td>68,720</td><td class="pos">+10%</td></tr>
+        <tr><td>06185</td><td>康希諾生物 CanSino Bio</td><td>2,000</td><td>66,920</td><td class="neg">-4%</td></tr>
+      </table>
+
+      <h3 class="sub-h">🏦 Finance, Internet &amp; Diversified — HKD ~1,762,000</h3>
+      <table class="data-table">
+        <tr><th>Code</th><th>Name</th><th>Shares</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>00388</td><td>香港交易所 HKEX</td><td>1,100</td><td>441,540</td><td class="pos">+14%</td></tr>
+        <tr><td>00941</td><td>中國移動 China Mobile</td><td>5,000</td><td>399,750</td><td class="pos">+23%</td></tr>
+        <tr><td>09988</td><td>阿里巴巴-W Alibaba</td><td>3,200</td><td>424,000</td><td class="neg">-4%</td></tr>
+        <tr><td>09888</td><td>百度集團-SW Baidu</td><td>2,500</td><td>305,500</td><td class="pos">+42%</td></tr>
+        <tr><td>03191</td><td>GlobalX 中國半導體ETF</td><td>3,100</td><td>191,270</td><td class="pos">+8%</td></tr>
+      </table>
+
+      <h3 class="sub-h">📊 Futu Funds</h3>
+      <table class="data-table">
+        <tr><th>Fund</th><th>Type</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>BlackRock World Mining Fund</td><td>Global Resources</td><td>307,223</td><td class="pos">+53%</td></tr>
+        <tr><td>BlackRock World Energy Fund</td><td>Global Energy</td><td>135,688</td><td class="pos">+34%</td></tr>
+        <tr><td>泰康開泰港元貨幣基金</td><td>HKD Money Market</td><td>110,558</td><td class="neutral">~0%</td></tr>
+      </table>
+    </div>
+
+    <!-- TAB 2: HK Banking & Paper Gold -->
+    <div class="tab-panel" id="panel-hk-banking">
+      <div class="alert alert-info">⭐ All HK assets registered under <strong>譚國偉 Tam Kwok Wai</strong> (Ken Tam's legal Chinese name) — applies to all HK bank accounts, securities, and property.</div>
+
+      <h3 class="sub-h">富途證券 Futu Securities</h3>
+      <table class="data-table">
+        <tr><th>Item</th><th>Type</th><th>HKD Value</th><th>Notes</th></tr>
+        <tr><td>HK Stocks (37 positions)</td><td>Equities</td><td>~15,249,000</td><td>See HK Securities tab</td></tr>
+        <tr><td>泰康開泰港元貨幣基金</td><td>Money Market</td><td>1,447,976</td><td>Liquid HKD fund</td></tr>
+        <tr><td>BlackRock World Energy Fund</td><td>Fund</td><td>143,428</td><td class="pos">+42.01%</td></tr>
+        <tr><td>BlackRock World Mining Fund</td><td>Fund</td><td>275,994</td><td class="pos">+37.31%</td></tr>
+        <tr class="total-row"><td colspan="2"><strong>Futu Subtotal</strong></td><td><strong>~17,116,000</strong></td><td></td></tr>
+      </table>
+
+      <h3 class="sub-h">眾安銀行 ZA Bank</h3>
+      <table class="data-table">
+        <tr><th>Item</th><th>Type</th><th>HKD Value</th><th>Return</th></tr>
+        <tr><td>Savings</td><td>Cash</td><td>384,863</td><td>—</td></tr>
+        <tr><td>Invesco Commodity Allocation Fund</td><td>Fund</td><td>343,501</td><td class="pos">+129%</td></tr>
+        <tr><td>AB China A Shares Equity Fund</td><td>Fund</td><td>259,267</td><td class="pos">+3.71%</td></tr>
+        <tr><td>Invesco Asian Flexible Bond Fund</td><td>Fund</td><td>21,655</td><td class="pos">+59.05%</td></tr>
+        <tr><td>GaoTeng WeInvest MM</td><td>Money Market</td><td>13,422</td><td class="pos">+2.28%</td></tr>
+        <tr class="total-row"><td colspan="2"><strong>ZA Bank Subtotal</strong></td><td><strong>~1,022,708</strong></td><td></td></tr>
+      </table>
+
+      <h3 class="sub-h">招商永隆銀行 CMB Wing Lung Bank</h3>
+      <table class="data-table">
+        <tr><th>Item</th><th>Type</th><th>HKD Value</th><th>Notes</th></tr>
+        <tr><td>Savings</td><td>Cash</td><td>551,769</td><td>—</td></tr>
+        <tr><td>HSBC Holdings (1,176 shares)</td><td>Securities Brokerage</td><td>146,294</td><td class="pos">+117%</td></tr>
+        <tr><td>紙黃金 Paper Gold — 21 tael (99 gold)</td><td>Paper Gold 紙黃金</td><td>894,012</td><td>Account-based — NOT physical bars</td></tr>
+        <tr class="total-row"><td colspan="2"><strong>CMB Wing Lung Subtotal</strong></td><td><strong>~1,592,075</strong></td><td></td></tr>
+      </table>
+
+      <h3 class="sub-h">Other HK Banks</h3>
+      <table class="data-table">
+        <tr><th>Institution</th><th>Type</th><th>HKD Value</th><th>Notes</th></tr>
+        <tr><td>恒生銀行 Hang Seng Bank</td><td>Savings</td><td>350,000</td><td>—</td></tr>
+        <tr><td>螞蟻銀行 Ant Bank HK</td><td>Savings</td><td>200,000</td><td>—</td></tr>
+        <tr class="total-row"><td colspan="2"><strong>Other Banks Subtotal</strong></td><td><strong>550,000</strong></td><td></td></tr>
+      </table>
+
+      <div class="alert alert-info" style="margin-top:1.5rem;">
+        <strong>HK Grand Total: ~HKD 20,281,000 (~USD $2.6M)</strong><br>
+        All figures as of March 2026. Paper gold (紙黃金) at CMB Wing Lung is account-based — not physical bars.
+      </div>
+    </div>
+
+    <!-- TAB 3: US Fidelity -->
+    <div class="tab-panel" id="panel-us-fidelity">
+      <div class="alert alert-info">Excel Plumbing Fidelity accounts shown separately below — already on the business balance sheet. <strong>Excluded from personal net worth.</strong><br>Cross-account precious metals: Gold (GLD + GLDM personal): <strong>$731,946</strong> · Silver (SLV personal + IRA): <strong>$391,260</strong></div>
+
+      <h3 class="sub-h">👤 Personal Fidelity — 4 Accounts — $2,786,092</h3>
+
+      <h4 class="sub-h2">Z19495230 — Ken Personal Reserves · $424,815</h4>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Category</th><th>USD Value</th><th>Notes</th></tr>
+        <tr><td>T-Bill 04/09/2026</td><td>US Treasury</td><td>$199,700</td><td>⚠️ Matures ~Apr 9 — reinvestment TBD</td></tr>
+        <tr><td>SPAXX</td><td>Cash Equivalent</td><td>$161,315</td><td>Core sweep</td></tr>
+        <tr><td>SQQQ (3x Inverse QQQ)</td><td>Legacy</td><td>$7,696</td><td class="neg">-62.5% · No action needed</td></tr>
+        <tr><td>DIDIY (DiDi ADS)</td><td>Legacy</td><td>$5,096</td><td class="neg">-73.1% · No action needed</td></tr>
+        <tr><td>Pending deposit</td><td>Inbound</td><td>~$51,008</td><td>In transit</td></tr>
+      </table>
+
+      <h4 class="sub-h2">230912756 — Ken Rollover IRA · $252,296</h4>
+      <div class="alert alert-warn" style="margin-bottom:.75rem;">⚠️ <strong>Critical:</strong> IRA beneficiary designations <em>supersede the will</em>. Preston and Vanessa must confirm named beneficiaries directly with Fidelity.</div>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Category</th><th>USD Value</th><th>P&amp;L</th></tr>
+        <tr><td>SLV (iShares Silver)</td><td>HALO — Silver</td><td>$130,420</td><td class="pos">+1.6%</td></tr>
+        <tr><td>GLDM (SPDR Gold Mini)</td><td>HALO — Gold</td><td>$92,360</td><td class="pos">+40.1%</td></tr>
+        <tr><td>FHKCX (Fidelity China Region)</td><td>HK / China</td><td>$23,856</td><td class="pos">+32.5%</td></tr>
+        <tr><td>SPAXX</td><td>Cash</td><td>$5,660</td><td>n/a</td></tr>
+      </table>
+
+      <h4 class="sub-h2">Z06452795 — Ken Investment Account · $2,092,524</h4>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Category</th><th>Shares</th><th>USD Value</th><th>P&amp;L</th></tr>
+        <tr><td>GLD (SPDR Gold) 🔥</td><td>HALO — Gold</td><td>1,536</td><td>$639,586</td><td class="pos">+101.6%</td></tr>
+        <tr><td>SLV (iShares Silver)</td><td>HALO — Silver</td><td>4,000</td><td>$260,840</td><td class="pos">+62.7%</td></tr>
+        <tr><td>MCHI (iShares MSCI China)</td><td>China Equity</td><td>6,497</td><td>$368,062</td><td class="neg">-1.3%</td></tr>
+        <tr><td>SPAXX</td><td>Cash</td><td>—</td><td>$218,541</td><td>n/a</td></tr>
+        <tr><td>CNYA (China A-Shares)</td><td>China A</td><td>2,182</td><td>$74,936</td><td class="neg">-12.9%</td></tr>
+        <tr><td>XLV (Healthcare ETF)</td><td>Healthcare</td><td>506</td><td>$74,068</td><td>n/a</td></tr>
+        <tr><td>KWEB (China Internet)</td><td>China Tech</td><td>2,194</td><td>$63,921</td><td class="neg">-24.0%</td></tr>
+        <tr><td>FHKCX (Fidelity China Region)</td><td>HK / China</td><td>1,036</td><td>$62,101</td><td class="pos">+0.6%</td></tr>
+        <tr><td>IXC (Global Energy ETF)</td><td>HALO — Energy</td><td>1,000</td><td>$56,730</td><td class="pos">+9.2%</td></tr>
+        <tr><td>JEPI (JPMorgan Premium Income)</td><td>Income</td><td>1,006</td><td>$57,070</td><td class="neg">-4.0%</td></tr>
+        <tr><td>UNH (UnitedHealth Group)</td><td>Healthcare</td><td>204</td><td>$55,240</td><td class="neg">-11.3%</td></tr>
+        <tr><td>AIA (iShares Asia 50)</td><td>Asia</td><td>500</td><td>$54,380</td><td class="neg">-5.7%</td></tr>
+        <tr><td>JEPAX (JPMorgan Income A)</td><td>Income</td><td>3,415</td><td>$47,981</td><td class="neg">-4.4%</td></tr>
+        <tr><td>PFF (iShares Preferred)</td><td>Income</td><td>1,001</td><td>$30,640</td><td class="neg">-2.5%</td></tr>
+        <tr><td>JEPQ (JPMorgan Nasdaq Income)</td><td>Income</td><td>504</td><td>$28,427</td><td class="neg">-2.8%</td></tr>
+      </table>
+
+      <h4 class="sub-h2">618596583 — Coleton 529 Education · $16,458</h4>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Type</th><th>USD Value</th><th>P&amp;L</th></tr>
+        <tr><td>NH Portfolio 2039 (Fidelity Blend)</td><td>Age-based target fund</td><td>$16,458</td><td class="pos">+31.7%</td></tr>
+      </table>
+      <p style="font-size:.82rem;color:var(--text-muted);margin-top:.5rem;">For Coleton Johnson Tran (Vanessa's son). This is an education fund.</p>
+
+      <hr class="divider">
+      <h3 class="sub-h">🏢 Excel Plumbing Fidelity — Business Assets</h3>
+      <div class="alert alert-warn">⚠️ <strong>Do NOT add to personal net worth.</strong> These accounts are Excel Plumbing's corporate assets — their value is already reflected in the $4.51M business equity. Reference only.</div>
+
+      <h4 class="sub-h2">Z40263922 — Excel Reserve Funds · $3,424,442</h4>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Category</th><th>Shares</th><th>USD Value</th><th>P&amp;L</th></tr>
+        <tr><td>GLD (SPDR Gold) 🔥</td><td>HALO — Gold</td><td>2,407.7</td><td>$1,002,316</td><td class="pos">+99.5%</td></tr>
+        <tr><td>T-Bill 04/16/2026</td><td>US Treasury</td><td>—</td><td>$498,895</td><td>Matures Apr 16</td></tr>
+        <tr><td>T-Bill 07/16/2026</td><td>US Treasury</td><td>—</td><td>$494,340</td><td>Matures Jul 16</td></tr>
+        <tr><td>SCHP (Schwab TIPS ETF)</td><td>Inflation Hedge</td><td>15,700</td><td>$416,835</td><td class="neg">-16.0% ⚠️</td></tr>
+        <tr><td>STIP (0-5yr TIPS)</td><td>Inflation Hedge</td><td>4,000</td><td>$412,200</td><td class="pos">+0.6%</td></tr>
+        <tr><td>MCHI (China)</td><td>China Equity</td><td>4,000</td><td>$226,600</td><td class="neg">-1.6%</td></tr>
+        <tr><td>SPAXX</td><td>Cash</td><td>—</td><td>$199,497</td><td>n/a</td></tr>
+        <tr><td>SLV (Silver)</td><td>HALO — Silver</td><td>2,000</td><td>$130,420</td><td class="pos">+1.6%</td></tr>
+        <tr><td>CNYA (China A)</td><td>China A</td><td>1,000</td><td>$34,340</td><td class="neg">-14.7%</td></tr>
+        <tr><td>FHKCX (China Region)</td><td>HK / China</td><td>496.1</td><td>$29,731</td><td class="pos">+40.4%</td></tr>
+        <tr><td>FDRXX (Govt Cash)</td><td>Cash</td><td>—</td><td>$20,199</td><td>n/a</td></tr>
+        <tr><td>MCSMX (Matthews China Small)</td><td>China Small Cap</td><td>692.9</td><td>$9,070</td><td class="neg">-13.8%</td></tr>
+      </table>
+
+      <h4 class="sub-h2">Z40390182 — Excel MM-1 · $460,427</h4>
+      <table class="data-table">
+        <tr><th>Holding</th><th>Type</th><th>USD Value</th><th>Notes</th></tr>
+        <tr><td>SPAXX</td><td>Operating cash reserve</td><td>$460,427</td><td>Business liquidity buffer</td></tr>
+      </table>
+    </div>
+
+    <!-- TAB 4: Real Estate -->
+    <div class="tab-panel" id="panel-real-estate">
+      <div class="alert alert-info">All values estimated as of March 2026. Annual revalue recommended. Use 3% cap rate for commercial valuation. LTV: ~2.7% — effectively debt-free.</div>
+      <div style="font-size:.88rem;color:var(--text-muted);margin:1rem 0;"><strong>Ownership:</strong> Personal residences → <em>Ken Tam and Mabel Chu Living Trust</em> · Rental portfolio → <em>Toto Investment LLC</em> · Commercial → <em>659 South Van Ness LLC</em></div>
+
+      <h3 class="sub-h">🇺🇸 US Properties — 7 Properties</h3>
+
+      <div style="overflow-x:auto;">
+      <table class="data-table">
+        <tr><th>#</th><th>Address</th><th>Use</th><th>Entity</th><th>Est. Value</th><th>Mortgage</th><th>Net Equity</th><th>Income</th></tr>
+        <tr><td>1</td><td><strong>60 Yerba Buena Ave</strong><br>SF 94127</td><td>Ken's Primary Residence</td><td>Living Trust</td><td>$2,750,000</td><td>$0</td><td><strong>$2,750,000</strong></td><td>Owner-occupied</td></tr>
+        <tr><td>2</td><td><strong>1540 17th Ave</strong><br>SF 94122</td><td>Vanessa's Home</td><td>Living Trust</td><td>$3,281,800</td><td>$750,000</td><td><strong>$2,531,800</strong></td><td>Only mortgage in portfolio</td></tr>
+        <tr><td>3</td><td><strong>1534 17th Ave</strong><br>SF 94122</td><td>Preston's Home</td><td>Living Trust</td><td>$3,281,800</td><td>$0</td><td><strong>$3,281,800</strong></td><td>Owner-occupied</td></tr>
+        <tr><td>4</td><td><strong>2339 29th Ave</strong><br>SF 94116</td><td>Parents' Home</td><td>Living Trust</td><td>$2,068,000</td><td>$0</td><td><strong>$2,068,000</strong></td><td>Owner-occupied</td></tr>
+        <tr><td>5</td><td><strong>1890 35th Ave</strong><br>SF 94116</td><td>Rental — Ken's 50%<br>(50% Suzie Tam)</td><td>Living Trust</td><td>$660,000<br>(Ken's 50%)</td><td>$0</td><td><strong>$660,000</strong></td><td>$3,000/mo gross<br>$1,500/mo Ken</td></tr>
+        <tr><td>6</td><td><strong>1544 Powell St</strong><br>SF 94133</td><td>8-Unit Residential Rental</td><td>Toto Investment LLC</td><td>$4,500,000</td><td>$0</td><td><strong>$4,500,000</strong></td><td>~$15,000/mo avg</td></tr>
+        <tr><td>7</td><td><strong>659–695 S Van Ness Ave</strong><br>SF 94110 (2 buildings)</td><td>Commercial<br>Excel Plumbing tenant</td><td>659 South Van Ness LLC</td><td>$10,000,000</td><td>$0</td><td><strong>$10,000,000</strong></td><td>$50,000/mo</td></tr>
+        <tr class="total-row"><td colspan="4"><strong>US Totals</strong></td><td><strong>~$26,542,000</strong></td><td><strong>-$750,000</strong></td><td><strong>~$25,792,000</strong></td><td><strong>~$798K/yr</strong></td></tr>
+      </table>
+      </div>
+
+      <div style="font-size:.85rem;color:var(--text-muted);margin:.75rem 0 1.5rem;">Rental income breakdown: Powell St ~$180K/yr · S Van Ness $600K/yr · 35th Ave $18K/yr (Ken's share)</div>
+
+      <h3 class="sub-h">🇭🇰 HK Property — 1 Property</h3>
+      <table class="data-table">
+        <tr><th>Field</th><th>Detail</th></tr>
+        <tr><td>Property</td><td><strong>Coastal Skyline Block 8 (LaRossa B), Flat C, 25/F</strong></td></tr>
+        <tr><td>Chinese Address</td><td>東涌海濱路12號藍天海岸第8座（影岸紅-B座），25樓，C室</td></tr>
+        <tr><td>English Address</td><td>12 Tung Chung Waterfront Road, Tung Chung, Lantau Island, NT, HK</td></tr>
+        <tr><td>Size</td><td>~1,000 sq ft gross · 3 bed, 2 bath · Ocean-facing</td></tr>
+        <tr><td>Owner</td><td>Personal — 譚國偉 Tam Kwok Wai</td></tr>
+        <tr><td>Est. Value</td><td>HKD 8,500,000 (~USD $1,093,000)</td></tr>
+        <tr><td>Mortgage</td><td>$0</td></tr>
+        <tr><td>Net Equity</td><td><strong>~$1,093,000 USD</strong></td></tr>
+        <tr><td>Notes</td><td>Est. from Land Registry comps (Feb 2026). Annual revalue recommended.</td></tr>
+      </table>
+
+      <div class="alert alert-info" style="margin-top:1.25rem;">
+        <strong>Combined RE Total: ~$27,635,000 gross · ~$26,885,000 net equity</strong>
+      </div>
+    </div>
+
+    <!-- TAB 5: Business -->
+    <div class="tab-panel" id="panel-business">
+      <h3 class="sub-h">Tamxl Corp dba Excel Plumbing Supply + Showroom</h3>
+      <table class="data-table">
+        <tr><th>Field</th><th>Detail</th></tr>
+        <tr><td>Legal Entity</td><td><strong>Tamxl Corp dba Excel Plumbing Supply + Showroom</strong><br>California Corporation (C-Corp)</td></tr>
+        <tr><td>Address</td><td>659 South Van Ness Ave, San Francisco, CA 94110</td></tr>
+        <tr><td>Phone</td><td>(415) 863-8889</td></tr>
+        <tr><td>Website</td><td>www.excel-plumbing.com</td></tr>
+        <tr><td>Business</td><td>Luxury plumbing fixtures — supply &amp; showroom. Bathroom &amp; kitchen.</td></tr>
+        <tr><td>Balance Sheet Equity</td><td><strong>~$4,510,000</strong> (FY2025)</td></tr>
+        <tr><td>Day-to-Day Operations</td><td>Vanessa Tam (daughter) + Travis Tran (son-in-law). Operations continue uninterrupted.</td></tr>
+        <tr><td>ERP / Systems</td><td>Epicor Eclipse (primary record) + QuickBooks Online Plus (payroll &amp; bank rec)</td></tr>
+        <tr><td>Building</td><td>Owned by Ken via 659 SVN LLC — leases to business at $50,000/mo</td></tr>
+        <tr><td>Shareholder</td><td>Ken Tam (譚國偉) — sole shareholder</td></tr>
+      </table>
+
+      <h3 class="sub-h">FY2025 Financial Highlights</h3>
+      <table class="data-table">
+        <tr><th>Item</th><th>Value</th><th>Notes</th></tr>
+        <tr><td>Net Sales</td><td>$11.52M</td><td>+1.6% year-over-year</td></tr>
+        <tr><td>Gross Profit</td><td>$3.35M</td><td>29.0% margin</td></tr>
+        <tr><td>Operating Income</td><td class="neg">-$88,760</td><td>Partly from tariff inventory pre-stocking</td></tr>
+        <tr><td>Investment Income</td><td>$156,714</td><td>From Fidelity accounts</td></tr>
+        <tr><td>Net Income</td><td>$67,097</td><td>Positive overall</td></tr>
+        <tr><td>Cash &amp; Investments</td><td>$4.41M</td><td>98.8% of assets</td></tr>
+        <tr><td>Fidelity Reserve</td><td>$2.96M</td><td>Growing ~$150K/year passively</td></tr>
+        <tr><td>External Debt</td><td class="pos">$0</td><td>—</td></tr>
+        <tr><td>Current Ratio</td><td>8.4x</td><td>Very strong</td></tr>
+      </table>
+      <div class="alert alert-warn" style="margin-top:1rem;">⚠️ Excel Fidelity accounts (~$3.88M) are <strong>already included</strong> in the $4.51M equity above. Do NOT add separately to net worth — that would be double-counting.</div>
+    </div>
+
+  </div><!-- end tab-container -->
+</div>
+
+<!-- SECTION 3: WHAT TO DO -->
+<div style="background:#162032;">
+<div class="section" id="what-to-do" style="max-width:960px;margin:0 auto;">
+  <div class="section-header" style="border-left-color:var(--gold);">
+    <div class="section-num" style="color:var(--gold);">Section 3 · 行動指南</div>
+    <h2 style="color:#e8e0d0;">What To Do — 逐步行動指南 · 按此順序執行</h2>
+  </div>
+  <div class="alert alert-sacred" style="margin-bottom:1.5rem;"><strong>Important:</strong> Do not rush any financial decisions. The assets are stable and well-structured. Take time to grieve first, then follow these steps in order.</div>
+  <div class="steps" style="color:#c0cce0;">
+    <ol>
+      <li><strong style="color:var(--gold-light);">Call the estate attorney immediately</strong><br>Douglas Chan handles probate, trust administration, and asset transfer. This is the first call for all US estate matters. Contact in Who To Call section.</li>
+      <li><strong style="color:var(--gold-light);">Notify Win (Financial Advisor)</strong><br>Win has the complete financial picture, history, and strategy. Access via Ken's MaxClaw system (#win-finance).</li>
+      <li><strong style="color:var(--gold-light);">Notify the business team — Vanessa + Travis</strong><br>Excel Plumbing is managed by Vanessa and Travis. Operations should continue without disruption.</li>
+      <li><strong style="color:var(--gold-light);">Locate the physical documents</strong><br>See Documents section. Key items: Will &amp; trust documents, property deeds, account numbers (in 1Password), insurance policies, safe deposit box at Wells Fargo West Portal, paper gold at CMB Wing Lung Bank HK.</li>
+      <li><strong style="color:var(--gold-light);">Do not sell the HK portfolio without Win's guidance</strong><br>The Hong Kong investments carry family history going back three generations. This is the fulfillment of your great-grandfather's promise.</li>
+      <li><strong style="color:var(--gold-light);">Confirm Fidelity IRA beneficiary designations</strong><br>IRA accounts have named beneficiaries that override the will. Contact Fidelity directly.</li>
+      <li><strong style="color:var(--gold-light);">照顧好媽媽 · Take care of Mom</strong><br>Mabel Tak Ching Chu (朱德貞) is the priority above everything else.</li>
+      <li><strong style="color:var(--gold-light);">A Note on Professionals</strong><br>The attorneys, accountants, and solicitors listed here are the professionals I used. They may not be available when you need them — hire people you trust personally. US attorney + CPA are US-only. For HK, if YK Lau &amp; Chu is gone, they will have referred files to a successor solicitor.</li>
+    </ol>
+  </div>
+</div>
+</div>
+
+<!-- SECTION 4: WHO TO CALL -->
+<div class="section" id="who-to-call">
+  <div class="section-header">
+    <div class="section-num">Section 4 · 重要聯絡人</div>
+    <h2>Who To Call</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card" style="border-top-color:var(--gold);">
+      <div class="role">Financial Advisor</div>
+      <div class="name">Win Financial Advisor</div>
+      <div class="details">Access via Ken's MaxClaw system (#win-finance)<br>Has complete financial picture, history, and strategy.<br><em>First call for all portfolio &amp; financial questions.</em></div>
+    </div>
+    <div class="contact-card">
+      <div class="role">US Estate Attorney (Trust &amp; Estate)</div>
+      <div class="name">Douglas Chan</div>
+      <div class="details">Tel: 415-999-0136<br>Email: dchanlaw@gmail.com<br>Handles probate, trust administration, asset transfer.</div>
+    </div>
+    <div class="contact-card">
+      <div class="role">Accountant / CPA</div>
+      <div class="name">Cathy Cheung, CPA</div>
+      <div class="details">Mobile: 415-577-6556<br>Home: 415-681-0613<br>Other: 415-564-0696<br>Email: cathycheung32@gmail.com<br>Annual tax, business accounts, estate tax.</div>
+    </div>
+    <div class="contact-card">
+      <div class="role">Business — Operations Lead</div>
+      <div class="name">Vanessa Tam 譚穎珊</div>
+      <div class="details">Email: vanessa@excel-plumbing.com<br>Tel: (415) 830-1995<br>Ken's daughter. Runs Excel Plumbing day-to-day.</div>
+    </div>
+    <div class="contact-card">
+      <div class="role">Business — Operations Co-Lead</div>
+      <div class="name">Travis Tran</div>
+      <div class="details">Email: travis@excel-plumbing.com<br>Tel: (415) 671-9388<br>Vanessa's husband. Finance &amp; systems.</div>
+    </div>
+    <div class="contact-card">
+      <div class="role">Business — Accounting / Operations</div>
+      <div class="name">Mabel Tak Ching Chu 朱德貞</div>
+      <div class="details">Email: accounting@excel-plumbing.com<br>Tel: (415) 218-2368<br>Ken's wife. Daily bookkeeping, payroll, deposits.</div>
+    </div>
+    <div class="contact-card">
+      <div class="role">HK Solicitors 香港律師事務所</div>
+      <div class="name">YK Lau and Chu Solicitors<br>劉玉娟朱律師事務所</div>
+      <div class="details">19 Des Voeux Road, Unit 1501-B<br>Central, Hong Kong<br>Solicitor: Noeline Lau<br>Tel: 852-2509-1108<br>Email: noeline@YKLAU.COM<br><em>If firm closes, they will refer files to a successor solicitor.</em></div>
+    </div>
+    <div class="contact-card">
+      <div class="role">Insurance</div>
+      <div class="name">[Ken to fill in]</div>
+      <div class="details">Life insurance agent. Policy numbers stored in safe deposit box.</div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 5: DOCUMENTS -->
+<div style="background:#f0ece4;">
+<div class="section" id="documents">
+  <div class="section-header">
+    <div class="section-num">Section 5 · 文件位置</div>
+    <h2>Where Documents Are — 重要文件存放位置</h2>
+  </div>
+  <div class="alert alert-info" style="margin-bottom:1.5rem;">No account numbers are displayed on this page. All account numbers, passwords, and credentials are stored in Ken's <strong>1Password vault</strong> and/or physical <strong>safe deposit box</strong>.</div>
+  <div class="doc-item">
+    <h4>⚖️ Will &amp; Trust Documents 遺囑及信託</h4>
+    <p>Location: Attorney's office (original) + physical copy in safe deposit box [Ken to fill in location]<br>Contact attorney before taking any financial action.</p>
+  </div>
+  <div class="doc-item">
+    <h4>🏠 Property Deeds &amp; Titles 物業契約</h4>
+    <ul>
+      <li>SF properties: San Francisco County Recorder (public record, searchable online)</li>
+      <li>Physical copies at [Ken to fill in]</li>
+      <li>HK flat: 香港土地查冊 Hong Kong Land Registry (available online at landregistry.gov.hk)</li>
+    </ul>
+  </div>
+  <div class="doc-item">
+    <h4>💰 Account Numbers &amp; Credentials 帳戶號碼</h4>
+    <ul>
+      <li>All credentials stored in <strong>1Password</strong> (1password.com)</li>
+      <li>1Password master password: stored in the <strong>home safe</strong> AND the <strong>safe deposit box at Wells Fargo Bank — West Portal Branch</strong></li>
+      <li>US accounts (Fidelity, Wells Fargo, etc.) and HK accounts (Futu, ZA Bank, CMB Wing Lung, Hang Seng, Ant Bank): access via 1Password vault</li>
+    </ul>
+  </div>
+  <div class="doc-item">
+    <h4>🥇 Paper Gold 紙黃金 — 21 tael</h4>
+    <ul>
+      <li>Held at <strong>CMB Wing Lung Bank (招商永隆銀行)</strong>, Hong Kong</li>
+      <li>This is paper gold (account-based) — NOT physical bars</li>
+      <li>HSBC shares also held in securities brokerage account at same bank</li>
+      <li>Bring original ID + estate documents when claiming</li>
+    </ul>
+  </div>
+  <div class="doc-item">
+    <h4>📋 Business Records — Excel Plumbing</h4>
+    <ul>
+      <li>ERP: Epicor Eclipse (primary financial record)</li>
+      <li>QuickBooks Online Plus (payroll + bank reconciliation)</li>
+      <li>Contact: Vanessa or Travis for daily system; Cathy Cheung for annual tax returns</li>
+    </ul>
+  </div>
+  <div class="doc-item">
+    <h4>🛡️ Insurance Policies 保險單</h4>
+    <p>[Ken to fill in — policy numbers, insurance company name, agent name and contact]<br>Physical copies at safe deposit box / home safe.</p>
+  </div>
+  <div class="doc-item" style="border-top:3px solid var(
+--gold);">
+    <h4>🔑 Safe Deposit Box &amp; Home Safe</h4>
+    <ul>
+      <li><strong>Safe Deposit Box:</strong> Wells Fargo Bank, West Portal Branch, San Francisco<br>Contains: 1Password master password, important documents, insurance policies<br>Access requires valid ID + box key</li>
+      <li><strong>Home Safe:</strong> Also contains 1Password master password<br>Location: [Ken to fill in]</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<footer>
+  <div style="font-size:1.1rem;color:var(--gold-light);margin-bottom:.5rem;">譚氏傳承錄 · Tam Family Legacy</div>
+  <div>Ken &amp; Mabel Tam · San Francisco, California</div>
+  <div style="margin-top:.5rem;">Financial data maintained by <span>Win Financial Advisor</span> · Page design &amp; maintenance by <span>Jade 💚</span></div>
+  <div style="margin-top:.75rem;font-size:.78rem;opacity:.7;">Private &amp; Confidential — Family Access Only · Last Updated: March 2026</div>
+</footer>
+
+<script>
+function showTab(tabName, el) {
+  var panels = document.querySelectorAll('.tab-panel');
+  for (var i = 0; i < panels.length; i++) {
+    panels[i].style.display = 'none';
+  }
+  document.getElementById('panel-' + tabName).style.display = 'block';
+  var tabs = document.querySelectorAll('.tab-btn');
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].classList.remove('active');
+  }
+  el.classList.add('active');
+}
+</script>
+
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+<style>
+#minimax-floating-ball {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: #222222;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#minimax-floating-ball:hover {
+  transform: translateY(-2px);
+  background: #383838;
+}
+.minimax-ball-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.minimax-logo-wave {
+  
+  width: 20px;
+  height: 17px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17' viewBox='0 0 20 17' fill='none'%3E%3Cpath d='M20 12.3718L16.283 16.2413H12.2518V13.1614H9.17175V16.2413H7.00999V13.1613H3.92998V16.2413H0V4.00101L3.84145 0H20V12.3718Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.minimax-ball-text {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.minimax-close-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.minimax-close-icon:hover {
+  opacity: 1;
+}
+</style>
+<div id="minimax-floating-ball">
+  <div class="minimax-ball-content">
+    <div class="minimax-logo-wave"></div>
+    <span class="minimax-ball-text">Created by MiniMax Agent</span>
+  </div>
+  <div class="minimax-close-icon">×</div>
+</div>
+<script>
+// Initialize floating ball functionality
+function initFloatingBall() {
+  const ball = document.getElementById('minimax-floating-ball');
+  if (!ball) return;
+
+  // Initial animation
+  ball.style.opacity = '0';
+  ball.style.transform = 'translateY(20px)';
+
+  setTimeout(() => {
+    ball.style.opacity = '1';
+    ball.style.transform = 'translateY(0)';
+  }, 500);
+
+  // Handle logo click
+  const ballContent = ball.querySelector('.minimax-ball-content');
+  ballContent.addEventListener('click', function (e) {
+    e.stopPropagation();
+    window.open('https://agent.minimax.io/', '_blank');
+    ball.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      ball.style.transform = 'scale(1)';
+    }, 100);
+  });
+
+  // Handle close button click
+  const closeIcon = ball.querySelector('.minimax-close-icon');
+  closeIcon.addEventListener('click', function (e) {
+    e.stopPropagation();
+    ball.style.opacity = '0';
+    ball.style.transform = 'translateY(20px)';
+
+    setTimeout(() => {
+      ball.style.display = 'none';
+    }, 300);
+  });
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', initFloatingBall); 
+</script>
+</body>
+</html>

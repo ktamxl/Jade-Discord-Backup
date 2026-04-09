@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where Mountains Hold Memory — The Tam Family Feng Shui Chronicle</title>
+<style>
+/* Web print button */
+.web-print-btn {
+  position: fixed; top: 18px; right: 24px; z-index: 9999;
+  padding: 10px 28px; background: #5a3e00; color: white;
+  font-size: 13pt; border: none; border-radius: 6px; cursor: pointer;
+  font-family: 'Noto Sans TC', sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.web-print-btn:hover { background: #7a5500; }
+@media print { .web-print-btn { display: none !important; } }
+@page {
+  size: A4;
+  margin: 2.4cm 1.9cm;
+  @top-center { content: string(doc_title); font-size: 8pt; color: #8b6914; }
+  @bottom-center { content: counter(page); font-size: 9pt; color: #8b6914; }
+}
+@page :first {
+  margin: 0;
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+@page cover {
+  margin: 0;
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Noto Serif TC", "Noto Serif CJK TC", "Noto Serif", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.85;
+  text-align: justify;
+  text-align-last: start;
+  color: #1c0f00;
+  background: #fff;
+}
+
+body { string-set: doc_title "Where Mountains Hold Memory — Tam Family Chronicle"; }
+
+pre, table, figure, img, svg, blockquote {
+  max-inline-size: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== COVER ===== */
+.cover-page {
+  page: cover;
+  inline-size: 210mm;
+  block-size: 297mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0d0800;
+  break-after: page;
+  overflow: hidden;
+  position: relative;
+}
+
+.cover-border {
+  position: absolute;
+  inset: 12mm;
+  border: 1.5pt double #8b6914;
+  pointer-events: none;
+}
+
+.cover-inner {
+  text-align: center;
+  padding: 0 25mm;
+  z-index: 1;
+}
+
+.cover-subtitle-top {
+  font-size: 8.5pt;
+  color: #9a7a40;
+  letter-spacing: 4pt;
+  text-transform: uppercase;
+  margin-bottom: 24pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt solid #5a4010;
+}
+
+.cover-ch-super {
+  font-size: 10pt;
+  color: #c8960c;
+  letter-spacing: 6pt;
+  margin-bottom: 14pt;
+}
+
+.cover-title {
+  font-size: 28pt;
+  font-weight: bold;
+  color: #f5e6b0;
+  line-height: 1.5;
+  margin-bottom: 10pt;
+  letter-spacing: 3pt;
+}
+
+.cover-divider {
+  color: #8b6914;
+  font-size: 16pt;
+  letter-spacing: 8pt;
+  margin: 16pt 0;
+}
+
+.cover-sub {
+  font-size: 10.5pt;
+  color: #b09050;
+  line-height: 1.9;
+  font-style: italic;
+  margin-bottom: 24pt;
+  max-width: 130mm;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover-details {
+  font-size: 8.5pt;
+  color: #7a5c1e;
+  line-height: 2.2;
+  border-top: 0.5pt solid #5a4010;
+  padding-top: 14pt;
+  margin-top: 10pt;
+}
+
+.cover-footer {
+  font-size: 7pt;
+  color: #5a4010;
+  margin-top: 26pt;
+  letter-spacing: 2pt;
+}
+
+/* ===== CHAPTER PAGES ===== */
+.chapter {
+  break-before: page;
+}
+
+.chapter-label {
+  display: block;
+  font-size: 8pt;
+  color: #c8960c;
+  letter-spacing: 4pt;
+  margin-bottom: 6pt;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #2a1000;
+  border-bottom: 2pt solid #c8960c;
+  padding-bottom: 10pt;
+  margin-bottom: 22pt;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 13pt;
+  font-weight: bold;
+  color: #4a2000;
+  margin: 22pt 0 10pt 0;
+  padding-left: 12pt;
+  border-left: 4pt solid #c8960c;
+}
+
+p {
+  margin-bottom: 11pt;
+  text-indent: 2em;
+}
+
+p.no-indent {
+  text-indent: 0;
+}
+
+.opening-verse {
+  font-size: 11.5pt;
+  font-style: italic;
+  color: #5a2800;
+  background: #fdf6e3;
+  border-left: 4pt solid #c8960c;
+  border-right: 4pt solid #c8960c;
+  padding: 16pt 24pt;
+  margin: 18pt 0;
+  line-height: 2.1;
+  text-align: center;
+  text-indent: 0;
+}
+
+.pullquote {
+  font-size: 11pt;
+  font-style: italic;
+  color: #4a2800;
+  background: #fdf6e3;
+  border-left: 4pt solid #c8960c;
+  padding: 14pt 20pt;
+  margin: 18pt 0 18pt 20pt;
+  line-height: 1.9;
+  text-indent: 0;
+  break-inside: avoid;
+}
+
+.person-block {
+  border: 1pt solid #d4b870;
+  border-radius: 3pt;
+  padding: 16pt 20pt;
+  margin: 20pt 0;
+  background: #fffdf5;
+  break-inside: avoid;
+}
+
+.person-name {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #2a1000;
+  margin-bottom: 4pt;
+}
+
+.person-vitals {
+  font-size: 8.5pt;
+  color: #7a5c1e;
+  margin-bottom: 12pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt dotted #d4b870;
+  line-height: 2;
+  text-indent: 0;
+}
+
+.divider {
+  text-align: center;
+  color: #c8960c;
+  font-size: 13pt;
+  margin: 22pt 0;
+  letter-spacing: 8pt;
+}
+
+.letter-section {
+  background: #fdf6e3;
+  border: 1pt solid #d4b870;
+  border-radius: 3pt;
+  padding: 22pt 26pt;
+  margin: 10pt 0;
+  line-height: 2.1;
+}
+
+.letter-section p {
+  text-indent: 2em;
+  margin-bottom: 12pt;
+}
+
+.poem-block {
+  text-align: center;
+  font-size: 13pt;
+  line-height: 2.4;
+  color: #3a1000;
+  margin: 24pt auto;
+  font-weight: bold;
+  letter-spacing: 2pt;
+  break-before: page;
+  break-inside: avoid;
+}
+
+.poem-block p {
+  text-indent: 0;
+  margin-bottom: 0;
+}
+
+.seal {
+  text-align: center;
+  font-size: 10pt;
+  color: #8b6914;
+  margin-top: 30pt;
+  letter-spacing: 2pt;
+  border-top: 0.5pt solid #d4b870;
+  padding-top: 14pt;
+}
+
+.person-name-en {
+  font-size: 9pt;
+  color: #8b6914;
+  font-style: italic;
+  margin-top: -2pt;
+  margin-bottom: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 0.5pt dotted #d4b870;
+}
+
+.couplet-block {
+  text-align: center;
+  margin: 28pt 0;
+  padding: 22pt 28pt 18pt;
+  border: 1pt solid #d4b870;
+  background: #fdf6e3;
+  border-radius: 3pt;
+  break-inside: avoid;
+}
+
+.couplet-heng {
+  font-size: 15pt;
+  font-weight: bold;
+  color: #2a1000;
+  letter-spacing: 8pt;
+  margin-bottom: 18pt;
+}
+
+
+.couplet-line {
+  font-size: 17pt;
+  font-weight: bold;
+  color: #2a1000;
+  letter-spacing: 5pt;
+  margin: 8pt 0;
+  line-height: 2;
+}
+
+.couplet-label {
+  font-size: 8pt;
+  color: #8b6914;
+  letter-spacing: 3pt;
+  margin-top: 4pt;
+  margin-bottom: 12pt;
+}
+
+.couplet-hi {
+  color: #c8960c;
+}
+
+.couplet-sep {
+  color: #d4b870;
+  margin: 8pt 0;
+  font-size: 12pt;
+  letter-spacing: 6pt;
+}
+
+.couplet-note {
+  font-size: 9.5pt;
+  color: #5a3000;
+  line-height: 1.95;
+  text-align: left;
+  margin-top: 14pt;
+  border-top: 0.5pt solid #d4b870;
+  padding-top: 12pt;
+  text-indent: 0;
+}
+
+.couplet-gen {
+  margin-top: 10pt;
+  font-size: 9.5pt;
+  color: #3a1800;
+  line-height: 2.1;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+<button class="web-print-btn" onclick="window.print()">🖨️ 列印</button>
+
+
+<!-- ===== COVER ===== -->
+<div class="cover-page">
+  <div class="cover-border"></div>
+  <div class="cover-inner">
+    <div class="cover-subtitle-top">Woodlawn Memorial Park &middot; Colma, California &middot; 2026</div>
+    <div class="cover-ch-super">丙 午 丁 癸 &#8231; 後 山 前 水</div>
+    <div class="cover-title">Where Mountains Hold Memory</div>
+    <div class="cover-divider">&diams; &bull; &diams;</div>
+    <div class="cover-sub">
+      The Tam Family Feng Shui and Destiny Chronicle<br>
+      ——Sitting 丁, Facing 癸 — where the breath of the earth carries the family line, and the stars guard the generations——<br>
+      <em>Only those who look with the heart will understand what lies within</em>
+    </div>
+    <div class="cover-details">
+      Auspicious Burial Date: March 30, 2026 &#8231; 癸亥日 &#8231; Hour of the Horse (午時)<br>
+      Orientation: Sitting 丁, Facing 癸 (South-southwest sitting, North-northeast facing)<br>
+      Landform: Hill behind, water before &#8231; Azure Dragon, White Tiger &#8231; Four Guardians in blessing<br>
+      Compiled by: Sisi &#8231; Spring 2026
+    </div>
+    <div class="cover-footer">This chronicle is offered with reverence to the descendants of the Tam family, in lasting remembrance</div>
+  </div>
+</div>
+
+<!-- ===== CHAPTER 1 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER ONE</span>
+  <h1>Where Heaven Meets Earth — The Spirit of This Colma Land</h1>
+
+  <div class="opening-verse">
+    "Mountains govern people; water governs wealth.<br>
+    Where mountain and water meet, blessings flow without end."<br>
+    — Ancient feng shui proverb
+  </div>
+
+  <p>Colma is a quiet city — so quiet it calls to mind what the ancient Chinese described as a neighbor to the realm of the departed. The living are few here; those who rest are counted in the millions. Yet a feng shui master standing on this ground would not furrow his brow. He would nod — for a city of the dead is not a land of ill fortune. Any place where people willingly lay their beloved to rest must possess some quality of gathering, of sheltering wind and cradling water.</p>
+
+  <p>Woodlawn Memorial Park sits at the heart of this city. Its grasses are lush and green, its back sheltered by a gentle slope that rises like the arch of a tortoise shell, its front graced by a reflecting pool where a fountain scatters sunlight into a thousand dancing points. The feng shui saying holds: "The hill behind is the support, called 玄武 (Black Tortoise); the water before is the mirror, called 朱雀 (Red Phoenix); the Azure Dragon 青龍 winds to the left, the White Tiger 白虎 reclines to the right." When all four guardians are in place, the land reveals itself as one of great and lasting power.</p>
+
+  <h2>玄武 Bows Its Head — The Tortoise Shoulders the Sky</h2>
+
+  <p>To speak of "玄武 bowing its head" is to say that the hill or slope rising behind the 穴位 (burial site) should incline gently downward, like a tortoise looking toward the earth — not arching proudly overhead in a way that might press down upon the 生氣 (vital breath) below. The gentle slope behind the Tam family plot does precisely this: it arches like an aged tortoise crouching at rest, soft in its grade, generous in its posture, silently offering the dense 氣 of deep soil to shelter those who sleep below. This is the ideal expression of 玄武 — nurturing without smothering, sustaining without deceiving.</p>
+
+  <p>Above the slope, trees grow thickly, their roots threading deep into the earth, filtering the breath of heaven and earth through layer after layer before delivering it quietly to the 穴位. The ancients said: "氣 scatters when met by wind; it stops when bounded by water." The trees of the hill behind are a natural windbreak, ensuring that the 生氣 does not drift away but pools and gathers — a reservoir of living energy sustaining what lies within.</p>
+
+  <h2>朱雀Takes Wing — The Water Before Mirrors the Sun</h2>
+
+  <p>The reflecting pool and fountain ahead, within the feng shui framework, fulfill the role of 朱雀. The Red Phoenix is not a specific bird but rather the quality of openness, of the bright and spacious明堂 (forecourt) before the 穴位 — the answering presence of water or terrain that grounds and enlivens the site. The fountain's water breaks into a thousand jewels of light beneath the open sky, radiant with an almost living exuberance.</p>
+
+  <p>Water governs wealth, and water governs feeling. The gentle movement of water ahead speaks of descendants whose financial currents will never run dry, whose emotional bonds will flow unbroken from generation to generation. The ancients chose burial sites where "mountains embrace and water enfolds" — the mountain's embrace is love; the water's encircling is abundance. This place holds both. It is, in the truest sense, where heaven has been generous.</p>
+
+  <h2>坐丁向癸 — The Elegant Union of Fire and Water</h2>
+
+  <p>Sitting 丁, facing 癸 is the central feng shui decision in this burial — the choice around which everything else turns. 丁 lies to the south-southwest, belonging to fire; 癸 lies to the north-northeast, belonging to water. To sit south and face north may seem unremarkable. Yet those four characters — 坐丁向癸 — hold within them an exceptionally deep meditation on the philosophy of yin and yang.</p>
+
+  <p>丁 fire is a soft fire, a tender fire — not the blazing noon heat of the midday sun, but the warmth of a candle flame, the gentle glow of a lantern. To sit upon 丁 is to rest the departed in quiet warmth: neither cold nor parched. 癸 water is yin water, the water of dew and gentle rain — not the surging force of 壬 water, great rivers and ocean swells, but the nourishing moisture of spring rainfall, of morning mist coaxing life from the soil. To face 癸 is to look toward living possibility — so that descendants, seen from the perspective of those who rest below, may be bathed in water's grace, their lives and endeavors growing ever lush.</p>
+
+  <p>丁 fire at the back, 癸 water at the face. Fire and water in mutual completion, neither clashing nor subduing — each fulfilling the other. This is the image of 既濟卦 (the hexagram of Completion, ䷾) — in the I Ching's sixty-four hexagrams, 既濟 is the symbol of perfect fulfillment: yin and yang each settled in their rightful place. To lay the root of a family to rest in this orientation is an act filled with the deepest meaning.</p>
+
+  <h2>The Hour of the Horse — An Auspicious Moment of Entry</h2>
+
+  <p>The hour of interment is set before noon in the 午時 (11:30 to 11:50 AM), when the sun has climbed to nearly its apex and 陽氣 (solar energy) is at its fullest without yet reaching its peak. Feng shui masters are most wary of burials after the stroke of noon, when the sun begins its descent and 陰氣 gradually gains ground. Choosing the hour just before noon — while 陽氣 is brimming and vital — allows the departed to enter the earth carried on the fullness of heaven's breath, so that this energy may sustain and shelter the generations to come.</p>
+
+  <p>The day chosen, 癸亥日, is itself auspicious. 癸 belongs to water; 亥 also belongs to water. Two waters in accord form a unified elemental current, pure and unimpeded. Aligned with the 癸 water facing of the burial orientation, the choice of 癸亥日 is like fitting the final piece into a great mosaic — heaven's timing, earth's setting, human intention: three forces converging, briefly and perfectly, on that morning.</p>
+</div>
+
+<!-- ===== CHAPTER 2 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER TWO</span>
+  <h1>The Conflict of North and South — The Wisdom of Separate Resting Places</h1>
+
+  <p>Before the arrangements for the Tam family's departed could be finalized, one difficult question of destiny had to be faced directly: the 子午沖 — the clash between Rat and Horse — between father and mother.</p>
+
+  <h2>子 and 午 in Collision — Understanding the Challenge</h2>
+
+  <p>The departed, 譚昻初, was born in 丙子年 — the year of the 子, the Rat, whose element is water and whose direction is due north. His wife, 方柳燕, was born in 壬午年 — the year of the 午, the Horse, whose element is fire and whose direction is due south. 子 and 午 stand directly opposite each other: one north, one south, face to face. Among the twelve earthly branches, this is the most direct of clashes — 子午沖, the collision of North and South.</p>
+
+  <p>In the language of destiny, a clash is not simply misfortune. It is an intense collision of opposing energies. When two fundamentally contrary forces meet, friction and tension are inevitable. In 陽宅 (a dwelling for the living), a husband and wife whose birth years clash may find themselves temperamentally at odds, perhaps perpetually negotiating their differences — yet these very opposites can complement each other in surprising ways. But in 陰宅 (a resting place for the departed), if such a couple were buried together in a single plot, the energies of 子 and 午 might conflict endlessly, disturbing the peace that the earth is meant to hold.</p>
+
+  <p>More profoundly: the purpose of 陰宅 feng shui is to allow the spiritual energy of the departed to settle — like water finding its sea, like fire returning to its hearth. Once that energy is restless, whatever radiates outward to touch the living descendants carries that restlessness within it, and the paths of the family's fortune are shadowed accordingly.</p>
+
+  <h2>Separate Plots — Transforming Clash into Harmony</h2>
+
+  <p>The ancients long ago found their answer to 子午沖: the wisest solution is to bury the husband and wife in adjacent but separate plots, allowing each energy field its own completeness, free from interference — yet at the larger scale of the landscape, they remain in each other's radiance.</p>
+
+  <p>譚昻初 is laid to rest in the left plot (the eastern position) — the place of 青龍, the Azure Dragon. 青龍 embodies vitality, forward movement, the assertive masculine breath. The right plot (the western position) is reserved for his wife — the place of 白虎, the White Tiger. 白虎 embodies protection, containment, the gentle gathering of the feminine. Left Azure Dragon, right White Tiger: one active, one still; one 陽, one 陰— precisely reflecting the natures of 子 and 午 themselves. 子 water is yin yet ever-moving (water flows without rest); 午 fire is yang yet steadfast (flame burns brilliantly but holds its place). Separate plots are not separation — they are the recognition that these two energies each have an ideal position within the larger feng shui composition, and in finding those positions, they achieve a genuine and lasting harmony.</p>
+
+  <h2>A Shared Headstone — The Connection That Transcends</h2>
+
+  <p>Once the plots were separated, another question arose: would sharing a single headstone rekindle the energy mingling and revive the clash of 子 and 午?</p>
+
+  <p>The answer is: it would not. A headstone stands above the surface of the earth and belongs to the realm of the living — a symbol of the emotional bond between those who remain and those who have gone. The 氣 field of the burial plot, by contrast, works beneath the surface, in the realm of 陰. The two exist in proximity but in different layers of energy; they do not interfere with one another.</p>
+
+  <p>A single shared headstone is, in fact, the most beautiful arrangement imaginable. It tells all who pass by that this husband and wife kept each other's company for decades in the world above and now rest side by side in the world below — each in their rightful place, each fulfilling their proper role. In form they are two; in spirit they are one. This is the most moving expression of the ancient Chinese philosophical truth: "The one is the many; the many is the one."</p>
+
+  <div class="pullquote">
+    "The way of heaven and earth is nothing other than the two breaths of yin and yang. When yin and yang each settle into their rightful place, ten thousand things find harmony naturally. Forced to merge against their nature, discord is certain to arise. The choice of separate plots is not born of a wish to divide — it is the highest wisdom of allowing yin and yang each to come home."
+  </div>
+</div>
+
+<!-- ===== CHAPTER 3 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER THREE</span>
+  <h1>The Mirror of Destiny — Six Lives and the Earth's Response</h1>
+
+  <p>The true power of feng shui lies not in the perfection of terrain alone, but in whether the 氣 field of that land resonates with the life-essence of the one entrusted to it — and through that person, radiates outward to touch each descendant who carries the same blood. 地氣 is a mirror: what it reflects is the underlying color of an entire family's fate. What follows is the story of six family members — their destinies as written in the stars — and how this land of 坐丁向癸 weaves, in its quiet and unhurried way, into the threads of their lives.</p>
+
+  <div class="person-block">
+    <div class="person-name">The Departed: 譚昻初 (Grandfather)</div>
+    <div class="person-name-en">Tam Ngong Chor &#8231; Generation Character: 定 (Stability)</div>
+    <div class="person-vitals">Born July 14, 1936 &#8231; 丙子年 (Fire Rat, 丙子火鼠) &#8231; Departed March 8, 2026</div>
+    <p class="no-indent">丙子 — the Fire Rat — is a life-chart that appears, on the surface, almost contradictory, yet conceals within it a remarkable depth. 丙 fire is like the sun: luminous and magnanimous, casting light in all directions without asking anything in return. 子 water is like an underground spring: deep, patient, quietly flowing even through the coldest winter. Those born under the Fire Rat tend to project warmth and openness to the world, while carrying inside them an inexhaustible current of life-force — a resilience that reveals itself most fully when circumstances are at their hardest.</p>
+    <p class="no-indent">The year 1936 found China caught between the tides of a turbulent history. Those born into such times learned early to find footing in the narrowest of crevices — and yet, with the natural radiance of 丙 fire, they never let hardship extinguish the warmth in their being. This generation carried the family dream across an ocean, on the strength of their own spines.</p>
+    <p class="no-indent">He rests now in the earth of 坐丁向癸, in the left plot — the place of 青龍. 丁 fire receives and continues 丙 fire, like one candle passed to another — the ancestor's flame has not gone out. It has become the earth's own warmth, burning softly in the depths of the soil, holding every descendant who carries his blood. The 子 water of his birth year flows into the 癸 water of the burial's facing orientation, completing a natural cycle of water energy — so that the spiritual field of the departed remains in motion, never stagnant. Whether he chose this land, or the land chose him, the belonging is real.</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">Mother: 方柳燕</div>
+    <div class="person-name-en">Fong Lau Yin</div>
+    <div class="person-vitals">Born April 26, 1942 &#8231; 壬午年 (Water Horse, 壬午水馬)</div>
+    <p class="no-indent">壬午 — the Water Horse — is among the most free-spirited and untameable souls in the twelve signs. 壬 water is like a great river: vast, unhurried, untroubled by the small and particular. 午 fire is like the height of summer: passionate, radiant, brimming with the momentum of life. Those born under the Water Horse often carry both the breadth of vision that 壬 water bestows and the fierce, warm drive of 午 fire — they are natural pathfinders, and in any family, they tend to be the irreplaceable pillar of the spirit.</p>
+    <p class="no-indent">Women born in 壬午 years often carry a quality of independence that seems to belong to no single era. They do not easily submit; they do not drift with the crowd. And yet when gentleness is called for, they support the whole household in ways that need no words. The late spring of 1942 was one of the most grueling years of the resistance war — those born then arrived already carrying, in their very nature, the gene of blooming in adversity.</p>
+    <p class="no-indent">Her plot is reserved on the right, the place of 白虎. In feng shui, 白虎 represents protection and gathering — the force that holds the family's wealth and substance from flowing away. She who galloped so freely through life will find, when that time comes, a resting place already quietly waiting. Her 壬 water will merge with the 癸 water of the burial's facing; her 午 fire will be softened by 丁's gentle warmth — from strength, returning to stillness; from open galloping, returning to grounded calm. This is the final transformation of a life, and the most luminous of departures.</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">Son: 譚國偉</div>
+    <div class="person-name-en">Ken Tam &#8231; Generation Character: 榮 (Flourishing)</div>
+    <div class="person-vitals">Born June 26, 1963 &#8231; 癸卯年 (Water Rabbit, 癸卯水兔)</div>
+    <p class="no-indent">癸卯 — the Water Rabbit — is like spring rain falling on young bamboo: 癸 water is delicate and feeling-full; 卯 wood is vigorous and alive with growing energy. Water nourishes wood, and the two together generate a quiet, self-renewing inner drive. Those born under the Water Rabbit tend to possess unusual intuition and emotional attunement, a gift for sensing the unspoken in human relationships, and in their endeavors, the patient, rain-like quality of yielding where hardness cannot — achieving lasting results through endurance rather than force.</p>
+    <p class="no-indent">Those born in 癸卯 years carry an especially deep feeling for roots. They do not forget where they came from; they remember the road that brought them here. In Ken, this quality is expressed in its fullest form — a son who would arrange his father's burial with such devotion and such searching care is the most living embodiment of the Water Rabbit truth: water nourishes wood, and wood never forgets the gift of water.</p>
+    <p class="no-indent">In this land of 坐丁向癸, the 癸 water facing creates a resonance — what destiny-readers call a "parallel drawing" — between the earth's field and Ken's own 癸卯 birth pillar. Like strings tuned to the same note, the ancestor's 癸 water 氣 will echo Ken's own, making the unseen channel between grandfather and grandson more sensitive, more alive. In the low valleys of his life, when he returns to this place and kneels quietly before the 癸亥 plot, the silent answering that rises is the truest form of protection.</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">Ken's Wife: 朱徳貞</div>
+    <div class="person-name-en">Mabel Chu</div>
+    <div class="person-vitals">Born December 20, 1961 &#8231; 辛丑年 (Metal Ox, 辛丑金牛)</div>
+    <p class="no-indent">辛丑 — the Metal Ox — is among the most grounded and unhurried of all life-charts. 辛 metal is like a refined blade: sharp, precise, and exact. 丑 earth is like the frozen ground at winter's end: seemingly unyielding, yet it is the great Mother who holds within her all the stored energy of the ten thousand things, waiting for spring. Those born under the Metal Ox are not drawn to show or spectacle. They value concrete results; they move with a "slow and steady" rhythm that tends, over time, to accumulate a depth that swifter souls cannot easily match.</p>
+    <p class="no-indent">辛 metal seated upon 丑 earth — earth gives birth to metal, and the land itself becomes the protector. This burial ground, sitting upon 丁 (a direction of earth energy), holds a natural affinity with the earth-metal combination of 辛丑 — 丁 fire produces earth (fire generates earth), earth then produces 辛 metal, forming an invisible chain of elemental nourishment, so that Mabel's life-chart grows steadier and more deeply rooted under the long care of the ancestor's 地氣.</p>
+    <p class="no-indent">Those born under Metal Ox are often the most quietly devoted guardians of a family. They do not announce themselves; they simply do not leave. Under the enduring care of the ancestor's earth energy, her 辛 metal quality will grow ever more refined — like a blade that time has polished to a deeper, inward luster: sharper in its stillness, warmer in its depth.</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">Elder Sister: 譚雪梅</div>
+    <div class="person-name-en">Jeannie Lee</div>
+    <div class="person-vitals">Born March 26, 1962 &#8231; 壬寅年 (Water Tiger, 壬寅水虎)</div>
+    <p class="no-indent">壬寅 — the Water Tiger — is perhaps the boldest and most magnificent combination in the entire twelve signs. 壬 water is like the Yellow River: thunderous, boundless, commanding a horizon without edges. 寅 wood is like the first crack of spring thunder: surging with life, pressing forward with irresistible force. Water feeds wood; 壬 water feeds 寅 wood, producing an upward drive so powerful it is nearly impossible to contain — the Water Tiger has the tiger's fearless charge and water's fluid adaptability, never bowing to hardship, never hesitating before opportunity.</p>
+    <p class="no-indent">The year 1962 was another turning point in a great era's upheaval; those born in 壬寅 carry in their very constitution a refusal to be broken — a tenacity that is itself one of the essential strands in the family's survival across the waves of history.</p>
+    <p class="no-indent">In this land of 坐丁向癸, the 癸 water facing (癸 being the gentler, yin expression of 壬 water) speaks to the 壬寅 life-chart with the quality of "a call from far away" — like a wanderer in a foreign country who, catching the scent of home, finds their heart going quiet without knowing why. In the moments of life when she most needs to draw on her reserves, the water 氣 of this land will flow like a quiet underground stream, replenishing the 壬 water in her chart, keeping the Water Tiger ever clear-eyed and strong.</p>
+  </div>
+
+  <div class="person-block">
+    <div class="person-name">Brother-in-law: 李傑榮</div>
+    <div class="person-name-en">Kit Lee</div>
+    <div class="person-vitals">Born July 21, 1954 &#8231; 甲午年 (Wood Horse, 甲午木馬)</div>
+    <p class="no-indent">甲午 — the Wood Horse — is a life-chart of tremendous ambition, carrying within it a deep and productive tension. 甲 wood is like the great forest tree: upright, aspiring, the most resolute of the ten heavenly stems in its drive to reach the sky. 午 fire is like midsummer's heat: passionate, generous, the earthly branch with the fullest yang energy. Wood feeds fire — 甲 wood sustains 午 fire — and the pattern it creates is one of "consuming oneself to illuminate others": a life poured out for family and purpose.</p>
+    <p class="no-indent">Those born under the Wood Horse tend to carry a fierce sense of duty — to family, to their work, to something larger than themselves. They give everything, often forgetting to keep reserves for their own renewal. This spirit is admirable; it is also a quality that needs the deep nourishment of a family's roots to sustain across a lifetime.</p>
+    <p class="no-indent">In this land of 坐丁向癸, the 丁 fire sitting orientation meets the 甲午 life-chart with what might be called "the meeting of warm fires" — 丁 fire is gentle and does not harm 甲 wood the way a fiercer flame might. Instead it lets the Wood Horse feel the warmth of the ancestors' support, not their heat. The 癸 water facing arrives like timely rain, nourishing the deep roots of 甲 wood, so that this great tree, through the turning years, remains full-leafed and green.</p>
+  </div>
+
+  <div class="divider">&diams; &bull; &diams;</div>
+
+  <p>Six destinies, each with its own color, its own road. And yet, on this land of 坐丁向癸, their life energies — like six streams — all find their way toward the same sea. The ancestor's 地氣 is that sea; the descendants' life-charts are those six streams. Where stream and sea converge, that is where feng shui finds its deepest meaning.</p>
+</div>
+
+<!-- ===== CHAPTER 4 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER FOUR</span>
+  <h1>Lessons from Emperors — On the Limits of Feng Shui</h1>
+
+  <div class="opening-verse">
+    "There is no such thing as a free lunch."<br>
+    — An eternal truth, and feng shui is no exception.
+  </div>
+
+  <p>In Chinese history, the art of feng shui was once treated as a state secret. The imperial court maintained the 欽天監 — the Bureau of Astronomy and Geography — whose officers devoted themselves entirely to the study of 堪輿, ensuring that the feng shui arrangements of the imperial tombs were beyond reproach. And yet history, turning through its great cycles of rise and fall, tells us again and again: feng shui is a tool, not a miracle. It can help a person weather a low tide; it cannot arrest the corruption of a human heart. It can seize the right moment; it cannot replace wisdom and virtue.</p>
+
+  <h2>The Changling of Emperor Gaozu — Four Hundred Years of Han, and What Feng Shui Could and Could Not Do</h2>
+
+  <p>The founder of the Han dynasty, Emperor Gaozu Liu Bang, rests at Changling on the Xianyang plateau, a site backed by the Jiujun Mountains, fronted by the Wei River, with the Jing River sweeping in from the left as the Azure Dragon and the Qi River flanking from the right as the White Tiger — all four guardian presences assembled in perfect formation. To find this plot, the great strategist Zhang Liang and the feng shui masters of early Han spent years traveling the length of the Guanzhong plain, until they discovered here what they recognized as a true "imperial穴位" — mountain and water embracing in a full circle of 氣, shaped like a lotus cradling the sun.</p>
+
+  <p>The Han Empire endured for four hundred years — one of the longest continuous dynasties in Chinese history. Yet even this most celebrated of feng shui configurations could not prevent Wang Mang's usurpation, could not shore up the weakened Eastern Han, could not stop the Yellow Turban uprising, the fracturing of the Three Kingdoms, the final dissolution of empire. The feng shui of Changling gave the Han a magnificent beginning. It could not stand in for the wisdom of each generation of emperors who came after.</p>
+
+  <p>Feng shui can assist fortune; it cannot manufacture destiny. That is the first lesson Changling offers those who come later.</p>
+
+  <h2>The Zhaoling of Emperor Taizong — The Great Khan's Choice and Its Shadows</h2>
+
+  <p>Tang Taizong, Li Shimin, was perhaps the greatest emperor in Chinese history. His mausoleum, the Zhaoling, was hewn into the summit of Jiuzong Mountain — the mountain itself becoming the tomb, inaugurating an entirely new style of Tang imperial burial. Jiuzong Mountain is immense and muscular, its ridges rising like a dragon ascending through cloud; Zhaoling holds its peak, gazing down over the Guanzhong plain, with eight hundred li of the Wei River valley laid out in unbroken view below.</p>
+
+  <p>And yet in his later years, Tang Taizong fell into another trap that feng shui cannot prevent: he consumed extraordinary national resources to build this monument to his own eternity, while neglecting to cultivate the successors who would carry the dynasty forward. The feng shui of Zhaoling sustained the Tang's great age, but it could not prevent the rise of Wu Zetian, could not hold back the catastrophe of the An-Shi Rebellion. After its height of glory, the empire began its long and irreversible descent.</p>
+
+  <p>Every gain entails a corresponding loss — that is Zhaoling's lesson for those who come after. However supreme the feng shui, if the balance of governance is lost, the mountains and rivers remain while the dynasty grows old.</p>
+
+  <h2>The Xiaoling of Zhu Yuanzhang — Two Hundred and Seventy-Six Years of Ming</h2>
+
+  <p>The tomb of the Ming dynasty's founder, Emperor Taizu Zhu Yuanzhang, rests on the southern face of Purple Mountain (Zijin Shan) outside Nanjing. Purple Mountain, known in antiquity as Bell Mountain, is shaped like a coiled dragon; the Xiaoling sits at the dragon's southern base, backed by the dragon's head, facing the open plain ahead, with flanking ridges embracing it like a jade sash. The 欽天監 devoted more than twenty years to choosing this site, calling on hundreds of thousands of laborers — the result was a burial complex that later generations would call "the crown of Ming and Qing imperial tombs."</p>
+
+  <p>The feng shui of Xiaoling did indeed shelter the Great Ming for two hundred and seventy-six years. Yet Zhu Yuanzhang himself, in his last years, massacred the very founding ministers of his dynasty — believing this would clear the way for the Zhu family's eternal dominance. Instead, he had eliminated the capable and the loyal, leaving a dynasty with no one left to sustain it. Two centuries on, the last Ming emperor, Chongzhen, ended the dynasty in a moment of solitary grief. It was not bad feng shui that brought the Ming down — it was institutional rot and a people's shattered trust.</p>
+
+  <p>Feng shui can protect the mountains and rivers. It cannot protect the human heart. That is Xiaoling's heaviest lesson.</p>
+
+  <h2>Feng Shui's True Place — A Tool, Not a God</h2>
+
+  <p>Three emperors, three stories, one conclusion: feng shui is among the most exquisite tools the natural world offers us. It helps human beings achieve the best possible resonance with the 氣 field of their environment, making good fortune more likely to arrive and difficulty easier to pass through. But it is finally just a tool — like a fine blade in a cook's hands. The better the blade, the more the cook's skill can be expressed; but however fine the blade, if the cook is careless, no great meal will emerge.</p>
+
+  <p>For the Tam family, this land of 坐丁向癸 is that finest blade. It can give support in the low valleys of a descendant's life; it can help the family recognize and seize what opportunity brings; it can provide the invisible emotional bond when the family needs its coherence most. But it cannot replace Ken's devoted heart, cannot substitute for the daily choices each descendant makes — to live carefully, to treat others with kindness, to build a life of quiet worth.</p>
+
+  <p>There is no such thing as a free lunch. Good feng shui is a gift — but a gift that requires effort, wisdom, and virtue to fully unfold. One part feng shui, seven parts human endeavor, two parts timing, one part heaven's will — so the ancients said, and so it remains true today.</p>
+</div>
+
+<!-- ===== CHAPTER 5 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER FIVE</span>
+  <h1>The Philosophy of the I Ching — Between Life, Death, and the Flow of Yin and Yang</h1>
+
+  <p>The I Ching says: "The alternation of yin and yang is called the Way." Life and death are the greatest yin and yang in all the universe. The living dwell in yang; the departed dwell in yin. And yet within yin there is yang, and within yang there is yin — death is not an ending but a transformation of energy, as water becomes cloud, cloud becomes rain, and rain returns again to earth.</p>
+
+  <h2>既濟卦 — The Philosophy of Completion</h2>
+
+  <p>坐丁向癸 corresponds to 既濟卦 (the hexagram of Completion, ䷾) in the I Ching — water above (坎), fire below (離), water and fire in mutual fulfillment, each in its proper place. Among the sixty-four hexagrams, 既濟 is the only one in which all six lines occupy their correct positions. Its name means "the crossing is complete" — it is the symbol of perfect fulfillment.</p>
+
+  <p>And yet the I Ching's deeper teaching is this: after 既濟 comes 未濟卦 (the hexagram of Before Completion, ䷿) — fire above, water below, the two reversed, returning to a new beginning. After completion comes a new cycle; after ending comes a new start. The departure of an ancestor is one life's 既濟; the growth of descendants is the next generation's 未濟. Generation following generation, breath following breath — this is the very essence of the Way.</p>
+
+  <h2>How the Living and the Ancestors Respond to One Another</h2>
+
+  <p>The 彖辭 of the I Ching's 坤卦 (Earth hexagram) says: "Profound is the primal power of Earth — all things draw from it their being." The earth is the mother of all living things, and the storehouse of life's energy. When an ancestor is laid to rest in the earth, their spiritual field does not disperse — it merges with the 地氣 and continues, in a broader and more encompassing way, to touch the lives of those who carry the same blood.</p>
+
+  <p>This influence is not superstition. It is a form of resonance. Chinese medicine calls it "like energies seeking one another"; physics calls it "resonant frequency"; feng shui calls it 氣場感應. Different languages, the same underlying truth. Descendants and ancestors share a blood line, carry similar genetic codes, and at the invisible level form a natural energetic bond.</p>
+
+  <p>Yet this resonance is not automatic. It requires the "wholehearted attention" of the living to bring it alive. Wholehearted attention means: returning regularly to offer reverence, speaking to the ancestors with sincerity; coming to sit quietly on this land at the significant moments of life, feeling the movement of 地氣; passing the stories of those who came before to the generation that comes after, so that memory becomes the bridge across which the current flows.</p>
+
+  <p>The deeper the attention, the more alive the response. This is not mysticism. This is the physics of love.</p>
+
+  <h2>The Balance of Destiny Within 坐丁向癸</h2>
+
+  <p>In the I Ching, 丁 fire corresponds to the soft line of 離 hexagram — the fire of civilization, the light of wisdom. 癸 water corresponds to the core line of 坎 hexagram — the strength of yang at the heart of the deep. 丁 fire at the back (the sitting position) means the ancestor illuminates with the light of wisdom; 癸 water at the face (the facing position) means descendants flow forward into the wider world with the adaptability of water.</p>
+
+  <p>This is the ideal form of protection: the ancestor shines from behind; the descendant flows forward. Luminance does not block the current; the current does not extinguish the light. Each fulfills the other — together composing the truest image of what it means for the mountains and rivers to hold memory and care.</p>
+</div>
+
+<!-- ===== CHAPTER 6 ===== -->
+<div class="chapter">
+  <span class="chapter-label">CHAPTER SIX</span>
+  <h1>A Letter to Those Who Come After</h1>
+
+  <div class="letter-section">
+    <p>To all who bear the Tam name and those who have come to love this family:</p>
+
+    <p>That you are reading these words is already something remarkable. Not because this letter was difficult to find — but because the world is so loud, and to sit quietly with a document about ancestors and the living earth is itself a rare and particular quality. The very attention you bring to this moment is the beginning of your connection with those who came before you.</p>
+
+    <p>Your grandfather — a Fire Rat of 丙子年 — departed this world quietly in the March chill of 2026, and came to rest in that land of Colma where the hill rises behind and water flows ahead. The place is not grand or bustling. There are only the low voices of trees and the soft song of a fountain. But that quietness is where everything he accumulated across a life has finally come home to rest.</p>
+
+    <p>We chose well for him. 坐丁向癸, Azure Dragon and White Tiger, four guardians standing in their places. We have also reserved the plot beside him for your grandmother — so that in another realm, they continue side by side. 子 and 午, left and right, clashing without wounding, separated without severed. This is the last thing we of this generation could do for them. It was done with all the care we had.</p>
+
+    <p>But what I want to tell you is this: feng shui is what we can give — yet it is not what matters most. What matters most is whether you remember his name. Whether you know something of what he lived through. Whether, on some Sunday evening at the dinner table, you let the story of him fall naturally into the conversation, a sentence or two, for your children to carry forward.</p>
+
+    <p>There is no such thing as a free lunch. This is not a warning — it is an invitation. An invitation to take your life seriously; to understand that behind every beautiful thing, someone once gave quietly and without fanfare. The good feng shui of that land is heaven's generosity; but how much it can offer you depends on how much sincerity you bring when you come, and how carefully you live your days.</p>
+
+    <p>Good feng shui is like a good teacher. A good teacher can show you the road. But a teacher cannot walk your road for you.</p>
+
+    <p>I hope you will return often. Not for any other reason — only to sit for a while among the green grass and the quiet wind, and feel what it is to know: before you, someone prepared the road; after you, someone will walk on what you have prepared. That is what family means. That is feng shui's deepest secret. And it is the most ordinary and the most luminous poem that life ever writes.</p>
+
+    <p style="text-align: right; text-indent: 0;">With care and reverence,<br>Sisi<br>Spring 2026, Colma</p>
+  </div>
+
+  <div class="divider">&diams;</div>
+
+  <div class="couplet-block">
+    <div class="couplet-heng">【 譚氏宗風 】</div>
+    <div class="couplet-label">橫批 · Horizontal Plaque · "The Tam Family Spirit"</div>
+    <div class="couplet-sep">&#10086;</div>
+    <div class="couplet-line">右聯：言永啟其瑞</div>
+    <div class="couplet-label">"Words and teachings shall forever open the doors of blessing"</div>
+    <div class="couplet-line">左聯：澤遠<span class="couplet-hi">定</span><span class="couplet-hi">榮</span><span class="couplet-hi">昌</span></div>
+    <div class="couplet-label">"Grace reaches far — through 定 (stability), to 榮 (flourishing), to 昌 (prosperity)"</div>
+    <div class="couplet-note">
+      <p style="margin-bottom:6pt; text-indent:0;">This couplet has been handed down through the generations as the Tam family's ancestral spirit. The horizontal plaque 譚氏宗風 names the root from which all flows. The right line, 言永啟其瑞, speaks of how the words and living example of the ancestors will forever open the gates of auspiciousness for those who come after. The left line, 澤遠定榮昌, speaks of how the grace of the ancestors reaches far — sheltering and blessing descendants across generations without end.</p>
+      <div class="couplet-gen">
+        <strong>Within the left line, three generation characters are concealed — one character, one generation, in the order of heaven and earth:</strong><br>
+        &#8231; <span class="couplet-hi"><strong>定</strong></span> (Stability) — The generation character of grandfather <strong>譚昻初</strong> (Tam Ngong Chor), who grounded the family with steadiness, a mountain that never moved<br>
+        &#8231; <span class="couplet-hi"><strong>榮</strong></span> (Flourishing) — The generation character of <strong>譚國偉</strong> (Ken Tam), who carries the line forward, honoring the family name with his flourishing<br>
+        &#8231; <span class="couplet-hi"><strong>昌</strong></span> (Prosperity) — The generation character of grandson <strong>譚詠昌</strong> (Preston Tam), who continues the lineage, sustaining the family spirit into its abundant future
+      </div>
+    </div>
+  </div>
+
+  <div class="poem-block">
+    <p>Mountains and rivers, all alive with feeling,</p>
+    <p>Hill behind, water before — guarding the family name.</p>
+    <p>坐丁 facing 癸, yin and yang in their place,</p>
+    <p>Azure Dragon and White Tiger, standing clear on each side.</p>
+    <p>&nbsp;</p>
+    <p>Though North and South conflict, each rests where it belongs,</p>
+    <p>Husband and wife, side by side beneath a single stone.</p>
+    <p>If descendants should ask: where do our roots lie?</p>
+    <p>Look to the spring grass, year after year, in Colma.</p>
+  </div>
+
+  <div class="seal">
+    Tam Family Feng Shui and Destiny Chronicle &nbsp;&bull;&nbsp; Spring 2026 &nbsp;&bull;&nbsp; Colma, California
+  </div>
+</div>
+
+
+<script>
+/**
+ * Iframe 元素高亮注入脚本
+ * 需要在目标网站中引入此脚本来支持跨域 iframe 高亮功能
+ *
+ * 使用方法：
+ * 1. 将此脚本添加到目标网站的 HTML 中
+ * 2. 或通过浏览器扩展、用户脚本等方式注入
+ */
+
+(function () {
+  "use strict";
+
+  // 检查是否在 iframe 中
+  if (window.self === window.top) {
+    return; // 不在 iframe 中，不执行
+  }
+
+  // 检查是否已经初始化过
+  if (window.__iframeHighlightInitialized) {
+    return;
+  }
+  window.__iframeHighlightInitialized = true;
+  console.log("Iframe 高亮脚本已加载");
+
+  // 创建高亮覆盖层
+  var overlay = document.createElement("div");
+  overlay.id = "iframe-highlight-overlay";
+  overlay.style.cssText = "\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    pointer-events: none;\n    z-index: 999999;\n    overflow: hidden;\n  ";
+
+  // 创建悬停高亮框（虚线边框）
+  var highlightBox = document.createElement("div");
+  highlightBox.id = "iframe-highlight-box";
+  highlightBox.style.cssText = "\n    position: absolute;\n    border: 2px dashed #007AFF;\n    background: rgba(0, 122, 255, 0.08);\n    pointer-events: none;\n    display: none;\n    transition: all 0.1s ease;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);\n    border-radius: 2px;\n  ";
+
+  // 创建选中节点的常驻高亮框（实线边框）
+  var selectedBox = document.createElement("div");
+  selectedBox.id = "iframe-selected-box";
+  selectedBox.style.cssText = "\n    position: absolute;\n    border: 2px solid #007AFF;\n    pointer-events: none;\n    display: none;\n    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 8px rgba(255, 107, 53, 0.4);\n    border-radius: 2px;\n    z-index: 1000000;\n  ";
+
+  // 创建悬停标签显示
+  var tagLabel = document.createElement("div");
+  tagLabel.id = "iframe-tag-label";
+  tagLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 2px 6px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 2px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000001;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n    font-weight: 500;\n  ";
+
+  // 创建选中节点标签
+  var selectedLabel = document.createElement("div");
+  selectedLabel.id = "iframe-selected-label";
+  selectedLabel.style.cssText = "\n    position: absolute;\n    background: #007AFF;\n    color: white;\n    padding: 3px 8px;\n    font-size: 11px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n    border-radius: 3px;\n    pointer-events: none;\n    display: none;\n    white-space: nowrap;\n    z-index: 1000002;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);\n    font-weight: 600;\n  ";
+  overlay.appendChild(highlightBox);
+  overlay.appendChild(selectedBox);
+  overlay.appendChild(tagLabel);
+  overlay.appendChild(selectedLabel);
+  document.body.appendChild(overlay);
+
+  // 存储当前选中的元素
+  var selectedElement = null;
+  var highlightEnabled = false;
+
+  // 更新选中元素的高亮显示
+  function updateSelectedHighlight(element) {
+    console.log("updateSelectedHighlight called with:", element);
+    if (!element) {
+      selectedBox.style.display = "none";
+      selectedLabel.style.display = "none";
+      selectedElement = null;
+      console.log("Cleared selected highlight");
+      return;
+    }
+    selectedElement = element;
+    var rect = element.getBoundingClientRect();
+    console.log("Selected element rect:", rect);
+
+    // 更新选中高亮框位置
+    selectedBox.style.display = "block";
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
+    selectedBox.style.top = "".concat(rect.top - 2, "px");
+    selectedBox.style.width = "".concat(rect.width + 4, "px");
+    selectedBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新选中标签位置和内容
+    selectedLabel.style.display = "block";
+    selectedLabel.textContent = "\u2713 <".concat(element.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 28;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 5) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    var labelWidth = selectedLabel.offsetWidth || 100; // 预估宽度
+    if (labelLeft + labelWidth > window.innerWidth - 10) {
+      labelLeft = window.innerWidth - labelWidth - 10;
+    }
+    selectedLabel.style.left = "".concat(Math.max(5, labelLeft), "px");
+    selectedLabel.style.top = "".concat(labelTop, "px");
+    console.log("Selected highlight positioned at:", {
+      left: selectedBox.style.left,
+      top: selectedBox.style.top,
+      width: selectedBox.style.width,
+      height: selectedBox.style.height
+    });
+  }
+  function getElementSelector(element) {
+    if (!(element instanceof Element)) throw new Error('Argument must be a DOM element');
+    var segments = [];
+    var current = element;
+    while (current !== document.documentElement) {
+      var selector = '';
+      // 优先检查唯一ID
+      if (current.id && document.querySelectorAll("#".concat(current.id)).length === 1) {
+        segments.unshift("#".concat(current.id));
+        break; // ID唯一，无需继续向上
+      }
+
+      // 生成类名选择器（取第一个有效类名）
+      var classes = Array.from(current.classList).filter(function (c) {
+        return !c.startsWith('js-');
+      });
+      var className = classes.length > 0 ? ".".concat(classes[0]) : '';
+
+      // 生成位置索引（nth-child）
+      var tag = current.tagName.toLowerCase();
+      if (!className) {
+        var siblings = Array.from(current.parentNode.children);
+        var index = siblings.findIndex(function (el) {
+          return el === current;
+        }) + 1;
+        selector = "".concat(tag, ":nth-child(").concat(index, ")");
+      } else {
+        selector = className;
+      }
+      segments.unshift(selector);
+      current = current.parentElement;
+    }
+
+    // 处理根元素
+    if (current === document.documentElement) {
+      segments.unshift('html');
+    }
+    return segments.join(' > ');
+  }
+
+  // 获取元素文本内容
+  function getElementText(element) {
+    var _element$textContent;
+    if (element.tagName === "INPUT") {
+      return element.value || element.placeholder || "";
+    }
+    if (element.tagName === "TEXTAREA") {
+      return element.value || element.placeholder || "";
+    }
+    var text = ((_element$textContent = element.textContent) === null || _element$textContent === void 0 ? void 0 : _element$textContent.trim()) || "";
+    return text.length > 50 ? text.substring(0, 50) + "..." : text;
+  }
+
+  // 获取元素属性信息
+  function getElementAttributes(element) {
+    var attrs = {};
+    for (var i = 0; i < element.attributes.length; i++) {
+      var attr = element.attributes[i];
+      attrs[attr.name] = attr.value;
+    }
+    return attrs;
+  }
+
+  // 鼠标悬停事件处理
+  function handleMouseOver(e) {
+    if (!highlightEnabled) return;
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免高亮 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 如果是已选中的元素，不显示悬停高亮
+    if (target === selectedElement) {
+      highlightBox.style.display = "none";
+      tagLabel.style.display = "none";
+      return;
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+
+    // 更新悬停高亮框位置
+    highlightBox.style.display = "block";
+    highlightBox.style.left = "".concat(rect.left - 2, "px");
+    highlightBox.style.top = "".concat(rect.top - 2, "px");
+    highlightBox.style.width = "".concat(rect.width + 4, "px");
+    highlightBox.style.height = "".concat(rect.height + 4, "px");
+
+    // 更新标签位置和内容
+    tagLabel.style.display = "block";
+    tagLabel.textContent = "<".concat(target.tagName.toLowerCase(), ">");
+
+    // 计算标签位置，确保不超出视窗
+    var labelTop = rect.top - 22;
+    var labelLeft = rect.left;
+
+    // 如果标签会超出顶部，显示在元素下方
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 5;
+    }
+
+    // 如果标签会超出右侧，向左调整
+    if (labelLeft + tagLabel.offsetWidth > window.innerWidth) {
+      labelLeft = window.innerWidth - tagLabel.offsetWidth - 5;
+    }
+    tagLabel.style.left = "".concat(Math.max(0, labelLeft), "px");
+    tagLabel.style.top = "".concat(labelTop, "px");
+
+    // 发送消息到父窗口
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 鼠标离开事件处理
+  function handleMouseOut(e) {
+    if (!highlightEnabled) return;
+    var relatedTarget = e.relatedTarget;
+
+    // 如果鼠标移动到高亮相关元素上，不隐藏高亮
+    if (relatedTarget && (relatedTarget === highlightBox || relatedTarget === tagLabel || relatedTarget === overlay || relatedTarget === selectedBox || relatedTarget === selectedLabel)) {
+      return;
+    }
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-hover",
+        data: null,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 点击事件处理
+  function handleClick(e) {
+    var target = e.target;
+    if (!target || target === overlay || target === highlightBox || target === tagLabel || target === selectedBox || target === selectedLabel) {
+      return;
+    }
+
+    // 避免处理 html 和 body 元素
+    if (target === document.documentElement || target === document.body) {
+      return;
+    }
+
+    // 检查是否是交互元素，这些元素需要保留默认行为
+    var isInteractiveElement = ['input', 'textarea', 'select', 'button', 'a'].includes(target.tagName.toLowerCase());
+
+    // 如果高亮功能启用，对于非交互元素阻止默认行为和事件传播
+    if (highlightEnabled) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    var rect = target.getBoundingClientRect();
+    var selector = getElementSelector(target);
+    var text = getElementText(target);
+    var attributes = getElementAttributes(target);
+    console.log("Element clicked:", {
+      tagName: target.tagName,
+      selector: selector,
+      rect: rect
+    });
+
+    // 立即更新选中高亮
+    updateSelectedHighlight(target);
+
+    // 隐藏悬停高亮，因为现在是选中状态
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    var elementInfo = {
+      tagName: target.tagName.toLowerCase(),
+      rect: {
+        left: rect.left,
+        top: rect.top,
+        right: rect.right,
+        bottom: rect.bottom,
+        width: rect.width,
+        height: rect.height,
+        x: rect.x,
+        y: rect.y
+      },
+      selector: selector,
+      text: text,
+      attributes: attributes,
+      url: window.location.href,
+      path: window.location.pathname,
+      timestamp: Date.now()
+    };
+    try {
+      window.parent.postMessage({
+        type: "iframe-element-click",
+        data: elementInfo,
+        source: "iframe-highlight-injector"
+      }, "*");
+    } catch (error) {
+      console.warn("无法发送消息到父窗口:", error);
+    }
+  }
+
+  // 监听来自父窗口的消息
+  function handleParentMessage(event) {
+    console.log("Received message from parent:", event.data);
+    if (event.data.type === "iframe-highlight-toggle") {
+      var enabled = event.data.enabled;
+      console.log("Highlight toggle:", enabled);
+      if (enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "enable-iframe-highlight") {
+      console.log("Enable iframe highlight");
+      enableHighlight();
+    } else if (event.data.type === "disable-iframe-highlight") {
+      console.log("Disable iframe highlight");
+      disableHighlight();
+    } else if (event.data.type === "toggle-iframe-highlight") {
+      var _enabled = event.data.enabled !== undefined ? event.data.enabled : !highlightEnabled;
+      console.log("Toggle iframe highlight to:", _enabled);
+      if (_enabled) {
+        enableHighlight();
+      } else {
+        disableHighlight();
+      }
+    } else if (event.data.type === "update-selected-element") {
+      var selector = event.data.selector;
+      console.log("Update selected element with selector:", selector);
+      if (selector) {
+        try {
+          var element = document.querySelector(selector);
+          console.log("Found element by selector:", element);
+          updateSelectedHighlight(element);
+        } catch (error) {
+          console.warn("Failed to select element:", error);
+          updateSelectedHighlight(null);
+        }
+      } else {
+        updateSelectedHighlight(null);
+      }
+    } else if (event.data.type === "clear-selected-element") {
+      console.log("Clear selected element");
+      updateSelectedHighlight(null);
+    }
+  }
+
+  // 启用高亮功能
+  function enableHighlight() {
+    console.log("Enabling highlight");
+    document.addEventListener("mouseover", handleMouseOver, true);
+    document.addEventListener("mouseout", handleMouseOut, true);
+    document.addEventListener("click", handleClick, true);
+    highlightEnabled = true;
+    overlay.style.display = "block";
+  }
+
+  // 禁用高亮功能
+  function disableHighlight() {
+    console.log("Disabling highlight");
+    highlightEnabled = false;
+    // 保持事件监听器，但通过 highlightEnabled 变量控制行为
+    // 这样可以保留选中状态的显示
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    // 不隐藏 selectedBox 和 selectedLabel，保留选中状态
+  }
+
+  // 完全禁用高亮功能（移除所有监听器）
+  function fullyDisableHighlight() {
+    console.log("Fully disabling highlight");
+    highlightEnabled = false;
+    document.removeEventListener("mouseover", handleMouseOver, true);
+    document.removeEventListener("mouseout", handleMouseOut, true);
+    document.removeEventListener("click", handleClick, true);
+    overlay.style.display = "none";
+    highlightBox.style.display = "none";
+    tagLabel.style.display = "none";
+    selectedBox.style.display = "none";
+    selectedLabel.style.display = "none";
+  }
+
+  // 添加事件监听
+  enableHighlight();
+  window.addEventListener("message", handleParentMessage);
+
+  // 暴露全局函数供外部调用
+  window.__iframeHighlightControl = {
+    enable: enableHighlight,
+    disable: disableHighlight,
+    fullyDisable: fullyDisableHighlight,
+    isEnabled: function isEnabled() {
+      return highlightEnabled;
+    },
+    getSelectedElement: function getSelectedElement() {
+      return selectedElement;
+    },
+    updateSelected: updateSelectedHighlight,
+    // 通过消息发送开关控制
+    sendToggleMessage: function sendToggleMessage(enabled) {
+      window.parent.postMessage({
+        type: 'iframe-highlight-status',
+        enabled: enabled || highlightEnabled,
+        source: 'iframe-highlight-injector'
+      }, '*');
+    }
+  };
+
+  // 通知父窗口脚本已加载
+  try {
+    window.parent.postMessage({
+      type: "iframe-highlight-ready",
+      data: {
+        url: window.location.href,
+        userAgent: navigator.userAgent,
+        timestamp: Date.now()
+      },
+      source: "iframe-highlight-injector"
+    }, "*");
+  } catch (error) {
+    console.warn("无法发送就绪消息到父窗口:", error);
+  }
+
+  // 清理函数
+  window.__iframeHighlightCleanup = function () {
+    fullyDisableHighlight();
+    window.removeEventListener("message", handleParentMessage);
+    if (overlay.parentElement) {
+      overlay.parentElement.removeChild(overlay);
+    }
+    delete window.__iframeHighlightInitialized;
+    delete window.__iframeHighlightCleanup;
+  };
+})();
+
+</script>
+</body>
+</html>

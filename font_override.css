@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "NotoSansCJK";
+  src: url("/workspace/NotoSansCJKtc-Regular.otf") format("opentype");
+}
+body, p, h1, h2, h3, h4, h5, h6, div, span, td, th, li {
+  font-family: "NotoSansCJK", sans-serif !important;
+}

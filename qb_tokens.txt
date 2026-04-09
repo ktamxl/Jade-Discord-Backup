@@ -1,0 +1,13 @@
+# QuickBooks OAuth Tokens — SisiBookkeeper
+# ⚠️ KEEP SECURE — DO NOT SHARE
+# Generated: 2026-03-16
+
+Realm ID (Company ID): 1399277115
+
+Access Token (expires in 1 hour — auto-refreshed):
+eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwieC5vcmciOiJIMCJ9..eDvVZ9_oA3tO4m6vXyE40A.u3N__7at7QcP8SBZTu_XSOaxdqLTa0dF-sRD7ZTRyHslm7hQkYRSASKUz6vKR-0BE2tJ9gLQ43kuozl-VMVQQiZeXzIWjt7l5ZFubnl_fEr-ROuHWjydCPep2JLOjaJIgYLDKQH7RmFqIcsbH4pV0RBjZGtuaDAWTP_clcaCI8Wb9G1iQeWuLXvOmb8MDuCuoKZn5gf0ICJvkLBKU5oYAhXQLGen12mTeX7UdtS7zn1zK_TqzjVHD7kNYEeNVlgmUvmBEBx1x3F2Jp53rMBQ2lIo745_YqZeE8GujVaId-v2h_uiO8VSIuPxbD7TJsDRkbtBB2MPy5GmfPk2eTiJoGpnqVcVfjYMJ1l9biK8x7vGzAZNcqxmIx_xuA30I7xJZsyjiDZlxamjGBDt0zskq8yGk05OE2xyGfhAMsODYqrezEVez44zyU0BV_porFhlbzmfjBwYKfnlvIDFoF3vjg.terSLJw_2QrkkV5fM8HwiQ
+
+Refresh Token (expires in ~101 days — must renew before expiry):
+RT1-152-H0-1782401515ncnzqe41nc41s1e76w1p
+
+Refresh Token Expiry: ~2026-06-25 (101 days from 2026-03-16)

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>譚國偉 運程報告 2026–2027</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+@page {
+  size: letter;
+  margin: 2.2cm 1.9cm 2.2cm 1.9cm;
+  @top-center { content: string(doc_title); font-family: serif; font-size: 9pt; color: #6b7280; }
+  @bottom-center { content: counter(page); font-family: serif; font-size: 9pt; color: #6b7280; }
+}
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+@page titlepage {
+  margin: 0;
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+body {
+  font-family: 'Noto Serif TC', 'Noto Sans CJK TC', 'Source Han Serif TC', serif;
+  font-size: 11pt;
+  line-height: 1.8;
+  color: #1f2937;
+  text-align: justify;
+  text-align-last: start;
+  string-set: doc_title "譚國偉 運程報告 2026–2027";
+}
+
+/* COVER */
+.cover-page {
+  page: titlepage;
+  inline-size: 215.9mm;
+  block-size: 279.4mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #f1f5f9;
+  break-after: page;
+  text-align: center;
+  padding: 3cm;
+}
+.cover-symbol { font-size: 52pt; margin-bottom: 1.2cm; color: #94a3b8; letter-spacing: 0.1em; }
+.cover-title { font-size: 26pt; font-weight: 700; line-height: 1.4; margin-bottom: 0.5cm; color: #f8fafc; }
+.cover-subtitle { font-size: 14pt; font-weight: 400; color: #94a3b8; margin-bottom: 1.8cm; }
+.cover-divider { width: 60mm; height: 1px; background: #475569; margin: 0 auto 1.8cm; }
+.cover-meta { font-size: 10pt; color: #64748b; line-height: 2; }
+.cover-meta strong { color: #cbd5e1; }
+.cover-footer { position: absolute; bottom: 2cm; font-size: 8.5pt; color: #334155; }
+
+/* BODY */
+h1 { font-size: 20pt; font-weight: 700; color: #0f172a; margin-top: 1.5em; margin-bottom: 0.4em; border-bottom: 2px solid #0f172a; padding-bottom: 0.2em; break-after: avoid; }
+h2 { font-size: 15pt; font-weight: 700; color: #1e3a5f; margin-top: 1.4em; margin-bottom: 0.3em; break-after: avoid; }
+h3 { font-size: 12.5pt; font-weight: 600; color: #374151; margin-top: 1.2em; margin-bottom: 0.2em; break-after: avoid; }
+
+p { margin: 0.5em 0 0.8em; }
+
+.lead { font-size: 12.5pt; color: #374151; line-height: 1.9; font-style: italic; border-left: 4px solid #1e3a5f; padding-left: 1em; margin: 1.2em 0; }
+
+/* BAZI TABLE */
+.bazi-table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 11pt; }
+.bazi-table th { background: #1e3a5f; color: #f8fafc; padding: 0.5em 0.8em; text-align: center; font-weight: 600; }
+.bazi-table td { border: 1px solid #d1d5db; padding: 0.5em 0.8em; text-align: center; }
+.bazi-table tr:nth-child(even) td { background: #f8fafc; }
+.bazi-table .stem { font-size: 16pt; font-weight: 700; color: #1e3a5f; }
+.bazi-table .branch { font-size: 16pt; font-weight: 700; color: #374151; }
+.bazi-table .element { font-size: 9pt; color: #6b7280; }
+
+/* YEAR SECTION */
+.year-section { border: 1.5px solid #1e3a5f; border-radius: 4px; margin: 1.5em 0; padding: 1em 1.2em; break-inside: avoid; }
+.year-header { display: flex; align-items: baseline; gap: 0.8em; margin-bottom: 0.6em; }
+.year-title { font-size: 16pt; font-weight: 700; color: #1e3a5f; }
+.year-subtitle { font-size: 10pt; color: #6b7280; }
+.year-ganzhi { font-size: 13pt; color: #374151; font-weight: 600; }
+
+/* ALERT BOXES */
+.box { margin: 1em 0; padding: 0.8em 1em; break-inside: avoid; }
+.box-warn { background: #fef2f2; border-left: 4px solid #dc2626; }
+.box-good { background: #f0fdf4; border-left: 4px solid #16a34a; }
+.box-note { background: #f0f9ff; border-left: 4px solid #0369a1; }
+.box-title { font-weight: 700; font-size: 10.5pt; margin-bottom: 0.3em; }
+
+/* SUMMARY TABLE */
+.summary-table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 10.5pt; }
+.summary-table th { background: #374151; color: #f8fafc; padding: 0.5em 0.7em; text-align: left; }
+.summary-table td { border: 1px solid #e5e7eb; padding: 0.45em 0.7em; vertical-align: top; }
+.summary-table tr:nth-child(even) td { background: #f9fafb; }
+.tag-warn { color: #dc2626; font-weight: 700; }
+.tag-good { color: #16a34a; font-weight: 700; }
+.tag-neutral { color: #6b7280; }
+
+/* MAXIMS */
+.maxim { text-align: center; font-size: 13pt; font-style: italic; color: #1e3a5f; margin: 1.5em 0; padding: 0.8em; border-top: 1px solid #d1d5db; border-bottom: 1px solid #d1d5db; }
+
+/* FOOTER SECTION */
+.closing { margin-top: 2em; padding-top: 1em; border-top: 2px solid #0f172a; font-size: 10pt; color: #6b7280; }
+
+pre, table, figure, img { max-inline-size: 100%; box-sizing: border-box; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="cover-page">
+  <div class="cover-symbol">庚 · 子</div>
+  <div class="cover-title">譚國偉 運程報告<br>2026–2027</div>
+  <div class="cover-subtitle">丙午年 · 丁未年<br>子平八字流年分析</div>
+  <div class="cover-divider"></div>
+  <div class="cover-meta">
+    <strong>八字命盤</strong><br>
+    癸卯年 · 戊午月 · 庚子日 · 庚辰時<br><br>
+    <strong>現走大運</strong><br>
+    壬子運（2020–2030）<br><br>
+    <strong>分析日期</strong><br>
+    2026年3月14日
+  </div>
+  <div class="cover-footer">此報告為個人命理參考，結合子平八字學理，謹供自我了解及規劃之用。</div>
+</section>
+
+<!-- SECTION 1: CONTEXT -->
+<h1>一、背景與命盤</h1>
+
+<p class="lead">「文火煉金，矮仔上樓梯，一步一步咁上。」<br>——鄺偉雄師傅論 Ken 之命</p>
+
+<p>Ken（譚國偉）日主庚金，生於午月（火旺之月）。庚金如未出礦的金石，非千錘百煉不成器。此命格一生走的是文火慢工之路——不是橫空出世的暴發，而是踏實積累、一步一步走出來的成就。</p>
+
+<h2>命盤四柱</h2>
+
+<table class="bazi-table">
+  <thead>
+    <tr><th>年柱</th><th>月柱</th><th>日柱（日主）</th><th>時柱</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="stem">癸</span></td>
+      <td><span class="stem">戊</span></td>
+      <td><span class="stem">庚</span></td>
+      <td><span class="stem">庚</span></td>
+    </tr>
+    <tr>
+      <td><span class="element">Water 陰</span></td>
+      <td><span class="element">Earth 陽</span></td>
+      <td><span class="element">Metal 陽 ★</span></td>
+      <td><span class="element">Metal 陽</span></td>
+    </tr>
+    <tr>
+      <td><span class="branch">卯</span></td>
+      <td><span class="branch">午</span></td>
+      <td><span class="branch">子</span></td>
+      <td><span class="branch">辰</span></td>
+    </tr>
+    <tr>
+      <td><span class="element">Wood</span></td>
+      <td><span class="element">Fire</span></td>
+      <td><span class="element">Water</span></td>
+      <td><span class="element">Earth(水)</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>命盤格局與用神</h2>
+<table class="summary-table">
+  <tr><th>項目</th><th>內容</th></tr>
+  <tr><td>格局</td><td>偏印格（戊土透月干，化七殺為印護）</td></tr>
+  <tr><td>日主強弱</td><td>中平偏弱（午月火旺剋金，但雙庚比肩互扶）</td></tr>
+  <tr><td>用神</td><td><strong>戊己土（偏正印）</strong>——護盾、學問、貴人</td></tr>
+  <tr><td>喜神</td><td><strong>壬癸水（食傷）</strong>——智慧、表達、創作輸出</td></tr>
+  <tr><td>忌神</td><td><strong>丙丁火（官殺）</strong>——壓力、挑戰、剋日主</td></tr>
+  <tr><td>現走大運</td><td>壬子運（57–67歲，2020–2030）食神旺運</td></tr>
+  <tr><td>大運特質</td><td>智慧表達期，適合創作、記錄、傳承、整理人生積累</td></tr>
+</table>
+
+<div class="box box-note">
+  <div class="box-title">大運壬子的核心意義</div>
+  壬水食神透干，配合命盤子辰半合水局，食傷五行達到一生最強。這十年是 Ken 輸出智慧、留下傳承的黃金期——整理家族歷史、建立人生記錄，正是壬子大運的命中注定。
+</div>
+
+
+<!-- SECTION 2: 2026 -->
+<h1>二、2026年 丙午年 流年分析</h1>
+<div class="year-section">
+  <div class="year-header">
+    <div class="year-title">丙午年</div>
+    <div class="year-ganzhi">Fire Horse · 火馬年</div>
+    <div class="year-subtitle">（正官透干，午火七殺當令）</div>
+  </div>
+</div>
+
+<h2>流年干支與命盤的互動</h2>
+<table class="summary-table">
+  <thead><tr><th>流年元素</th><th>對庚日主的角色</th><th>互動效應</th><th>性質</th></tr></thead>
+  <tbody>
+    <tr><td>天干 丙火</td><td>正官</td><td>剋日主庚金，帶來責任與規範</td><td><span class="tag-warn">需注意</span></td></tr>
+    <tr><td>地支 午火</td><td>七殺（地）</td><td>午午自刑（命盤月支已有午）</td><td><span class="tag-warn">重點防範</span></td></tr>
+    <tr><td>丙 vs 癸（年干）</td><td>—</td><td>丙癸相剋，祖先事、遺產事浮現</td><td><span class="tag-warn">需處理</span></td></tr>
+    <tr><td>午 vs 子（日支）</td><td>—</td><td>子午相沖，日支受沖，健康與家庭動盪</td><td><span class="tag-warn">重點防範</span></td></tr>
+    <tr><td>大運壬水</td><td>食神</td><td>食傷制殺，以智慧化解官殺壓力</td><td><span class="tag-good">有力護盾</span></td></tr>
+  </tbody>
+</table>
+
+<h2>重點解讀</h2>
+
+<h3>午午自刑——情緒與健康</h3>
+<p>命盤月支本已有午火，丙午流年再帶來一個午——午午自刑。自刑是一種「自我折磨」的能量，容易出現情緒波動、心緒不寧、甚至莫名的焦慮。這一年需要特別注意心臟、血壓、眼睛（火旺傷金、傷水）。</p>
+
+<h3>子午相沖——內心與家庭</h3>
+<p>日支子水（代表日主的根基、健康、配偶宮）被流年午火直接相沖。這是全年最需要警覺的格局。沖動日支，意味著內在有動盪，家庭事務需要更多耐心與溝通，健康方面要主動檢查，不能拖延。</p>
+
+<h3>官星當令——責任與文件</h3>
+<p>丙火正官透干，這一年會有較多正式事務需要處理：遺產、法律文件、產業安排、稅務申報等官方性質的事項。這是正常的官星效應，依法依規處理即可，不需要抗拒，更不宜拖延。</p>
+
+<div class="box box-good">
+  <div class="box-title">大運壬子的保護作用：食傷制殺</div>
+  丙午年的官殺壓力雖大，但大運壬水食神正當令——食傷制殺，即以智慧和創作化解官殺的衝擊。Ken 的核心優勢（偏印格的自悟力 + 食傷的表達力）在這一年是最有力的護身符。繼續做有意義的事，保持清醒，不與人正面鬥爭。
+</div>
+
+<h2>2026年 分領域建議</h2>
+<table class="summary-table">
+  <thead><tr><th>領域</th><th>趨勢</th><th>具體建議</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>健康</strong></td>
+      <td><span class="tag-warn">需主動關注</span></td>
+      <td>上半年定期體檢；心臟、血壓、眼睛為重點；避免過勞；情緒起伏時多休息，不要壓抑</td>
+    </tr>
+    <tr>
+      <td><strong>家庭</strong></td>
+      <td><span class="tag-warn">多溝通</span></td>
+      <td>子午沖動配偶宮，與Mabel多溝通，小事不要積壓；父親後事、家族事務要妥善安排</td>
+    </tr>
+    <tr>
+      <td><strong>財務</strong></td>
+      <td><span class="tag-neutral">平穩</span></td>
+      <td>官星年不宜冒進投資；保守穩健為主；遺產或家族資產事宜依法辦理</td>
+    </tr>
+    <tr>
+      <td><strong>事業/創作</strong></td>
+      <td><span class="tag-good">繼續前行</span></td>
+      <td>食傷旺，繼續整理家族歷史；此年完成父親入土後，心靈有更大空間沉澱與創作</td>
+    </tr>
+    <tr>
+      <td><strong>人際</strong></td>
+      <td><span class="tag-neutral">謹慎為主</span></td>
+      <td>官殺年容易有是非；避免正面衝突；與人交往多觀察，少表態；子卯刑出現，不必解釋太多</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="box box-warn">
+  <div class="box-title">2026年 重點防範月份</div>
+  <strong>農曆四月（丙辰月）、七月（己未月）、十月（壬戌月）</strong>需特別留神。逢沖逢刑之月，健康和家庭事項容易突發。提前安排好，不打無準備之戰。
+</div>
+
+
+<!-- SECTION 3: 2027 -->
+<h1>三、2027年 丁未年 流年分析</h1>
+<div class="year-section">
+  <div class="year-header">
+    <div class="year-title">丁未年</div>
+    <div class="year-ganzhi">Fire Goat · 火羊年</div>
+    <div class="year-subtitle">（七殺透干，未土藏印，財局初現）</div>
+  </div>
+</div>
+
+<h2>流年干支與命盤的互動</h2>
+<table class="summary-table">
+  <thead><tr><th>流年元素</th><th>對庚日主的角色</th><th>互動效應</th><th>性質</th></tr></thead>
+  <tbody>
+    <tr><td>天干 丁火</td><td>七殺</td><td>直剋庚金，壓力最強之年</td><td><span class="tag-warn">需注意</span></td></tr>
+    <tr><td>地支 未土</td><td>藏印（己土正印）</td><td>未中藏己土，印星護主；惟七殺亦藏其中</td><td><span class="tag-neutral">中性</span></td></tr>
+    <tr><td>未 vs 卯（年支）</td><td>—</td><td>卯未半合木局，財星匯聚</td><td><span class="tag-good">財運有利</span></td></tr>
+    <tr><td>未 vs 午（月支）</td><td>—</td><td>午未相害，月令受傷，事業貴人需小心</td><td><span class="tag-warn">需注意</span></td></tr>
+    <tr><td>大運壬水</td><td>食神</td><td>食傷制殺，繼續化解七殺衝擊</td><td><span class="tag-good">有力護盾</span></td></tr>
+  </tbody>
+</table>
+
+<h2>重點解讀</h2>
+
+<h3>丁火七殺——壓力中的成就</h3>
+<p>丁火為庚金的七殺，是命盤最強的剋力。這一年壓力比2026更直接，可能有較多挑戰、競爭或阻力出現。但子平八字有云：「殺旺身強，可任官殺；殺旺身弱，需印化殺。」Ken 的格局有戊土偏印護主，加上大運壬水食神制殺，七殺的壓力有出路，不至於壓垮。</p>
+<p>更重要的是：七殺年往往也是成就年——壓力逼出潛力，在困難中反而能做成平時做不到的事。</p>
+
+<h3>卯未半合木局——財運啟動</h3>
+<p>流年地支未土與命盤年支卯木，半合成木局。木為庚金之財（金剋木=財）。這是2026–2027兩年中，財運最明顯的一個格局。資產增值、投資回報、或有意外收穫的可能性較高。房產尤其有利（土木財）。</p>
+
+<h3>午未相害——貴人關係</h3>
+<p>月支午火被未土相害，月令（事業宮）受干擾，主事業上的貴人關係可能有變，合作夥伴或要依賴的人可能出現問題。需要提前鞏固重要關係，不要在最後一刻才發現問題。</p>
+
+<div class="box box-good">
+  <div class="box-title">2027年的機遇：以退為進，財中有機</div>
+  七殺年不宜硬碰硬，但卯未木財局是難得的財運格局。策略是：在壓力下保持冷靜，不與人正面衝突；同時留意財務和資產的機會，穩中求進。印星護主在，有學問和智慧作後盾，這一年最忌情緒化行事。
+</div>
+
+<h2>2027年 分領域建議</h2>
+<table class="summary-table">
+  <thead><tr><th>領域</th><th>趨勢</th><th>具體建議</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>健康</strong></td>
+      <td><span class="tag-warn">持續關注</span></td>
+      <td>七殺仍旺，心臟、呼吸系統留意；每年定期體檢不間斷；情緒管理比2026更重要</td>
+    </tr>
+    <tr>
+      <td><strong>家庭</strong></td>
+      <td><span class="tag-neutral">趨於穩定</span></td>
+      <td>2026子午沖後，2027相對平穩；繼續維護家庭溝通；母親健康需留意</td>
+    </tr>
+    <tr>
+      <td><strong>財務</strong></td>
+      <td><span class="tag-good">機會年</span></td>
+      <td>卯未木財局有利；房產、長線投資可考慮；注意不被七殺年的焦慮情緒影響財務判斷</td>
+    </tr>
+    <tr>
+      <td><strong>事業/創作</strong></td>
+      <td><span class="tag-good">持續輸出</span></td>
+      <td>壬子大運食傷仍旺；家族故事、人生記錄的整理工作繼續推進；這是傳承工程的關鍵兩年</td>
+    </tr>
+    <tr>
+      <td><strong>人際</strong></td>
+      <td><span class="tag-warn">貴人需鞏固</span></td>
+      <td>午未相害傷月令；與重要合作夥伴或長輩維持關係；七殺年是非多，多忍少爭</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- SECTION 4: SYNTHESIS -->
+<h1>四、兩年綜合策略</h1>
+
+<div class="maxim">「食傷制殺——以智慧應對壓力，以創作化解阻力。」</div>
+
+<p>2026–2027連續兩個火年（丙午、丁未），對庚金日主而言是挑戰的兩年。但 Ken 的命盤有一個獨特優勢：大運壬子的食神，正好是克制官殺的武器。食傷制殺，是八字格局中化解官殺最有力的方式。</p>
+
+<p>更重要的是：這兩年也是壬子大運的中段，食傷能量最飽滿的時期。<strong>挑戰與創作並行，壓力與傳承同在</strong>——這正是庚金命格的寫照。文火煉金，矮仔上樓梯。</p>
+
+<h2>兩年行動綱領</h2>
+<table class="summary-table">
+  <thead><tr><th>方向</th><th>行動</th><th>原因</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>健康</strong></td>
+      <td>每年兩次全面體檢；心臟、血壓為重點；早睡，不過勞</td>
+      <td>子午沖、午午刑、七殺旺——身體是最重要的本錢</td>
+    </tr>
+    <tr>
+      <td><strong>情緒</strong></td>
+      <td>修練冷靜；遇事緩三天再決定；少爭，多觀察</td>
+      <td>自刑年最忌情緒化，偏印格本有孤獨感，火旺更甚</td>
+    </tr>
+    <tr>
+      <td><strong>財務</strong></td>
+      <td>2026保守；2027可評估房產、長線機會</td>
+      <td>2026官星管財，2027卯未財局</td>
+    </tr>
+    <tr>
+      <td><strong>創作傳承</strong></td>
+      <td>持續整理家族歷史；以文字記錄人生智慧</td>
+      <td>壬子食神最旺期，此事命中注定</td>
+    </tr>
+    <tr>
+      <td><strong>人際</strong></td>
+      <td>避免正面衝突；多聆聽少表態；鞏固重要關係</td>
+      <td>官殺年是非多；子卯刑本已有格格不入之象</td>
+    </tr>
+    <tr>
+      <td><strong>靈性</strong></td>
+      <td>繼續風水、八字的研究與學習</td>
+      <td>印星用神——學問和沉澱是最好的護盾</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>鄺師傅的智慧，貫穿兩年</h2>
+<div class="box box-note">
+  <div class="box-title">文火煉金的哲學</div>
+  <p>「文火煉金」——不是烈焰急煉，是文火慢工。2026–2027的火，是考驗，也是鍛造。每一次壓力，都是庚金成器的機會。</p>
+  <p>「矮仔上樓梯，一步一步咁上」——不跳躍，不僥倖，踏實走好每一步。這兩年的挑戰，正是樓梯的下一級台階。</p>
+  <p style="margin-bottom:0;"><em>「I BECAME THE DREAM.」</em>——遠詒的夢，昻初的夢，在你身上成真了。這兩年，繼續走你的路。</p>
+</div>
+
+<!-- CLOSING -->
+<div class="closing">
+  <p><strong>命理說明：</strong>此報告基於子平八字學理，以師傅鄺偉雄版本四柱為準（癸卯·戊午·庚子·庚辰），結合流年干支與大運分析。八字為參考工具，最終命運在於個人的選擇與努力。「這世界沒有免費的午餐，要找尋答案要自己出手自己用功。」</p>
+  <p><strong>製作：</strong>詩詩（Sisi）· 2026年3月14日 · 為譚國偉 Ken Tam 而作</p>
+</div>
+
+</body>
+</html>

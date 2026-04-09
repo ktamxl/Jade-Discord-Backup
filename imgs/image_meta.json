@@ -2260,5 +2260,707 @@
       "recommend": true,
       "error": ""
     }
+  },
+  {
+    "query": "Rhino in African savanna",
+    "image_info": {
+      "url": "https://ik.imgkit.net/3vlqs5axxjf/TW/ik-seo/uploadedImages/Art/2024/0701/T0701NATHAB1_C_HR/New-Natural-Habitat-safari-includes-a-visit-with-t.jpg?n=3812&tr=w-780%2Ch-440%2Cfo-auto",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 107200,
+      "width": 780,
+      "height": 440,
+      "total_pixels": 343200,
+      "basic_score": 0.8098749933291334,
+      "file_name": "ol-pejeta-rhino-kenya-safari-encounter.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image is a perfect match for the search query and prompt. It captures a close-up encounter between a rhinoceros and tourists in safari vehicles at Ol Pejeta Conservancy. The clarity is excellent, and there are no digital watermarks, making it highly professional and usable.",
+      "file_name": "ol-pejeta-rhino-kenya-safari-encounter.jpg",
+      "caption": "A large white rhinoceros stands remarkably close to a green safari vehicle filled with tourists capturing photos, set against the vast African savanna of Ol Pejeta Conservancy in Kenya under a bright blue sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Rhino in African savanna",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/09/84/81.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 84024,
+      "width": 670,
+      "height": 446,
+      "total_pixels": 298820,
+      "basic_score": 0.7922956529745185,
+      "file_name": "ol-pejeta-rhino-kenya-safari.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It captures a rhinoceros in an African savanna setting with a safari vehicle and tourists, specifically identifiable as Ol Pejeta Conservancy. The image is clear, well-composed, and free of watermarks.",
+      "file_name": "ol-pejeta-rhino-kenya-safari.jpg",
+      "caption": "A rhinoceros grazes in the savanna of Ol Pejeta Conservancy in Kenya, while tourists watch from a safari vehicle.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Rhino in African savanna",
+    "image_info": {
+      "url": "https://www.asiliaafrica.com/wp-content/smush-webp/2025/05/asilia-africa-rhino-ol-pejeta-conservancy-kenya_1-800x800.jpg.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 58346,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.8945054076409896,
+      "file_name": "black-rhino-ol-pejeta-kenya-safari.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a high-quality, close-up shot of a black rhinoceros, which is a key species found at the Ol Pejeta Conservancy in Kenya. It perfectly matches both the search query and the prompt. The clarity of the skin texture and the horn is excellent.",
+      "file_name": "black-rhino-ol-pejeta-kenya-safari.jpg",
+      "caption": "A detailed close-up of a black rhinoceros in the savanna of Ol Pejeta Conservancy, Kenya, showcasing its distinctive horn and wrinkled skin textures against a grassy background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Rhino in African savanna",
+    "image_info": {
+      "url": "https://blog.expertafrica.com/app/uploads/2025/07/Ol-Pejeta-Najin-and-Fatu-Hi-Res-Credit-Will-Whitford_-1024x610.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 165771,
+      "width": 1024,
+      "height": 610,
+      "total_pixels": 624640,
+      "basic_score": 0.8918005897115452,
+      "file_name": "rhinos-ol-pejeta-kenya-safari.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting two rhinoceroses grazing in a savanna environment typical of Kenya's Ol Pejeta Conservancy. The image is clear, well-composed, and free of any watermarks.",
+      "file_name": "rhinos-ol-pejeta-kenya-safari.jpg",
+      "caption": "Two rhinoceroses grazing side-by-side in the grassy savanna of Ol Pejeta Conservancy, Kenya, under a vast, cloudy sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flamingos at Lake Nakuru Kenya pink lake",
+    "image_info": {
+      "url": "https://www.lakenakurukenya.com/wp-content/uploads/2022/05/Flamingos-in-Lake-Nakuru-National-Parksss.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 388070,
+      "width": 1600,
+      "height": 800,
+      "total_pixels": 1280000,
+      "basic_score": 0.9246309436748336,
+      "file_name": "flamingos-lake-nakuru-kenya.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a perfect match for the search query and prompt, showcasing a large flock of flamingos at what appears to be Lake Nakuru. The composition is excellent, capturing birds in flight with a shallow depth of field that highlights the action. There are no watermarks and the image quality is high.",
+      "file_name": "flamingos-lake-nakuru-kenya.jpg",
+      "caption": "A flock of vibrant pink flamingos taking flight and wading in the shallow, reflective waters of Lake Nakuru, Kenya.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flamingos at Lake Nakuru Kenya pink lake",
+    "image_info": {
+      "url": "https://afktravel.com/wp-content/uploads/2015/03/lake-nakuru-blue.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 182792,
+      "width": 1000,
+      "height": 635,
+      "total_pixels": 635000,
+      "basic_score": 0.8971958539604263,
+      "file_name": "lake-nakuru-kenya-pink-flamingos.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, showcasing a massive flock of pink flamingos at Lake Nakuru. The clarity is excellent, with sharp details on the birds in the foreground and a beautiful, vast composition. There are no watermarks.",
+      "file_name": "lake-nakuru-kenya-pink-flamingos.jpg",
+      "caption": "A vast colony of vibrant pink flamingos wading in the calm blue waters of Lake Nakuru National Park, Kenya, creating a stunning contrast against the horizon.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flamingos at Lake Nakuru Kenya pink lake",
+    "image_info": {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSdXiKaT_UNzlJ1145lLvfp_bDX_HZcRe6hwiJeQ-X_EJmnXtHovDJaNL_hYfpVvubpCvTT0vz1DrIg8J_yVPWzyHhYap1-Bqz8U9CLdb7qaIW94BCDQfKHTckblWbQKohwVp1e6QHqsBz/?imgmax=800",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 139119,
+      "width": 790,
+      "height": 526,
+      "total_pixels": 415540,
+      "basic_score": 0.8372288317628298,
+      "file_name": "lake-nakuru-kenya-pink-flamingos.jpg_ee"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a perfect match for the search query and prompt, showing a massive colony of pink flamingos which is the iconic sight of Lake Nakuru in Kenya. The clarity is good, although there is some atmospheric haze and the resolution isn't extremely high-definition. There are no watermarks.",
+      "file_name": "lake-nakuru-kenya-pink-flamingos.jpg",
+      "caption": "A dense colony of pink flamingos wading in the shallow waters of Lake Nakuru, Kenya, with a vast flock extending into the misty background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Flamingos at Lake Nakuru Kenya pink lake",
+    "image_info": {
+      "url": "https://www.thetravelmagazine.net/wp-content/uploads/Flamingos-on-Lake-Nakuru-Kenya-c-Yann-Arthus-Bertrand.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 177682,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.940470534397723,
+      "file_name": "lake-nakuru-kenya-flamingos-aerial-view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 65.0,
+      "watermark_score": 100.0,
+      "overall_score": 80.0,
+      "explanation": "The image perfectly matches the search query and prompt, showing a massive colony of flamingos at Lake Nakuru. The visual impact of the dense pink flock against the dark water is striking. However, the image suffers from significant noise and a lack of fine detail/clarity upon closer inspection.",
+      "file_name": "lake-nakuru-kenya-flamingos-aerial-view.jpg",
+      "caption": "An aerial view showing thousands of pink flamingos gathered in a dense flock on the dark waters of Lake Nakuru, Kenya, creating a vibrant pink blanket across the surface.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Nairobi Kenya city skyline",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/8f/05/54.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 111509,
+      "width": 720,
+      "height": 480,
+      "total_pixels": 345600,
+      "basic_score": 0.8117627950791805,
+      "file_name": "nairobi-kenya-city-skyline-at-night.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query and prompt, providing a clear and vibrant view of the Nairobi, Kenya cityscape at twilight. The composition is professional, and there are no watermarks. There is some minor digital noise in the sky, which is common for low-light photography, but it doesn't detract significantly from the quality.",
+      "file_name": "nairobi-kenya-city-skyline-at-night.jpg",
+      "caption": "A stunning wide-angle view of the Nairobi, Kenya city skyline at dusk, showcasing illuminated skyscrapers, city streets, and a dramatic blue hour sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Nairobi Kenya city skyline",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/2135031497/photo/aerial-view-of-nairobi-downtown-kenya.jpg?s=612x612&w=0&k=20&c=PBFJHBvmUhiSYYwcV6X3sU2hWT8LB1oPWLhn4intWiM=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 80958,
+      "width": 612,
+      "height": 459,
+      "total_pixels": 280908,
+      "basic_score": 0.7859548291184817,
+      "file_name": "nairobi-kenya-cityscape-skyline.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 90.0,
+      "overall_score": 90.0,
+      "explanation": "The image is an excellent representation of the Nairobi cityscape, capturing the dense urban skyline and key architectural features. The clarity is high, though a very small, unobtrusive watermark is present in the bottom-left corner. It perfectly matches the search query and prompt.",
+      "file_name": "nairobi-kenya-cityscape-skyline.jpg",
+      "caption": "A sprawling aerial view of the Nairobi, Kenya skyline, featuring a dense cluster of modern skyscrapers and office buildings in the Central Business District under a partly cloudy blue sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Nairobi Kenya city skyline",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/637912692/photo/nairobi-cityscape-capital-city-of-kenya.jpg?s=612x612&w=0&k=20&c=S8wPNq9om-IMcapXFC030ew28nhpYCFYBStX5yxCQbs=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 66361,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7722018735898369,
+      "file_name": "nairobi-kenya-skyline-cityscape.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 30.0,
+      "overall_score": 85.0,
+      "explanation": "The image is perfectly relevant to the search query, showcasing a comprehensive view of the Nairobi skyline with high clarity and professional composition. However, it contains a visible stock photo watermark in the bottom right corner which significantly lowers the watermark score.",
+      "file_name": "nairobi-kenya-skyline-cityscape.jpg",
+      "caption": "An elevated wide-angle view of the Nairobi, Kenya skyline during twilight, showcasing modern skyscrapers like the UAP Old Mutual Tower and Britam Tower, urban architecture, and city lights against a darkening blue sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Reticulated giraffe in African savanna northern Kenya",
+    "image_info": {
+      "url": "https://i.redd.it/reticulated-giraffes-in-the-samburu-national-forest-in-kenya-v0-36acmr2bx0uf1.png?width=1038&format=png&auto=webp&s=9b4d1d11000f36c27d40eee49c9270af78edd38c",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 2187506,
+      "width": 1038,
+      "height": 905,
+      "total_pixels": 939390,
+      "basic_score": 0.8575230112640463,
+      "file_name": "reticulated-giraffes-samburu-kenya-savanna.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a perfect match for the search query and prompt, featuring two reticulated giraffes in a landscape typical of Samburu, Kenya. The composition is excellent, showcasing the animals against a scenic mountainous backdrop. Clarity is good, with distinct patterns visible on the giraffes, though there is a slight lack of fine detail in the distant background.",
+      "file_name": "reticulated-giraffes-samburu-kenya-savanna.jpg",
+      "caption": "Two reticulated giraffes stand in the grassy savanna of northern Kenya with a large hill in the background under a clear sky.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Reticulated giraffe in African savanna northern Kenya",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/88/26/bd/a-baby-reticulated-giraffe.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 66300,
+      "width": 550,
+      "height": 367,
+      "total_pixels": 201850,
+      "basic_score": 0.7542327408087282,
+      "file_name": "reticulated-giraffe-samburu-kenya-safari.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query and prompt. It features a reticulated giraffe, easily identifiable by its sharp-edged, liver-colored spots separated by thin white lines, which is native to northern Kenya and the Samburu region. The composition is excellent, showing the animal in its natural savanna habitat with characteristic acacia trees and mountains in the distance.",
+      "file_name": "reticulated-giraffe-samburu-kenya-safari.jpg",
+      "caption": "A young reticulated giraffe standing in the arid savanna landscape of Samburu, Kenya, with flat-topped acacia trees and mountains in the background during a safari.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Reticulated giraffe in African savanna northern Kenya",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/df/be/9a/the-rare-and-beautiful.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 55760,
+      "width": 550,
+      "height": 413,
+      "total_pixels": 227150,
+      "basic_score": 0.7625447776775356,
+      "file_name": "reticulated-giraffe-samburu-kenya-savanna.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image is a perfect match for the search query and prompt, clearly featuring a reticulated giraffe in its natural habitat in northern Kenya (Samburu). The composition is excellent, showing the animal in full profile. While the resolution is adequate for web use, it lacks the extreme sharpness of high-end professional photography.",
+      "file_name": "reticulated-giraffe-samburu-kenya-savanna.jpg",
+      "caption": "A majestic reticulated giraffe stands in the arid savanna of Samburu, Kenya, showcasing its distinctive large, polygonal coat pattern against the scrubland landscape.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Reticulated giraffe in African savanna northern Kenya",
+    "image_info": {
+      "url": "https://preview.redd.it/reticulated-giraffes-in-the-samburu-national-forest-in-kenya-v0-83rkfrgax0uf1.jpg?width=1080&crop=smart&auto=webp&s=96a4ff7de290d0c802e413ab90966c4f04dca546",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 397483,
+      "width": 1080,
+      "height": 1440,
+      "total_pixels": 1555200,
+      "basic_score": 0.8527252401621429,
+      "file_name": "reticulated-giraffes-samburu-kenya-savanna.jpg_20"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a perfect match for the search query and prompt, depicting a group of reticulated giraffes in their natural habitat in northern Kenya. The characteristic polygon-shaped coat patterns are clearly visible. While the image has some digital noise and is not professional-grade sharpness, it is a high-quality, authentic representation of a safari sighting.",
+      "file_name": "reticulated-giraffes-samburu-kenya-savanna.jpg",
+      "caption": "A group of reticulated giraffes grazing near acacia trees in the arid savanna of northern Kenya, featuring their distinct geometric coat patterns.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Kenya safari lodge pool sunset",
+    "image_info": {
+      "url": "https://www.thesafaricollection.com/wp-content/uploads/2021/05/SASAAB-DOUBLE-TENTS.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 122539,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9291759291743077,
+      "file_name": "luxury-kenya-safari-lodge-private-pool.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to the search query, showcasing a luxury safari lodge aesthetic with a private plunge pool and a view of the savanna. While it doesn't feature a dramatic sunset, the warm lighting suggests golden hour, fitting the prompt well. The image is clear, well-composed, and free of watermarks.",
+      "file_name": "luxury-kenya-safari-lodge-private-pool.jpg",
+      "caption": "A luxurious safari lodge deck in Kenya featuring a private plunge pool, comfortable lounge chairs under a thatched roof, and a stunning view of the African savanna landscape.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Kenya safari lodge pool sunset",
+    "image_info": {
+      "url": "https://www.go2africa.com/wp-content/uploads/2017/05/Namiri-Plains_Banner-Image.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 220145,
+      "width": 1920,
+      "height": 768,
+      "total_pixels": 1474560,
+      "basic_score": 0.8323152890146155,
+      "file_name": "luxury-kenya-safari-lodge-tent-sunset.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 80.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image perfectly captures a luxury safari tent camp in a Kenyan savanna setting at dusk, matching the search query and the 'sunset' part of the prompt. However, it does not feature a swimming pool as requested in the prompt (only a small outdoor bathtub is visible), which slightly lowers the relevance score.",
+      "file_name": "luxury-kenya-safari-lodge-tent-sunset.jpg",
+      "caption": "A wide-angle shot of a luxurious, modern safari tent at a Kenyan lodge, illuminated from within against a purple twilight sky, featuring an open-air bedroom and an outdoor bathtub on a wooden deck.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Kenya safari lodge pool sunset",
+    "image_info": {
+      "url": "https://safarifrank.com/wp-content/uploads/2021/05/Kenya_Mobile_Expedition_Luxury_tents2.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 415986,
+      "width": 1800,
+      "height": 964,
+      "total_pixels": 1735200,
+      "basic_score": 0.8357250473982187,
+      "file_name": "luxury_kenya_safari_tent_interior_view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is an excellent match for the search query, showcasing a high-end luxury safari tent camp in a Kenyan-style savanna. However, it does not strictly follow the prompt as it lacks a swimming pool and a direct sunset view, though the lighting suggests late afternoon. The technical quality, composition, and clarity are outstanding.",
+      "file_name": "luxury_kenya_safari_tent_interior_view.jpg",
+      "caption": "A wide-angle interior view of a luxury safari tent in the Kenyan savanna, featuring elegant wooden furniture, a writing desk, and a comfortable bed looking out onto a vast grassland landscape with acacia trees.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Kenya safari lodge pool sunset",
+    "image_info": {
+      "url": "https://artofsafari.travel/wp-content/uploads/2017/11/Kenya_MasaiMaraTriangle_Cottars1920_FamilyTentView.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 235954,
+      "width": 2002,
+      "height": 800,
+      "total_pixels": 1601600,
+      "basic_score": 0.8027646345688935,
+      "file_name": "luxury-kenya-safari-tent-camp-sunset.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image is an excellent match for the search query, showcasing a high-end luxury safari tent camp with professional composition and lighting. However, it does not include a pool, which was specifically requested in the prompt. The golden hour lighting effectively captures a sunset atmosphere.",
+      "file_name": "luxury-kenya-safari-tent-camp-sunset.jpg",
+      "caption": "An interior view of a luxurious safari tent in Kenya during sunset, featuring elegant wooden rocking chairs, a four-poster bed with mosquito netting, and a panoramic view of the African savanna.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Beautiful African safari landscape with lions or wildlife on golden plains Masai Mara",
+    "image_info": {
+      "url": "https://iconicafricasafaris.com/wp-content/uploads/2025/06/Best-Places-to-See-Lions-in-the-Masai-Mara-1024x675.jpg?x59806",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 181070,
+      "width": 1024,
+      "height": 675,
+      "total_pixels": 691200,
+      "basic_score": 0.9097968788522832,
+      "file_name": "masai-mara-lion-cubs-safari-wildlife.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly captures a group of young lions in the Masai Mara, aligning exactly with the search query and prompt. The clarity is excellent, and there are no watermarks. It is a high-quality wildlife photograph suitable for professional safari-related content.",
+      "file_name": "masai-mara-lion-cubs-safari-wildlife.jpg",
+      "caption": "A group of young lions resting on a dirt mound amidst the expansive golden plains of the Masai Mara National Reserve.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Beautiful African safari landscape with lions or wildlife on golden plains Masai Mara",
+    "image_info": {
+      "url": "https://ellamckendrick.com/wp-content/uploads/2025/03/maasai-mara-kenya-p1011809-1024x769.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 184800,
+      "width": 1024,
+      "height": 769,
+      "total_pixels": 787456,
+      "basic_score": 0.9355307641277808,
+      "file_name": "masai-mara-male-lion-golden-plains-safari.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is a stunning, high-quality portrait of a male lion, perfectly matching the search query and prompt. The golden hour lighting beautifully illuminates the lion and the savanna grass, typical of the Masai Mara. The image is sharp with no watermarks, though it leans more towards a wildlife portrait than a wide-angle landscape.",
+      "file_name": "masai-mara-male-lion-golden-plains-safari.jpg",
+      "caption": "A majestic male lion with a thick mane rests in the golden grass of the Masai Mara National Reserve during a wildlife safari, captured in the warm light of the African savanna.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Beautiful African safari landscape with lions or wildlife on golden plains Masai Mara",
+    "image_info": {
+      "url": "https://www.serengetiparktanzania.com/wp-content/uploads/2021/01/mara-lions.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 169583,
+      "width": 697,
+      "height": 402,
+      "total_pixels": 280194,
+      "basic_score": 0.7963588008628402,
+      "file_name": "masai-mara-lions-wildlife-safari-cubs.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the search query and prompt, showcasing a pride of lions (two lionesses and four cubs) in a grassy savanna environment typical of the Masai Mara. The clarity is excellent, with sharp focus on the animals, and there are no visible watermarks.",
+      "file_name": "masai-mara-lions-wildlife-safari-cubs.jpg",
+      "caption": "Two lionesses lead four young cubs across the grassy plains of the Masai Mara during a wildlife safari in Africa.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Beautiful African safari landscape with lions or wildlife on golden plains Masai Mara",
+    "image_info": {
+      "url": "https://www.masaimara.travel/images/african-lions-masai-mara-kenya.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 141824,
+      "width": 1250,
+      "height": 700,
+      "total_pixels": 875000,
+      "basic_score": 0.9303824978164542,
+      "file_name": "male-lion-masai-mara-safari-landscape.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is a perfect match for the search query and prompt, featuring a majestic male lion in a classic African savanna setting. The composition is strong, with the lion as the clear focal point against a beautifully blurred background of the Masai Mara plains. There are no watermarks, and the clarity is high enough for professional web use.",
+      "file_name": "male-lion-masai-mara-safari-landscape.jpg",
+      "caption": "A majestic male lion with a full mane stands on the grassy golden plains of the Masai Mara under a clear blue sky, capturing the essence of an African wildlife safari.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Dublin Ireland cruise port Dun Laoghaire harbor",
+    "image_info": {
+      "url": "https://www.irishtimes.com/resizer/v2/GIN635YO7XCYSKKJQK2YKDWFOU.jpg?smart=true&auth=8374c47f855a129223f8e795acd9b691caea3124647c2d20729b85ca5a2725ca&width=1200&height=630",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 104097,
+      "width": 1200,
+      "height": 630,
+      "total_pixels": 756000,
+      "basic_score": 0.9070459850460114,
+      "file_name": "dun-laoghaire-dublin-cruise-port-harbor-rendering.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is a perfect match for the search query, showing a technical rendering of Dun Laoghaire harbor with a cruise ship to scale. It includes dimensions for the ship and harbor entrance, making it highly informative for planning or geographical context. While the resolution isn't ultra-high, it is clear and professional for its purpose.",
+      "file_name": "dun-laoghaire-dublin-cruise-port-harbor-rendering.jpg",
+      "caption": "An aerial digital rendering of Dun Laoghaire harbor in Dublin, Ireland, illustrating the scale of a large cruise ship within the port with technical measurement overlays.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Falmouth Cornwall England harbor waterfront",
+    "image_info": {
+      "url": "https://cdn.sanity.io/images/nxpteyfv/goguides/f6c1a64f29bd79272440da72142f9c90c87594fe-1600x1066.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 404192,
+      "width": 1600,
+      "height": 1066,
+      "total_pixels": 1705600,
+      "basic_score": 0.8475804386165305,
+      "file_name": "falmouth-cornwall-england-harbor-waterfront.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a high-quality, professional photograph of the waterfront in St Mawes, which is located directly across the harbor from Falmouth, Cornwall. It perfectly captures the essence of the search query with excellent clarity, vibrant colors, and no watermarks.",
+      "file_name": "falmouth-cornwall-england-harbor-waterfront.jpg",
+      "caption": "A bright and clear daytime view of the picturesque harbor and waterfront buildings in St Mawes, near Falmouth, Cornwall, featuring small boats moored in the blue water and classic coastal architecture.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Majestic Princess cruise ship at sea Princess",
+    "image_info": {
+      "url": "https://www.ship-technology.com/wp-content/uploads/sites/8/2017/12/Img-2-Majestic-Cruise.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 93785,
+      "width": 800,
+      "height": 600,
+      "total_pixels": 480000,
+      "basic_score": 0.851108090670507,
+      "file_name": "majestic-princess-cruise-ship-at-sea.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is a perfect match for the search query and prompt. It shows a high-quality, professional exterior view of the Majestic Princess cruise ship at sea, complete with the signature Princess Cruises hull art and branding. The lighting and composition are excellent.",
+      "file_name": "majestic-princess-cruise-ship-at-sea.jpg",
+      "caption": "A majestic view of the Majestic Princess cruise ship sailing on calm waters during sunset, featuring the iconic blue sea witch hull art and Princess Cruises branding.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Majestic Princess cruise ship at sea Princess",
+    "image_info": {
+      "url": "https://assets.princess.com/is/image/princesscruises/majestic-princess-exterior-sailing-by-coast?qlt=82&ts=1774987028653",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 225906,
+      "width": 1280,
+      "height": 855,
+      "total_pixels": 1094400,
+      "basic_score": 0.944951317056635,
+      "file_name": "majestic-princess-cruise-ship-at-sea.jpg_3d"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image is a perfect match for the search query and prompt. It shows the Majestic Princess cruise ship in high detail, at sea, with clear branding and excellent professional composition. There are no distracting watermarks.",
+      "file_name": "majestic-princess-cruise-ship-at-sea.jpg",
+      "caption": "A wide-angle aerial view of the Majestic Princess cruise ship from Princess Cruises sailing across a deep blue ocean under a bright, clear sky.",
+      "recommend": true,
+      "error": ""
+    }
   }
 ]

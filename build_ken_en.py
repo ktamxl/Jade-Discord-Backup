@@ -1,0 +1,270 @@
+
+import os, shutil
+
+f = open('/workspace/ken_bazi_web.html', 'w', encoding='utf-8')
+w = f.write
+
+# HEAD + CSS
+w("""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ken Tam Wing Wai - BaZi Destiny Report</title>
+<style>
+#printBtn{position:fixed;top:18px;right:22px;z-index:9999;background:#b45309;color:#fff;border:none;padding:10px 22px;font-size:14px;font-weight:700;border-radius:6px;cursor:pointer;font-family:Georgia,serif;}
+#printBtn:hover{background:#92400e;}@media print{#printBtn{display:none;}}
+*,*::before,*::after{box-sizing:border-box;}
+body{font-family:Georgia,serif;line-height:1.8;color:#1f2937;background:#fefce8;margin:0;padding:0;}
+.pw{max-width:860px;margin:0 auto;background:#fff;box-shadow:0 0 30px rgba(0,0,0,0.1);}
+.cover{background:#1c1410;color:#fef9ee;padding:80px 60px 70px;text-align:center;}
+.ci{font-size:52px;color:#d97706;margin-bottom:20px;}
+.cn{font-size:32px;font-weight:700;margin-bottom:6px;}
+.cc{font-size:18px;color:#d97706;margin-bottom:12px;letter-spacing:0.1em;}
+.ct{font-size:15px;color:#fde68a;font-style:italic;margin-bottom:28px;}
+.cl{width:80px;height:1px;background:#78350f;margin:0 auto 28px;}
+.cb{font-size:14px;color:#d97706;line-height:2.2;}
+.cb strong{color:#fef9ee;}
+.cn2{margin-top:40px;font-size:11px;color:#78350f;}
+.con{padding:48px 60px;}
+h1{font-size:22px;font-weight:700;color:#1c1410;border-bottom:2.5px solid #d97706;padding-bottom:8px;margin:48px 0 6px;}
+h1:first-of-type{margin-top:0;}
+h2{font-size:17px;font-weight:700;color:#292524;margin:28px 0 8px;}
+p{margin:8px 0 14px;}
+.zh{color:#92400e;font-size:13px;font-style:italic;display:block;margin:-4px 0 14px;}
+.lead{font-size:16px;font-style:italic;border-left:4px solid #d97706;padding-left:16px;margin:0 0 20px;color:#1c1410;line-height:1.8;}
+.pil{overflow-x:auto;margin:16px 0 24px;}
+.pt{width:100%;border-collapse:collapse;min-width:380px;}
+.pt th{background:#292524;color:#fef9ee;padding:10px 8px;text-align:center;font-size:13px;}
+.pt td{border:1px solid #e7e5e4;padding:12px 8px;text-align:center;}
+.st{font-size:32px;font-weight:700;color:#1c1410;line-height:1.1;}
+.st.g{color:#b45309;}
+.br{font-size:26px;font-weight:700;color:#374151;}
+.el{font-size:11px;color:#9ca3af;margin-top:4px;}
+.box{margin:16px 0;padding:16px 20px;border-radius:4px;}
+.b0{background:#fffbeb;border-left:4px solid #d97706;}
+.b1{background:#f0fdf4;border-left:4px solid #16a34a;}
+.b2{background:#fef2f2;border-left:4px solid #dc2626;}
+.b3{background:#fdf4ff;border-left:4px solid #9333ea;}
+.bt{font-weight:700;font-size:14px;margin-bottom:8px;}
+.dt{width:100%;border-collapse:collapse;margin:10px 0 18px;font-size:14px;}
+.dt th{background:#292524;color:#f9fafb;padding:8px 12px;text-align:left;font-size:13px;}
+.dt td{border:1px solid #e5e7eb;padding:8px 12px;vertical-align:top;}
+.dt tr:nth-child(even) td{background:#fffbeb;}
+.pos{color:#16a34a;font-weight:700;}
+.neg{color:#dc2626;font-weight:700;}
+.now{color:#d97706;font-weight:700;}
+.tl{display:flex;gap:16px;margin:10px 0;padding:10px 0;border-bottom:1px solid #f3f4f6;font-size:14px;}
+.ty{min-width:130px;font-weight:700;color:#374151;flex-shrink:0;}
+.tg{min-width:36px;color:#9ca3af;flex-shrink:0;}
+.td{flex:1;}
+.tn .ty{color:#d97706;}.tn .tg{color:#d97706;}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0;}
+.fc{padding:14px;border-radius:4px;font-size:13px;}
+.fcv{background:#fff7ed;border:1px solid #fed7aa;}
+.fcp{background:#eff6ff;border:1px solid #bfdbfe;}
+.fct{font-weight:700;margin-bottom:6px;}
+.quote{margin:24px 0;padding:20px 28px;border-top:1px solid #e7e5e4;border-bottom:1px solid #e7e5e4;font-style:italic;text-align:center;font-size:17px;color:#374151;}
+.clos{margin-top:40px;padding-top:20px;border-top:2px solid #292524;font-size:13px;color:#9ca3af;}
+@media print{
+@page{size:letter;margin:1.8cm 1.8cm 2cm;}
+body{background:#fff;font-size:10pt;}
+.pw{max-width:100%;box-shadow:none;}
+.con{padding:0 0 20pt;}
+.cover{padding:60pt 50pt;page-break-after:always;}
+h1{font-size:16pt;page-break-after:avoid;margin:30pt 0 5pt;}
+h2{font-size:13pt;page-break-after:avoid;}
+.lead{font-size:12pt;}
+.st{font-size:24pt;}.br{font-size:20pt;}
+.box,.tl,tr{page-break-inside:avoid;}
+.fgrid{grid-template-columns:1fr 1fr;}
+.dt,.tl{font-size:9pt;}
+.quote{font-size:13pt;}
+}
+</style></head><body>
+<button id="printBtn" onclick="window.print()">Print / Save PDF</button>
+<div class="pw">
+<div class="cover">
+<div class="ci">&#24218; &#9876;</div>
+<div class="cn">Ken Tam Wing Wai</div>
+<div class="cc">&#35885;&#22269;&#20182;</div>
+<div class="ct">Four Pillars of Destiny (BaZi)<br>A Complete Life Reading</div>
+<div class="cl"></div>
+<div class="cb">
+<strong>Born:</strong> June 26, 1963 &middot; 9:00 AM &middot; Hong Kong<br>
+Year &#30001;&#21345; | Month &#25098;&#21320; | Day &#24218;&#23376; | Hour &#24218;&#36791;<br><br>
+<strong>Day Master: &#24218;&#37329; Yang Metal &mdash; The Sword, The Ore</strong><br><br>
+Prepared by Sisi &middot; March 2026
+</div>
+<div class="cn2">Based on the Four Pillars of Destiny (BaZi), using the system of &#37040;&#20530;&#38596;&#24072;&#20064;.</div>
+</div>
+<div class="con">""")
+
+# SECTION 1: Day Master
+w("""<h1>Who You Are: The Day Master</h1>
+<span class="zh">&#26085;&#20027;&#24218;&#37329;&mdash;&mdash;&#38525;&#37329;&#65292;&#32862;&#37319;&#20013;&#30340;&#23453;&#21091;</span>
+<p class="lead">Your Day Master is &#24218;&#37329; (G&#275;ng J&#299;n) &mdash; Yang Metal. Not soft gold jewelry. Not loose coins. You are the ore in the mountain, and the sword being forged in fire.</p>
+<p>Yang Metal is the most principled, most unyielding of all Day Masters. It does not bend for social pressure. It does not pretend. When Yang Metal commits, it commits completely. And when it is refined by the right heat, it becomes something that can last a thousand years.</p>
+<div class="pil"><table class="pt"><thead><tr><th>Year &#24180;&#26609;</th><th>Month &#26376;&#26609;</th><th>Day &#26085;&#26609; &mdash; YOU</th><th>Hour &#26178;&#26609;</th></tr></thead><tbody>
+<tr><td><div class="st">&#30001;</div><div class="el">Yin Water</div></td><td><div class="st">&#25098;</div><div class="el">Yang Earth</div></td><td><div class="st g">&#24218;</div><div class="el">&#9733; Yang Metal</div></td><td><div class="st g">&#24218;</div><div class="el">Yang Metal</div></td></tr>
+<tr><td><div class="br">&#21345;</div><div class="el">Wood (Rabbit)</div></td><td><div class="br">&#21320;</div><div class="el">Fire (Horse)</div></td><td><div class="br">&#23376;</div><div class="el">Water (Rat)</div></td><td><div class="br">&#36791;</div><div class="el">Earth (Dragon)</div></td></tr>
+</tbody></table></div>
+<p>You were born in June, at the height of summer. Fire (&#21320; Horse month) forges your Metal. This is the essence of your entire life: <strong>the fire that surrounded you was never your enemy &mdash; it was what turned raw ore into a sword.</strong> Every difficulty you endured has been part of a refinement process most people never go through.</p>
+<div class="box b0"><div class="bt">Your Natural Strengths</div><table class="dt">
+<tr><td class="pos">Uncompromising principles</td><td>You don't bend for convenience. People who know you know your word is iron. This is genuinely rare.</td></tr>
+<tr><td class="pos">Self-directed learning</td><td>You taught yourself Chinese, accounting, cooking, business &mdash; understood why first, then discovered how. The hallmark of your chart, and the source of your deepest capability.</td></tr>
+<tr><td class="pos">Earned wisdom</td><td>"This world has no free lunch. If you want answers, you have to go find them yourself." That is your chart speaking through you.</td></tr>
+<tr><td class="pos">Deep loyalty</td><td>To family, to values, to the people who earned your trust. Metal remembers its bonds. You don't forget who stood by you.</td></tr>
+<tr><td class="pos">The long game</td><td>One step at a time. You were never meant to be an overnight success. You were built to be a legacy.</td></tr>
+</table></div>
+<div class="box b2"><div class="bt">Your Patterns to Watch</div><table class="dt">
+<tr><td class="neg">Inflexibility</td><td>The quality that makes you principled can make the sword too brittle. Even the finest blade needs to know when to yield.</td></tr>
+<tr><td class="neg">&#23376;&#21320;&#27846; internal tension</td><td>Day Branch (Water/stillness) and Month Branch (Fire/drive) in permanent opposition. A tension between security and ambition that never fully resolves &mdash; and is exactly what kept you moving.</td></tr>
+<tr><td class="neg">Hard exterior, hidden depth</td><td>You are far more feeling than most people see. The people who matter to you deserve to see a little more of that.</td></tr>
+</table></div>""")
+
+# SECTION 2: Chart Pattern
+w("""<h1>Your Chart Pattern</h1>
+<span class="zh">&#26684;&#23616;&mdash;&mdash;&#20559;&#21360;&#26684;&#65292;&#25991;&#28779;&#29436;&#37329;</span>
+<p class="lead">"Indirect Resource" pattern &mdash; the chart of the self-made person. The knowledge you carry was not handed to you. You went and got it yourself.</p>
+<p>Your chart is built around <strong>&#25991;&#28779;&#29436;&#37329;</strong> &mdash; Gentle Fire Refines Metal. Not a blast furnace. A sustained, controlled heat that slowly turns raw ore into something extraordinary. Your master &#37040;&#24072;&#20064; named it exactly: <em>Step by step, one step at a time.</em></p>
+<div class="box b3"><div class="bt">The &#25098;&#30001;&#21512; Combination &mdash; "I BECAME THE DREAM"</div>
+<p>Month Stem &#25098;&#22334; (your vision / Indirect Resource) and Year Stem &#30001;&#27700; (your Expression) combine and transform into Fire: <strong>&#25098;&#30001;&#21512;&#21270;&#28779;</strong>.</p>
+<p>Fire is the force that forges Metal into its finest form. Your vision and your expression combine into the very force that shapes you. <strong>The dream your father &#26360;&#21021; carried &mdash; the one you inherited &mdash; became the fire that forged you. You didn't just achieve it. You became it.</strong></p>
+<p style="text-align:center;font-size:20px;font-weight:700;color:#b45309;margin:16px 0;">"I BECAME THE DREAM."</p>
+</div>
+<table class="dt"><thead><tr><th>Element</th><th>Role</th><th>Strength</th><th>What It Means</th></tr></thead><tbody>
+<tr><td><strong>Metal &#37329;</strong></td><td>You (Day Master)</td><td>Moderate</td><td>Tested metal with a proven edge. Strong enough to hold shape, refined enough to be useful.</td></tr>
+<tr><td><strong>Earth &#22334;</strong></td><td>Wisdom / Resource</td><td class="pos">Strong</td><td>Your knowledge base, your sense of direction. Earth generates Metal. Your wisdom generates your capabilities.</td></tr>
+<tr><td><strong>Water &#27700;</strong></td><td>Expression</td><td class="pos">Strong</td><td>Intelligence, communication, the ability to convey complex things simply. The water that polishes the forged sword.</td></tr>
+<tr><td><strong>Wood &#26408;</strong></td><td>Wealth</td><td>Moderate</td><td>Present and accessible. Wealth through long accumulation. Hidden in Hour Branch &mdash; late-life wealth is solid.</td></tr>
+<tr><td><strong>Fire &#28779;</strong></td><td>The Forge</td><td>Moderate</td><td>Gentle fire, perfectly calibrated &mdash; enough to shape, not overwhelm. The forge is part of who you are.</td></tr>
+</tbody></table>""")
+
+# SECTION 3: Character
+w("""<h1>Your Character in Full</h1>
+<span class="zh">&#24615;&#26684;&mdash;&mdash;&#34888;&#24535;&#20943;&#34892;&#65292;&#36064;&#36064;&#32780;&#34892;</span>
+<table class="dt"><thead><tr><th>Trait</th><th>How It Shows Up</th></tr></thead><tbody>
+<tr><td class="pos">The self-teacher</td><td>You've never waited for someone to hand you knowledge. You identify what you need to understand, and you go get it. Life philosophy and greatest strength, both at once.</td></tr>
+<tr><td class="pos">Why before how</td><td>"Understand why, then discover how." You need to understand the root before you'll trust the method. This is how you approach everything: cooking, accounting, business, family, feng shui.</td></tr>
+<tr><td class="pos">The quiet patriarch</td><td>You don't lead loudly. You lead by example, by standard. People rise to meet you &mdash; often without a word being said.</td></tr>
+<tr><td class="pos">Generational vision</td><td>What you've built, taught your children, preserved of your family's story &mdash; these are the acts of someone who knows they are part of a longer chain.</td></tr>
+<tr><td class="pos">Earned wisdom, worn lightly</td><td>You've lived enough to know what matters. And you don't need everyone to know that you know.</td></tr>
+<tr><td class="neg">&#23376;&#21320; tension</td><td>The internal pull between stillness and motion has been your engine across oceans and through every season. It never fully resolves &mdash; and it never lets you stagnate.</td></tr>
+</tbody></table>
+<div class="quote">"This world has no free lunch. If you want answers, you have to go find them yourself."<br><span style="font-size:13px;color:#9ca3af;">&mdash; Ken Tam</span></div>""")
+
+# SECTION 4: Wealth
+w("""<h1>Wealth &amp; Money</h1>
+<span class="zh">&#36001;&#36939;&mdash;&mdash;&#31526;&#37329;&#25020;&#36830;&#65292;&#26085;&#31215;&#26376;&#32004;</span>
+<table class="dt"><thead><tr><th>Wealth Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>How you earn</strong></td><td>Through expertise, reliability, and long-term relationships. Your knowledge converts directly into financial value. People pay for what you know and trust how you apply it.</td></tr>
+<tr><td><strong>&#20057;&#24218;&#21512; combine</strong></td><td>Your Wealth Star (&#20057;&#26408;) has a natural affinity with your Day Master (&#24218;&#37329;). Wealth seeks you &mdash; through earned trust and genuine relationship, not force.</td></tr>
+<tr><td><strong>Late-life wealth</strong></td><td>Hour Branch (&#36791;) hides &#20057;&#26408; Wealth Star. In BaZi, Hour Pillar wealth means financial security in later life. What you've built compounds. Your most stable financial years are now and ahead.</td></tr>
+<tr><td class="now"><strong>Now (2020&ndash;2030) &#9733;</strong></td><td class="now">&#22764;&#23376; Grand Cycle: Food God / Expression. Wealth flows through wisdom and experience. This is the harvest decade &#37040;&#24072;&#20064; foresaw. Receive it.</td></tr>
+<tr><td><strong>2026</strong></td><td>&#20805;&#21320; Year: Seven Killings present. External pressure. Manage carefully, avoid overcommitting. Let it refine, not exhaust.</td></tr>
+<tr><td><strong>2027</strong></td><td>&#19969;&#26410; Year: Smoother. &#26410;&#22334; Indirect Resource protects. &#20057;&#26408; Wealth Star activates quietly. Good year for patient financial decisions.</td></tr>
+</tbody></table>""")
+
+# SECTION 5: Love
+w("""<h1>Love &amp; Marriage</h1>
+<span class="zh">&#24863;&#24773;&#23130;&#23035;&mdash;&mdash;&#19969;&#24218;&#26377;&#24773;&#65292;&#30003;&#25509;&#29508;&#28201;</span>
+<div class="box b3"><div class="bt">Ken &amp; Mabel &mdash; &#19969;&#24218;&#26377;&#24773;</div>
+<p>Mabel's Day Master is &#19969;&#28779; (Yin Fire). Yours is &#24218;&#37329; (Yang Metal). &#19969;&#24218;&#26377;&#24373; is one of the most celebrated pairings in classical BaZi.</p>
+<p>&#19969;&#28779; (Mabel) is your &#27491;&#21360; &mdash; Correct Wisdom Star. She is the element that generates you, warms you, gives the metal its humanity. And &#24218;&#37329; (you) provides the structure that gives her flame a safe place to burn.</p>
+<p>Your Day Pillar (&#24218;&#23376;) is identical to Mabel's Month and Hour Pillars. You share the same core energy &mdash; a depth of understanding between you that needs no words.</p>
+</div>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>What she gives you</strong></td><td>Mabel (&#19969;&#28779;) is your Wisdom Star &mdash; the warmth that gives the metal its humanity. Without her, the sword is technically perfect but cold.</td></tr>
+<tr><td><strong>What you give her</strong></td><td>Structure, reliability, protection. You are the lamp that holds her flame safe from the wind. This made everything possible for her.</td></tr>
+<tr><td><strong>Day Palace (&#23376;)</strong></td><td>&#23376;&#27700; is your Expression Star &mdash; marriage is where your intelligence and warmth come alive most naturally. She brings out the part of you that thinks and speaks most freely.</td></tr>
+</tbody></table>""")
+
+# SECTION 6: Children
+w("""<h1>Children</h1>
+<span class="zh">&#23376;&#22899;&mdash;&mdash;&#20491;&#20491;&#37117;&#26159;&#24744;&#30340;&#39746;</span>
+<div class="fgrid">
+<div class="fc fcv"><div class="fct">Vanessa &#35885;&#31243;&#29467; &mdash; &#20805;&#28779; The Sun</div>
+Her Day Master is Yang Fire &mdash; the element that forges you. Your structural role in her chart: you generate Water, Water generates Wood, Wood feeds her Fire. You are the source of the Wisdom Star her chart needs most. &#37040;&#24072;&#20064; said it decades ago: <em>"You are her shade tree."</em> The analysis confirms it independently.
+</div>
+<div class="fc fcp"><div class="fct">Preston &#35885;&#31274;&#26690; &mdash; &#25098;&#22334; The Mountain</div>
+His Day Master is Yang Earth &mdash; the element that generates you. The white socks at age six: your metal speaking through his mountain. His principles, his standards, his refusal to compromise &mdash; he learned what it looks like to hold a line by watching you hold yours.
+</div>
+</div>
+<div class="box b1"><div class="bt">Your Role in the Family</div>
+<p>In the BaZi of your family, you are the axis. Mabel's protection, Vanessa's guiding wisdom, Preston's direction &mdash; all flow structurally through you. Not because you demand it. Because your chart is built to be the source. The shade tree doesn't ask to be the shade tree. It simply grows, and everything else benefits.</p>
+</div>""")
+
+# SECTION 7: Career
+w("""<h1>Career &amp; Vocation</h1>
+<span class="zh">&#20107;&#26989;&mdash;&mdash;&#20197;&#30693;&#35843;&#36027;&#65292;&#19968;&#27493;&#19968;&#27493;&#21462;&#24471;</span>
+<div class="box b0"><div class="bt">The Long Game</div>
+<p>You were never built for overnight success. You were built for something that lasts. Indirect Resource people build deep expertise, earn trust slowly, and accumulate capabilities that compound over decades. By the time most people are finishing, you are arriving &mdash; with everything you built still standing.</p>
+</div>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Natural domain</strong></td><td>Any field where knowledge, trust, and accumulated expertise are the real currency. Whatever you commit to mastering, you master at root level.</td></tr>
+<tr><td><strong>Your edge</strong></td><td>Self-taught depth. You understand the roots of things &mdash; why they work, not just how. That is worth more than most credentials.</td></tr>
+<tr><td><strong>Leadership style</strong></td><td>You set the standard by living it. People see how you operate and rise to match it.</td></tr>
+<tr><td class="now"><strong>Now (2020&ndash;2030) &#9733;</strong></td><td class="now">&#22764;&#23376; Grand Cycle: The water that polishes the sword after the forge is complete. Harvest decade. Share the wisdom. Pass the knowledge forward. Enjoy the life you built.</td></tr>
+<tr><td><strong>2030&ndash;2040</strong></td><td>&#36758;&#20165; Grand Cycle: The elder statesman phase. Your counsel carries weight. Your presence is sought because of what you've been through.</td></tr>
+</tbody></table>""")
+
+# SECTION 8: Health
+w("""<h1>Health &amp; Well-being</h1>
+<span class="zh">&#20581;&#24247;&mdash;&mdash;&#27161;&#30041;&#32993;&#32006;&#65292;&#36319;&#24615;&#28979;&#21046;</span>
+<p>Yang Metal governs the <strong>lungs, large intestine, skin, and bones</strong>. With Fire present in your chart and active in 2026, these areas deserve consistent attention.</p>
+<table class="dt"><thead><tr><th>Area</th><th>Guidance</th></tr></thead><tbody>
+<tr><td><strong>Lungs &amp; respiratory</strong></td><td>Metal's primary organs. Fire-heavy years (2026) &mdash; build genuine rest into your weeks. Not just sleep &mdash; genuine downtime that restores.</td></tr>
+<tr><td><strong>&#23376;&#21320; Clash</strong></td><td>This internal tension has been your engine. But an engine that never rests burns out. The current Grand Cycle invites you to let the sword cool, be polished, and be appreciated.</td></tr>
+<tr><td><strong>Rest as wisdom</strong></td><td>You know that maintenance keeps the blade sharp. Apply that knowledge to yourself. You've earned the right to ease off the forge.</td></tr>
+</tbody></table>
+<div class="box b1"><div class="bt">Your Blessings</div>
+<p>You carry one of the most distinguished charts in this family &mdash; and one of the most honest. Your life is written in your chart with unusual accuracy: the refinement by fire, the self-teaching, the long climb, the harvest. The sword that was forged in fire is now sharp, seasoned, and respected. This is what &#25991;&#28779;&#29436;&#37329; looks like when it is complete.</p>
+</div>""")
+
+# SECTION 9: Property
+w("""<h1>Home &amp; Property</h1>
+<span class="zh">&#30000;&#23429;&mdash;&mdash;&#28191;&#24049;&#20006;&#23384;&#65292;&#20116;&#34892;&#24481;&#29246;</span>
+<table class="dt"><thead><tr><th>Factor</th><th>Reading</th></tr></thead><tbody>
+<tr><td><strong>Dragon Palace (&#36791;)</strong></td><td>Your Hour Branch is &#36791; (Dragon) &mdash; complex earth that holds hidden Wealth (&#20057;&#26408;) and Wisdom (&#25098;&#22334;). Your home and later-life assets are deeper and richer than they appear on the surface.</td></tr>
+<tr><td><strong>Earth strong</strong></td><td>Earth governs land and property. With Earth (your Resource) strong in your chart, you have a natural instinct for what makes a property valuable &mdash; energetically and financially.</td></tr>
+<tr><td><strong>Strategy</strong></td><td>Long-term hold. Your chart rewards patient accumulation. What you've acquired and held has always outperformed what you tried to rush.</td></tr>
+<tr><td><strong>Family feng shui</strong></td><td>Your deep knowledge of &#23429;&#22320;&#39746;&#31295; is itself a form of property and family intelligence &mdash; a gift passed to your children and their children.</td></tr>
+</tbody></table>""")
+
+# SECTION 10: Life Journey
+w("""<h1>Your Life Journey &mdash; Grand Cycles</h1>
+<span class="zh">&#19968;&#29983;&#22823;&#36939;&mdash;&mdash;&#24218;&#37329;&#30340;&#34349;&#31243;</span>
+<p>BaZi maps life in 10-year Grand Cycles. Each decade carries a different energy. Here is the arc of your extraordinary life:</p>
+<div class="tl"><div class="ty">Ages 0&ndash;7<br>(1963&ndash;70)</div><div class="tg"></div><div class="td"><strong>The ore is found.</strong> Born in Hong Kong. The earliest years were the beginning of a story that would cross continents and generations.</div></div>
+<div class="tl"><div class="ty">Ages 7&ndash;17<br>(1970&ndash;80)</div><div class="tg">&#19969;&#24049;</div><div class="td"><strong>The forge begins.</strong> &#19969;&#28779; Seven Killings + &#24049;&#28779; &mdash; intense heat. Pressure, early responsibility, learning to stand on your own ground. Early lesson: if you want it, you go get it yourself.</div></div>
+<div class="tl"><div class="ty">Ages 17&ndash;27<br>(1980&ndash;90)</div><div class="tg">&#20805;&#36791;</div><div class="ty">Ages 17&ndash;27<br>(1980&ndash;90)</div><div class="tg">&#20805;&#36791;</div><div class="td"><strong>The hardest forge.</strong> &#20805;&#28779; Seven Killings (strongest) + &#36791;&#22334; Resource protects. Immigration. New country. Building from zero. This decade tested the metal most severely &mdash; and proved what it was made of. <em>&#25991;&#28779;&#29436;&#37329;</em> lived in real life.</div></div>
+<div class="tl"><div class="ty">Ages 27&ndash;37<br>(1990&ndash;2000)</div><div class="tg">&#20057;&#21345;</div><div class="td"><strong>Financial awakening.</strong> &#20057;&#26408; Correct Wealth + &#21345;&#26408; Wealth ground. &#20057;&#24218;&#21512;: Wealth combines with Day Master. The decade you planted the roots of your financial life in America. Business established. Family grounded.</div></div>
+<div class="tl"><div class="ty">Ages 37&ndash;47<br>(2000&ndash;10)</div><div class="tg">&#30002;&#23493;</div><div class="td"><strong>Building the legacy.</strong> &#30002;&#26408; Correct Wealth + &#23493;&#26408; Wealth ground with hidden Fire. Financial and family peak of effort. Children growing. The sword being sharpened to its finest edge.</div></div>
+<div class="tl"><div class="ty">Ages 47&ndash;57<br>(2010&ndash;20)</div><div class="tg">&#30001;&#19985;</div><div class="td"><strong>The wisdom decade.</strong> &#30001;&#27700; Expression (same as Year Stem) + &#19985;&#22334; Correct Resource. Your most intellectually fertile decade. Accumulated experience turning into genuine wisdom. The water polishing the sword. Thinking deepest, seeing clearest.</div></div>
+<div class="tl tn"><div class="ty">Ages 57&ndash;67<br>(2020&ndash;30) &#9733; NOW</div><div class="tg">&#22764;&#23376;</div><div class="td"><strong>The harvest.</strong> &#22764;&#27700; Food God + &#23376;&#27700; Food God ground &mdash; your own Day Pillar energy running as the Grand Cycle. Water washes and polishes the sword that fire forged. <strong>This is the decade &#37040;&#24072;&#20064; foresaw: rest, receive, share, enjoy. The forge is behind you. The polish is now.</strong></div></div>
+<div class="tl"><div class="ty">Ages 67&ndash;77<br>(2030&ndash;40)</div><div class="tg">&#36758;&#20165;</div><div class="td"><strong>The elder statesman.</strong> &#36758;&#37329; Companion Metal + &#20165;&#27700; Expression. Your counsel is sought. Your presence carries weight. The wisdom of the long road is what people come to you for.</div></div>
+<div class="tl"><div class="ty">Ages 77&ndash;87<br>(2040&ndash;50)</div><div class="tg">&#24218;&#25106;</div><div class="td"><strong>The deep roots.</strong> &#24218;&#37329; Companion (your element) + &#25106;&#22334; Resource / Wisdom. The mountain in its most serene form. Stability, warmth, the deep satisfaction of a life fully lived.</div></div>""")
+
+# SECTION 11: 2026-2027
+w("""<h1>2026&ndash;2027 Spotlight</h1>
+<span class="zh">&#26410;&#20358;&#20004;&#24180;&mdash;&mdash;&#38899;&#20250;&#32034;&#29289;&#65292;&#27491;&#21360;&#25252;&#36523;</span>
+<div class="box b2"><div class="bt">2026 (&#20805;&#21320; &mdash; Year of the Fire Horse) &mdash; The Active Forge</div>
+<p>&#20805;&#28779; Seven Killings arrives &mdash; the same energy as your hardest Grand Cycle (1980&ndash;90), but you are now a seasoned sword, not raw ore. External challenges and responsibilities will arrive. <strong>Meet the year with strategy, not reactivity. Manage your energy carefully.</strong> Health: pay attention to lungs and blood pressure. The forge is hot &mdash; let it refine, not exhaust.</p>
+</div>
+<div class="box b1"><div class="bt">2027 (&#19969;&#26410; &mdash; Year of the Fire Goat) &mdash; The Wisdom Shield</div>
+<p>&#19969;&#28779; Seven Killings (gentler) + &#26410;&#22334; Indirect Resource protects your Day Master directly. Hidden &#20057;&#26408; Wealth Star in &#26410; activates quietly. <strong>2027 is your year for decisions that require patience and wisdom &mdash; they will land well. The shield is up. Move forward thoughtfully.</strong></p>
+</div>
+<div class="quote">"This world has no free lunch. If you want answers, you have to go find them yourself."<br><span style="font-size:13px;color:#9ca3af;">&mdash; Ken Tam, who lived exactly this.</span></div>
+<div class="clos">
+<p><strong>About This Reading:</strong> Based on the Four Pillars of Destiny (&#23376;&#24179;&#20843;&#23383; BaZi), using the master system of &#37040;&#20530;&#38596;&#24072;&#20064; &mdash; your master, whose words are woven throughout this analysis.</p>
+<p><strong>Prepared by:</strong> Sisi (&#35443;&#35443;) &middot; March 2026 &middot; <em>For the man who became the dream. With deep respect.</em></p>
+</div>
+</div></div></body></html>""")
+
+f.close()
+
+import os, shutil
+os.makedirs('/workspace/ken_en_dist', exist_ok=True)
+shutil.copy('/workspace/ken_bazi_web.html', '/workspace/ken_en_dist/index.html')
+
+html = open('/workspace/ken_bazi_web.html', encoding='utf-8').read()
+print(f"Total: {len(html)} chars, H1s: {html.count('<h1>')}, Closed: {'</html>' in html}")

@@ -1,0 +1,77 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 142.251.111.95:443...
+* Connected to gmail.googleapis.com (142.251.111.95) port 443 (#0)
+* ALPN: offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [15 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [4209 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [79 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=upload.video.google.com
+*  start date: Feb  2 08:38:01 2026 GMT
+*  expire date: Apr 27 08:38:00 2026 GMT
+*  subjectAltName: host "gmail.googleapis.com" matched cert's "*.googleapis.com"
+*  issuer: C=US; O=Google Trust Services; CN=WR2
+*  SSL certificate verify ok.
+} [5 bytes data]
+* using HTTP/2
+* h2h3 [:method: GET]
+* h2h3 [:path: /gmail/v1/users/me/messages?q=from:travis@excel-plumbing.com+OR+from:vanessa@excel-plumbing.com+after:2026/03/01&maxResults=10]
+* h2h3 [:scheme: https]
+* h2h3 [:authority: gmail.googleapis.com]
+* h2h3 [user-agent: curl/7.88.1]
+* h2h3 [accept: */*]
+* h2h3 [authorization: Bearer ya29.a0ATkoCc4tvIOre2pVOdYa5xkGtFBPgutd9D9DCYjnqSFERSLlbkiHQ2icFz_gfhXF2IcEyEr02Q8_fumKjFxiXz9w6val0yUGMHH6eJwr-oYyTssUWCuoNB-C2BEgJu3DPg7WGTXGtdX6PfSYyL_qr3FPX3gHCCw9KNU94auMCYrPZXFUK9lpR6vcAyXg56J17hXb0xwaCgYKAWESARQSFQHGX2MiCGkYjjzZLQNhVCZL-RaQaw0206]
+* Using Stream ID: 1 (easy handle 0x55ce104ad7a0)
+} [5 bytes data]
+> GET /gmail/v1/users/me/messages?q=from:travis@excel-plumbing.com+OR+from:vanessa@excel-plumbing.com+after:2026/03/01&maxResults=10 HTTP/2
+> Host: gmail.googleapis.com
+> user-agent: curl/7.88.1
+> accept: */*
+> authorization: Bearer ya29.a0ATkoCc4tvIOre2pVOdYa5xkGtFBPgutd9D9DCYjnqSFERSLlbkiHQ2icFz_gfhXF2IcEyEr02Q8_fumKjFxiXz9w6val0yUGMHH6eJwr-oYyTssUWCuoNB-C2BEgJu3DPg7WGTXGtdX6PfSYyL_qr3FPX3gHCCw9KNU94auMCYrPZXFUK9lpR6vcAyXg56J17hXb0xwaCgYKAWESARQSFQHGX2MiCGkYjjzZLQNhVCZL-RaQaw0206
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [282 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [282 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+< HTTP/2 200 
+< content-type: application/json; charset=UTF-8
+< vary: X-Origin
+< vary: Referer
+< vary: Origin,Accept-Encoding
+< date: Tue, 17 Mar 2026 21:11:01 GMT
+< server: ESF
+< x-xss-protection: 0
+< x-frame-options: SAMEORIGIN
+< x-content-type-options: nosniff
+< alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+< accept-ranges: none
+< 
+{ [5 bytes data]
+100    30    0    30    0     0    203      0 --:--:-- --:--:-- --:--:--   204
+* Connection #0 to host gmail.googleapis.com left intact
+{
+  "resultSizeEstimate": 0
+}
